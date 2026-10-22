@@ -1,0 +1,1052 @@
+[
+  {
+    "subject": "Computer Science",
+    "topic": "Programming Paradigms",
+    "difficulty": "Easy",
+    "question": "What are the two main programming approaches or paradigms primarily concerned in the document's comparison?",
+    "answer": "The document primarily concerns itself with two broad programming approaches or paradigms: Procedure-oriented paradigm and Object-oriented paradigm.",
+    "source_chunk": 1,
+    "type": "subjective",
+    "question_number": 1
+  },
+  {
+    "subject": "OOP",
+    "topic": "Core OOP Concepts",
+    "difficulty": "Easy",
+    "question": "According to the provided text, what is the definition of 'Data Encapsulation'?",
+    "answer": "Data Encapsulation is defined as 'The wrapping up of data and functions into a single unit (class)'. The text also notes that this is the most striking feature of a class, where data is not accessible to the outside world, and only functions wrapped in the class can access it, which is called data hiding.",
+    "source_chunk": 1,
+    "type": "subjective",
+    "question_number": 2
+  },
+  {
+    "subject": "OOP",
+    "topic": "Core OOP Concepts",
+    "difficulty": "Medium",
+    "question": "List and briefly describe any three of the eight essential concepts that characterize an object-oriented programming approach.",
+    "answer": "Three essential concepts characterizing an object-oriented programming approach are:\n1.  **Objects:** These are the basic run-time entities in an object-oriented system, representing real-world items or user-defined data. They occupy memory, keeping their state and being operated on by defined operations.\n2.  **Classes:** A class represents a set of related objects and defines their attributes. It acts as a user-defined data type encompassing the entire set of data and code of an object.\n3.  **Data Abstraction:** This refers to the act of representing essential features without including background details or explanations. Classes utilize data abstraction and are thus known as Abstract Data Types (ADT).",
+    "source_chunk": 1,
+    "type": "subjective",
+    "question_number": 3
+  },
+  {
+    "subject": "OOP",
+    "topic": "Inheritance and Reusability",
+    "difficulty": "Medium",
+    "question": "How does inheritance provide the idea of reusability in Object-Oriented Programming?",
+    "answer": "Inheritance provides the idea of reusability by allowing objects of one class to acquire the properties of objects of another class. This means additional features can be added to an existing class without modifying it. This is achieved by deriving a new class from the existing one, which then possesses the combined features of both classes, with the new class defining only those features unique to it, thus reducing redundant code.",
+    "source_chunk": 1,
+    "type": "subjective",
+    "question_number": 4
+  },
+  {
+    "subject": "OOP",
+    "topic": "OOP Language Classification",
+    "difficulty": "Hard",
+    "question": "Differentiate between 'Object-based programming languages' and 'Object-oriented programming languages' based on their defining features and provide an example for each category as mentioned in the text.",
+    "answer": "According to the text:\n**Object-based programming languages** are those that support programming with objects, incorporating features like data encapsulation, data hiding and access mechanisms, automatic initialization and clean-up of objects, and operator overloading. However, they *do not support inheritance and dynamic binding*. ADA is provided as a typical example.\n**Object-oriented programming languages** incorporate all the features of object-based programming, *along with two additional features: inheritance and dynamic binding*. Languages like C++, Smalltalk, and Java are listed as examples that support these features.",
+    "source_chunk": 1,
+    "type": "subjective",
+    "question_number": 5
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Software Evolution / Software Crisis",
+    "difficulty": "Medium",
+    "question": "What primary issue with existing code led to the 'software crisis' and the subsequent necessity for new programming approaches like OOP?",
+    "answer": "The primary issue that led to the 'software crisis' was the inability to reuse the millions of lines of code that had already been designed and implemented. Programmers were constantly busy creating similar things repeatedly, writing the same or similar codes in each new project. This lack of reusability contributed to projects failing, experiencing schedule and cost overruns, and highlighted the need for new approaches that would enhance code reusability.",
+    "source_chunk": 1,
+    "type": "subjective",
+    "question_number": 6
+  },
+  {
+    "subject": "OOP",
+    "topic": "History of OOP",
+    "difficulty": "Easy",
+    "question": "Which programming language is mentioned in the document as the 'first object-oriented programming language'?",
+    "answer": "The document states that Simula was the first object-oriented programming language.",
+    "source_chunk": 1,
+    "type": "subjective",
+    "question_number": 7
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "C++ Tokens",
+    "difficulty": "Easy",
+    "question": "What are the five categories of tokens recognized by C++?",
+    "answer": "C++ recognizes the following five categories of tokens: Keywords, Identifiers, Constants, Strings, and Operators. These are the smallest individual units in a C++ program, typically separated by 'white space'.",
+    "source_chunk": 2,
+    "type": "subjective",
+    "question_number": 8
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "C++ Operators",
+    "difficulty": "Easy",
+    "question": "List the five arithmetic operators available in C++ and describe the function of the modulus operator.",
+    "answer": "The five arithmetic operators in C++ are addition (+), subtraction (-), multiplication (*), division (/), and remainder after integer division (%). The modulus operator (%), often referred to as the remainder operator, requires both operands to be integers and the second operand to be non-zero. It returns the remainder of an integer division.",
+    "source_chunk": 2,
+    "type": "subjective",
+    "question_number": 9
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "C++ Identifiers",
+    "difficulty": "Medium",
+    "question": "What are the common rules for naming identifiers in C++? How does C++'s approach to identifier length differ from ANSI C?",
+    "answer": "The common rules for naming identifiers in C++ are: only alphabetic characters, digits, and underscores are permitted; the name cannot start with a digit; uppercase and lowercase letters are distinct; and a declared keyword cannot be used as a variable name. A major difference between C++ and ANSI C is the limit on the length of a name. While ANSI C recognizes only the first 32 characters in a name, C++ places no limit on its length, making all characters in an identifier significant.",
+    "source_chunk": 2,
+    "type": "subjective",
+    "question_number": 10
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "C++ Unary Operators",
+    "difficulty": "Medium",
+    "question": "Explain the difference in behavior between the prefix and postfix forms of the increment operator (++) in C++.",
+    "answer": "The increment operator (++) increases the value of its operand by one. In its prefix form (e.g., `++var`), the variable's value is incremented first, and then the new, incremented value is used in the expression. For example, if `var1 = 20; var2 = ++var1;` then both `var1` and `var2` will store 21. In its postfix form (e.g., `var++`), the variable's original value is used in the expression first, and only then is the variable incremented. For example, if `var1 = 20; var2 = var1++;` then `var2` will be 20, and `var1` will be 21.",
+    "source_chunk": 2,
+    "type": "subjective",
+    "question_number": 11
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "C++ Control Structures",
+    "difficulty": "Medium",
+    "question": "Describe the primary purpose of the `if-else` construct in C++ and highlight the crucial distinction between the assignment operator (`=`) and the equality operator (`==`) when used within an `if` condition.",
+    "answer": "The `if-else` construct in C++ is used to carry out a logical test and then execute one of two possible actions based on the outcome (true or false). It enables conditional branching in a program. It is crucial to distinguish between the assignment operator (`=`) and the equality operator (`==`) within an `if` condition. The assignment operator (`=`) assigns the value on its right to the variable on its left, and the result of this operation (the assigned value) is then evaluated as the condition (non-zero being true). The equality operator (`==`), on the other hand, compares two operands to determine if they are equal, returning a Boolean true or false, which is then used for the conditional test. Using `=` instead of `==` in an `if` condition can lead to unintended logic errors.",
+    "source_chunk": 2,
+    "type": "subjective",
+    "question_number": 12
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "C++ Logical Operators",
+    "difficulty": "Hard",
+    "question": "Explain the concept of 'short-circuit logical operators' (`&&` and `||`) in C++. How do they optimize evaluation compared to simple bit-wise operators (`&` and `|`)?",
+    "answer": "Short-circuit logical operators (`&&` for logical AND, `||` for logical OR) are used to combine Boolean expressions. Their defining characteristic is that they do not always evaluate both operands. For `&&`, if the first condition evaluates to `false`, the entire expression will be `false` regardless of the second condition, so the second condition is not evaluated (short-circuited). For `||`, if the first condition evaluates to `true`, the entire expression will be `true` regardless of the second condition, so the second condition is also not evaluated. This optimizes evaluation by skipping unnecessary computations. In contrast, bit-wise operators (`&` and `|`) always evaluate both of their operands, performing the bit-wise operation across all bits, even if the overall result could be determined from the first operand alone.",
+    "source_chunk": 2,
+    "type": "subjective",
+    "question_number": 13
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "C++ Type Conversion",
+    "difficulty": "Hard",
+    "question": "Detail the type conversion rules that apply in C++ arithmetic operations when operands are of different data types and neither operand is unsigned. Provide at least two distinct rules.",
+    "answer": "When arithmetic operations involve operands of different data types (and neither is unsigned), C++ applies specific type conversion rules to ensure the result is expressed in the highest possible precision:\n1. If both operands are floating-point types of different precisions (e.g., `float` and `double`), the lower-precision operand will be converted to the precision of the other operand, and the result will be expressed in this higher precision (e.g., `float` + `double` results in a `double`).\n2. If one operand is a floating-point type (e.g., `float`, `double`, or `long double`) and the other is an integer type (e.g., `char`, `int`, `short int`, or `long int`), the integer type will be converted to the floating-point type, and the result will be expressed as such (e.g., `int` + `double` results in a `double`).\n3. If neither operand is a floating-point type but one is `long int`, the other operand will be converted to `long int`, and the result will also be `long int` (e.g., `long int` + `int` results in a `long int`).\n4. If none of the above apply, both operands will be converted to `int` (if necessary, e.g., `short int`), and the result will be `int`.",
+    "source_chunk": 2,
+    "type": "subjective",
+    "question_number": 14
+  },
+  {
+    "subject": "OOP",
+    "topic": "Looping - while statement",
+    "difficulty": "Easy",
+    "question": "What is the general form of the `while` statement in C++?",
+    "answer": "The general form of the `while` statement is `while (expression) statement;`. The `statement` will be executed repeatedly as long as the `expression` evaluates to true (i.e., has a nonzero value).",
+    "source_chunk": 3,
+    "type": "subjective",
+    "question_number": 15
+  },
+  {
+    "subject": "OOP",
+    "topic": "Looping - break statement",
+    "difficulty": "Easy",
+    "question": "What is the primary function of the `break` statement when used inside a `while` loop?",
+    "answer": "The `break` statement causes the program flow to immediately exit the body of the `while` loop. Control transfers to the statement immediately following the loop.",
+    "source_chunk": 3,
+    "type": "subjective",
+    "question_number": 16
+  },
+  {
+    "subject": "OOP",
+    "topic": "Looping - do-while statement",
+    "difficulty": "Medium",
+    "question": "What is a key difference in execution guarantee between a `while` loop and a `do-while` loop?",
+    "answer": "The `do-while` loop is guaranteed to execute its statement body at least once, because the condition for repetition is tested at the end of the first pass through the loop. In contrast, a `while` loop tests its condition at the beginning, meaning if the condition is initially false, the loop body might not execute even once.",
+    "source_chunk": 3,
+    "type": "subjective",
+    "question_number": 17
+  },
+  {
+    "subject": "OOP",
+    "topic": "Scope Resolution Operator",
+    "difficulty": "Medium",
+    "question": "Explain the primary purpose of the scope resolution operator (`::`) in C++ with respect to variable declarations.",
+    "answer": "The scope resolution operator (`::`) in C++ is used to qualify hidden names. Its primary purpose is to access a global version of a variable when a local variable with the same name is in scope, effectively 'uncovering' the hidden global variable that would otherwise be shadowed by the local one.",
+    "source_chunk": 3,
+    "type": "subjective",
+    "question_number": 18
+  },
+  {
+    "subject": "OOP",
+    "topic": "Memory Management Operators",
+    "difficulty": "Medium",
+    "question": "List two advantages of using C++'s `new` and `delete` operators for memory management compared to C's `malloc()` and `free()` functions.",
+    "answer": "Two advantages of `new` and `delete` over `malloc()` and `free()` are:\n1.  `new` automatically computes the size of the data objects, removing the need for `sizeof`.\n2.  `new` automatically returns the correct pointer type, eliminating the necessity for explicit type casting.\n(Additionally, `new` allows initialization of objects while allocating memory, and both `new` and `delete` can be overloaded).",
+    "source_chunk": 3,
+    "type": "subjective",
+    "question_number": 19
+  },
+  {
+    "subject": "OOP",
+    "topic": "Declaration of Variables",
+    "difficulty": "Hard",
+    "question": "Describe the key difference in variable declaration rules between C and C++, focusing on placement. What are the advantages and the mentioned disadvantage of the C++ approach?",
+    "answer": "In C, all variables must be declared at the beginning of a scope. C++, however, permits the declaration of a variable anywhere within its scope, often right at the point of its first use.\n\n**Advantages of C++'s approach:**\n1.  It makes programs much easier to write and reduces errors by avoiding the need to scan back and forth to find declarations.\n2.  It makes programs easier to understand because variables are declared in the context of their use.\n\n**Disadvantage of C++'s approach:**\n1.  The only disadvantage mentioned is that one cannot see all the variables used in a scope at a glance.",
+    "source_chunk": 3,
+    "type": "subjective",
+    "question_number": 20
+  },
+  {
+    "subject": "OOP",
+    "topic": "Reference Variables",
+    "difficulty": "Hard",
+    "question": "What is a reference variable in C++? How is it declared and initialized, and what is a major application of reference variables mentioned in the text?",
+    "answer": "A reference variable in C++ provides an alias (an alternative name) for a previously defined variable, meaning both names refer to the same data object in memory. It is declared by using the `&` symbol after the data type, and **must be initialized at the time of declaration**.\n\n**Declaration Example:** `float total = 100; float &sum = total;`\n\nA major application of reference variables is when passing arguments to functions (known as 'call by reference'). This mechanism permits the manipulation of original objects by reference, eliminating the copying of object parameters back and forth, which can be more efficient and allows functions to directly modify the original arguments.",
+    "source_chunk": 3,
+    "type": "subjective",
+    "question_number": 21
+  },
+  {
+    "subject": "OOP",
+    "topic": "Inline Functions",
+    "difficulty": "Easy",
+    "question": "What is the primary benefit of using an `inline` function in C++ in terms of execution?",
+    "answer": "The primary benefit of an `inline` function is that it does not have to spend time to jump to another location to execute the function and then come back, thus reducing function call overhead and potentially increasing execution speed.",
+    "source_chunk": 4,
+    "type": "subjective",
+    "question_number": 22
+  },
+  {
+    "subject": "OOP",
+    "topic": "Inline Functions",
+    "difficulty": "Medium",
+    "question": "Explain the memory overhead associated with using inline functions.",
+    "answer": "If an inline function is called 'n' times in a program, its code is copied 'n' times at each call site by the compiler. If the value of 'n' is large, this leads to significant memory overhead because the program's executable code size increases.",
+    "source_chunk": 4,
+    "type": "subjective",
+    "question_number": 23
+  },
+  {
+    "subject": "OOP",
+    "topic": "Default Arguments",
+    "difficulty": "Hard",
+    "question": "Given the C++ function prototype `void abc (int a, float b = 2.5, int c, char d = 'P');`, explain why this declaration is incorrect according to C++ rules for default arguments.",
+    "answer": "This declaration is incorrect because default arguments must be the trailing arguments in the argument list. In this prototype, `int c` is an un-defaulted argument that appears after a defaulted argument (`float b = 2.5`), which is a violation of the rule. All arguments after the first defaulted argument must also be defaulted.",
+    "source_chunk": 4,
+    "type": "subjective",
+    "question_number": 24
+  },
+  {
+    "subject": "OOP",
+    "topic": "Function Prototyping",
+    "difficulty": "Easy",
+    "question": "What is a function prototype in C++, and where are they typically placed?",
+    "answer": "A function prototype is the declaration of a function without its body. It informs the C++ compiler about the function's return type, name, and the types (and optional names) of its arguments. Function prototypes are usually written at the beginning of a program, ahead of any programmer-defined functions including `main()`.",
+    "source_chunk": 4,
+    "type": "subjective",
+    "question_number": 25
+  },
+  {
+    "subject": "OOP",
+    "topic": "Classes and Objects",
+    "difficulty": "Medium",
+    "question": "Differentiate between a class and an object in C++ in terms of their physical existence and memory occupation.",
+    "answer": "A class is a template or blueprint that specifies the structure and behavior of objects; it has no physical existence and occupies no memory. An object, on the other hand, is an instance of a class. It has physical existence and occupies memory to store its data members and execute its member functions.",
+    "source_chunk": 4,
+    "type": "subjective",
+    "question_number": 26
+  },
+  {
+    "subject": "OOP",
+    "topic": "Member Functions",
+    "difficulty": "Hard",
+    "question": "Explain the necessity of the scope resolution operator (`::`) when defining a member function *outside* its class declaration. Provide an example scenario where its omission would lead to an error.",
+    "answer": "The scope resolution operator (`::`) is necessary when defining a member function outside its class declaration to explicitly associate the function with its particular class. Without it, the compiler would treat the definition as an ordinary global function. For example, if two classes `first` and `second` both declare a member function `sum()`, defining `int sum() { return (x+y); }` globally without `first::` or `second::` would lead to a compilation error due to ambiguity (the compiler wouldn't know which class `sum` belongs to) or a redefinition conflict.",
+    "source_chunk": 4,
+    "type": "subjective",
+    "question_number": 27
+  },
+  {
+    "subject": "OOP",
+    "topic": "Static Data Members",
+    "difficulty": "Medium",
+    "question": "What is a static data member in a C++ class, and what is its primary purpose?",
+    "answer": "A static data member is a data object that is common to all objects of a class. It exists only once for the entire class, rather than each object having its own copy. Its primary purpose is to allow information to be shared among all objects of the class, effectively acting as class-scope global data, useful for tracking class-wide properties like an object count.",
+    "source_chunk": 4,
+    "type": "subjective",
+    "question_number": 28
+  },
+  {
+    "subject": "OOP",
+    "topic": "Static Member",
+    "difficulty": "Easy",
+    "question": "What is the primary characteristic of a static data member in a C++ class?",
+    "answer": "A static data member is a data object that is common to all objects of a class. It exists only once in all objects of this class, meaning there is only one copy of the static member shared by all instances of the class.",
+    "source_chunk": 5,
+    "type": "subjective",
+    "question_number": 29
+  },
+  {
+    "subject": "OOP",
+    "topic": "The Const Keyword",
+    "difficulty": "Easy",
+    "question": "What is the purpose of the `const` keyword when declaring a variable in C++?",
+    "answer": "The `const` keyword specifies that the value of the variable will not change throughout the program after its initial assignment. It prevents the programmer from modifying the variable's value, and the compiler will report an error if an attempt is made to do so.",
+    "source_chunk": 5,
+    "type": "subjective",
+    "question_number": 30
+  },
+  {
+    "subject": "OOP",
+    "topic": "Friend Functions",
+    "difficulty": "Medium",
+    "question": "Explain what a friend function is and how it relates to the concept of data hiding and encapsulation.",
+    "answer": "A friend function is a non-member function that is granted special access to a class's private and protected members, even though it is not a member of that class. It is used when external functions need to interact directly with a class's internal state. While it provides flexibility, it does reduce the level of privacy and encapsulation, as it allows a controlled 'breach' of data hiding.",
+    "source_chunk": 5,
+    "type": "subjective",
+    "question_number": 31
+  },
+  {
+    "subject": "OOP",
+    "topic": "Static Member Functions",
+    "difficulty": "Medium",
+    "question": "How do static member functions differ from regular (non-static) member functions in terms of object association and access?",
+    "answer": "A static member function is not tied to a specific object instance of the class; it is considered global to the class itself. It manipulates only static data members and does not have a `this` pointer. It can be accessed directly using the class name and the scope resolution operator (e.g., `ClassName::staticFunction()`). In contrast, a regular member function operates on a specific object, has an implicit `this` pointer, and can access both static and non-static (instance-specific) members.",
+    "source_chunk": 5,
+    "type": "subjective",
+    "question_number": 32
+  },
+  {
+    "subject": "OOP",
+    "topic": "The Class Keyword",
+    "difficulty": "Medium",
+    "question": "When defining a class using the `class` keyword, what is the default access control for its members, and how are members typically accessed from outside the class?",
+    "answer": "The default access control for members declared within a `class` is `private`. This means members are hidden from external functions by default. Members are typically accessed from outside the class by using the dot (`.`) operator on an object of that class type (e.g., `obj.memberVariable` or `obj.memberFunction()`), but only if those members have `public` access.",
+    "source_chunk": 5,
+    "type": "subjective",
+    "question_number": 33
+  },
+  {
+    "subject": "OOP",
+    "topic": "Friend Functions",
+    "difficulty": "Hard",
+    "question": "Explain the concepts of 'friendship not being inherited' and 'friendship not being transitive' in C++ with respect to classes.",
+    "answer": "Friendship in C++ is neither inherited nor transitive:\n- **Not Inherited**: If a base class `A` declares class `B` as a friend, any class `C` derived from `B` does not automatically become a friend of `A`. `C` still cannot access `A`'s private or protected members directly.\n- **Not Transitive**: If class `A` declares `B` as a friend, and `B` declares `C` as a friend, then `C` is not automatically a friend of `A`. `C` would still not have access to `A`'s private or protected members unless explicitly declared as a friend by `A`.",
+    "source_chunk": 5,
+    "type": "subjective",
+    "question_number": 34
+  },
+  {
+    "subject": "OOP",
+    "topic": "Static Member",
+    "difficulty": "Hard",
+    "question": "Describe the initialization requirements for static data members and when they are typically created in a program's lifecycle.",
+    "answer": "Static data members must be defined and initialized outside the class definition, typically in the global scope (file scope), before the `main()` function's control block begins. This explicit definition allocates storage for the static member. For example, `int MyClass::staticMember = 0;` would initialize a static integer member named `staticMember` belonging to `MyClass`. Static data members are allocated when the program starts and deallocated when the program ends, giving them static duration.",
+    "source_chunk": 5,
+    "type": "subjective",
+    "question_number": 35
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Constructors",
+    "difficulty": "Easy",
+    "question": "What is a constructor in C++ and what is its primary purpose?",
+    "answer": "A constructor in C++ is a public method that is automatically called when an object of a particular class is created. Its primary purpose is to initialize the data members of the object to meaningful values at the time of object creation, preventing them from holding garbage values.",
+    "source_chunk": 6,
+    "type": "subjective",
+    "question_number": 36
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Constructors",
+    "difficulty": "Easy",
+    "question": "List three essential characteristics of a constructor function in C++.",
+    "answer": "Three essential characteristics of a constructor function are:\n1. The name of the constructor method must be the same as the class name in which it is defined.\n2. A constructor method must be a public method.\n3. A constructor method does not return any value (not even void).",
+    "source_chunk": 6,
+    "type": "subjective",
+    "question_number": 37
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Destructors",
+    "difficulty": "Medium",
+    "question": "Explain the purpose of a destructor in C++ and describe a scenario where defining a custom destructor is crucial.",
+    "answer": "A destructor in C++ is a member method that performs cleanup operations when an object is no longer needed and is about to be destroyed, thereby freeing up memory. It is automatically called when an object goes out of scope. Defining a custom destructor is crucial if the class creates dynamic objects (e.g., using `new`). In such cases, the custom destructor must contain `delete` operations to deallocate the memory reserved for these dynamic objects, as the default destructor provided by C++ will not destroy them on its own, leading to memory leaks.",
+    "source_chunk": 6,
+    "type": "subjective",
+    "question_number": 38
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Copy Constructors",
+    "difficulty": "Medium",
+    "question": "What is a copy constructor? How is it declared and in what situations does it come into play?",
+    "answer": "A copy constructor is a special constructor that allows an object to be initialized with another object of the same class. It has a single parameter of reference type that refers to the class itself (e.g., `ClassName::ClassName(const ClassName& otherObject)`). Copy constructors come into play when:\n1. A new object is created and initialized with an existing object of the same type (e.g., `ClassName obj2 = obj1;` or `ClassName obj2(obj1);`).\n2. An object is passed by value to a function.\n3. An object is returned by value from a function.",
+    "source_chunk": 6,
+    "type": "subjective",
+    "question_number": 39
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Constructors",
+    "difficulty": "Medium",
+    "question": "Explain the concept of 'Dynamic Constructors' and their main benefit.",
+    "answer": "Dynamic constructors refer to constructors that allocate memory for objects at the time of their creation, typically using the `new` operator. The main benefit of dynamic constructors is memory efficiency: they allow for the allocation of the precise amount of memory required for each object, rather than pre-allocating a fixed (and potentially wasteful) amount. This is particularly useful for objects whose size might vary, such as strings or matrices, where memory is tailored to the data they will hold.",
+    "source_chunk": 6,
+    "type": "subjective",
+    "question_number": 40
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Constructors",
+    "difficulty": "Hard",
+    "question": "Differentiate between a default constructor and a parameterized constructor with default arguments, and describe the ambiguity that can arise if both are present in a class.",
+    "answer": "A **default constructor** is a constructor that takes no arguments (e.g., `ClassName::ClassName()`). It is invoked when an object is created without any explicit initialization (e.g., `ClassName obj;`).\n\nA **parameterized constructor with default arguments** is a constructor that takes one or more arguments, but all of them have default values (e.g., `ClassName::ClassName(int x = 0)`). This constructor can be called with no arguments, or with a subset of arguments, relying on default values for the missing ones.\n\nThe ambiguity arises when a class contains both a default constructor (no arguments) and a parameterized constructor where all arguments have default values (e.g., `ClassName::ClassName()` and `ClassName::ClassName(int x = 0)`). If a declaration like `ClassName obj;` is made, the compiler faces an ambiguity as it cannot definitively determine whether to invoke the explicit default constructor or the parameterized constructor with its default argument.",
+    "source_chunk": 6,
+    "type": "subjective",
+    "question_number": 41
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Static Members",
+    "difficulty": "Hard",
+    "question": "Describe the characteristics and invocation of a static constructor within a CLR type, and mention a key restriction regarding its access.",
+    "answer": "A static constructor in a CLR type (like a C++ class or struct) is used to initialize static data members of the type. It has several key characteristics:\n1. It is called at most once.\n2. It is invoked before the first time any static member of the type is accessed.\n3. An instance constructor will always run after a static constructor.\n4. It should typically be defined as a `private` member function, as it is only meant to be called by the common language runtime, not directly by user code.\n\nA compiler restriction is that it cannot inline a call to a constructor if the class has a static constructor. Also, for value types with a static constructor but no instance constructor, the compiler cannot inline calls to any member function, although the common language runtime might.",
+    "source_chunk": 6,
+    "type": "subjective",
+    "question_number": 42
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Operator Overloading",
+    "difficulty": "Easy",
+    "question": "What is the fundamental concept of operator overloading in C++?",
+    "answer": "Operator overloading in C++ fundamentally means attaching additional meaning and semantics to an operator. It enables an operator to exhibit more than one operation polymorphically, allowing it to work with user-defined types in addition to built-in types.",
+    "source_chunk": 7,
+    "type": "subjective",
+    "question_number": 43
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Rules for Overloading Operators",
+    "difficulty": "Medium",
+    "question": "List three operators in C++ that cannot be overloaded, and state their purpose.",
+    "answer": "According to the provided content, three operators that cannot be overloaded are:\n1.  `.` (Class member access operator)\n2.  `::` (Scope Resolution Operator)\n3.  `?:` (Conditional Operator)\nOther non-overloadable operators include `.*` (Class member access operator), `Sizeof` (Size in bytes operator), and `#` (Preprocessor Directive).",
+    "source_chunk": 7,
+    "type": "subjective",
+    "question_number": 44
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Defining Operator Overloading",
+    "difficulty": "Easy",
+    "question": "What is a primary advantage of using operator overloading for classes that represent numeric concepts, such as the `Complex` class example?",
+    "answer": "A primary advantage of operator overloading for classes like `Complex` is that it makes code more readable and natural. For example, instead of writing `Complex c = a.Add(b);`, one can use operator overloading to write `Complex c = a+b;`, which is more intuitive when dealing with numeric concepts.",
+    "source_chunk": 7,
+    "type": "subjective",
+    "question_number": 45
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Overloading Unary vs. Binary Operators",
+    "difficulty": "Medium",
+    "question": "Explain the difference in the number of arguments passed to a member function versus a friend function when overloading a unary operator and a binary operator.",
+    "answer": "For unary operators, when overloaded using a member function, they take no explicit arguments because the operand is implicitly passed as the `this` pointer. When overloaded using a friend function, they take one reference argument, which is the object of the relevant class.\nFor binary operators, when overloaded through a member function, they take one explicit argument, with the leftmost operand being the implicit `this` pointer. When overloaded through a friend function, they take two explicit arguments, representing both operands.",
+    "source_chunk": 7,
+    "type": "subjective",
+    "question_number": 46
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Limitations of Operator Overloading",
+    "difficulty": "Hard",
+    "question": "Discuss a key limitation of operator overloading regarding boolean logic operators (`&&`, `||`) and explain why this limitation exists. How does this differ from their behavior with built-in types?",
+    "answer": "A key limitation of operator overloading for boolean logic operators (`&&`, `||`) is that the short-circuiting behavior, which is default for these operators with built-in types, does not apply when they are overloaded by the programmer. For built-in types, an expression like `if(a && b && c)` would stop evaluating as soon as a `false` condition is found (e.g., if 'a' is false, 'b' and 'c' are not evaluated). However, when these operators are overloaded, they become regular function calls. This means all operands (expressions) are fully evaluated before the operator function is invoked, potentially leading to unexpected side effects or performance differences if the user expects short-circuiting.",
+    "source_chunk": 7,
+    "type": "subjective",
+    "question_number": 47
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Overloading I/O Operators",
+    "difficulty": "Medium",
+    "question": "Why are the input (`>>`) and output (`<<`) operators typically overloaded as friend functions and return a reference to `istream` or `ostream` respectively?",
+    "answer": "The input (`>>`) and output (`<<`) operators are typically overloaded as friend functions because the leftmost operand (e.g., `ostream` for `cout << obj`) is not an object of the user-defined class. If they were member functions, the class object would have to be the leftmost operand, which contradicts their natural usage (e.g., `cout` is an `ostream` object, not an object of the user-defined class). They return a reference to `istream` or `ostream` (e.g., `ostream &` for `operator<<`) to enable chaining of operations, such as `cout << a << b;`, where the returned stream object from the first operation becomes the target for the next.",
+    "source_chunk": 7,
+    "type": "subjective",
+    "question_number": 48
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "General Operator Overloading Syntax",
+    "difficulty": "Easy",
+    "question": "What is the general syntax for defining an operator overloading function in C++?",
+    "answer": "The general syntax for defining an operator overloading function in C++ is:\n`<return_type> operator <operator_being_overloaded>(<argument list>);`\nHere, `operator` is a keyword, which is preceded by the `return_type` of the operation and followed by the specific operator symbol being overloaded and its `argument list`.",
+    "source_chunk": 7,
+    "type": "subjective",
+    "question_number": 49
+  },
+  {
+    "subject": "OOP",
+    "topic": "Basic Type to Class Type Conversion",
+    "difficulty": "Easy",
+    "question": "According to the provided content, what is the role of a constructor in enabling conversion from a basic data type (like `char*` or `int`) to a class type?",
+    "answer": "A constructor can be defined to allow conversion from a basic data type to a class type. For instance, the `string::string(char* a)` constructor enables conversion from a `char*` type to a `string` object, and the `time (int t)` constructor converts an `int` representing minutes into a `time` class object with separate hours and minutes data members. This conversion can happen explicitly (e.g., `s1 = string(name1);`) or implicitly (e.g., `s2 = name2;` or `T1 = period;`).",
+    "source_chunk": 8,
+    "type": "subjective",
+    "question_number": 50
+  },
+  {
+    "subject": "OOP",
+    "topic": "Class Type to Basic Type Conversion",
+    "difficulty": "Easy",
+    "question": "What are the three essential conditions that an overloaded casting operator (conversion function) must satisfy in C++?",
+    "answer": "An overloaded casting operator function must satisfy the following three conditions:\n1.  It must be a class member.\n2.  It must not specify a return type. The return type is implicitly the conversion type.\n3.  It must not have any arguments. It is invoked by the object, and conversion values are drawn from that object.",
+    "source_chunk": 8,
+    "type": "subjective",
+    "question_number": 51
+  },
+  {
+    "subject": "OOP",
+    "topic": "Type Conversion Mechanisms",
+    "difficulty": "Medium",
+    "question": "The content snippet discusses conversion from `char*` to `string` and also `string` to `char*`. Explain the fundamental difference in the C++ mechanism (constructor vs. casting operator) used for each of these directions of conversion.",
+    "answer": "The fundamental difference lies in the mechanism and placement:\n-   **`char*` to `string` (Basic to Class Type):** This conversion is achieved using a **constructor** within the `string` class that takes a `char*` argument (e.g., `string::string(char* a)`). This constructor is invoked to build a `string` object from the `char*` variable.\n-   **`string` to `char*` (Class to Basic Type):** This conversion is achieved using an **overloaded casting operator** (conversion function) defined within the `string` class, specifically `operator char*()` (e.g., `string::operator char*() { return(str); }`). This function converts the class object (the `string`) into the basic `char*` type.",
+    "source_chunk": 8,
+    "type": "subjective",
+    "question_number": 52
+  },
+  {
+    "subject": "OOP",
+    "topic": "Class to Class Type Conversion",
+    "difficulty": "Medium",
+    "question": "When converting an object of one class type to an object of another class type (e.g., `Obj1 = Obj2;`), describe the two main C++ approaches, detailing where the conversion logic (constructor or casting operator) is typically placed.",
+    "answer": "When converting an object of a source class to an object of a destination class, C++ offers two main approaches:\n1.  **Using a single-argument constructor (Conversion Constructor):** This constructor is placed in the **destination class**. It takes an object of the source class as its single argument. For example, `stock2(stock1 p)` in the `stock2` class allows conversion from `stock1` to `stock2`.\n2.  **Using an overloaded casting operator (Conversion Function):** This operator is placed in the **source class**. It converts an object of the source class into an object of the destination class type. Its form would be `operator DestinationClassType()`, where `DestinationClassType` is the class to which the conversion is being made.",
+    "source_chunk": 8,
+    "type": "subjective",
+    "question_number": 53
+  },
+  {
+    "subject": "OOP",
+    "topic": "Practical Type Conversion Analysis",
+    "difficulty": "Hard",
+    "question": "Consider the `stock1` and `stock2` example program. Explain how the conversions are performed in the following two statements: `tot_val = i1;` and `i2 = i1;`. Identify the specific type conversion mechanism (constructor or casting operator) and the class where it is defined for each statement.",
+    "answer": "1.  **`tot_val = i1;`**:\n    *   **Conversion Direction:** Class type (`stock1`) to basic type (`float`).\n    *   **Mechanism:** This conversion is performed by an **overloaded casting operator (conversion function)** defined within the `stock1` class.\n    *   **Specific Function:** `stock1::operator float()`. This function calculates `item * price` and returns it as a `float` (which is then assigned to `tot_val`).\n2.  **`i2 = i1;`**:\n    *   **Conversion Direction:** Class type (`stock1`) to another class type (`stock2`).\n    *   **Mechanism:** This conversion is performed by a **conversion constructor** defined within the `stock2` class.\n    *   **Specific Function:** `stock2::stock2(stock1 p)`. This constructor takes a `stock1` object (`p`) as an argument and uses its data members (accessed via `p.getcode()`, `p.getitem()`, `p.getprice()`) to initialize the `code` and `val` data members of the `stock2` object `i2`.",
+    "source_chunk": 8,
+    "type": "subjective",
+    "question_number": 54
+  },
+  {
+    "subject": "OOP",
+    "topic": "Syntax of Casting Operator",
+    "difficulty": "Easy",
+    "question": "Provide the general form (syntax) of an overloaded casting operator function as described in the content snippet.",
+    "answer": "The general form (syntax) of an overloaded casting operator function, also referred to as a conversion function, is:\n```\noperator typename()\n{\n    //Program statement\n}\n```\nHere, `typename` is the target type to which the class object will be converted.",
+    "source_chunk": 8,
+    "type": "subjective",
+    "question_number": 55
+  },
+  {
+    "subject": "OOP",
+    "topic": "Limitations of Constructors for Type Conversion",
+    "difficulty": "Medium",
+    "question": "Why do constructor functions *not* support conversion from a class type to a basic type, and what specific C++ feature is used instead to achieve this kind of conversion?",
+    "answer": "Constructor functions are designed to construct an object of their own class type, typically from other types (basic or class types), by initializing its members. They operate on the creation of a new object of the class they belong to. Consequently, they do not inherently support conversion *from* an existing class object *to* a basic data type.\nTo achieve conversion from a class type to a basic type (e.g., converting a `string` object to a `char*` or a `vector` object to a `double`), C++ provides **overloaded casting operators** (also known as conversion functions). These are special member functions (e.g., `operator typename()`) that explicitly define how to convert the class object, of which they are members, into the specified `typename` (basic type).",
+    "source_chunk": 8,
+    "type": "subjective",
+    "question_number": 56
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Virtual Base Classes",
+    "difficulty": "Easy",
+    "question": "What is the primary purpose of declaring a base class as a \"virtual base class\" in C++ inheritance?",
+    "answer": "The primary purpose of declaring a base class as a \"virtual base class\" is to avoid ambiguity and duplication of inherited members in a derived class when multiple inheritance paths exist between the base class and the derived class (multipath inheritance). By making the indirect base class virtual, the C++ compiler ensures that only one copy of that class's members is inherited, regardless of how many inheritance paths exist.",
+    "source_chunk": 9,
+    "type": "subjective",
+    "question_number": 57
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Constructor Execution Order",
+    "difficulty": "Medium",
+    "question": "Describe the order in which constructors are executed in a C++ program involving a derived class that inherits from both a non-virtual base class and a virtual base class, as outlined in the content.",
+    "answer": "According to the provided content, when a derived class inherits from both a non-virtual base class and a virtual base class (e.g., `Class X: public Y, virtual public Z`), the constructors for virtual base classes are invoked first. If there are multiple virtual base classes, they are invoked in the order in which they are declared. After all virtual base class constructors have been executed, any non-virtual base class constructors are then executed. Finally, the derived class's own constructor is executed.",
+    "source_chunk": 9,
+    "type": "subjective",
+    "question_number": 58
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Function Overriding and Polymorphism",
+    "difficulty": "Easy",
+    "question": "What C++ keyword is used to enable dynamic binding (run-time polymorphism) for a member function, allowing a base class pointer to execute the derived class's function?",
+    "answer": "The C++ keyword used to enable dynamic binding (run-time polymorphism) for a member function is `virtual`. By declaring a base class function as `virtual`, C++ determines which function to use at run time based on the actual type of the object pointed to by the base pointer, rather than the type of the pointer itself.",
+    "source_chunk": 9,
+    "type": "subjective",
+    "question_number": 59
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Destructors in Inheritance",
+    "difficulty": "Medium",
+    "question": "Explain the importance of declaring destructors as `virtual` in base classes when dealing with polymorphic objects and why it is crucial for proper memory management.",
+    "answer": "Declaring destructors as `virtual` in base classes is crucial for proper memory management, especially in polymorphic scenarios where derived class objects might be deleted through a pointer to the base class. If a base class destructor is non-virtual, calling `delete` on a base class pointer that points to a derived object will only invoke the base class destructor, ignoring the derived class's destructor. This leads to incomplete destruction of the derived object and potential memory leaks. A `virtual` destructor ensures that the correct sequence of destructors (derived class destructor first, then base class destructor) is called, guaranteeing all resources are properly freed.",
+    "source_chunk": 9,
+    "type": "subjective",
+    "question_number": 60
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Hybrid and Multipath Inheritance Ambiguity",
+    "difficulty": "Hard",
+    "question": "Consider a hybrid inheritance hierarchy where a `Child` class inherits from `Parent1` and `Parent2`, and both `Parent1` and `Parent2` inherit from a common `Grandparent` class. If `Grandparent` is not declared as a virtual base class, what specific problem arises, and how does making `Grandparent` virtual solve it?",
+    "answer": "If `Grandparent` is not declared as a virtual base class in this hybrid inheritance scenario, the `Child` class will inherit the public and protected members of `Grandparent` twice\u2014once through `Parent1` and again through `Parent2`. This creates ambiguity and duplication of members within the `Child` class because there are multiple paths to the `Grandparent` sub-object. Making `Grandparent` a virtual base class (e.g., `class Parent1: virtual public Grandparent`) solves this by instructing the C++ compiler to ensure that only one copy of the `Grandparent` sub-object is included in the `Child` class, regardless of how many inheritance paths exist. This effectively removes the ambiguity and avoids member duplication.",
+    "source_chunk": 9,
+    "type": "subjective",
+    "question_number": 61
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Visibility Modes in Inheritance",
+    "difficulty": "Medium",
+    "question": "Based on the provided `Table 9.2: Execution of base Class Constructors` (which should be 'Table 9.2: Visibility of Members'), explain how the visibility of public members of a base class changes when it is privately inherited by a derived class, and what the implication is for accessing those members via derived class objects.",
+    "answer": "According to the provided Table 9.2, when a base class is privately inherited by a derived class, the 'public members' of the base class become 'private members' within the derived class. The implication is that these members, which were publicly accessible in the base class, can no longer be directly accessed by objects of the derived class using the dot operator. They effectively become inaccessible from outside the derived class, limiting their visibility to only the derived class's own member functions and friends.",
+    "source_chunk": 9,
+    "type": "subjective",
+    "question_number": 62
+  },
+  {
+    "subject": "Object-oriented Programming",
+    "topic": "Constructor Execution Order (Multiple Inheritance Code Analysis)",
+    "difficulty": "Hard",
+    "question": "Given the following C++ code snippet, predict the exact output, including constructor messages and member displays, paying close attention to the order of base classes in `Class C`'s declaration and initializer list:\n\n```cpp\nclass A {\nint a1;\npublic:\nA (int x) { a1 = x; cout << \"constructor of A\\n\"; }\nvoid display (void) { cout << \"a1 = \" << a1 << \"\\n\"; }\n};\n\nclass B {\nfloat b1;\npublic:\nB( float y) { b1 = y; cout << \" constructor of B\\n\"; }\nvoid display1 (void) { cout << \"b1 = \" <<b1 << \"\\n\"; }\n};\n\nClass C: public B, public A { // Order of base classes in declaration\nint p, q;\npublic:\nC (int a, float b, int c, int d): A(a), B(b) { // Order in initializer list\np = c;\nq = d;\ncout << \"constructor of c \\n\";\n}\nvoid display2 (void) {\ncout << \"p = \" << p << \"\\n\";\ncout << \"q = \" << q << \"\\n\";\n}\n};\n\nmain ( ) {\nc obj (10, 20.57, 40, 70);\ncout << \"\\n\";\nobj . display ( );\nobj . display1( );\nobj . display2 ( );\n}\n```",
+    "answer": "The exact output of the provided C++ code will be:\n```\n constructor of B\nconstructor of A\nconstructor of c \n\na1 = 10\nb1 = 20.57\np = 40\nq = 70\n```\n**Explanation:**\n1.  **Constructor Execution Order:** In C++ multiple inheritance, the order of base class constructor execution is determined by their appearance in the *derived class declaration*, not the initializer list. Since `Class C: public B, public A` declares `B` before `A`, `B`'s constructor will execute first, followed by `A`'s.\n2.  `c obj (10, 20.57, 40, 70);` creates an object `obj`:\n    *   `B`'s constructor `B(b)` is called with `b = 20.57`. Output: ` constructor of B`\n    *   `A`'s constructor `A(a)` is called with `a = 10`. Output: `constructor of A`\n    *   `C`'s constructor body executes, initializing `p = 40` and `q = 70`. Output: `constructor of c `\n3.  `cout << \"\\n\";` prints an empty line.\n4.  `obj.display();` calls `A::display()`, which prints `a1 = 10`.\n5.  `obj.display1();` calls `B::display1()`, which prints `b1 = 20.57`.\n6.  `obj.display2();` calls `C::display2()`, which prints `p = 40` and `q = 70`.",
+    "source_chunk": 9,
+    "type": "subjective",
+    "question_number": 63
+  },
+  {
+    "subject": "OOP",
+    "topic": "Dynamic Binding",
+    "difficulty": "Easy",
+    "question": "What is dynamic binding in C++?",
+    "answer": "Dynamic binding is the mechanism in C++ where the compiler matches a function call with the correct function definition at run time. This contrasts with static binding, which occurs at compile time, and provides greater flexibility as the specific function to be invoked is determined during program execution.",
+    "source_chunk": 10,
+    "type": "subjective",
+    "question_number": 64
+  },
+  {
+    "subject": "OOP",
+    "topic": "Virtual Functions and Polymorphism",
+    "difficulty": "Medium",
+    "question": "How do virtual functions enable run-time polymorphism in C++?",
+    "answer": "C++ implements run-time polymorphism using virtual functions. When a member function in a base class is declared with the `virtual` keyword, and a pointer to this base class points to an object of a derived class, C++ determines which specific function to execute at run time. This decision is based on the actual type of the object pointed to by the base pointer, rather than the type of the pointer itself, allowing different implementations of the virtual function to be called depending on the object's class.",
+    "source_chunk": 10,
+    "type": "subjective",
+    "question_number": 65
+  },
+  {
+    "subject": "OOP",
+    "topic": "Pure Virtual Functions",
+    "difficulty": "Easy",
+    "question": "What is the specific syntax used to declare a pure virtual function in a C++ base class?",
+    "answer": "A pure virtual function is declared within a base class by equating its declaration to zero. The syntax is `virtual void functionName() = 0;`. This indicates that the function has no body in the base class and must be implemented by any concrete derived class.",
+    "source_chunk": 10,
+    "type": "subjective",
+    "question_number": 66
+  },
+  {
+    "subject": "OOP",
+    "topic": "Abstract Classes",
+    "difficulty": "Medium",
+    "question": "What is an abstract class in C++, and what is its primary characteristic regarding direct object instantiation?",
+    "answer": "An abstract class in C++ is a class that contains at least one pure virtual function. Its primary characteristic is that it cannot be instantiated directly into an object. Abstract classes are designed to serve as base classes, providing an interface or a common blueprint that derived classes must implement.",
+    "source_chunk": 10,
+    "type": "subjective",
+    "question_number": 67
+  },
+  {
+    "subject": "OOP",
+    "topic": "Binding Mechanisms",
+    "difficulty": "Medium",
+    "question": "Explain the difference between early binding (static binding) and late binding (dynamic binding) in the context of C++ function calls, and state what mechanism enables late binding.",
+    "answer": "Early binding (static binding) occurs at compile time, where the compiler resolves a function call to a specific function definition during the compilation phase. This is typical for regular function calls and function/operator overloading. Late binding (dynamic binding), however, resolves the function call at run time, meaning the specific function to be invoked is determined during the program's execution. C++ achieves late binding primarily through the use of virtual functions, which allows the correct function to be called based on the actual object type pointed to by a base class pointer.",
+    "source_chunk": 10,
+    "type": "subjective",
+    "question_number": 68
+  },
+  {
+    "subject": "OOP",
+    "topic": "Polymorphism Definition",
+    "difficulty": "Easy",
+    "question": "Provide a general definition of polymorphism as an Object-Oriented Programming (OOP) concept.",
+    "answer": "Polymorphism, an important OOP concept, means 'the ability to take more than one form.' It describes how an operation or function can exhibit different behaviors in various instances, with the specific behavior depending on the types of data or objects involved in that operation. This allows objects with different internal structures to share the same external interface.",
+    "source_chunk": 10,
+    "type": "subjective",
+    "question_number": 69
+  },
+  {
+    "subject": "OOP",
+    "topic": "Abstract Classes",
+    "difficulty": "Hard",
+    "question": "Under what specific conditions can a subclass derived from an abstract class be directly instantiated in C++?",
+    "answer": "A subclass derived from an abstract class can only be instantiated directly if it provides implementations (overrides) for all inherited pure virtual functions. If even one pure virtual function from its abstract base class (or any intermediate abstract parent class) remains unimplemented in the derived class, then that derived class itself becomes an abstract class and cannot be directly instantiated. All pure virtual methods must have a concrete definition somewhere in its inheritance chain for a class to be instantiable.",
+    "source_chunk": 10,
+    "type": "subjective",
+    "question_number": 70
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Pointers to Functions",
+    "difficulty": "Medium",
+    "question": "In C++, when pointers are passed to a function, how does this mechanism enable the function to make changes to the actual arguments in the calling function?",
+    "answer": "When pointers are passed to a function, the addresses of the actual arguments in the calling function are copied into the formal arguments of the called function. This means that the formal arguments now hold the memory addresses of the original values. By using these formal arguments (which are pointers to the original values), the called function can directly access and modify the content of the memory area where the actual arguments are stored, thereby making changes that reflect in the calling function's variables.",
+    "source_chunk": 11,
+    "type": "subjective",
+    "question_number": 71
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Function Returning Pointers",
+    "difficulty": "Easy",
+    "question": "Is it possible for a C++ function to return a pointer? If so, what specific requirement must be met in the function's declaration or prototype?",
+    "answer": "Yes, it is possible for a C++ function to return a pointer. The specific requirement is that the function's declaration (prototype) must explicitly mention that it returns a pointer. The general form of such a prototype is `type *function-name(argument list);`, where `type` specifies the data type the pointer will point to.",
+    "source_chunk": 11,
+    "type": "subjective",
+    "question_number": 72
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Function Returning Pointers",
+    "difficulty": "Medium",
+    "question": "Why is it crucial for the compiler to know the return type of a function that returns a pointer, especially concerning pointer arithmetic?",
+    "answer": "It is crucial for the compiler to know the return type of a function returning a pointer because pointer arithmetic is relative to its base type. The compiler needs to know the type of data the pointer is pointing to in order to correctly calculate memory offsets. For instance, when incrementing a pointer (e.g., `pointer + 1`), the compiler must know the size of the data type (e.g., `int`, `float`) to move the pointer to the memory location of the next data item of that specific type.",
+    "source_chunk": 11,
+    "type": "subjective",
+    "question_number": 73
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Dynamic Memory Management",
+    "difficulty": "Medium",
+    "question": "What are the two primary C++ operators used for dynamic memory management, and how is memory allocated using the `new` operator for a single variable versus an array?",
+    "answer": "The two primary C++ operators for dynamic memory management are `new` for allocation and `delete` for deallocation. Memory is allocated using `new` in two forms:\n1. For a single variable: `ptr = new DataType (initializer);` where `ptr` is a valid pointer of `DataType`, and `initializer` is optional for initial value.\n2. For an array of elements: `ptr = new DataType [x];` where `x` is the number of elements to allocate space for.",
+    "source_chunk": 11,
+    "type": "subjective",
+    "question_number": 74
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Dynamic Memory Management",
+    "difficulty": "Medium",
+    "question": "What is the most significant difference between declaring a normal array (e.g., `int arr[5];`) and dynamically allocating memory for an array using the `new` operator (e.g., `int *ptr = new int[size];`)?",
+    "answer": "The most significant difference lies in when the size of the array is determined. For a normal array, its size must be a constant value determined at compile time, limiting its size to what is decided before program execution. In contrast, dynamic memory allocation using the `new` operator allows assigning memory during the program's execution (runtime) using any variable or constant value as its size, providing much greater flexibility to adapt to varying memory needs.",
+    "source_chunk": 11,
+    "type": "subjective",
+    "question_number": 75
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Dynamic Memory Management",
+    "difficulty": "Hard",
+    "question": "Describe the two standard methods C++ provides to check if a memory allocation request using the `new` operator was successful.",
+    "answer": "C++ provides two standard methods to check if `new` allocation was successful:\n1.  **Exception Handling:** This is the default method. If memory allocation fails, an exception of type `bad_alloc` is thrown. If this exception is not handled by a specific `catch` block, the program execution is terminated.\n2.  **Nothrow Method:** This method is specified by using `(nothrow)` as an argument with `new` (e.g., `pointer = new (nothrow) type [number_of_elements];`). When allocation fails, `new` returns a null pointer (`0`) instead of throwing an exception or terminating the program. The program then continues execution, and the developer must explicitly check the returned pointer's value to detect failure.",
+    "source_chunk": 11,
+    "type": "subjective",
+    "question_number": 76
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Dynamic Memory Management",
+    "difficulty": "Easy",
+    "question": "What is the purpose of the `delete` operator in C++ dynamic memory management, and what are its two forms for deallocating memory?",
+    "answer": "The `delete` operator in C++ is used to free dynamic memory that was previously allocated by the `new` operator. Once the memory is no longer needed, `delete` makes it available again for other requests, preventing memory leaks. Its two forms are:\n1.  `delete pointer;`: Used to deallocate memory for a single element.\n2.  `delete [] pointer;`: Used to deallocate memory for an array of elements.",
+    "source_chunk": 11,
+    "type": "subjective",
+    "question_number": 77
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Character Input Functions",
+    "difficulty": "Easy",
+    "question": "What is the primary difference in behavior between using `cin.get(c)` and `cin >> c` to read a single character from standard input in C++?",
+    "answer": "The `cin.get(c)` function reads the next available character from the input stream, including whitespace characters such as blank spaces, tabs, and newline characters. It assigns this character to its argument `c`. In contrast, the `cin >> c` operation will skip any leading white spaces and newline characters before reading and assigning the next non-whitespace character to `c`. This difference means that `cin >> c` cannot be used to read and process whitespace characters directly.",
+    "source_chunk": 12,
+    "type": "subjective",
+    "question_number": 78
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Character Output Functions",
+    "difficulty": "Easy",
+    "question": "Describe the purpose and provide examples of how the `put()` function, a member of the `ostream` class, is used in C++.",
+    "answer": "The `put()` function, a member of the `ostream` class, is used to output a single character to the output stream. It can take either a character literal/variable or an integer value (which is then converted to its ASCII character equivalent) as an argument. For example, `cout << put('x');` displays the character 'x'. Similarly, if `ch` is a character variable, `cout << put(ch);` displays its value. An example of using an integer argument is `cout << put(68);`, which displays the character 'D' because 68 is the ASCII value for 'D'.",
+    "source_chunk": 12,
+    "type": "subjective",
+    "question_number": 79
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Line-Oriented Input Functions",
+    "difficulty": "Medium",
+    "question": "Explain how the `cin.getline(line, size)` function reads a line of text, specifically detailing its termination conditions and how it handles the newline character.",
+    "answer": "The `cin.getline(line, size)` function is designed to read an entire line of text. It continues reading characters into the `line` variable until one of two conditions is met: either a newline character ('\\n') is encountered, or `size` number of characters have been read (whichever occurs first). When the newline character is encountered, it is read from the input buffer but is *not* saved into the `line` variable. Instead, it is replaced by a null character ('\\0') at the end of the string to properly terminate it. If `size` characters are read before a newline, the input is truncated, and a null character is automatically appended to the character array.",
+    "source_chunk": 12,
+    "type": "subjective",
+    "question_number": 80
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "String Input with `operator>>` vs `getline()`",
+    "difficulty": "Medium",
+    "question": "What is the key limitation of using the `operator>>` (e.g., `cin >> name;`) for reading strings, and how does `cin.getline()` address this limitation?",
+    "answer": "The key limitation of using the `operator>>` (e.g., `cin >> name;`) for reading strings is that it automatically skips leading whitespace characters and stops reading as soon as it encounters any whitespace character (space, tab, or newline). This means it can only read a single 'word' or token at a time, and cannot read strings that contain spaces, such as \"Neeraj good\". The `cin.getline(name, size)` function addresses this limitation by reading an entire line of text, including internal whitespace characters, until a newline character or a specified buffer size is reached. This makes `getline()` suitable for capturing multi-word strings or full sentences.",
+    "source_chunk": 12,
+    "type": "subjective",
+    "question_number": 81
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Unformatted vs. Formatted I/O",
+    "difficulty": "Medium",
+    "question": "Compare and contrast Unformatted I/O and Formatted I/O in C++ by outlining their main advantages and disadvantages, particularly concerning portability and human readability.",
+    "answer": "Unformatted I/O transfers the internal binary representation of data directly between memory and a file. Its advantages include being the simplest, most efficient, and most compact way to store data. However, its main disadvantage is that it is the least portable form of I/O, as it relies on internal data representation which can vary between different computer systems. It is also not directly human-readable. Formatted I/O, on the other hand, converts internal binary data to ASCII characters for output and vice-versa for input. Its advantages are high portability (due to ASCII standard) and human readability/editability. Its disadvantages include being more computationally expensive due to conversion, requiring more space than unformatted data, and potential inaccuracies during conversion between text and internal representation.",
+    "source_chunk": 12,
+    "type": "subjective",
+    "question_number": 82
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Formatted Console I/O and Manipulators",
+    "difficulty": "Hard",
+    "question": "Discuss the roles of the `ios` class functions and manipulators in C++ for formatting console output. Provide at least two `ios` class functions and their corresponding manipulator equivalents, explaining their purpose.",
+    "answer": "C++ provides `ios` class functions and manipulators as features for formatting console output. `ios` class functions are member functions that modify the stream's formatting state, while manipulators are special functions (often requiring `<iomanip.h>`) that can be included directly in I/O statements to achieve the same effect, offering a more convenient syntax.\n\n1.  **`width()` vs. `setw()`**: The `width()` function of the `ios` class (or `setw()` manipulator) is used to specify the required field size for displaying an output value. For example, `cout << setw(5) << value;` sets a field width of 5 characters, right-justifying `value` within it.\n2.  **`precision()` vs. `setprecision()`**: The `precision()` function (or `setprecision()` manipulator) specifies the number of digits to be displayed after the decimal point for float values. For example, `cout << setprecision(2) << 3.14159;` would display `3.14`.\n3.  **`fill()` vs. `setfill()`**: The `fill()` function (or `setfill()` manipulator) specifies a character that is used to fill the unused portion of a field when the output value is smaller than the specified field width. For example, `cout << setfill('*') << setw(5) << 12;` would display `***12`.\n4.  **`setf()` vs. `setiosflags()`**: The `setf()` function (or `setiosflags()` manipulator) is used to set specific format flags that control various aspects of output display, such as `ios::left` for left-justification or `ios::showpos` to display a plus sign for positive numbers.",
+    "source_chunk": 12,
+    "type": "subjective",
+    "question_number": 83
+  },
+  {
+    "subject": "Object-Oriented Programming",
+    "topic": "Predefined Manipulators",
+    "difficulty": "Hard",
+    "question": "Identify and explain the function of four different 'predefined manipulators' in C++ (those that do not take arguments) commonly used for stream formatting.",
+    "answer": "Predefined manipulators are special functions, typically found in `<iostream.h>`, that can be included in I/O statements to alter the format parameters of a stream without requiring any arguments. Four such manipulators include:\n\n1.  **`endl`**: This manipulator sends a newline character to the output stream and then flushes the stream's buffer, ensuring that all buffered output is immediately written to the device.\n2.  **`dec`**: This manipulator sets the integer output format to decimal (base 10) for subsequent integer output operations on the stream.\n3.  **`hex`**: This manipulator sets the integer output format to hexadecimal (base 16) for subsequent integer output operations on the stream.\n4.  **`left`**: This manipulator causes subsequent output to be left-aligned within the specified field width, padding the remaining space on the right with the fill character. (The default is `right` alignment).\n5.  **`flush`**: This manipulator explicitly flushes the output stream, forcing any buffered data to be written to its destination immediately without adding a newline.",
+    "source_chunk": 12,
+    "type": "subjective",
+    "question_number": 84
+  },
+  {
+    "subject": "OOP",
+    "topic": "File Pointer Manipulation",
+    "difficulty": "Easy",
+    "question": "What is the purpose of the overloaded `seekg()` function when it takes two parameters, and what does `ios::end` signify in this context?",
+    "answer": "The overloaded `seekg()` function taking two parameters is used to shift the input file pointer to a specified location relative to a reference point. The first parameter is an offset, and the second parameter defines the reference point. When `ios::end` is used as the second parameter, it signifies that the offset should be calculated from the end of the file. For example, `myfile.seekg(-4, ios::end)` takes the pointer 4 characters before the end of the file.",
+    "source_chunk": 13,
+    "type": "subjective",
+    "question_number": 85
+  },
+  {
+    "subject": "OOP",
+    "topic": "File Error Handling",
+    "difficulty": "Easy",
+    "question": "Name two distinct methods described in the snippet for checking if a file opening operation failed in C++.",
+    "answer": "Two methods for checking file opening failure are:\n1.  Checking the return value of the `open()` function or the `fstream` object itself: If the file opening fails, the `open()` function returns a non-zero value, and the `fstream` object evaluates to `false` in a boolean context (e.g., `if (!myfile)`).\n2.  Using the `fail()` member function: The `ofstream` class (and `fstream` generally) provides a `fail()` function which returns `true` if the opening of the file operation failed (e.g., `if(myfile.fail())`).",
+    "source_chunk": 13,
+    "type": "subjective",
+    "question_number": 86
+  },
+  {
+    "subject": "OOP",
+    "topic": "Binary File I/O",
+    "difficulty": "Medium",
+    "question": "Compare and contrast the `get()`/`put()` functions with `read()`/`write()` functions regarding their usage for binary file manipulation in C++.",
+    "answer": "`get()` and `put()`: These functions are used for reading and writing data byte by byte (character by character) to/from binary files. `get()` reads a single byte into a `char` variable, and `put()` writes a single `char` variable to the file. They both take one parameter\u2014a `char` variable or character.\n\n`read()` and `write()`: These functions are designed for reading and writing whole blocks of data from/to binary files. Their prototypes are `istream &read(char *buf, streamsize num)` and `ostream &write(const char *buf, streamsize num)`. `buf` is a pointer to a character array where data is stored or taken from, and `num` defines the amount of data (in symbols/bytes) to be read/written. They are more efficient for block operations than byte-by-byte methods for larger data transfers.",
+    "source_chunk": 13,
+    "type": "subjective",
+    "question_number": 87
+  },
+  {
+    "subject": "OOP",
+    "topic": "File Stream Status and Inspection",
+    "difficulty": "Medium",
+    "question": "Explain the behavior of the `peek()` function in C++ input file streams, particularly how it affects the file pointer compared to `get()`.",
+    "answer": "The `peek()` function returns the ASCII code of the current character from an input file stream. Unlike the `get()` function, `peek()` does *not* move the file pointer to the next character. This means that successive calls to `peek()` will return the ASCII code of the *same* character each time until another function (like `get()`) explicitly moves the pointer. To convert the returned ASCII code to a character, a `char` type cast is often used.",
+    "source_chunk": 13,
+    "type": "subjective",
+    "question_number": 88
+  },
+  {
+    "subject": "OOP",
+    "topic": "File Buffer Management",
+    "difficulty": "Hard",
+    "question": "Describe why the `flush()` function is necessary in C++ output file stream operations, considering how I/O streams are managed in memory.",
+    "answer": "I/O streams are typically created and maintained in RAM, utilizing a buffer to temporarily hold data before it is written to the physical file on disk. Data is usually saved to the file when the buffer is full or when the file is explicitly closed. The `flush()` function is necessary when a programmer wants to force the data currently held in the output buffer to be written to the disk file *immediately*, without waiting for the buffer to fill up or for the file to be closed. This ensures data persistence in scenarios where the program might terminate unexpectedly, or when other processes need to access the most up-to-date file contents before the program explicitly closes the file.",
+    "source_chunk": 13,
+    "type": "subjective",
+    "question_number": 89
+  },
+  {
+    "subject": "OOP",
+    "topic": "Line-wise File Input",
+    "difficulty": "Medium",
+    "question": "What is the primary purpose of the `getline()` function in C++ input streams, and what are the three main stopping criteria it can utilize?",
+    "answer": "The primary purpose of the `getline()` function is to read one line at a time from an input stream. It can stop reading based on three specified criteria:\n1.  A specified number of characters (`Array_size`) has been read.\n2.  The first occurrence of a specified delimiter character (`delimiter`).\n3.  The detection of a newline character (`\\n`) if no explicit delimiter is provided, meaning it reads the entire line.",
+    "source_chunk": 13,
+    "type": "subjective",
+    "question_number": 90
+  },
+  {
+    "subject": "OOP",
+    "topic": "File Stream Status and Inspection",
+    "difficulty": "Easy",
+    "question": "Which function described in the snippet can be used to determine the number of symbols read by the *last* unformatted input operation?",
+    "answer": "The `gcount()` function returns the number of symbols (characters/bytes) read for the last unformatted input operation.",
+    "source_chunk": 13,
+    "type": "subjective",
+    "question_number": 91
+  },
+  {
+    "subject": "OOP",
+    "topic": "Function Templates",
+    "difficulty": "Easy",
+    "question": "What problem do C++ templates solve regarding function definitions for different data types?",
+    "answer": "C++ templates solve the problem of code duplication that arises when a function needs to operate on multiple different data types. Instead of writing separate, overloaded versions of the same function for each data type (e.g., 'int max()', 'char max()', 'float max()'), templates allow a single generic 'blueprint' function to be defined that can work with any data type. This avoids repeated code and saves development time and effort.",
+    "source_chunk": 14,
+    "type": "subjective",
+    "question_number": 92
+  },
+  {
+    "subject": "OOP",
+    "topic": "Templates",
+    "difficulty": "Easy",
+    "question": "In C++ template declarations, which two keywords can be freely interchanged when specifying type parameters?",
+    "answer": "In C++ template declarations, the keywords 'typename' and 'class' can be freely interchanged when specifying type parameters, such as 'template <class T>' or 'template <typename T>'.",
+    "source_chunk": 14,
+    "type": "subjective",
+    "question_number": 93
+  },
+  {
+    "subject": "OOP",
+    "topic": "Template Instantiation",
+    "difficulty": "Medium",
+    "question": "Explain the concept of 'template instantiation' and its role in using generic functions.",
+    "answer": "Template instantiation is the process by which the C++ compiler generates a specific function or class from a template, based on the actual data types provided when the template is used. When a generic function (defined using 'template <class type>') is invoked with actual parameters (e.g., 'max(30, 40)' where 'type' is inferred as 'int'), the compiler substitutes the generic 'type' with the concrete data type ('int' in this case), creating a specific version of the function. This allows the template to serve as a 'blueprint' from which individual functions or classes for different data types are constructed on demand, eliminating the need for the programmer to explicitly write multiple versions.",
+    "source_chunk": 14,
+    "type": "subjective",
+    "question_number": 94
+  },
+  {
+    "subject": "OOP",
+    "topic": "Concurrent Object-oriented Systems",
+    "difficulty": "Medium",
+    "question": "What are 'active objects' in concurrent object-oriented systems, and how do they differ in their handling of requests compared to 'passive objects'?",
+    "answer": "In concurrent object-oriented systems, 'active objects' are autonomous agents capable of controlling and scheduling the requests they receive before serving them. This means synchronization occurs at the object boundary, protecting the internal consistency of the object by delaying messages until they are suitable for execution. In contrast, 'passive objects' (associated with 'code level' synchronization) accept messages for execution immediately, with concurrency control handled through conventional mechanisms like semaphores and monitors embedded within method bodies. The internal state of passive objects is only protected if these synchronization statements are present and correctly implemented.",
+    "source_chunk": 14,
+    "type": "subjective",
+    "question_number": 95
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Error Handling and Debugging",
+    "difficulty": "Medium",
+    "question": "Describe three debugging techniques mentioned in the text that help in finding the location of execution or logical errors in a program.",
+    "answer": "The text describes several debugging techniques for locating execution or logical errors:\n1.  **Error Isolation**: This involves temporarily commenting out or deleting portions of the program to see if an error message disappears. Alternatively, inserting unique 'printf' statements at various points can indicate the approximate location of the error as the program executes.\n2.  **Watch Values**: This technique involves continuously displaying the value of a variable or an expression as the program runs. By monitoring these 'watch values,' programmers can identify when variables begin to hold incorrect or unexpected data, helping to pinpoint the source of an error.\n3.  **Breakpoints**: A breakpoint is a temporary stopping point set at a specific instruction within the program. When the program is executed, it pauses at each breakpoint, allowing the programmer to inspect the program's state (often in conjunction with watch values) before resuming execution, thereby tracking down erroneous behavior.",
+    "source_chunk": 14,
+    "type": "subjective",
+    "question_number": 96
+  },
+  {
+    "subject": "OOP",
+    "topic": "Template Specialization",
+    "difficulty": "Hard",
+    "question": "When is 'template specialization' required, and how does it address limitations of generic templates? Provide an example scenario from the text.",
+    "answer": "Template specialization is required when the generic implementation of a template function or class is not suitable or efficient for certain specific data types, meaning the body of the function or class needs to differ for those particular types. It addresses the limitations of generic templates by allowing the programmer to provide a custom implementation for a specific data type, overriding the default generic behavior.\nThe text provides an example with a 'swap' function template. While a generic 'swap' template might work for most pointer types, it would be incorrect for 'char*' (C-style strings) because simply swapping pointer values would not copy the string data. For 'char*', a deep copy is needed. Therefore, a template specialization for 'char*' would be created: 'template <> void swap <char*> (char* lhs, char* rhs) { /* custom implementation using strcpy for deep copy */ }'. This ensures that when 'swap' is called with 'char*' arguments, the specialized version is used, correctly handling the string data, while the generic template handles other types.",
+    "source_chunk": 14,
+    "type": "subjective",
+    "question_number": 97
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Concurrent Object-oriented Systems",
+    "difficulty": "Hard",
+    "question": "According to the text, what are the three critical aspects that a concurrent system must control? Briefly elaborate on one of them.",
+    "answer": "According to the text, a concurrent system, regardless of the level of concurrency (e.g., multiprogramming, multithreading), must have the ability to control three critical aspects of execution:\n1.  **Concurrent execution of methods**: This refers to managing how multiple methods from different objects or threads can run simultaneously or appear to run simultaneously, ensuring proper resource allocation and preventing conflicts.\n2.  **Inter-method synchronization and communication**: This involves coordinating the execution of methods across different concurrent entities and enabling them to exchange information safely and efficiently. Synchronization mechanisms prevent race conditions and ensure data consistency.\n3.  **Security**: This aspect ensures that concurrent execution does not lead to unauthorized access, data corruption, or other vulnerabilities in the system. It involves protecting shared resources and ensuring the integrity and confidentiality of data.\n\nElaboration on **Inter-method synchronization and communication**: This aspect is crucial because when multiple parts of a program or multiple objects execute concurrently, they often need to access or modify shared resources or data. Without proper synchronization, operations can interleave in unpredictable ways, leading to incorrect results (race conditions) or corrupted data. Mechanisms like semaphores, monitors, or message passing (depending on the concurrency model) are used to enforce order, ensure mutual exclusion, and facilitate safe communication between concurrently executing methods or objects.",
+    "source_chunk": 14,
+    "type": "subjective",
+    "question_number": 98
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Multithreading vs. Multiprocessing",
+    "difficulty": "Easy",
+    "question": "According to the snippet, what is the fundamental difference between multithreading and multiprocessing?",
+    "answer": "Multithreading involves an application with multiple threads running within a single process. In contrast, multiprocessing refers to an application organized across multiple, separate processes.",
+    "source_chunk": 15,
+    "type": "subjective",
+    "question_number": 99
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Thread Limitations",
+    "difficulty": "Easy",
+    "question": "What is one significant drawback of threads regarding fault isolation, as mentioned in the text?",
+    "answer": "Since threads within a process share the same address space, the failure of one thread in a process can cause all other threads of that same process to fail.",
+    "source_chunk": 15,
+    "type": "subjective",
+    "question_number": 100
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Race Conditions",
+    "difficulty": "Medium",
+    "question": "Define a race condition and explain why a simple operation like 'total++;' can lead to it in a multi-threaded environment.",
+    "answer": "A race condition exists when the behavior of code depends on the interleaving of multiple threads. For an operation like 'total++;' shared between multiple threads, it may compile into more than one lower-level statement (e.g., read, increment, write). If threads interleave these lower-level operations, the final value of 'total' can be incorrect or unexpected because a thread might read an outdated value before another thread has completed its write.",
+    "source_chunk": 15,
+    "type": "subjective",
+    "question_number": 101
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Mutex",
+    "difficulty": "Medium",
+    "question": "How does a mutex help in avoiding race conditions, and what are its two fundamental states?",
+    "answer": "A mutex is a synchronization primitive that ensures a section of code (critical section) is executed by only one thread at a time. It has two states: locked and unlocked. When a thread attempts to lock an already locked mutex, it gets suspended. The waiting threads can acquire the lock and resume execution only when the mutex becomes unlocked by the thread that originally locked it.",
+    "source_chunk": 15,
+    "type": "subjective",
+    "question_number": 102
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Race Condition Example",
+    "difficulty": "Hard",
+    "question": "Analyze the `ThreadOne()` code snippet provided in the text. Explain in detail how `CallSomeMethod()` might be executed 'too many times' when multiple threads concurrently run `ThreadOne()`, focusing on the problematic interaction with `SharedVar`.",
+    "answer": "The `ThreadOne()` code contains a race condition because the check (`while(SharedVar > 0)`) and update (`--SharedVar;`) of `SharedVar` are not atomic. If multiple threads execute `ThreadOne()` simultaneously, a thread might pass the `while(SharedVar > 0)` test, but before it can decrement `SharedVar`, another thread might also pass the test because `SharedVar` still appears to be positive. This allows multiple threads to enter the loop and call `CallSomeMethod()` even when `SharedVar` has already been decremented by another thread to 0 or less. Consequently, `CallSomeMethod()` ends up being executed more times than the initial value of `SharedVar` (20), as the decrements are not guaranteed to happen immediately after the check, leading to `SharedVar` becoming negative on exit, indicating the excess calls.",
+    "source_chunk": 15,
+    "type": "subjective",
+    "question_number": 103
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Operating System",
+    "difficulty": "Medium",
+    "question": "What is a deadlock in concurrent programming, and illustrate how it can occur with the example involving `ThreadThree()` and `ThreadFour()`?",
+    "answer": "A deadlock is a situation where one or more threads wait indefinitely for resources that can never become available. In the example, `ThreadThree()` tries to lock mutex X then mutex Y, while `ThreadFour()` tries to lock mutex Y then mutex X. A deadlock can occur if `ThreadThree()` acquires lock X and `ThreadFour()` acquires lock Y simultaneously. Then, `ThreadThree()` waits for Y (held by ThreadFour), and `ThreadFour()` waits for X (held by ThreadThree), creating a circular waiting dependency where neither can proceed.",
+    "source_chunk": 15,
+    "type": "subjective",
+    "question_number": 104
+  },
+  {
+    "subject": "Computer Science",
+    "topic": "Deadlock Resolution",
+    "difficulty": "Hard",
+    "question": "Based on the provided solution, what is the strategy to resolve the deadlock shown between `ThreadThree` and `ThreadFour`, and why is this strategy effective?",
+    "answer": "The strategy to resolve the deadlock is to ensure that all threads lock resources in a consistent, predetermined order. Specifically, if both `ThreadThree()` and `ThreadFour()` were modified to always acquire mutex X before mutex Y, the deadlock would be avoided. This is effective because it breaks the circular waiting condition. If `ThreadThree()` holds X and `ThreadFour()` tries to acquire X, `ThreadFour()` will block until `ThreadThree()` releases X. Once `ThreadThree()` has both X and Y and then releases them, `ThreadFour()` can then acquire X and subsequently Y. This consistent ordering prevents the scenario where each thread holds a resource the other needs while waiting for the resource the other holds.",
+    "source_chunk": 15,
+    "type": "subjective",
+    "question_number": 105
+  }
+]

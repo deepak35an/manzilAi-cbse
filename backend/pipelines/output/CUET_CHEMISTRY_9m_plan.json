@@ -1,0 +1,581 @@
+{
+  "duration_weeks": 36,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "topic": "Solutions",
+          "subtopics": [
+            "Introduction to Solutions and Types of Solutions",
+            "Expressing Concentration of Solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "topic": "Solutions",
+          "subtopics": [
+            "Solubility of Solids in Liquids",
+            "Solubility of Gases in Liquids"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "topic": "Solutions",
+          "subtopics": [
+            "Henry's Law",
+            "Vapour Pressure of Liquid-Liquid Solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "topic": "Solutions",
+          "subtopics": [
+            "Raoult's Law",
+            "Vapour Pressure of Solutions of Solids in Liquids"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "topic": "Solutions",
+          "subtopics": [
+            "Ideal and Non-Ideal Solutions",
+            "Azeotropes"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "topic": "Solutions",
+          "subtopics": [
+            "Colligative Properties",
+            "Relative Lowering of Vapour Pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "topic": "Solutions",
+          "subtopics": [
+            "Elevation of Boiling Point",
+            "Depression of Freezing Point"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "topic": "Solutions",
+          "subtopics": [
+            "Osmosis and Osmotic Pressure",
+            "Reverse Osmosis and Water Purification"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "topic": "Solutions",
+          "subtopics": [
+            "Abnormal Molar Masses",
+            "Van't Hoff Factor"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Electrochemical Cells",
+            "Galvanic Cells"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Standard Electrode Potential",
+            "Measurement of Electrode Potential"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "EMF of a Cell",
+            "Nernst Equation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Applications of Nernst Equation",
+            "Electrochemical Cell and Gibbs Free Energy"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Conductance of Electrolytic Solutions",
+            "Measurement of Conductivity"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Specific Conductivity",
+            "Molar Conductivity"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Variation of Conductivity with Concentration",
+            "Kohlrausch's Law and Applications"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Electrolytic Cells",
+            "Electrolysis"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Faraday's Laws of Electrolysis",
+            "Products of Electrolysis"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Primary Batteries",
+            "Secondary Batteries"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus_type": "Core Learning",
+      "weightage": "10–12%",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Fuel Cells",
+            "Corrosion"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Introduction to Chemical Kinetics",
+            "Rate of Chemical Reactions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Average and Instantaneous Rate",
+            "Factors Affecting Reaction Rate"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Effect of Concentration",
+            "Effect of Temperature"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Effect of Catalyst",
+            "Rate Law"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Rate Constant",
+            "Order of Reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Molecularity of Reaction",
+            "Integrated Rate Equations"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 27,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Half-Life of Reactions",
+            "Zero Order Reactions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "First Order Reactions",
+            "Pseudo First Order Reactions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 29,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Arrhenius Equation",
+            "Activation Energy"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Collision Theory",
+            "Limitations of Collision Theory"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 31,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "d- and f-Block Elements",
+          "priority": "HIGH",
+          "topic": "d- and f-Block Elements",
+          "subtopics": [
+            "Introduction to d- and f-Block Elements",
+            "Position in the Periodic Table"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "d- and f-Block Elements",
+          "priority": "HIGH",
+          "topic": "d- and f-Block Elements",
+          "subtopics": [
+            "Electronic Configuration",
+            "General Properties of Transition Elements"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 33,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "d- and f-Block Elements",
+          "priority": "HIGH",
+          "topic": "d- and f-Block Elements",
+          "subtopics": [
+            "Physical Properties",
+            "Atomic and Ionic Sizes"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 34,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "d- and f-Block Elements",
+          "priority": "HIGH",
+          "topic": "d- and f-Block Elements",
+          "subtopics": [
+            "Lanthanoid Contraction",
+            "Ionization Enthalpy"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 35,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "d- and f-Block Elements",
+          "priority": "HIGH",
+          "topic": "d- and f-Block Elements",
+          "subtopics": [
+            "Oxidation States",
+            "Standard Electrode Potentials"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 36,
+      "focus_type": "Core Learning",
+      "weightage": "8–10%",
+      "subjects": [
+        {
+          "subject": "d- and f-Block Elements",
+          "priority": "HIGH",
+          "topic": "d- and f-Block Elements",
+          "subtopics": [
+            "Stability of Higher Oxidation States",
+            "Chemical Reactivity"
+          ]
+        }
+      ]
+    }
+  ]
+}

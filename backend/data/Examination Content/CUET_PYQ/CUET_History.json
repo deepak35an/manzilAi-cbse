@@ -1,0 +1,3441 @@
+[
+    {
+        "question_number": 1,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Political Systems",
+        "difficulty": "Medium",
+        "question": "Arrange the following political and economic developments in a chronological order:\n(A) Shaka (peoples from Central Asia) rulers in the northwest\n(B) Indo-Greek rule in the northwest\n(C) Vakatakas in the Deccan\n(D) Invasion of Alexander of Macedon",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (D), (B), (A), (C)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (D), (B), (A), (C)",
+        "explanation": "This question requires chronological ordering of significant historical events in ancient India. Alexander's invasion occurred earliest in 326 BCE, followed by the Indo-Greek rule starting in the 2nd century BCE. The Shaka rulers established their presence from the 1st century BCE, while the Vakatakas rose to prominence in the Deccan much later, from the 3rd to 5th centuries CE. Therefore, the correct chronological sequence is D, B, A, C.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 2,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Gender Relations",
+        "difficulty": "Hard",
+        "question": "\"I free her from here, but not from there. I have bound her firmly there, so that through the grace of Indra she will have fine sons and be fortunate in her husband's love.\" From where is this excerpt of a mantra for producing 'fine sons' taken:",
+        "options": [
+            "(A) Brihadaranyaka Upanishad",
+            "(B) Mahabharata",
+            "(C) Manusmriti",
+            "(D) Rigveda"
+        ],
+        "answer": "(D) Rigveda",
+        "explanation": "This excerpt is a specific mantra from the Rigveda, one of the oldest sacred texts of Hinduism. It is part of a wedding hymn found in the tenth Mandala of the Rigveda, invoking blessings for the bride. The mantra reflects ancient Vedic beliefs and rituals concerning marriage, progeny, and prosperity. Therefore, the source of this specific verse is the Rigveda.",
+        "a": 1.9,
+        "b": 1.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 3,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Colonial Rule",
+        "difficulty": "Easy",
+        "question": "When was the 'Regulating Act' passed by the British Parliament to regulate the activities of the East India Company?",
+        "options": [
+            "(A) 1773",
+            "(B) 1774",
+            "(C) 1775",
+            "(D) 1776"
+        ],
+        "answer": "(A) 1773",
+        "explanation": "The Regulating Act was a pivotal piece of legislation enacted by the British Parliament to assert greater control over the East India Company's administration in India. Passed in 1773, it marked the first step by the British government to regulate the Company's affairs. This act aimed to address the Company's financial woes and curb corruption among its officials.",
+        "a": 1.0,
+        "b": -0.8,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 4,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Non-Cooperation Movement",
+        "difficulty": "Medium",
+        "question": "The Khilafat Movement of 1919-1920 demanded that the jazirat-ul-Arab must remain under Muslim sovereignty. Which region was not a part of jazirat-ul-Arab?",
+        "options": [
+            "(A) Arabia",
+            "(B) Syria",
+            "(C) Afghanistan",
+            "(D) Palestine"
+        ],
+        "answer": "(C) Afghanistan",
+        "explanation": "The term 'jazirat-ul-Arab' translates to 'Island of Arabia' and refers to the traditional holy lands of Islam, encompassing the Arabian Peninsula and nearby regions. During the Khilafat Movement, this typically included Arabia, Syria, Iraq, and Palestine, which were under Ottoman influence. Afghanistan, however, is geographically and historically distinct from these core regions and was not considered part of jazirat-ul-Arab in the context of the Khilafat demands.",
+        "a": 1.4,
+        "b": 0.3,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 5,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Economy",
+        "difficulty": "Medium",
+        "question": "In urban centres, who represented the merchant communities during the medieval period?",
+        "options": [
+            "(A) Gramsheth",
+            "(B) Kokasheth",
+            "(C) Nagarsheth",
+            "(D) Durgsheth"
+        ],
+        "answer": "(C) Nagarsheth",
+        "explanation": "During the medieval period in India, the 'Nagarsheth' was a prominent figure who served as the chief or head of the merchant communities in urban centers. This position held considerable influence, representing the trading guilds and commercial interests within the city. The term 'Nagar' signifies a city, thus directly linking the title to urban mercantile leadership.",
+        "a": 1.35,
+        "b": 0.1,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 6,
+        "subject": "History",
+        "topic": "World History",
+        "subtopic": "Empires and Dynasties",
+        "difficulty": "Easy",
+        "question": "Where was the Safavid Empire located?",
+        "options": [
+            "(A) China",
+            "(B) Iran",
+            "(C) Turkey",
+            "(D) Afghanistan"
+        ],
+        "answer": "(B) Iran",
+        "explanation": "The Safavid Empire was one of the most significant ruling dynasties of Persia (modern-day Iran) after the fall of the Sasanian Empire. It established Twelver Shia Islam as the official religion of the empire, marking a crucial turning point in Iranian and Shia history. Its geographical heartland and major influence were firmly rooted in Iran.",
+        "a": 0.9,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 7,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Economy",
+        "difficulty": "Medium",
+        "question": "The archaeological findings of which grain are relatively rare at Harappan sites?",
+        "options": [
+            "(A) Rice",
+            "(B) Wheat",
+            "(C) Barley",
+            "(D) Lentil"
+        ],
+        "answer": "(A) Rice",
+        "explanation": "Archaeological evidence from Harappan sites indicates that wheat and barley were the primary cereal crops cultivated by the Indus Valley Civilization. While other grains like lentils, chickpeas, and sesame were also grown, findings of rice are relatively rare and primarily restricted to peripheral sites. This suggests that rice was not a staple crop for most Harappan communities.",
+        "a": 1.45,
+        "b": 0.4,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 8,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Permanent Settlement",
+        "difficulty": "Medium",
+        "question": "Why did the zamindars regularly fail to pay the revenue demand in the early decades after the 'Permanent Settlement'. Choose the correct statements from below:\n(A) The initial demands were very high.\n(B) This high demand was imposed in the 1790s, a time when the prices of agricultural produce were depressed, making it difficult for the ryots to pay their dues to the zamindar.\n(C) The revenue was invariable, regardless of the harvest, and had to be paid punctually.\n(D) The 'Permanent Settlement' initially limited the power of the zamindar to collect rent from the ryot and manage his zamindari.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(C) (A), (B), (C) and (D)",
+        "explanation": "All the given statements accurately describe reasons for the zamindars' failure to pay revenue after the Permanent Settlement. The Company's initial demand was deliberately high, imposed during a period of depressed agricultural prices which reduced ryots' ability to pay. Furthermore, the inflexible and punctual nature of revenue collection, coupled with initial limitations on zamindars' power to enforce collections, collectively led to frequent defaults. These factors created a challenging environment for zamindars to meet the stringent revenue requirements.",
+        "a": 1.6,
+        "b": 0.5,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 9,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Nationalism",
+        "difficulty": "Medium",
+        "question": "During the elections of 1937 in British India, the Congress came to power in _____ provinces.",
+        "options": [
+            "(A) Eight",
+            "(B) Nine",
+            "(C) Ten",
+            "(D) Eleven"
+        ],
+        "answer": "(B) Nine",
+        "explanation": "In the provincial elections of 1937, the Indian National Congress achieved significant success, demonstrating its growing popular support. They secured an absolute majority in five provinces and formed governments in seven. Additionally, Congress formed coalition governments in two more provinces, bringing the total number of provinces where they came to power to nine. This widespread success allowed Congress to implement its policies in various regions of British India.",
+        "a": 1.5,
+        "b": 0.35,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 10,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "Major Centres",
+        "difficulty": "Hard",
+        "question": "Who built Secundrah Bagh as a 'pleasure garden'?",
+        "options": [
+            "(A) Shah Mal",
+            "(B) Birjis Qadr",
+            "(C) Wajid Ali Shah",
+            "(D) Bahadur Shah"
+        ],
+        "answer": "(C) Wajid Ali Shah",
+        "explanation": "Secundrabagh, also known as Sikandar Bagh, was a grand villa and garden enclosure situated in Lucknow, Uttar Pradesh. It was commissioned and built by Nawab Wajid Ali Shah, the last Nawab of Awadh. He intended it as a pleasure garden and summer palace for recreational purposes. The site later gained historical significance during the 1857 Indian Rebellion.",
+        "a": 1.9,
+        "b": 1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 11,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Harappan Civilisation",
+        "difficulty": "Medium",
+        "question": "Which of the following 'mature' Harappan sites are located in present-day India?\n(A) Ganweriwala\n(B) Kalibangan\n(C) Banawali\n(D) Rakhigarhi",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(D) (B), (C) and (D) only",
+        "explanation": "This question tests knowledge of the geographical location of key Harappan sites. Ganweriwala is a large Harappan site located in present-day Pakistan. In contrast, Kalibangan (Rajasthan), Banawali (Haryana), and Rakhigarhi (Haryana) are all significant mature Harappan sites situated within the borders of modern India. Therefore, the combination of Kalibangan, Banawali, and Rakhigarhi correctly identifies sites in India.",
+        "a": 1.4,
+        "b": 0.25,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 12,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Civil Disobedience Movement",
+        "difficulty": "Medium",
+        "question": "After M.K. Gandhi's release from prison in January 1931, where did the Congress leaders meet to plan the future course of action?",
+        "options": [
+            "(A) Lucknow",
+            "(B) Lahore",
+            "(C) Calcutta",
+            "(D) Allahabad"
+        ],
+        "answer": "(D) Allahabad",
+        "explanation": "Following Mahatma Gandhi's release from prison in January 1931, a crucial meeting of Congress leaders was convened to strategize their next steps. This significant meeting took place in Allahabad, at Anand Bhawan, the residence of the Nehru family. The discussions at this gathering eventually paved the way for negotiations that led to the Gandhi-Irwin Pact.",
+        "a": 1.55,
+        "b": 0.45,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 13,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Administration",
+        "difficulty": "Medium",
+        "question": "Which of the following statements is true about the amara-nayakas:\n(A) The amara-nayakas were civil servants who were given territories to govern by the raya.\n(B) The amara-nayakas collected taxes and other dues from peasants, craftspersons and traders in the area.\n(C) The amara-nayakas sent tribute to the king annually and personally appeared in the royal court with gifts to express their loyalty.\n(D) Kings occasionally asserted their control over the amara-nayakas by transferring them from one place to another.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(C) (A), (B), (C) and (D)",
+        "explanation": "The Amara-nayaka system was a key administrative feature of the Vijayanagara Empire, involving military commanders or chiefs. These nayakas were indeed granted territories to govern, from which they collected taxes, and were expected to send tribute to the king annually. To assert royal authority and prevent any nayaka from becoming too powerful, kings frequently transferred them, confirming that all provided statements are true regarding this system.",
+        "a": 1.65,
+        "b": 0.6,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 14,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Mughal Administration",
+        "difficulty": "Hard",
+        "question": "The Ain-i Akbari was completed in which regnal year of the emperor Akbar?",
+        "options": [
+            "(A) Forty-first regnal year",
+            "(B) Forty-second regnal year",
+            "(C) Forty-third regnal year",
+            "(D) Fifty-fourth regnal year"
+        ],
+        "answer": "(B) Forty-second regnal year",
+        "explanation": "The Ain-i Akbari, a detailed document chronicling Akbar's administration, was a monumental work compiled by Abul Fazl. It was completed in the 42nd regnal year of Emperor Akbar's reign, which corresponds to the year 1598 CE. This text provides invaluable insights into the imperial household, military, revenue, and other aspects of the Mughal Empire under Akbar.",
+        "a": 1.8,
+        "b": 0.9,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 15,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Mughal Administration",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Contents):\n(A) Imperial household and its maintenance\n(B) Military and civil administration\n(C) Fiscal side of the Mughal Empire\n(D) Akbar's \"auspicious sayings\"\nList-II (Daftar of the Ain-i-Akbari):\n(I) Fourth and fifth daftars\n(II) Mulk-Abadi\n(III) Sipah-Abadi\n(IV) Manzil-Abadi",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+        "explanation": "The Ain-i-Akbari is divided into five daftars or books, each detailing different aspects of the Mughal administration. Manzil-Abadi (IV) covers the imperial household; Sipah-Abadi (III) deals with military and civil administration; Mulk-Abadi (II) describes the fiscal and revenue administration. The Fourth and Fifth daftars (I) contain religious, literary accounts, and Akbar's sayings, matching them correctly. This structure reveals the comprehensive nature of Abul Fazl's documentation.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 16,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "Consequences",
+        "difficulty": "Easy",
+        "question": "In which year was the last Mughal ruler, Bahadur Shah II, deposed by the British and exiled to Rangoon?",
+        "options": [
+            "(A) 1791",
+            "(B) 1855",
+            "(C) 1870",
+            "(D) 1857"
+        ],
+        "answer": "(D) 1857",
+        "explanation": "Bahadur Shah Zafar, also known as Bahadur Shah II, was the last Mughal emperor who played a symbolic role during the 1857 Revolt. Following the suppression of the rebellion, he was arrested by the British in September 1857. He was subsequently tried for treason and exiled to Rangoon (now Yangon, Myanmar), marking the official end of the Mughal dynasty. His deposition and exile occurred in connection with the events of 1857.",
+        "a": 1.1,
+        "b": -0.6,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 17,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Political Systems",
+        "difficulty": "Medium",
+        "question": "The making of elaborate stone structures known as \"megaliths\" emerged in which part of the Indian subcontinent from the first millennium BCE?\n(A) North India\n(B) Central India\n(C) South India\n(D) East India",
+        "options": [
+            "(A) (A) and (B) only",
+            "(B) (B) and (C) only",
+            "(C) (C) and (D) only",
+            "(D) (D) and (A) only"
+        ],
+        "answer": "(B) (B) and (C) only",
+        "explanation": "Megaliths, which are large stone structures often associated with burial sites, became a prominent cultural feature from the first millennium BCE. Their emergence and widespread distribution are particularly characteristic of South India and parts of Central India. These regions exhibit numerous examples of elaborate megalithic monuments, indicating a distinct funerary practice during this period. Therefore, Central and South India are the correct regions.",
+        "a": 1.45,
+        "b": 0.3,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 18,
+        "subject": "History",
+        "topic": "Making of the Constitution",
+        "subtopic": "Constituent Assembly",
+        "difficulty": "Medium",
+        "question": "Sarojini Naidu, a woman member of the Constituent Assembly, was elected from which constituency?",
+        "options": [
+            "(A) United Provinces",
+            "(B) Madras",
+            "(C) Bihar",
+            "(D) Central Provinces"
+        ],
+        "answer": "(A) United Provinces",
+        "explanation": "Sarojini Naidu, a renowned poet, political activist, and a significant figure in the Indian independence movement, played a crucial role in the Constituent Assembly. She was elected as a member of the Constituent Assembly to represent the United Provinces, which is now Uttar Pradesh. Her participation highlighted the increasing role of women in shaping independent India's future. This demonstrates her strong political influence and representation.",
+        "a": 1.3,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 19,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Mahabharata",
+        "difficulty": "Medium",
+        "question": "In the Mahabharata text, \"You yourself did not receive the throne, although it fell to you, because of your defect. If the Pandava receives the patrimony ..., his son will surely inherit it in turn, and so will his son, and his.\" Who is referred to as 'you' in the excerpt?",
+        "options": [
+            "(A) Dhritarashtra",
+            "(B) Pandu",
+            "(C) Duryodhana",
+            "(D) Yudhisthira"
+        ],
+        "answer": "(A) Dhritarashtra",
+        "explanation": "The excerpt from the Mahabharata refers to Dhritarashtra, the eldest son of Vichitravirya, who was born blind. His blindness was considered a physical 'defect' that disqualified him from directly inheriting the throne of Hastinapura. The passage highlights the importance of an able-bodied king for proper succession, thus referring to Dhritarashtra's inability to rule despite his seniority. This explains why the throne passed to his younger brother, Pandu.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 20,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Saints",
+        "difficulty": "Easy",
+        "question": "Who did Baba Guru Nanak appoint as one of his disciples to succeed him as the preceptor (guru)?",
+        "options": [
+            "(A) Guru Arjan",
+            "(B) Guru Angad",
+            "(C) Guru Tegh Bahadur",
+            "(D) Guru Gobind Singh"
+        ],
+        "answer": "(B) Guru Angad",
+        "explanation": "Guru Nanak, the founder of Sikhism, meticulously chose his successor from among his dedicated disciples. He appointed Bhai Lehna, who later became known as Guru Angad, to carry forward his spiritual mission. This appointment underscored the importance of merit and devotion over lineage in the early Sikh tradition.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 21,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Ashokan Inscriptions",
+        "difficulty": "Easy",
+        "question": "What does the term 'Piyadassi' mean in the earliest inscriptions?",
+        "options": [
+            "(A) Beloved of the gods",
+            "(B) Beloved of the people",
+            "(C) Pleasant to behold",
+            "(D) Beloved of the universe"
+        ],
+        "answer": "(C) Pleasant to behold",
+        "explanation": "The term 'Piyadassi' (Priyadasi) is a title used by Emperor Ashoka in his inscriptions. It translates to 'pleasant to behold' or 'he who looks with affection'. This distinguished him, while 'Devanampiya' was another common epithet meaning 'beloved of the gods'.",
+        "a": 1.0,
+        "b": -0.8,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 22,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "Indian Representations",
+        "difficulty": "Hard",
+        "question": "Match List-I with List-II:\nList-I (The Azamgarh Proclamation):\n(A) Section I\n(B) Section II\n(C) Section III\n(D) Section IV\nList-II (Social Group):\n(I) Regarding Artisans\n(II) Regarding Public Servants\n(III) Regarding Zemindars\n(IV) Regarding Merchants",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+            "(C) (A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(B) (A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+        "explanation": "The Azamgarh Proclamation of 1857 was a significant document that outlined the grievances and aspirations of various social groups during the uprising. Section I addressed Zemindars, Section II focused on Merchants, and Section III detailed concerns for Public Servants. Finally, Section IV presented demands pertinent to Artisans, demonstrating a broad appeal against British rule.",
+        "a": 1.9,
+        "b": 1.5,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 23,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Rural Society",
+        "difficulty": "Medium",
+        "question": "Who accompanied Augustus Cleveland, the Collector of Bhagalpur, to the Jangal Mahals in 1782, and painted a set of aquatints?",
+        "options": [
+            "(A) Joseph Noel Paton",
+            "(B) Thomas Jones Barker",
+            "(C) William Hodges",
+            "(D) Captain Cook"
+        ],
+        "answer": "(C) William Hodges",
+        "explanation": "William Hodges was a renowned British landscape painter who traveled to India in the late 18th century. He accompanied Augustus Cleveland, the Collector of Bhagalpur, on expeditions into the Jangal Mahals. Hodges is particularly famous for his aquatints, which provided early visual documentation of the Indian landscape and its people.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 24,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Ibn Battuta",
+        "difficulty": "Easy",
+        "question": "According to Ibn Battuta's description of the postal system in India, what is the 'uluq'?",
+        "options": [
+            "(A) Horse-post",
+            "(B) Elephant-post",
+            "(C) Bullock-post",
+            "(D) Oxen-post"
+        ],
+        "answer": "(A) Horse-post",
+        "explanation": "Ibn Battuta, the Moroccan traveler, vividly described the efficiency of the postal system in India during his time. He noted two main types of postal services: the 'uluq' was the horse-post, which was faster and carried royal dispatches. The other system was the 'dawa', a foot-post, which was used for lighter parcels and essential items.",
+        "a": 1.0,
+        "b": -0.7,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 25,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Colonial Rule",
+        "difficulty": "Medium",
+        "question": "Who published the Essay on the Architecture of the Hindus in 1834?",
+        "options": [
+            "(A) James Fergusson",
+            "(B) Alexander Cunningham",
+            "(C) Ram Raja",
+            "(D) Rajendra Lala Mitra"
+        ],
+        "answer": "(C) Ram Raja",
+        "explanation": "Ram Raja was an early Indian scholar who significantly contributed to the understanding of indigenous architecture. His work, 'Essay on the Architecture of the Hindus', published in 1834, provided valuable insights into the principles and styles of Indian temple construction. This publication predates much of the British-led archaeological and architectural surveys.",
+        "a": 1.4,
+        "b": 0.2,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 26,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Hampi",
+        "difficulty": "Medium",
+        "question": "Which foreign traveller to the Vijayanagara Empire called the audience hall and the mahanavami dibba together as the \"House of Victory\"?",
+        "options": [
+            "(A) Nicolo de Conti",
+            "(B) Abdur Razzaq",
+            "(C) Afanasii Nikitin",
+            "(D) Domingo Paes"
+        ],
+        "answer": "(D) Domingo Paes",
+        "explanation": "Domingo Paes, a Portuguese traveler who visited the Vijayanagara Empire in the early 16th century, provided detailed accounts of its grandeur. He described the structures associated with the Mahanavami Dibba, including the royal audience hall, as the 'House of Victory'. This term reflected the triumphal celebrations and ceremonies performed there.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 27,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Economy",
+        "difficulty": "Easy",
+        "question": "Which Harappan site suggests that two different crops were grown together?",
+        "options": [
+            "(A) Cholistan",
+            "(B) Banawali",
+            "(C) Kalibangan",
+            "(D) Dholavira"
+        ],
+        "answer": "(C) Kalibangan",
+        "explanation": "Archaeological evidence from Kalibangan in Rajasthan provides insights into Harappan agricultural practices. Excavations at this site revealed a ploughed field with distinct furrows running in two directions. This cross-harrowing pattern strongly suggests that two different crops were cultivated simultaneously in the same field, indicating advanced farming techniques.",
+        "a": 1.0,
+        "b": -0.6,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 28,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Cultural Developments",
+        "difficulty": "Medium",
+        "question": "Arrange the major religious developments in a chronological order:\n(A) Earliest temples\n(B) Early Upanishads\n(C) First stupas\n(D) Vedic traditions",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (D), (B), (C), (A)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (D), (B), (C), (A)",
+        "explanation": "Vedic traditions represent the earliest religious phase in ancient India, dating back to 1500 BCE. The Early Upanishads emerged later, around the 8th-6th centuries BCE, expanding on Vedic philosophical concepts. The first stupas, notably from the Ashokan period, date to the 3rd century BCE, while the earliest structural temples with distinct architectural forms appeared significantly later, from the Gupta period onwards.",
+        "a": 1.5,
+        "b": 0.5,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 29,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Kinship",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Sanskrit/Prakrit Words):\n(A) Kula\n(B) Jnati\n(C) Vamsha\n(D) Puta\nList-II (Meaning):\n(I) Kinfolk\n(II) Son\n(III) Families\n(IV) Lineage",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(C) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+        "explanation": "Ancient Indian texts frequently use specific terms to describe social relationships and structures. 'Kula' refers to families, signifying a primary domestic unit. 'Jnati' denotes a wider circle of kinfolk, encompassing relatives beyond the immediate family. 'Vamsha' represents lineage or the ancestral line, tracing descent, while 'Puta' is a term commonly used for a son or child.",
+        "a": 1.4,
+        "b": 0.3,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 30,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Travellers' Accounts",
+        "difficulty": "Hard",
+        "question": "Match List-I with List-II:\nList-I (Book):\n(A) Travels in India\n(B) Travels in the Mogul Empire AD 1656-1668\n(C) The Travels of Ibn Battuta\n(D) Westward Bound: Travels of Mirza Abu Talib\nList-II (Author):\n(I) François Bernier\n(II) Mushirul Hasan\n(III) Jean-Baptiste Tavernier\n(IV) H.A.R. Gibb",
+        "options": [
+            "(A) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(A) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+        "explanation": "This question requires matching influential travelogues and historical works with their respective authors or key editors. Jean-Baptiste Tavernier penned 'Travels in India', documenting his journeys as a gem merchant. François Bernier wrote 'Travels in the Mogul Empire', offering critical insights into 17th-century India. H.A.R. Gibb is noted for his translation and editing of 'The Travels of Ibn Battuta', while Mushirul Hasan engaged with 'Westward Bound: Travels of Mirza Abu Talib'.",
+        "a": 1.8,
+        "b": 1.0,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 31,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Urban Features",
+        "difficulty": "Hard",
+        "question": "Which site has not been identified as a major city in the Indus Valley Civilisation?",
+        "options": [
+            "(A) Rakhigarhi",
+            "(B) Dholavira",
+            "(C) Ganweriwala",
+            "(D) Kalibangan"
+        ],
+        "answer": "(C) Ganweriwala",
+        "explanation": "The Indus Valley Civilisation boasted several prominent urban centers, including Harappa, Mohenjodaro, Dholavira, Rakhigarhi, and Kalibangan, which are all extensively excavated major cities. While Ganweriwala is recognized as a very large site in Cholistan, it has not undergone extensive excavation to fully reveal its urban characteristics. Therefore, it is less definitively categorized as a 'major city' compared to the other well-studied sites.",
+        "a": 1.9,
+        "b": 1.2,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 32,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Art and Architecture",
+        "difficulty": "Hard",
+        "question": "Match List-I with List-II:\nList-I (Landmark Discovery/Events):\n(A) John Marshall and Alfred Foucher publish The Monuments of Sanchi\n(B) John Marshall publishes the Conservation Manual\n(C) Jawaharlal Nehru lays the foundation stone of the National Museum in New Delhi\n(D) 'Sanchi' declared a World Heritage Site\nList-II (Year):\n(I) 1989\n(II) 1955\n(III) 1923\n(IV) 1914",
+        "options": [
+            "(A) (A)-(I), (B)-(III), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+        ],
+        "answer": "(D) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+        "explanation": "This question tests knowledge of key chronological events in Indian archaeology and cultural heritage. John Marshall and Alfred Foucher's seminal work 'The Monuments of Sanchi' was published in 1914. Marshall's crucial 'Conservation Manual' followed in 1923, setting standards for preservation. Jawaharlal Nehru laid the foundation stone for the National Museum in New Delhi in 1955. Finally, the ancient site of Sanchi was designated a World Heritage Site in 1989, recognizing its global significance.",
+        "a": 1.9,
+        "b": 1.3,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 33,
+        "subject": "Political Science",
+        "topic": "Making of the Constitution",
+        "subtopic": "Fundamental Rights",
+        "difficulty": "Medium",
+        "question": "Arrange the following rights/powers as mentioned in the Constitution of India in an ascending manner of the 'Articles':\n(A) Rights to equality\n(B) Cultural and educational rights\n(C) Rights to freedom of religion\n(D) Powers of the Centre to take over state administration",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (A), (C), (B), (D)",
+        "explanation": "Understanding the sequential arrangement of articles in the Indian Constitution is fundamental. Rights to equality are enshrined in Articles 14-18, forming the bedrock of fundamental rights. Rights to freedom of religion follow, covered by Articles 25-28. Cultural and educational rights are subsequently detailed in Articles 29-30, whereas the extraordinary powers of the Centre to take over state administration are outlined in Article 356.",
+        "a": 1.5,
+        "b": 0.6,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 34,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Ibn Battuta",
+        "difficulty": "Medium",
+        "question": "According to Ibn Battuta's account of Delhi, inside which darwaza of Delhi there was a grain market?",
+        "options": [
+            "(A) Budaun darwaza",
+            "(B) Mandwi darwaza",
+            "(C) Gul darwaza",
+            "(D) Buland darwaza"
+        ],
+        "answer": "(B) Mandwi darwaza",
+        "explanation": "Ibn Battuta's detailed travelogue offers vivid descriptions of 14th-century Delhi, including its gates and markets. He specifically noted that a bustling grain market was situated just inside the Mandwi darwaza. This detail provides insight into the economic and urban organization of the city during that period, as observed by a foreign traveler.",
+        "a": 1.6,
+        "b": 0.7,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 35,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Political System",
+        "difficulty": "Easy",
+        "question": "What were the rayas of the Vijayanagar Empire called:",
+        "options": [
+            "(A) Gajapati",
+            "(B) Ashvapati",
+            "(C) Narapati",
+            "(D) Singhpati"
+        ],
+        "answer": "(C) Narapati",
+        "explanation": "The rulers of the Vijayanagara Empire adopted the title 'Narapati,' which means 'lord of men.' This contrasted with the titles of contemporary rulers: the Gajapati (lord of elephants) of Odisha and the Ashvapati (lord of horses) of the Deccan sultans. These titles reflected the military strengths and self-perceptions of different regional powers.",
+        "a": 1.0,
+        "b": -0.4,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 36,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Civil Disobedience Movement",
+        "difficulty": "Medium",
+        "question": "Arrange the following major political events in a chronological manner:\n(A) Second Round Table Conference\n(B) Gandhi-Irwin Pact\n(C) \"Purna Swaraj\" accepted as Congress goal\n(D) Dandi March",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (C), (D), (B), (A)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (C), (D), (B), (A)",
+        "explanation": "Understanding the sequence of pivotal events during India's struggle for independence is crucial. The 'Purna Swaraj' resolution was adopted at the Lahore Session of Congress in December 1929. This was followed by the iconic Dandi March in March-April 1930, initiating the Civil Disobedience Movement. The Gandhi-Irwin Pact, signed in March 1931, temporarily suspended the movement, leading to Mahatma Gandhi's participation in the Second Round Table Conference in September-December 1931.",
+        "a": 1.5,
+        "b": 0.5,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 37,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Nationalism",
+        "difficulty": "Medium",
+        "question": "Arrange the following Viceroys of British India in a chronological order:\n(A) Lord Mountbatten\n(B) Lord Wavell\n(C) Lord Linlithgow\n(D) Lord Irwin",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (D), (C), (B), (A)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (D), (C), (B), (A)",
+        "explanation": "Knowledge of the chronological order of British Viceroys is essential for understanding colonial administration. Lord Irwin served from 1926-1931, notably during the Dandi March. Lord Linlithgow followed, holding office from 1936-1943, a period encompassing the early years of World War II. Lord Wavell was Viceroy from 1943-1947, preceding India's independence, which occurred under Lord Mountbatten's brief but pivotal tenure in 1947.",
+        "a": 1.6,
+        "b": 0.8,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 38,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Ashokan Inscriptions",
+        "difficulty": "Medium",
+        "question": "Which script was used in the northwest inscriptions?",
+        "options": [
+            "(A) Aramaic",
+            "(B) Greek",
+            "(C) Prakrit",
+            "(D) Kharosthi"
+        ],
+        "answer": "(D) Kharosthi",
+        "explanation": "Ashokan inscriptions were written in various scripts depending on the region and audience. While most inscriptions across the subcontinent were in Prakrit using the Brahmi script, those found in the northwest frontier regions, like parts of Afghanistan and Pakistan, frequently utilized Aramaic and Greek scripts for bilingual edicts. For Prakrit language inscriptions in this specific region, the Kharosthi script, derived from Aramaic, was predominantly employed.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 39,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Ashokan Inscriptions",
+        "difficulty": "Easy",
+        "question": "Most Asokan inscriptions were in which script?",
+        "options": [
+            "(A) Greek",
+            "(B) Aramaic",
+            "(C) Pali",
+            "(D) Brahmi"
+        ],
+        "answer": "(D) Brahmi",
+        "explanation": "Emperor Ashoka's edicts are a primary source of information about his reign and policies. The vast majority of these inscriptions across the Indian subcontinent were written in the Brahmi script. While other scripts like Aramaic and Greek were used in the northwestern regions, Brahmi was the dominant script for his Prakrit language decrees.",
+        "a": 0.9,
+        "b": -0.9,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 40,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Political Systems",
+        "difficulty": "Medium",
+        "question": "Identify the time period of Indo-Greek kings:",
+        "options": [
+            "(A) Second-First Centuries BCE",
+            "(B) Third-Second Centuries BCE",
+            "(C) Second-Third Centuries BCE",
+            "(D) Fourth-Third Centuries BCE"
+        ],
+        "answer": "(A) Second-First Centuries BCE",
+        "explanation": "The Indo-Greek kingdoms emerged in the aftermath of Alexander the Great's campaigns and the decline of the Mauryan Empire. These Hellenistic rulers established their presence primarily in the northwestern parts of the Indian subcontinent. Their rule and cultural influence flourished most prominently during the 2nd and 1st centuries BCE, before being gradually supplanted by other groups like the Sakas.",
+        "a": 1.4,
+        "b": 0.2,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 41,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Inscriptions as Historical Sources",
+        "difficulty": "Easy",
+        "question": "Most scripts used to write modern Indian languages are derived from:",
+        "options": [
+            "(A) Brahmi",
+            "(B) Devanagari",
+            "(C) Kharosthi",
+            "(D) Roman"
+        ],
+        "answer": "(A) Brahmi",
+        "explanation": "Brahmi is considered the mother script of almost all modern Indian writing systems. Scripts like Devanagari, Gurmukhi, Bengali, Gujarati, Odia, and many South Indian scripts evolved from Brahmi over centuries. This ancient script, which gained prominence through Ashokan inscriptions, laid the foundational principles for widespread literacy and diverse linguistic expression across the subcontinent.",
+        "a": 1.0,
+        "b": -0.5,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 42,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Mauryan Empire",
+        "difficulty": "Easy",
+        "question": "Asoka was the grandson of which ruler of Magadha?",
+        "options": [
+            "(A) Bimbisara",
+            "(B) Ajatasattu",
+            "(C) Mahapadma Nanda",
+            "(D) Chandragupta Maurya"
+        ],
+        "answer": "(D) Chandragupta Maurya",
+        "explanation": "Ashoka, one of India's most renowned emperors, belonged to the Mauryan dynasty. He was the son of Bindusara and the grandson of Chandragupta Maurya, who founded the Mauryan Empire. Chandragupta established a vast empire, which Ashoka later inherited and expanded, leaving a profound impact on Indian history and culture.",
+        "a": 0.9,
+        "b": -0.7,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 43,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Sufi Movement",
+        "difficulty": "Medium",
+        "question": "Which ruler had a mosque constructed within the compound of the dargah of Khwaja Muinuddin?",
+        "options": [
+            "(A) Muhammad bin Tughlaq",
+            "(B) Ghiyasuddin Khalji",
+            "(C) Akbar",
+            "(D) Shah Jahan"
+        ],
+        "answer": "(B) Ghiyasuddin Khalji",
+        "explanation": "The dargah of Khwaja Muinuddin Chishti in Ajmer, a significant Sufi shrine, saw various royal patrons over centuries. Sultan Ghiyasuddin Khalji of Malwa, during the 15th century, contributed to its architectural development. He specifically commissioned the construction of a mosque within the sacred compound, adding to the spiritual and architectural complex.",
+        "a": 1.6,
+        "b": 0.6,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 44,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Sufi Movement",
+        "difficulty": "Medium",
+        "question": "Who funded the earliest construction to house the tomb of Khwaja Muinuddin?",
+        "options": [
+            "(A) Muhammad bin Tughlaq",
+            "(B) Ghiyasuddin Khalji of Malwa",
+            "(C) Feroz Tughlaq",
+            "(D) Ibrahim Lodhi"
+        ],
+        "answer": "(A) Muhammad bin Tughlaq",
+        "explanation": "The dargah of Khwaja Muinuddin Chishti in Ajmer gradually evolved into a prominent pilgrimage site. The earliest recorded royal patronage for the construction of a structure to house the Sufi saint's tomb came from Sultan Muhammad bin Tughlaq. His visit in the 14th century and subsequent funding initiated the development of the shrine complex, attracting future rulers and devotees.",
+        "a": 1.5,
+        "b": 0.7,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 45,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Saints",
+        "difficulty": "Easy",
+        "question": "Whose dargah is popularly known as \"Gharib Nawaz\"?",
+        "options": [
+            "(A) Khwaja Qutbuddin Bakhtiyar Kaki",
+            "(B) Khwaja Muinuddin",
+            "(C) Shaikh Nizamuddin Auliya",
+            "(D) Shaikh Nasiruddin Chiragh-i Dehli"
+        ],
+        "answer": "(B) Khwaja Muinuddin",
+        "explanation": "Khwaja Muinuddin Chishti is one of the most revered Sufi saints in India, known as the founder of the Chishti order in the subcontinent. His dargah in Ajmer is a major pilgrimage site, and he is popularly venerated with the title 'Gharib Nawaz.' This title translates to 'Benefactor of the Poor,' reflecting his compassion and service to the needy.",
+        "a": 0.9,
+        "b": -0.6,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 46,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Mahabharata",
+        "difficulty": "Easy",
+        "question": "In 1919, the project to prepare a critical edition of the Mahabharata was headed by:",
+        "options": [
+            "(A) V.S. Sukthankar",
+            "(B) Alexander Cunningham",
+            "(C) John Marshall and Alfred Foucher",
+            "(D) Rajendra Lala Mitra"
+        ],
+        "answer": "(A) V.S. Sukthankar",
+        "explanation": "The critical edition of the Mahabharata was a monumental project undertaken by Indologists to compile a version of the epic by comparing manuscripts from various parts of the subcontinent. V.S. Sukthankar, a renowned Sanskrit scholar, led this ambitious project starting in 1919. His meticulous work involved collating thousands of Sanskrit manuscripts to establish a common text, which proved crucial for understanding ancient Indian narratives.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 47,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Permanent Settlement",
+        "difficulty": "Medium",
+        "question": "Arrange the following events in a chronological order:\n(A) English East India Company acquires 'Diwani' of Bengal\n(B) Permanent Settlement of Bengal\n(C) Regulating Act passed by the British Parliament\n(D) Ryots in Deccan villages rebel",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (A), (C), (B), (D)",
+        "explanation": "To arrange these events chronologically, one must recall their approximate dates. The English East India Company acquired the Diwani of Bengal in 1765. The Regulating Act was passed in 1773, followed by the Permanent Settlement of Bengal in 1793. Lastly, the Ryots in Deccan villages rebelled during the Deccan Riots of 1875, establishing the correct sequence.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 48,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Monastic Traditions",
+        "difficulty": "Easy",
+        "question": "Rules for Buddhist Bhikkhus and Bhikkhunis are listed in which among the following text?",
+        "options": [
+            "(A) Sutta Pitaka",
+            "(B) Abhidhamma Pitaka",
+            "(C) Vinaya Pitaka",
+            "(D) Divyavadan"
+        ],
+        "answer": "(C) Vinaya Pitaka",
+        "explanation": "The Buddhist canonical texts are primarily divided into three Pitakas, known as the Tripitaka. The Vinaya Pitaka specifically contains rules and regulations for the monastic order, governing the conduct of Buddhist monks (Bhikkhus) and nuns (Bhikkhunis). It outlines the disciplinary code necessary for maintaining the purity and order of the Sangha, distinguishing it from doctrinal or philosophical texts.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 49,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Economy",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Historical Evidences):\n(A) Reservoirs used to store water for agriculture\n(B) Terracotta models of the plough\n(C) Traces of canals\n(D) Evidence of a ploughed field\nList-II (Names of Places):\n(I) Shortughai (Afghanistan)\n(II) Kalibangan (Rajasthan)\n(III) Dholavira (Gujarat)\n(IV) Banawali (Haryana)",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "The Harappan civilization showcased advanced agricultural practices and water management. Dholavira is known for its elaborate water reservoirs, while Banawali yielded terracotta plough models. Traces of canals have been found at Shortughai, indicating irrigation, and Kalibangan provides early evidence of a ploughed field. Matching these specific archaeological findings to their respective sites correctly identifies the desired option.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 50,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Colonial Rule",
+        "difficulty": "Easy",
+        "question": "Who described the kingdom of Awadh as \"a cherry that will drop into our mouth one day\"?",
+        "options": [
+            "(A) Lord Dalhousie",
+            "(B) Lord William Bentinck",
+            "(C) Lord Hardinge",
+            "(D) Lord Canning"
+        ],
+        "answer": "(A) Lord Dalhousie",
+        "explanation": "Lord Dalhousie, who served as the Governor-General of India from 1848 to 1856, was a key proponent of annexation policies. He infamously described the rich kingdom of Awadh as \"a cherry that will drop into our mouth one day,\" highlighting his intention to annex it. Awadh was eventually annexed in 1856 on the pretext of misgovernance, a move that fueled significant resentment.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 51,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Architecture",
+        "difficulty": "Medium",
+        "question": "Choose the correct statements about the Virupaksha temple at Hampi:\n(A) The hall in front of the main shrine was built by Harihara and Bukka Raya to mark their accession.\n(B) It was decorated with delicately carved pillars.\n(C) The halls in the temple were used for programmes of music, dance, drama.\n(D) The temple was built over centuries.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(D) (B), (C) and (D) only",
+        "explanation": "The Virupaksha temple at Hampi indeed features exquisitely carved pillars and its various halls were vibrant centers for cultural performances like music, dance, and drama. The temple's construction spanned several centuries, showcasing continuous architectural development. However, the hall in front of the main shrine was primarily built by Krishnadeva Raya, not Harihara and Bukka Raya, making statement (A) incorrect.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 52,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Land Revenue",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Classification of Land under Akbar):\n(A) Land which is annually cultivated for each crop in succession and is never allowed to lie fallow\n(B) Land that has lain fallow for three or four years\n(C) Land left out of cultivation for a time that it may recover its strength\n(D) Land uncultivated for five years and more\nList-II (Terms):\n(I) Parauti\n(II) Banjar\n(III) Polaj\n(IV) Chachar",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "The Ain-i Akbari meticulously documented Akbar's land classification system for revenue assessment. Polaj referred to land continuously cultivated, while Parauti was left fallow for a short period to regain fertility. Chachar land lay fallow for three to four years, and Banjar was uncultivated for five years or more. This system ensured rational tax collection based on land productivity.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 53,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Family",
+        "difficulty": "Easy",
+        "question": "The term 'matrilocal' residence means:",
+        "options": [
+            "(A) The practice where men after marriage remain in their natal home and their wives may come to stay with them.",
+            "(B) The practice where men-women after marriage does not stay with their families and move to a new home.",
+            "(C) The practice where women after marriage remain in their natal home with their children and the husbands may come to stay with them.",
+            "(D) The practice where women after marriage move to the natal home of their husbands and their children stays with their parents."
+        ],
+        "answer": "(C) The practice where women after marriage remain in their natal home with their children and the husbands may come to stay with them.",
+        "explanation": "Matrilocal residence is a societal system where a married couple resides with or near the wife's parents. In this arrangement, the woman remains in her birth home, and her husband joins her there. This contrasts with patrilocal residence, where the wife moves to the husband's family home, highlighting distinct cultural practices in kinship and marriage.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 54,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Decline of Harappan Civilisation",
+        "difficulty": "Easy",
+        "question": "By c. 1800 BCE most of the Mature Harappan sites had been abandoned in regions such as",
+        "options": [
+            "(A) Kashmir",
+            "(B) Cholistan",
+            "(C) Western Uttar Pradesh",
+            "(D) Haryana"
+        ],
+        "answer": "(B) Cholistan",
+        "explanation": "Around 1800 BCE, significant changes occurred in the Harappan civilization, leading to the abandonment of many mature sites. The Cholistan region, characterized by its arid environment, saw a large-scale desertion of settlements. Populations subsequently shifted eastward towards regions like Gujarat, Haryana, and western Uttar Pradesh, marking a geographical redistribution of Harappan and post-Harappan communities.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 55,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Art and Architecture",
+        "difficulty": "Easy",
+        "question": "Images of Buddha and Bodhisattas that were evidently based on Greek models were found in which city?",
+        "options": [
+            "(A) Kanauj",
+            "(B) Taxila",
+            "(C) Nalanda",
+            "(D) Mahabalipuram"
+        ],
+        "answer": "(B) Taxila",
+        "explanation": "The city of Taxila, a prominent center in the ancient Gandhara region, is renowned for its unique art style that blended Indian and Hellenistic (Greek) influences. Sculptures of Buddha and Bodhisattas found here often exhibit features derived from Greek models, such as drapery, anatomical realism, and facial expressions. This fusion gave rise to the distinctive Gandhara school of art.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 56,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Spread of Buddhism",
+        "difficulty": "Easy",
+        "question": "Which texts contain the 'regional histories' of Buddhism?",
+        "options": [
+            "(A) Tipitakas",
+            "(B) Sutta Pitaka and Vinaya Pitaka",
+            "(C) Abhidhamma Pitaka",
+            "(D) Dipavamsa and Mahavamsa"
+        ],
+        "answer": "(D) Dipavamsa and Mahavamsa",
+        "explanation": "The Dipavamsa (Island Chronicle) and Mahavamsa (Great Chronicle) are ancient Buddhist chronicles originating from Sri Lanka. These texts provide valuable 'regional histories' of Buddhism, detailing its introduction to the island and its subsequent development there. They are crucial for understanding the historical spread and establishment of Buddhism in specific geographical contexts outside its initial Indian heartland.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 57,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Town Planning",
+        "difficulty": "Medium",
+        "question": "Choose the correct statements for distinctive features of the Harappan planned 'drainage system':\n(A) Roads and streets were laid out along an approximate \"grid\" pattern.\n(B) It seems that streets with drains were laid out first and then houses built along them.\n(C) Domestic waste water did not flow into the street drains.\n(D) Every house needs to have at least one wall along a street.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (B) and (D) only",
+        "explanation": "The Harappan civilization is renowned for its sophisticated urban planning, including a meticulously designed drainage system. Roads and streets were indeed laid out in a grid pattern, and the drainage infrastructure was often planned before houses were built. Furthermore, houses were designed to connect their domestic waste water into the street drains. Every house having a wall along the street facilitated access to these public drainage lines.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 58,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Mahabharata",
+        "difficulty": "Easy",
+        "question": "The original story of Mahabharata was probably composed by:",
+        "options": [
+            "(A) Charioteer-bards known as Sutas",
+            "(B) Rishi Agastaya",
+            "(C) Maharishi Valmiki",
+            "(D) Manu"
+        ],
+        "answer": "(A) Charioteer-bards known as Sutas",
+        "explanation": "Tradition attributes the composition of the Mahabharata to Vyasa, but early oral traditions suggest a different origin. The original story was likely composed by charioteer-bards, known as Sutas, who accompanied Kshatriya warriors to battles. They recited poems celebrating heroic deeds, and these narratives formed the foundational layers of the epic before being compiled and refined over centuries by Brahminical traditions.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 59,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Political System",
+        "difficulty": "Easy",
+        "question": "Gajapati was the ruling lineage of which state/region?",
+        "options": [
+            "(A) Karnataka",
+            "(B) Tamil Nadu",
+            "(C) Deccan",
+            "(D) Orissa"
+        ],
+        "answer": "(D) Orissa",
+        "explanation": "The term 'Gajapati' literally translates to 'lord of elephants', a title associated with powerful rulers. The Gajapati dynasty was a prominent Hindu medieval dynasty that ruled over the ancient kingdom of Kalinga, which largely corresponds to the modern-day state of Orissa (now Odisha). They were significant rivals and contemporaries of the Vijayanagara Empire, often engaging in conflicts over territory.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 60,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Political Systems",
+        "difficulty": "Easy",
+        "question": "The Rajasuya and Ashvamedha sacrifices were performed by",
+        "options": [
+            "(A) The chiefs and kings",
+            "(B) The heads of households",
+            "(C) The individual members of the Kula alone",
+            "(D) Members of the household collectively"
+        ],
+        "answer": "(A) The chiefs and kings",
+        "explanation": "The Rajasuya and Ashvamedha were elaborate Vedic sacrifices that played a crucial role in legitimizing and enhancing the power of rulers in ancient India. These grand rituals were exclusively performed by chiefs and kings to assert their sovereignty, demonstrate their might, and elevate their status among their peers and subjects. Such sacrifices were beyond the means and scope of ordinary households.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 61,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Francois Bernier",
+        "difficulty": "Easy",
+        "question": "Francois Bernier dedicated his major writings to which king of France?",
+        "options": [
+            "(A) Francis II",
+            "(B) Louis XI",
+            "(C) Louis XIV",
+            "(D) Charles II"
+        ],
+        "answer": "(C) Louis XIV",
+        "explanation": "Francois Bernier, a French physician and traveler, spent several years in India during the Mughal Empire. His significant work, 'Travels in the Mughal Empire,' provided detailed observations of Indian society, economy, and politics. He dedicated this influential account to King Louis XIV of France, known as the 'Sun King,' aiming to inform the monarch and the European public about the grandeur and complexities of the East.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 62,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Social Structure",
+        "difficulty": "Easy",
+        "question": "The Manusmriti mainly describes:",
+        "options": [
+            "(A) The reason for the conflict between the Kauravas and Pandavas.",
+            "(B) The different criteria suggested for becoming king.",
+            "(C) Codes of social behaviour.",
+            "(D) Gives details only about metronymics."
+        ],
+        "answer": "(C) Codes of social behaviour.",
+        "explanation": "The Manusmriti, or the Laws of Manu, is an ancient Indian legal and ethical text. It primarily details codes of social behavior, dharma (righteous conduct), and duties for various varnas and stages of life. While it touches upon governance, its main focus is on societal norms, family structure, inheritance, and legal procedures, serving as a foundational text for Hindu jurisprudence.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 63,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Mughal Administration",
+        "difficulty": "Medium",
+        "question": "Which details among the following were recorded by Ain-i Akbari? Identify the correct statements:\n(A) Account of the daily lives of ordinary peasants.\n(B) The arrangements made by the state to ensure cultivation.\n(C) The arrangements made to enable the collection of revenue by the agencies of the state.\n(D) The arrangements made to regulate the relationship between the state and the zamindars.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(D) (B), (C) and (D) only",
+        "explanation": "The Ain-i Akbari, written by Abul Fazl, is a comprehensive record of Akbar's administration. It meticulously details the state's arrangements for ensuring cultivation and efficient revenue collection, alongside regulating relationships with zamindars. While it provides statistics relevant to peasants, it does not offer narrative accounts of their daily lives. Therefore, statements (B), (C), and (D) are correct.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 64,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "British Accounts",
+        "difficulty": "Hard",
+        "question": "Match List-I with List-II:\nList-I (Painting/Illustration):\n(A) In Memoriam\n(B) Relief of Lucknow\n(C) Justice\n(D) Execution of mutinous sepoys in Peshawar\nList-II (Source):\n(I) Punch\n(II) London News\n(III) Joseph Noel Paton\n(IV) Thomas Jones Barker",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "This question tests knowledge of specific artworks and their creators related to the Revolt of 1857. 'In Memoriam' was painted by Joseph Noel Paton, depicting British women and children during the revolt. 'The Relief of Lucknow' is a famous work by Thomas Jones Barker. The satirical magazine 'Punch' often published cartoons like 'Justice', while 'London News' carried engravings such as 'Execution of mutinous sepoys in Peshawar', reflecting contemporary events.",
+        "a": 2.0,
+        "b": 1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 65,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Economy",
+        "difficulty": "Medium",
+        "question": "The Ain-i Akbari does not mention this crop in the lists of crops in northern India. Identify the crop?",
+        "options": [
+            "(A) Tobacco",
+            "(B) Cotton",
+            "(C) Mustard",
+            "(D) Rice"
+        ],
+        "answer": "(A) Tobacco",
+        "explanation": "The Ain-i Akbari, written by Abul Fazl during Emperor Akbar's reign in the late 16th century, provides a detailed account of the Mughal administration and economy, including agricultural produce. Tobacco was introduced to India by the Portuguese in the early 17th century, making its mention in the 16th-century text impossible. Therefore, it is the crop not listed among those in northern India during the period described by Ain-i Akbari.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 66,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Al-Biruni",
+        "difficulty": "Medium",
+        "question": "Identify the correct statements associated with Al-Biruni:\n(A) He was born in Khwarizm, in present day Uzbekistan.\n(B) He read the works of Plato and other Greek philosophers in Arabic translations.\n(C) Traveled to the Chinese port town of Zaytun and extensively in China, going as far as Beijing.\n(D) Wrote Kitab-ul-Hind, in Arabic, divided into 80 chapters on religion and philosophy, festivals, etc.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (B) and (D) only",
+        "explanation": "Al-Biruni, a renowned polymath, was indeed born in Khwarizm and was well-versed in Greek philosophy through Arabic translations. His seminal work, Kitab-ul-Hind, written in Arabic, offers an extensive overview of Indian society and culture, divided into 80 thematic chapters. However, Al-Biruni's travels primarily covered Central Asia, Persia, and the Indian subcontinent, and he did not travel to China.",
+        "a": 1.6,
+        "b": 0.3,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 67,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Hampi",
+        "difficulty": "Easy",
+        "question": "The ruins at 'Hampi' were brought to light in 1800 by",
+        "options": [
+            "(A) Colin Mackenzie",
+            "(B) Alexander Greenlaw",
+            "(C) John Marshall",
+            "(D) J.F. Fleet"
+        ],
+        "answer": "(A) Colin Mackenzie",
+        "explanation": "The ancient ruins of Hampi, the capital of the Vijayanagara Empire, were first brought to significant attention by Colin Mackenzie. As an engineer and antiquarian, he conducted the earliest surveys of the site in 1800. His meticulous work involved drawing maps and documenting the structures, thus revealing the grandeur of the fallen city to the broader academic world.",
+        "a": 1.0,
+        "b": -0.8,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 68,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Mahabharata",
+        "difficulty": "Medium",
+        "question": "Which of the following statements about the language of the text of the Mahabharata are true:\n(A) The Sanskrit used in the Mahabharata is far simpler than that of the Vedas.\n(B) The sections in the Mahabharata that contain stories are designated as the narrative.\n(C) The sections in the Mahabharata that contain prescriptions about social norms are designated as didactic.\n(D) The Mahabharata was meant to be a dramatic, moving story, and the narrative portions were probably added\nlater.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(B) (A), (B) and (C) only",
+        "explanation": "The Mahabharata's Sanskrit is notably simpler than that of the Vedas, making the epic more accessible to a wider audience. The text is structurally divided into narrative sections, which tell the stories, and didactic sections, which impart social norms and teachings. While the epic is a dramatic narrative, the core storytelling elements were not later additions; the didactic portions, however, may have been interpolated over time.",
+        "a": 1.55,
+        "b": 0.25,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 69,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Rise of Buddhism",
+        "difficulty": "Easy",
+        "question": "Where did the Buddha attain nibbana?",
+        "options": [
+            "(A) Lumbini",
+            "(B) Bodh Gaya",
+            "(C) Sarnath",
+            "(D) Kusingara"
+        ],
+        "answer": "(D) Kusingara",
+        "explanation": "Gautama Buddha attained Parinirvana, which signifies the ultimate state of nibbana (nirvana) after death, at Kushinagar. This sacred site is one of the four principal pilgrimage places in Buddhism. Other significant locations include Lumbini, his birthplace; Bodh Gaya, where he achieved enlightenment; and Sarnath, where he delivered his first sermon.",
+        "a": 0.9,
+        "b": -0.7,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 70,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Mahatma Gandhi",
+        "difficulty": "Easy",
+        "question": "Who was M.K. Gandhi's acknowledged political mentor?",
+        "options": [
+            "(A) Bal Gangadhar Tilak",
+            "(B) Lala Lajpat Rai",
+            "(C) Bipin Chandra Pal",
+            "(D) Gopal Krishna Gokhale"
+        ],
+        "answer": "(D) Gopal Krishna Gokhale",
+        "explanation": "Gopal Krishna Gokhale, a prominent leader of the moderate faction of the Indian National Congress, served as Mahatma Gandhi's acknowledged political mentor. Gokhale advised Gandhi to spend a year traveling across India to understand its people and conditions before actively joining the freedom movement. Their relationship was built on mutual respect and shared nationalistic ideals.",
+        "a": 0.85,
+        "b": -0.9,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 71,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Sufi Movement",
+        "difficulty": "Medium",
+        "question": "Where is the dargah of Shaikh Fariduddin Ganj-i Shakar located?",
+        "options": [
+            "(A) Ajmer",
+            "(B) Delhi",
+            "(C) Ajodhan",
+            "(D) Lucknow"
+        ],
+        "answer": "(C) Ajodhan",
+        "explanation": "The dargah (shrine) of the revered Sufi saint Shaikh Fariduddin Ganj-i Shakar, popularly known as Baba Farid, is situated in Ajodhan, which is now known as Pakpattan in modern-day Pakistan. Baba Farid was a significant figure in the Chishti order of Sufism and his teachings greatly influenced Punjabi culture and language. This makes Ajodhan a vital pilgrimage site for his followers.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 72,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Rural Society",
+        "difficulty": "Medium",
+        "question": "In Francis Buchanan's survey of the Dinajpur district in North Bengal, the class of rich peasants were known as",
+        "options": [
+            "(A) Zamindars",
+            "(B) Jotedars",
+            "(C) Adhiyars",
+            "(D) Bargadars"
+        ],
+        "answer": "(B) Jotedars",
+        "explanation": "During Francis Buchanan's survey of the Dinajpur district in North Bengal, a class of powerful rich peasants emerged, known as Jotedars. These Jotedars controlled significant land, often sub-letting it to sharecroppers (adhiyars or bargadars), and exercised considerable influence over local markets and money-lending. Their rise challenged the authority of the traditional zamindars in the region.",
+        "a": 1.35,
+        "b": 0.05,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 73,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Francois Bernier",
+        "difficulty": "Medium",
+        "question": "Which foreign traveller described what he saw in India as \"a bleak situation in comparison to developments in Europe\"?",
+        "options": [
+            "(A) Ibn Battuta",
+            "(B) Abdur Razzaq Samarqandi",
+            "(C) François Bernier",
+            "(D) Mahmud Wali Balkhi"
+        ],
+        "answer": "(C) François Bernier",
+        "explanation": "François Bernier, a French physician and traveler, provided extensive accounts of Mughal India during the 17th century. His observations frequently highlighted the stark contrast between India's socio-economic conditions and contemporary European developments, often presenting a critical and \"bleak\" perspective. Bernier's writings offer a valuable, albeit biased, European viewpoint on Mughal society.",
+        "a": 1.45,
+        "b": 0.15,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 74,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Agrarian Society",
+        "difficulty": "Medium",
+        "question": "In Mughal society, who were identified as the halalkhoran in Muslim communities?",
+        "options": [
+            "(A) Butchermen",
+            "(B) Boatmen",
+            "(C) Scavengers",
+            "(D) Fishermen"
+        ],
+        "answer": "(C) Scavengers",
+        "explanation": "In Mughal society, the term \"halalkhoran\" specifically referred to scavengers or those who performed tasks considered ritually unclean. This group occupied the lowest rung of the social hierarchy within Muslim communities, facing significant social exclusion and discrimination. Their status was comparable to that of 'untouchables' in the Hindu caste system, reflecting similar patterns of social stratification.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 75,
+        "subject": "Political Science",
+        "topic": "Making of the Constitution",
+        "subtopic": "Fundamental Rights",
+        "difficulty": "Easy",
+        "question": "Which Articles in the Constitution of India deal with the Fundamental Rights to \"freedom of religion\"?",
+        "options": [
+            "(A) Articles 14-16",
+            "(B) Articles 17-19",
+            "(C) Articles 29-30",
+            "(D) Articles 25-28"
+        ],
+        "answer": "(D) Articles 25-28",
+        "explanation": "The Constitution of India guarantees various Fundamental Rights to its citizens, enshrined in Part III. The right to freedom of religion is specifically covered under Articles 25 to 28. These articles ensure freedom of conscience, the right to profess, practice, and propagate religion, and freedom from religious taxes and attendance at religious instruction in certain educational institutions.",
+        "a": 1.1,
+        "b": -0.6,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 76,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Art and Architecture",
+        "difficulty": "Hard",
+        "question": "Arrange the following landmarks in the discovery and preservation of early monuments and sculpture in a chronological order:\n(A) H.H. Cole appointed Curator of Ancient Museums.\n(B) Alexander Cunningham published Bhilsa Topes, one of the earliest works on Sanchi.\n(C) Rajendra Lala Mitra published Buddha Gaya: The Heritage of Sakya Muni.\n(D) Founding of the Indian Museum, Calcutta.",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (D), (B), (C), (A)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (D), (B), (C), (A)",
+        "explanation": "The chronological order of these landmarks in Indian archaeology begins with the founding of the Indian Museum, Calcutta, in 1814. Alexander Cunningham's seminal work, \"Bhilsa Topes\" on Sanchi, was published in 1854, followed by Rajendra Lala Mitra's \"Buddha Gaya\" in 1878. H.H. Cole was subsequently appointed Curator of Ancient Monuments in the early 1880s, marking a crucial step in preservation efforts.",
+        "a": 1.9,
+        "b": 1.0,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 77,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Economic Systems",
+        "difficulty": "Medium",
+        "question": "In the Mauryan Empire, which centres were situated on important long-distance trade routes?",
+        "options": [
+            "(A) (A) and (B) only",
+            "(B) (B) and (C) only",
+            "(C) (C) and (D) only",
+            "(D) (D) and (A) only"
+        ],
+        "answer": "(A) (A) and (B) only",
+        "explanation": "The Mauryan Empire thrived on extensive trade networks, with certain cities serving as crucial hubs. Taxila, located in the northwest, was a gateway for trade with Central Asia, while Ujjayini was a key city on the overland route connecting North and South India. These strategic locations facilitated commercial exchange and economic prosperity within the empire.",
+        "a": 1.55,
+        "b": 0.25,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 78,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "Causes of Revolt",
+        "difficulty": "Easy",
+        "question": "Which region was called the \"nursery of the Bengal Army\"?",
+        "options": [
+            "(A) Mysore",
+            "(B) Berar",
+            "(C) Awadh",
+            "(D) Hyderabad"
+        ],
+        "answer": "(C) Awadh",
+        "explanation": "Awadh was historically known as the \"nursery of the Bengal Army\" because a significant proportion of the sepoys recruited into the British East India Company's Bengal Army hailed from this region. The annexation of Awadh by the British in 1856 on grounds of misgovernance deeply impacted these sepoys, contributing to the unrest leading to the Revolt of 1857. This term underscores the vital role Awadh played in supplying manpower to the colonial military forces.",
+        "a": 1.1,
+        "b": -0.75,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 79,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Inscriptions as Historical Sources",
+        "difficulty": "Easy",
+        "question": "Who deciphered the 'Brahmi' and 'Kharosthi' scripts?",
+        "options": [
+            "(A) Colin Mackenzie",
+            "(B) Alexander Cunningham",
+            "(C) James Prinsep",
+            "(D) D.C. Sircar"
+        ],
+        "answer": "(C) James Prinsep",
+        "explanation": "James Prinsep, a British antiquary and an officer in the East India Company's mint, made a monumental contribution to Indian history. In the 1830s, he successfully deciphered the ancient Brahmi and Kharosthi scripts. This breakthrough allowed for the reading of inscriptions from the Mauryan period, including those of Emperor Ashoka, providing invaluable insights into ancient Indian administration and society.",
+        "a": 1.05,
+        "b": -0.9,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 80,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "Leaders",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Leaders):\n(A) Nana Sahib\n(B) Rani Lakshmi Bai\n(C) Kunwar Singh\n(D) Birjis Qadr\nList-II (Region):\n(I) Jhansi\n(II) Arrah\n(III) Awadh\n(IV) Kanpur",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+            "(C) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(B) (A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+        "explanation": "The Revolt of 1857 saw various leaders emerge across different regions of India, each rallying support against British rule. Nana Sahib led the rebellion in Kanpur, while Rani Lakshmi Bai bravely fought in Jhansi. Kunwar Singh commanded forces in Arrah (Bihar), and Birjis Qadr was a key figure in Awadh. Matching these leaders to their respective regions is essential for understanding the geographical spread of the uprising.",
+        "a": 1.45,
+        "b": 0.15,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 81,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Land Revenue",
+        "difficulty": "Medium",
+        "question": "The Ain-i Akbari is made of five books. Which book of the Ain deals with the fiscal side of the Mughal Empire?",
+        "options": [
+            "(A) Manzil-abadi",
+            "(B) Sipah-abadi",
+            "(C) Mulk-abadi",
+            "(D) Suyurghal-abadi"
+        ],
+        "answer": "(C) Mulk-abadi",
+        "explanation": "The Ain-i Akbari, authored by Abul Fazl, provides a detailed account of Emperor Akbar's administration. It is divided into five 'daftars' or books, each focusing on different aspects of the empire. The 'Mulk-abadi' specifically describes the imperial fiscal regulations, land revenue system, and topography of the empire, making it a crucial source for understanding Mughal economic policies.",
+        "a": 1.65,
+        "b": 0.45,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 82,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Craft Production",
+        "difficulty": "Easy",
+        "question": "What stone was used in making the Harappan weights?",
+        "options": [
+            "(A) Chert",
+            "(B) Carnelian",
+            "(C) Steatite",
+            "(D) Quartz"
+        ],
+        "answer": "(A) Chert",
+        "explanation": "The Harappan civilization is renowned for its remarkably precise and standardized system of weights and measures. These weights were typically cubical and made from a dense, durable stone called chert. The use of chert ensured consistency and accuracy, facilitating fair trade and economic transactions throughout the vast Harappan network.",
+        "a": 0.95,
+        "b": -0.7,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 83,
+        "subject": "History",
+        "topic": "Indian Cinema",
+        "subtopic": "Satyajit Ray",
+        "difficulty": "Hard",
+        "question": "Which famous film by Satyajit Ray on the decline of the aristocratic zamindari style of living was shot in the\nAndul Raj Palace?",
+        "options": [
+            "(A) Pather Panchali",
+            "(B) Apur Sansar",
+            "(C) Aparajita",
+            "(D) Jalsaghar"
+        ],
+        "answer": "(D) Jalsaghar",
+        "explanation": "Satyajit Ray's critically acclaimed film 'Jalsaghar' (The Music Room) exquisitely portrays the decline of a proud zamindar and his aristocratic lifestyle in the face of changing times. The opulent Andul Raj Palace served as the perfect backdrop for this poignant narrative, enhancing the film's visual grandeur and thematic depth. This movie stands apart from his Apu Trilogy in its focus on the decaying feudal system.",
+        "a": 2.15,
+        "b": 1.1,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 84,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Rural Society",
+        "difficulty": "Medium",
+        "question": "In the 1800s, who were referred to as the dikus?",
+        "options": [
+            "(A) Merchants",
+            "(B) Santhals",
+            "(C) Moneylenders",
+            "(D) Artisans"
+        ],
+        "answer": "(C) Moneylenders",
+        "explanation": "The term 'dikus' was used by tribal communities, most notably the Santhals, to refer to outsiders who encroached upon their lands and exploited them during the 1800s. Moneylenders were a primary target of this term, as they often trapped tribal people in debt cycles, leading to land alienation. Merchants and zamindars were also included, but moneylenders represented a significant source of exploitation.",
+        "a": 1.5,
+        "b": 0.35,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 85,
+        "subject": "Political Science",
+        "topic": "Making of the Constitution",
+        "subtopic": "Features of the Indian Constitution",
+        "difficulty": "Easy",
+        "question": "Who moved the resolution proposing that the National Flag of India be a \"horizontal tricolour of saffron,\nwhite and dark green in equal proportion\", with a wheel in navy blue at the centre?",
+        "options": [
+            "(A) J.B. Kripalani",
+            "(B) H.C. Mookerjee",
+            "(C) Jawaharlal Nehru",
+            "(D) M.N. Venkatachaliah"
+        ],
+        "answer": "(C) Jawaharlal Nehru",
+        "explanation": "Jawaharlal Nehru, India's first Prime Minister, played a pivotal role in shaping the nation's identity. On July 22, 1947, he moved the historic resolution in the Constituent Assembly for the adoption of India's National Flag. This resolution precisely described the design of the flag as a horizontal tricolour with the Ashoka Chakra at its center, which was subsequently adopted.",
+        "a": 1.15,
+        "b": -0.65,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 86,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Ibn Battuta",
+        "difficulty": "Hard",
+        "question": "Which foreign traveller wrote, \"I am expected to keep two good Turkoman horses, and I also take with me a\npowerful Persian camel and driver, a groom for my horses, a cook and a servant to go before my horse with a flask\nof water in his hand, according to the custom of the country.\"",
+        "options": [
+            "(A) François Bernier",
+            "(B) Antonio Monserrate",
+            "(C) Jean-Baptiste Tavernier",
+            "(D) Duarte Barbosa"
+        ],
+        "answer": "(C) Jean-Baptiste Tavernier",
+        "explanation": "This vivid description of travel arrangements in India comes from the writings of Jean-Baptiste Tavernier, a French gem merchant who visited India multiple times in the 17th century. His accounts offer invaluable insights into the daily life, customs, and economic conditions of the Mughal Empire. Tavernier's detailed observations provide a unique window into the logistical complexities faced by travelers during that era.",
+        "a": 2.25,
+        "b": 1.25,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 87,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Nationalism",
+        "difficulty": "Easy",
+        "question": "Who gave the famous speech that began with the following lines:\n\"Long years ago we made a tryst with destiny, and now the time comes when we shall redeem our pledge, not\nwholly or in full measure, but very substantially.\"",
+        "options": [
+            "(A) Mohandas Karamchand Gandhi",
+            "(B) Jawaharlal Nehru",
+            "(C) Subhas Chandra Bose",
+            "(D) Vallabhbhai Patel"
+        ],
+        "answer": "(B) Jawaharlal Nehru",
+        "explanation": "This iconic statement is from the 'Tryst with Destiny' speech delivered by Jawaharlal Nehru. He addressed the Indian Constituent Assembly on the midnight of August 14-15, 1947, marking India's independence from British rule. The speech resonated deeply, articulating the aspirations and challenges of a newly independent nation and becoming a hallmark of Indian political discourse.",
+        "a": 1.0,
+        "b": -0.85,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 88,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Hampi",
+        "difficulty": "Medium",
+        "question": "Who brought the ruins of 'Hampi' to light in 1800?",
+        "options": [
+            "(A) Colin Mackenzie",
+            "(B) John Marshall",
+            "(C) J.F. Fleet",
+            "(D) Alexander Greenlaw"
+        ],
+        "answer": "(A) Colin Mackenzie",
+        "explanation": "The ruins of Hampi, the magnificent capital of the Vijayanagara Empire, were first brought to light by Colonel Colin Mackenzie in 1800. As the first Surveyor General of India, Mackenzie conducted extensive surveys and prepared the earliest maps of the site. His pioneering work initiated archaeological interest in Hampi, eventually leading to its recognition as a UNESCO World Heritage Site.",
+        "a": 1.35,
+        "b": 0.05,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 89,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Nationalism",
+        "difficulty": "Easy",
+        "question": "In which annual session of the Indian National Congress was the proclamation of commitment to \"Purna\nSwaraj\", or complete independence, taken?",
+        "options": [
+            "(A) Lahore, December 1929",
+            "(B) Lucknow, December 1916",
+            "(C) Calcutta, December 1920",
+            "(D) Delhi, December 1928"
+        ],
+        "answer": "(A) Lahore, December 1929",
+        "explanation": "The historic resolution for 'Purna Swaraj,' or complete independence from British rule, was adopted by the Indian National Congress at its Lahore session in December 1929. Presided over by Jawaharlal Nehru, this declaration marked a significant shift in the nationalist movement's objectives. Following this, January 26, 1930, was celebrated as 'Independence Day' across India, cementing the new goal.",
+        "a": 1.2,
+        "b": -0.7,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 90,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Colonial Rule",
+        "difficulty": "Medium",
+        "question": "Where was British colonial rule first established in the Indian subcontinent?",
+        "options": [
+            "(A) Calicut",
+            "(B) Surat",
+            "(C) Bengal",
+            "(D) Hyderabad"
+        ],
+        "answer": "(C) Bengal",
+        "explanation": "While the British established trading posts in coastal cities like Surat earlier, their colonial rule, marked by territorial control and direct administration, truly began in Bengal. Following the Battle of Plassey in 1757 and the Battle of Buxar in 1764, the British East India Company gained significant political and revenue rights over Bengal. This region served as the initial bedrock for the expansion of British power across the subcontinent.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 91,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Inscriptions as Historical Sources",
+        "difficulty": "Hard",
+        "question": "When was the first issue of Epigraphia Indica published?",
+        "options": [
+            "(A) 1877",
+            "(B) 1886",
+            "(C) 1888",
+            "(D) 1890"
+        ],
+        "answer": "(C) 1888",
+        "explanation": "Epigraphia Indica is a venerable journal dedicated to the study of Indian epigraphy, publishing inscriptions and ancient records. Its first issue was published in 1888, marking a significant milestone in systematic archaeological documentation in India. The journal has since been a crucial resource for scholars studying ancient and medieval Indian history through epigraphic evidence.",
+        "a": 1.95,
+        "b": 0.95,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 92,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "Causes of Revolt",
+        "difficulty": "Medium",
+        "question": "In the context of the Revolt of 1857, what does the term \"revolt\" refer primarily to?",
+        "options": [
+            "(A) The uprising of the sepoys",
+            "(B) The uprising of the peasants",
+            "(C) The uprising of the zamindars",
+            "(D) The uprising of the civilian population"
+        ],
+        "answer": "(D) The uprising of the civilian population",
+        "explanation": "While the Revolt of 1857 originated as a sepoy mutiny, it rapidly transformed into a widespread rebellion, drawing in diverse sections of society. The term 'revolt' primarily encompasses the uprising of the civilian population, which included peasants, zamindars, and other communities who joined the sepoys against British rule. This broad participation distinguished it from a mere military mutiny, signifying a general popular uprising.",
+        "a": 1.6,
+        "b": 0.55,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 93,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Bhakti Movement",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Religious Teachers):\n(A) Kabir\n(B) Tukaram\n(C) Chaitanya\n(D) Shaikh Ahmad Sirhind\nList-II (Place):\n(I) Maharashtra\n(II) Bengal\n(III) Haryana\n(IV) Uttar Pradesh",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+            "(C) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(B) (A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+        "explanation": "Understanding the geographical origins and spheres of influence of prominent religious teachers is key to comprehending India's Bhakti-Sufi traditions. Kabir, a revered poet-saint, hailed from Uttar Pradesh, particularly Varanasi. Tukaram was a prominent Bhakti poet from Maharashtra, while Chaitanya Mahaprabhu propagated Vaishnavism in Bengal. Shaikh Ahmad Sirhindi was an influential Sufi scholar associated with the Sirhind region, historically linked with Punjab and parts of present-day Haryana.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 94,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Kinship",
+        "difficulty": "Medium",
+        "question": "Which among the following rules about gotra are correct:\n(A) Women were expected to give up their father's gotra and adopt that of their husband on marriage.\n(B) Members of the same gotra could marry.\n(C) Members of the same gotra could not marry.\n(D) Women were expected to retain their father's gotra and not adopt that of their husband on marriage.",
+        "options": [
+            "(A) (C) and (D) only",
+            "(B) (A) and (B) only",
+            "(C) (A) and (C) only",
+            "(D) (B) and (D) only"
+        ],
+        "answer": "(C) (A) and (C) only",
+        "explanation": "The ancient Indian system of 'gotra' regulated marriage practices, emphasizing exogamy to prevent marriages within the same lineage. According to these rules, women were expected to relinquish their father's gotra upon marriage and assume their husband's gotra. Consequently, marriage between individuals belonging to the same gotra was strictly prohibited, reinforcing the lineage-based social structure of the time.",
+        "a": 1.55,
+        "b": 0.3,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 95,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Rise of Buddhism",
+        "difficulty": "Medium",
+        "question": "A philosopher named Ajita Kesakambalin taught: \"A human being is made up of the four elements. When he\ndies the earthy in him returns to the earth, the fluid to water, the heat to fire, the windy to air, and his senses pass\ninto space...\". Ajita Kesakambalin belonged to which tradition?",
+        "options": [
+            "(A) Ajivikas",
+            "(B) Lokayatas",
+            "(C) Mahayana",
+            "(D) Theravadins"
+        ],
+        "answer": "(B) Lokayatas",
+        "explanation": "Ajita Kesakambalin was a notable figure associated with the Lokayata, or Charvaka, school of ancient Indian philosophy. This tradition is characterized by its materialistic and skeptical views, often rejecting the concepts of soul, rebirth, and karma. The quoted teaching, emphasizing the dissolution of the body into its constituent elements upon death, perfectly aligns with the materialist doctrines of the Lokayatas, contrasting with other spiritual traditions.",
+        "a": 1.6,
+        "b": 0.4,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 96,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Archaeological Sources",
+        "difficulty": "Hard",
+        "question": "When was the 'Treasure Trove Act', giving the government the right to acquire all objects of archaeological\ninterest, passed?",
+        "options": [
+            "(A) 1854",
+            "(B) 1878",
+            "(C) 1880",
+            "(D) 1888"
+        ],
+        "answer": "(B) 1878",
+        "explanation": "The Indian Treasure Trove Act was enacted in 1878, a crucial piece of legislation in the colonial era for the preservation of cultural heritage. This act legally empowered the government to claim ownership of any treasure found that was deemed to be of archaeological, historical, or artistic interest. This measure aimed to protect valuable artifacts from being lost or privately exploited, facilitating their study and public display.",
+        "a": 2.1,
+        "b": 1.15,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 97,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Economic Systems",
+        "difficulty": "Easy",
+        "question": "What did the Greek word \"Erythraean\" refer to?",
+        "options": [
+            "(A) Red Sea",
+            "(B) Mediterranean Sea",
+            "(C) Caspian Sea",
+            "(D) Black Sea"
+        ],
+        "answer": "(A) Red Sea",
+        "explanation": "In ancient Greek geography, the term 'Erythraean Sea' was used to refer to the Red Sea, and sometimes more broadly to include the Persian Gulf and the Indian Ocean. This term is famously found in historical texts like 'The Periplus of the Erythraean Sea,' which describes trade routes and ports. The name is derived from the Greek word 'erythros' meaning red, referring to the characteristic color or possibly coral reefs.",
+        "a": 1.25,
+        "b": -0.45,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 98,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Cultural Developments",
+        "difficulty": "Hard",
+        "question": "In which Pali text, was the 'Bodhisattva' (the Buddha in a previous birth) identified as a chandala?",
+        "options": [
+            "(A) Uttaradhyana Sutta",
+            "(B) Dipavamsa",
+            "(C) Mahavamsa",
+            "(D) Matanga Jataka"
+        ],
+        "answer": "(D) Matanga Jataka",
+        "explanation": "The Matanga Jataka is one of the Jataka tales, which recount the previous births of the Buddha, often demonstrating moral principles. In this specific Pali text, the Bodhisattva (future Buddha) is depicted as having been born as Matanga, a Chandala, a member of the lowest social stratum. This narrative highlights the Buddhist emphasis on spiritual merit and moral conduct transcending social hierarchies and birth, promoting universal compassion.",
+        "a": 2.35,
+        "b": 1.55,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 99,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Political System",
+        "difficulty": "Easy",
+        "question": "Who composed Amuktamalyada, a work on statecraft in Telugu?",
+        "options": [
+            "(A) Bukka",
+            "(B) Harihara",
+            "(C) Krishnadeva Raya",
+            "(D) Rama Raya"
+        ],
+        "answer": "(C) Krishnadeva Raya",
+        "explanation": "Krishnadeva Raya, the most celebrated ruler of the Vijayanagara Empire (1509–1529), was not only a formidable warrior and administrator but also a renowned scholar and patron of art and literature. He himself composed the Telugu epic 'Amuktamalyada,' a significant work on statecraft and devotional poetry. This masterpiece showcases his intellectual prowess and his deep understanding of governance and devotion.",
+        "a": 1.05,
+        "b": -0.8,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 100,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Travellers' Accounts",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Travellers):\n(A) Al-Biruni\n(B) Ibn Battuta\n(C) Abd al-Razzaq\n(D) Seydi Ali Reis\nList-II (Country):\n(I) Morocco\n(II) Turkey\n(III) Uzbekistan\n(IV) Samarqand",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+            "(C) (A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(B) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+        "explanation": "Connecting medieval travelers to their countries of origin is crucial for understanding the diverse perspectives they brought to their accounts of India. Al-Biruni hailed from Khwarezm, modern-day Uzbekistan, while Ibn Battuta was a native of Morocco. Abd al-Razzaq was a Persian scholar from Samarqand, and Seydi Ali Reis was an Ottoman admiral from Turkey. These travelers provided invaluable historical records of their journeys.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 101,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Mughal Administration",
+        "difficulty": "Easy",
+        "question": "In the Mughal Empire, who was the amil-guzar?",
+        "options": [
+            "(A) Revenue Collector",
+            "(B) Merchant",
+            "(C) Spy",
+            "(D) Military Commander"
+        ],
+        "answer": "(A) Revenue Collector",
+        "explanation": "During the Mughal Empire, the 'amil-guzar' was a crucial official in the land revenue administration. His primary responsibility was to assess and collect revenue from a designated area, ensuring the efficient functioning of the state's fiscal system. The role of an amil-guzar was essential for maintaining the financial stability and economic structure of the vast Mughal domain, managing agricultural output effectively.",
+        "a": 1.1,
+        "b": -0.6,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 102,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Town Planning",
+        "difficulty": "Medium",
+        "question": "At which Harappan sites, the entire settlements were fortified?",
+        "options": [
+            "(A) Dholavira and Lothal",
+            "(B) Harappa and Mohenjodaro",
+            "(C) Cholistan and Banawali",
+            "(D) Nageshwar and Balakot"
+        ],
+        "answer": "(A) Dholavira and Lothal",
+        "explanation": "The Harappan civilization displayed remarkable urban planning, often including fortified structures. While major cities like Harappa and Mohenjodaro had fortified citadels, Dholavira and Lothal are notable for their comprehensive fortification systems. At Dholavira, the entire city, including its distinct tripartite divisions, was enclosed by massive walls. Similarly, Lothal's entire settlement, including the lower town, was surrounded by a strong fortification wall, indicating a sophisticated defense strategy.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 103,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Hampi",
+        "difficulty": "Easy",
+        "question": "Virupaksha, the guardian deity of the Vijayanagara Kingdom, is also recognised as a form of",
+        "options": [
+            "(A) Vishnu",
+            "(B) Agni",
+            "(C) Indra",
+            "(D) Shiva"
+        ],
+        "answer": "(D) Shiva",
+        "explanation": "Virupaksha was considered the state deity of the Vijayanagara rulers and an incarnation of Shiva, symbolizing the divine protection of the kingdom. The kings often ruled on behalf of Virupaksha, reflecting their devotion to this aspect of the Hindu deity. This tradition deeply integrated religious belief with political legitimacy within the empire.",
+        "a": 1.05,
+        "b": -0.8,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 104,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Political System",
+        "difficulty": "Medium",
+        "question": "In popular traditions of Vijayanagara, who are termed as ashvapati?",
+        "options": [
+            "(A) Rulers of Orissa",
+            "(B) Deccan Sultans",
+            "(C) Rayas",
+            "(D) Mughal Emperors"
+        ],
+        "answer": "(B) Deccan Sultans",
+        "explanation": "In Vijayanagara traditions, 'Ashvapati' (lords of horses) referred to the Deccan Sultans, highlighting their significant cavalry forces. Conversely, the Vijayanagara rulers themselves were often referred to as 'Narapati' (lords of men), signifying their large armies of foot soldiers. These terms delineated the distinct military strengths and identities of the rival powers.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 105,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Social Impact",
+        "difficulty": "Medium",
+        "question": "Who coined the terms \"great and little traditions\" in the twentieth century to describe the cultural practices\nof peasant societies?",
+        "options": [
+            "(A) Richard M. Eaton",
+            "(B) John Stratton Hawley",
+            "(C) David N. Lorenzo",
+            "(D) Robert Redfield"
+        ],
+        "answer": "(D) Robert Redfield",
+        "explanation": "The anthropologist Robert Redfield coined the terms 'great and little traditions' to analyze cultural practices in peasant societies. He posited that a 'great tradition' consists of the formalized, intellectualized culture of the elite, while a 'little tradition' encompasses the local, informal practices of common people. These concepts helped understand the interplay and transmission of cultural elements within a civilization.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 106,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "British Accounts",
+        "difficulty": "Medium",
+        "question": "In which sketch/painting, a figure stands firmly at the centre defending her honour, single-handedly killing the\nattacking rebels?",
+        "options": [
+            "(A) Relief of Lucknow",
+            "(B) In Memoriam",
+            "(C) Miss Wheeler",
+            "(D) Justice"
+        ],
+        "answer": "(C) Miss Wheeler",
+        "explanation": "The painting 'Miss Wheeler' depicts a heroic Englishwoman defending herself from attacking Indian rebels during the 1857 Revolt. This artwork was part of a broader British propaganda effort to portray themselves as valiant and righteous, while demonizing the rebels. Such images aimed to evoke sympathy and consolidate support for British rule.",
+        "a": 1.6,
+        "b": 0.4,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 107,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "Indian Representations",
+        "difficulty": "Easy",
+        "question": "Who is the author of the famous lines, \"Khoob lari mardani woh to Jhansi wali rani thi\" in reference to Rani\nLakshmi Bai?",
+        "options": [
+            "(A) Mahadevi Verma",
+            "(B) Jai Shankar Prasad",
+            "(C) Prem Chand",
+            "(D) Subhadra Kumari Chauhan"
+        ],
+        "answer": "(D) Subhadra Kumari Chauhan",
+        "explanation": "The iconic lines, 'Khoob lari mardani woh to Jhansi wali rani thi' were penned by the renowned Hindi poetess Subhadra Kumari Chauhan. This poem vividly celebrates the bravery and valor of Rani Lakshmi Bai, a key figure in the Revolt of 1857. It remains a powerful symbol of courage and resistance in Indian literature and history.",
+        "a": 1.1,
+        "b": -0.6,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 108,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "British Accounts",
+        "difficulty": "Medium",
+        "question": "Who painted \"In Memoriam\" after the Revolt of 1857?",
+        "options": [
+            "(A) Thomas Jones Barker",
+            "(B) Joseph Noel Paton",
+            "(C) Henry Lawrence",
+            "(D) Colin Campbell"
+        ],
+        "answer": "(B) Joseph Noel Paton",
+        "explanation": "Joseph Noel Paton painted 'In Memoriam' following the Revolt of 1857, portraying the vulnerability of British women and children. This painting evoked strong emotions of grief and anger among the British public, fueling calls for retribution against the rebels. It served as a powerful piece of visual propaganda, shaping perceptions of the revolt.",
+        "a": 1.55,
+        "b": 0.35,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 109,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "British Accounts",
+        "difficulty": "Medium",
+        "question": "Which of the following statement is not true about the painting \"In Memoriam\"?",
+        "options": [
+            "(A) It shows gory violence.",
+            "(B) It represents the rebels as violent and brutish.",
+            "(C) It seeks to provoke anger and fury.",
+            "(D) In the background, it shows the British rescue forces arriving as saviours."
+        ],
+        "answer": "(A) It shows gory violence.",
+        "explanation": "The painting 'In Memoriam' by Joseph Noel Paton primarily depicts British women and children huddled in fear, awaiting rescue, emphasizing pathos and vulnerability rather than explicit gore. While it aimed to provoke anger and portray rebels negatively, it generally did so by implying threat rather than direct, graphic violence. British rescue forces are often depicted or implied as arriving saviours, reinforcing a narrative of heroic intervention.",
+        "a": 1.65,
+        "b": 0.5,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 110,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "British Accounts",
+        "difficulty": "Medium",
+        "question": "A British journal illustrated a cartoon/sketch captioned, \"Well, then they shan't blow him from nasty guns; but\nhe must promise to be a good little sepoy.\" Identify the illustration.",
+        "options": [
+            "(A) Execution of Mutinous Sepoys in Peshawar",
+            "(B) Execution of Mutineers in Peshawar: Blowing from the Guns",
+            "(C) The Clemency of Canning",
+            "(D) The British Lion's Vengeance on the Bengal Tiger"
+        ],
+        "answer": "(C) The Clemency of Canning",
+        "explanation": "The caption, with its sarcastic tone about 'good little sepoy' and not blowing from guns, refers to Lord Canning's policy of clemency after the 1857 Revolt. This policy, which advocated for a milder approach towards some mutineers, was widely criticized and mocked by the British press. The illustration reflects this contemporary satire directed at Canning's perceived leniency.",
+        "a": 1.7,
+        "b": 0.6,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 111,
+        "subject": "History",
+        "topic": "Making of the Constitution",
+        "subtopic": "Constituent Assembly",
+        "difficulty": "Medium",
+        "question": "Who advocated that 'Hindi' must be used as language of constitution-making in the Constituent Assembly?",
+        "options": [
+            "(A) Jawaharlal Nehru",
+            "(B) Somnath Lahiri",
+            "(C) R.V. Dhulekar",
+            "(D) M.K. Gandhi"
+        ],
+        "answer": "(C) R.V. Dhulekar",
+        "explanation": "R.V. Dhulekar was a prominent advocate for Hindi to be used as the language of constitution-making within the Constituent Assembly. He passionately argued for the adoption of Hindi as the national language, reflecting a strong nationalist sentiment among some members. This stance sparked considerable debate among members with differing linguistic backgrounds and preferences.",
+        "a": 1.5,
+        "b": 0.25,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 112,
+        "subject": "History",
+        "topic": "Making of the Constitution",
+        "subtopic": "Constituent Assembly",
+        "difficulty": "Medium",
+        "question": "Who made a powerful plea in the Constituent Assembly for continuing separate electorates for the\nminorities?",
+        "options": [
+            "(A) B. Pocker Bahadur",
+            "(B) B.R. Ambedkar",
+            "(C) R.V. Dhulekar",
+            "(D) Govind Ballabh Pant"
+        ],
+        "answer": "(A) B. Pocker Bahadur",
+        "explanation": "B. Pocker Bahadur, a member from Madras, made a significant plea in the Constituent Assembly for the continuation of separate electorates for minorities. He argued that it was necessary to ensure adequate representation and protection of minority interests. However, his proposal was ultimately rejected due to concerns about further dividing the nation.",
+        "a": 1.6,
+        "b": 0.45,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 113,
+        "subject": "History",
+        "topic": "Making of the Constitution",
+        "subtopic": "Federalism",
+        "difficulty": "Easy",
+        "question": "The Draft Constitution provided for three lists of subjects. Which among the following is not one of them?",
+        "options": [
+            "(A) Union List",
+            "(B) State List",
+            "(C) Concurrent List",
+            "(D) Emergency List"
+        ],
+        "answer": "(D) Emergency List",
+        "explanation": "The Draft Constitution, and subsequently the Indian Constitution, established a federal system with a clear division of legislative powers through three lists. These lists are the Union List, State List, and Concurrent List, defining areas of exclusive central, state, or shared authority respectively. An 'Emergency List' does not exist as a separate category for legislative subjects.",
+        "a": 1.2,
+        "b": -0.3,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 114,
+        "subject": "History",
+        "topic": "Making of the Constitution",
+        "subtopic": "Constituent Assembly",
+        "difficulty": "Hard",
+        "question": "Who exhorted his colleagues to realise that the Constituent Assembly was British-made and was \"working the\nBritish plans as the British should like it to be worked out\"?",
+        "options": [
+            "(A) B.R. Ambedkar",
+            "(B) K. Santhanam",
+            "(C) Somnath Lahiri",
+            "(D) G. Durgabai"
+        ],
+        "answer": "(C) Somnath Lahiri",
+        "explanation": "Somnath Lahiri, a communist member of the Constituent Assembly, voiced strong skepticism regarding its independence from British influence. He argued that the assembly was a product of British planning and was operating according to British intentions. This perspective reflected a critical view on the transfer of power and the true autonomy of the newly formed assembly.",
+        "a": 1.9,
+        "b": 1.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 115,
+        "subject": "History",
+        "topic": "Making of the Constitution",
+        "subtopic": "Constituent Assembly",
+        "difficulty": "Medium",
+        "question": "Which of the following term did not exist in the Objectives Resolution introduced in the Constituent Assembly\non 13 December 1946?",
+        "options": [
+            "(A) Independent",
+            "(B) Sovereign",
+            "(C) Republic",
+            "(D) Socialist"
+        ],
+        "answer": "(D) Socialist",
+        "explanation": "The Objectives Resolution, moved by Jawaharlal Nehru in 1946, envisioned India as an 'Independent, Sovereign, Republic'. The term 'Socialist' was not originally included in this foundational document. It, along with 'Secular', was later added to the Preamble of the Constitution by the 42nd Amendment during the Emergency in 1976.",
+        "a": 1.7,
+        "b": 0.65,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 116,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Mughal Administration",
+        "difficulty": "Medium",
+        "question": "The Ain-i-Akbari does not give a detailed account of which among the following:",
+        "options": [
+            "(A) Mughal Art and Architecture",
+            "(B) Organisation of the Mughal Court",
+            "(C) Mughal Administration",
+            "(D) Mughal Army"
+        ],
+        "answer": "(A) Mughal Art and Architecture",
+        "explanation": "The Ain-i-Akbari, authored by Abul Fazl, is a comprehensive administrative manual of Akbar's reign, detailing the Mughal administration, court organization, and military structure. While it touches upon various aspects of society and economy, it does not provide a detailed account of Mughal art and architecture. Its primary focus is on governance and revenue, rather than artistic developments.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 117,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Sufi Movement",
+        "difficulty": "Hard",
+        "question": "Arrange the major Sufi-teachers of the Chisti-Silsila chronologically:\n(A) Khwaja Qutbuddin Bakhtiyar Kaki\n(B) Shaikh Nasiruddin Chirag-i-Dehli\n(C) Shaikh Nizamuddin Auliya\n(D) Shaikh Fariduddin Ganj-i Shakar",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (A), (D), (C), (B)",
+            "(D) (B), (D), (C), (A)"
+        ],
+        "answer": "(C) (A), (D), (C), (B)",
+        "explanation": "The correct chronological order of these prominent Chisti Sufi saints begins with Khwaja Qutbuddin Bakhtiyar Kaki, who was a disciple of Khwaja Moinuddin Chisti. He was followed by his disciple, Shaikh Fariduddin Ganj-i Shakar (Baba Farid). Shaikh Nizamuddin Auliya was a successor of Baba Farid, and finally, Shaikh Nasiruddin Chirag-i-Dehli was a disciple and successor of Nizamuddin Auliya.",
+        "a": 1.95,
+        "b": 1.2,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 118,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Administration",
+        "difficulty": "Medium",
+        "question": "Identify the correct statements for the army of the Mauryan Empire:\n(A) Megasthenes mentions a committee with six subcommittees for coordinating military activity.\n(B) One committee looked after the navy.\n(C) The second committee looked after transport and provisions.\n(D) The third committee was responsible for agriculture.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(B) (A), (B) and (C) only",
+        "explanation": "Megasthenes' account in 'Indica' describes the Mauryan military administration, highlighting a committee of thirty officials divided into six subcommittees. These subcommittees were responsible for the navy, transport and provisions, infantry, cavalry, chariots, and elephants. Agriculture was not a responsibility of the military committees, which focused solely on military coordination and logistics.",
+        "a": 1.7,
+        "b": 0.7,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 119,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Art and Architecture",
+        "difficulty": "Easy",
+        "question": "The symbol of the 'wheel' in many Buddhist sculptures stands for which representation?",
+        "options": [
+            "(A) Mahaniravana",
+            "(B) Buddha's Birth",
+            "(C) Enlightenment of Buddha",
+            "(D) First Sermon of Buddha"
+        ],
+        "answer": "(D) First Sermon of Buddha",
+        "explanation": "The 'Dharmachakra' or wheel is a significant symbol in Buddhist iconography, representing the First Sermon delivered by Buddha at Sarnath. This event is known as 'Dharma-chakra-pravartana,' meaning the turning of the wheel of dharma or law. The wheel symbolizes the dissemination of Buddha's teachings and the path to enlightenment.",
+        "a": 1.15,
+        "b": -0.4,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 120,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Political Systems",
+        "difficulty": "Medium",
+        "question": "Identify the principal deities of the 'Vedic' pantheon:",
+        "options": [
+            "(A) Agni, Indra, Soma",
+            "(B) Rudra, Durga, Soma",
+            "(C) Shiva, Subhadra, Balarama",
+            "(D) Indra, Soma, Jagannatha"
+        ],
+        "answer": "(A) Agni, Indra, Soma",
+        "explanation": "Agni (god of fire), Indra (warrior god), and Soma (deity associated with a sacred plant drink) were among the most prominent deities of the early Vedic pantheon. Their hymns constitute a significant portion of the Rigveda, reflecting their central role in Vedic rituals and beliefs. Other deities like Shiva (evolved from Rudra), Durga, Subhadra, Balarama, and Jagannatha gained prominence in later Puranic traditions.",
+        "a": 1.45,
+        "b": 0.15,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 121,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Hampi",
+        "difficulty": "Hard",
+        "question": "When did Alexander Greenlaw take the first detailed photographs of archaeological remains at Hampi?",
+        "options": [
+            "(A) 1857",
+            "(B) 1856",
+            "(C) 1877",
+            "(D) 1853"
+        ],
+        "answer": "(B) 1856",
+        "explanation": "Alexander Greenlaw took the first comprehensive set of detailed photographs of the archaeological ruins at Hampi in 1856. These photographs were crucial in documenting the extensive remains of the Vijayanagara capital, providing invaluable visual records for later researchers and historians. His work significantly contributed to the systematic study and preservation of Hampi's rich cultural heritage.",
+        "a": 2.0,
+        "b": 1.3,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 122,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Political Systems",
+        "difficulty": "Easy",
+        "question": "The epic Silappadikaram was written in which language?",
+        "options": [
+            "(A) Tamil",
+            "(B) Telugu",
+            "(C) Kannada",
+            "(D) Bengali"
+        ],
+        "answer": "(A) Tamil",
+        "explanation": "The epic 'Silappadikaram', meaning 'The Tale of an Anklet', is one of the five great epics of Tamil literature. It is a masterpiece of early Tamil poetry, recounting the tragic story of Kannagi. This literary work provides significant insights into the social, cultural, and religious life of ancient Tamil Nadu.",
+        "a": 1.0,
+        "b": -0.75,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 123,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Family",
+        "difficulty": "Medium",
+        "question": "What was the term used for 'the owner, master or head of household, who exercised control over the women,\nchildren etc.' in ancient texts?",
+        "options": [
+            "(A) Adimai",
+            "(B) Vellalar",
+            "(C) Gahapati",
+            "(D) Uzhavar"
+        ],
+        "answer": "(C) Gahapati",
+        "explanation": "In ancient Indian texts, particularly during the early historic period, 'Gahapati' was the term used for the master of the house or head of a household. A Gahapati typically held considerable authority over family members, including women, children, and sometimes even slaves and workers. This term signifies their social and economic dominance within the domestic sphere.",
+        "a": 1.4,
+        "b": 0.05,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 124,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Harappan Civilisation",
+        "difficulty": "Medium",
+        "question": "The distinctive Harappan pottery has not been found in which of the following states?",
+        "options": [
+            "(A) Rajasthan",
+            "(B) Punjab",
+            "(C) Madhya Pradesh",
+            "(D) Maharashtra"
+        ],
+        "answer": "(C) Madhya Pradesh",
+        "explanation": "Distinctive Harappan pottery has been extensively found in various sites located in modern-day Rajasthan, Punjab, and parts of Maharashtra, indicating the wide geographical spread of the civilization. However, major finds of distinctive Harappan pottery are generally absent from Madhya Pradesh, which lies outside the core and immediate peripheral regions of the Indus Valley Civilization. While some Chalcolithic cultures existed there, they were not typically associated with classic Harappan ceramic styles.",
+        "a": 1.6,
+        "b": 0.55,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 125,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Political System",
+        "difficulty": "Medium",
+        "question": "Who among the following took pride in the title \"establisher of the Yavana kingdom\":",
+        "options": [
+            "(A) Rama Raya",
+            "(B) Bukka",
+            "(C) Harihara",
+            "(D) Krishnadeva Raya"
+        ],
+        "answer": "(D) Krishnadeva Raya",
+        "explanation": "Krishnadeva Raya, the most famous ruler of the Vijayanagara Empire, adopted the title 'Yavanaraja Sthapanacharya', meaning 'establisher of the Yavana kingdom'. He earned this title by reinstating some Bahmani princes who had been displaced by their rivals. This action reflected his strategic brilliance and influence over the Deccan Sultanates.",
+        "a": 1.75,
+        "b": 0.75,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 126,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Bhakti Movement",
+        "difficulty": "Hard",
+        "question": "Identify the correct statements from below:\n(A) Verses ascribed to Kabir have been compiled in three distinct but overlapping traditions.\n(B) The Kabir Bijak is preserved by the Kabirpanth in Varanasi.\n(C) The Kabir Granthawali is associated with the Dadupanth in Maharashtra.\n(D) Many of Kabir's compositions are found in the Adi Granth Sahib.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (B) and (D) only",
+        "explanation": "Kabir's verses are indeed compiled in three distinct traditions: the Kabir Bijak, the Kabir Granthawali, and the Adi Granth Sahib. The Kabir Bijak is primarily preserved by the Kabirpanth sect in Varanasi, and many of Kabir's compositions are revered and included in the Sikh holy scripture, the Adi Granth Sahib. However, the Kabir Granthawali is associated with the Dadupanth in Rajasthan, not Maharashtra, making statement (C) incorrect.",
+        "a": 2.1,
+        "b": 1.5,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 127,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Rise of Buddhism",
+        "difficulty": "Medium",
+        "question": "Which text contains the verses on 'the nature of the self' and 'the true sacrifice' and was composed in 6thcentury BCE?",
+        "options": [
+            "(A) Chhandogya Upanishad",
+            "(B) Rigveda",
+            "(C) Dipavamsa",
+            "(D) Tipitaka"
+        ],
+        "answer": "(A) Chhandogya Upanishad",
+        "explanation": "The Upanishads are ancient Sanskrit texts of spiritual teachings and ideas that form the backbone of Hindu philosophical thought. The Chhandogya Upanishad, composed around the 6th century BCE, is one of the oldest and most important Upanishads. It contains profound dialogues and verses that explore the nature of the self (Atman), the ultimate reality (Brahman), and the deeper meaning of rituals like sacrifice.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 128,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Architecture",
+        "difficulty": "Easy",
+        "question": "Name the temple having \"scenes from the Ramayana sculpted on the inner walls of the shrine\" in the\nVijayanagara empire?",
+        "options": [
+            "(A) Pampadevi Temple",
+            "(B) Lotus Temple",
+            "(C) Virupaksha Temple",
+            "(D) Hazara Rama Temple"
+        ],
+        "answer": "(D) Hazara Rama Temple",
+        "explanation": "The Vijayanagara Empire, a prominent South Indian kingdom, was renowned for its rich architectural heritage. Among its many temples, the Hazara Rama Temple in Hampi stands out for its intricate sculptural details. This temple is specifically famous for having numerous scenes from the Hindu epic Ramayana beautifully carved onto the inner walls of its shrine.",
+        "a": 1.0,
+        "b": -0.8,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 129,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Agrarian Society",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Village Community Terms):\n(A) Kharbandi\n(B) Mawas\n(C) Begar\n(D) Muqaddam\nList-II (Meanings):\n(I) Place of Refuge\n(II) Village Headman\n(III) Scrubland\n(IV) Unpaid Labour\n\n1. (A)-(III), (B)-(II), (C)-(IV), (D)-(I)\n\n2. (A)-(IV), (B)-(III), (C)-(I), (D)-(II)\n\n3. (A)-(III), (B)-(I), (C)-(IV), (D)-(II)\n\n4. (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+        "options": [
+            "(A) (A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+            "(B) (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+            "(C) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+            "(D) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+        ],
+        "answer": "(C) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+        "explanation": "Mughal administration utilized a specific lexicon to describe various aspects of rural life and land management. Kharbandi referred to scrubland, an uncultivated area, while Mawas denoted a place of refuge, often a difficult terrain. Begar was a system of unpaid or forced labour, and the Muqaddam was the influential village headman responsible for local administration and revenue collection.",
+        "a": 1.4,
+        "b": 0.3,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 130,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Bhakti Movement",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Sacred Words):\n(A) Gurbani\n(B) Sangat\n(C) Ulatbansi\n(D) Vachanas\nList-II (Meanings):\n(I) Upside-down Sayings\n(II) Sayings\n(III) Congregational Worship\n(IV) Spiritual Hymns\n\n1. (A)-(III), (B)-(I), (C)-(II), (D)-(IV)\n\n2. (A)-(IV), (B)-(III), (C)-(II), (D)-(I)\n\n3. (A)-(IV), (B)-(II), (C)-(III), (D)-(I)\n\n4. (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+        "options": [
+            "(A) (A)-(III), (B)-(I), (C)-(II), (D)-(IV)",
+            "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+            "(C) (A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+            "(D) (A)-(IV), (B)-(III), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(D) (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+        "explanation": "Various devotional traditions in India developed their unique terminologies to express spiritual concepts and practices. Gurbani refers to the spiritual hymns and compositions of the Sikh Gurus, forming a core part of Sikh scripture. Sangat signifies the congregation of devotees for collective worship, a key aspect of Sikhism. Ulatbansi denotes paradoxical or \"upside-down\" sayings used by Bhakti saints like Kabir to convey deeper mystical truths. Vachanas are the devotional \"sayings\" of the Virashaiva saints from Karnataka.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 131,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Peasant Life",
+        "difficulty": "Medium",
+        "question": "Gonoo, the tribal cultivator of Singhbhum in Chotanagpur, became a rebel leader of which tribe?",
+        "options": [
+            "(A) Santhal",
+            "(B) Kol",
+            "(C) Urao",
+            "(D) Koeri"
+        ],
+        "answer": "(B) Kol",
+        "explanation": "The Chotanagpur plateau witnessed several significant tribal uprisings against British colonial rule and exploitative landlords. The Kol Rebellion of 1831-32 was one such major revolt, led by various tribal figures. Gonoo, a tribal cultivator from Singhbhum, emerged as a prominent rebel leader during this specific Kol uprising, advocating for his community's rights.",
+        "a": 1.45,
+        "b": 0.25,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 132,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Travellers' Accounts",
+        "difficulty": "Easy",
+        "question": "Abdur Razzaq, who visited Calicut (present-day Kozhikode) in the fifteenth-century, was:",
+        "options": [
+            "(A) Merchant of Aleppo",
+            "(B) Traveller from Basra",
+            "(C) Wrestler from Mysore",
+            "(D) Ambassador of Persia"
+        ],
+        "answer": "(D) Ambassador of Persia",
+        "explanation": "Many foreign travelers visited India during the medieval period, leaving valuable accounts of their observations and experiences. Abdur Razzaq was a Persian scholar and chronicler who served as an ambassador for the Timurid ruler Shahrukh. He famously traveled to Calicut and the Vijayanagara Empire in the 15th century, providing detailed descriptions of their societies and economies.",
+        "a": 1.1,
+        "b": -0.6,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 133,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Mass Movements",
+        "difficulty": "Medium",
+        "question": "Arrange the following events in chronological order:\n(A) Gandhi-Irwin Pact\n(B) Rowlatt Satyagraha\n(C) Civil Disobedience Movement\n(D) Quit India Movement",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (B), (C), (A), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (B), (C), (A), (D)",
+        "explanation": "The Indian nationalist movement under Mahatma Gandhi saw a series of significant events and campaigns. The Rowlatt Satyagraha occurred in 1919, protesting unjust laws. The Civil Disobedience Movement began in 1930 with the Salt March, leading to widespread protests. The Gandhi-Irwin Pact was signed in 1931, temporarily suspending the Civil Disobedience Movement. Finally, the Quit India Movement was launched in 1942, demanding immediate British withdrawal.",
+        "a": 1.4,
+        "b": 0.35,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 134,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Rise of Vijayanagara",
+        "difficulty": "Easy",
+        "question": "While historians use the term \"Vijayanagara empire\", contemporaries describe it as:",
+        "options": [
+            "(A) Karnataka Samrajyamu",
+            "(B) Hampi Samrajyamu",
+            "(C) Tamil Samrajyamu",
+            "(D) Virupaksha Samrajyamu"
+        ],
+        "answer": "(A) Karnataka Samrajyamu",
+        "explanation": "The Vijayanagara Empire, though called by historians as such, was referred to differently by its own people during its zenith. Contemporary inscriptions and literary records reveal how the empire was perceived internally. Its inhabitants and rulers often described their expansive realm as \"Karnataka Samrajyamu,\" signifying the empire of Karnataka.",
+        "a": 1.0,
+        "b": -0.7,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 135,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Political Systems",
+        "difficulty": "Easy",
+        "question": "Who composed the Harshacharita in Sanskrit?",
+        "options": [
+            "(A) Harisena",
+            "(B) Magha",
+            "(C) Kalidasa",
+            "(D) Banabhatta"
+        ],
+        "answer": "(D) Banabhatta",
+        "explanation": "Ancient Indian literature provides crucial insights into the political and social history of various periods. Harshacharita is a significant biographical work written in Sanskrit, detailing the life and achievements of Emperor Harsha of the Pushyabhuti dynasty. This historical biography was skillfully composed by Banabhatta, a distinguished court poet in Harsha's entourage.",
+        "a": 0.9,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 136,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Economy",
+        "difficulty": "Medium",
+        "question": "Merchants often had strong community or kin ties and were organised into their own caste-cum-occupational\nbodies. In western India, these groups were called as:",
+        "options": [
+            "(A) Karkhanadars",
+            "(B) Sheths",
+            "(C) Mahajans",
+            "(D) Mahaprathams"
+        ],
+        "answer": "(C) Mahajans",
+        "explanation": "During the Mughal period, trade and commerce flourished, supported by well-organized merchant communities. These communities often formed strong associations based on kinship or caste, particularly in western India. Such organized bodies of merchants in regions like Gujarat were commonly known as Mahajans, playing a crucial role in local trade networks.",
+        "a": 1.35,
+        "b": 0.1,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 137,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "Leaders",
+        "difficulty": "Medium",
+        "question": "Which leaders are directly related to the Revolt of 1857?\n(A) Maulvi Ahmadullah Shah\n(B) Rani Laxmi Bai\n(C) Nana Sahib\n(D) Sidhu Manjhi",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (B), (C) and (D) only",
+            "(D) (A), (B), (C) and (D)"
+        ],
+        "answer": "(B) (A), (B) and (C) only",
+        "explanation": "The Revolt of 1857 was a major uprising against British rule, involving numerous leaders across different regions of India. Maulvi Ahmadullah Shah was a prominent leader in Faizabad, while Rani Laxmi Bai valiantly led the resistance in Jhansi. Nana Sahib was a key figure in Kanpur; however, Sidhu Manjhi was associated with the Santhal Rebellion (1855-56), which predated the 1857 revolt.",
+        "a": 1.4,
+        "b": 0.2,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 138,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Bhakti Movement",
+        "difficulty": "Medium",
+        "question": "Which text is frequently described as the 'Tamil Veda'?",
+        "options": [
+            "(A) Nalayira Alavaram",
+            "(B) Nalayira Divyaprabandham",
+            "(C) Virashaiva Lingayam",
+            "(D) Bhagavata Purana"
+        ],
+        "answer": "(B) Nalayira Divyaprabandham",
+        "explanation": "The Bhakti movement in South India led to the creation of a rich corpus of devotional literature. The Nalayira Divyaprabandham is an extensive collection of 4,000 sacred verses composed by the twelve Alvar saints, who were devotees of Vishnu. This revered anthology is often described as the \"Tamil Veda\" due to its profound spiritual significance and influence in the Tamil devotional tradition.",
+        "a": 1.3,
+        "b": 0.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 139,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Mahajanapadas",
+        "difficulty": "Medium",
+        "question": "Which one of the following is not part of Kuru-Panchala region and its neighbouring areas?",
+        "options": [
+            "(A) Bodh Gaya",
+            "(B) Indraprastha",
+            "(C) Virata",
+            "(D) Hampi"
+        ],
+        "answer": "(D) Hampi",
+        "explanation": "The Kuru-Panchala region, along with its neighboring areas, constituted a significant part of ancient North India, particularly associated with the Mahajanapadas. Indraprastha and Virata were key cities or regions within or contiguous to this northern geopolitical landscape. Bodh Gaya, in Bihar, is also located in North India; however, Hampi, the site of the Vijayanagara Empire, is distinctly situated in South India, making it unrelated to the Kuru-Panchala sphere.",
+        "a": 1.4,
+        "b": 0.15,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 140,
+        "subject": "History",
+        "topic": "Making of the Constitution",
+        "subtopic": "Constituent Assembly",
+        "difficulty": "Medium",
+        "question": "Who made a powerful plea to continue 'separate electorates' on 27th August 1947?",
+        "options": [
+            "(A) Somnath Lahiri",
+            "(B) B. Pocker Bahadur",
+            "(C) B.R. Ambedkar",
+            "(D) Baldev Singh"
+        ],
+        "answer": "(B) B. Pocker Bahadur",
+        "explanation": "The debates within the Constituent Assembly on the issue of separate electorates were highly contentious, reflecting diverse opinions on minority rights. On 27th August 1947, B. Pocker Bahadur from Madras vociferously argued for the continuation of separate electorates. He believed this system was essential for ensuring adequate representation and protection of minority interests in the newly independent nation.",
+        "a": 1.55,
+        "b": 0.5,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 141,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Administration",
+        "difficulty": "Easy",
+        "question": "In the Vijayanagara empire, the amara-nayakas were",
+        "options": [
+            "(A) Tax-Collectors",
+            "(B) Cultural-Ambassadors",
+            "(C) Military-Commanders",
+            "(D) Agriculturists"
+        ],
+        "answer": "(C) Military-Commanders",
+        "explanation": "The Vijayanagara Empire had a distinctive administrative and military system that relied on regional chieftains. The amara-nayakas were powerful military commanders who were granted territories, known as amaram, by the king. In return for these grants, they were responsible for collecting taxes, maintaining a contingent of soldiers, and providing military service to the central authority, effectively acting as crucial military leaders.",
+        "a": 1.05,
+        "b": -0.75,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 142,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Political Systems",
+        "difficulty": "Medium",
+        "question": "Which king among the following is not a part of the Satavahana dynasty?",
+        "options": [
+            "(A) Svami-Sakasena",
+            "(B) Sri-Rudradaman",
+            "(C) Siri-Satakani",
+            "(D) Siri-Pulumayi"
+        ],
+        "answer": "(B) Sri-Rudradaman",
+        "explanation": "The Satavahana dynasty was a prominent ruling power in the Deccan region of ancient India. Rulers like Svami-Sakasena, Siri-Satakani (Gautamiputra Satakarni), and Siri-Pulumayi (Vashishtiputra Pulumayi) were integral members of this dynasty. In contrast, Sri-Rudradaman was a powerful king of the Western Kshatrapas, a Saka dynasty, who were often rivals of the Satavahanas.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 143,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Bhakti Movement",
+        "difficulty": "Medium",
+        "question": "According to some traditions, who was Mirabai's preceptor?",
+        "options": [
+            "(A) Kabirdas",
+            "(B) Chaitanya Mahaprabhu",
+            "(C) Raidas",
+            "(D) Shankaradeva"
+        ],
+        "answer": "(C) Raidas",
+        "explanation": "Mirabai, the renowned Rajput princess and ardent devotee of Lord Krishna, is a celebrated figure in the Bhakti tradition. While she was deeply devoted to Krishna, traditional accounts often identify her spiritual preceptor. According to popular tradition and hagiographical texts, Mirabai accepted Raidas (also known as Ravidas), a revered saint from the Chamar community, as her guru.",
+        "a": 1.45,
+        "b": 0.2,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 144,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Saints",
+        "difficulty": "Medium",
+        "question": "Identify the correct statements about Baba Guru Nanak from below:\n(A) Guru Nanak (1469-1539) was born into a Hindu merchant family in a village called Nankana Sahib.\n(B) Guru Nanak was trained to be an accountant and studied Persian.\n(C) Guru Nanak advocated a form of saguna bhakti.\n(D) Guru Nanak rejected sacrifices, ritual baths, image worship, austerities and the scriptures of both Hindus and\nMuslims.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (C) and (D) only",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (B) and (D) only",
+        "explanation": "Guru Nanak Dev, the founder of Sikhism, was born in Nankana Sahib into a Hindu merchant family and was trained as an accountant, demonstrating his early life details. He explicitly rejected various external religious practices like sacrifices, ritual baths, image worship, and austerities, emphasizing inner devotion. Significantly, Guru Nanak advocated for Nirguna bhakti, the worship of a formless and attributeless God, rather than Saguna bhakti which involves worshipping deities with form.",
+        "a": 1.6,
+        "b": 0.5,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 145,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "British Accounts",
+        "difficulty": "Hard",
+        "question": "Which source from 1857 published an illustration with the caption, \"The news of the terrible massacre at\nCawnpore (Kanpur) produced an outburst of fiery indignation and wild desire for revenge throughout the whole of\nEngland\"?",
+        "options": [
+            "(A) London News",
+            "(B) Justice, Punch",
+            "(C) The Times of India",
+            "(D) London Mirror"
+        ],
+        "answer": "(A) London News",
+        "explanation": "The British press played a significant role in shaping public opinion during the Revolt of 1857 by publishing sensationalized accounts and illustrations. \"The Illustrated London News\" was a prominent British periodical that extensively covered the events in India, particularly the massacre at Cawnpore. Its reports and vivid illustrations fueled public indignation and a desire for revenge across England.",
+        "a": 1.9,
+        "b": 0.9,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 146,
+        "subject": "History",
+        "topic": "Bhakti-Sufi Traditions",
+        "subtopic": "Bhakti Movement",
+        "difficulty": "Medium",
+        "question": "The term used by Kabir from Vedantic traditions to define the 'unseen' is:",
+        "options": [
+            "(A) Bani",
+            "(B) Nirakar",
+            "(C) Shabada",
+            "(D) Alakh"
+        ],
+        "answer": "(D) Alakh",
+        "explanation": "Kabir, a prominent Bhakti saint, drew upon various philosophical traditions to articulate his vision of the divine, which was formless and beyond human perception. From Vedantic traditions, he employed terms like 'Alakh' to describe the 'unseen' or ineffable aspect of God, emphasizing His transcendent nature. He also used 'Nirakar' to denote the formless quality of the ultimate reality.",
+        "a": 1.6,
+        "b": 0.6,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 147,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Teachings of Buddha",
+        "difficulty": "Easy",
+        "question": "Buddha's teachings have been reconstructed from stories, mainly found in the",
+        "options": [
+            "(A) Brahamanas",
+            "(B) Sutta Pitaka",
+            "(C) Therigathas",
+            "(D) Vinaya Pitaka"
+        ],
+        "answer": "(B) Sutta Pitaka",
+        "explanation": "The teachings of Buddha, which form the bedrock of Buddhism, were primarily orally transmitted before being compiled into written scriptures. These teachings have been systematically reconstructed and preserved through the Buddhist canon, known as the Tripitaka. The Sutta Pitaka, specifically, constitutes the main collection of the Buddha's discourses and sermons, serving as the primary source for understanding his doctrines.",
+        "a": 1.1,
+        "b": -0.5,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 148,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Mass Movements",
+        "difficulty": "Medium",
+        "question": "Arrange the following events chronologically:\n(A) Champaran Movement\n(B) Mahatma Gandhi's visit to Noakhali\n(C) Workers' Movement in Ahmedabad\n(D) Peasant Movement in Bardoli",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (A), (C), (D), (B)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(C) (A), (C), (D), (B)",
+        "explanation": "Mahatma Gandhi's leadership marked several crucial movements in India's struggle for independence. The Champaran Movement took place in 1917, followed by the Workers' Movement in Ahmedabad in 1918. The Peasant Movement in Bardoli occurred in 1928, showcasing satyagraha's effectiveness. Later, Mahatma Gandhi visited Noakhali during the communal violence of 1946-47, advocating for peace amidst partition.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 149,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Travellers' Accounts",
+        "difficulty": "Easy",
+        "question": "Which one of the following travelers did not travel to India during the 15th and 16th-century?",
+        "options": [
+            "(A) Nicolo de Conti",
+            "(B) Duarte Barbosa",
+            "(C) Fernao Nuniz",
+            "(D) Brandon Sanderson"
+        ],
+        "answer": "(D) Brandon Sanderson",
+        "explanation": "India attracted numerous travelers and chroniclers from various parts of the world during the medieval period, particularly the 15th and 16th centuries. Nicolo de Conti, Duarte Barbosa, and Fernao Nuniz were all actual historical figures who documented their visits to different regions of India during this era. Brandon Sanderson, however, is a contemporary American fantasy novelist, making his inclusion an obvious anachronism.",
+        "a": 0.8,
+        "b": -1.5,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 150,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Colonial Rule",
+        "difficulty": "Easy",
+        "question": "The 'diwani' of Bengal was transferred to the East India Company in which year?",
+        "options": [
+            "(A) 1757",
+            "(B) 1739",
+            "(C) 1765",
+            "(D) 1764"
+        ],
+        "answer": "(C) 1765",
+        "explanation": "The Battle of Buxar in 1764 was a decisive victory for the British East India Company against the combined forces of the Nawab of Awadh, the Nawab of Bengal, and the Mughal Emperor. Following this victory, the Mughal Emperor Shah Alam II granted the diwani, or the right to collect revenue, of Bengal, Bihar, and Orissa to the East India Company. This pivotal transfer occurred in the year 1765.",
+        "a": 1.0,
+        "b": -0.7,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 151,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Ashokan Inscriptions",
+        "difficulty": "Easy",
+        "question": "The Mauryan ruler, Asoka, is mentioned in the inscriptions as:",
+        "options": [
+            "(A) Rajah",
+            "(B) Maharajadhiraj",
+            "(C) Ashok Mahan",
+            "(D) Devanampiya Piyadassi"
+        ],
+        "answer": "(D) Devanampiya Piyadassi",
+        "explanation": "Ashoka, one of the most powerful Mauryan emperors, commissioned numerous inscriptions to propagate his Dhamma. In most of his edicts and inscriptions, Ashoka is not directly referred to by his personal name. Instead, he adopted the titles \"Devanampiya Piyadassi,\" meaning \"Beloved of the Gods\" and \"Of Beautiful Countenance,\" to refer to himself.",
+        "a": 1.1,
+        "b": -0.6,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 152,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Land Revenue",
+        "difficulty": "Medium",
+        "question": "Which one of the following is not related to agrarian terminology during the Mughal period?",
+        "options": [
+            "(A) Rabi",
+            "(B) Do-Fasla",
+            "(C) Halalkhoran",
+            "(D) Jins-i-Kamil"
+        ],
+        "answer": "(C) Halalkhoran",
+        "explanation": "Mughal agrarian terminology encompassed terms related to land, crops, and revenue administration. 'Rabi' referred to the autumn harvest, while 'Do-Fasla' indicated the practice of growing two crops annually. 'Jins-i-Kamil' designated \"perfect crops\" or high-value cash crops. 'Halalkhoran,' however, was a social term referring to a class of outcastes or scavengers, not a direct agrarian term.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 153,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Ashokan Inscriptions",
+        "difficulty": "Hard",
+        "question": "Identify the 'minor-rock edict' sites among the following:",
+        "options": [
+            "(A) Siddapur, Brahmagiri, Udegolam",
+            "(B) Rajula Mandagiri, Jatinga Rameshwar, Sopara",
+            "(C) Girnar, Sanchi, Sannati",
+            "(D) Gujarra, Rumindei, Meerut"
+        ],
+        "answer": "(A) Siddapur, Brahmagiri, Udegolam",
+        "explanation": "Ashoka's inscriptions are classified into Major Rock Edicts, Minor Rock Edicts, Pillar Edicts, and Cave Inscriptions. Minor Rock Edicts are generally shorter and often found in the southern parts of the empire, marking the emperor's routes. Siddapur, Brahmagiri, and Udegolam are three prominent and contiguous sites located in Karnataka where Ashoka's Minor Rock Edicts have been discovered.",
+        "a": 2.0,
+        "b": 1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 154,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Al-Biruni",
+        "difficulty": "Medium",
+        "question": "Identify the correct statements regarding Al-Biruni:\n(A) Al-Biruni was well versed in several languages: Persian, Hebrew, Sanskrit etc.\n(B) Al-Biruni was born in Syria.\n(C) Al-Biruni was familiar with the work of Plato and other Greek philosophers.\n(D) Al-Biruni read their work in Arabic translations.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (A), (C) and (D) only"
+        ],
+        "answer": "(D) (A), (C) and (D) only",
+        "explanation": "Al-Biruni was a polymath who indeed mastered multiple languages, including Persian, Hebrew, and Sanskrit, facilitating his vast studies and translations. He was born in Khwarazm, not Syria, making statement (B) incorrect. Al-Biruni deeply engaged with Greek philosophy, reading the works of thinkers like Plato through Arabic translations, which were prevalent in the Islamic world of his time. Therefore, statements (A), (C), and (D) accurately describe aspects of Al-Biruni's life and intellectual contributions, identifying the correct combination.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 155,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Mughal Administration",
+        "difficulty": "Easy",
+        "question": "Identify the most famous court-historian during Akbar's reign:",
+        "options": [
+            "(A) Mir Samad",
+            "(B) Mir Hasanuddin",
+            "(C) Abu'l Fazl",
+            "(D) Abu'l Nizami"
+        ],
+        "answer": "(C) Abu'l Fazl",
+        "explanation": "Abu'l Fazl was one of the 'Navaratnas' or nine jewels in Emperor Akbar's court. He is renowned as the primary chronicler and historian of Akbar's reign. His monumental work, the Akbarnama, provides a detailed account of Akbar's life, administration, and the history of his ancestors, solidifying his position as the most famous court historian.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 156,
+        "subject": "History",
+        "topic": "Medieval Society",
+        "subtopic": "Ibn Battuta",
+        "difficulty": "Medium",
+        "question": "Ibn Batutta returned to his home in _____ about thirty years after he had set out.",
+        "options": [
+            "(A) 1355",
+            "(B) 1334",
+            "(C) 1354",
+            "(D) 1356"
+        ],
+        "answer": "(C) 1354",
+        "explanation": "Ibn Battuta, the famous Moroccan explorer, began his extensive travels in 1325 CE. His journeys took him across Africa, the Middle East, Asia, and even into parts of Europe over nearly three decades. After covering vast distances and experiencing diverse cultures, he ultimately returned to his hometown of Tangier in Morocco in the year 1354 CE, marking approximately thirty years since his departure.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 157,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Mahatma Gandhi",
+        "difficulty": "Medium",
+        "question": "Who remarked that South Africa was \"the making of the Mahatma\":",
+        "options": [
+            "(A) Bipin Chandra Pal",
+            "(B) Lala Lajpat Rai",
+            "(C) Louis Fischer",
+            "(D) Chandran Devanesan"
+        ],
+        "answer": "(D) Chandran Devanesan",
+        "explanation": "Mahatma Gandhi's transformative experiences in South Africa, where he developed his philosophy of Satyagraha and civil resistance, were crucial in shaping his leadership. The historian Chandran Devanesan famously articulated this sentiment, recognizing the profound impact of Gandhi's time there. This period was instrumental in forging the leader who would later guide India's independence movement. Devanesan's quote aptly captures this developmental phase.",
+        "a": 1.55,
+        "b": 0.3,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 158,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Rise of Jainism",
+        "difficulty": "Easy",
+        "question": "The most important idea in _____ is that the entire world is animated.",
+        "options": [
+            "(A) Buddhism",
+            "(B) Hinduism",
+            "(C) Jainism",
+            "(D) Shaivism"
+        ],
+        "answer": "(C) Jainism",
+        "explanation": "Jainism is an ancient Indian religion that emphasizes non-violence and asceticism. A core principle of Jain philosophy is 'Anekantavada', which states that reality is multifaceted and that all living beings possess a soul. This belief extends to inanimate objects like stones and water, implying that the entire world is animated and deserving of respect and non-harm, directly supporting the idea presented in the question.",
+        "a": 1.1,
+        "b": -0.7,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 159,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Champaran Movement",
+        "difficulty": "Easy",
+        "question": "Identify the year of Champaran Movement:",
+        "options": [
+            "(A) 1917",
+            "(B) 1918",
+            "(C) 1921",
+            "(D) 1922"
+        ],
+        "answer": "(A) 1917",
+        "explanation": "The Champaran Movement, led by Mahatma Gandhi, marked his first Satyagraha experiment in India. This significant event occurred in 1917, addressing the grievances of indigo farmers in Bihar against exploitative British planters. It demonstrated the effectiveness of non-violent civil disobedience as a tool for social and political change, setting a precedent for future nationalist struggles.",
+        "a": 0.9,
+        "b": -1.2,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 160,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Trade and Commerce",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I:\n(A) Lapis Lazuli\n(B) Carnelian\n(C) Copper\n(D) Steatite\nList-II:\n(I) Khetri\n(II) South Rajasthan\n(III) Shortughai\n(IV) Lothal",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+            "(C) (A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "The matching involves identifying the sources of various materials used by the Harappan civilization. Lapis Lazuli was primarily sourced from Shortughai, Afghanistan, a distant Harappan outpost. Carnelian, a semi-precious stone, was found in places like Lothal in Gujarat. Copper was extensively mined from the Khetri mines in Rajasthan, while Steatite, used for seals and beads, was sourced from regions in South Rajasthan. This knowledge reveals the extensive trade networks and resource procurement strategies of the Harappans.",
+        "a": 1.6,
+        "b": 0.4,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 161,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "subtopic": "Mughal Administration",
+        "difficulty": "Medium",
+        "question": "Which Mughal chronicle mentions the irrigation devices of Northern India?",
+        "options": [
+            "(A) Akbar Nama",
+            "(B) Babur Nama",
+            "(C) Ain-i Akbari",
+            "(D) Shah Nama"
+        ],
+        "answer": "(C) Ain-i Akbari",
+        "explanation": "The Ain-i Akbari, authored by Abu'l Fazl, is a comprehensive administrative manual of Akbar's empire. This detailed document meticulously records various aspects of the Mughal administration, including land revenue systems, agricultural practices, and technological innovations. It specifically describes different types of irrigation devices used in Northern India, offering valuable insights into the agrarian economy of the period. This chronicle is an invaluable historical source for understanding the economic and social conditions under Akbar.",
+        "a": 1.35,
+        "b": 0.05,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 162,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Colonial Rule",
+        "difficulty": "Easy",
+        "question": "Who introduced the Subsidiary Alliance in Awadh (1801)?",
+        "options": [
+            "(A) Lord Hardinge",
+            "(B) Lord Hastings",
+            "(C) Lord Wellesley",
+            "(D) Lord Cornwallis"
+        ],
+        "answer": "(C) Lord Wellesley",
+        "explanation": "The Subsidiary Alliance system was a crucial instrument for the British East India Company to expand its control over Indian states. Lord Wellesley, Governor-General of India from 1798 to 1805, is credited with introducing and widely implementing this system. Under his tenure, Awadh was compelled to accept the Subsidiary Alliance in 1801, effectively losing its sovereignty and becoming dependent on British military protection. This policy was central to British imperial expansion.",
+        "a": 1.05,
+        "b": -0.8,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 163,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Ashokan Inscriptions",
+        "difficulty": "Easy",
+        "question": "Most Ashokan inscriptions were in _____ language.",
+        "options": [
+            "(A) Sanskrit",
+            "(B) Pali",
+            "(C) Prakrit",
+            "(D) Arabic"
+        ],
+        "answer": "(C) Prakrit",
+        "explanation": "Emperor Ashoka's inscriptions, disseminated widely across his vast empire, were predominantly written in Prakrit. This was a group of Middle Indo-Aryan vernacular languages, more accessible to the common populace than classical Sanskrit. The use of Prakrit, along with the Brahmi script for most of these edicts, ensured that Ashoka's messages of Dhamma and peace reached a broader audience, reflecting his inclusive governance philosophy.",
+        "a": 0.95,
+        "b": -1.1,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 164,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Rural Society",
+        "difficulty": "Medium",
+        "question": "Identify the region where the Jotedars were most powerful in the 18th-century:",
+        "options": [
+            "(A) East-Bihar",
+            "(B) United-Provinces",
+            "(C) West-Punjab",
+            "(D) North-Bengal"
+        ],
+        "answer": "(D) North-Bengal",
+        "explanation": "Jotedars emerged as a powerful class of rich peasants in the countryside of Bengal during the 18th century, particularly prominent in North Bengal. They often controlled vast tracts of land, managing local trade and money lending, and holding significant influence over the village peasants. Their power frequently challenged that of the zamindars and local authority of the British administration, creating a complex agrarian hierarchy in the region.",
+        "a": 1.45,
+        "b": 0.15,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 165,
+        "subject": "History",
+        "topic": "Harappan Civilisation",
+        "subtopic": "Economy",
+        "difficulty": "Medium",
+        "question": "Identify the regions where archaeologists have found the terracotta models of the 'plough' and evidence of ploughed field?",
+        "options": [
+            "(A) Cholistan, Banawali and Kalibangan",
+            "(B) Ganweriwala, Mitathal and Harappa",
+            "(C) Ameri, Balakot and Siswal",
+            "(D) Manda, Sutkagendor and Amravar"
+        ],
+        "answer": "(A) Cholistan, Banawali and Kalibangan",
+        "explanation": "Archaeological excavations have provided significant evidence regarding agricultural practices in the Harappan civilization. A well-preserved ploughed field, showing furrows, was famously discovered at Kalibangan in Rajasthan. Furthermore, terracotta models of the plough, indicative of its use, have been unearthed at sites such as Banawali in Haryana and several sites in Cholistan. These findings collectively confirm the advanced agricultural methods employed by the Harappans.",
+        "a": 1.5,
+        "b": 0.25,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 166,
+        "subject": "History",
+        "topic": "Revolt of 1857",
+        "subtopic": "British Accounts",
+        "difficulty": "Hard",
+        "question": "Who wrote the earliest histories of the uprising (1857), noting that, \"the panchayats were a nightly occurrence in the Kanpur Sepoy lines\"?",
+        "options": [
+            "(A) James Outram",
+            "(B) Charles Mason",
+            "(C) Charles Ball",
+            "(D) Captain Hearsey"
+        ],
+        "answer": "(C) Charles Ball",
+        "explanation": "Charles Ball, a contemporary British historian, is credited with authoring one of the earliest comprehensive accounts of the 1857 uprising. His work, 'The History of the Indian Mutiny,' provided significant insights into the events and conditions leading to the revolt. Ball meticulously documented observations, including the crucial detail about 'panchayats being a nightly occurrence in the Kanpur Sepoy lines,' highlighting the organized nature of the rebels' planning. This statement is a direct quote from his historical writings.",
+        "a": 1.9,
+        "b": 1.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 167,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Political Systems",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I (Ruler):\n(A) Asoka\n(B) Kanishka\n(C) Samudragupta\n(D) Rudradaman\nList-II (Dynasty):\n(I) Maurya\n(II) Gupta\n(III) Kushana\n(IV) Shaka",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+        "explanation": "This question requires matching prominent ancient Indian rulers with their respective dynasties. Emperor Ashoka famously belonged to the Maurya Dynasty, known for its extensive empire. Kanishka was a powerful ruler of the Kushana Dynasty, which flourished in parts of North India and Central Asia. Samudragupta was a renowned emperor of the Gupta Dynasty, often called the 'Napoleon of India'. Finally, Rudradaman I was a significant ruler of the Western Satraps, who were part of the Shaka Dynasty. This combination correctly links each ruler to their historical lineage.",
+        "a": 1.55,
+        "b": 0.35,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 168,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Peasant Life",
+        "difficulty": "Hard",
+        "question": "Arrange the following events in a chronological order:\n(A) Ryots in Deccan villages rebel\n(B) Santhal Rebellion\n(C) Permanent Settlement in Bengal\n(D) First revenue settlement in the Bombay Deccan",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (D), (B), (A)"
+        ],
+        "answer": "(D) (C), (D), (B), (A)",
+        "explanation": "To arrange these events chronologically, we must recall their respective years. The Permanent Settlement in Bengal was enacted in 1793. The first revenue settlements in the Bombay Deccan, primarily under the Ryotwari system, began in the early 1820s. The Santhal Rebellion occurred in 1855-56, protesting against exploitation by moneylenders and zamindars. Finally, the Ryots in Deccan villages rebelled during the Deccan Riots of 1875. Thus, the correct sequence is (C) 1793, (D) ~1820s, (B) 1855-56, (A) 1875.",
+        "a": 1.85,
+        "b": 0.9,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 169,
+        "subject": "History",
+        "topic": "Early States",
+        "subtopic": "Mauryan Empire",
+        "difficulty": "Easy",
+        "question": "Who founded the Mauryan Empire in c. 321 BCE?",
+        "options": [
+            "(A) Asoka",
+            "(B) Bimbisara",
+            "(C) Kautilya Maurya",
+            "(D) Chandragupta Maurya"
+        ],
+        "answer": "(D) Chandragupta Maurya",
+        "explanation": "The Mauryan Empire, one of India's most powerful ancient empires, was founded by Chandragupta Maurya. He successfully overthrew the Nanda dynasty around 322-321 BCE, establishing a vast and centralized state. His advisor Chanakya (Kautilya) played a crucial role in his ascension, but Chandragupta himself was the empire's founder. Ashoka, Bimbisara, and Kautilya Maurya were important figures but not the founder.",
+        "a": 0.85,
+        "b": -1.5,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 170,
+        "subject": "History",
+        "topic": "Buddhism and Jainism",
+        "subtopic": "Cultural Developments",
+        "difficulty": "Medium",
+        "question": "Which Jataka story describes the plight of the subjects of a wicked king: these included elderly women and men, cultivators, herders, village boys, and even animals?",
+        "options": [
+            "(A) Panchatantra Jataka",
+            "(B) Abhidhamma Jataka",
+            "(C) Gandatindu Jataka",
+            "(D) Jivika Jataka"
+        ],
+        "answer": "(C) Gandatindu Jataka",
+        "explanation": "The Jataka tales are a voluminous body of literature concerning the previous births of Gautama Buddha. The Gandatindu Jataka specifically narrates the story of a wicked king whose misrule caused immense suffering to all his subjects, encompassing elderly individuals, cultivators, herders, village children, and even animals. This tale effectively illustrates the consequences of unjust governance, highlighting the widespread impact on society and nature, making it the correct answer.",
+        "a": 1.6,
+        "b": 0.5,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 171,
+        "subject": "History",
+        "topic": "Colonialism and Rural Society",
+        "subtopic": "Official Reports",
+        "difficulty": "Medium",
+        "question": "Francis Buchanan was a physician who came to India and served in the Bengal Medical Service from:",
+        "options": [
+            "(A) 1784 to 1905",
+            "(B) 1794 to 1815",
+            "(C) 1799 to 1820",
+            "(D) 1788 to 1910"
+        ],
+        "answer": "(B) 1794 to 1815",
+        "explanation": "Francis Buchanan (later Hamilton) was a Scottish physician and naturalist who made significant contributions to the survey and documentation of India. He served in the Bengal Medical Service of the British East India Company during a specific period. His tenure spanned from 1794 to 1815, during which he conducted extensive surveys of natural resources, topography, and ethnography, producing detailed reports invaluable for historical and scientific study. This specific period is crucial for understanding his colonial scientific work.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 172,
+        "subject": "History",
+        "topic": "Social Histories",
+        "subtopic": "Social Structure",
+        "difficulty": "Easy",
+        "question": "Who composed the Natyashastra in Sanskrit?",
+        "options": [
+            "(A) Panini",
+            "(B) Ashvaghosh",
+            "(C) Charaka",
+            "(D) Bharata"
+        ],
+        "answer": "(D) Bharata",
+        "explanation": "The Natyashastra is an ancient Indian treatise on the performing arts, encompassing theatre, dance, and music. Its authorship is traditionally attributed to Bharata Muni, a revered sage. This comprehensive text provides detailed guidelines on dramaturgy, acting, stage design, music theory, and various forms of expression. It serves as a foundational text for Indian classical performing arts, making Bharata Muni the acclaimed composer of this significant Sanskrit work.",
+        "a": 1.0,
+        "b": -0.9,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 173,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Architecture",
+        "difficulty": "Easy",
+        "question": "'Gopurams' are important feature of which building during Krishnadeva Raya's rule?",
+        "options": [
+            "(A) Forts",
+            "(B) Roads",
+            "(C) Temples",
+            "(D) Tanks"
+        ],
+        "answer": "(C) Temples",
+        "explanation": "Gopurams are magnificent, towering gateways, intricately carved and painted, that form a distinctive feature of South Indian temple architecture. During the Vijayanagara Empire, particularly under rulers like Krishnadeva Raya, the construction of grand temples was a hallmark of their reign. These rulers significantly enhanced the aesthetic and structural grandeur of temple complexes, with gopurams serving as imposing entrances that visually dominated the sacred precincts. They are quintessentially associated with temples.",
+        "a": 0.9,
+        "b": -1.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 174,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Political System",
+        "difficulty": "Medium",
+        "question": "Who inflicted severe defeats on the Sultan of Bijapur (1520)?",
+        "options": [
+            "(A) Rama Raya",
+            "(B) Krishnadeva Raya",
+            "(C) Harihara",
+            "(D) Hoysalas"
+        ],
+        "answer": "(B) Krishnadeva Raya",
+        "explanation": "Krishnadeva Raya was the most illustrious ruler of the Tuluva Dynasty of the Vijayanagara Empire, reigning from 1509 to 1529. His period was marked by military successes and cultural flourishing. In 1520, he famously inflicted a decisive defeat on the Sultan of Bijapur in the Battle of Raichur, a pivotal victory that solidified Vijayanagara's dominance in the Deccan region. This event highlights his military prowess.",
+        "a": 1.4,
+        "b": 0.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 175,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Rise of Vijayanagara",
+        "difficulty": "Medium",
+        "question": "Which was the second dynasty of the Vijayanagara Empire?",
+        "options": [
+            "(A) Sangama Dynasty",
+            "(B) Tuluvas Dynasty",
+            "(C) Saluvas Dynasty",
+            "(D) Aravidu Dynasty"
+        ],
+        "answer": "(C) Saluvas Dynasty",
+        "explanation": "The Vijayanagara Empire, a prominent South Indian kingdom, was ruled by four successive dynasties. The Sangama Dynasty was the first to establish the empire, followed by the Saluvas, who took power in a bloodless coup. Subsequently, the Tuluvas rose to prominence, and finally, the Aravidu Dynasty governed until the empire's eventual decline. Therefore, the Saluva Dynasty correctly identifies the second ruling line of the Vijayanagara Empire.",
+        "a": 1.3,
+        "b": -0.1,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 176,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Political System",
+        "difficulty": "Easy",
+        "question": "The 'Raichur-Doab' is the land between which among the following rivers:",
+        "options": [
+            "(A) Tungabhadra and Kaveri",
+            "(B) Tungabhadra and Krishna",
+            "(C) Krishna and Kaveri",
+            "(D) Tungabhadra and Shipra"
+        ],
+        "answer": "(B) Tungabhadra and Krishna",
+        "explanation": "A 'Doab' refers to a fertile tract of land situated between two converging rivers. The Raichur Doab is a historically significant and highly fertile region located between the Tungabhadra River to the south and the Krishna River to the north. This strategic and agriculturally rich area was a constant source of conflict and contention between powerful kingdoms like the Vijayanagara Empire and the Bahmani Sultanate, highlighting its immense value in medieval Indian history.",
+        "a": 1.15,
+        "b": -0.5,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 177,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "subtopic": "Architecture",
+        "difficulty": "Medium",
+        "question": "Identify the township named after Krishnadeva Raya's mother during his reign?",
+        "options": [
+            "(A) Vijayanagara",
+            "(B) Hampi",
+            "(C) Orissa",
+            "(D) Nagalapuram"
+        ],
+        "answer": "(D) Nagalapuram",
+        "explanation": "Krishnadeva Raya, the most renowned ruler of the Vijayanagara Empire, was a great patron of art, architecture, and urban development. He founded a suburban township near the capital city of Vijayanagara, naming it Nagalapuram. This new settlement was built in honor of his beloved mother, Nagala Devi. This act reflects a common practice among Indian rulers to commemorate family members through monumental constructions, showcasing their devotion and legacy.",
+        "a": 1.45,
+        "b": 0.2,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 178,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Nationalism",
+        "difficulty": "Easy",
+        "question": "Identify the month and year of 'Jallianwala Bagh Massacre':",
+        "options": [
+            "(A) March 1919",
+            "(B) April 1919",
+            "(C) April 1918",
+            "(D) March 1914"
+        ],
+        "answer": "(B) April 1919",
+        "explanation": "The Jallianwala Bagh Massacre is a tragic and pivotal event in Indian history, marking a brutal act of repression by the British. It occurred on 13 April 1919, when troops under the command of General Dyer opened fire on a large, unarmed crowd of Indians gathered in Amritsar. This horrific incident fueled widespread anger and significantly intensified the Indian nationalist movement against British rule. The precise date is critical for understanding its historical context.",
+        "a": 0.9,
+        "b": -1.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 179,
+        "subject": "History",
+        "topic": "World History",
+        "subtopic": "Major Wars",
+        "difficulty": "Easy",
+        "question": "Identify the timeline of the 'First World War':",
+        "options": [
+            "(A) 1912-14",
+            "(B) 1913-16",
+            "(C) 1914-18",
+            "(D) 1914-20"
+        ],
+        "answer": "(C) 1914-18",
+        "explanation": "The First World War, a global conflict involving the Central Powers and the Allies, commenced in 1914. This devastating war, which reshaped the geopolitical landscape of the 20th century, lasted for four years. It officially concluded with the armistice signed on November 11, 1918. Therefore, the timeline from 1914 to 1918 accurately represents the duration of this pivotal international conflict.",
+        "a": 0.8,
+        "b": -1.8,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 180,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Nationalism",
+        "difficulty": "Easy",
+        "question": "'Detention without Trial' was a feature of which Act?",
+        "options": [
+            "(A) Non-Cooperation Act",
+            "(B) Interim Government Act",
+            "(C) Rowlatt Act",
+            "(D) Reward Act"
+        ],
+        "answer": "(C) Rowlatt Act",
+        "explanation": "The Rowlatt Act, officially known as the Anarchical and Revolutionary Crimes Act of 1919, was a repressive legislation passed by the Imperial Legislative Council in India. Its most controversial feature was the provision for 'detention without trial,' allowing the British government to imprison suspected individuals for up to two years without any judicial process. This act severely curtailed civil liberties, leading to widespread protests and nationalist agitation across India. It became a symbol of British tyranny.",
+        "a": 0.95,
+        "b": -1.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 181,
+        "subject": "History",
+        "topic": "Mahatma Gandhi and National Movement",
+        "subtopic": "Nationalism",
+        "difficulty": "Easy",
+        "question": "In which region of West India were the protests about the 'Rowlatt Act' most intense?",
+        "options": [
+            "(A) Punjab",
+            "(B) Delhi",
+            "(C) Bengal",
+            "(D) United Provinces"
+        ],
+        "answer": "(A) Punjab",
+        "explanation": "The Rowlatt Act of 1919 sparked widespread outrage and protests across India, but its impact and the intensity of resistance were particularly strong in the region of Punjab. The province experienced significant unrest, which culminated in the tragic Jallianwala Bagh Massacre in Amritsar. This event, triggered by public gatherings against the act, highlighted the severe repression faced by the people of Punjab and fueled the national movement.",
+        "a": 1.05,
+        "b": -0.7,
+        "source_chunk": 10
+    }
+]

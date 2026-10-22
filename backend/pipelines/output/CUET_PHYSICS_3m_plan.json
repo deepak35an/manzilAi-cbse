@@ -1,0 +1,364 @@
+{
+  "duration_weeks": 12,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": "12%",
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Charges, Fields & Potential Fundamentals",
+          "subtopics": [
+            "Electric Charges",
+            "Conservation of Charge",
+            "Coulomb's Law",
+            "Force Between Multiple Charges",
+            "Superposition Principle",
+            "Continuous Charge Distribution",
+            "Electric Dipole",
+            "Electric Potential",
+            "Potential Difference",
+            "Electric Potential Due to Point Charge",
+            "Electric Potential Due to Dipole",
+            "Electric Potential Due to System of Charges"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": "12%",
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electric Field, Gauss's Law & Capacitance Basics",
+          "subtopics": [
+            "Equipotential Surfaces",
+            "Electric Potential Energy",
+            "Electric Field",
+            "Electric Field Lines",
+            "Electric Field Due to Point Charge",
+            "Electric Field Due to Dipole",
+            "Torque on Electric Dipole",
+            "Electric Flux",
+            "Gauss's Theorem",
+            "Electric Field Due to Infinite Straight Wire",
+            "Electric Field Due to Infinite Plane Sheet",
+            "Electric Field Due to Uniformly Charged Spherical Shell",
+            "Conductors and Insulators",
+            "Free and Bound Charges",
+            "Dielectrics",
+            "Electric Polarisation",
+            "Capacitors and Capacitance",
+            "Capacitors in Series and Parallel",
+            "Parallel Plate Capacitor",
+            "Effect of Dielectric on Capacitance",
+            "Energy Stored in a Capacitor"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": "10%",
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current, Ohm's Law & Circuit Analysis",
+          "subtopics": [
+            "Electric Current",
+            "Flow of Electric Charge",
+            "Drift Velocity",
+            "Mobility",
+            "Relation Between Drift Velocity and Current",
+            "Ohm's Law",
+            "V-I Characteristics",
+            "Linear and Non-linear Conductors",
+            "Electrical Energy",
+            "Electrical Power",
+            "Electrical Resistivity",
+            "Electrical Conductivity",
+            "Temperature Dependence of Resistance",
+            "Internal Resistance of a Cell",
+            "EMF and Potential Difference",
+            "Combination of Cells in Series",
+            "Combination of Cells in Parallel",
+            "Kirchhoff's Rules",
+            "Wheatstone Bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": "12%",
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Fields, Forces & Laws",
+          "subtopics": [
+            "Magnetic Field",
+            "Oersted's Experiment",
+            "Biot-Savart Law",
+            "Magnetic Field Due to Circular Current Loop",
+            "Ampere's Law",
+            "Magnetic Field Due to Infinite Straight Wire",
+            "Solenoid",
+            "Force on Moving Charge",
+            "Motion of Charge in Magnetic and Electric Fields",
+            "Force on Current-Carrying Conductor",
+            "Force Between Parallel Current-Carrying Conductors",
+            "Definition of Ampere",
+            "Current Loop as Magnetic Dipole",
+            "Magnetic Dipole Moment",
+            "Torque on Current Loop"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": "12%",
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Galvanometers, Bar Magnets & Magnetic Materials",
+          "subtopics": [
+            "Moving Coil Galvanometer",
+            "Current Sensitivity",
+            "Conversion to Ammeter",
+            "Conversion to Voltmeter",
+            "Bar Magnet",
+            "Bar Magnet as Equivalent Solenoid",
+            "Magnetic Field Lines",
+            "Magnetic Field of Magnetic Dipole",
+            "Torque on Magnetic Dipole",
+            "Magnetic Materials",
+            "Diamagnetic Substances",
+            "Paramagnetic Substances",
+            "Ferromagnetic Substances",
+            "Magnetisation",
+            "Effect of Temperature on Magnetic Properties"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": "10%",
+      "subjects": [
+        {
+          "subject": "Electromagnetic Induction and Alternating Current",
+          "priority": "CRITICAL",
+          "topic": "EMI, AC Fundamentals & Circuits",
+          "subtopics": [
+            "Electromagnetic Induction",
+            "Faraday's Laws",
+            "Induced EMF",
+            "Induced Current",
+            "Lenz's Law",
+            "Self-Induction",
+            "Mutual Induction",
+            "Alternating Current",
+            "Peak Value",
+            "RMS Value",
+            "AC Voltage",
+            "Reactance",
+            "Impedance",
+            "LCR Series Circuit",
+            "Phasors",
+            "Resonance",
+            "Power in AC Circuits",
+            "Power Factor",
+            "Wattless Current",
+            "AC Generator",
+            "Transformer"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": "4%",
+      "subjects": [
+        {
+          "subject": "Electromagnetic Waves",
+          "priority": "MEDIUM",
+          "topic": "EM Waves, Spectrum & Applications",
+          "subtopics": [
+            "Displacement Current",
+            "Electromagnetic Waves",
+            "Characteristics of Electromagnetic Waves",
+            "Transverse Nature",
+            "Electromagnetic Spectrum",
+            "Radio Waves",
+            "Microwaves",
+            "Infrared Waves",
+            "Visible Light",
+            "Ultraviolet Rays",
+            "X-Rays",
+            "Gamma Rays",
+            "Applications of Electromagnetic Waves"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": "15%",
+      "subjects": [
+        {
+          "subject": "Optics",
+          "priority": "CRITICAL",
+          "topic": "Ray Optics: Reflection, Refraction & Lenses",
+          "subtopics": [
+            "Reflection of Light",
+            "Spherical Mirrors",
+            "Mirror Formula",
+            "Refraction of Light",
+            "Total Internal Reflection",
+            "Optical Fibres",
+            "Refraction at Spherical Surfaces",
+            "Lenses",
+            "Thin Lens Formula",
+            "Lens Maker's Formula",
+            "Magnification",
+            "Power of Lens",
+            "Combination of Lenses",
+            "Prism",
+            "Dispersion of Light"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": "15%",
+      "subjects": [
+        {
+          "subject": "Optics",
+          "priority": "CRITICAL",
+          "topic": "Optical Instruments & Wave Optics",
+          "subtopics": [
+            "Optical Instruments",
+            "Microscopes",
+            "Astronomical Telescopes",
+            "Magnifying Power",
+            "Wavefront",
+            "Huygens' Principle",
+            "Reflection Using Huygens' Principle",
+            "Refraction Using Huygens' Principle",
+            "Coherent Sources",
+            "Interference of Light",
+            "Young's Double Slit Experiment",
+            "Fringe Width",
+            "Diffraction",
+            "Single-Slit Diffraction",
+            "Width of Central Maximum"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": "6%",
+      "subjects": [
+        {
+          "subject": "Dual Nature of Matter and Radiation",
+          "priority": "HIGH",
+          "topic": "Matter Waves & Photoelectric Effect",
+          "subtopics": [
+            "Matter Waves",
+            "Wave Nature of Particles",
+            "de Broglie Relation",
+            "Dual Nature of Radiation",
+            "Photoelectric Effect",
+            "Hertz's Observations",
+            "Lenard's Observations",
+            "Einstein's Photoelectric Equation",
+            "Particle Nature of Light",
+            "Experimental Study of Photoelectric Effect"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": "8%",
+      "subjects": [
+        {
+          "subject": "Atoms and Nuclei",
+          "priority": "HIGH",
+          "topic": "Atomic Models & Nuclear Physics",
+          "subtopics": [
+            "Alpha-Particle Scattering Experiment",
+            "Rutherford's Atomic Model",
+            "Bohr Model",
+            "Radius of Electron Orbit",
+            "Velocity of Electron",
+            "Energy of Electron",
+            "Hydrogen Line Spectrum",
+            "Composition of Nucleus",
+            "Nuclear Size",
+            "Atomic Number",
+            "Mass Number",
+            "Isotopes",
+            "Isobars",
+            "Isotones",
+            "Nuclear Force",
+            "Mass-Energy Relation",
+            "Mass Defect",
+            "Binding Energy per Nucleon",
+            "Binding Energy Curve",
+            "Nuclear Fission",
+            "Nuclear Fusion"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": "8%",
+      "subjects": [
+        {
+          "subject": "Electronic Devices",
+          "priority": "HIGH",
+          "topic": "Semiconductors & Diode Characteristics",
+          "subtopics": [
+            "Energy Bands",
+            "Conductors",
+            "Semiconductors",
+            "Insulators",
+            "Intrinsic Semiconductors",
+            "Extrinsic Semiconductors",
+            "p-Type Semiconductors",
+            "n-Type Semiconductors",
+            "p-n Junction",
+            "Semiconductor Diode",
+            "Forward Bias",
+            "Reverse Bias",
+            "I-V Characteristics",
+            "Diode as Rectifier"
+          ]
+        }
+      ]
+    }
+  ]
+}

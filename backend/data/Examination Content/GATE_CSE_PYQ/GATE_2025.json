@@ -1,0 +1,700 @@
+[
+  {
+    "question_number": 1,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus & Probability",
+    "subtopic": "Probability / Binomial Distribution",
+    "difficulty": "Medium",
+    "question": "A fair six-faced dice, with the faces labelled '1', '2', '3', '4', '5', and '6', is rolled thrice. What is the probability of rolling '6' exactly once?",
+    "options": [
+      "(A) 75/216",
+      "(B) 1/6",
+      "(C) 1/18",
+      "(D) 25/216"
+    ],
+    "answer": "(A) 75/216",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 2,
+    "explanation": "This problem involves the binomial probability distribution, used for 'k' successes in 'n' independent trials, each with a constant success probability 'p'. For rolling a '6', the success probability p=1/6 and failure (1-p)=5/6, with n=3 trials and k=1 success. The formula P(X=k) = C(n, k) * p^k * (1-p)^(n-k) applies. Applying this, C(3, 1) * (1/6)^1 * (5/6)^2 evaluates to 75/216, which is the probability of rolling '6' exactly once."
+  },
+  {
+    "question_number": 2,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Combinatorics",
+    "subtopic": "Combinatorics / Combinations with Repetition",
+    "difficulty": "Medium",
+    "question": "A shop has 4 distinct flavors of ice-cream. One can purchase any number of scoops\nof any flavor. The order in which the scoops are purchased is inconsequential.\nIf one wants to purchase 3 scoops of ice-cream, in how many ways can one make\nthat purchase?",
+    "options": [
+      "(A) 4",
+      "(B) 20",
+      "(C) 24",
+      "(D) 48"
+    ],
+    "answer": "(B) 20",
+    "a": 1.4,
+    "b": 0.2,
+    "source_chunk": 2,
+    "explanation": "This problem calculates combinations with repetition, finding the number of ways to select 'k' items from 'n' distinct types when replacement is allowed and order is irrelevant. The governing formula is C(n+k-1, k), where n=4 distinct flavors and k=3 scoops are selected. Applying C(4+3-1, 3) simplifies to C(6, 3) = 20, representing the exact number of ways to make the ice-cream purchase."
+  },
+  {
+    "question_number": 3,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Mixed Problem Solving",
+    "subtopic": "Interrupt Handling",
+    "difficulty": "Medium",
+    "question": "Suppose a program is running on a non-pipelined single processor computer system.\nThe computer is connected to an external device that can interrupt the processor\nasynchronously. The processor needs to execute the interrupt service routine (ISR)\nto serve this interrupt. The following steps (not necessarily in order) are taken by\nthe processor when the interrupt arrives:\n(i) The processor saves the content of the program counter.\n(ii) The program counter is loaded with the start address of the ISR.\n(iii) The processor finishes the present instruction.\nWhich ONE of the following is the CORRECT sequence of steps?",
+    "options": [
+      "(A) (iii), (i), (ii)",
+      "(B) (i), (iii), (ii)",
+      "(C) (i), (ii), (iii)",
+      "(D) (iii), (ii), (i)"
+    ],
+    "answer": "(A) (iii), (i), (ii)",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 2,
+    "explanation": "This question details the sequence of operations a processor performs during interrupt handling in a non-pipelined system. An interrupt prompts the processor to first complete the current instruction, then save the program counter, and subsequently load the interrupt service routine's starting address. This logical sequence corresponds to (iii) finish present instruction, (i) save program counter, and (ii) load ISR address."
+  },
+  {
+    "question_number": 4,
+    "type": "MCQ",
+    "subject": "Compiler Design",
+    "topic": "Lexical Analysis",
+    "subtopic": "Symbol Table",
+    "difficulty": "Medium",
+    "question": "Which ONE of the following statements is FALSE regarding the symbol table?",
+    "options": [
+      "(A) Symbol table is responsible for keeping track of the scope of variables.",
+      "(B) Symbol table can be implemented using a binary search tree.",
+      "(C) Symbol table is not required after the parsing phase.",
+      "(D) Symbol table is created during the lexical analysis phase."
+    ],
+    "answer": "(C) Symbol table is not required after the parsing phase.",
+    "a": 1.55,
+    "b": 0.35,
+    "source_chunk": 2,
+    "explanation": "The symbol table is a compiler data structure that stores information about identifiers, including their type, scope, and memory location. It is created during lexical analysis and extensively used in later phases like parsing for type checking, semantic analysis, and code generation. Therefore, the statement it is not required after parsing is false, as its role continues in later stages."
+  },
+  {
+    "question_number": 5,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Memory Management / Paging",
+    "difficulty": "Medium",
+    "question": "Consider a demand paging memory management system with 32-bit logical address, 20-bit physical address, and page size of 2048 bytes. Assuming that the memory is byte addressable, what is the maximum number of entries in the page table?",
+    "options": [
+      "(A) 221",
+      "(B) 220",
+      "(C) 222",
+      "(D) 224"
+    ],
+    "answer": "(A) 221",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 3,
+    "explanation": "This question determines the maximum entries in a page table for a demand paging system, which maps logical pages to physical frames. The number of entries equals the logical address space (2^32 bytes from 32-bit address) divided by the page size (2048 bytes, or 2^11 bytes). This calculation, 2^32 / 2^11, yields 2^(32-11) = 2^21 entries, representing the total logical pages."
+  },
+  {
+    "question_number": 6,
+    "type": "MCQ",
+    "subject": "Databases",
+    "topic": "Transactions and Concurrency Control",
+    "subtopic": "Transaction Management / Recovery",
+    "difficulty": "Medium",
+    "question": "A schedule of three database transactions \ud835\udc47, \ud835\udc47, and \ud835\udc47 is shown. \ud835\udc45 (\ud835\udc34) and\n1 2 3 \ud835\udc56\n\ud835\udc4a(\ud835\udc34) denote read and write of data item \ud835\udc34 by transaction \ud835\udc47, \ud835\udc56 = 1,2,3. The\n\ud835\udc56 \ud835\udc56\ntransaction \ud835\udc47 aborts at the end. Which other transaction(s) will be required to be\n1\nrolled back?\n\n\ud835\udc451(\ud835\udc4b) \ud835\udc4a1(\ud835\udc4c) \ud835\udc452(\ud835\udc4b) \ud835\udc452(\ud835\udc4c) \ud835\udc453(\ud835\udc4c) \ud835\udc34\ud835\udc35\ud835\udc42\ud835\udc45\ud835\udc47(\ud835\udc471)",
+    "options": [
+      "(A) Only\ud835\udc472",
+      "(B) Only\ud835\udc473",
+      "(C) Both\ud835\udc472 and\ud835\udc473",
+      "(D) Neither\ud835\udc472 nor\ud835\udc473"
+    ],
+    "answer": "(C) Both\ud835\udc472 and\ud835\udc473",
+    "a": 1.6,
+    "b": 0.2,
+    "source_chunk": 3,
+    "explanation": "Cascading rollback is a phenomenon where the abortion of one transaction causes the rollback of other dependent transactions that have read its uncommitted data. Transaction T1 writes data item Y. Transaction T2 reads data item Y, and transaction T3 also reads data item Y. Since both T2 and T3 read the uncommitted data item Y written by T1, when T1 aborts, T2 and T3 become involved in a cascading rollback to maintain database consistency. This requires both T2 and T3 to be rolled back to undo their dependent operations."
+  },
+  {
+    "question_number": 7,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Transport & Application Layer",
+    "subtopic": "OSI Model",
+    "difficulty": "Easy",
+    "question": "Identify the ONE CORRECT matching between the OSI layers and their\ncorresponding functionalities as shown.\n\nOSI Layers\n Functionalities\n(a) Network layer\n(I) Packet routing\n(b) Transport layer\n(II) Framing and error handling\n(c) Datalink layer\n(III) Host to host communication",
+    "options": [
+      "(A) (a)-(I), (b)-(II), (c)-(III)",
+      "(B) (a)-(I), (b)-(III), (c)-(II)",
+      "(C) (a)-(II), (b)-(I), (c)-(III)",
+      "(D) (a)-(III), (b)-(II), (c)-(I)"
+    ],
+    "answer": "(B) (a)-(I), (b)-(III), (c)-(II)",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 3,
+    "explanation": "The OSI model categorizes networking functionalities into distinct layers. The Network layer's primary function is packet routing, determining optimal paths for data across different networks. The Transport layer provides end-to-end communication between processes on different hosts, ensuring reliable data transfer. The Datalink layer is responsible for node-to-node data transfer, including framing and error handling within a local network segment. This mapping correctly identifies the core functionalities for each specified layer."
+  },
+  {
+    "question_number": 8,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Set Theory & Relations",
+    "subtopic": "Functions and Relations",
+    "difficulty": "Medium",
+    "question": "\ud835\udc54(. ) is a function from \ud835\udc34 to \ud835\udc35, \ud835\udc53(. ) is a function from \ud835\udc35 to \ud835\udc36, and their\ncomposition defined as \ud835\udc53(\ud835\udc54(. )) is a mapping from \ud835\udc34 to \ud835\udc36.\nIf \ud835\udc53(. ) and \ud835\udc53(\ud835\udc54(. )) are onto (surjective) functions, which ONE of the following\nis TRUE about the function \ud835\udc54(. )?",
+    "options": [
+      "(A) \ud835\udc54(. ) must be an onto (surjective) function.",
+      "(B) \ud835\udc54(. ) must be a one-to-one (injective) function.",
+      "(C) \ud835\udc54(. ) must be a bijective function, that is, both one-to-one and onto.",
+      "(D) \ud835\udc54(. ) is not required to be a one-to-one or onto function."
+    ],
+    "answer": "(D) \ud835\udc54(. ) is not required to be a one-to-one or onto function.",
+    "a": 1.7,
+    "b": 0.5,
+    "source_chunk": 3,
+    "explanation": "A function is onto (surjective) if its range covers the entire codomain. If a composite function f(g(.)) from A to C is onto, and f(. ) from B to C is also onto, it implies that every element in C has a pre-image in A via g and then f. However, g(. ) itself does not need to be an onto function from A to B, nor does it need to be one-to-one. For example, g can map to a proper subset of B, as long as f restricted to that subset covers C. Thus, g(. ) is not necessarily surjective or injective."
+  },
+  {
+    "question_number": 9,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Graph Theory",
+    "subtopic": "Graph Algorithms / Minimum Spanning Tree",
+    "difficulty": "Medium",
+    "question": "Let \ud835\udc3a be any undirected graph with positive edge weights, and \ud835\udc47 be a minimum\nspanning tree of \ud835\udc3a. For any two vertices, \ud835\udc62 and \ud835\udc63, let \ud835\udc51 (\ud835\udc62, \ud835\udc63) and \ud835\udc51 (\ud835\udc62, \ud835\udc63) be the\n1 2\nshortest distances between \ud835\udc62 and \ud835\udc63 in \ud835\udc3a and \ud835\udc47, respectively. Which ONE of the\noptions is CORRECT for all possible \ud835\udc3a, \ud835\udc47, \ud835\udc62 and \ud835\udc63?",
+    "options": [
+      "(A) \ud835\udc511(\ud835\udc62, \ud835\udc63) = \ud835\udc512(\ud835\udc62, \ud835\udc63)",
+      "(B) \ud835\udc511(\ud835\udc62, \ud835\udc63) \u2264\ud835\udc512(\ud835\udc62, \ud835\udc63)",
+      "(C) \ud835\udc511(\ud835\udc62, \ud835\udc63) \u2265\ud835\udc512(\ud835\udc62, \ud835\udc63)",
+      "(D) \ud835\udc511(\ud835\udc62, \ud835\udc63) \u2260\ud835\udc512(\ud835\udc62, \ud835\udc63)"
+    ],
+    "answer": "(B) \ud835\udc511(\ud835\udc62, \ud835\udc63) \u2264\ud835\udc512(\ud835\udc62, \ud835\udc63)",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 3,
+    "explanation": "A minimum spanning tree (MST) T is a subgraph of the original graph G, containing all vertices and a subset of G's edges. The shortest distance d1(u,v) in G considers all available paths, whereas the distance d2(u,v) in T is restricted to paths using only MST edges. Since G contains all edges of T and potentially more, any path in T is also a path in G. Consequently, the shortest path in G can utilize edges outside T to achieve an equal or shorter distance. Therefore, the shortest distance in G is always less than or equal to the distance in T."
+  },
+  {
+    "question_number": 10,
+    "type": "MCQ",
+    "subject": "Theory of Computation",
+    "topic": "Context-Free Languages",
+    "subtopic": "Context-Free Grammars / Languages",
+    "difficulty": "Easy",
+    "question": "Consider the following context-free grammar \ud835\udc3a, where \ud835\udc46, \ud835\udc34, and \ud835\udc35 are the variables\n(non-terminals), \ud835\udc4e and \ud835\udc4f are the terminal symbols, \ud835\udc46 is the start variable, and the\nrules of \ud835\udc3a are described as:\n\ud835\udc46 \u2192 \ud835\udc4e\ud835\udc4e\ud835\udc35 | \ud835\udc34\ud835\udc4f\ud835\udc4f\n\ud835\udc34 \u2192 \ud835\udc4e | \ud835\udc4e\ud835\udc34\n\ud835\udc35 \u2192 \ud835\udc4f | \ud835\udc4f\ud835\udc35\nWhich ONE of the languages \ud835\udc3f(\ud835\udc3a) is accepted by \ud835\udc3a?",
+    "options": [
+      "(A) \ud835\udc3f(\ud835\udc3a) = {\ud835\udc4e2\ud835\udc4f\ud835\udc5b | \ud835\udc5b\u22651} \u222a{\ud835\udc4e\ud835\udc5b\ud835\udc4f2 | \ud835\udc5b\u22651}",
+      "(B) \ud835\udc3f(\ud835\udc3a) = {\ud835\udc4e\ud835\udc5b\ud835\udc4f2\ud835\udc5b | \ud835\udc5b\u22651} \u222a{\ud835\udc4e2\ud835\udc5b\ud835\udc4f\ud835\udc5b | \ud835\udc5b\u22651}",
+      "(C) \ud835\udc3f(\ud835\udc3a) = {\ud835\udc4e\ud835\udc5b\ud835\udc4f\ud835\udc5b | \ud835\udc5b\u22651}",
+      "(D) \ud835\udc3f(\ud835\udc3a) = {\ud835\udc4e2\ud835\udc5b\ud835\udc4f2\ud835\udc5b | \ud835\udc5b\u22651}"
+    ],
+    "answer": "(A) \ud835\udc3f(\ud835\udc3a) = {\ud835\udc4e2\ud835\udc4f\ud835\udc5b | \ud835\udc5b\u22651} \u222a{\ud835\udc4e\ud835\udc5b\ud835\udc4f2 | \ud835\udc5b\u22651}",
+    "a": 1.2,
+    "b": -0.8,
+    "source_chunk": 3,
+    "explanation": "A Context-Free Grammar generates a language by deriving strings from a start symbol using production rules. The rule S \u2192 aaB allows B to derive one or more 'b's from B \u2192 b | bB, resulting in strings of the form aab^n for n \u2265 1. The rule S \u2192 Abb allows A to derive one or more 'a's from A \u2192 a | aA, yielding strings like a^n bb for n \u2265 1. The language generated by the grammar is the union of strings derived from these two distinct initial productions. Thus, the grammar generates the set of strings {a^2 b^n | n \u2265 1} \u222a {a^n b^2 | n \u2265 1}."
+  },
+  {
+    "question_number": 11,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis",
+    "subtopic": "Recurrence Relations",
+    "difficulty": "Medium",
+    "question": "Consider the following recurrence relation:\n\ud835\udc47(\ud835\udc5b) = 2\ud835\udc47(\ud835\udc5b\u22121) + \ud835\udc5b2\ud835\udc5b for \ud835\udc5b > 0, \ud835\udc47(0) = 1.\nWhich ONE of the following options is CORRECT?",
+    "options": [
+      "(A) \ud835\udc47(\ud835\udc5b) = \u0398(\ud835\udc5b22\ud835\udc5b)",
+      "(B) \ud835\udc47(\ud835\udc5b) = \u0398(\ud835\udc5b2\ud835\udc5b)",
+      "(C) \ud835\udc47(\ud835\udc5b) = \u0398((log \ud835\udc5b)2 2\ud835\udc5b)",
+      "(D) \ud835\udc47(\ud835\udc5b) = \u0398(4\ud835\udc5b)"
+    ],
+    "answer": "(A) \ud835\udc47(\ud835\udc5b) = \u0398(\ud835\udc5b22\ud835\udc5b)",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 4,
+    "explanation": "The recurrence T(n) = 2T(n-1) + n*2^n is a linear first-order non-homogeneous recurrence relation. Applying iterative substitution, T(n) expands to 2^n T(0) plus a summation of terms of the form (n-i) * 2^n. This expression simplifies to 2^n + 2^n * (n(n+1)/2), making the dominant term proportional to n^2 * 2^n, which is \u0398(n^2 * 2^n)."
+  },
+  {
+    "question_number": 12,
+    "type": "MSQ",
+    "subject": "Computer Networks",
+    "topic": "Transport Layer",
+    "subtopic": "Transport Layer / TCP Handshake",
+    "difficulty": "Easy",
+    "question": "Consider the 3-way handshaking protocol for TCP connection establishment. Let\nthe three packets exchanged during the connection establishment be denoted as P1,\nP2, and P3, in order. Which of the following option(s) is/are TRUE with respect to\nTCP header flags that are set in the packets?",
+    "options": [
+      "(A) P3: SYN= 1, ACK = 1",
+      "(B) P2: SYN =1, ACK =1",
+      "(C) P2: SYN =0, ACK =1",
+      "(D) P1: SYN = 1"
+    ],
+    "answer": [
+      "(B) P2: SYN =1, ACK =1",
+      "(D) P1: SYN = 1"
+    ],
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 4,
+    "explanation": "The TCP 3-way handshake protocol establishes a connection through three packets, each characterized by specific TCP header flags. P1 (client to server) sets SYN=1. P2 (server to client) responds by setting both SYN=1 and ACK=1. P3 (client to server) sends ACK=1. This sequence confirms that P1 correctly sets SYN=1, and P2 correctly sets both SYN=1 and ACK=1."
+  },
+  {
+    "question_number": 13,
+    "type": "MSQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Linear Algebra / Systems of Linear Equations",
+    "difficulty": "Medium",
+    "question": "Consider the given system of linear equations for variables \ud835\udc65 and \ud835\udc66, where \ud835\udc58 is a\nreal-valued constant. Which of the following option(s) is/are CORRECT?\n\ud835\udc65+ \ud835\udc58\ud835\udc66=   1\n\ud835\udc58\ud835\udc65+ \ud835\udc66= \u22121",
+    "options": [
+      "(A) There is exactly one value of\ud835\udc58 for which the above system of equations has no\nsolution.",
+      "(B) There exist an infinite number of values of\ud835\udc58 for which the system of equations has\nno solution.",
+      "(C) There exists exactly one value of\ud835\udc58 for which the system of equations has exactly\none solution.",
+      "(D) There exists exactly one value of\ud835\udc58 for which the system of equations has an infinite\nnumber of solutions."
+    ],
+    "answer": [
+      "(A) There is exactly one value of\ud835\udc58 for which the above system of equations has no\nsolution.",
+      "(D) There exists exactly one value of\ud835\udc58 for which the system of equations has an infinite\nnumber of solutions."
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 4,
+    "explanation": "A system of linear equations has no solution or infinite solutions when its coefficient matrix determinant is zero. For this system, the determinant 1-k^2 equals zero for k=1 or k=-1. If k=1, equations are x+y=1 and x+y=-1, which are inconsistent, yielding no solution. If k=-1, they are x-y=1 and -x+y=-1, which are dependent, giving infinite solutions."
+  },
+  {
+    "question_number": 14,
+    "type": "MSQ",
+    "subject": "Digital Logic",
+    "topic": "Boolean Algebra",
+    "subtopic": "Boolean Algebra / Logic Functions",
+    "difficulty": "Hard",
+    "question": "Let \ud835\udc4b be a 3-variable Boolean function that produces output as '1' when at least\ntwo of the input variables are '1'. Which of the following statement(s) is/are\nCORRECT, where \ud835\udc4e, \ud835\udc4f, \ud835\udc50, \ud835\udc51, \ud835\udc52 are Boolean variables?",
+    "options": [
+      "(A) \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc4b(\ud835\udc50, \ud835\udc51, \ud835\udc52)) = \ud835\udc4b(\ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc50), \ud835\udc51, \ud835\udc52)",
+      "(B) \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc50)) = \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc50)",
+      "(C) \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc4b(\ud835\udc4e, \ud835\udc50, \ud835\udc51)) = (\ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc4e) AND \ud835\udc4b(\ud835\udc50, \ud835\udc51, \ud835\udc50))",
+      "(D) \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc50) = \ud835\udc4b(\ud835\udc4e, \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc50), \ud835\udc4b(\ud835\udc4e, \ud835\udc50, \ud835\udc50))"
+    ],
+    "answer": [
+      "(B) \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc50)) = \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc50)",
+      "(D) \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc50) = \ud835\udc4b(\ud835\udc4e, \ud835\udc4b(\ud835\udc4e, \ud835\udc4f, \ud835\udc50), \ud835\udc4b(\ud835\udc4e, \ud835\udc50, \ud835\udc50))"
+    ],
+    "a": 2.0,
+    "b": 1.5,
+    "source_chunk": 4,
+    "explanation": "Function X(a,b,c) is the majority function, outputting '1' when at least two inputs are '1'. The identity X(a,b,X(a,b,c)) = X(a,b,c) holds, as a property of the majority function with repeated inputs. X(a,b,c) = X(a, X(a,b,c), X(a,c,c)) is also true, because X(a,c,c) simplifies to 'c', thus confirming equivalence."
+  },
+  {
+    "question_number": 15,
+    "type": "MSQ",
+    "subject": "Digital Logic",
+    "topic": "Number Representation",
+    "subtopic": "Data Representation / 2's Complement",
+    "difficulty": "Easy",
+    "question": "The number \u22126 can be represented as 1010 in 4-bit 2's complement representation.\nWhich of the following is/are CORRECT 2's complement representation(s) of \u22126?",
+    "options": [
+      "(A) 1000 1010 in 8-bits",
+      "(B) 1111 1010 in 8-bits",
+      "(C) 1000 0000 0000 1010 in 16-bits",
+      "(D) 1111 1111 1111 1010 in 16-bits"
+    ],
+    "answer": [
+      "(B) 1111 1010 in 8-bits",
+      "(D) 1111 1111 1111 1010 in 16-bits"
+    ],
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 4,
+    "explanation": "2's complement represents signed integers, using the most significant bit for the sign (1 for negative). When representing a negative 2's complement number in a larger bit width, sign extension is performed by replicating the MSB. Therefore, 4-bit 1010 (-6) extends to 1111 1010 (8-bits) and 1111 1111 1111 1010 (16-bits) by prepending ones."
+  },
+  {
+    "question_number": 16,
+    "type": "MSQ",
+    "subject": "Theory of Computation",
+    "topic": "Finite Automata",
+    "subtopic": "Automata Theory / NFA to DFA Conversion",
+    "difficulty": "Medium",
+    "question": "A regular language \ud835\udc3f is accepted by a non-deterministic finite automaton (NFA)\nwith \ud835\udc5b states. Which of the following statement(s) is/are FALSE?",
+    "options": [
+      "(A) \ud835\udc3f may have an accepting NFA with< \ud835\udc5b states.",
+      "(B) \ud835\udc3f may have an accepting DFA with< \ud835\udc5b states.",
+      "(C) There exists a DFA with\u22642\ud835\udc5b states that accepts\ud835\udc3f.",
+      "(D) Every DFA that accepts\ud835\udc3f has> 2\ud835\udc5b states."
+    ],
+    "answer": [
+      "(C) There exists a DFA with\u22642\ud835\udc5b states that accepts\ud835\udc3f.",
+      "(D) Every DFA that accepts\ud835\udc3f has> 2\ud835\udc5b states."
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 5,
+    "explanation": "The subset construction algorithm guarantees that for any regular language accepted by an n-state NFA, an equivalent DFA with at most 2^n states exists. Statement (C) is true because such a DFA exists, while (D) is false as it incorrectly claims *every* DFA must exceed 2^n states. Statements (A) and (B) are possible as L might be accepted by NFAs or DFAs with fewer than 'n' states."
+  },
+  {
+    "question_number": 17,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "Process Management / Process States and Transitions",
+    "difficulty": "Medium",
+    "question": "Suppose in a multiprogramming environment, the following C program segment is\nexecuted. A process goes into I/O queue whenever an I/O related operation is\nperformed. Assume that there will always be a context switch whenever a process\nrequests for an I/O, and also whenever the process returns from an I/O. The number\nof times the process will enter the ready queue during its lifetime (not counting the\ntime the process enters the ready queue when it is run initially) is _______. (Answer\nin integer)\n\n```c\nint main()\n{\n    int x=0,i=0;\n    scanf(\"%d\",&x);\n    for(i=0; i<20; i++)\n    {\n        x = x+20;\n        printf(\"%d\\n\",x);\n    }\n    return 0;\n}\n```",
+    "answer": "21",
+    "a": 1.4,
+    "b": 0.1,
+    "source_chunk": 5,
+    "explanation": "A process transitions to the ready queue from the blocked state upon I/O completion, involving a context switch. The provided C program executes one `scanf` and twenty `printf` calls, resulting in 21 distinct I/O operations. As the process enters the ready queue once after each I/O completion, it will enter the ready queue 21 times after its initial run."
+  },
+  {
+    "question_number": 18,
+    "type": "NAT",
+    "subject": "Discrete Mathematics",
+    "topic": "Combinatorics",
+    "subtopic": "Combinatorics / Counting Principles",
+    "difficulty": "Medium",
+    "question": "Let \ud835\udc46 be the set of all ternary strings defined over the alphabet {\ud835\udc4e, \ud835\udc4f, \ud835\udc50}. Consider\nall strings in \ud835\udc46 that contain at least one occurrence of two consecutive symbols, that\nis, \"aa\", \"bb\" or \"cc\". The number of such strings of length 5 that are possible is\n_______. (Answer in integer)",
+    "answer": "195",
+    "a": 1.5,
+    "b": 0.25,
+    "source_chunk": 5,
+    "explanation": "The number of ternary strings of length 5 containing at least one consecutive identical symbol (\"aa\", \"bb\", \"cc\") is determined using complementary counting. The total number of length 5 ternary strings is 3^5. Strings with no consecutive identical symbols are 3 * 2^4. Subtracting these (3^5 - 3 * 2^4) yields 243 - 48 = 195 strings that satisfy the condition of having at least one consecutive pair."
+  },
+  {
+    "question_number": 19,
+    "type": "NAT",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Calculus / Differentiability and Continuity",
+    "difficulty": "Easy",
+    "question": "Consider the given function \ud835\udc53(\ud835\udc65).\n\ud835\udc4e\ud835\udc65+ \ud835\udc4f for \ud835\udc65 < 1\n\ud835\udc53(\ud835\udc65) = {\n\ud835\udc653 + \ud835\udc652 + 1 for \ud835\udc65 \u2265 1\nIf the function is differentiable everywhere, the value of \ud835\udc4f must be ________.\n(rounded off to one decimal place)",
+    "answer": "-2.0",
+    "a": 1.0,
+    "b": -0.8,
+    "source_chunk": 5,
+    "explanation": "For a piecewise function to be differentiable everywhere, it must be continuous at its transition point, and its left and right derivatives must be equal there. At x=1, continuity requires a(1)+b = 1^3+1^2+1, so a+b=3. Its derivatives are 'a' and '3x^2+2x' respectively. Equating these derivatives at x=1 gives a=5. Substituting a=5 into a+b=3 then yields b = -2.0."
+  },
+  {
+    "question_number": 20,
+    "type": "NAT",
+    "subject": "Data Structures",
+    "topic": "Trees & Heaps",
+    "subtopic": "Min-Heap Height / Complete Binary Tree",
+    "difficulty": "Easy",
+    "question": "The height of any rooted tree is defined as the maximum number of edges in the path from the root node to any leaf node. Suppose a Min-Heap \ud835\udc47 stores 32 keys. The height of \ud835\udc47 is _____________. (Answer in integer)",
+    "answer": "5",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 6,
+    "explanation": "A Min-Heap is typically implemented as a complete binary tree, whose height is the maximum number of edges from the root to a leaf node. For a complete binary tree with N nodes, its height 'h' is given by the formula h = floor(log2(N)). With 32 keys, N=32, so the height of the Min-Heap is floor(log2(32)) = floor(5) = 5."
+  },
+  {
+    "question_number": 21,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Cache Memory",
+    "difficulty": "Medium",
+    "question": "Consider a memory system with 1M bytes of main memory and 16K bytes of cache\nmemory. Assume that the processor generates 20-bit memory address, and the cache\nblock size is 16 bytes. If the cache uses direct mapping, how many bits will be\nrequired to store all the tag values? [Assume memory is byte addressable, 1K=2^10,\n1M=2^20 .]",
+    "options": [
+      "(A) 6 \u00d7 2^10",
+      "(B) 8 \u00d7 2^10",
+      "(C) 2^12",
+      "(D) 2^14"
+    ],
+    "answer": "(A) 6 \u00d7 2^10",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "explanation": "Direct mapping in cache organization partitions a memory address into tag, index, and block offset fields to locate data. For a 20-bit address, 16-byte blocks use 4 offset bits. A 16KB cache (1024 lines) requires 10 index bits. The tag bits are 20 - 4 - 10 = 6; thus, 1024 cache lines need 6 \u00d7 2^10 total bits for tag storage."
+  },
+  {
+    "question_number": 22,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Instruction Set Architecture",
+    "subtopic": "Instruction Formats",
+    "difficulty": "Medium",
+    "question": "A processor has 64 general-purpose registers and 50 distinct instruction types. An\ninstruction is encoded in 32-bits. What is the maximum number of bits that can be\nused to store the immediate operand for the given instruction?\nADD R1, #25 // R1 = R1 + 25",
+    "options": [
+      "(A) 16",
+      "(B) 20",
+      "(C) 22",
+      "(D) 24"
+    ],
+    "answer": "(B) 20",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "explanation": "Instruction format design allocates specific bit fields for opcode, register operands, and immediate values within a fixed-size instruction. For 50 instruction types, 6 bits are needed for the opcode, and 64 registers require 6 bits for a register operand. Consequently, in a 32-bit instruction, 32 - 6 - 6 = 20 bits can be allocated for the immediate operand."
+  },
+  {
+    "question_number": 23,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "CPU Scheduling / Multiprocessor Scheduling",
+    "difficulty": "Hard",
+    "question": "A computer has two processors, \ud835\udc40 and \ud835\udc40 . Four processes \ud835\udc43, \ud835\udc43, \ud835\udc43, \ud835\udc43 with CPU\n1 2 1 2 3 4\nbursts of 20, 16, 25, and 10 milliseconds, respectively, arrive at the same time and\nthese are the only processes in the system. The scheduler uses non-preemptive\npriority scheduling, with priorities decided as follows:\n\u2022 \ud835\udc40 uses priority of execution for the processes as, \ud835\udc43 > \ud835\udc43 > \ud835\udc43 > \ud835\udc43, i.e.,\n1 1 3 2 4\n\ud835\udc43 and \ud835\udc43 have highest and lowest priorities, respectively.\n1 4\n\u2022 \ud835\udc40 uses priority of execution for the processes as, \ud835\udc43 > \ud835\udc43 > \ud835\udc43 > \ud835\udc43, i.e.,\n2 2 3 4 1\n\ud835\udc43 and \ud835\udc43 have highest and lowest priorities, respectively.\n2 1\nA process \ud835\udc43 is scheduled to a processor \ud835\udc40, if the processor is free and no other\n\ud835\udc56 \ud835\udc58\nprocess \ud835\udc43 is waiting with higher priority. At any given point of time, a process can\n\ud835\udc57\nbe allocated to any one of the free processors without violating the execution\npriority rules. Ignore the context switch time. What will be the average waiting time\nof the processes in milliseconds?",
+    "options": [
+      "(A) 9.00",
+      "(B) 8.75",
+      "(C) 6.50",
+      "(D) 7.50"
+    ],
+    "answer": "(A) 9.00",
+    "a": 1.9,
+    "b": 1.2,
+    "source_chunk": 6,
+    "explanation": "Non-preemptive priority scheduling assigns processes to available processors based on their priorities, completing execution once started. P1 and P2 begin on M1 and M2 without delay. P3 waits 16ms for M2 to free, and P4 waits 20ms for M1 to free. The average waiting time is thus (0 + 0 + 16 + 20) / 4 = 9.00 milliseconds."
+  },
+  {
+    "question_number": 24,
+    "type": "MCQ",
+    "subject": "Databases",
+    "topic": "Relational Algebra & SQL",
+    "subtopic": "Relational Calculus",
+    "difficulty": "Medium",
+    "question": "Consider two relations describing teams and players in a sports league:\n\u2022 teams(tid, tname): tid and tname are team-id and team-name, respectively.\n\u2022 players(pid, pname, tid): pid, pname, and tid denote player-id, player-name, and the team-id of the player, respectively.\nWhich ONE of the following tuple relational calculus queries returns the names of the players who play for the team having tname = 'MI'?",
+    "options": [
+      "(A) { p.pname | p \u2208 players \u2227 \u2203t (t \u2208 teams \u2227 p.tid = t.tid \u2227 t.tname = 'MI') }",
+      "(B) { p.pname | p \u2208 teams \u2227 \u2203t (t \u2208 players \u2227 p.tid = t.tid \u2227 t.tname = 'MI') }",
+      "(C) { p.pname | p \u2208 players \u2227 \u2203t (t \u2208 teams \u2227 t.tname = 'MI') }",
+      "(D) { p.pname | p \u2208 teams \u2227 \u2203t (t \u2208 players \u2227 t.tname = 'MI') }"
+    ],
+    "answer": "(A) { p.pname | p \u2208 players \u2227 \u2203t (t \u2208 teams \u2227 p.tid = t.tid \u2227 t.tname = 'MI') }",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "explanation": "Tuple Relational Calculus (TRC) defines the characteristics of the tuples to be retrieved, rather than outlining the retrieval process. To find player names for a specific team, one must select from `players` (p) and existentially quantify over `teams` (t). The conditions require `p.tid` to match `t.tid` and `t.tname` to be 'MI', thereby returning the correct `p.pname`."
+  },
+  {
+    "question_number": 25,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Linear Algebra / Eigenvalues",
+    "difficulty": "Medium",
+    "question": "Let A be the 2 \u00d7 2 matrix\n\nA = [[1, 1], [1, -1]].\n\nWhat are the eigenvalues of the matrix A^13?",
+    "options": [
+      "(A) 1, \u22121",
+      "(B) 2\u221a2, \u22122\u221a2",
+      "(C) 4\u221a2, \u22124\u221a2",
+      "(D) 64\u221a2, \u221264\u221a2"
+    ],
+    "answer": "(D) 64\u221a2, \u221264\u221a2",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 7,
+    "explanation": "If \u03bb is an eigenvalue of matrix A, then \u03bb^k is an eigenvalue of A^k for any positive integer k. Solving det(A - \u03bbI) = 0 for the given matrix A yields \u03bb\u00b2 - 2 = 0, whose eigenvalues are \u03bb = \u221a2 and \u03bb = -\u221a2. Consequently, the eigenvalues of A^13 are (\u221a2)^13 and (-\u221a2)^13, which simplify to 64\u221a2 and -64\u221a2."
+  },
+  {
+    "question_number": 26,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Graph Algorithms",
+    "subtopic": "Graph Algorithms / BFS Tree Properties",
+    "difficulty": "Medium",
+    "question": "Let \ud835\udc3a(\ud835\udc49, \ud835\udc38) be an undirected and unweighted graph with 100 vertices. Let \ud835\udc51(\ud835\udc62, \ud835\udc63)\ndenote the number of edges in a shortest path between vertices \ud835\udc62 and \ud835\udc63 in \ud835\udc49. Let the\nmaximum value of \ud835\udc51(\ud835\udc62, \ud835\udc63), \ud835\udc62, \ud835\udc63 \u2208 \ud835\udc49 such that \ud835\udc62 \u2260 \ud835\udc63, be 30. Let \ud835\udc47 be any breadth-\nfirst-search tree of \ud835\udc3a. Which ONE of the given options is CORRECT for every such\ngraph \ud835\udc3a?",
+    "options": [
+      "(A) The height of\ud835\udc47 is exactly15.",
+      "(B) The height of\ud835\udc47 is exactly30.",
+      "(C) The height of\ud835\udc47 is at least15.",
+      "(D) The height of\ud835\udc47 is at least30."
+    ],
+    "answer": "(C) The height of\ud835\udc47 is at least15.",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 7,
+    "explanation": "The height of a Breadth-First Search (BFS) tree is the maximum shortest path distance from its root to any other node in the graph. The graph's diameter is 30, representing the maximum shortest path distance between any pair of vertices; the radius is always at least half the diameter. Consequently, the height of any BFS tree must be at least the graph's radius, which is at least 30/2 = 15."
+  },
+  {
+    "question_number": 27,
+    "type": "MCQ",
+    "subject": "Theory of Computation",
+    "topic": "Regular Languages",
+    "subtopic": "Regular Languages / Pumping Lemma",
+    "difficulty": "Medium",
+    "question": "Consider the following two languages over the alphabet {\ud835\udc4e, \ud835\udc4f}:\n\ud835\udc3f = { \ud835\udefc\ud835\udefd\ud835\udefc | \ud835\udefc \u2208 {\ud835\udc4e, \ud835\udc4f}+ AND \ud835\udefd \u2208 {\ud835\udc4e, \ud835\udc4f}+ }\n1\n\ud835\udc3f = { \ud835\udefc\ud835\udefd\ud835\udefc | \ud835\udefc \u2208 {\ud835\udc4e}+ AND \ud835\udefd \u2208 {\ud835\udc4e, \ud835\udc4f}+ }\n2\nWhich ONE of the following statements is CORRECT?",
+    "options": [
+      "(A) Both \ud835\udc3f1 and \ud835\udc3f2 are regular languages.",
+      "(B) \ud835\udc3f1 is a regular language but \ud835\udc3f2 is not a regular language.",
+      "(C) \ud835\udc3f1 is not a regular language but \ud835\udc3f2 is a regular language.",
+      "(D) Neither \ud835\udc3f1 nor \ud835\udc3f2 is a regular language."
+    ],
+    "answer": "(D) Neither \ud835\udc3f1 nor \ud835\udc3f2 is a regular language.",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 7,
+    "explanation": "Regular languages are recognized by finite automata and adhere to the Pumping Lemma, which implies they have finite memory for pattern recognition. Both L1 and L2 involve the structure \u03b1\u03b2\u03b1, where the initial \u03b1 must precisely match the final \u03b1 regardless of its length. This requirement to recall an arbitrarily long \u03b1 violates the finite memory constraint of regular languages, making both L1 and L2 non-regular."
+  },
+  {
+    "question_number": 28,
+    "type": "MCQ",
+    "subject": "Theory of Computation",
+    "topic": "Context-Free Languages",
+    "subtopic": "Context-Free Languages / Pumping Lemma for CFLs",
+    "difficulty": "Hard",
+    "question": "Consider the following two languages over the alphabet {\ud835\udc4e, \ud835\udc4f, \ud835\udc50}, where \ud835\udc5a and \ud835\udc5b\nare natural numbers.\n\ud835\udc3f = {\ud835\udc4e\ud835\udc5a\ud835\udc4f\ud835\udc5a\ud835\udc50\ud835\udc5a+\ud835\udc5b | \ud835\udc5a, \ud835\udc5b \u2265 1}\n1\n\ud835\udc3f = {\ud835\udc4e\ud835\udc5a\ud835\udc4f\ud835\udc5b\ud835\udc50\ud835\udc5a+\ud835\udc5b | \ud835\udc5a, \ud835\udc5b \u2265 1}\n2\nWhich ONE of the following statements is CORRECT?",
+    "options": [
+      "(A) Both \ud835\udc3f1 and \ud835\udc3f2 are context-free languages.",
+      "(B) \ud835\udc3f1 is a context-free language but \ud835\udc3f2 is not a context-free language.",
+      "(C) \ud835\udc3f1 is not a context-free language but \ud835\udc3f2 is a context-free language.",
+      "(D) Neither \ud835\udc3f1 nor \ud835\udc3f2 are context-free languages."
+    ],
+    "answer": "(B) \ud835\udc3f1 is a context-free language but \ud835\udc3f2 is not a context-free language.",
+    "a": 1.9,
+    "b": 1.0,
+    "source_chunk": 7,
+    "explanation": "Context-Free Languages (CFLs) are recognized by Pushdown Automata (PDAs) using a single stack. L1 = {a^m b^m c^(m+n)} is a CFL because a PDA can match a^m and b^m, with remaining c's consumed without further stack constraints. Conversely, L2 = {a^m b^n c^(m+n)} is not a CFL, as a single stack cannot enforce count(c) = count(a) + count(b) for independent m and n."
+  },
+  {
+    "question_number": 29,
+    "type": "MSQ",
+    "subject": "Compiler Design",
+    "topic": "Advanced Topics",
+    "subtopic": "Parsing / First and Follow Sets",
+    "difficulty": "Easy",
+    "question": "Which of the following statement(s) is/are TRUE while computing First and Follow\nduring top down parsing by a compiler?",
+    "options": [
+      "(A) For a production\ud835\udc34\u2192\ud835\udf16, \ud835\udf16 will be added to\ud835\udc39\ud835\udc56\ud835\udc5f\ud835\udc60\ud835\udc61(\ud835\udc34).",
+      "(B) If there is any input right end marker, it will be added to\ud835\udc39\ud835\udc56\ud835\udc5f\ud835\udc60\ud835\udc61(\ud835\udc46), where\ud835\udc46 is the start symbol.",
+      "(C) For a production\ud835\udc34\u2192\ud835\udf16, \ud835\udf16 will be added to\ud835\udc39\ud835\udc5c\ud835\udc59\ud835\udc59\ud835\udc5c\ud835\udc64(\ud835\udc34).",
+      "(D) If there is any input right end marker, it will be added to\ud835\udc39\ud835\udc5c\ud835\udc59\ud835\udc59\ud835\udc5c\ud835\udc64(\ud835\udc46), where\ud835\udc46 is the start symbol."
+    ],
+    "answer": [
+      "(A) For a production\ud835\udc34\u2192\ud835\udf16, \ud835\udf16 will be added to\ud835\udc39\ud835\udc56\ud835\udc5f\ud835\udc60\ud835\udc61(\ud835\udc34).",
+      "(D) If there is any input right end marker, it will be added to\ud835\udc39\ud835\udc5c\ud835\udc59\ud835\udc59\ud835\udc5c\ud835\udc64(\ud835\udc46), where\ud835\udc46 is the start symbol."
+    ],
+    "a": 1.0,
+    "b": -0.8,
+    "source_chunk": 7,
+    "explanation": "In top-down parsing, First(A) includes \u03b5 if A can derive the empty string, and Follow(S) for the start symbol S includes the end-of-input marker. For a production A \u2192 \u03b5, \u03b5 is added to First(A), and the input right end marker is added to Follow(S). \u03b5 is never added to Follow(A), nor is the input right end marker added to First(S)."
+  },
+  {
+    "question_number": 30,
+    "type": "MSQ",
+    "subject": "Databases",
+    "topic": "Normalization",
+    "subtopic": "Relational Schema / Functional Dependencies / Normalization / Decomposition",
+    "difficulty": "Medium",
+    "question": "Consider a relational schema \ud835\udc61\ud835\udc52\ud835\udc4e\ud835\udc5a(\ud835\udc5b\ud835\udc4e\ud835\udc5a\ud835\udc52, \ud835\udc50\ud835\udc56\ud835\udc61\ud835\udc66, \ud835\udc5c\ud835\udc64\ud835\udc5b\ud835\udc52\ud835\udc5f), with functional\ndependencies {\ud835\udc5b\ud835\udc4e\ud835\udc5a\ud835\udc52 \u2192 \ud835\udc50\ud835\udc56\ud835\udc61\ud835\udc66, \ud835\udc5b\ud835\udc4e\ud835\udc5a\ud835\udc52 \u2192 \ud835\udc5c\ud835\udc64\ud835\udc5b\ud835\udc52\ud835\udc5f}.\nThe relation \ud835\udc61\ud835\udc52\ud835\udc4e\ud835\udc5a is decomposed into two relations, \ud835\udc611(\ud835\udc5b\ud835\udc4e\ud835\udc5a\ud835\udc52, \ud835\udc50\ud835\udc56\ud835\udc61\ud835\udc66) and\n\ud835\udc612(\ud835\udc5b\ud835\udc4e\ud835\udc5a\ud835\udc52, \ud835\udc5c\ud835\udc64\ud835\udc5b\ud835\udc52\ud835\udc5f). Which of the following statement(s) is/are TRUE?",
+    "options": [
+      "(A) The relation \ud835\udc61\ud835\udc52\ud835\udc4e\ud835\udc5a is NOT in BCNF.",
+      "(B) The relations \ud835\udc611 and \ud835\udc612 are in BCNF.",
+      "(C) The decomposition constitutes a lossless join.",
+      "(D) The relation \ud835\udc61\ud835\udc52\ud835\udc4e\ud835\udc5a is NOT in 3NF."
+    ],
+    "answer": [
+      "(B) The relations \ud835\udc611 and \ud835\udc612 are in BCNF.",
+      "(C) The decomposition constitutes a lossless join."
+    ],
+    "a": 1.5,
+    "b": 0.4,
+    "source_chunk": 8,
+    "explanation": "BCNF requires every determinant in a non-trivial functional dependency to be a superkey. The team relation is in BCNF because name is the superkey for all given functional dependencies, thus it is in 3NF. The decomposition into t1(name, city) and t2(name, owner) is lossless, as name is a key for both, and t1 and t2 are in BCNF."
+  },
+  {
+    "question_number": 31,
+    "type": "MSQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Logic",
+    "subtopic": "Predicate Logic / First-order Logic",
+    "difficulty": "Medium",
+    "question": "Which of the following predicate logic formulae/formula is/are CORRECT\nrepresentation(s) of the statement: \"Everyone has exactly one mother\"?\nThe meanings of the predicates used are:\n\u2022 \ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65): \ud835\udc66 is the mother of \ud835\udc65\n\u2022 \ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc65, \ud835\udc66): \ud835\udc65 and \ud835\udc66 are not equal",
+    "options": [
+      "(A) \u2200\ud835\udc65\u2203\ud835\udc66\u2203\ud835\udc67(\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2227\u00ac\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65))",
+      "(B) \u2200\ud835\udc65\u2203\ud835\udc66[\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2227\u2200\ud835\udc67(\ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc67, \ud835\udc66) \u2192\u00ac\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65))]",
+      "(C) \u2200\ud835\udc65\u2200\ud835\udc66[\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2192\u2203\ud835\udc67(\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65) \u2227\u00ac\ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc67, \ud835\udc66))]",
+      "(D) \u2200\ud835\udc65\u2203\ud835\udc66[\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2227\u00ac\u2203\ud835\udc67(\ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc67, \ud835\udc66) \u2227\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65))]"
+    ],
+    "answer": [
+      "(B) \u2200\ud835\udc65\u2203\ud835\udc66[\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2227\u2200\ud835\udc67(\ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc67, \ud835\udc66) \u2192\u00ac\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65))]",
+      "(D) \u2200\ud835\udc65\u2203\ud835\udc66[\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc66, \ud835\udc65) \u2227\u00ac\u2203\ud835\udc67(\ud835\udc5b\ud835\udc5c\ud835\udc61\ud835\udc52\ud835\udc5e(\ud835\udc67, \ud835\udc66) \u2227\ud835\udc5a\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f(\ud835\udc67, \ud835\udc65))]"
+    ],
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 8,
+    "explanation": "The problem involves translating the concept of \"exactly one\" into predicate logic, which requires both existence and uniqueness conditions for every individual. For each x, there must exist a y such that y is x's mother, and for any other z not equal to y, z cannot also be x's mother. Options (B) and (D) are logically equivalent representations of this structure, with (D) using the negation of existential quantification to express uniqueness, ensuring a unique mother for everyone."
+  },
+  {
+    "question_number": 32,
+    "type": "MSQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Advanced Graph Theory & Group Theory",
+    "subtopic": "Abstract Algebra / Groups and Monoids",
+    "difficulty": "Medium",
+    "question": "\ud835\udc34 = {0, 1, 2, 3, \u2026 } is the set of non-negative integers. Let \u03dc be the set of functions\nfrom \ud835\udc34 to itself. For any two functions, \ud835\udc53, \ud835\udc53 \u2208 \u03dc, we define\n1 2\n(\ud835\udc53 \u2a00\ud835\udc53 )(\ud835\udc5b) = \ud835\udc53 (\ud835\udc5b) + \ud835\udc53 (\ud835\udc5b)\n1 2 1 2\nfor every number \ud835\udc5b in \ud835\udc34. Which of the following is/are CORRECT about the\nmathematical structure (\u03dc, \u2a00)?",
+    "options": [
+      "(A) (\u03dc, \u2a00) is an Abelian group.",
+      "(B) (\u03dc, \u2a00) is an Abelian monoid.",
+      "(C) (\u03dc, \u2a00) is a non-Abelian group.",
+      "(D) (\u03dc, \u2a00) is a non-Abelian monoid."
+    ],
+    "answer": [
+      "(B) (\u03dc, \u2a00) is an Abelian monoid."
+    ],
+    "a": 1.45,
+    "b": 0.35,
+    "source_chunk": 8,
+    "explanation": "The question asks to identify the algebraic structure (\u03dc, \u2a00), where \u03dc is the set of functions from A to A, and \u2a00 is defined as pointwise addition. An Abelian monoid needs closure, associativity, commutativity, and an identity element. A group structure additionally mandates an inverse for every element. The operation is closed, associative, commutative, and has the zero function as identity, but inverses are generally absent in \u03dc."
+  },
+  {
+    "question_number": 33,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Deadlocks",
+    "subtopic": "File Systems / Disk Allocation / Internal Fragmentation",
+    "difficulty": "Medium",
+    "question": "A disk of size 512M bytes is divided into blocks of 64K bytes. A file is stored in\nthe disk using linked allocation. In linked allocation, each data block reserves 4\nbytes to store the pointer to the next data block. The link part of the last data block\ncontains a NULL pointer (also of 4 bytes). Suppose a file of 1M bytes needs to be\nstored in the disk. Assume, 1K = 210 and 1M = 220. The amount of space in bytes\nthat will be wasted due to internal fragmentation is ______. (Answer in integer)",
+    "answer": "65468",
+    "a": 1.7,
+    "b": 0.6,
+    "source_chunk": 8,
+    "explanation": "Internal fragmentation is unused space within an allocated memory block that exceeds the actual data stored. A 1MB file uses 64KB blocks, with 4 bytes for a pointer, making 65532 bytes available for data. This totals 17 blocks. The last block stores 64 bytes of data and its 4-byte null pointer, creating 65536 - (64 + 4) = 65468 bytes of fragmentation."
+  },
+  {
+    "question_number": 34,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Paging / Page Replacement Algorithms",
+    "difficulty": "Medium",
+    "question": "In optimal page replacement algorithm, information about all future page references is available to the operating system (OS). A modification of the optimal page replacement algorithm is as follows:\nThe OS correctly predicts only up to next 4 page references (including the current page) at the time of allocating a frame to a page.\nA process accesses the pages in the following order of page numbers:\n1, 3, 2, 4, 2, 3, 1, 2, 4, 3, 1, 4.\nIf the system has three memory frames that are initially empty, the number of page faults that will occur during execution of the process is ________ . (Answer in integer)",
+    "answer": "6",
+    "a": 1.45,
+    "b": 0.2,
+    "source_chunk": 9,
+    "explanation": "This question involves a modified optimal page replacement algorithm, where the OS considers only the next four page references for eviction decisions. The algorithm evicts the page that will be accessed furthest in the future, but strictly within the limited 4-reference lookahead window provided. Simulating the given page reference string with three memory frames under this strategy yields 6 page faults."
+  },
+  {
+    "question_number": 35,
+    "type": "NAT",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus & Probability",
+    "subtopic": "Probability / Discrete Probability",
+    "difficulty": "Easy",
+    "question": "Suppose a 5-bit message is transmitted from a source to a destination through a noisy channel. The probability that a bit of the message gets flipped during transmission is 0.01. Flipping of each bit is independent of one another. The probability that the message is delivered error-free to the destination is ______ . (rounded off to three decimal places)",
+    "answer": "0.951",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 9,
+    "explanation": "This question calculates the probability of an error-free message transmission, modeled as independent Bernoulli trials for each bit. The probability of a bit not flipping is (1 - flip probability). For the message to be error-free, all individual bits must transmit successfully. With a 0.01 flip probability, each bit succeeds with 0.99, so the 5-bit error-free probability is (0.99)^5 \u2248 0.951."
+  },
+  {
+    "question_number": 36,
+    "type": "NAT",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "IP Fragmentation",
+    "difficulty": "Medium",
+    "question": "Suppose a message of size 15000 bytes is transmitted from a source to a destination using IPv4 protocol via two routers as shown in the figure. Each router has a defined maximum transmission unit (MTU) as shown in the figure, including IP header.\nThe number of fragments that will be delivered to the destination is ________ . (Answer in integer)",
+    "answer": "6",
+    "a": 1.55,
+    "b": 0.4,
+    "source_chunk": 9,
+    "explanation": "The existing explanation is inconsistent because it concludes 23 fragments while the answer is 6. The fragmentation process must be recomputed using the given packet size, header size, MTU values, and 8-byte alignment. The final explanation should end with the same fragment count as the answer."
+  }
+]

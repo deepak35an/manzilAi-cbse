@@ -1,0 +1,598 @@
+{
+  "duration_weeks": 36,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Harappan Civilisation",
+          "subtopics": [
+            "Harappan Civilisation",
+            "Archaeological Sources",
+            "Town Planning"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Harappan Civilisation",
+          "subtopics": [
+            "Urban Features",
+            "Economy"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Harappan Civilisation",
+          "subtopics": [
+            "Trade and Commerce",
+            "Craft Production"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Harappan Civilisation",
+          "subtopics": [
+            "Religion",
+            "Decline of Harappan Civilisation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Early States",
+          "subtopics": [
+            "Political Systems",
+            "Economic Systems",
+            "Mahajanapadas"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Early States",
+          "subtopics": [
+            "Mauryan Empire",
+            "Inscriptions as Historical Sources",
+            "Ashokan Inscriptions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Early States",
+          "subtopics": [
+            "Administration",
+            "Taxation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "MEDIUM",
+          "topic": "Social Histories",
+          "subtopics": [
+            "Mahabharata",
+            "Social Structure",
+            "Kinship"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "MEDIUM",
+          "topic": "Social Histories",
+          "subtopics": [
+            "Family",
+            "Caste System"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "MEDIUM",
+          "topic": "Social Histories",
+          "subtopics": [
+            "Gender Relations",
+            "Property and Inheritance"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Buddhism and Jainism",
+          "subtopics": [
+            "Rise of Buddhism",
+            "Rise of Jainism",
+            "Teachings of Buddha"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Buddhism and Jainism",
+          "subtopics": [
+            "Teachings of Mahavira",
+            "Monastic Traditions",
+            "Spread of Buddhism"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Buddhism and Jainism",
+          "subtopics": [
+            "Cultural Developments",
+            "Art and Architecture"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "MEDIUM",
+          "topic": "Medieval Society",
+          "subtopics": [
+            "Travellers' Accounts",
+            "Ibn Battuta",
+            "Al-Biruni"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "MEDIUM",
+          "topic": "Medieval Society",
+          "subtopics": [
+            "Francois Bernier",
+            "Society"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "MEDIUM",
+          "topic": "Medieval Society",
+          "subtopics": [
+            "Economy",
+            "Culture"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Bhakti-Sufi Traditions",
+          "subtopics": [
+            "Bhakti Movement",
+            "Sufi Movement",
+            "Saints"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Bhakti-Sufi Traditions",
+          "subtopics": [
+            "Devotional Traditions",
+            "Social Impact",
+            "Religious Reform"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Vijayanagara Empire",
+          "subtopics": [
+            "Rise of Vijayanagara",
+            "Political System",
+            "Administration"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Vijayanagara Empire",
+          "subtopics": [
+            "Economy",
+            "Trade"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Vijayanagara Empire",
+          "subtopics": [
+            "Architecture",
+            "Hampi"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Mughal Empire",
+          "subtopics": [
+            "Mughal Administration",
+            "Mansabdari System",
+            "Jagirdari System"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Mughal Empire",
+          "subtopics": [
+            "Agrarian Society",
+            "Land Revenue"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Mughal Empire",
+          "subtopics": [
+            "Peasantry",
+            "Economy"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Colonialism and Rural Society",
+          "subtopics": [
+            "Colonial Rule",
+            "Rural Society",
+            "Official Reports"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Colonialism and Rural Society",
+          "subtopics": [
+            "Permanent Settlement",
+            "Ryotwari System"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 27,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Colonialism and Rural Society",
+          "subtopics": [
+            "Mahalwari System",
+            "Peasant Life"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Revolt of 1857",
+          "subtopics": [
+            "Causes of Revolt",
+            "Major Centres",
+            "Leaders"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 29,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Revolt of 1857",
+          "subtopics": [
+            "Course of Revolt",
+            "Consequences"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "HIGH",
+          "topic": "Revolt of 1857",
+          "subtopics": [
+            "British Accounts",
+            "Indian Representations"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 31,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Mahatma Gandhi and National Movement",
+          "subtopics": [
+            "Mahatma Gandhi",
+            "Champaran Movement",
+            "Kheda Satyagraha"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Mahatma Gandhi and National Movement",
+          "subtopics": [
+            "Non-Cooperation Movement",
+            "Civil Disobedience Movement",
+            "Quit India Movement"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 33,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Mahatma Gandhi and National Movement",
+          "subtopics": [
+            "Nationalism",
+            "Mass Movements"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 34,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Making of the Constitution",
+          "subtopics": [
+            "Constituent Assembly",
+            "Drafting Committee",
+            "B. R. Ambedkar"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 35,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Making of the Constitution",
+          "subtopics": [
+            "Fundamental Rights",
+            "Directive Principles",
+            "Federalism"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 36,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Themes in Indian History",
+          "priority": "CRITICAL",
+          "topic": "Making of the Constitution",
+          "subtopics": [
+            "Secularism",
+            "Features of the Indian Constitution"
+          ]
+        }
+      ]
+    }
+  ]
+}

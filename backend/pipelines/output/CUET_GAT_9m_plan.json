@@ -1,0 +1,571 @@
+{
+  "duration_weeks": 36,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Indian History",
+          "subtopics": [
+            "Indian Geography",
+            "Indian Polity"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Indian Economy",
+          "subtopics": [
+            "Indian Culture",
+            "Art and Culture"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Important Days",
+          "subtopics": [
+            "National Symbols",
+            "Awards and Honours"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Books and Authors",
+          "subtopics": [
+            "Sports"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "International Organizations",
+          "subtopics": [
+            "Countries and Capitals"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Science and Technology",
+          "subtopics": [
+            "Important Government Schemes"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Current Affairs",
+          "priority": "CRITICAL",
+          "topic": "National Current Affairs",
+          "subtopics": [
+            "International Current Affairs",
+            "Economy and Banking"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Current Affairs",
+          "priority": "CRITICAL",
+          "topic": "Science and Technology",
+          "subtopics": [
+            "Sports Current Affairs",
+            "Awards and Honours"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Current Affairs",
+          "priority": "CRITICAL",
+          "topic": "Government Policies",
+          "subtopics": [
+            "Environment"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Current Affairs",
+          "priority": "CRITICAL",
+          "topic": "Important Summits",
+          "subtopics": [
+            "Reports and Indices"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "General Mental Ability",
+          "priority": "CRITICAL",
+          "topic": "Number Series",
+          "subtopics": [
+            "Alphabet Series",
+            "Coding-Decoding"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "General Mental Ability",
+          "priority": "CRITICAL",
+          "topic": "Blood Relations",
+          "subtopics": [
+            "Direction Sense",
+            "Ranking and Ordering"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "General Mental Ability",
+          "priority": "CRITICAL",
+          "topic": "Calendar",
+          "subtopics": [
+            "Clock",
+            "Puzzle"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "General Mental Ability",
+          "priority": "CRITICAL",
+          "topic": "Analogy",
+          "subtopics": [
+            "Classification"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Numerical Ability",
+          "priority": "HIGH",
+          "topic": "Number System",
+          "subtopics": [
+            "Simplification",
+            "Percentage"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Numerical Ability",
+          "priority": "HIGH",
+          "topic": "Ratio and Proportion",
+          "subtopics": [
+            "Average",
+            "Profit and Loss"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Numerical Ability",
+          "priority": "HIGH",
+          "topic": "Simple Interest",
+          "subtopics": [
+            "Compound Interest",
+            "Time and Work"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Numerical Ability",
+          "priority": "HIGH",
+          "topic": "Pipes and Cisterns",
+          "subtopics": [
+            "Time, Speed and Distance",
+            "Boats and Streams"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Numerical Ability",
+          "priority": "HIGH",
+          "topic": "Partnership",
+          "subtopics": [
+            "Mixture and Alligation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Quantitative Aptitude",
+          "priority": "HIGH",
+          "topic": "Algebra",
+          "subtopics": [
+            "Linear Equations",
+            "Geometry: Lines and Angles"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Quantitative Aptitude",
+          "priority": "HIGH",
+          "topic": "Geometry",
+          "subtopics": [
+            "Triangles",
+            "Circles",
+            "Mensuration: 2D Mensuration"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Quantitative Aptitude",
+          "priority": "HIGH",
+          "topic": "Mensuration: 3D Mensuration",
+          "subtopics": [
+            "Statistics: Mean",
+            "Statistics: Median"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Quantitative Aptitude",
+          "priority": "HIGH",
+          "topic": "Statistics: Mode",
+          "subtopics": [
+            "Probability (Basic)"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Logical and Analytical Reasoning",
+          "priority": "CRITICAL",
+          "topic": "Logical Reasoning",
+          "subtopics": [
+            "Statement and Conclusion",
+            "Statement and Assumption"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Logical and Analytical Reasoning",
+          "priority": "CRITICAL",
+          "topic": "Logical Reasoning",
+          "subtopics": [
+            "Syllogism",
+            "Cause and Effect",
+            "Assertion and Reason"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Logical and Analytical Reasoning",
+          "priority": "CRITICAL",
+          "topic": "Data Sufficiency",
+          "subtopics": [
+            "Venn Diagrams",
+            "Logical Puzzles"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 27,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Logical and Analytical Reasoning",
+          "priority": "CRITICAL",
+          "topic": "Analytical Reasoning",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "General Science",
+          "priority": "HIGH",
+          "topic": "Physics Basics",
+          "subtopics": [
+            "Chemistry Basics",
+            "Biology Basics"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 29,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "General Science",
+          "priority": "HIGH",
+          "topic": "Scientific Developments",
+          "subtopics": [
+            "Everyday Science"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Environment Literacy",
+          "priority": "MEDIUM",
+          "topic": "Ecosystem",
+          "subtopics": [
+            "Biodiversity",
+            "Climate Change"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 31,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Environment Literacy",
+          "priority": "MEDIUM",
+          "topic": "Global Warming",
+          "subtopics": [
+            "Pollution",
+            "Renewable Energy"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Environment Literacy",
+          "priority": "MEDIUM",
+          "topic": "Sustainable Development",
+          "subtopics": [
+            "Environmental Conservation",
+            "Environmental Organizations"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 33,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Environment Literacy",
+          "priority": "MEDIUM",
+          "topic": "Environmental Laws",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "week": 34,
+      "focus_type": "Revision & Practice",
+      "weightage": 7,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Comprehensive Revision",
+          "subtopics": [
+            "Indian History",
+            "Indian Polity",
+            "Awards and Honours"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 35,
+      "focus_type": "Revision & Practice",
+      "weightage": 7,
+      "subjects": [
+        {
+          "subject": "General Mental Ability",
+          "priority": "CRITICAL",
+          "topic": "Mixed Problem Solving",
+          "subtopics": [
+            "Number Series",
+            "Blood Relations",
+            "Puzzle"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 36,
+      "focus_type": "Revision & Practice",
+      "weightage": 7,
+      "subjects": [
+        {
+          "subject": "Numerical Ability",
+          "priority": "HIGH",
+          "topic": "Advanced Application",
+          "subtopics": [
+            "Percentage",
+            "Profit and Loss",
+            "Time and Work"
+          ]
+        }
+      ]
+    }
+  ]
+}

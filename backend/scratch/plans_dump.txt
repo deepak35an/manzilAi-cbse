@@ -1,0 +1,2354 @@
+﻿Found 3 templates
+
+=== GATE_CSE_PYQ | 3 months | ID: b8acc4cc-a312-46eb-8f8b-1c8e27d3854c ===
+{
+  "duration_weeks": 12,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Programming and Data Structures",
+          "priority": "CRITICAL",
+          "topic": "C Programming",
+          "subtopics": [
+            "Pointers and Arrays"
+          ]
+        },
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Basic Data Structures",
+          "subtopics": [
+            "Linked List",
+            "Arrays"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Trees & Heaps",
+          "subtopics": [
+            "Trees / Binary Tree Traversal",
+            "Heaps / Min-Heap"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Analysis",
+          "subtopics": [
+            "Asymptotic Notation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Graph Algorithms",
+          "subtopics": [
+            "DFS and BFS Trees"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Analysis",
+          "subtopics": [
+            "Recurrence Relations"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Sorting",
+          "subtopics": [
+            "Quicksort"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Process Management",
+          "subtopics": [
+            "Process States",
+            "CPU Scheduling"
+          ]
+        },
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Deadlocks",
+          "subtopics": [
+            "Deadlock / Banker's Algorithm"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "ER Model",
+          "subtopics": [
+            "ER Model"
+          ]
+        },
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Relational Model",
+          "subtopics": [
+            "Relational Model Concepts"
+          ]
+        },
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Normalization",
+          "subtopics": [
+            "Functional Dependencies"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Finite Automata",
+          "subtopics": [
+            "DFA",
+            "NFA to DFA Conversion"
+          ]
+        },
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Regular Languages",
+          "subtopics": [
+            "Regular Expressions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Data Representation",
+          "subtopics": [
+            "Floating Point",
+            "IEEE 754 Standard"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Cache Memory",
+          "subtopics": [
+            "Direct Mapped Cache, Cache Hits/Misses"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "IP Addressing",
+          "subtopics": [
+            "IP Addressing",
+            "Subnetting"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Routing",
+          "subtopics": [
+            "Distance Vector Routing"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Set Theory & Relations",
+          "subtopics": [
+            "Set theory",
+            "Functions and Relations"
+          ]
+        },
+        {
+          "subject": "Digital Logic",
+          "priority": "MEDIUM",
+          "topic": "Boolean Algebra",
+          "subtopics": [
+            "Boolean Functions / Prime Implicants / K-Map"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Lexical Analysis",
+          "subtopics": [
+            "Lexical Analysis / Regular Expressions / Longest Match"
+          ]
+        },
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Parsing",
+          "subtopics": [
+            "LR Parsers"
+          ]
+        },
+        {
+          "subject": "Engineering Mathematics",
+          "priority": "MEDIUM",
+          "topic": "Linear Algebra",
+          "subtopics": [
+            "Matrices and Determinants"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Memory Management",
+          "subtopics": [
+            "Paging / Page Replacement Algorithms (LRU)",
+            "Virtual Memory, Paging, TLB"
+          ]
+        },
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Transactions and Concurrency Control",
+          "subtopics": [
+            "Transactions and Concurrency Control"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Revision & Advanced Application",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Dynamic Programming",
+          "subtopics": [
+            "Dynamic Programming / Matrix Chain Multiplication"
+          ]
+        },
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Computability",
+          "subtopics": [
+            "Decidability / Undecidability"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Application Layer Protocols",
+          "subtopics": [
+            "HTTP and DNS"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+
+=== GATE_CSE_PYQ | 6 months | ID: 36f9b85e-8ccb-4037-aef4-d0a517a9f836 ===
+```json
+{
+  "duration_weeks": 24,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Programming and Data Structures",
+          "priority": "CRITICAL",
+          "topic": "C Programming",
+          "subtopics": [
+            "C Programming Basics",
+            "Function calls, variable scope",
+            "Loops and Control Flow"
+          ]
+        },
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Basic Data Structures",
+          "subtopics": [
+            "Arrays",
+            "Linked List"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Analysis",
+          "subtopics": [
+            "Asymptotic Notation",
+            "Complexity Analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Programming and Data Structures",
+          "priority": "CRITICAL",
+          "topic": "C Programming",
+          "subtopics": [
+            "Pointers and Arrays",
+            "C Programming / Pointers / Call by Value vs Reference"
+          ]
+        },
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Basic Data Structures",
+          "subtopics": [
+            "Stack & Queue",
+            "Stacks and Queues"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Analysis",
+          "subtopics": [
+            "Recurrence Relations",
+            "Analysis of Recurrence Relations"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Programming and Data Structures",
+          "priority": "CRITICAL",
+          "topic": "C Programming",
+          "subtopics": [
+            "Recursion",
+            "C Programming / Recursion / Pseudo-code"
+          ]
+        },
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Trees",
+          "subtopics": [
+            "Trees / Binary Tree Traversal"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Sorting and Searching",
+          "subtopics": [
+            "Sorting",
+            "Quicksort, Probability",
+            "Selection Algorithms"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Process Management",
+          "subtopics": [
+            "Process States",
+            "CPU Scheduling",
+            "Round Robin Scheduling"
+          ]
+        },
+        {
+          "subject": "Digital Logic",
+          "priority": "MEDIUM",
+          "topic": "Number Representation",
+          "subtopics": [
+            "Number System Conversion",
+            "Radix Conversion",
+            "2's Complement",
+            "Two's complement, overflow"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Logic",
+          "subtopics": [
+            "Propositional Logic",
+            "Predicate Logic"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Concurrency and Synchronization",
+          "subtopics": [
+            "Concurrency",
+            "Concurrency and Synchronization",
+            "Process Synchronization / Semaphores / Producer-Consumer"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Data Representation",
+          "subtopics": [
+            "Fixed Point Representation",
+            "Floating Point",
+            "IEEE 754 Standard",
+            "Signed Numbers"
+          ]
+        },
+        {
+          "subject": "Digital Logic",
+          "priority": "MEDIUM",
+          "topic": "Boolean Algebra",
+          "subtopics": [
+            "Boolean Algebra / XOR XNOR",
+            "Identities",
+            "Boolean Operations/Algebraic Properties"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Deadlocks",
+          "subtopics": [
+            "Deadlock / Banker's Algorithm",
+            "Deadlock / Resource Allocation",
+            "Deadlock detection and prevention",
+            "Deadlocks"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Cache Memory",
+          "subtopics": [
+            "Cache Memory",
+            "Direct Mapped Cache, Cache Hits/Misses",
+            "Fully Associative Cache",
+            "Cache Memory / Set-Associative Cache / Tag Field"
+          ]
+        },
+        {
+          "subject": "Digital Logic",
+          "priority": "MEDIUM",
+          "topic": "Combinational Circuits",
+          "subtopics": [
+            "Boolean Functions / Prime Implicants / K-Map",
+            "Logic Gate Implementation",
+            "Multiplexers"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "ER Model & Relational Model",
+          "subtopics": [
+            "ER Model",
+            "ER Model / Relationships",
+            "Weak Entity Sets",
+            "Relational Model",
+            "Relational Model Concepts"
+          ]
+        },
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Finite Automata",
+          "subtopics": [
+            "Finite Automata",
+            "DFA",
+            "NFA to DFA Conversion"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Cache Memory",
+          "subtopics": [
+            "Cache Mapping",
+            "Cache Policies",
+            "Average Memory Access Time (AMAT)"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Relational Algebra & SQL",
+          "subtopics": [
+            "Relational Algebra / Joins / Outer Join",
+            "Relational Algebra Operators, Division"
+          ]
+        },
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Regular Languages",
+          "subtopics": [
+            "Regular Expressions",
+            "Regular Languages",
+            "Properties of Regular Languages",
+            "Pumping Lemma"
+          ]
+        },
+        {
+          "subject": "Programming and Data Structures",
+          "priority": "CRITICAL",
+          "topic": "C Programming",
+          "subtopics": [
+            "Recursion"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Relational Algebra & SQL",
+          "subtopics": [
+            "SQL / Joins"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Network Layering",
+          "subtopics": [
+            "Concept of Layering and LAN Technologies",
+            "LAN Technologies"
+          ]
+        },
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Memory Management",
+          "subtopics": [
+            "Memory Allocation",
+            "Memory Management / Demand Paging / Page Fault"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Functional Dependencies",
+          "subtopics": [
+            "Functional Dependencies",
+            "Functional Dependencies, Keys"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Data Link Layer",
+          "subtopics": [
+            "Flow and Error Control",
+            "MAC Protocols / Carrier Sense / Collision Avoidance",
+            "Address Resolution Protocol (ARP)"
+          ]
+        },
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Memory Management & Virtual Memory",
+          "subtopics": [
+            "Virtual Memory, Paging, TLB",
+            "Paging",
+            "Paging / Page Replacement Algorithms (LRU)"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Normalization",
+          "subtopics": [
+            "Normalization",
+            "Normalization / 3NF / BCNF",
+            "BCNF, Dependency Preservation, Lossless Decomposition"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Network Layer",
+          "subtopics": [
+            "IP Addressing",
+            "Subnetting",
+            "IP Fragmentation",
+            "IP Fragmentation / Fragmentation Offset"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Graph Algorithms",
+          "subtopics": [
+            "Graph Algorithms / DFS / BFS",
+            "DFS and BFS Trees"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Indexing",
+          "subtopics": [
+            "Indexing",
+            "B+ Trees",
+            "Indexing (B+ Tree)"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Network Layer",
+          "subtopics": [
+            "Network Layer",
+            "Network Headers / Protocol Fields",
+            "Routing",
+            "Distance Vector Routing"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Graph Theory",
+          "subtopics": [
+            "Minimum Spanning Tree"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Transactions and Concurrency Control",
+          "subtopics": [
+            "Transactions and Concurrency Control",
+            "ACID Properties",
+            "Conflict Equivalence / Serializability"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Transport Layer",
+          "subtopics": [
+            "TCP",
+            "TCP Handshake",
+            "TCP Congestion Control",
+            "TCP Congestion Control / Slow Start"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Graph Algorithms",
+          "subtopics": [
+            "Shortest Path"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Lexical Analysis",
+          "subtopics": [
+            "Compiler Phases / Basics",
+            "Phases of Compiler",
+            "Front-end and Back-end",
+            "Lexical Analysis",
+            "Lexical Analysis / Regular Expressions / Longest Match"
+          ]
+        },
+        {
+          "subject": "Engineering Mathematics",
+          "priority": "MEDIUM",
+          "topic": "Linear Algebra",
+          "subtopics": [
+            "Matrices",
+            "Matrices and Determinants",
+            "Determinants",
+            "Matrix Properties"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Transport & Application Layer",
+          "subtopics": [
+            "TCP / Sequence Number Wraparound",
+            "HTTP and DNS",
+            "Email Protocols"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Parsing",
+          "subtopics": [
+            "Parser Types",
+            "LR Parsers",
+            "LR Parsing"
+          ]
+        },
+        {
+          "subject": "Engineering Mathematics",
+          "priority": "MEDIUM",
+          "topic": "Linear Algebra",
+          "subtopics": [
+            "Eigenvalues",
+            "Eigenvalues and Eigenvectors",
+            "Linear Algebra / Eigenvalues",
+            "Linear Algebra / Eigenvalues / Diagonalization"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Dynamic Programming",
+          "subtopics": [
+            "Dynamic Programming / Matrix Chain Multiplication"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Context-Free Languages",
+          "subtopics": [
+            "Context-Free Grammars",
+            "Context-Free Languages",
+            "Properties of Context-Free Languages"
+          ]
+        },
+        {
+          "subject": "Engineering Mathematics",
+          "priority": "MEDIUM",
+          "topic": "Probability",
+          "subtopics": [
+            "Events and Probability",
+            "Probability",
+            "Conditional Probability",
+            "Probability / Bayes' Theorem"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Greedy Algorithms",
+          "subtopics": [
+            "Greedy Algorithms / Knapsack"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Pipelining",
+          "subtopics": [
+            "Pipelining",
+            "Instruction Pipelining",
+            "Instruction Pipeline / Clock Cycles",
+            "Control Hazards, Branch Prediction, Speedup"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Combinatorics",
+          "subtopics": [
+            "Combinatorics",
+            "Permutations and Combinations",
+            "Generating Functions",
+            "Generating Functions / Sequences"
+          ]
+        },
+        {
+          "subject": "General Aptitude",
+          "priority": "LOW",
+          "topic": "Numerical Ability",
+          "subtopics": [
+            "Algebra / Exponents",
+            "Geometry / Area",
+            "Number Theory / LCM"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Computability",
+          "subtopics": [
+            "Language Hierarchy",
+            "Decidability / Undecidability",
+            "Recursively Enumerable Languages",
+            "First-Order Logic / Models"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Graph Theory",
+          "subtopics": [
+            "Graph Theory",
+            "Graph Theory / Degree / Connected Components",
+            "Spanning Trees"
+          ]
+        },
+        {
+          "subject": "General Aptitude",
+          "priority": "LOW",
+          "topic": "Verbal & Reasoning",
+          "subtopics": [
+            "Grammar / Fill in the Blanks",
+            "Vocabulary / Fill in the Blanks",
+            "Syllogism"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus_type": "Revision & PYQ Practice",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Comprehensive Revision",
+          "subtopics": [
+            "Asymptotic Notation",
+            "Recurrence Relations",
+            "Sorting",
+            "Graph Algorithms",
+            "Dynamic Programming",
+            "Greedy Algorithms"
+          ]
+        },
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Comprehensive Revision",
+          "subtopics": [
+            "Arrays",
+            "Linked List",
+            "Stack & Queue",
+            "Trees",
+            "Heaps / Priority Queues",
+            "Hashing"
+          ]
+        },
+        {
+          "subject": "Programming and Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Advanced C & Problem Solving",
+          "subtopics": [
+            "Bit Manipulation",
+            "Program Output",
+            "Static Variables and Loops"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus_type": "Revision & PYQ Practice",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Comprehensive Revision",
+          "subtopics": [
+            "Process Management",
+            "Concurrency and Synchronization",
+            "Deadlocks",
+            "Memory Management",
+            "Virtual Memory, Paging, TLB",
+            "File Systems"
+          ]
+        },
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Comprehensive Revision",
+          "subtopics": [
+            "ER Model",
+            "Relational Algebra",
+            "SQL",
+            "Functional Dependencies",
+            "Normalization",
+            "Indexing (B+ Tree)",
+            "Transactions and Concurrency Control"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Network Performance & Security",
+          "subtopics": [
+            "Network Performance",
+            "Delay Calculation",
+            "RSA Algorithm"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus_type": "Revision & PYQ Practice",
+      "subjects": [
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Comprehensive Revision",
+          "subtopics": [
+            "Data Representation",
+            "Instruction Format",
+            "Pipelining",
+            "Memory Hierarchy",
+            "Cache Memory",
+            "I/O (DMA, Polling vs. Interrupts)"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Comprehensive Revision",
+          "subtopics": [
+            "Concept of Layering and LAN Technologies",
+            "Data Communication and Networking",
+            "IP Addressing",
+            "TCP",
+            "Application Layer Protocols",
+            "Routing"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Advanced Graph Theory & Group Theory",
+          "subtopics": [
+            "Hamiltonian Cycles",
+            "Group Theory",
+            "Group Theory / Lagrange's Theorem"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus_type": "Revision & PYQ Practice",
+      "subjects": [
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Comprehensive Revision",
+          "subtopics": [
+            "Finite Automata",
+            "Regular Languages",
+            "Context-Free Languages",
+            "Decidability / Undecidability",
+            "Language Hierarchy"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Comprehensive Revision",
+          "subtopics": [
+            "Set Theory",
+            "Functions and Relations",
+            "Propositional Logic",
+            "Combinatorics",
+            "Graph Theory",
+            "Linear Recurrence Relations"
+          ]
+        },
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Advanced Topics & Revision",
+          "subtopics": [
+            "Syntax Directed Translation",
+            "Lexical Analysis, Parsing, Data Flow Analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus_type": "Mixed Problem Solving & Weak Topic Reinforcement",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Mixed Problem Solving",
+          "subtopics": [
+            "Time Complexity / Bit Manipulation",
+            "Hashing",
+            "Divide and Conquer"
+          ]
+        },
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Mixed Problem Solving",
+          "subtopics": [
+            "fork and wait system calls",
+            "Interrupt Handling",
+            "Hard Disk Structure/Organization"
+          ]
+        },
+        {
+          "subject": "Engineering Mathematics",
+          "priority": "LOW",
+          "topic": "Calculus & Probability",
+          "subtopics": [
+            "Functions and Limits",
+            "Definite Integral",
+            "Definite Integrals",
+            "Local Maxima and Minima",
+            "Probability / Dice",
+            "Probability / Binomial Distribution"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus_type": "Full Syllabus Mock Tests & Final Review",
+      "subjects": [
+        {
+          "subject": "All Subjects",
+          "priority": "CRITICAL",
+          "topic": "Mock Tests & Quick Revision",
+          "subtopics": [
+            "Comprehensive review of all core concepts",
+            "Formula recall and application",
+            "Time management strategies for GATE"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Remaining Topics",
+          "subtopics": [
+            "Memory / DRAM / Refresh",
+            "TLB, Cache, Page Tables",
+            "RISC Architecture",
+            "Parallel Processing"
+          ]
+        },
+        {
+          "subject": "General Aptitude",
+          "priority": "LOW",
+          "topic": "Final Practice",
+          "subtopics": [
+            "Ratio and Proportion / Percentages",
+            "Sequences and Series",
+            "Word Problems / Arithmetic",
+            "Quadratic Equations"
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+================================================================================
+
+=== GATE_CSE_PYQ | 12 months | ID: df2dc190-7826-45e4-98b9-c1066269e2a6 ===
+{
+  "duration_weeks": 48,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Programming and Data Structures",
+          "priority": "CRITICAL",
+          "topic": "C Programming",
+          "subtopics": [
+            "C Programming Basics",
+            "Pointers and Arrays"
+          ]
+        },
+        {
+          "subject": "Digital Logic",
+          "priority": "MEDIUM",
+          "topic": "Number Representation",
+          "subtopics": [
+            "Number System and Radix Conversion"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Programming and Data Structures",
+          "priority": "CRITICAL",
+          "topic": "C Programming",
+          "subtopics": [
+            "Function Calls, Variable Scope",
+            "Recursion",
+            "Loops and Control Flow"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Basic Data Structures",
+          "subtopics": [
+            "Arrays",
+            "Linked List"
+          ]
+        },
+        {
+          "subject": "Digital Logic",
+          "priority": "MEDIUM",
+          "topic": "Number Representation",
+          "subtopics": [
+            "Two's Complement, Overflow"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Basic Data Structures",
+          "subtopics": [
+            "Stacks and Queues"
+          ]
+        },
+        {
+          "subject": "Digital Logic",
+          "priority": "MEDIUM",
+          "topic": "Boolean Algebra",
+          "subtopics": [
+            "Boolean Algebra Identities",
+            "Boolean Operations/Algebraic Properties"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Analysis of Algorithms",
+          "subtopics": [
+            "Asymptotic Notations",
+            "Complexity Analysis"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Set Theory",
+          "subtopics": [
+            "Set Theory & Algebra"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Analysis of Algorithms",
+          "subtopics": [
+            "Recurrence Relations and Analysis"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Logic",
+          "subtopics": [
+            "Propositional Logic"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Sorting",
+          "subtopics": [
+            "Quicksort, Probability (analysis)",
+            "Selection Algorithms"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Process Management",
+          "subtopics": [
+            "Process States",
+            "Process Management Concepts"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Data Representation",
+          "subtopics": [
+            "Fixed Point Representation",
+            "Floating Point",
+            "IEEE 754 Standard"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Process Management",
+          "subtopics": [
+            "CPU Scheduling",
+            "Round Robin Scheduling"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Instruction Set Architecture",
+          "subtopics": [
+            "Instruction Format / Encoding",
+            "Machine Instruction & Addressing Format"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "ER Model",
+          "subtopics": [
+            "ER Model",
+            "ER Model / Relationships",
+            "Weak Entity Sets"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Relational Model",
+          "subtopics": [
+            "Relational Model",
+            "Relational Model Concepts"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Network Basics",
+          "subtopics": [
+            "Concept of Layering and LAN Technologies"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Data Link Layer",
+          "subtopics": [
+            "MAC Protocols / Carrier Sense / Collision Avoidance",
+            "Flow and Error Control"
+          ]
+        },
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Finite Automata",
+          "subtopics": [
+            "DFA",
+            "NFA to DFA Conversion"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Regular Languages",
+          "subtopics": [
+            "Regular Expressions",
+            "Regular Languages"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Logic",
+          "subtopics": [
+            "Predicate Logic"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Divide and Conquer",
+          "subtopics": [
+            "Maximum Subarray Sum"
+          ]
+        },
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Trees",
+          "subtopics": [
+            "Trees / Binary Tree Traversal"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Graph Algorithms",
+          "subtopics": [
+            "DFS and BFS",
+            "Graph Algorithms / DFS / BFS"
+          ]
+        },
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Concurrency and Synchronization",
+          "subtopics": [
+            "Concurrency",
+            "Process Synchronization / Semaphores / Producer-Consumer"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Deadlocks",
+          "subtopics": [
+            "Deadlocks",
+            "Deadlock detection and prevention",
+            "Deadlock / Resource Allocation"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Pipelining",
+          "subtopics": [
+            "Instruction Pipelining",
+            "Instruction Pipeline / Clock Cycles"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Deadlocks",
+          "subtopics": [
+            "Deadlock / Banker's Algorithm"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Pipelining",
+          "subtopics": [
+            "Control Hazards, Branch Prediction, Speedup"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Functional Dependencies",
+          "subtopics": [
+            "Functional Dependencies",
+            "Functional Dependencies, Keys"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Network Layer",
+          "subtopics": [
+            "IP Addressing",
+            "Subnetting"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Normalization",
+          "subtopics": [
+            "Normalization",
+            "Normalization / 3NF / BCNF"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Network Layer",
+          "subtopics": [
+            "IP Fragmentation",
+            "IP Fragmentation / Fragmentation Offset"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Normalization",
+          "subtopics": [
+            "BCNF, Dependency Preservation, Lossless Decomposition"
+          ]
+        },
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Regular Languages",
+          "subtopics": [
+            "Properties of Regular Languages",
+            "Pumping Lemma"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Graph Algorithms",
+          "subtopics": [
+            "Minimum Spanning Tree",
+            "Shortest Path"
+          ]
+        },
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Trees",
+          "subtopics": [
+            "AVL Tree"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Dynamic Programming",
+          "subtopics": [
+            "Dynamic Programming / Matrix Chain Multiplication"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Combinatorics",
+          "subtopics": [
+            "Permutations and Combinations",
+            "Combinatorics"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Combinatorics",
+          "subtopics": [
+            "Generating Functions",
+            "Generating Functions / Sequences",
+            "Partitions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Digital Logic",
+          "priority": "MEDIUM",
+          "topic": "Boolean Functions",
+          "subtopics": [
+            "Boolean Functions / Prime Implicants / K-Map"
+          ]
+        },
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Compiler Phases",
+          "subtopics": [
+            "Compiler Phases / Basics",
+            "Phases of Compiler"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Digital Logic",
+          "priority": "MEDIUM",
+          "topic": "Combinational Circuits",
+          "subtopics": [
+            "Multiplexers",
+            "Logic Gate Implementation"
+          ]
+        },
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Lexical Analysis",
+          "subtopics": [
+            "Lexical Analysis",
+            "Lexical Analysis / Regular Expressions / Longest Match"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Linear Algebra",
+          "priority": "MEDIUM",
+          "topic": "Matrices and Determinants",
+          "subtopics": [
+            "Matrices",
+            "Determinants",
+            "Matrix Properties"
+          ]
+        },
+        {
+          "subject": "Probability",
+          "priority": "MEDIUM",
+          "topic": "Probability Basics",
+          "subtopics": [
+            "Events and Probability",
+            "Probability"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 27,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Linear Algebra",
+          "priority": "MEDIUM",
+          "topic": "Eigenvalues and Eigenvectors",
+          "subtopics": [
+            "Eigenvalues",
+            "Eigenvalues and Eigenvectors",
+            "Linear Algebra / Eigenvalues / Diagonalization"
+          ]
+        },
+        {
+          "subject": "Probability",
+          "priority": "MEDIUM",
+          "topic": "Conditional Probability",
+          "subtopics": [
+            "Conditional Probability",
+            "Independent Events"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Probability",
+          "priority": "MEDIUM",
+          "topic": "Advanced Probability",
+          "subtopics": [
+            "Probability / Bayes' Theorem",
+            "Probability / Dice"
+          ]
+        },
+        {
+          "subject": "General Aptitude",
+          "priority": "N/A",
+          "topic": "Numerical Ability",
+          "subtopics": [
+            "Algebra / Exponents",
+            "Quadratic Equations"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 29,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Memory Management",
+          "subtopics": [
+            "Memory Allocation",
+            "Paging",
+            "Memory Management / Demand Paging / Page Fault"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Memory Management",
+          "subtopics": [
+            "Paging / Page Replacement Algorithms (LRU)",
+            "Virtual Memory",
+            "TLB, Cache, Page Tables"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Cache Memory",
+          "subtopics": [
+            "Cache Memory",
+            "Cache Mapping"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 31,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Cache Memory",
+          "subtopics": [
+            "Cache Policies",
+            "Average Memory Access Time (AMAT)",
+            "Fully Associative Cache"
+          ]
+        },
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Relational Algebra",
+          "subtopics": [
+            "Relational Algebra / Joins / Outer Join",
+            "Relational Algebra Operators, Division"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "SQL and Transactions",
+          "subtopics": [
+            "SQL / Joins",
+            "ACID Properties"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Transport Layer",
+          "subtopics": [
+            "TCP",
+            "TCP Handshake"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 33,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Transport Layer",
+          "subtopics": [
+            "TCP Congestion Control",
+            "TCP Congestion Control / Slow Start",
+            "TCP / Sequence Number Wraparound"
+          ]
+        },
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Context-Free Languages",
+          "subtopics": [
+            "Context-Free Grammars",
+            "Context-Free Languages"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 34,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Context-Free Languages",
+          "subtopics": [
+            "Properties of Context-Free Languages"
+          ]
+        },
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Computability",
+          "subtopics": [
+            "Decidability / Undecidability"
+          ]
+        },
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Greedy Algorithms",
+          "subtopics": [
+            "Greedy Algorithms / Knapsack"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 35,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Hashing",
+          "subtopics": [
+            "Hashing",
+            "Hash Functions and Analysis"
+          ]
+        },
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Advanced Data Structures",
+          "subtopics": [
+            "Range Query"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 36,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "File Systems",
+          "subtopics": [
+            "File Allocation Methods (Contiguous, Linked)",
+            "Hard Disk Structure/Organization"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Memory Hierarchy",
+          "subtopics": [
+            "Memory / DRAM / Refresh",
+            "DMA"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 37,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Graph Theory",
+          "subtopics": [
+            "Graph Theory / Degree / Connected Components",
+            "Spanning Trees"
+          ]
+        },
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Parsing",
+          "subtopics": [
+            "Parser Types",
+            "LR Parsers"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 38,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Parsing",
+          "subtopics": [
+            "Syntax Directed Translation"
+          ]
+        },
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Data Flow Analysis",
+          "subtopics": [
+            "Lexical Analysis, Parsing, Data Flow Analysis"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Application Layer",
+          "subtopics": [
+            "HTTP and DNS"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 39,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Application Layer",
+          "subtopics": [
+            "Email Protocols"
+          ]
+        },
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Security & Performance",
+          "subtopics": [
+            "RSA Algorithm",
+            "Network Performance"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 40,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Calculus",
+          "priority": "LOW",
+          "topic": "Limits and Integration",
+          "subtopics": [
+            "Limits",
+            "Definite Integrals"
+          ]
+        },
+        {
+          "subject": "General Aptitude",
+          "priority": "N/A",
+          "topic": "Verbal Ability",
+          "subtopics": [
+            "Grammar / Fill in the Blanks",
+            "Vocabulary / Fill in the Blanks"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 41,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Calculus",
+          "priority": "LOW",
+          "topic": "Differentiation",
+          "subtopics": [
+            "Local Maxima and Minima"
+          ]
+        },
+        {
+          "subject": "General Aptitude",
+          "priority": "N/A",
+          "topic": "Numerical Ability",
+          "subtopics": [
+            "Geometry / Area",
+            "Number Theory / LCM"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Group Theory",
+          "subtopics": [
+            "Group Theory / Lagrange's Theorem"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 42,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "General Aptitude",
+          "priority": "N/A",
+          "topic": "Numerical Ability",
+          "subtopics": [
+            "Ratio and Proportion / Percentages",
+            "Sequences and Series",
+            "Word Problems / Arithmetic"
+          ]
+        },
+        {
+          "subject": "General Aptitude",
+          "priority": "N/A",
+          "topic": "Reasoning",
+          "subtopics": [
+            "Syllogism"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 43,
+      "focus_type": "Revision",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Graph Algorithms",
+          "subtopics": [
+            "Minimum Spanning Tree",
+            "Shortest Path",
+            "DFS and BFS"
+          ]
+        },
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Process Management",
+          "subtopics": [
+            "CPU Scheduling",
+            "Process Synchronization / Semaphores / Producer-Consumer"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 44,
+      "focus_type": "Revision",
+      "subjects": [
+        {
+          "subject": "Databases",
+          "priority": "CRITICAL",
+          "topic": "Normalization",
+          "subtopics": [
+            "Functional Dependencies, Keys",
+            "Normalization / 3NF / BCNF",
+            "BCNF, Dependency Preservation, Lossless Decomposition"
+          ]
+        },
+        {
+          "subject": "Data Structures",
+          "priority": "CRITICAL",
+          "topic": "Trees",
+          "subtopics": [
+            "AVL Tree",
+            "Trees / Binary Tree Traversal"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 45,
+      "focus_type": "PYQ Practice",
+      "subjects": [
+        {
+          "subject": "Computer Networks",
+          "priority": "HIGH",
+          "topic": "Transport Layer",
+          "subtopics": [
+            "TCP Congestion Control",
+            "TCP Handshake",
+            "TCP / Sequence Number Wraparound"
+          ]
+        },
+        {
+          "subject": "Computer Organization and Architecture",
+          "priority": "HIGH",
+          "topic": "Cache Memory",
+          "subtopics": [
+            "Cache Memory",
+            "Average Memory Access Time (AMAT)",
+            "Cache Mapping"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 46,
+      "focus_type": "Mixed Problem Solving",
+      "subjects": [
+        {
+          "subject": "Theory of Computation",
+          "priority": "HIGH",
+          "topic": "Regular Languages",
+          "subtopics": [
+            "Pumping Lemma",
+            "Regular Expressions",
+            "DFA"
+          ]
+        },
+        {
+          "subject": "Discrete Mathematics",
+          "priority": "HIGH",
+          "topic": "Combinatorics",
+          "subtopics": [
+            "Permutations and Combinations",
+            "Generating Functions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 47,
+      "focus_type": "Weak Topic Reinforcement",
+      "subjects": [
+        {
+          "subject": "Compiler Design",
+          "priority": "MEDIUM",
+          "topic": "Parsing",
+          "subtopics": [
+            "LR Parsers",
+            "Syntax Directed Translation"
+          ]
+        },
+        {
+          "subject": "Linear Algebra",
+          "priority": "MEDIUM",
+          "topic": "Eigenvalues and Eigenvectors",
+          "subtopics": [
+            "Eigenvalues",
+            "Eigenvalues and Eigenvectors"
+          ]
+        },
+        {
+          "subject": "Probability",
+          "priority": "MEDIUM",
+          "topic": "Conditional Probability",
+          "subtopics": [
+            "Conditional Probability",
+            "Probability / Bayes' Theorem"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 48,
+      "focus_type": "Full Syllabus Mock Test & Analysis",
+      "subjects": [
+        {
+          "subject": "Algorithms",
+          "priority": "CRITICAL",
+          "topic": "Mixed Problems",
+          "subtopics": [
+            "Analysis of Recurrence Relations",
+            "Dynamic Programming / Matrix Chain Multiplication",
+            "Greedy Algorithms / Knapsack"
+          ]
+        },
+        {
+          "subject": "Operating System",
+          "priority": "CRITICAL",
+          "topic": "Mixed Problems",
+          "subtopics": [
+            "Deadlock / Banker's Algorithm",
+            "Memory Management / Demand Paging / Page Fault",
+            "File Allocation Methods (Contiguous, Linked)"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+

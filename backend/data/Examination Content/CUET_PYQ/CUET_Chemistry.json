@@ -1,0 +1,2605 @@
+[
+    {
+        "question_number": 1,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Electrolysis",
+        "difficulty": "Easy",
+        "question": "The cell reaction occurring at anode in the electrolysis of aqueous NaCl solution is:\n\n\n(A) H⁺(aq) + e⁻ → ½ H₂(g), E° = 0.00V (B) Cl⁻(aq) → ½ Cl₂(g) + e⁻, E° = 1.36V\n\n\n(C) Na⁺(aq) + e⁻ → Na(s), E° = -2.71V (D) 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻, E° = -1.23V",
+        "options": [
+            "(A) H⁺(aq) + e⁻ → ½ H₂(g), E° = 0.00V",
+            "(B) Cl⁻(aq) → ½ Cl₂(g) + e⁻, E° = 1.36V",
+            "(C) Na⁺(aq) + e⁻ → Na(s), E° = -2.71V",
+            "(D) 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻, E° = -1.23V"
+        ],
+        "answer": "(B) Cl⁻(aq) → ½ Cl₂(g) + e⁻, E° = 1.36V",
+        "explanation": "In the electrolysis of aqueous NaCl solution, the anode is where oxidation occurs. Competing reactions involve the oxidation of chloride ions and water molecules. Despite the higher standard oxidation potential of water, the overpotential for oxygen evolution makes the oxidation of chloride ions kinetically favored. Consequently, chloride ions are oxidized to chlorine gas at the anode.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 2,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Galvanic Cells / Representation",
+        "difficulty": "Medium",
+        "question": "The standard reduction potential for Sn⁴⁺/Sn²⁺ is +0.15V and for Cr³⁺/Cr is -0.74V. These two half-cells,\ncoupled in their standard states, are connected to make a cell. The galvanic cell can be correctly represented\nby:\n\n\n(A) Sn²⁺(aq)|Sn⁴⁺(aq)||Cr(s)|Cr³⁺(aq) (B) Sn⁴⁺(aq)|Sn²⁺(aq)||Cr³⁺(aq)|Cr(s)\n\n\n(C) Cr(s)|Cr³⁺(aq)||Sn⁴⁺(aq)|Sn²⁺(aq) (D) Cr(s)|Cr³⁺(aq)||Sn²⁺(aq)|Sn⁴⁺(aq)",
+        "options": [
+            "(A) Sn²⁺(aq)|Sn⁴⁺(aq)||Cr(s)|Cr³⁺(aq)",
+            "(B) Sn⁴⁺(aq)|Sn²⁺(aq)||Cr³⁺(aq)|Cr(s)",
+            "(C) Cr(s)|Cr³⁺(aq)||Sn⁴⁺(aq)|Sn²⁺(aq)",
+            "(D) Cr(s)|Cr³⁺(aq)||Sn²⁺(aq)|Sn⁴⁺(aq)"
+        ],
+        "answer": "(C) Cr(s)|Cr³⁺(aq)||Sn⁴⁺(aq)|Sn²⁺(aq)",
+        "explanation": "In a galvanic cell, the half-cell with the lower (more negative) standard reduction potential undergoes oxidation and acts as the anode. Cr³⁺/Cr has a standard reduction potential of -0.74V, which is less than +0.15V for Sn⁴⁺/Sn²⁺, so chromium will be oxidized. The cell notation places the anode (oxidation) on the left and the cathode (reduction) on the right, separated by a double vertical line for the salt bridge.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 3,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Alkanes, Alkenes, Reactions (Dehydrohalogenation, Ozonolysis)",
+        "difficulty": "Hard",
+        "question": "An alkyl halide with molecular formula C₅H₁₁Br on dehydrohalogenation gives two isomeric alkenes X and Y\nwith formula C₅H₁₀. On reductive ozonolysis X and Y gave four compounds (CH₃CHO, CH₃COCH₃, (CH₃)₂CHCHO,\nHCHO). The alkyl halide is:\n\n\n(A) 3-Bromopentane (B) 2-Bromo-3-methylbutane\n\n\n(C) 2-Bromo-2-methylbutane (D) 1-Bromo-2,2-dimethylpropane",
+        "options": [
+            "(A) 3-Bromopentane",
+            "(B) 2-Bromo-3-methylbutane",
+            "(C) 2-Bromo-2-methylbutane",
+            "(D) 1-Bromo-2,2-dimethylpropane"
+        ],
+        "answer": "(B) 2-Bromo-3-methylbutane",
+        "explanation": "2-Bromo-3-methylbutane undergoes dehydrohalogenation to yield 3-methylbut-1-ene and 2-methylbut-2-ene. Reductive ozonolysis of 3-methylbut-1-ene produces formaldehyde (HCHO) and isobutyraldehyde ((CH₃)₂CHCHO). The ozonolysis of 2-methylbut-2-ene yields acetaldehyde (CH₃CHO) and acetone (CH₃COCH₃). These four products precisely match those listed in the question, confirming the alkyl halide's structure.",
+        "a": 2.0,
+        "b": 1.5,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 4,
+        "subject": "Chemistry",
+        "topic": "P-block Elements",
+        "subtopic": "Oxoacids of Sulphur",
+        "difficulty": "Easy",
+        "question": "The oxoacid of sulphur which has a lone pair of electron on sulphur atom is:\n\n\n(A) H₂SO₄ (B) H₂SO₃\n\n\n(C) H₂S₂O₈ (D) H₂S₂O₇",
+        "options": [
+            "(A) H₂SO₄",
+            "(B) H₂SO₃",
+            "(C) H₂S₂O₈",
+            "(D) H₂S₂O₇"
+        ],
+        "answer": "(B) H₂SO₃",
+        "explanation": "Sulfurous acid (H₂SO₃) is the oxoacid of sulfur where the sulfur atom is in a +4 oxidation state. Its structure involves one sulfur-oxygen double bond, two sulfur-hydroxyl single bonds, and one lone pair of electrons on the sulfur atom. In contrast, sulfuric acid (H₂SO₄) and other options have sulfur in higher oxidation states, typically +6, with no lone pairs.",
+        "a": 1.0,
+        "b": -0.8,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 5,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Batteries / Cells",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I: A. Fuel Cell, B. Mercury Cell, C. Leclanché Cell, D. Ni-Cd Cell\nList-II: (i) Rechargeable, (ii) Reaction at anode: Zn → Zn²⁺ + 2e⁻, (iii) Cell reaction: 2H₂ + O₂ → 2H₂O, (iv) Gives\nsteady potential\n\n\n(A) A-(i), B-(iv), C-(iii), D-(ii) (B) A-(ii), B-(i), C-(iv), D-(iii)\n\n\n(C) A-(iii), B-(iv), C-(ii), D-(i) (D) A-(iv), B-(i), C-(ii), D-(iii)",
+        "options": [
+            "(A) A-(i), B-(iv), C-(iii), D-(ii)",
+            "(B) A-(ii), B-(i), C-(iv), D-(iii)",
+            "(C) A-(iii), B-(iv), C-(ii), D-(i)",
+            "(D) A-(iv), B-(i), C-(ii), D-(iii)"
+        ],
+        "answer": "(C) A-(iii), B-(iv), C-(ii), D-(i)",
+        "explanation": "Fuel cells, like the hydrogen-oxygen fuel cell, produce electricity through the reaction 2H₂ + O₂ → 2H₂O. Mercury cells are known for providing a steady discharge potential throughout their operational life. In a Leclanché cell (dry cell), the anode reaction involves the oxidation of zinc, Zn → Zn²⁺ + 2e⁻. Nickel-cadmium cells are secondary cells, which means they are rechargeable.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 6,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "First Order Reactions / Half-life",
+        "difficulty": "Easy",
+        "question": "The half-life of a first order reaction is 25 minutes. Its rate constant is:\n\n\n(A) 2.27 × 10⁻² min⁻¹ (B) 3.2 × 10⁻³ min⁻¹\n\n\n(C) 9.2 × 10⁻² min⁻¹ (D) 2.8 × 10⁻² min⁻¹",
+        "options": [
+            "(A) 2.27 × 10⁻² min⁻¹",
+            "(B) 3.2 × 10⁻³ min⁻¹",
+            "(C) 9.2 × 10⁻² min⁻¹",
+            "(D) 2.8 × 10⁻² min⁻¹"
+        ],
+        "answer": "(D) 2.8 × 10⁻² min⁻¹",
+        "explanation": "For a first-order reaction, the rate constant (k) and half-life (t₁/₂) are related by the equation k = 0.693 / t₁/₂. Given the half-life is 25 minutes, we can calculate the rate constant directly. Substituting the value, k = 0.693 / 25 min = 0.02772 min⁻¹, which is approximately 2.8 × 10⁻² min⁻¹. This relationship is fundamental to understanding first-order decay processes.",
+        "a": 0.9,
+        "b": -1.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 7,
+        "subject": "Chemistry",
+        "topic": "Solutions",
+        "subtopic": "Ideal and Non-ideal Solutions / Raoult's Law",
+        "difficulty": "Medium",
+        "question": "The vapour pressure curve of the mixture of ethanol and acetone is higher than its constituents because:\n\n\n\n(A) Weakening of interactions between molecules takes\nplace\n\n\n\n(B) Strengthening of interactions between molecules takes\nplace\n\n\n\n(C) New hydrogen bonds are formed\n (D) Molecules are not able to escape from the solution",
+        "options": [
+            "(A) Weakening of interactions between molecules takes place",
+            "(B) Strengthening of interactions between molecules takes place",
+            "(C) New hydrogen bonds are formed",
+            "(D) Molecules are not able to escape from the solution"
+        ],
+        "answer": "(A) Weakening of interactions between molecules takes\nplace",
+        "explanation": "A vapor pressure curve higher than its constituents signifies a positive deviation from Raoult's law. This deviation occurs when the intermolecular attractive forces between the dissimilar molecules (e.g., ethanol-acetone) are weaker than those between the similar molecules (ethanol-ethanol and acetone-acetone). The reduced intermolecular attraction allows more molecules to escape into the vapor phase, leading to an increased vapor pressure. This often happens when mixing components that disrupt existing strong interactions.",
+        "a": 1.3,
+        "b": 0.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 8,
+        "subject": "Chemistry",
+        "topic": "Solutions",
+        "subtopic": "Henry's Law",
+        "difficulty": "Medium",
+        "question": "Match List-I (K_H values / Kbar) with List-II (Gas):\nList-I: A. 145, B. 89, C. 76.5, D. 1.67\nList-II: (i) CO₂, (ii) He, (iii) N₂ (at 293 K), (iv) N₂ (at 303 K)",
+        "options": [
+            "(A) A-(ii), B-(iv), C-(iii), D-(i)",
+            "(B) A-(i), B-(ii), C-(iii), D-(iv)",
+            "(C) A-(ii), B-(iii), C-(iv), D-(i)",
+            "(D) A-(i), B-(iii), C-(ii), D-(iv)"
+        ],
+        "answer": "(A) A-(ii), B-(iv), C-(iii), D-(i)",
+        "explanation": "Henry's law constant (K_H) is inversely proportional to the solubility of a gas, and it increases with temperature. Helium (He) has very low solubility, thus a high K_H (145 Kbar). Nitrogen (N₂) solubility decreases with increasing temperature, so K_H for N₂ at 303 K (89 Kbar) is higher than at 293 K (76.5 Kbar). Carbon dioxide (CO₂) is relatively more soluble than nitrogen or helium, resulting in a significantly lower K_H (1.67 Kbar).",
+        "a": 1.6,
+        "b": 0.5,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 9,
+        "subject": "Chemistry",
+        "topic": "Surface Chemistry",
+        "subtopic": "Adsorption Isotherms",
+        "difficulty": "Easy",
+        "question": "In Freundlich adsorption isotherm, the value of 1/n is:\n\n\n(A) 1 in case of chemisorption (B) 1 in case of physisorption\n\n\n(C) Between 0 and 1 in all cases (D) Between 2 and 4 in all cases",
+        "options": [
+            "(A) 1 in case of chemisorption",
+            "(B) 1 in case of physisorption",
+            "(C) Between 0 and 1 in all cases",
+            "(D) Between 2 and 4 in all cases"
+        ],
+        "answer": "(C) Between 0 and 1 in all cases",
+        "explanation": "The Freundlich adsorption isotherm describes the relationship between the amount of gas adsorbed on a solid surface and the equilibrium pressure. It is represented by x/m = k P^(1/n). The exponent 1/n is an empirical constant whose value invariably lies between 0 and 1. This characteristic ensures that the extent of adsorption does not increase linearly or infinitely with pressure.",
+        "a": 1.1,
+        "b": -0.7,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 10,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Faraday's Laws of Electrolysis",
+        "difficulty": "Medium",
+        "question": "The quantity of charge required to obtain 2 mol of Mn²⁺ from MnO₄⁻ is:\n\n\n(A) 2 F (B) 10 F\n\n\n(C) 5 F (D) 1 F",
+        "options": [
+            "(A) 2 F",
+            "(B) 10 F",
+            "(C) 5 F",
+            "(D) 1 F"
+        ],
+        "answer": "(B) 10 F",
+        "explanation": "To convert MnO₄⁻ to Mn²⁺, the oxidation state of manganese changes from +7 to +2. This reduction requires a gain of 5 electrons per mole of MnO₄⁻. Therefore, to obtain 2 moles of Mn²⁺, a total of 2 moles × 5 electrons/mole = 10 moles of electrons are needed. Since one mole of electrons corresponds to one Faraday (F) of charge, 10 F of charge is required.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 11,
+        "subject": "Chemistry",
+        "topic": "General Principles and Processes of Isolation of Elements",
+        "subtopic": "Extraction of Silver",
+        "difficulty": "Easy",
+        "question": "In the cyanide extraction process of silver, the oxidising and reducing agents used are:\n\n\n(A) O₂ and CO respectively (B) O₂ and Zn dust respectively\n\n\n(C) H₂O and Zn dust respectively (D) H₂O and NaCN respectively",
+        "options": [
+            "(A) O₂ and CO respectively",
+            "(B) O₂ and Zn dust respectively",
+            "(C) H₂O and Zn dust respectively",
+            "(D) H₂O and NaCN respectively"
+        ],
+        "answer": "(B) O₂ and Zn dust respectively",
+        "explanation": "The cyanide process for silver extraction involves two main steps: leaching and reduction. During leaching, silver ore reacts with a cyanide solution in the presence of atmospheric oxygen, where oxygen acts as the oxidizing agent. In the subsequent step, zinc dust is added to displace silver from the soluble silver-cyanide complex, with zinc acting as the reducing agent. This selective process efficiently recovers silver.",
+        "a": 1.0,
+        "b": -0.9,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 12,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Reaction Order / Rate Law",
+        "difficulty": "Hard",
+        "question": "A drop of solution (Volume 0.05 mL) contains 3.0 × 10⁻⁶ mole of H⁺. If the rate constant of disappearance\nof H⁺ is 1.0 × 10⁻⁷ mol⁻¹ L s⁻¹, how long will it take for H⁺ ions to disappear?\n\n\n(A) 6 × 10⁻⁸ s (B) 6 × 10⁻⁹ s\n\n\n(C) 6 × 10⁻⁷ s (D) None (6 × 10⁵ s)",
+        "options": [
+            "(A) 6 × 10⁻⁸ s",
+            "(B) 6 × 10⁻⁹ s",
+            "(C) 6 × 10⁻⁷ s",
+            "(D) None (6 × 10⁵ s)"
+        ],
+        "answer": "(D) None (6 × 10⁵ s)",
+        "explanation": "The unit of the rate constant (mol⁻¹ L s⁻¹) clearly indicates a second-order reaction. For a second-order reaction, the integrated rate law is 1/[A] - 1/[A]₀ = kt. Theoretically, the concentration of a reactant in a second-order reaction never truly reaches zero in a finite amount of time, meaning it takes infinite time to completely 'disappear'. Therefore, none of the finite time options are correct for complete disappearance. The value 6 × 10⁵ s would be obtained if one incorrectly assumed a zero-order reaction.",
+        "a": 2.2,
+        "b": 1.8,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 13,
+        "subject": "Chemistry",
+        "topic": "P-block Elements",
+        "subtopic": "Halogens / Disproportionation reactions",
+        "difficulty": "Medium",
+        "question": "Identify 'X' along with oxidation state of halogen in the given reaction: 3Cl₂ + 6NaOH (hot & conc.) →\n5NaCl + X + 3H₂O\n\n\n(A) NaClO₂, +3 (B) NaClO₃, +5\n\n\n(C) NaClO₂, +7 (D) NaClO₃, +1",
+        "options": [
+            "(A) NaClO₂, +3",
+            "(B) NaClO₃, +5",
+            "(C) NaClO₂, +7",
+            "(D) NaClO₃, +1"
+        ],
+        "answer": "(B) NaClO₃, +5",
+        "explanation": "This reaction is a disproportionation of chlorine in hot, concentrated sodium hydroxide. Chlorine, initially in oxidation state 0, is simultaneously reduced to chloride (Cl⁻, oxidation state -1) and oxidized to chlorate. The balanced equation shows the formation of 5NaCl and X. By balancing chlorine atoms and charges, 'X' is identified as sodium chlorate (NaClO₃), where the oxidation state of chlorine is +5.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 14,
+        "subject": "Chemistry",
+        "topic": "Biomolecules",
+        "subtopic": "Reactions of Glucose",
+        "difficulty": "Medium",
+        "question": "Q15. Glucose does not react with:",
+        "options": [
+            "(A) Conc. HNO₃",
+            "(B) Acetic Anhydride",
+            "(C) Hydroxylamine",
+            "(D) Sodium bisulphite"
+        ],
+        "answer": "(D) Sodium bisulphite",
+        "explanation": "Glucose possesses an aldehyde group, which reacts with reagents like hydroxylamine to form oximes, and with acetic anhydride to form esters. Concentrated nitric acid oxidizes the aldehyde and primary alcohol groups to form saccharic acid. However, the aldehyde group in glucose exists in equilibrium with its cyclic hemiacetal forms, which prevents it from giving a positive test with sodium bisulphite, a characteristic reaction for free aldehydes and ketones.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 15,
+        "subject": "Chemistry",
+        "topic": "Solid State",
+        "subtopic": "Crystal Defects",
+        "difficulty": "Medium",
+        "question": "Q16. Which of the following defects are shown by KCl Crystal?\nA. Schottky defect, B. Frenkel defect, C. Metal excess defect, D. Metal deficiency defect",
+        "options": [
+            "(A) A and B only",
+            "(B) A and C only",
+            "(C) B and C only",
+            "(D) B and D only"
+        ],
+        "answer": "(B) A and C only",
+        "explanation": "Ionic crystals like KCl primarily exhibit Schottky defects, which involve vacant cation and anion sites in equal numbers, maintaining electrical neutrality. Additionally, alkali halides can show metal excess defects, such as when heated in an atmosphere of alkali metal vapor, leading to F-centers. Frenkel defects are less common in alkali halides due to the large sizes of the constituent ions, preventing them from fitting into interstitial sites. Metal deficiency defects typically occur in compounds where the metal can exist in variable oxidation states.",
+        "a": 1.4,
+        "b": 0.3,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 16,
+        "subject": "Chemistry",
+        "topic": "Biomolecules",
+        "subtopic": "Reactions of Glucose",
+        "difficulty": "Medium",
+        "question": "Q17. D (+) Glucose reacts with hydroxylamine and forms oxime. The structure of glucose oxime corresponds\nto:",
+        "options": [
+            "(A) Aldoxime with inverted C2",
+            "(B) Aldoxime with inverted C3",
+            "(C) Inverted configuration",
+            "(D) Standard D-glucose oxime structure"
+        ],
+        "answer": "(D) Standard D-glucose oxime structure",
+        "explanation": "The reaction of D(+) glucose with hydroxylamine involves the condensation of the aldehyde group with hydroxylamine to form an oxime. This reaction specifically targets the carbonyl carbon. Crucially, this transformation does not alter the configuration of the chiral centers present in the D-glucose molecule. Therefore, the resulting glucose oxime retains the original D-configuration, corresponding to a standard D-glucose oxime structure.",
+        "a": 1.35,
+        "b": 0.15,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 17,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry Basics",
+        "subtopic": "IUPAC Nomenclature",
+        "difficulty": "Easy",
+        "question": "Q18. The correct IUPAC name of CH₃-CH(C₂H₅)-CH₂-Br is:",
+        "options": [
+            "(A) 1-Bromo-2-methylbutane",
+            "(B) 1-Bromo-2-ethylpropane",
+            "(C) 1-Bromo-2-ethyl-2-methylethane",
+            "(D) 2-Methyl-1-bromobutane"
+        ],
+        "answer": "(A) 1-Bromo-2-methylbutane",
+        "explanation": "To name CH₃-CH(C₂H₅)-CH₂-Br, the longest continuous carbon chain must be identified, which is a butane chain (4 carbons). The numbering starts from the end closer to the bromine atom, placing it at position 1. The ethyl group at position 2 is part of the main chain, revealing a methyl group at the second carbon. Thus, the structure is 1-Bromo-2-methylbutane.",
+        "a": 1.0,
+        "b": -0.5,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 18,
+        "subject": "Chemistry",
+        "topic": "Aldehydes, Ketones and Carboxylic Acids",
+        "subtopic": "Preparation of Ketones",
+        "difficulty": "Medium",
+        "question": "Q19. Which of the following reaction will not produce ketones?",
+        "options": [
+            "(A) Hydration of alkynes",
+            "(B) Ozonolysis of substituted alkenes",
+            "(C) Treating nitrile with a Grignard reagent",
+            "(D) Stephen's reaction"
+        ],
+        "answer": "(D) Stephen's reaction",
+        "explanation": "Hydration of alkynes, except acetylene, yields ketones, while ozonolysis of substituted alkenes can also lead to ketone formation. Treating nitriles with a Grignard reagent followed by hydrolysis is a well-known method for synthesizing ketones. In contrast, Stephen's reaction specifically reduces nitriles to aldehydes using tin(II) chloride and hydrochloric acid, making it unsuitable for ketone production.",
+        "a": 1.45,
+        "b": 0.4,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 19,
+        "subject": "Chemistry",
+        "topic": "p-Block Elements",
+        "subtopic": "Ammonia (Haber Process)",
+        "difficulty": "Easy",
+        "question": "Q22. Ammonia is manufactured by Haber's process. The correct sequential steps involved are:\nA. Condensation of mixture of gases, B. Passing gaseous mixture over catalyst, C. Compression of gas mixture,\nD. Recirculation of gaseous mixture",
+        "options": [
+            "(A) C, B, A and D",
+            "(B) B, C, D and A",
+            "(C) A, D, C and B",
+            "(D) B, A, D and C"
+        ],
+        "answer": "(A) C, B, A and D",
+        "explanation": "The Haber process begins with the compression of the nitrogen and hydrogen gas mixture to high pressures. This compressed mixture is then passed over a finely divided iron catalyst at optimal temperature, where ammonia synthesis occurs. The resulting hot mixture is cooled, causing ammonia to condense into a liquid for separation. Finally, any unreacted nitrogen and hydrogen gases are recirculated back into the process to maximize yield.",
+        "a": 1.1,
+        "b": -0.8,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 20,
+        "subject": "Chemistry",
+        "topic": "Aldehydes, Ketones and Carboxylic Acids",
+        "subtopic": "Distinction Tests",
+        "difficulty": "Medium",
+        "question": "Q23. Acetaldehyde and benzaldehyde can be best distinguished by:",
+        "options": [
+            "(A) 2,4 DNP test",
+            "(B) Tollens' test",
+            "(C) Sodium bicarbonate test",
+            "(D) Fehling's test"
+        ],
+        "answer": "(D) Fehling's test",
+        "explanation": "Acetaldehyde and benzaldehyde are both aldehydes, so they would both give positive results for 2,4-DNP and Tollens' tests, making these unsuitable for distinction. The sodium bicarbonate test is used for carboxylic acids, not aldehydes. Fehling's test is ideal for distinguishing between aliphatic and aromatic aldehydes, as aliphatic aldehydes like acetaldehyde give a positive test, while aromatic aldehydes such as benzaldehyde typically do not react.",
+        "a": 1.3,
+        "b": 0.1,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 21,
+        "subject": "Chemistry",
+        "topic": "Polymers",
+        "subtopic": "Classification of Polymers",
+        "difficulty": "Medium",
+        "question": "Q24. Amongst the following, identify the condensation polymer/s:\nA. Bakelite, B. Teflon, C. Melamine formaldehyde resin, D. Nylon-2 nylon-6, E. Buna-S",
+        "options": [
+            "(A) B and E only",
+            "(B) A, C and D only",
+            "(C) C and D only",
+            "(D) A, B and E only"
+        ],
+        "answer": "(B) A, C and D only",
+        "explanation": "Condensation polymers are formed through reactions that involve the elimination of small molecules like water or HCl. Bakelite and Melamine formaldehyde resin are both formed by the condensation of their respective monomers. Nylon-2 nylon-6 is also a biodegradable condensation polymer, formed from glycine and aminocaproic acid. In contrast, Teflon and Buna-S are classified as addition polymers, where monomers simply add to each other without losing any atoms.",
+        "a": 1.4,
+        "b": 0.35,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 22,
+        "subject": "Chemistry",
+        "topic": "Carboxylic Acids and their Derivatives",
+        "subtopic": "Reactions of Esters",
+        "difficulty": "Easy",
+        "question": "Q25. Basic hydrolysis of esters produces:",
+        "options": [
+            "(A) Carboxylates",
+            "(B) Carboxylic acids",
+            "(C) Aldehydes",
+            "(D) Ketones"
+        ],
+        "answer": "(A) Carboxylates",
+        "explanation": "Basic hydrolysis of esters, also known as saponification, involves reacting an ester with a strong base like NaOH or KOH. This reaction cleaves the ester bond, yielding an alcohol and the corresponding salt of a carboxylic acid, known as a carboxylate. While carboxylic acids are formed during acidic hydrolysis, the basic conditions ensure the formation of the salt due to acid-base neutralization. Aldehydes and ketones are distinct classes of organic compounds and are not products of ester hydrolysis.",
+        "a": 1.05,
+        "b": -0.6,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 23,
+        "subject": "Chemistry",
+        "topic": "p-Block Elements",
+        "subtopic": "Nitrogen Compounds",
+        "difficulty": "Easy",
+        "question": "Q26. Chemical formula of laughing gas is:",
+        "options": [
+            "(A) NO",
+            "(B) N₂O",
+            "(C) N₂O₃",
+            "(D) N₂O₄"
+        ],
+        "answer": "(B) N₂O",
+        "explanation": "Laughing gas is the common name for nitrous oxide. Its chemical formula is N₂O, where nitrogen is in a +1 oxidation state. Nitric oxide (NO), dinitrogen trioxide (N₂O₃), and dinitrogen tetroxide (N₂O₄) are other oxides of nitrogen with different compositions and properties. Nitrous oxide is known for its anesthetic and dissociative effects.",
+        "a": 0.9,
+        "b": -1.0,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 24,
+        "subject": "Chemistry",
+        "topic": "General Principles and Processes of Isolation of Elements",
+        "subtopic": "Metallurgy (Extraction Methods)",
+        "difficulty": "Medium",
+        "question": "Q27. Match List-I with List-II:\nList-I: A. Electrolytic reduction, B. Bessemerization, C. Smelting, D. Reduction from oxide\nList-II: (i) Iron, (ii) Zinc, (iii) Aluminium, (iv) Copper",
+        "options": [
+            "(A) A-(iii), B-(i), C-(ii), D-(iv)",
+            "(B) A-(ii), B-(iii), C-(iv), D-(i)",
+            "(C) A-(iii), B-(iv), C-(i), D-(ii)",
+            "(D) A-(iv), B-(ii), C-(iii), D-(i)"
+        ],
+        "answer": "(C) A-(iii), B-(iv), C-(i), D-(ii)",
+        "explanation": "Electrolytic reduction is used for highly reactive metals like aluminium, which is obtained via the Hall-Héroult process. Bessemerization is a refining process mainly used for copper to convert copper matte into blister copper. Smelting involves heating an ore with a reducing agent and is prominently used for iron in the blast furnace. Finally, reduction from oxide, often by carbon, is a common method for extracting metals like zinc from its oxide.",
+        "a": 1.55,
+        "b": 0.6,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 25,
+        "subject": "Chemistry",
+        "topic": "Solid State",
+        "subtopic": "Close Packing and Voids",
+        "difficulty": "Medium",
+        "question": "Q28. A compound forms hexagonal closed packed structure. What is the number of tetrahedral voids in 0.8\nmol of it?",
+        "options": [
+            "(A) 1.5055 × 10²³",
+            "(B) 2.4088 × 10²³",
+            "(C) 9.635 × 10²³",
+            "(D) 3.011 × 10²³"
+        ],
+        "answer": "(C) 9.635 × 10²³",
+        "explanation": "In a hexagonal close-packed (hcp) structure, the number of tetrahedral voids is twice the number of constituent particles (atoms or ions) forming the lattice. First, calculate the total number of particles in 0.8 mol using Avogadro's number (6.022 × 10²³ mol⁻¹). This gives 0.8 × 6.022 × 10²³ = 4.8176 × 10²³ particles. Doubling this value for tetrahedral voids yields 2 × 4.8176 × 10²³ = 9.6352 × 10²³ voids.",
+        "a": 1.6,
+        "b": 0.7,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 26,
+        "subject": "Chemistry",
+        "topic": "p-Block Elements",
+        "subtopic": "Group 15 Elements (Nitrogen vs Phosphorus)",
+        "difficulty": "Easy",
+        "question": "Q29. In case of phosphorus, PCl₃ and PCl₅ are possible while nitrogen only forms NCl₃ and not NCl₅. This is due\nto:",
+        "options": [
+            "(A) Nitrogen is a gas while phosphorus is a solid",
+            "(B) Nitrogen does not have vacant d-orbitals in its atom",
+            "(C) Higher electronegativity of nitrogen",
+            "(D) Smaller size of nitrogen atom"
+        ],
+        "answer": "(B) Nitrogen does not have vacant d-orbitals in its atom",
+        "explanation": "Nitrogen belongs to the second period and lacks available d-orbitals in its valence shell, preventing it from expanding its octet. Consequently, nitrogen can form a maximum of three covalent bonds, as seen in NCl₃. Phosphorus, being in the third period, possesses vacant 3d-orbitals, which allows it to promote electrons and form five covalent bonds, thereby accommodating five chlorine atoms in PCl₅.",
+        "a": 1.2,
+        "b": -0.3,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 27,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Amines, Hybridization, Geometry",
+        "difficulty": "Medium",
+        "question": "In amines, the nitrogen atom is A and B hybridised, making geometry of amines as C. Then A, B and C respectively are:",
+        "options": [
+            "(A) trivalent, sp² trigonal",
+            "(B) tetravalent, sp³ tetrahedral",
+            "(C) trivalent, sp³ pyramidal",
+            "(D) tetravalent, sp², pyramidal"
+        ],
+        "answer": "(C) trivalent, sp³ pyramidal",
+        "explanation": "Amines feature a nitrogen atom with one lone pair and three bond pairs, resulting in four electron domains around it. This arrangement dictates sp³ hybridization for the nitrogen atom. The presence of the lone pair, which exerts more repulsion than bond pairs, distorts the ideal tetrahedral geometry into a pyramidal shape. Therefore, the nitrogen is trivalent, sp³ hybridised, and the overall geometry is pyramidal.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 28,
+        "subject": "Chemistry",
+        "topic": "Chemistry in Everyday Life",
+        "subtopic": "Artificial Sweeteners",
+        "difficulty": "Easy",
+        "question": "Aspartame is a successful artificial sweetener but is only limited to cold food and cold drinks because:",
+        "options": [
+            "(A) Sweetness control is difficult",
+            "(B) Too many calories are released",
+            "(C) Releases acetic acid",
+            "(D) Unstable at cooking temperature"
+        ],
+        "answer": "(D) Unstable at cooking temperature",
+        "explanation": "Aspartame is a widely used artificial sweetener primarily because of its low caloric content and intense sweetness. However, its significant limitation is its instability when exposed to high temperatures. At cooking or baking temperatures, aspartame hydrolyzes and loses its sweetening property. Consequently, it is unsuitable for use in heated foods or beverages.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 29,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Aromatic Halogenation, Electrophilic Substitution",
+        "difficulty": "Medium",
+        "question": "The appropriate reagent for converting toluene to p-chlorotoluene is:",
+        "options": [
+            "(A) SO₂Cl₂",
+            "(B) N-Chlorosuccinimide",
+            "(C) Cl₂ / FeCl₃",
+            "(D) SOCl₂"
+        ],
+        "answer": "(C) Cl₂ / FeCl₃",
+        "explanation": "Toluene, an aromatic compound, undergoes electrophilic aromatic substitution when reacting with chlorine. The methyl group on toluene is an ortho-para directing and activating group. To achieve chlorination on the aromatic ring, molecular chlorine (Cl₂) is required in the presence of a Lewis acid catalyst, such as anhydrous FeCl₃. This reaction selectively yields p-chlorotoluene as the major product along with o-chlorotoluene.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 30,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "subtopic": "Endocrine System, Hormones",
+        "difficulty": "Easy",
+        "question": "The hormone which controls the processes of burning of fats, proteins and carbohydrates with liberation of energy in the body is:",
+        "options": [
+            "(A) Thyroxine",
+            "(B) Insulin",
+            "(C) Adrenaline",
+            "(D) Estradiol"
+        ],
+        "answer": "(A) Thyroxine",
+        "explanation": "Thyroxine, a hormone produced by the thyroid gland, plays a pivotal role in regulating the body's basal metabolic rate. It controls the rate at which cells metabolize carbohydrates, fats, and proteins, thereby influencing energy production. Insulin primarily regulates blood glucose levels, adrenaline prepares the body for stress, and estradiol is a key female sex hormone.",
+        "a": 1.1,
+        "b": -0.8,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 31,
+        "subject": "Chemistry",
+        "topic": "d- and f-Block Elements",
+        "subtopic": "Alloys, Lanthanoids",
+        "difficulty": "Medium",
+        "question": "Which alloy is used for making bullets and lighter flints?",
+        "options": [
+            "(A) Shell metal",
+            "(B) Misch metal",
+            "(C) Gun metal",
+            "(D) Monel metal"
+        ],
+        "answer": "(B) Misch metal",
+        "explanation": "Misch metal is an important alloy predominantly composed of lanthanoid elements, particularly cerium and lanthanum, along with a small percentage of iron. This alloy exhibits pyrophoric properties, meaning it produces sparks upon striking. This characteristic makes it ideal for use in lighter flints and also finds application in the manufacture of bullets and shells.",
+        "a": 1.35,
+        "b": 0.05,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 32,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Order of Reaction",
+        "difficulty": "Easy",
+        "question": "Which of the following is NOT correct about the order of a reaction?",
+        "options": [
+            "(A) Sum of powers of molar concentrations in rate law",
+            "(B) Always equal to sum of stoichiometric coefficients",
+            "(C) Can be a fractional number",
+            "(D) Experimentally determined quantity"
+        ],
+        "answer": "(B) Always equal to sum of stoichiometric coefficients",
+        "explanation": "The order of a reaction is defined as the sum of the powers of the concentration terms in the experimentally determined rate law. It is an empirically derived value, meaning it must be determined by experiment, and it can indeed be a fractional number or even zero. The statement that it is always equal to the sum of stoichiometric coefficients is incorrect; this is only true for elementary reactions.",
+        "a": 0.9,
+        "b": -1.2,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 33,
+        "subject": "Chemistry",
+        "topic": "Surface Chemistry",
+        "subtopic": "Catalysis",
+        "difficulty": "Medium",
+        "question": "Which of the following statement is correct about catalyst?",
+        "options": [
+            "(A) Required in large quantities",
+            "(B) Same reactants may give different products using different catalysts",
+            "(C) Activity does not depend on chemisorption",
+            "(D) Does not remain same after reaction"
+        ],
+        "answer": "(B) Same reactants may give different products using different catalysts",
+        "explanation": "Catalysts are typically required in small quantities as they are regenerated after facilitating a reaction. A key property of catalysts is their selectivity, meaning that by choosing different catalysts, the same reactants can be directed to produce different products. Catalyst activity is highly dependent on chemisorption, and chemically, a catalyst remains unchanged at the end of the reaction.",
+        "a": 1.45,
+        "b": 0.15,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 34,
+        "subject": "Chemistry",
+        "topic": "d- and f-Block Elements",
+        "subtopic": "Lanthanoids, Lanthanoid Contraction",
+        "difficulty": "Hard",
+        "question": "Which of the following statements is NOT correct?",
+        "options": [
+            "(A) La is a transition element rather than Lanthanoid",
+            "(B) La(OH)₃ is less basic than Lu(OH)₃",
+            "(C) Ionic radius of Ln³⁺ decreases across series",
+            "(D) Atomic radii of Zr and Hf are same"
+        ],
+        "answer": "(B) La(OH)₃ is less basic than Lu(OH)₃",
+        "explanation": "Due to the lanthanoid contraction, the ionic radius of Ln³⁺ decreases steadily from lanthanum to lutetium. This decrease in size increases the covalent character of the M-OH bond, leading to a decrease in the basicity of the hydroxides across the series. Therefore, La(OH)₃ is the most basic, and Lu(OH)₃ is the least basic, making the statement that La(OH)₃ is less basic than Lu(OH)₃ incorrect.",
+        "a": 1.9,
+        "b": 1.0,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 35,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Amines, Qualitative Tests",
+        "difficulty": "Medium",
+        "question": "Positive carbylamine test is shown by:",
+        "options": [
+            "(A) N-Methylaniline",
+            "(B) N,N-Dimethylaniline",
+            "(C) Triethylamine",
+            "(D) p-Methylbenzylamine"
+        ],
+        "answer": "(D) p-Methylbenzylamine",
+        "explanation": "The carbylamine test, also known as the isocyanide test, is a specific qualitative test used to detect the presence of primary amines. In this reaction, primary amines react with chloroform and an alcoholic solution of potassium hydroxide to produce isocyanides, which are characterized by a highly offensive odor. p-Methylbenzylamine is a primary amine, while the other options represent secondary or tertiary amines, which do not give a positive carbylamine test.",
+        "a": 1.55,
+        "b": 0.3,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 36,
+        "subject": "Chemistry",
+        "topic": "Surface Chemistry",
+        "subtopic": "Colloids, Coagulation",
+        "difficulty": "Easy",
+        "question": "The minimum concentration of an electrolyte in millimoles per litre required to cause precipitation of a sol in 2 hours is:",
+        "options": [
+            "(A) Coagulating value",
+            "(B) Gold number",
+            "(C) Congorobin number",
+            "(D) Flocculation"
+        ],
+        "answer": "(A) Coagulating value",
+        "explanation": "The coagulating value, also known as the flocculation value, refers to the minimum concentration of an electrolyte, typically expressed in millimoles per liter, required to initiate the coagulation or precipitation of a colloidal sol within a specified timeframe, usually two hours. This value is a measure of the effectiveness of an electrolyte in causing the aggregation of colloidal particles. Gold number, in contrast, measures the protective power of a lyophilic colloid.",
+        "a": 0.95,
+        "b": -1.1,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 37,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Aldehydes, Ketones, Qualitative Tests",
+        "difficulty": "Medium",
+        "question": "C₃H₆O does not form a silver mirror with Tollen's reagent but forms an oxime with hydroxylamine. It gives positive:",
+        "options": [
+            "(A) Iodoform test",
+            "(B) Fehling's test",
+            "(C) Schiff's test",
+            "(D) Carbylamine test"
+        ],
+        "answer": "(A) Iodoform test",
+        "explanation": "The molecular formula C₃H₆O indicates a carbonyl compound, specifically either propanal or propanone. The inability to form a silver mirror with Tollen's reagent rules out propanal (an aldehyde), confirming the compound is propanone (a ketone). Propanone (CH₃COCH₃) contains a methyl ketone group, which is characteristic for giving a positive iodoform test. The formation of an oxime with hydroxylamine further confirms the presence of a carbonyl group.",
+        "a": 1.6,
+        "b": 0.4,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 38,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "VBT, Magnetic Properties, Geometry",
+        "difficulty": "Hard",
+        "question": "Two complexes of nickel having the same geometry but different magnetic behaviour are:\nA. [Ni(CN)₄]²⁻, B. [Ni(CO)₄], C. [NiCl₄]²⁻, D. [Ni(NH₃)₆]²⁺",
+        "options": [
+            "(A) A and B only",
+            "(B) B and D only",
+            "(C) B and C only",
+            "(D) A and D only"
+        ],
+        "answer": "(C) B and C only",
+        "explanation": "[Ni(CO)₄] features Ni(0) (d¹⁰) with CO (strong field ligand), resulting in sp³ hybridization, tetrahedral geometry, and diamagnetic behavior. [NiCl₄]²⁻ contains Ni(II) (d⁸) with Cl⁻ (weak field ligand), leading to sp³ hybridization, tetrahedral geometry, but it is paramagnetic due to two unpaired electrons. Thus, both complexes B and C share the same tetrahedral geometry but exhibit different magnetic properties.",
+        "a": 2.0,
+        "b": 1.2,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 39,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "Hybridization, VBT",
+        "difficulty": "Hard",
+        "question": "Which of the following complexes is NOT correctly matched with hybridisation of central metal ion?",
+        "options": [
+            "(A) [Ni(H₂O)₆]²⁺ : sp³d²",
+            "(B) [CoF₆]³⁻ : sp³d²",
+            "(C) [Cu(NH₃)₄]²⁺ : dsp²",
+            "(D) [MnCl₄]²⁻ : dsp²"
+        ],
+        "answer": "(D) [MnCl₄]²⁻ : dsp²",
+        "explanation": "For [MnCl₄]²⁻, manganese is in the +2 oxidation state, possessing a d⁵ electron configuration. Chloride ions are weak field ligands, typically promoting tetrahedral complexes for d⁵ ions. In such tetrahedral geometries, the central metal ion undergoes sp³ hybridization. The hybridization dsp² is characteristic of square planar complexes, which is not the geometry expected for [MnCl₄]²⁻.",
+        "a": 2.1,
+        "b": 1.5,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 40,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "Magnetic Moment, Crystal Field Theory",
+        "difficulty": "Hard",
+        "question": "Amongst the following ions which should have the highest magnetic moment value?",
+        "options": [
+            "(A) [NiCl₄]²⁻",
+            "(B) [Mn(CN)₆]⁴⁻",
+            "(C) [Cr(NH₃)₆]³⁺",
+            "(D) [CoF₆]³⁻"
+        ],
+        "answer": "(D) [CoF₆]³⁻",
+        "explanation": "Magnetic moment is directly proportional to the number of unpaired electrons (n). For [NiCl₄]²⁻ (Ni²⁺, d⁸, weak field, tetrahedral), n=2. For [Mn(CN)₆]⁴⁻ (Mn²⁺, d⁵, strong field, octahedral), n=1. For [Cr(NH₃)₆]³⁺ (Cr³⁺, d³, strong/weak field, octahedral), n=3. For [CoF₆]³⁻ (Co³⁺, d⁶, weak field, octahedral), it is a high-spin complex with four unpaired electrons (n=4). Consequently, [CoF₆]³⁻ will possess the highest magnetic moment.",
+        "a": 2.2,
+        "b": 1.8,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 41,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "Isomerism",
+        "difficulty": "Medium",
+        "question": "The compound [Pt(NH₃)₂Cl₂] exhibits:",
+        "options": [
+            "(A) Geometrical isomerism",
+            "(B) Linkage isomerism",
+            "(C) Ionisation isomerism",
+            "(D) Coordination isomerism"
+        ],
+        "answer": "(A) Geometrical isomerism",
+        "explanation": "The complex [Pt(NH₃)₂Cl₂] is a square planar complex, a type of coordination compound known for exhibiting geometrical isomerism. This arises because the two identical ligands (NH₃ or Cl) can be arranged either adjacent to each other (cis isomer) or opposite to each other (trans isomer) around the central platinum ion. Linkage, ionisation, and coordination isomerism require different structural features not present here.",
+        "a": 1.3,
+        "b": 0.0,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 42,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Alcohols, Phenols and Ethers",
+        "difficulty": "Easy",
+        "question": "Aspirin is an acetylation product of:\n\n(A) o-Dihydroxybenzoic acid\n(B) o-Hydroxybenzoic acid\n(C) m-Hydroxybenzoic acid\n(D) p-Dihydroxybenzene",
+        "options": [
+            "(A) o-Dihydroxybenzoic acid",
+            "(B) o-Hydroxybenzoic acid",
+            "(C) m-Hydroxybenzoic acid",
+            "(D) p-Dihydroxybenzene"
+        ],
+        "answer": "(B) o-Hydroxybenzoic acid",
+        "explanation": "Aspirin, chemically known as acetylsalicylic acid, is a common analgesic and anti-inflammatory drug synthesized through an esterification reaction. It is produced by the acetylation of salicylic acid, which is formally named o-hydroxybenzoic acid. The hydroxyl group on the benzene ring of salicylic acid reacts with an acetylating agent, typically acetic anhydride, to form the ester linkage. This reaction introduces an acetyl group onto the hydroxyl function, yielding aspirin.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 43,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Name Reactions",
+        "difficulty": "Easy",
+        "question": "Phenol + CHCl₃ + aq. NaOH (340 K) → Salicylaldehyde. This reaction is named:\n\n(A) Williamson's synthesis\n(B) Kolbe's reaction\n(C) Reimer-Tiemann reaction\n(D) Sandmeyer's reaction",
+        "options": [
+            "(A) Williamson's synthesis",
+            "(B) Kolbe's reaction",
+            "(C) Reimer-Tiemann reaction",
+            "(D) Sandmeyer's reaction"
+        ],
+        "answer": "(C) Reimer-Tiemann reaction",
+        "explanation": "This reaction is a classic example of the Reimer-Tiemann reaction, a fundamental name reaction in organic chemistry for the ortho-formylation of phenols. In this process, phenol reacts with chloroform in the presence of an aqueous alkali, such as sodium hydroxide, usually at an elevated temperature. The key electrophile generated in situ is dichlorocarbene, which attacks the activated phenol ring. This leads to the introduction of an aldehyde group, predominantly at the ortho position, forming salicylaldehyde.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 44,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Nomenclature of Organic Compounds",
+        "difficulty": "Medium",
+        "question": "The IUPAC name of C₆H₅-C(OH)(CH₃)₂ is:\n\n(A) 2-Methyl-2-phenylethanol\n(B) 1-Methyl-1-phenylethanol\n(C) 2-Phenylpropan-2-ol\n(D) 1,1-Dimethyl-1-phenylmethanol",
+        "options": [
+            "(A) 2-Methyl-2-phenylethanol",
+            "(B) 1-Methyl-1-phenylethanol",
+            "(C) 2-Phenylpropan-2-ol",
+            "(D) 1,1-Dimethyl-1-phenylmethanol"
+        ],
+        "answer": "(C) 2-Phenylpropan-2-ol",
+        "explanation": "To determine the IUPAC name, the longest carbon chain containing the hydroxyl group must be identified as the parent chain. In C₆H₅-C(OH)(CH₃)₂, the central carbon atom is bonded to two methyl groups, one phenyl group, and a hydroxyl group. This forms a three-carbon chain (propane) with the hydroxyl group at the second position. Consequently, both the phenyl group and the hydroxyl group are attached to the second carbon atom. Hence, the correct systematic name is 2-phenylpropan-2-ol.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 45,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Properties of Organic Compounds",
+        "difficulty": "Medium",
+        "question": "Arrange in increasing order of boiling points: A. Pentan-1-ol, B. n-Butane, C. Pentan-1-al, D. Ethoxyethane\n\n(A) D < B < C < A\n(B) B < C < A < D\n(C) B < D < C < A\n(D) D < B < A < C",
+        "options": [
+            "(A) D < B < C < A",
+            "(B) B < C < A < D",
+            "(C) B < D < C < A",
+            "(D) D < B < A < C"
+        ],
+        "answer": "(C) B < D < C < A",
+        "explanation": "Boiling points are primarily determined by the strength of intermolecular forces, which increase with molecular size and polarity, with hydrogen bonding being the strongest. N-butane (B) is nonpolar, exhibiting only weak London dispersion forces. Ethoxyethane (D) has dipole-dipole interactions but lacks hydrogen bonding capabilities. Pentan-1-al (C) possesses stronger dipole-dipole interactions due to its carbonyl group. Pentan-1-ol (A) forms strong intermolecular hydrogen bonds due to its hydroxyl group, leading to the highest boiling point. Thus, the increasing order is B < D < C < A.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 46,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Reactions of Alcohols and Carbonyl Compounds",
+        "difficulty": "Hard",
+        "question": "CH₃CHO + (i) CH₃MgBr (ii) H₃O⁺ → A → (H₂SO₄, Δ) → B → (Hydroboration oxidation) → C. Compounds A and C are:\n\n(A) Identical\n(B) Positional isomers\n(C) Functional isomers\n(D) Optical isomers",
+        "options": [
+            "(A) Identical",
+            "(B) Positional isomers",
+            "(C) Functional isomers",
+            "(D) Optical isomers"
+        ],
+        "answer": "(B) Positional isomers",
+        "explanation": "This problem involves a multi-step synthesis to identify the relationship between the final products. Ethanal (CH₃CHO) reacts with methylmagnesium bromide (Grignard reagent) followed by hydrolysis to yield propan-2-ol (A). Dehydration of propan-2-ol in the presence of sulfuric acid produces propene (B). Subsequently, hydroboration-oxidation of propene results in the anti-Markovnikov addition of water, yielding propan-1-ol (C). Therefore, compounds A (propan-2-ol) and C (propan-1-ol) are positional isomers, as they share the same molecular formula but differ in the position of their hydroxyl group.",
+        "a": 2.0,
+        "b": 1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 47,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "subtopic": "Coordination Compounds",
+        "difficulty": "Easy",
+        "question": "The total number of ions produced from the complex [Cr(NH₃)₆]Cl₃ in aqueous solution will be:\n\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
+        "options": [
+            "(A) 2",
+            "(B) 3",
+            "(C) 4",
+            "(D) 5"
+        ],
+        "answer": "(C) 4",
+        "explanation": "Coordination compounds dissociate in aqueous solutions to produce discrete ions, with the coordination complex itself forming a single polyatomic ion. The given complex, [Cr(NH₃)₆]Cl₃, consists of one complex cation, [Cr(NH₃)₆]³⁺, and three chloride counterions, Cl⁻. Upon dissolution in water, the salt dissociates completely into these ionic species. Therefore, the total number of ions produced in the aqueous solution will be one complex cation plus three chloride anions, totaling four ions.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 48,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "subtopic": "Mole Concept",
+        "difficulty": "Easy",
+        "question": "Arrange in decreasing order of number of molecules contained in: (A) 16g O₂, (B) 16g CO₂, (C) 16g CO, (D) 16g H₂\n\n(A) (A), (B), (C), (D)\n(B) (D), (C), (A), (B)\n(C) (B), (A), (D), (C)\n(D) (C), (B), (D), (A)",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (D), (C), (A), (B)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (D), (C), (A), (B)",
+        "explanation": "The number of molecules in a given mass of substance is inversely proportional to its molar mass. To determine the decreasing order of molecules, we calculate the number of moles for each substance by dividing its mass (16g) by its molar mass. Hydrogen (H₂) has the smallest molar mass (2 g/mol), yielding the most moles and thus molecules. Carbon monoxide (CO) has a molar mass of 28 g/mol, oxygen (O₂) is 32 g/mol, and carbon dioxide (CO₂) is 44 g/mol. Therefore, the decreasing order is H₂ > CO > O₂ > CO₂.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 49,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "subtopic": "Solutions",
+        "difficulty": "Medium",
+        "question": "A molecule X associates in a solvent: x X ⇌ (X)_n. van't Hoff factor i = 0.80 and degree of association α = 0.3. The value of 'n' is:\n\n(A) 2\n(B) 3\n(C) 1\n(D) 5",
+        "options": [
+            "(A) 2",
+            "(B) 3",
+            "(C) 1",
+            "(D) 5"
+        ],
+        "answer": "(B) 3",
+        "explanation": "The van't Hoff factor (i) accounts for the deviation of colligative properties in solutions where solute particles associate or dissociate. For the association of 'n' molecules, the relationship between the van't Hoff factor, i, and the degree of association, α, is given by the formula i = 1 - α + (α/n). By substituting the provided values of i = 0.80 and α = 0.3 into this equation, we can algebraically solve for 'n'. Calculations reveal that n equals 3, indicating that three molecules of X associate together in the solvent.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 50,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "subtopic": "Coordination Compounds",
+        "difficulty": "Easy",
+        "question": "The oxidation number of cobalt in the complex [Co(en)₃]₂(SO₄)₃ is:\n\n(A) 3\n(B) 4\n(C) 2\n(D) 5",
+        "options": [
+            "(A) 3",
+            "(B) 4",
+            "(C) 2",
+            "(D) 5"
+        ],
+        "answer": "(A) 3",
+        "explanation": "To determine the oxidation number of cobalt, we must first establish the charge of the complex ion. The compound [Co(en)₃]₂(SO₄)₃ consists of two complex cations and three sulfate anions (SO₄²⁻), each carrying a -2 charge. For the compound to be electrically neutral, the total positive charge from the two complex cations must balance the -6 charge from the three sulfate anions, meaning each [Co(en)₃] unit carries a +3 charge. Since ethylenediamine (en) is a neutral ligand, the entire +3 charge of the complex ion originates from the cobalt metal. Therefore, the oxidation number of cobalt is +3.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 51,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Biomolecules",
+        "difficulty": "Easy",
+        "question": "The correct structure of dipeptide Gly-Ala (glycyl alanine) is:\n\n(A) H₂N-CH₂-CO-NH-CH(CH₃)COOH\n(B) HOOC-CH₂-NH-CO-CH(CH₃)NH₂\n(C) HOOC-CH(CH₃)-NH-CO-CH₂-NH₂\n(D) H₂N-CH(CH₃)-CO-NH-CH₂COOH",
+        "options": [
+            "(A) H₂N-CH₂-CO-NH-CH(CH₃)COOH",
+            "(B) HOOC-CH₂-NH-CO-CH(CH₃)NH₂",
+            "(C) HOOC-CH(CH₃)-NH-CO-CH₂-NH₂",
+            "(D) H₂N-CH(CH₃)-CO-NH-CH₂COOH"
+        ],
+        "answer": "(A) H₂N-CH₂-CO-NH-CH(CH₃)COOH",
+        "explanation": "A dipeptide is formed by a condensation reaction between two amino acids, linking the carboxyl group of one to the amino group of another via a peptide bond (-CO-NH-). The designation Gly-Ala indicates that Glycine (Gly) is the N-terminal amino acid and Alanine (Ala) is the C-terminal amino acid. Therefore, the carboxyl group of Glycine reacts with the amino group of Alanine. This specific linkage results in the structure H₂N-CH₂-CO-NH-CH(CH₃)COOH, maintaining the N-terminal amino group and the C-terminal carboxyl group.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 52,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "subtopic": "Solid State",
+        "difficulty": "Easy",
+        "question": "Cu metal crystallises into fcc lattice with unit cell edge length of 361 pm. Radius of Cu atom is:\n\n(A) 127 pm\n(B) 181 pm\n(C) 157 pm\n(D) 108 pm",
+        "options": [
+            "(A) 127 pm",
+            "(B) 181 pm",
+            "(C) 157 pm",
+            "(D) 108 pm"
+        ],
+        "answer": "(A) 127 pm",
+        "explanation": "In a face-centered cubic (FCC) lattice, atoms are located at the corners and the center of each face, touching along the face diagonal. The relationship between the atomic radius (r) and the unit cell edge length (a) for an FCC lattice is given by the equation 4r = a√2. To find the radius, we rearrange this to r = a√2 / 4. Substituting the given edge length a = 361 pm, the calculation yields r = 361 pm × √2 / 4 ≈ 127.6 pm. Rounding this value gives 127 pm.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 53,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "subtopic": "Chemical Kinetics",
+        "difficulty": "Easy",
+        "question": "If 75% of a first-order reaction gets completed in 32 minutes, time taken for 50% completion is:\n\n(A) 16 minutes\n(B) 78 minutes\n(C) 8 minutes\n(D) 4 minutes",
+        "options": [
+            "(A) 16 minutes",
+            "(B) 78 minutes",
+            "(C) 8 minutes",
+            "(D) 4 minutes"
+        ],
+        "answer": "(A) 16 minutes",
+        "explanation": "For a first-order reaction, the time required for a certain percentage of completion is directly related to its half-life (t₅₀%). The time taken for 75% completion of a first-order reaction is exactly twice its half-life. This is because after one half-life, 50% of the reactant remains, and after a second half-life (totaling 2 * t₅₀%), 25% of the original reactant remains, which means 75% has reacted. Given that 75% completion occurs in 32 minutes, the half-life (time for 50% completion) is simply 32 minutes divided by 2, resulting in 16 minutes.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 54,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "subtopic": "Coordination Compounds",
+        "difficulty": "Medium",
+        "question": "Which of the following compounds will be repelled when placed in an external magnetic field?\n\n(A) Na₂[CuCl₄]\n(B) Na₂[CdCl₄]\n(C) K₄[Fe(CN)₆]\n(D) K₃[Fe(CN)₆]",
+        "options": [
+            "(A) Na₂[CuCl₄]",
+            "(B) Na₂[CdCl₄]",
+            "(C) K₄[Fe(CN)₆]",
+            "(D) K₃[Fe(CN)₆]"
+        ],
+        "answer": "(C) K₄[Fe(CN)₆]",
+        "explanation": "Substances that are repelled by an external magnetic field are diamagnetic, meaning they possess no unpaired electrons. In K₄[Fe(CN)₆], iron is in the +2 oxidation state (Fe²⁺), which has a d⁶ electronic configuration. Cyanide (CN⁻) is a strong-field ligand, causing the d-electrons to pair up in the t₂g orbitals, forming a low-spin complex. This pairing results in all six d-electrons being paired, leaving zero unpaired electrons. Consequently, [Fe(CN)₆]⁴⁻ is diamagnetic and thus will be repelled by an external magnetic field.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 55,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "subtopic": "Coordination Compounds",
+        "difficulty": "Medium",
+        "question": "The spin-only magnetic moment of Hexacyanidomanganate (II) ion is:\n\n(A) 5.90 BM\n(B) 1.73 BM\n(C) 4.90 BM\n(D) 3.87 BM",
+        "options": [
+            "(A) 5.90 BM",
+            "(B) 1.73 BM",
+            "(C) 4.90 BM",
+            "(D) 3.87 BM"
+        ],
+        "answer": "(B) 1.73 BM",
+        "explanation": "The spin-only magnetic moment for a transition metal complex is calculated using the formula μ = √[n(n+2)] Bohr Magnetons, where 'n' is the number of unpaired electrons. For the Hexacyanidomanganate(II) ion, [Mn(CN)₆]⁴⁻, manganese is in the +2 oxidation state (Mn²⁺), which has a d⁵ electronic configuration. Cyanide (CN⁻) is a strong-field ligand, forcing a low-spin configuration where electrons pair up. This results in only one unpaired electron (t₂g⁵ eg⁰). Substituting n=1 into the formula gives μ = √[1(1+2)] = √3, which approximates to 1.73 BM.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 56,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Properties of Organic Compounds",
+        "difficulty": "Medium",
+        "question": "The correct order of increasing boiling points of compounds: Pentan-1-ol, n-butane, Pentanal,\nEthoxyethane is:\n\n(A) Ethoxyethane, Pentanal, n-butane, Pentan-1-ol\n(B) Pentanal, n-butane, Ethoxyethane, Pentan-1-ol\n(C) n-butane, Pentanal, Ethoxyethane, Pentan-1-ol\n(D) n-butane, Ethoxyethane, Pentanal, Pentan-1-ol",
+        "options": [
+            "(A) Ethoxyethane, Pentanal, n-butane, Pentan-1-ol",
+            "(B) Pentanal, n-butane, Ethoxyethane, Pentan-1-ol",
+            "(C) n-butane, Pentanal, Ethoxyethane, Pentan-1-ol",
+            "(D) n-butane, Ethoxyethane, Pentanal, Pentan-1-ol"
+        ],
+        "answer": "(D) n-butane, Ethoxyethane, Pentanal, Pentan-1-ol",
+        "explanation": "Boiling points are determined by the strength of intermolecular forces, which increase with molecular size and the ability to form hydrogen bonds. N-butane is nonpolar with only weak London dispersion forces. Ethoxyethane has dipole-dipole interactions but no hydrogen bonding. Pentanal has stronger dipole-dipole interactions due to its carbonyl group. Pentan-1-ol exhibits the strongest intermolecular hydrogen bonding due to its hydroxyl group. Therefore, the increasing order of boiling points reflects the increasing strength of these forces: n-butane < ethoxyethane < pentanal < pentan-1-ol.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 57,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Reactions of Aromatic Compounds",
+        "difficulty": "Hard",
+        "question": "C₆H₅OH → (Zn dust) → A → (CH₃Cl / anh. AlCl₃) → B → (K₂Cr₂O₇ / H⁺) → C → (HNO₃ / H₂SO₄) → D. Identify D:\n\n(A) o-nitrobenzoic acid\n(B) p-nitrobenzoic acid\n(C) o,p-dinitrobenzoic acid\n(D) m-nitrobenzoic acid",
+        "options": [
+            "(A) o-nitrobenzoic acid",
+            "(B) p-nitrobenzoic acid",
+            "(C) o,p-dinitrobenzoic acid",
+            "(D) m-nitrobenzoic acid"
+        ],
+        "answer": "(D) m-nitrobenzoic acid",
+        "explanation": "This multi-step synthesis begins with phenol (C₆H₅OH), which is reduced by zinc dust to form benzene (A). Benzene then undergoes Friedel-Crafts alkylation with methyl chloride in the presence of anhydrous AlCl₃ to yield toluene (B). Subsequent oxidation of toluene with K₂Cr₂O₇/H⁺ converts the methyl group to a carboxyl group, producing benzoic acid (C). Finally, nitration of benzoic acid with conc. HNO₃ and conc. H₂SO₄ results in the electrophilic substitution at the meta-position, as the carboxyl group is a meta-director. Thus, the final product D is m-nitrobenzoic acid.",
+        "a": 2.0,
+        "b": 1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 58,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "subtopic": "Surface Chemistry",
+        "difficulty": "Easy",
+        "question": "Gold numbers of colloids: A: 0.005-0.01, B: 0.15-0.25, C: 0.04-1.0, D: 15-25. Which is the best protective colloid?\n\n(A) A\n(B) B\n(C) C\n(D) D",
+        "options": [
+            "(A) A",
+            "(B) B",
+            "(C) C",
+            "(D) D"
+        ],
+        "answer": "(A) A",
+        "explanation": "The gold number is a crucial measure in surface chemistry, quantifying the minimum amount (in milligrams) of a protective colloid needed to prevent the coagulation of 10 mL of a standard gold sol upon adding 1 mL of 10% NaCl solution. A lower gold number indicates superior protective power, as less colloid is required to stabilize the lyophobic sol. Comparing the given ranges, colloid A exhibits the smallest gold number range (0.005-0.01). Therefore, colloid A possesses the highest protective efficacy, making it the best protective colloid among the choices.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 59,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Amines",
+        "difficulty": "Medium",
+        "question": "Increasing order of basic strength among: C₂H₅NH₂, (C₂H₅)₂NH, (C₂H₅)₃N, C₆H₅NH₂ in aqueous medium is:",
+        "options": [
+            "(A) C₂H₅NH₂ < (C₂H₅)₂NH < (C₂H₅)₃N < C₆H₅NH₂",
+            "(B) C₆H₅NH₂ < C₂H₅NH₂ < (C₂H₅)₃N < (C₂H₅)₂NH",
+            "(C) (C₂H₅)₃N < (C₂H₅)₂NH < C₆H₅NH₂ < C₂H₅NH₂",
+            "(D) (C₂H₅)₂NH < (C₂H₅)₃N < C₂H₅NH₂ < C₆H₅NH₂"
+        ],
+        "answer": "(B) C₆H₅NH₂ < C₂H₅NH₂ < (C₂H₅)₃N < (C₂H₅)₂NH",
+        "explanation": "The basicity of amines in aqueous solution is determined by the inductive effect of alkyl groups and the solvation of the conjugate acid. Aniline is the least basic due to the resonance stabilization of its lone pair with the benzene ring. Among ethyl amines, the secondary amine is typically the most basic due to a balance of inductive effect and reduced steric hindrance to solvation, followed by the primary and then the tertiary amine.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 60,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Carboxylic Acids",
+        "difficulty": "Easy",
+        "question": "Which compound will give Hell-Volhard-Zelinsky (HVZ) reaction?",
+        "options": [
+            "(A) R-CH₂-COOH",
+            "(B) R₃C-CHO",
+            "(C) R₂CO",
+            "(D) H-COOH"
+        ],
+        "answer": "(A) R-CH₂-COOH",
+        "explanation": "The Hell-Volhard-Zelinsky (HVZ) reaction is a characteristic reaction of carboxylic acids. This reaction specifically occurs with carboxylic acids that possess at least one α-hydrogen atom. The α-hydrogen is replaced by a halogen, yielding an α-halo carboxylic acid, which perfectly matches the structure R-CH₂-COOH.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 61,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Carboxylic Acids",
+        "difficulty": "Medium",
+        "question": "Increasing order of acidic strengths: HCOOH, FCH₂COOH, NO₂CH₂COOH, ClCH₂COOH is:",
+        "options": [
+            "(A) HCOOH < FCH₂COOH < NO₂CH₂COOH < ClCH₂COOH",
+            "(B) HCOOH < NO₂CH₂COOH < ClCH₂COOH < FCH₂COOH",
+            "(C) NO₂CH₂COOH < HCOOH < ClCH₂COOH < FCH₂COOH",
+            "(D) HCOOH < ClCH₂COOH < FCH₂COOH < NO₂CH₂COOH"
+        ],
+        "answer": "(D) HCOOH < ClCH₂COOH < FCH₂COOH < NO₂CH₂COOH",
+        "explanation": "The acidic strength of carboxylic acids is directly proportional to the electron-withdrawing effect of substituents on the α-carbon. Electron-withdrawing groups stabilize the conjugate base, increasing acidity. The strength of electron-withdrawing inductive effect (-I effect) follows the order NO₂ > F > Cl, while formic acid has no such group. Therefore, NO₂CH₂COOH is the strongest acid, and HCOOH is the weakest among the given options, leading to the specified increasing order.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 62,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Aldehydes and Ketones",
+        "difficulty": "Medium",
+        "question": "Increasing order of reactivity towards nucleophilic addition: Benzaldehyde, p-Tolualdehyde, pNitrobenzaldehyde, Acetophenone",
+        "options": [
+            "(A) Benzaldehyde < p-Tolualdehyde < p-Nitrobenzaldehyde\n< Acetophenone",
+            "(B) Acetophenone < Benzaldehyde < p-Tolualdehyde < pNitrobenzaldehyde",
+            "(C) Acetophenone < p-Tolualdehyde < Benzaldehyde < pNitrobenzaldehyde",
+            "(D) Benzaldehyde < Acetophenone < p-Tolualdehyde < pNitrobenzaldehyde"
+        ],
+        "answer": "(C) Acetophenone < p-Tolualdehyde < Benzaldehyde < pNitrobenzaldehyde",
+        "explanation": "The reactivity of carbonyl compounds towards nucleophilic addition is governed by steric hindrance and the electrophilicity of the carbonyl carbon. Ketones like Acetophenone are less reactive than aldehydes due to greater steric hindrance and reduced electrophilicity. Electron-donating groups like methyl (p-Tolualdehyde) decrease reactivity, while electron-withdrawing groups like nitro (p-Nitrobenzaldehyde) increase it by enhancing the electrophilicity of the carbonyl carbon. Therefore, Acetophenone is the least reactive, and p-Nitrobenzaldehyde is the most reactive.",
+        "a": 1.6,
+        "b": 0.4,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 63,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Aldehydes",
+        "difficulty": "Easy",
+        "question": "Electrophile involved in Gatterman-Koch reaction for preparation of benzaldehyde is:",
+        "options": [
+            "(A) CO⁺",
+            "(B) HCl + CO₂ + AlCl₃",
+            "(C) HCO⁺",
+            "(D) CO + anhydrous AlCl₃"
+        ],
+        "answer": "(C) HCO⁺",
+        "explanation": "The Gatterman-Koch reaction is a formylation reaction that synthesizes benzaldehyde from benzene using carbon monoxide and hydrogen chloride. The reaction is catalyzed by anhydrous aluminium chloride and a small amount of cuprous chloride. The active electrophilic species involved in this reaction is the formyl cation, HCO⁺, which attacks the benzene ring.",
+        "a": 1.1,
+        "b": -0.8,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 64,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Aldehydes",
+        "difficulty": "Medium",
+        "question": "Formaldehyde undergoes Cannizzaro reaction because:\n(A) It has α-H, (B) It does NOT have α-H, (C) Does not undergo self-redox, (D) Undergoes self-redox with conc.\nalkali",
+        "options": [
+            "(A) (B) and (D) only",
+            "(B) (A) and (C) only",
+            "(C) (B) and (C) only",
+            "(D) (A) and (D) only"
+        ],
+        "answer": "(A) (B) and (D) only",
+        "explanation": "The Cannizzaro reaction is characteristic of aldehydes that lack alpha-hydrogen atoms. Formaldehyde (HCHO) is one such aldehyde, possessing no hydrogens on the carbon adjacent to the carbonyl group. This reaction involves a self-oxidation and reduction (disproportionation) where one molecule is oxidized to a carboxylic acid and another is reduced to an alcohol, typically occurring in the presence of a concentrated strong alkali.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 65,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Ethers",
+        "difficulty": "Medium",
+        "question": "Reaction: (CH₃)₃C-O-CH₃ + HI → CH₃OH + (CH₃)₃C-I.\nReason: (A) Creates less stable carbocation, (B) Departure of leaving group creates more stable 3º carbocation,\n(C) Follows S_N1 mechanism, (D) Follows S_N2 mechanism",
+        "options": [
+            "(A) (B) and (D) only",
+            "(B) (B) and (C) only",
+            "(C) (A) and (D) only",
+            "(D) (A) and (C) only"
+        ],
+        "answer": "(B) (B) and (C) only",
+        "explanation": "The cleavage of tertiary alkyl methyl ethers with HI typically proceeds via an S_N1 mechanism due to the stability of the tertiary carbocation formed. In the given reaction, the tertiary carbon atom forms a highly stable 3° carbocation upon protonation of the ether oxygen and departure of methanol. This carbocation is then readily attacked by the iodide ion, leading to the observed products.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 66,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Amines",
+        "difficulty": "Medium",
+        "question": "Aniline does not undergo Friedel-Crafts reaction because:\n(A) Forms salt with AlCl₃, (B) N acquires negative charge, (C) N acquires positive charge, (D) Nitrogen acts as\nstrong deactivating group",
+        "options": [
+            "(A) (A), (B) and (D)",
+            "(B) (A), (B) and (C)",
+            "(C) (A), (C) and (D)",
+            "(D) (B), (C) and (D)"
+        ],
+        "answer": "(C) (A), (C) and (D)",
+        "explanation": "Aniline does not undergo Friedel-Crafts reactions because the nitrogen atom of aniline acts as a Lewis base and reacts with the Lewis acid catalyst, AlCl₃. This reaction forms an anilinium-aluminium chloride salt, where the nitrogen atom acquires a positive charge. The positively charged nitrogen then becomes a strong deactivating group, significantly reducing the electron density of the benzene ring and making it unreactive towards electrophilic attack.",
+        "a": 1.45,
+        "b": 0.25,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 67,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Haloarenes",
+        "difficulty": "Hard",
+        "question": "Chlorine is electron withdrawing yet o,p-directing in electrophilic aromatic substitution because:\n(A) Withdraws e⁻ via -I effect, (B) Destabilises carbocation, (C) Accepts e⁻ via resonance, (D) Releases e⁻ via +R\nresonance",
+        "options": [
+            "(A) (A), (B) and (D)",
+            "(B) (A), (B) and (C)",
+            "(C) (A), (C) and (D)",
+            "(D) (B), (C) and (D)"
+        ],
+        "answer": "(A) (A), (B) and (D)",
+        "explanation": "Chlorine exhibits both a strong electron-withdrawing inductive effect (-I effect), which deactivates the aromatic ring, and an electron-donating resonance effect (+R effect) due to its lone pair. The -I effect makes chlorine an overall deactivating group, hence it destabilizes the carbocation intermediates compared to benzene. However, the +R effect specifically stabilizes the carbocation intermediates formed during ortho and para attack, making these positions relatively more reactive than the meta position.",
+        "a": 1.9,
+        "b": 1.0,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 68,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Aldehydes",
+        "difficulty": "Easy",
+        "question": "In Étard reaction, the final product is:",
+        "options": [
+            "(A) Aromatic aldehyde",
+            "(B) Aromatic chloride",
+            "(C) Aromatic amine",
+            "(D) Aromatic alcohol"
+        ],
+        "answer": "(A) Aromatic aldehyde",
+        "explanation": "The Étard reaction is a specific organic reaction used to synthesize aromatic aldehydes from methyl-substituted aromatic compounds. This transformation involves the oxidation of a methyl group directly attached to an aromatic ring using chromyl chloride (CrO₂Cl₂) as the oxidizing agent. For instance, toluene is converted into benzaldehyde through this reaction, confirming that an aromatic aldehyde is the final product.",
+        "a": 0.9,
+        "b": -1.2,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 69,
+        "subject": "Chemistry",
+        "topic": "Biomolecules",
+        "subtopic": "Proteins",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II:\nList-I: (A) Amino acids linked in specific sequence, (B) Regular folding due to H-bonding, (C) Fibrous proteins,\n(D) Spatial arrangement of multi-chains\nList-II: (I) Primary structure, (II) Secondary structure, (III) Quaternary structure, (IV) Tertiary structure",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+        "explanation": "The primary structure of a protein refers to the specific linear sequence of amino acids linked by peptide bonds. Secondary structure involves regular folding patterns, like alpha-helices and beta-pleated sheets, stabilized by hydrogen bonding within the polypeptide backbone. Tertiary structure describes the overall three-dimensional folding of a single polypeptide chain, often dictating the function of fibrous proteins. Quaternary structure, found in multi-subunit proteins, defines the spatial arrangement of multiple polypeptide chains.",
+        "a": 1.3,
+        "b": 0.1,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 70,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Haloalkanes and Haloarenes, Named Reactions",
+        "difficulty": "Medium",
+        "question": "Match List-I (Reaction Name) with List-II (Equation):\nList-I: (A) Swarts, (B) Finkelstein, (C) Sandmeyer, (D) Wurtz\nList-II: (I) C₆H₅NH₂ → C₆H₅X, (II) 2RX + 2Na → R-R, (III) RX + AgF → R-F, (IV) RX + NaI → R-I",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "This question tests knowledge of common named reactions in organic chemistry involving haloalkanes and haloarenes. The Swarts reaction is for synthesizing fluoroalkanes (A-III), while the Finkelstein reaction is used for iodoalkanes (B-IV). The Sandmeyer reaction involves converting diazonium salts to aryl halides (C-I), and the Wurtz reaction is for coupling alkyl halides to form alkanes (D-II). Each reaction has a distinct set of reagents and products that define its mechanism and utility.",
+        "a": 1.55,
+        "b": 0.2,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 71,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Vitamins, Hormones, Deficiency Diseases",
+        "difficulty": "Medium",
+        "question": "Match List-I (Biomolecule) with List-II (Disease/Function):\nList-I: (A) Vitamin A, (B) Thiamine, (C) Glucocorticoids, (D) Estradiol\nList-II: (I) Menstrual cycle, (II) Xerophthalmia, (III) Beri-beri, (IV) Addison's disease",
+        "options": [
+            "(A) (A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+            "(B) (A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+            "(C) (A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+            "(D) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+        ],
+        "answer": "(D) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+        "explanation": "This question assesses the understanding of essential biomolecules and their associated physiological roles or deficiency diseases. Vitamin A deficiency leads to Xerophthalmia (A-II), and Thiamine (Vitamin B1) deficiency causes Beri-beri (B-III). Glucocorticoids are hormones; their deficiency leads to Addison's disease (C-IV). Estradiol is a key hormone regulating the menstrual cycle (D-I).",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 72,
+        "subject": "Chemistry",
+        "topic": "Chemistry in Everyday Life",
+        "subtopic": "Drugs and Medicines (Analgesics, Antacids)",
+        "difficulty": "Easy",
+        "question": "Which among the following is NOT an Analgesic?",
+        "options": [
+            "(A) Morphine",
+            "(B) Heroin",
+            "(C) Codeine",
+            "(D) Ranitidine"
+        ],
+        "answer": "(D) Ranitidine",
+        "explanation": "Analgesics are a class of drugs used to relieve pain, and morphine, heroin, and codeine are all known opioid analgesics. Ranitidine, however, belongs to a different class of drugs called H2-receptor antagonists, commonly used as an antacid to reduce stomach acid production. Therefore, ranitidine is not classified as an analgesic.",
+        "a": 1.0,
+        "b": -0.8,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 73,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Carboxylic Acids, Inductive Effect, Acidity",
+        "difficulty": "Medium",
+        "question": "Increasing order of acidity based on pKa values: (A) BrCH₂COOH, (B) ClCH₂COOH, (C) FCH₂COOH, (D) HCOOH",
+        "options": [
+            "(A) (D) < (A) < (B) < (C)",
+            "(B) (A) < (D) < (C) < (B)",
+            "(C) (B) < (A) < (D) < (C)",
+            "(D) (C) < (B) < (D) < (A)"
+        ],
+        "answer": "(A) (D) < (A) < (B) < (C)",
+        "explanation": "The acidity of carboxylic acids is enhanced by electron-withdrawing groups (EWGs) through the negative inductive effect, which stabilizes the carboxylate anion. Halogens are EWGs, and their effect increases with electronegativity: F > Cl > Br. Therefore, FCH₂COOH is the strongest acid, followed by ClCH₂COOH, then BrCH₂COOH. Formic acid (HCOOH) lacks an EWG, making it the least acidic among these, establishing the increasing order of acidity as (D) < (A) < (B) < (C).",
+        "a": 1.4,
+        "b": 0.0,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 74,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Haloalkanes, Nucleophilic Substitution (SN2)",
+        "difficulty": "Medium",
+        "question": "For S_N2 reaction, increasing order of reactivity of: (A) CH₃(CH₂)₃Br, (B) CH₃CH₂CH(Br)CH₃, (C) (CH₃)₃CBr, (D) (CH₃)₂CHCH₂Br",
+        "options": [
+            "(A) (A) < (B) < (C) < (D)",
+            "(B) (A) < (C) < (B) < (D)",
+            "(C) (B) < (A) < (D) < (C)",
+            "(D) (C) < (B) < (D) < (A)"
+        ],
+        "answer": "(D) (C) < (B) < (D) < (A)",
+        "explanation": "SN2 reactions are highly sensitive to steric hindrance around the carbon atom bearing the leaving group, favoring less hindered substrates. The general order of reactivity is methyl > primary > secondary > tertiary. Given the options, (C) tert-butyl bromide is tertiary and least reactive, (B) sec-butyl bromide is secondary, and (A) n-butyl bromide is primary. (D) Isobutyl bromide is also primary but slightly more hindered than n-butyl, resulting in the increasing reactivity order: (C) < (B) < (D) < (A).",
+        "a": 1.6,
+        "b": 0.4,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 75,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Fuel Cells, Stoichiometry",
+        "difficulty": "Medium",
+        "question": "The number of moles of hydrogen oxidised is:",
+        "options": [
+            "(A) 0.33 moles",
+            "(B) 33.3 moles",
+            "(C) 3.0 moles",
+            "(D) 1.33 moles"
+        ],
+        "answer": "(C) 3.0 moles",
+        "explanation": "This question is part of a series related to the oxidation of hydrogen, with context provided in subsequent questions. Q33 specifies the oxidation of 67.2 L of H₂ at STP. At Standard Temperature and Pressure, one mole of any ideal gas occupies 22.4 liters. Therefore, 67.2 liters of hydrogen corresponds to 3 moles, as 67.2 L divided by 22.4 L/mol equals 3.0 moles.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 76,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Oxidation-Reduction, Stoichiometry, Faraday's Laws",
+        "difficulty": "Medium",
+        "question": "Number of moles of electrons produced in the oxidation of 67.2 L of H₂ at STP is:",
+        "options": [
+            "(A) 2",
+            "(B) 4",
+            "(C) 1",
+            "(D) 6"
+        ],
+        "answer": "(D) 6",
+        "explanation": "The oxidation of hydrogen proceeds via the reaction H₂ → 2H⁺ + 2e⁻, indicating that one mole of H₂ produces two moles of electrons. From the previous calculation, 67.2 L of H₂ at STP is equivalent to 3 moles of hydrogen. Consequently, 3 moles of H₂ will produce 3 multiplied by 2, yielding a total of 6 moles of electrons. This stoichiometric relationship is fundamental to electrochemistry.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 77,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Faraday's Laws, Stoichiometry",
+        "difficulty": "Medium",
+        "question": "Quantity of electricity produced in oxidation of 67.2 L of H₂ at STP is:",
+        "options": [
+            "(A) 96500 C",
+            "(B) 579000 C",
+            "(C) 193000 C",
+            "(D) 48250 C"
+        ],
+        "answer": "(B) 579000 C",
+        "explanation": "The quantity of electricity produced is directly related to the moles of electrons generated, where one mole of electrons carries a charge of one Faraday, approximately 96500 Coulombs (C). From the previous step, 6 moles of electrons are produced during the oxidation of 67.2 L of H₂. Multiplying 6 moles of electrons by Faraday's constant (96500 C/mol e⁻) yields 579000 C. This calculation applies Faraday's laws of electrolysis.",
+        "a": 1.6,
+        "b": 0.4,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 78,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Faraday's Laws, Electrolysis, Stoichiometry",
+        "difficulty": "Medium",
+        "question": "Amount of silver deposited from Ag⁺ solution using this total charge is:",
+        "options": [
+            "(A) 324 g",
+            "(B) 648 g",
+            "(C) 108 g",
+            "(D) 216 g"
+        ],
+        "answer": "(B) 648 g",
+        "explanation": "The deposition of silver from an Ag⁺ solution follows the reaction Ag⁺ + e⁻ → Ag(s), meaning one mole of silver ions requires one mole of electrons to deposit one mole of silver metal. The total charge calculated in the previous step corresponds to 6 moles of electrons. Since the molar mass of silver is approximately 108 g/mol, 6 moles of silver will be deposited. Therefore, 6 moles multiplied by 108 g/mol results in 648 g of silver.",
+        "a": 1.7,
+        "b": 0.5,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 79,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Batteries, Fuel Cells, Applications",
+        "difficulty": "Easy",
+        "question": "The source of electrical energy on the Apollo moon flight was:",
+        "options": [
+            "(A) Lead storage battery",
+            "(B) A generator set",
+            "(C) Ni-Cd cells",
+            "(D) H₂-O₂ Fuel cell"
+        ],
+        "answer": "(D) H₂-O₂ Fuel cell",
+        "explanation": "This question tests factual knowledge about the energy sources used in historical space missions. The Apollo moon flights notably utilized hydrogen-oxygen fuel cells as their primary source of electrical energy. These fuel cells efficiently converted chemical energy directly into electrical energy. An additional benefit of this choice was the production of potable water as a byproduct, which was crucial for the astronauts.",
+        "a": 0.9,
+        "b": -0.7,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 80,
+        "subject": "Chemistry",
+        "topic": "D and F Block Elements",
+        "subtopic": "Properties of Transition Elements, Lanthanide Contraction, Interstitial Compounds",
+        "difficulty": "Hard",
+        "question": "Identify the INCORRECT statement:",
+        "options": [
+            "(A) 2nd IE of Ag > 2nd IE of Pd",
+            "(B) Zr and Hf share identical nuclear properties",
+            "(C) MP of Mn < MP of Cr",
+            "(D) Interstitial compounds are non-stoichiometric"
+        ],
+        "answer": "(B) Zr and Hf share identical nuclear properties",
+        "explanation": "This question requires evaluating the correctness of four statements regarding transition elements. Zirconium (Zr) and Hafnium (Hf) have very similar chemical properties due to the lanthanide contraction, but their nuclear properties, such as atomic number and mass, are distinct. The second ionization energy of Ag is indeed greater than Pd due to removing an electron from a stable d¹⁰ configuration. Manganese has a lower melting point than chromium, and interstitial compounds are generally non-stoichiometric.",
+        "a": 2.1,
+        "b": 1.2,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 81,
+        "subject": "Chemistry",
+        "topic": "D and F Block Elements",
+        "subtopic": "Ionisation Enthalpy, Electronic Configuration",
+        "difficulty": "Medium",
+        "question": "Correct order of second ionisation enthalpy is:",
+        "options": [
+            "(A) V > Cr > Mn",
+            "(B) V < Cr < Mn",
+            "(C) V < Cr > Mn",
+            "(D) V > Cr < Mn"
+        ],
+        "answer": "(C) V < Cr > Mn",
+        "explanation": "Second ionization enthalpy (IE₂) involves removing a second electron, often revealing effects of electronic configuration stability. Chromium (Cr⁺) has a stable 3d⁵ half-filled configuration, making its IE₂ exceptionally high. Vanadium (V⁺) and Manganese (Mn⁺) both lose a 4s electron. Since Mn has a higher nuclear charge than V, its IE₂ is greater than V's, although both are less than Cr. Thus, the correct increasing order of IE₂ is V < Mn < Cr, which aligns with V < Cr > Mn.",
+        "a": 1.8,
+        "b": 0.7,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 82,
+        "subject": "Chemistry",
+        "topic": "D and F Block Elements",
+        "subtopic": "Coordination Compounds, Colour, Electronic Transitions",
+        "difficulty": "Hard",
+        "question": "Which pair of compounds exhibits same colour in aqueous solution?",
+        "options": [
+            "(A) FeCl₂, CuCl₂",
+            "(B) VOCl₂, CuCl₂",
+            "(C) VOCl₂, FeCl₂",
+            "(D) VOCl₂, MnCl₂"
+        ],
+        "answer": "(B) VOCl₂, CuCl₂",
+        "explanation": "The color of transition metal ions in aqueous solution is due to d-d electronic transitions. Fe²⁺ (3d⁶) solutions are typically green, Cu²⁺ (3d⁹) solutions are blue, and Mn²⁺ (3d⁵) solutions are pale pink. VOCl₂ contains the vanadyl ion, V⁴⁺ (3d¹), which typically forms blue solutions. Both V⁴⁺ and Cu²⁺ ions commonly impart a blue color to their aqueous solutions, making this pair exhibit the same color.",
+        "a": 1.9,
+        "b": 0.9,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 83,
+        "subject": "Chemistry",
+        "topic": "D and F Block Elements",
+        "subtopic": "Oxidation States of Transition Metals",
+        "difficulty": "Easy",
+        "question": "Which metal has the highest oxidation state in 1st row transition series?",
+        "options": [
+            "(A) Cr",
+            "(B) Fe",
+            "(C) Mn",
+            "(D) V"
+        ],
+        "answer": "(C) Mn",
+        "explanation": "The highest oxidation state exhibited by transition metals in the first row generally increases up to the middle of the series and then decreases. Vanadium (V) shows a maximum of +5, Chromium (Cr) shows +6, and Iron (Fe) primarily exhibits +2 and +3, with +6 being rare. Manganese (Mn) uniquely exhibits a maximum oxidation state of +7, most notably in compounds like permanganate ion (MnO₄⁻).",
+        "a": 0.85,
+        "b": -0.6,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 84,
+        "subject": "Chemistry",
+        "topic": "Solutions",
+        "subtopic": "Types of solutions",
+        "difficulty": "Easy",
+        "question": "Q42. Camphor in nitrogen gas is a type of solution:",
+        "options": [
+            "(A) Gas - Gas",
+            "(B) Solid - Gas",
+            "(C) Liquid - Gas",
+            "(D) Solid - Liquid"
+        ],
+        "answer": "(B) Solid - Gas",
+        "explanation": "A solution is a homogeneous mixture where the solute is dispersed uniformly in the solvent. The type of solution is primarily determined by the physical state of the solvent. In this specific mixture, camphor is a solid that dissolves in nitrogen, which is a gas, thus forming a solid-gas solution.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 85,
+        "subject": "Chemistry",
+        "topic": "Solutions",
+        "subtopic": "Colligative properties",
+        "difficulty": "Medium",
+        "question": "Q44. Statements regarding osmotic pressure: (A) Molar mass of protein, (B) Proportional to molarity, (C) Reverse osmosis, (D) Edema. Correct set:",
+        "options": [
+            "(A) (A), (B) and (D)",
+            "(B) (A), (B) and (C)",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D)"
+        ],
+        "answer": "(C) (A), (B), (C) and (D)",
+        "explanation": "Osmotic pressure is a colligative property widely used to determine the molar mass of macromolecules like proteins. It is directly proportional to the molarity of the solution, as described by the van't Hoff equation. Reverse osmosis is an application where external pressure overcomes osmotic pressure, and edema is a medical condition caused by osmotic imbalances in body fluids.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 86,
+        "subject": "Chemistry",
+        "topic": "Solutions",
+        "subtopic": "Raoult's Law",
+        "difficulty": "Medium",
+        "question": "Q45. P_A° = 500 mmHg, P_B° = 800 mmHg. Solution boils at 50°C and 700 mmHg. Mole percentage of B is:",
+        "options": [
+            "(A) 33.33 mole percent",
+            "(B) 66.67 mole percent",
+            "(C) 25.75 mole percent",
+            "(D) 75.25 mole percent"
+        ],
+        "answer": "(B) 66.67 mole percent",
+        "explanation": "This problem applies Raoult's law, which states that the total vapor pressure of a solution is the sum of the partial vapor pressures of its components. Using the equation P_total = X_A P_A° + X_B P_B°, and letting X_B = x, we can substitute the given values. Solving 700 = (1-x)500 + x(800) yields x = 2/3, which corresponds to 66.67 mole percent for B.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 87,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Rate law and concentration",
+        "difficulty": "Medium",
+        "question": "Q46. Reaction: 2A₂(g) + ¼ X(g) → 2A₂X(g). Volume doubled by decreasing pressure. Rate (1st order in X, 2nd order in A₂) will:",
+        "options": [
+            "(A) Decrease by 8 times",
+            "(B) Increase by 8 times",
+            "(C) Increase by 4 times",
+            "(D) Remain unchanged"
+        ],
+        "answer": "(A) Decrease by 8 times",
+        "explanation": "The rate law for this reaction is Rate = k[A₂]²[X]¹. If the volume of the gaseous system is doubled, the concentration of each reactant is halved. Substituting these new concentrations, the new rate becomes k[A₂/2]²[X/2]¹, which simplifies to (1/4)*(1/2) * k[A₂]²[X]¹. Thus, the reaction rate will decrease to 1/8 of its original value.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 88,
+        "subject": "Chemistry",
+        "topic": "Chemical Bonding",
+        "subtopic": "Molecular structure and bonding",
+        "difficulty": "Medium",
+        "question": "Q47. Total number of sigma bonds present in P₄O₁₀ is:",
+        "options": [
+            "(A) 6",
+            "(B) 7",
+            "(C) 16",
+            "(D) 17"
+        ],
+        "answer": "(C) 16",
+        "explanation": "Phosphorus pentoxide (P₄O₁₀) has a characteristic cage-like structure derived from a tetrahedral arrangement of four phosphorus atoms. There are six oxygen atoms that bridge between two phosphorus atoms, forming P-O-P linkages, contributing 12 sigma bonds. Additionally, each of the four phosphorus atoms is double-bonded to a terminal oxygen atom, with each P=O bond contributing one sigma bond. Therefore, the total number of sigma bonds is 12 + 4 = 16.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 89,
+        "subject": "Chemistry",
+        "topic": "Metallurgy",
+        "subtopic": "Extraction of Aluminium",
+        "difficulty": "Easy",
+        "question": "Q48. In electrolysis of alumina, cryolite is added mainly to:",
+        "options": [
+            "(A) Lower the melting point of alumina",
+            "(B) Dissolve alumina",
+            "(C) Remove impurities",
+            "(D) Increase electrical conductivity"
+        ],
+        "answer": "(A) Lower the melting point of alumina",
+        "explanation": "In the electrolytic extraction of aluminium from alumina, cryolite (Na₃AlF₆) is added as a flux. The primary function of cryolite is to significantly lower the melting point of alumina from approximately 2072°C to around 900-950°C. This reduction in temperature makes the electrolytic process economically viable and energy-efficient, although it also aids in dissolving alumina and increasing conductivity.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 90,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Order of reaction and rate constant units",
+        "difficulty": "Easy",
+        "question": "Q49. Rate constant k = 2 × 10⁻² s⁻¹. Order of reaction is:",
+        "options": [
+            "(A) Zero order",
+            "(B) First order",
+            "(C) Second order",
+            "(D) Half order"
+        ],
+        "answer": "(B) First order",
+        "explanation": "The order of a reaction can be directly inferred from the units of its rate constant. For a zero-order reaction, the units are mol L⁻¹ s⁻¹, while for a second-order reaction, they are L mol⁻¹ s⁻¹. Since the given rate constant has units of s⁻¹, it unequivocally indicates that the reaction is first-order.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 91,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Complex reactions and rate-determining step",
+        "difficulty": "Medium",
+        "question": "Q50. For a complex reaction, order of reaction is equal to:",
+        "options": [
+            "(A) Sum of stoichiometric coefficients",
+            "(B) Molecularity of overall reaction",
+            "(C) Order of fastest step",
+            "(D) Molecularity of slowest step"
+        ],
+        "answer": "(D) Molecularity of slowest step",
+        "explanation": "Complex reactions occur through a series of elementary steps, and the overall reaction rate is governed by the slowest step in this sequence. This slowest step is termed the rate-determining step. Consequently, the experimentally determined order of a complex reaction is equal to the molecularity of this specific rate-determining elementary step.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 92,
+        "subject": "Chemistry",
+        "topic": "D & F Block Elements",
+        "subtopic": "Lanthanoid and Actinoid contraction",
+        "difficulty": "Easy",
+        "question": "Q1. Actinoid contraction is greater from element to element than Lanthanoid contraction because of:",
+        "options": [
+            "(A) Poor shielding by 4f electrons",
+            "(B) Prior filling of 4d electrons",
+            "(C) Prior filling of 3d electrons",
+            "(D) Poor shielding by 5f electrons"
+        ],
+        "answer": "(D) Poor shielding by 5f electrons",
+        "explanation": "Both lanthanoid and actinoid contractions result from the poor shielding effect of f-electrons, increasing the effective nuclear charge. Actinoid contraction is more pronounced than lanthanoid contraction because 5f electrons are more diffused in space compared to 4f electrons. This results in even poorer shielding of the nuclear charge, leading to a greater contraction of atomic and ionic radii across the actinoid series.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 93,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Nomenclature of Haloalkanes",
+        "difficulty": "Easy",
+        "question": "Q2. The correct IUPAC name of Freon 12 is:",
+        "options": [
+            "(A) 1,1-Difluoro-1,1-dichloromethane",
+            "(B) 1,1-Dichloro-1,1-difluoromethane",
+            "(C) 1,1-Difluoro-2,2-dichloroethane",
+            "(D) 1,1-Dichloro-2,2-difluoroethane"
+        ],
+        "answer": "(B) 1,1-Dichloro-1,1-difluoromethane",
+        "explanation": "Freon 12 has the chemical formula CCl₂F₂. It is derived from methane (CH₄) where two hydrogen atoms are replaced by chlorine and two by fluorine. In IUPAC nomenclature, substituents are listed alphabetically. Therefore, 'dichloro' precedes 'difluoro', making the systematic name 1,1-Dichloro-1,1-difluoromethane, reflecting its single carbon atom.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 94,
+        "subject": "Chemistry",
+        "topic": "Solutions",
+        "subtopic": "Azeotropes",
+        "difficulty": "Easy",
+        "question": "Q3. Azeotropes are binary mixtures having:",
+        "options": [
+            "(A) Same composition in liquid/vapor phase & constant boiling temperature",
+            "(B) Can be separated by distillation",
+            "(C) Equal volume of two liquids",
+            "(D) Varying boiling temperatures"
+        ],
+        "answer": "(A) Same composition in liquid/vapor phase & constant boiling temperature",
+        "explanation": "Azeotropes are unique binary mixtures that boil at a constant temperature, behaving essentially like a pure compound during boiling. A defining characteristic is that the composition of the vapor phase is identical to that of the liquid phase. This property renders them inseparable by simple or fractional distillation, unlike ideal liquid mixtures.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 95,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Order of reaction",
+        "difficulty": "Medium",
+        "question": "Q4. Which statement regarding the order of reaction is NOT true?",
+        "options": [
+            "(A) Experimental quantity",
+            "(B) Can be zero or fraction",
+            "(C) Applicable to elementary reaction",
+            "(D) For complex reaction, order is given by fastest step"
+        ],
+        "answer": "(D) For complex reaction, order is given by fastest step",
+        "explanation": "The order of a reaction is an experimentally determined value that can be zero, fractional, or negative, and applies to both elementary and complex reactions. However, for complex reactions, the overall reaction order is determined by the slowest step in the reaction mechanism. The fastest step does not dictate the overall rate, thus option (D) is incorrect.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 96,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Synthesis of Ethers",
+        "difficulty": "Medium",
+        "question": "Q5. Which ethers CANNOT be prepared by bimolecular dehydration of alcohol?\nA. 2-Methoxy-2-methylpropane, B. 2-Methoxypropane, C. 1-Propoxypropane, D. 2-Ethoxybutane",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (B) and (D) only",
+        "explanation": "Bimolecular dehydration of alcohols to form ethers proceeds via an SN2 mechanism, which is efficient for primary alcohols. Secondary and tertiary alcohols are poor substrates for this reaction, as they preferentially undergo elimination (E1 or E2) to form alkenes due to steric hindrance and carbocation stability. Therefore, ethers involving secondary or tertiary alkyl groups, such as 2-methoxy-2-methylpropane (tertiary), 2-methoxypropane (secondary), and 2-ethoxybutane (secondary), cannot be effectively synthesized this way.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 97,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Reactions of Alkenes, Aldehydes, Grignard reagents",
+        "difficulty": "Medium",
+        "question": "Q6. Which of the following reactions will give n-Propanol as a product?\nA. Hydroboration-oxidation of Propene, B. Reduction of propanal with Pd, C. Formaldehyde + C₂H₅MgBr → H₂O, D. Acid catalyzed hydration of propene",
+        "options": [
+            "(A) (A), (B) and (D)",
+            "(B) (A), (B) and (C)",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (A), (C) and (D)"
+        ],
+        "answer": "(B) (A), (B) and (C)",
+        "explanation": "Hydroboration-oxidation of propene yields n-propanol via anti-Markovnikov addition of water. Reduction of propanal, an aldehyde, with a reducing agent like palladium, also produces the primary alcohol n-propanol. The reaction of formaldehyde with ethylmagnesium bromide (Grignard reagent) followed by hydrolysis is a standard method for synthesizing primary alcohols, in this case, n-propanol. Acid-catalyzed hydration of propene, however, follows Markovnikov's rule, producing isopropanol.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 98,
+        "subject": "Chemistry",
+        "topic": "d- and f-Block Elements",
+        "subtopic": "Chemistry of Potassium Dichromate",
+        "difficulty": "Medium",
+        "question": "Sodium chromate + H₂SO₄ + KCl → final product obtained is:",
+        "options": [
+            "(A) Sodium dichromate",
+            "(B) Potassium chromate",
+            "(C) Potassium dichromate",
+            "(D) Sodium dichromate dihydrate"
+        ],
+        "answer": "(C) Potassium dichromate",
+        "explanation": "Chromates, like sodium chromate, exist in equilibrium with dichromates in an acidic medium, converting to sodium dichromate. When potassium chloride (KCl) is added to this solution, potassium dichromate precipitates due to its lower solubility compared to sodium dichromate. This metathesis reaction is a standard method for preparing potassium dichromate from sodium chromate solutions.",
+        "a": 1.45,
+        "b": 0.2,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 99,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Qualitative Analysis of Organic Compounds",
+        "difficulty": "Medium",
+        "question": "Match List-I (Compound) with List-II (Reagent/Test):\nList-I: (A) Phenols, (B) Amines, (C) Aldehydes, (D) Methyl Ketones\nList-II: (I) Tollen's test, (II) Neutral FeCl₃, (III) Iodoform test, (IV) Hinsberg's test",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(C) (A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+            "(D) (A)-(II), (B)-(IV), (C)-(I), (D)-(III)"
+        ],
+        "answer": "(D) (A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+        "explanation": "Phenols give a characteristic violet, green, or blue coloration with neutral ferric chloride solution due to the formation of an iron-phenol complex. Amines are identified and distinguished using Hinsberg's test, which involves reaction with benzene sulphonyl chloride. Aldehydes are reducing agents that give a positive Tollen's test, forming a silver mirror. Methyl ketones, possessing the CH₃CO- group, are identified by the iodoform test, which produces a yellow precipitate of iodoform.",
+        "a": 1.55,
+        "b": 0.35,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 100,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Dipole Moment in Haloalkanes",
+        "difficulty": "Medium",
+        "question": "Which methyl halide will have the highest value of dipole moment?",
+        "options": [
+            "(A) CH₃-I",
+            "(B) CH₃-Br",
+            "(C) CH₃-F",
+            "(D) CH₃-Cl"
+        ],
+        "answer": "(D) CH₃-Cl",
+        "explanation": "Dipole moment (μ) is the product of charge (q) and distance (d), where q depends on electronegativity difference and d is bond length. While C-F has the highest electronegativity difference, its very short bond length reduces its dipole moment. CH₃-Cl, despite having a slightly lower electronegativity difference than C-F, possesses a sufficiently longer bond length. This optimal balance of charge separation and bond length results in CH₃-Cl having the highest dipole moment among the methyl halides.",
+        "a": 1.6,
+        "b": 0.5,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 101,
+        "subject": "Chemistry",
+        "topic": "d- and f-Block Elements",
+        "subtopic": "Properties of Transition Elements",
+        "difficulty": "Medium",
+        "question": "An increase in density from Ti to Cu in transition series is attributed to:",
+        "options": [
+            "(A) Lanthanoid contraction",
+            "(B) Filling of f orbitals",
+            "(C) Ineffective shielding of d electrons",
+            "(D) Increase in atomic size"
+        ],
+        "answer": "(C) Ineffective shielding of d electrons",
+        "explanation": "Across the first transition series from titanium to copper, atomic mass generally increases while atomic radii show a gradual decrease. This decrease in size, despite increasing nuclear charge, is due to the ineffective shielding of the nuclear charge by the inner d-electrons. Consequently, the effective nuclear charge increases, pulling the valence electrons closer to the nucleus. The combination of increasing mass and decreasing volume leads to an overall increase in density.",
+        "a": 1.4,
+        "b": 0.3,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 102,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Electrolytic Conduction",
+        "difficulty": "Easy",
+        "question": "Conductivity of an electrolytic solution does NOT depend on:",
+        "options": [
+            "(A) Osmotic pressure",
+            "(B) Concentration",
+            "(C) Nature of electrolyte",
+            "(D) Temperature"
+        ],
+        "answer": "(A) Osmotic pressure",
+        "explanation": "The conductivity of an electrolytic solution primarily depends on the number of ions present and their mobility. Factors like concentration, the nature of the electrolyte (strong or weak), and temperature directly influence these aspects. Concentration affects the number of charge carriers, electrolyte nature affects degree of dissociation, and temperature impacts ion mobility. Osmotic pressure is a colligative property and does not directly affect the electrical conductivity of the solution.",
+        "a": 1.05,
+        "b": -0.8,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 103,
+        "subject": "Chemistry",
+        "topic": "Solutions",
+        "subtopic": "Ideal and Non-Ideal Solutions",
+        "difficulty": "Medium",
+        "question": "Match List-I (Intermolecular interaction) with List-II (Behavior)\nList-I: (A) A-A & B-B ≈ A-B, (B) A-A & B-B > A-B, (C) A-A & B-B < A-B, (D) Very strong A-B\nList-II: (I) Negative deviation, (II) Azeotropes, (III) Positive deviation, (IV) No deviation",
+        "options": [
+            "(A) (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+            "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(II), (C)-(IV), (D)-(I)"
+        ],
+        "answer": "(A) (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+        "explanation": "When intermolecular interactions between like molecules (A-A, B-B) are similar to those between unlike molecules (A-B), the solution behaves ideally with no deviation from Raoult's law. If A-A and B-B interactions are stronger than A-B, molecules escape more easily, leading to positive deviation. Conversely, stronger A-B interactions compared to A-A and B-B result in negative deviation. Very strong A-B interactions can lead to the formation of azeotropes, which are constant boiling mixtures.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 104,
+        "subject": "Chemistry",
+        "topic": "Biomolecules",
+        "subtopic": "Classification and Characteristics of Biomolecules",
+        "difficulty": "Medium",
+        "question": "Match List-I (Biomolecule) with List-II (Characteristics):\nList-I: (A) Lactose, (B) Glycine, (C) Ascorbic acid, (D) Estradiol\nList-II: (I) Menstrual cycle, (II) Bleeding gums, (III) Optically inactive, (IV) Reducing sugar",
+        "options": [
+            "(A) (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+            "(B) (A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+            "(C) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+            "(D) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+        ],
+        "answer": "(D) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+        "explanation": "Lactose is a disaccharide containing a free hemiacetal group, making it a reducing sugar that can reduce Tollen's or Fehling's reagent. Glycine is the only amino acid that does not possess a chiral carbon, and therefore it is optically inactive. Ascorbic acid is Vitamin C, and its deficiency leads to scurvy, a disease characterized by bleeding gums. Estradiol is a primary female sex hormone, classified as an estrogen, which plays a crucial role in regulating the menstrual cycle.",
+        "a": 1.65,
+        "b": 0.6,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 105,
+        "subject": "Chemistry",
+        "topic": "Biomolecules",
+        "subtopic": "Structure of Nucleic Acids",
+        "difficulty": "Easy",
+        "question": "The nitrogenous base NOT present in DNA is:",
+        "options": [
+            "(A) Adenine",
+            "(B) Uracil",
+            "(C) Thymine",
+            "(D) Guanine"
+        ],
+        "answer": "(B) Uracil",
+        "explanation": "Deoxyribonucleic acid (DNA) is a nucleic acid composed of monomeric units called deoxyribonucleotides, which contain a deoxyribose sugar, a phosphate group, and one of four nitrogenous bases. These bases are Adenine, Guanine, Cytosine, and Thymine. Uracil, however, replaces Thymine in Ribonucleic acid (RNA). Therefore, Uracil is exclusively found in RNA and is not a component of DNA.",
+        "a": 1.1,
+        "b": -0.9,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 106,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Reaction Mechanisms and Name Reactions",
+        "difficulty": "Medium",
+        "question": "Compound X → (aq. NH₃ / Δ) → Y → (Br₂ / KOH) → Z (C₆H₇N). Structures of X, Y, Z are:",
+        "options": [
+            "(A) X = Benzoic acid, Y = Benzamide, Z = Aniline",
+            "(B) X = Phthalic acid, Y = Phthalamide, Z = Aniline",
+            "(C) X = Benzamide, Y = Aniline, Z = Nitrobenzene",
+            "(D) X = Nitrobenzene, Y = Aniline, Z = Benzamide"
+        ],
+        "answer": "(A) X = Benzoic acid, Y = Benzamide, Z = Aniline",
+        "explanation": "The final product Z, with the formula C₆H₇N, is Aniline (C₆H₅NH₂), a primary aromatic amine. Aniline is typically formed from an amide, Y, via the Hofmann bromamide degradation reaction (Br₂/KOH). Therefore, Y must be Benzamide (C₆H₅CONH₂). Benzamide (Y) is commonly synthesized by heating carboxylic acids, such as Benzoic acid (X), with aqueous ammonia. Thus, the correct sequence is Benzoic acid → Benzamide → Aniline.",
+        "a": 1.7,
+        "b": 0.7,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 107,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Reactions of Phenols",
+        "difficulty": "Medium",
+        "question": "Phenol + conc. H₂SO₄ → A → (conc. HNO₃) → B. Products A and B are:",
+        "options": [
+            "(A) A = o-phenolsulphonic acid, B = picric acid",
+            "(B) A = p-phenolsulphonic acid, B = 2-nitrophenol",
+            "(C) A = p-phenolsulphonic acid, B = 2,4-dinitrophenol",
+            "(D) A = o-phenolsulphonic acid, B = 4-nitrophenol"
+        ],
+        "answer": "(C) A = p-phenolsulphonic acid, B = 2,4-dinitrophenol",
+        "explanation": "Phenol reacts with concentrated sulfuric acid through electrophilic sulfonation. At higher temperatures, the para-product, p-phenolsulphonic acid, is predominantly formed due to thermodynamic control. Subsequent treatment with concentrated nitric acid initiates nitration on the activated aromatic ring. The sulfonic acid group (-SO₃H) can be replaced by a nitro group during strong nitration, and further nitration occurs at the ortho positions to the hydroxyl group, yielding 2,4-dinitrophenol as product B.",
+        "a": 1.6,
+        "b": 0.65,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 108,
+        "subject": "Chemistry",
+        "topic": "Biomolecules",
+        "subtopic": "Enzymes and Proteins",
+        "difficulty": "Easy",
+        "question": "Identify the INCORRECT statement with reference to biomolecules:\n(A) β-pleated sheets have H-bonding\n(B) Fibrous proteins have H & S-S bonds\n(C) Enzymes can catalyze ANY biochemical reaction\n(D) Vit K deficiency increases clotting time",
+        "options": [
+            "(A) β-pleated sheets have H-bonding",
+            "(B) Fibrous proteins have H & S-S bonds",
+            "(C) Enzymes can catalyze ANY biochemical reaction",
+            "(D) Vit K deficiency increases clotting time"
+        ],
+        "answer": "(C) Enzymes can catalyze ANY biochemical reaction",
+        "explanation": "Enzymes are biological catalysts known for their high specificity, meaning each enzyme typically catalyzes only a particular reaction or a specific type of reaction. They function by binding to specific substrates at their active sites, which are complementary in shape and chemical properties. Therefore, the statement that enzymes can catalyze any biochemical reaction is incorrect, as this contradicts their fundamental property of specificity.",
+        "a": 0.95,
+        "b": -1.0,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 109,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Catalysis",
+        "difficulty": "Easy",
+        "question": "A catalyst increases the rate of reaction by:\n(A) Decreasing Gibbs energy\n(B) Increasing Gibbs energy\n(C) Decreasing activation energy with unchanged\nequilibrium\n(D) Changing equilibrium state",
+        "options": [
+            "(A) Decreasing Gibbs energy",
+            "(B) Increasing Gibbs energy",
+            "(C) Decreasing activation energy with unchanged\nequilibrium",
+            "(D) Changing equilibrium state"
+        ],
+        "answer": "(C) Decreasing activation energy with unchanged\nequilibrium",
+        "explanation": "A catalyst functions by providing an alternative reaction pathway that possesses a lower activation energy, thereby increasing the rate at which reactants are converted to products. It achieves this without being consumed in the overall reaction or altering the thermodynamic properties of the system. Crucially, a catalyst affects the rate of both forward and reverse reactions equally, leading to a faster attainment of equilibrium without changing the equilibrium constant or the final equilibrium state.",
+        "a": 0.9,
+        "b": -0.75,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 110,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Amines, Reactions of Aniline",
+        "difficulty": "Medium",
+        "question": "When aniline is reacted with benzoyl chloride, the product is:\n(A) N-Phenylbenzamide\n(B) Biphenyl\n(C) p-Aminophenylbenzoyl chloride\n(D) N-Phenylaniline",
+        "options": [
+            "(A) N-Phenylbenzamide",
+            "(B) Biphenyl",
+            "(C) p-Aminophenylbenzoyl chloride",
+            "(D) N-Phenylaniline"
+        ],
+        "answer": "(A) N-Phenylbenzamide",
+        "explanation": "The reaction between aniline (an aromatic primary amine) and benzoyl chloride (an acyl chloride) is an acylation reaction, specifically a Schotten-Baumann reaction. In this reaction, the lone pair on the nitrogen atom of aniline acts as a nucleophile, attacking the carbonyl carbon of benzoyl chloride. This results in the displacement of chloride ion and the formation of an amide linkage, yielding N-phenylbenzamide as the product, along with hydrochloric acid.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 111,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Amines and Alcohols (Physical Properties)",
+        "difficulty": "Medium",
+        "question": "Arrange in increasing order of boiling points: (A) n-C₄H₉NH₂, (B) (C₂H₅)₂NH, (C) n-C₄H₉OH, (D) C₂H₅N(CH₃)₂\n(A) (A), (C), (B), (D)\n(B) (D), (B), (C), (A)\n(C) (B), (A), (D), (C)\n(D) (D), (B), (A), (C)",
+        "options": [
+            "(A) (A), (C), (B), (D)",
+            "(B) (D), (B), (C), (A)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (D), (B), (A), (C)"
+        ],
+        "answer": "(D) (D), (B), (A), (C)",
+        "explanation": "Boiling points primarily depend on the strength of intermolecular forces, which increase with hydrogen bonding and molecular mass. Alcohol (C) exhibits the strongest hydrogen bonding, followed by primary amine (A) with two N-H bonds, then secondary amine (B) with one N-H bond, and finally tertiary amine (D) which lacks N-H bonds and thus cannot form hydrogen bonds. Therefore, the increasing order of boiling points is tertiary amine < secondary amine < primary amine < alcohol, corresponding to (D) < (B) < (A) < (C).",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 112,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Amines (Basicity)",
+        "difficulty": "Medium",
+        "question": "Arrange in decreasing order of basic strength in gas phase: (A) C₂H₅NH₂, (B) (C₂H₅)₂NH, (C) (C₂H₅)₃N, (D) NH₃\n(A) (A), (B), (C), (D)\n(B) (B), (A), (C), (D)\n(C) (C), (B), (A), (D)\n(D) (C), (B), (A), (D)",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (B), (A), (C), (D)",
+            "(C) (C), (B), (A), (D)",
+            "(D) (C), (B), (A), (D)"
+        ],
+        "answer": "(D) (C), (B), (A), (D)",
+        "explanation": "In the gas phase, the basicity of amines is primarily determined by the electron-donating inductive effect (+I effect) of alkyl groups. Alkyl groups increase electron density on the nitrogen atom, making it more available to accept a proton and thus enhancing basicity. Tertiary amines (C) have three alkyl groups, providing the strongest +I effect, followed by secondary (B) and then primary (A) amines. Ammonia (D) has no alkyl groups, making it the least basic among the given options. Thus, the decreasing order is (C) > (B) > (A) > (D).",
+        "a": 1.45,
+        "b": 0.25,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 113,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "subtopic": "Oxidation States",
+        "difficulty": "Easy",
+        "question": "Arrange metal ions in increasing order of oxidation number: (A) TiCl₃ (+3), (B) CrF₆ (+6), (C) ZnO (+2), (D) Mn₂O₇ (+7)\n(A) (D), (B), (C), (A)\n(B) (D), (B), (A), (C)\n(C) (C), (A), (D), (B)\n(D) (C), (A), (B), (D)",
+        "options": [
+            "(A) (D), (B), (C), (A)",
+            "(B) (D), (B), (A), (C)",
+            "(C) (C), (A), (D), (B)",
+            "(D) (C), (A), (B), (D)"
+        ],
+        "answer": "(D) (C), (A), (B), (D)",
+        "explanation": "The oxidation number indicates the degree of oxidation of an atom in a chemical compound. For the given compounds, the metal oxidation numbers are: Zinc in ZnO is +2, Titanium in TiCl₃ is +3, Chromium in CrF₆ is +6, and Manganese in Mn₂O₇ is +7. Arranging these values in increasing order yields +2 < +3 < +6 < +7. This corresponds to the sequence (C) ZnO, (A) TiCl₃, (B) CrF₆, and (D) Mn₂O₇.",
+        "a": 1.0,
+        "b": -0.5,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 114,
+        "subject": "Biology",
+        "topic": "Biomolecules",
+        "subtopic": "Proteins",
+        "difficulty": "Easy",
+        "question": "Which biomolecule is an example of fibrous protein?\n(A) Epinephrine\n(B) Insulin\n(C) Albumin\n(D) Myosin",
+        "options": [
+            "(A) Epinephrine",
+            "(B) Insulin",
+            "(C) Albumin",
+            "(D) Myosin"
+        ],
+        "answer": "(D) Myosin",
+        "explanation": "Proteins are broadly classified into fibrous and globular types based on their shape and solubility. Fibrous proteins are elongated, insoluble in water, and typically play structural roles in the body. Myosin is a prime example of a fibrous protein, forming thick filaments in muscle cells and being crucial for muscle contraction. In contrast, epinephrine is a hormone, while insulin and albumin are examples of globular proteins, which are compact and water-soluble.",
+        "a": 0.85,
+        "b": -1.2,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 115,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Alkyl Halides (Wurtz Reaction, Nomenclature)",
+        "difficulty": "Medium",
+        "question": "Primary alkyl halide X (C₄H₉Br) + alc. KOH → Y + HBr → Z. X + Na/ether → T (C₈H₁₈). Correct IUPAC name of T is:\n(A) 2,3-Dimethyloctane\n(B) 2,5-Dimethylhexane\n(C) 2,3-Diethylbutane\n(D) 2-Isobutylbutane",
+        "options": [
+            "(A) 2,3-Dimethyloctane",
+            "(B) 2,5-Dimethylhexane",
+            "(C) 2,3-Diethylbutane",
+            "(D) 2-Isobutylbutane"
+        ],
+        "answer": "(B) 2,5-Dimethylhexane",
+        "explanation": "The reaction X + Na/ether → T (C₈H₁₈) is a Wurtz reaction, where two alkyl halide molecules couple. Since X is a primary alkyl halide (C₄H₉Br) and the product T is a C₈H₁₈ alkane, X must be isobutyl bromide ((CH₃)₂CHCH₂Br). The Wurtz coupling of two isobutyl bromide molecules leads to the formation of (CH₃)₂CHCH₂-CH₂CH(CH₃)₂, which is 2,5-dimethylhexane. This compound has a total of 8 carbons and 18 hydrogens, matching the formula C₈H₁₈.",
+        "a": 1.6,
+        "b": 0.5,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 116,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Order of Reaction",
+        "difficulty": "Easy",
+        "question": "If reactant concentration is reduced to half, rate becomes 1/4. What is the order of reaction?\n(A) 0\n(B) 1\n(C) 2\n(D) 4",
+        "options": [
+            "(A) 0",
+            "(B) 1",
+            "(C) 2",
+            "(D) 4"
+        ],
+        "answer": "(C) 2",
+        "explanation": "The relationship between reactant concentration and reaction rate is defined by the order of reaction, which is expressed as Rate = k[A]ⁿ. If the concentration [A] is halved, (1/2)[A], and the rate becomes (1/4)Rate, then (1/4)Rate = k((1/2)[A])ⁿ. Substituting this into the rate equation, we find that 1/4 = (1/2)ⁿ. Solving for n, we get n=2, indicating a second-order reaction.",
+        "a": 1.1,
+        "b": -0.2,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 117,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Alkyl Halides (Nucleophilic Substitution)",
+        "difficulty": "Medium",
+        "question": "Correct increasing order of reactivity of alkyl halides with CH₃NH₂: (A) C₂H₅Br, (B) C₂H₅I, (C) C₂H₅F, (D) C₂H₅Cl\n(A) (A), (B), (D), (C)\n(B) (C), (D), (A), (B)\n(C) (C), (D), (B), (A)\n(D) (B), (A), (D), (C)",
+        "options": [
+            "(A) (A), (B), (D), (C)",
+            "(B) (C), (D), (A), (B)",
+            "(C) (C), (D), (B), (A)",
+            "(D) (B), (A), (D), (C)"
+        ],
+        "answer": "(B) (C), (D), (A), (B)",
+        "explanation": "The reactivity of alkyl halides in nucleophilic substitution reactions (like with CH₃NH₂) is primarily determined by the leaving group ability of the halide. A good leaving group is a weak base and can stabilize a negative charge, with larger halide ions being better leaving groups. The order of leaving group ability is I⁻ > Br⁻ > Cl⁻ > F⁻. Therefore, the increasing order of reactivity for the ethyl halides is C₂H₅F < C₂H₅Cl < C₂H₅Br < C₂H₅I, which corresponds to (C) < (D) < (A) < (B).",
+        "a": 1.35,
+        "b": 0.05,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 118,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Phenols (Acidity and Reactions)",
+        "difficulty": "Medium",
+        "question": "Which statement is INCORRECT about phenols?\n(A) Soluble in aqueous alkali\n(B) Liberates H₂ with Na metal\n(C) Liberates CO₂ with NaHCO₃\n(D) Less stabilized by resonance than phenoxide ion",
+        "options": [
+            "(A) Soluble in aqueous alkali",
+            "(B) Liberates H₂ with Na metal",
+            "(C) Liberates CO₂ with NaHCO₃",
+            "(D) Less stabilized by resonance than phenoxide ion"
+        ],
+        "answer": "(C) Liberates CO₂ with NaHCO₃",
+        "explanation": "Phenols are acidic and react with strong bases like aqueous alkali and active metals such as sodium, liberating H₂. However, phenols are weaker acids than carbonic acid and thus cannot react with weaker bases like sodium bicarbonate (NaHCO₃) to produce carbon dioxide. The phenoxide ion, the conjugate base of phenol, is more resonance stabilized than phenol itself due to greater delocalization of negative charge, which accounts for phenol's acidity. Therefore, the statement about liberating CO₂ with NaHCO₃ is incorrect.",
+        "a": 1.55,
+        "b": 0.4,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 119,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Rate Laws and Half-Life",
+        "difficulty": "Medium",
+        "question": "Match List-I (Property) with List-II (Formula):\nList-I: (A) t_½ of 0-order NH₃ decomp, (B) Instantaneous rate, (C) k of cane sugar inversion, (D) t_½ of methyl acetate hydrolysis\nList-II: (I) [1/t] ln(a/(a-x)), (II) [R]₀/2K, (III) dx/dt, (IV) (ln 2)/k\n(A) (A)-(II), (B)-(I), (C)-(III), (D)-(IV)\n(B) (A)-(II), (B)-(III), (C)-(I), (D)-(IV)\n(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)\n(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "options": [
+            "(A) (A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+            "(B) (A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(B) (A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+        "explanation": "The half-life (t_½) for a zero-order reaction is given by [R]₀/2k, matching (A)-(II). Instantaneous rate is the change in concentration over an infinitesimally small time interval, expressed as dx/dt, thus (B)-(III). The rate constant (k) for a first-order reaction, like cane sugar inversion, is calculated as [1/t] ln(a/(a-x)), matching (C)-(I). Finally, the half-life (t_½) for a first-order reaction, such as methyl acetate hydrolysis, is (ln 2)/k, which corresponds to (D)-(IV).",
+        "a": 1.7,
+        "b": 0.6,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 120,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "Magnetic Properties",
+        "difficulty": "Easy",
+        "question": "Calculate spin-only magnetic moment of trivalent ion with atomic number 22 (Ti³⁺, d¹):\n(A) 1.44 BM\n(B) 1.73 BM\n(C) 2.84 BM\n(D) 0 BM",
+        "options": [
+            "(A) 1.44 BM",
+            "(B) 1.73 BM",
+            "(C) 2.84 BM",
+            "(D) 0 BM"
+        ],
+        "answer": "(B) 1.73 BM",
+        "explanation": "Titanium (atomic number 22) has an electronic configuration of [Ar] 3d² 4s². For its trivalent ion, Ti³⁺, three electrons are removed (two from 4s and one from 3d), resulting in a 3d¹ configuration, meaning there is one unpaired electron. The spin-only magnetic moment is calculated using the formula μ = √n(n+2) BM, where n is the number of unpaired electrons. With n=1, μ = √1(1+2) = √3 ≈ 1.73 BM.",
+        "a": 1.2,
+        "b": -0.3,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 121,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Kohlrausch's Law",
+        "difficulty": "Medium",
+        "question": "Λ°_m for NaCl, HCl, NaAc are 126.4, 425.9, 91.0 S cm² mol⁻¹. Λ°_m for HAc is:\n(A) 390.5 S cm² mol⁻¹\n(B) 390.5 S cm² mol⁻¹\n(C) 526.9 S cm² mol⁻¹\n(D) 208.5 S cm² mol⁻¹",
+        "options": [
+            "(A) 390.5 S cm² mol⁻¹",
+            "(B) 390.5 S cm² mol⁻¹",
+            "(C) 526.9 S cm² mol⁻¹",
+            "(D) 208.5 S cm² mol⁻¹"
+        ],
+        "answer": "(B) 390.5 S cm² mol⁻¹",
+        "explanation": "Kohlrausch's Law of Independent Migration of Ions states that the limiting molar conductivity of an electrolyte is the sum of the limiting ionic conductivities of its constituent ions. To find Λ°_m for HAc (acetic acid), we can use the given values: Λ°_m(HAc) = Λ°_m(HCl) + Λ°_m(NaAc) - Λ°_m(NaCl). Substituting the values, 425.9 S cm² mol⁻¹ + 91.0 S cm² mol⁻¹ - 126.4 S cm² mol⁻¹ equals 390.5 S cm² mol⁻¹. This calculation yields the correct limiting molar conductivity for acetic acid.",
+        "a": 1.3,
+        "b": 0.0,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 122,
+        "subject": "Chemistry",
+        "topic": "Solutions",
+        "subtopic": "Osmosis and Osmotic Pressure",
+        "difficulty": "Easy",
+        "question": "Extra pressure applied on solution to stop solvent flow across semipermeable membrane is called:",
+        "options": [
+            "(A) Osmotic pressure of solution",
+            "(B) Osmotic pressure of solvent",
+            "(C) Reverse Osmotic pressure of solution",
+            "(D) Reverse Osmotic pressure of solvent"
+        ],
+        "answer": "(A) Osmotic pressure of solution",
+        "explanation": "Osmotic pressure is defined as the minimum pressure that needs to be applied to a solution to prevent the inward flow of its pure solvent across a semipermeable membrane. This pressure counteracts osmosis, a process driven by the concentration difference between the solvent and solution. Therefore, the extra pressure required to halt solvent flow is specifically the osmotic pressure of the solution.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 123,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "subtopic": "Faraday's Laws of Electrolysis",
+        "difficulty": "Medium",
+        "question": "CuSO₄ solution electrolyzed for 1 minute with 1 ampere current. Mass of Cu deposited at cathode is:",
+        "options": [
+            "(A) (945/F) g",
+            "(B) (1890/F) g",
+            "(C) (3780/F) g",
+            "(D) (4725/F) g"
+        ],
+        "answer": "(B) (1890/F) g",
+        "explanation": "According to Faraday's first law of electrolysis, the mass of a substance deposited is proportional to the charge passed. The charge (Q) is calculated as current (I) multiplied by time (t), so Q = 1 A * 60 s = 60 C. For copper deposition from CuSO₄, Cu²⁺ + 2e⁻ → Cu, meaning two moles of electrons (2F) deposit one mole of copper. If the molar mass of Cu is taken as 63 g/mol, then 2F deposits 63 g of Cu. Thus, 60 C will deposit (60 / 2F) * 63 g = (30 * 63) / F g = 1890/F g.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 124,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "SN2 Reaction Mechanism",
+        "difficulty": "Medium",
+        "question": "Which of the following is a characteristic of S_N2 reaction?\n(A) Concentration of both reactants determines rate, (B) Inversion of configuration, (C) Pentacoordinate\ntransition state, (D) Favored in polar protic solvent",
+        "options": [
+            "(A) (A), (B) and (D)",
+            "(B) (A), (B) and (C)",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D)"
+        ],
+        "answer": "(B) (A), (B) and (C)",
+        "explanation": "SN2 reactions are bimolecular, meaning their rate depends on the concentrations of both the substrate and the nucleophile, confirming (A). They proceed via a single step involving a pentacoordinate transition state where the carbon is simultaneously bonded to the incoming nucleophile and the leaving group, validating (C). This simultaneous bond formation and breakage leads to an inversion of configuration at the reacting carbon center, known as Walden inversion, affirming (B). However, SN2 reactions are generally favored in polar aprotic solvents, not polar protic solvents, making (D) incorrect.",
+        "a": 1.6,
+        "b": 0.5,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 125,
+        "subject": "Chemistry",
+        "topic": "Solutions",
+        "subtopic": "Colligative Properties, Osmotic Pressure",
+        "difficulty": "Easy",
+        "question": "Correct relation for determining molar mass of solute (M₂) using osmotic pressure is:",
+        "options": [
+            "(A) M₂ = w₂²RT / (Π V)",
+            "(B) M₂ = w₂RT / (Π V)",
+            "(C) M₂ = w₂RT² / (Π V)",
+            "(D) M₂ = w₂RT / (Π V)"
+        ],
+        "answer": "(B) M₂ = w₂RT / (Π V)",
+        "explanation": "The osmotic pressure (Π) of a solution is a colligative property related to the number of solute particles. The van't Hoff equation for osmotic pressure is Π = (n₂/V)RT, where n₂ is moles of solute and V is solution volume. Substituting n₂ = w₂/M₂, where w₂ is the mass of solute and M₂ is its molar mass, yields Π = (w₂/M₂V)RT. Rearranging this equation to solve for the molar mass of the solute gives M₂ = w₂RT / (ΠV).",
+        "a": 0.9,
+        "b": -0.8,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 126,
+        "subject": "Chemistry",
+        "topic": "Biomolecules",
+        "subtopic": "Carbohydrates, Glucose Structure",
+        "difficulty": "Medium",
+        "question": "Which of the following CANNOT be explained by open chain structure of D-glucose?\n(A) Doesn't give Schiff's test, (B) Pentaacetate doesn't react with NH₂OH, (C) Exists in α and β crystalline forms,\n(D) Oxidation with Br₂ water",
+        "options": [
+            "(A) (A), (B), (C) and (D)",
+            "(B) (A), (B) and (D)",
+            "(C) (C), (B) and (D)",
+            "(D) (A), (B) and (C)"
+        ],
+        "answer": "(D) (A), (B) and (C)",
+        "explanation": "The open-chain structure of D-glucose possesses a free aldehyde group, which should theoretically react with Schiff's reagent and hydroxylamine. However, glucose exists predominantly in cyclic hemiacetal forms (α and β anomers) which do not contain a free aldehyde group, thus explaining why it doesn't give Schiff's test and why its pentaacetate derivative, lacking a free anomeric hydroxyl, doesn't react with NH₂OH. The existence of α and β crystalline forms is also a direct consequence of the cyclic structures (anomers) and mutarotation, which the linear structure cannot account for. The oxidation with bromine water, however, is a characteristic reaction of the aldehyde group, which is present in the open-chain form in equilibrium with the cyclic forms.",
+        "a": 1.7,
+        "b": 0.7,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 127,
+        "subject": "Chemistry",
+        "topic": "Chemical Kinetics",
+        "subtopic": "Catalyst, Reaction Order, Collision Theory",
+        "difficulty": "Medium",
+        "question": "Correct statements regarding reaction kinetics:\n(A) Catalyst doesn't affect ΔG, (B) Catalyst alters K_eq, (C) Zero-order t_½ depends on [A]₀, (D) Orientation\naffects rate",
+        "options": [
+            "(A) (A), (B) and (D)",
+            "(B) (A), (B) and (C)",
+            "(C) (A), (C) and (D)",
+            "(D) (B), (C) and (D)"
+        ],
+        "answer": "(C) (A), (C) and (D)",
+        "explanation": "Catalysts accelerate reaction rates by lowering activation energy but do not change the overall thermodynamics of a reaction, thus ΔG and K_eq remain unaffected, making (A) correct and (B) incorrect. For a zero-order reaction, the half-life (t_½) is directly proportional to the initial concentration ([A]₀), so (C) is correct. According to collision theory, effective collisions leading to a reaction require molecules to have sufficient kinetic energy and the correct orientation, which means orientation directly affects the reaction rate, confirming (D).",
+        "a": 1.65,
+        "b": 0.6,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 128,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "Magnetic Properties, Crystal Field Theory",
+        "difficulty": "Hard",
+        "question": "Which of the following complexes has the highest magnetic moment?",
+        "options": [
+            "(A) [Mn(CN)₆]³⁻",
+            "(B) [FeF₆]³⁻",
+            "(C) [CoF₆]³⁻",
+            "(D) [MnCl₆]³⁻"
+        ],
+        "answer": "(B) [FeF₆]³⁻",
+        "explanation": "Magnetic moment depends on the number of unpaired electrons (n), with higher 'n' leading to a higher magnetic moment. For [Mn(CN)₆]³⁻, Mn³⁺ (d⁴) with a strong field CN⁻ ligand results in n=2. For [FeF₆]³⁻, Fe³⁺ (d⁵) with a weak field F⁻ ligand results in n=5, the highest possible for d⁵. For [CoF₆]³⁻, Co³⁺ (d⁶) with a weak field F⁻ ligand results in n=4. For [MnCl₆]³⁻, Mn³⁺ (d⁴) with a weak field Cl⁻ ligand results in n=4. Thus, [FeF₆]³⁻ has the highest number of unpaired electrons (5) and consequently the highest magnetic moment.",
+        "a": 1.9,
+        "b": 1.2,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 129,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "Catalysts",
+        "difficulty": "Easy",
+        "question": "Which metal belongs to Wilkinson catalyst [RhCl(PPh₃)₃]?",
+        "options": [
+            "(A) Rh",
+            "(B) Pt",
+            "(C) Pd",
+            "(D) Ti + Al"
+        ],
+        "answer": "(A) Rh",
+        "explanation": "Wilkinson's catalyst is a well-known organometallic compound used in homogeneous hydrogenation reactions. Its chemical formula is [RhCl(PPh₃)₃], where Rh stands for Rhodium. This is a direct recall question requiring knowledge of common named catalysts in coordination chemistry. Therefore, Rhodium is the central metal atom in Wilkinson's catalyst.",
+        "a": 0.95,
+        "b": -0.7,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 130,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "Magnetic Properties, CFT, High/Low Spin",
+        "difficulty": "Medium",
+        "question": "Fe(II) octahedral complexes with weak and strong ligands have spin-only magnetic moments respectively:",
+        "options": [
+            "(A) 0 BM and 4.90 BM",
+            "(B) 4.90 BM and 0 BM",
+            "(C) 5.92 BM and 1.73 BM",
+            "(D) 1.73 BM and 5.92 BM"
+        ],
+        "answer": "(B) 4.90 BM and 0 BM",
+        "explanation": "For Fe(II), the electron configuration is d⁶. In an octahedral complex with weak ligands, it forms a high-spin complex with four unpaired electrons (t₂g⁴eg²). The spin-only magnetic moment is calculated as μ = √n(n+2) BM, so for n=4, μ = √4(4+2) = √24 ≈ 4.90 BM. With strong ligands, it forms a low-spin complex with all electrons paired (t₂g⁶eg⁰), resulting in zero unpaired electrons (n=0) and thus a magnetic moment of 0 BM. Therefore, the respective magnetic moments are 4.90 BM and 0 BM.",
+        "a": 1.7,
+        "b": 0.65,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 131,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "Hybridization, Inner/Outer Orbital Complexes",
+        "difficulty": "Medium",
+        "question": "[Co(NH₃)₆]³⁺ and [Ni(NH₃)₆]²⁺ respectively are:",
+        "options": [
+            "(A) Both inner orbital complexes",
+            "(B) Both outer orbital complexes",
+            "(C) Outer orbital, Inner orbital",
+            "(D) Inner orbital, Outer orbital"
+        ],
+        "answer": "(D) Inner orbital, Outer orbital",
+        "explanation": "For [Co(NH₃)₆]³⁺, Co³⁺ is a d⁶ ion. Ammonia (NH₃) acts as a strong field ligand for Co³⁺, causing electron pairing, leading to a d²sp³ hybridization, which corresponds to an inner orbital complex. For [Ni(NH₃)₆]²⁺, Ni²⁺ is a d⁸ ion. Ammonia acts as a weak field ligand for Ni²⁺ in octahedral complexes, so electrons do not pair up, resulting in sp³d² hybridization, which corresponds to an outer orbital complex. Therefore, [Co(NH₃)₆]³⁺ is an inner orbital complex, and [Ni(NH₃)₆]²⁺ is an outer orbital complex.",
+        "a": 1.65,
+        "b": 0.7,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 132,
+        "subject": "Chemistry",
+        "topic": "Coordination Compounds",
+        "subtopic": "Crystal Field Stabilization Energy (CFSE)",
+        "difficulty": "Hard",
+        "question": "If CFSE for tetrahedral [CoCl₄]²⁻ is 8000 cm⁻¹, CFSE for octahedral [CoCl₆]⁴⁻ will be:",
+        "options": [
+            "(A) 16000 cm⁻¹",
+            "(B) 3555.2 cm⁻¹",
+            "(C) 8000 cm⁻¹",
+            "(D) 18000 cm⁻¹"
+        ],
+        "answer": "(D) 18000 cm⁻¹",
+        "explanation": "The relationship between tetrahedral (Δ_t) and octahedral (Δ_o) crystal field splitting energies is Δ_t = (4/9)Δ_o. Assuming the given 'CFSE' for the tetrahedral complex refers to its crystal field splitting energy (Δ_t) directly, then Δ_t = 8000 cm⁻¹. We can then calculate Δ_o using the relationship: Δ_o = (9/4)Δ_t. Substituting the value, Δ_o = (9/4) * 8000 cm⁻¹ = 18000 cm⁻¹. While the question asks for CFSE, the options indicate it likely expects the magnitude of the octahedral splitting energy Δ_o.",
+        "a": 2.0,
+        "b": 1.5,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 133,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Reactions of Carboxylic Acids, Amides",
+        "difficulty": "Medium",
+        "question": "Phthalic acid → (NH₃) → B → (Δ, -2H₂O) → Phthalimide. End product is:",
+        "options": [
+            "(A) Phthalic acid",
+            "(B) Phthalamide",
+            "(C) Phthalimide",
+            "(D) Benzamide"
+        ],
+        "answer": "(C) Phthalimide",
+        "explanation": "The reaction sequence begins with phthalic acid reacting with ammonia (NH₃) to form ammonium phthalate, which upon heating yields phthalamide (B). Further strong heating of phthalamide leads to the elimination of two water molecules, resulting in the intramolecular cyclization to form phthalimide. Therefore, the end product of this specific reaction sequence is phthalimide, a cyclic imide.",
+        "a": 1.55,
+        "b": 0.4,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 134,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Hydration of Alkynes",
+        "difficulty": "Easy",
+        "question": "Hydration of propyne in presence of H₂SO₄ and HgSO₄ gives:",
+        "options": [
+            "(A) Propan-1-al",
+            "(B) Propan-2-one",
+            "(C) Propan-1-ol",
+            "(D) Propan-2-ol"
+        ],
+        "answer": "(B) Propan-2-one",
+        "explanation": "The hydration of alkynes, specifically propyne, in the presence of mercuric sulfate (HgSO₄) and sulfuric acid (H₂SO₄) follows Markovnikov's rule. The reaction initially forms an unstable enol intermediate, prop-1-en-2-ol. This enol rapidly tautomerizes to its more stable keto form, which is propan-2-one (acetone). Therefore, the final product obtained is propan-2-one.",
+        "a": 1.05,
+        "b": -0.3,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 135,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Nomenclature (IUPAC)",
+        "difficulty": "Medium",
+        "question": "The correct IUPAC name of Vanillin is:",
+        "options": [
+            "(A) 4-Hydroxy-3-methoxybenzaldehyde",
+            "(B) 3-Methoxy-4-hydroxybenzaldehyde",
+            "(C) 3-Hydroxy-4-methoxybenzaldehyde",
+            "(D) 4-Methoxy-3-hydroxybenzaldehyde"
+        ],
+        "answer": "(A) 4-Hydroxy-3-methoxybenzaldehyde",
+        "explanation": "Vanillin is an aromatic aldehyde with a benzene ring substituted with an aldehyde group (-CHO), a hydroxyl group (-OH), and a methoxy group (-OCH₃). According to IUPAC rules, the aldehyde group takes precedence and defines the parent compound as benzaldehyde, with the carbon bearing the aldehyde group assigned as position 1. Numbering clockwise or counter-clockwise to give the substituents the lowest possible locants, the methoxy group is at position 3 and the hydroxyl group is at position 4. Thus, the correct IUPAC name is 4-hydroxy-3-methoxybenzaldehyde.",
+        "a": 1.45,
+        "b": 0.3,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 136,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Cannizzaro Reaction",
+        "difficulty": "Easy",
+        "question": "When two moles of benzaldehyde are heated with concentrated NaOH solution, product/s obtained:",
+        "options": [
+            "(A) Benzyl alcohol and sodium benzoate",
+            "(B) Benzyl alcohol only",
+            "(C) Sodium benzoate only",
+            "(D) Benzophenone only"
+        ],
+        "answer": "(A) Benzyl alcohol and sodium benzoate",
+        "explanation": "Benzaldehyde is an aldehyde that lacks alpha-hydrogen atoms, making it unable to undergo aldol condensation. When heated with concentrated sodium hydroxide, benzaldehyde undergoes a Cannizzaro reaction, which is a disproportionation reaction. One molecule of benzaldehyde is oxidized to sodium benzoate (a carboxylic acid salt), while another molecule is reduced to benzyl alcohol. Therefore, both benzyl alcohol and sodium benzoate are formed.",
+        "a": 1.1,
+        "b": -0.4,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 137,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "subtopic": "Grignard Reaction with Nitriles",
+        "difficulty": "Medium",
+        "question": "C₂H₅-C≡N + C₆H₅MgBr → (i. Ether ii. H₃O⁺) → product structure is:",
+        "options": [
+            "(A) Propiophenone (C₆H₅-CO-C₂H₅)",
+            "(B) 3-Phenylpropan-1-al",
+            "(C) 1-Phenylpropan-1-ol",
+            "(D) Benzaldehyde"
+        ],
+        "answer": "(A) Propiophenone (C₆H₅-CO-C₂H₅)",
+        "explanation": "The reaction of a Grignard reagent with a nitrile is a key method for synthesizing ketones. In the first step, phenylmagnesium bromide (C₆H₅MgBr) attacks the carbon of ethyl cyanide (propionitrile, C₂H₅-C≡N), forming an imine salt intermediate. Subsequent hydrolysis with H₃O⁺ cleaves the carbon-nitrogen double bond, converting the imine into a ketone. The resulting product is propiophenone, with the structure C₆H₅-CO-C₂H₅.",
+        "a": 1.75,
+        "b": 0.8,
+        "source_chunk": 10
+    }
+]

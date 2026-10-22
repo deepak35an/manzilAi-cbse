@@ -1,0 +1,551 @@
+{
+  "Algorithms": {
+    "Analysis": [
+      "Analysis of Recurrence Relations",
+      "Asymptotic Notation",
+      "Complexity Analysis",
+      "Recurrence Relations"
+    ],
+    "Analysis of Algorithms": [
+      "Asymptotic Notations",
+      "Complexity Analysis",
+      "Recurrence Relations and Analysis"
+    ],
+    "Comprehensive Revision": [
+      "Asymptotic Notation",
+      "Dynamic Programming",
+      "Graph Algorithms",
+      "Greedy Algorithms",
+      "Recurrence Relations",
+      "Sorting"
+    ],
+    "Divide and Conquer": [
+      "Maximum Subarray Sum"
+    ],
+    "Dynamic Programming": [
+      "Dynamic Programming / Matrix Chain Multiplication"
+    ],
+    "Graph Algorithms": [
+      "DFS and BFS",
+      "DFS and BFS Trees",
+      "Graph Algorithms / DFS / BFS",
+      "Shortest Path"
+    ],
+    "Graph Theory": [
+      "Minimum Spanning Tree",
+      "Shortest Path"
+    ],
+    "Greedy Algorithms": [
+      "Greedy Algorithms / Knapsack"
+    ],
+    "Mixed Problem Solving": [
+      "Divide and Conquer",
+      "Hashing",
+      "Time Complexity / Bit Manipulation"
+    ],
+    "Sorting": [
+      "Quicksort",
+      "Quicksort, Probability (analysis)",
+      "Selection Algorithms"
+    ],
+    "Sorting and Searching": [
+      "Quicksort, Probability",
+      "Selection Algorithms",
+      "Sorting"
+    ]
+  },
+  "All Subjects": {
+    "Final Revision & Strategy": [
+      "Key formula sheets",
+      "Last-minute weak topic reinforcement",
+      "Time management strategies for GATE"
+    ],
+    "Full Syllabus Mock Test": [
+      "Comprehensive review of all core concepts",
+      "Formula recall and application",
+      "Timed practice under exam conditions"
+    ],
+    "Mock Test - Set 1": [
+      "Algorithms",
+      "Data Structures",
+      "Operating System",
+      "Programming and Data Structures"
+    ],
+    "Mock Test - Set 2": [
+      "Computer Networks",
+      "Computer Organization and Architecture",
+      "Databases",
+      "Theory of Computation"
+    ],
+    "Mock Test - Set 3": [
+      "Compiler Design",
+      "Digital Logic",
+      "Discrete Mathematics",
+      "Engineering Mathematics"
+    ],
+    "Mock Tests & Quick Revision": [
+      "Comprehensive review of all core concepts",
+      "Formula recall and application",
+      "Time management strategies for GATE"
+    ]
+  },
+  "Compiler Design": {
+    "Advanced Topics": [
+      "Code Optimization",
+      "FIRST and FOLLOW Sets",
+      "Register Allocation"
+    ],
+    "Advanced Topics & Revision": [
+      "Lexical Analysis, Parsing, Data Flow Analysis",
+      "Syntax Directed Translation"
+    ],
+    "Comprehensive Revision": [
+      "Lexical Analysis, Parsing, Data Flow Analysis",
+      "Syntax Directed Translation"
+    ],
+    "Lexical Analysis": [
+      "Compiler Phases / Basics",
+      "Front-end and Back-end",
+      "Lexical Analysis",
+      "Lexical Analysis / Regular Expressions / Longest Match",
+      "Phases of Compiler"
+    ],
+    "Parsing": [
+      "LR Parsers",
+      "LR Parsing",
+      "Parser Types"
+    ]
+  },
+  "Computer Networks": {
+    "Application Layer": [
+      "Email Protocols",
+      "HTTP and DNS"
+    ],
+    "Application Layer Protocols": [
+      "HTTP and DNS"
+    ],
+    "Comprehensive Revision": [
+      "Application Layer Protocols",
+      "Concept of Layering and LAN Technologies",
+      "Data Communication and Networking",
+      "Data Link Layer",
+      "IP Addressing",
+      "Routing",
+      "TCP"
+    ],
+    "Data Link Layer": [
+      "Address Resolution Protocol (ARP)",
+      "Flow and Error Control",
+      "MAC Protocols / Carrier Sense / Collision Avoidance"
+    ],
+    "IP Addressing": [
+      "IP Addressing",
+      "Subnetting"
+    ],
+    "Mixed Problem Solving": [
+      "Delay Calculation",
+      "Network Performance",
+      "RSA Algorithm"
+    ],
+    "Network Basics": [
+      "Concept of Layering and LAN Technologies"
+    ],
+    "Network Layer": [
+      "Distance Vector Routing",
+      "IP Addressing",
+      "IP Fragmentation",
+      "IP Fragmentation / Fragmentation Offset",
+      "Network Headers / Protocol Fields",
+      "Network Layer",
+      "Routing",
+      "Subnetting"
+    ],
+    "Network Layering": [
+      "Concept of Layering and LAN Technologies",
+      "LAN Technologies"
+    ],
+    "Network Performance & Security": [
+      "Delay Calculation",
+      "Network Performance",
+      "RSA Algorithm"
+    ],
+    "Routing": [
+      "Distance Vector Routing"
+    ],
+    "Transport & Application Layer": [
+      "Email Protocols",
+      "HTTP and DNS",
+      "TCP / Sequence Number Wraparound"
+    ],
+    "Transport Layer": [
+      "TCP",
+      "TCP Congestion Control",
+      "TCP Congestion Control / Slow Start",
+      "TCP Handshake"
+    ]
+  },
+  "Computer Organization and Architecture": {
+    "Advanced Topics": [
+      "Memory / DRAM / Refresh",
+      "Parallel Processing",
+      "RISC Architecture",
+      "TLB, Cache, Page Tables"
+    ],
+    "Cache Memory": [
+      "Average Memory Access Time (AMAT)",
+      "Cache Mapping",
+      "Cache Memory",
+      "Cache Memory / Set-Associative Cache / Tag Field",
+      "Cache Policies",
+      "Direct Mapped Cache, Cache Hits/Misses",
+      "Fully Associative Cache"
+    ],
+    "Comprehensive Revision": [
+      "Cache Memory",
+      "Data Representation",
+      "I/O (DMA, Polling vs. Interrupts)",
+      "Instruction Format",
+      "Memory Hierarchy",
+      "Pipelining"
+    ],
+    "Data Representation": [
+      "Fixed Point Representation",
+      "Floating Point",
+      "IEEE 754 Standard",
+      "Signed Numbers"
+    ],
+    "Instruction Set Architecture": [
+      "Instruction Format / Encoding",
+      "Machine Instruction & Addressing Format"
+    ],
+    "Pipelining": [
+      "Control Hazards, Branch Prediction, Speedup",
+      "Instruction Pipeline / Clock Cycles",
+      "Instruction Pipelining",
+      "Pipelining"
+    ],
+    "Remaining Topics": [
+      "Memory / DRAM / Refresh",
+      "Parallel Processing",
+      "RISC Architecture",
+      "TLB, Cache, Page Tables"
+    ]
+  },
+  "Data Structures": {
+    "Basic Data Structures": [
+      "Arrays",
+      "Linked List",
+      "Stack & Queue",
+      "Stacks and Queues"
+    ],
+    "Comprehensive Revision": [
+      "Arrays",
+      "Hashing",
+      "Heaps / Priority Queues",
+      "Linked List",
+      "Stack & Queue",
+      "Trees"
+    ],
+    "Trees": [
+      "Trees / Binary Tree Traversal"
+    ],
+    "Trees & Heaps": [
+      "Heaps / Min-Heap",
+      "Trees / Binary Tree Traversal"
+    ]
+  },
+  "Databases": {
+    "Comprehensive Revision": [
+      "ER Model",
+      "Functional Dependencies",
+      "Indexing (B+ Tree)",
+      "Normalization",
+      "Relational Algebra",
+      "SQL",
+      "Transactions and Concurrency Control"
+    ],
+    "ER Model": [
+      "ER Model",
+      "ER Model / Relationships",
+      "Weak Entity Sets"
+    ],
+    "ER Model & Relational Model": [
+      "ER Model",
+      "ER Model / Relationships",
+      "Relational Model",
+      "Relational Model Concepts",
+      "Weak Entity Sets"
+    ],
+    "Functional Dependencies": [
+      "Functional Dependencies",
+      "Functional Dependencies, Keys"
+    ],
+    "Indexing": [
+      "B+ Trees",
+      "Indexing",
+      "Indexing (B+ Tree)"
+    ],
+    "Mixed Problem Solving": [
+      "Complex SQL Queries",
+      "Lock-based Protocols",
+      "Recovery Techniques"
+    ],
+    "Normalization": [
+      "BCNF, Dependency Preservation, Lossless Decomposition",
+      "Functional Dependencies",
+      "Normalization",
+      "Normalization / 3NF / BCNF"
+    ],
+    "Relational Algebra & SQL": [
+      "Relational Algebra / Joins / Outer Join",
+      "Relational Algebra Operators, Division",
+      "SQL / Joins"
+    ],
+    "Relational Model": [
+      "Relational Model",
+      "Relational Model Concepts"
+    ],
+    "Transactions and Concurrency Control": [
+      "ACID Properties",
+      "Conflict Equivalence / Serializability",
+      "Transactions and Concurrency Control"
+    ]
+  },
+  "Digital Logic": {
+    "Boolean Algebra": [
+      "Boolean Algebra / XOR XNOR",
+      "Boolean Algebra Identities",
+      "Boolean Functions / Prime Implicants / K-Map",
+      "Boolean Operations/Algebraic Properties",
+      "Identities"
+    ],
+    "Combinational Circuits": [
+      "Boolean Functions / Prime Implicants / K-Map",
+      "Logic Gate Implementation",
+      "Multiplexers"
+    ],
+    "Comprehensive Revision": [
+      "Boolean Algebra",
+      "Combinational Circuits",
+      "Number Representation",
+      "Sequential Circuits"
+    ],
+    "Number Representation": [
+      "2's Complement",
+      "Number System Conversion",
+      "Number System and Radix Conversion",
+      "Radix Conversion",
+      "Two's Complement, Overflow",
+      "Two's complement, overflow"
+    ]
+  },
+  "Discrete Mathematics": {
+    "Advanced Graph Theory & Group Theory": [
+      "Group Theory",
+      "Group Theory / Lagrange's Theorem",
+      "Hamiltonian Cycles"
+    ],
+    "Advanced Topics": [
+      "Group Theory",
+      "Group Theory / Lagrange's Theorem",
+      "Hamiltonian Cycles",
+      "Linear Recurrence Relations"
+    ],
+    "Combinatorics": [
+      "Combinatorics",
+      "Generating Functions",
+      "Generating Functions / Sequences",
+      "Permutations and Combinations"
+    ],
+    "Combinatorics Advanced": [
+      "Generating Functions",
+      "Generating Functions / Sequences"
+    ],
+    "Comprehensive Revision": [
+      "Combinatorics",
+      "Functions and Relations",
+      "Graph Theory",
+      "Linear Recurrence Relations",
+      "Propositional Logic",
+      "Set Theory"
+    ],
+    "Graph Theory": [
+      "Graph Theory",
+      "Graph Theory / Degree / Connected Components",
+      "Spanning Trees"
+    ],
+    "Logic": [
+      "First-Order Logic / Models",
+      "Predicate Logic",
+      "Propositional Logic"
+    ],
+    "Set Theory": [
+      "Set Theory & Algebra"
+    ],
+    "Set Theory & Relations": [
+      "Functions and Relations",
+      "Set theory"
+    ]
+  },
+  "Engineering Mathematics": {
+    "Advanced Topics": [
+      "Probability / Binomial Distribution",
+      "Probability / Dice",
+      "Sequences and Series"
+    ],
+    "Calculus": [
+      "Definite Integral",
+      "Functions and Limits",
+      "Local Maxima and Minima"
+    ],
+    "Calculus & Probability": [
+      "Definite Integral",
+      "Definite Integrals",
+      "Functions and Limits",
+      "Local Maxima and Minima",
+      "Probability / Binomial Distribution",
+      "Probability / Dice"
+    ],
+    "Comprehensive Revision": [
+      "Definite Integrals",
+      "Eigenvalues and Eigenvectors",
+      "Matrices and Determinants",
+      "Probability"
+    ],
+    "Linear Algebra": [
+      "Determinants",
+      "Eigenvalues",
+      "Eigenvalues and Eigenvectors",
+      "Linear Algebra / Eigenvalues",
+      "Linear Algebra / Eigenvalues / Diagonalization",
+      "Matrices",
+      "Matrices and Determinants",
+      "Matrix Properties"
+    ],
+    "Probability": [
+      "Conditional Probability",
+      "Events and Probability",
+      "Probability",
+      "Probability / Bayes' Theorem"
+    ]
+  },
+  "General Aptitude": {
+    "Final Practice": [
+      "Quadratic Equations",
+      "Ratio and Proportion / Percentages",
+      "Sequences and Series",
+      "Word Problems / Arithmetic"
+    ],
+    "Numerical Ability": [
+      "Algebra / Exponents",
+      "Geometry / Area",
+      "Number Theory / LCM"
+    ],
+    "Practice": [
+      "Quadratic Equations",
+      "Ratio and Proportion / Percentages",
+      "Word Problems / Arithmetic"
+    ],
+    "Verbal & Reasoning": [
+      "Grammar / Fill in the Blanks",
+      "Syllogism",
+      "Vocabulary / Fill in the Blanks"
+    ]
+  },
+  "Operating System": {
+    "Comprehensive Revision": [
+      "Concurrency and Synchronization",
+      "Deadlocks",
+      "File Systems",
+      "Memory Management",
+      "Process Management",
+      "Virtual Memory, Paging, TLB"
+    ],
+    "Concurrency and Synchronization": [
+      "Concurrency",
+      "Concurrency and Synchronization",
+      "Process Synchronization / Semaphores / Producer-Consumer"
+    ],
+    "Deadlocks": [
+      "Deadlock / Banker's Algorithm",
+      "Deadlock / Resource Allocation",
+      "Deadlock detection and prevention",
+      "Deadlocks"
+    ],
+    "Memory Management": [
+      "Memory Allocation",
+      "Memory Management / Demand Paging / Page Fault",
+      "Paging / Page Replacement Algorithms (LRU)",
+      "Virtual Memory, Paging, TLB"
+    ],
+    "Memory Management & Virtual Memory": [
+      "Paging",
+      "Paging / Page Replacement Algorithms (LRU)",
+      "Virtual Memory, Paging, TLB"
+    ],
+    "Mixed Problem Solving": [
+      "Hard Disk Structure/Organization",
+      "Interrupt Handling",
+      "fork and wait system calls"
+    ],
+    "Process Management": [
+      "CPU Scheduling",
+      "Process Management Concepts",
+      "Process States",
+      "Round Robin Scheduling"
+    ]
+  },
+  "Programming and Data Structures": {
+    "Advanced C & Problem Solving": [
+      "Bit Manipulation",
+      "Program Output",
+      "Static Variables and Loops"
+    ],
+    "C Programming": [
+      "C Programming / Pointers / Call by Value vs Reference",
+      "C Programming / Recursion / Pseudo-code",
+      "C Programming Basics",
+      "Function Calls, Variable Scope",
+      "Function calls, variable scope",
+      "Loops and Control Flow",
+      "Pointers and Arrays",
+      "Recursion"
+    ]
+  },
+  "Theory of Computation": {
+    "Comprehensive Revision": [
+      "Context-Free Languages",
+      "Decidability / Undecidability",
+      "Finite Automata",
+      "Language Hierarchy",
+      "Regular Languages"
+    ],
+    "Computability": [
+      "Decidability / Undecidability",
+      "First-Order Logic / Models",
+      "Language Hierarchy",
+      "Recursively Enumerable Languages"
+    ],
+    "Context-Free Languages": [
+      "Context-Free Grammars",
+      "Context-Free Languages",
+      "Properties of Context-Free Languages"
+    ],
+    "Finite Automata": [
+      "DFA",
+      "Finite Automata",
+      "NFA to DFA Conversion"
+    ],
+    "Mixed Problem Solving": [
+      "Ambiguous Grammars",
+      "Closure Properties",
+      "PDA and CFL"
+    ],
+    "Regular Languages": [
+      "Properties of Regular Languages",
+      "Pumping Lemma",
+      "Regular Expressions",
+      "Regular Languages"
+    ]
+  }
+}

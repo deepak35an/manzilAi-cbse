@@ -1,0 +1,579 @@
+{
+  "duration_weeks": 36,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Electric Charges",
+            "Conservation of Charge"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Coulomb's Law",
+            "Force Between Multiple Charges"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Superposition Principle",
+            "Continuous Charge Distribution"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Electric Dipole",
+            "Electric Potential"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Potential Difference",
+            "Electric Potential Due to Point Charge"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Electric Potential Due to Dipole",
+            "Electric Potential Due to System of Charges"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Equipotential Surfaces",
+            "Electric Potential Energy"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Electric Field",
+            "Electric Field Lines"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Electric Field Due to Point Charge",
+            "Electric Field Due to Dipole"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Torque on Electric Dipole",
+            "Electric Flux"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Gauss's Theorem",
+            "Electric Field Due to Infinite Straight Wire"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Electric Field Due to Infinite Plane Sheet",
+            "Electric Field Due to Uniformly Charged Spherical Shell"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Conductors and Insulators",
+            "Free and Bound Charges"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Dielectrics",
+            "Electric Polarisation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Capacitors and Capacitance",
+            "Capacitors in Series and Parallel"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Parallel Plate Capacitor",
+            "Effect of Dielectric on Capacitance"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Electrostatics",
+          "priority": "CRITICAL",
+          "topic": "Electrostatics",
+          "subtopics": [
+            "Energy Stored in a Capacitor"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "Electric Current",
+            "Flow of Electric Charge"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "Drift Velocity",
+            "Mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "Relation Between Drift Velocity and Current",
+            "Ohm's Law"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "V-I Characteristics",
+            "Linear and Non-linear Conductors"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "Electrical Energy",
+            "Electrical Power"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "Electrical Resistivity",
+            "Electrical Conductivity"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "Temperature Dependence of Resistance",
+            "Internal Resistance of a Cell"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "EMF and Potential Difference",
+            "Combination of Cells in Series"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "Combination of Cells in Parallel",
+            "Kirchhoff's Rules"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 27,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Current Electricity",
+          "priority": "CRITICAL",
+          "topic": "Current Electricity",
+          "subtopics": [
+            "Wheatstone Bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "subtopics": [
+            "Magnetic Field",
+            "Oersted's Experiment"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 29,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "subtopics": [
+            "Biot-Savart Law",
+            "Magnetic Field Due to Circular Current Loop"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "subtopics": [
+            "Ampere's Law",
+            "Magnetic Field Due to Infinite Straight Wire"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 31,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "subtopics": [
+            "Solenoid",
+            "Force on Moving Charge"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "subtopics": [
+            "Motion of Charge in Magnetic and Electric Fields",
+            "Force on Current-Carrying Conductor"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 33,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "subtopics": [
+            "Force Between Parallel Current-Carrying Conductors",
+            "Definition of Ampere"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 34,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "subtopics": [
+            "Current Loop as Magnetic Dipole",
+            "Magnetic Dipole Moment"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 35,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "subtopics": [
+            "Torque on Current Loop",
+            "Moving Coil Galvanometer"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 36,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Magnetic Effects of Current and Magnetism",
+          "priority": "CRITICAL",
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "subtopics": [
+            "Current Sensitivity",
+            "Conversion to Ammeter"
+          ]
+        }
+      ]
+    }
+  ]
+}

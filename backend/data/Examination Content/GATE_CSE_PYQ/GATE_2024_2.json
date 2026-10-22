@@ -1,0 +1,757 @@
+[
+  {
+    "question_number": 1,
+    "type": "MCQ",
+    "subject": "Digital Logic",
+    "topic": "Number Representation",
+    "subtopic": "2's Complement Overflow/Underflow Detection",
+    "difficulty": "Medium",
+    "question": "Consider a system that uses 5 bits for representing signed integers in 2's complement format. A = 01010 and B = 11010. Which operation results in overflow or underflow?",
+    "answer": "(B) A - B",
+    "a": 1.5,
+    "b": 0.1,
+    "source_chunk": 3,
+    "options": [
+      "(A) A + B",
+      "(B) A - B",
+      "(C) B - A",
+      "(D) 2 * B"
+    ],
+    "explanation": "Two's complement overflow happens when an N-bit arithmetic result exceeds its representable range, which for N=5 is -16 to +15. A=01010 (+10) and B=11010 (-6). A - B is calculated as A + (-B), where -B's 2's complement is 00110 (+6). Summing 01010 and 00110 results in 10000 (-16). This is an overflow because adding two positive numbers yielded a negative result."
+  },
+  {
+    "question_number": 2,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Probability",
+    "subtopic": "Permutations / Independent Events Probability",
+    "difficulty": "Medium",
+    "question": "Permutation from {1,...,n}. X: 1 before 2, Y: 3 before 4. Which is TRUE?",
+    "answer": "(B) X and Y independent",
+    "a": 1.5,
+    "b": 0.1,
+    "source_chunk": 3,
+    "options": [
+      "(A) X and Y independent",
+      "(B) X and Y independent",
+      "(C) Dependent",
+      "(D) None"
+    ],
+    "explanation": "Events are independent if the occurrence of one does not affect the other's probability. In permutations, the relative order of one distinct element pair is independent of another disjoint pair. Event X concerns {1, 2} (1 before 2), and event Y concerns {3, 4} (3 before 4). These sets of elements are mutually exclusive. Therefore, the conditions governing X and Y do not influence each other, affirming their statistical independence."
+  },
+  {
+    "question_number": 3,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "Process Management",
+    "difficulty": "Medium",
+    "question": "Which one of the following statements is FALSE ?",
+    "answer": "(C) Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 4,
+    "options": [
+      "(A) In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main memory in a stolen cycle",
+      "(B) For bulk data transfer, the burst mode of DMA has a higher throughout than the cycle stealing mode",
+      "(C) Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism",
+      "(D) The CPU can start executing an interrupt service routine faster with vectored interrupts than with non-vectored interrupts"
+    ],
+    "explanation": "I/O mechanisms like Programmed I/O (PIO) and Interrupt-driven I/O facilitate data transfer between the CPU and peripheral devices. PIO mandates the CPU to constantly poll device status, resulting in busy-waiting and poor CPU utilization. Interrupt-driven I/O, however, allows the CPU to perform other work until an interrupt signals readiness. Therefore, interrupt-driven I/O offers superior CPU utilization, making the statement that PIO is better, false."
+  },
+  {
+    "question_number": 4,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Application Layer",
+    "subtopic": "Network Protocols",
+    "difficulty": "Medium",
+    "question": "A user starts browsing a webpage hosted at a remote server. The browser opens a single TCP connection to fetch the entire webpage from the server. The webpage consists of a top-level index page with multiple embedded image objects. Assume that all caches (e.g., DNS cache, browser cache) are all initially empty. The following packets leave the user's computer in some order.\n(i) HTTP GET request for the index page\n(ii) DNS request to resolve the web server's name to its IP address\n(iii) HTTP GET request for an image object\n(iv) TCP SYN to open a connection to the web server\nWhich one of the following is the CORRECT chronological order (earliest in time to latest) of the packets leaving the computer ? Correct packet order?",
+    "answer": "(C) DNS \u2192 SYN \u2192 GET(index) \u2192 GET(image)",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 4,
+    "options": [
+      "(A) DNS \u2192 SYN \u2192 GET(index) \u2192 GET(image)",
+      "(B) SYN \u2192 DNS \u2192 GET \u2192 GET",
+      "(C) DNS \u2192 SYN \u2192 GET(index) \u2192 GET(image)",
+      "(D) SYN \u2192 DNS \u2192 GET(image) \u2192 GET(index)"
+    ],
+    "explanation": "Accessing a webpage sequentially involves DNS for name resolution, TCP for connection establishment, and HTTP for resource retrieval. With empty caches, a DNS query for the server's IP address occurs first. Then, a TCP SYN packet establishes the connection. Finally, the HTTP GET for the index page is sent, followed by HTTP GETs for embedded image objects."
+  },
+  {
+    "question_number": 5,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis of Algorithms",
+    "subtopic": "Complexity Analysis",
+    "difficulty": "Medium",
+    "question": "Given an integer array of size N. we want to check if the array is sorted (in either ascending or descending order). An algorithm solves this problem by making a single pass through the array and comparing each element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is",
+    "answer": "(A) Both O(N) and \u03a9(N)",
+    "a": 1.4,
+    "b": -0.1,
+    "source_chunk": 4,
+    "options": [
+      "(A) Both O(N) and \u03a9(N)",
+      "(B) O(N) but not \u03a9(N)",
+      "(C) \u03a9(N) but not O(N)",
+      "(D) Neither O(N) nor \u03a9(N)"
+    ],
+    "explanation": "Asymptotic time complexity uses Big-O for upper bounds and Big-Omega for lower bounds, with \u0398(N) denoting a tight bound where both apply. To verify if an N-element array is sorted, at least N-1 adjacent comparisons are inherently necessary. The described single-pass algorithm performs precisely N-1 comparisons. Since the algorithm performs a fixed number of operations proportional to N, its worst-case time complexity is both O(N) and \u03a9(N)."
+  },
+  {
+    "question_number": 6,
+    "type": "MCQ",
+    "subject": "Programming and Data Structures",
+    "topic": "C Programming",
+    "subtopic": "Program Output",
+    "difficulty": "Medium",
+    "question": "Consider the following C program :\n\n```c\n# include <stdio.h>\nint main () {\n    int a = 6;\n    int b = 0;\n    while (a < 10) {\n        a = a/12 + 1;\n        a + = b; }\n    printf (\"%d\", a);\n    return 0;}\n```\n\nWhich one of the following statements is CORRECT ?",
+    "answer": "(C) The program gets stuck in an infinite loop",
+    "a": 1.7,
+    "b": 0.6,
+    "source_chunk": 4,
+    "options": [
+      "(A) The program prints 9 as output",
+      "(B) The program prints 10 as output",
+      "(C) The program gets stuck in an infinite loop",
+      "(D) The program prints 6 as output"
+    ],
+    "explanation": "This program demonstrates a C `while` loop and integer division behavior. Inside the loop, `a` is repeatedly calculated using `a = a/12 + 1`. Since `a` is initially 6 and `b` is 0, `a` becomes 1 after the first iteration (`6/12 + 1 = 0 + 1 = 1`) and remains 1 thereafter. As `a` is always 1, the loop condition `a < 10` continuously evaluates to true, resulting in an infinite loop."
+  },
+  {
+    "question_number": 7,
+    "type": "MCQ",
+    "subject": "Data Structures",
+    "topic": "Basic Data Structures",
+    "subtopic": "C-Programming",
+    "difficulty": "Medium",
+    "question": "Consider the following C program :\n\n```c\n#include <stdio.h>\nvoid fx ( );\nint main () {\n    fx( );\n    return 0; }\nvoid fx ( ) {\n    char a;\n    if ((a = getchar ( )) ! = '\\n')\n        fx ( );\n    if (a! = '\\n')\n        putchar (a);}\n```\n\nAssume that the input to the program from the command line is 1234 followed by a newline character.\nWhich one of the following statements is CORRECT ?",
+    "answer": "(C) The program will terminate with 4321 as output",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 5,
+    "options": [
+      "(A) The program will not terminate",
+      "(B) The program will terminate with no output",
+      "(C) The program will terminate with 4321 as output",
+      "(D) The program will terminate with 1234 as output "
+    ],
+    "explanation": "This C program demonstrates recursive function calls and stack-based processing of input characters. The `fx` function reads a character, and if it's not a newline, recursively calls itself before potentially printing the character. This post-recursive printing mechanism causes characters to be printed in reverse order of their input. Consequently, with input \"1234\" followed by a newline, the program terminates, producing \"4321\" as output."
+  },
+  {
+    "question_number": 8,
+    "type": "MCQ",
+    "subject": "Data Structures",
+    "topic": "Trees",
+    "subtopic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed for which one of the following cases ?",
+    "answer": "(A) Only the root node",
+    "options": [
+      "(A) Only the root node",
+      "(B) All leaf nodes",
+      "(C) All internal nodes",
+      "(D) Only the leftmost leaf node"
+    ],
+    "a": 1.4,
+    "b": -0.2,
+    "source_chunk": 5,
+    "explanation": "A B+ tree is a self-balancing tree data structure used for efficient storage and retrieval of data in databases. Its property of maintaining node occupancy ensures balanced performance, requiring all nodes (except the root) to be at least half-full. This minimum occupancy rule is relaxed for the root node, which can have fewer entries than the minimum required for other internal nodes."
+  },
+  {
+    "question_number": 9,
+    "type": "MSQ",
+    "subject": "Databases",
+    "topic": "Normalization",
+    "subtopic": "Database",
+    "difficulty": "Medium",
+    "question": "Which of the following statements about a relation R in first normal form (1 NF) is/are TRUE ? Which are TRUE?",
+    "answer": [
+      "(A) No repeating groups",
+      "(C) Atomic values"
+    ],
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 5,
+    "options": [
+      "(A) No repeating groups",
+      "(B) Multi-valued allowed",
+      "(C) Atomic values",
+      "(D) Partial dependency allowed"
+    ],
+    "explanation": "First Normal Form (1NF) is the most basic level of database normalization, requiring specific properties for a relation. A relation is in 1NF if and only if all its attribute values are atomic, meaning each cell contains a single, indivisible value. Consequently, 1NF also strictly prohibits repeating groups within a relation."
+  },
+  {
+    "question_number": 10,
+    "type": "MSQ",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "Process States",
+    "difficulty": "Medium",
+    "question": "Which of the following process state transitions is are NOT possible ?",
+    "answer": [
+      "(B) Waiting to Running",
+      "(C) Ready to Waiting"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "options": [
+      "(A) Running to Ready",
+      "(B) Waiting to Running",
+      "(C) Ready to Waiting",
+      "(D) Running to Terminated"
+    ],
+    "explanation": "Process state transitions describe how a process moves between different execution states within an operating system. A process in the Waiting state must first transition to the Ready state upon completion of its event, and then wait for the CPU before moving to Running. Similarly, a Ready process, awaiting CPU allocation, cannot directly enter the Waiting state without first executing and initiating an I/O operation."
+  },
+  {
+    "question_number": 11,
+    "type": "MSQ",
+    "subject": "Compiler Design",
+    "topic": "Parsing",
+    "subtopic": "Parser Types",
+    "difficulty": "Medium",
+    "question": "Which of the following is/are Bottom-Up Parser(s) ?.",
+    "answer": [
+      "(A) Shift - reduce Parser",
+      "(D) LR Parser"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "options": [
+      "(A) Shift - reduce Parser",
+      "(B) Predictive Parser",
+      "(C) LL(1) Parser",
+      "(D) LR Parser"
+    ],
+    "explanation": "Bottom-up parsing constructs a parse tree by reducing input strings to the grammar's start symbol, effectively building the tree from leaves to root. Shift-reduce parsers, which include all LR parsers like SLR, LALR, and CLR, operate by shifting terminals onto a stack and reducing handles to non-terminals. These methods directly embody the bottom-up approach by applying grammar rules in reverse to match the input."
+  },
+  {
+    "question_number": 12,
+    "type": "MSQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Probability",
+    "subtopic": "Events and Probability",
+    "difficulty": "Medium",
+    "question": "Let A and B be two events in a probability space with P( A)=0.3, P( B)=0.5,and P( A\u2229B)=0.1. Which of the following statements is/are TRUE ?",
+    "answer": [
+      "(B) P( A\u222aB)=0.7",
+      "(C) P( A\u222aB\u1d9c)=0.2, where B\u1d9c is the complement of the event B"
+    ],
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 6,
+    "options": [
+      "(A) The two events A and B are independent.",
+      "(B) P( A\u222aB)=0.7",
+      "(C) P( A\u222aB\u1d9c)=0.2, where B\u1d9c is the complement of the event B",
+      "(D) P( A\u1d9c\u2229B\u1d9c)=0.4, where A\u1d9c and B\u1d9c are the complements of the events A and B respectively"
+    ],
+    "explanation": "This problem evaluates understanding of fundamental probability concepts, including event independence, union, and complements. The union probability is calculated as P(A\u222aB) = P(A) + P(B) - P(A\u2229B), and event independence requires P(A\u2229B) = P(A)P(B). The probability of A and not B, denoted P(A\u2229B\u1d9c), is P(A) - P(A\u2229B). Applying these principles, P(A\u222aB) evaluates to 0.7, and P(A\u2229B\u1d9c) evaluates to 0.2, satisfying the conditions."
+  },
+  {
+    "question_number": 13,
+    "type": "MSQ",
+    "subject": "Computer Networks",
+    "topic": "Transport Layer",
+    "subtopic": "TCP Handshake",
+    "difficulty": "Medium",
+    "question": "TCP client P successfully establishes a connection to TCP server Q. Let N_P denote the sequence number in the SYN sent from P to Q. Let N_Q denote the acknowledge number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT ?",
+    "answer": [
+      "(A) The sequence number N_P is chosen randomly by P",
+      "(D) The acknowledge number N_Q is equal to N_P + 1"
+    ],
+    "a": 1.4,
+    "b": 0.3,
+    "source_chunk": 6,
+    "options": [
+      "(A) The sequence number N_P is chosen randomly by P",
+      "(B) The sequence number N_P is always 0 for a new connection.",
+      "(C) The acknowledge number N_Q is equal to N_P",
+      "(D) The acknowledge number N_Q is equal to N_P + 1"
+    ],
+    "explanation": "The TCP three-way handshake establishes a connection, relying on initial sequence numbers (ISNs) and acknowledgment numbers. The client's initial sequence number in the SYN segment is randomly chosen to prevent prediction attacks and enhance security. The server's SYN-ACK segment acknowledges the client's SYN by setting its acknowledgment number to the client's sequence number plus one. Thus, N_P is random, and N_Q is N_P + 1."
+  },
+  {
+    "question_number": 14,
+    "type": "MSQ",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "NAT / IP Header Field Modification",
+    "difficulty": "Medium",
+    "question": "Which of the following fields is are modified in the IP header of a packet going out of a network address translation (NAT) device from an internal network to an external network ?",
+    "answer": [
+      "(A) Source IP",
+      "(C) Header checksum"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 7,
+    "options": [
+      "(A) Source IP",
+      "(B) Destination IP",
+      "(C) Header checksum",
+      "(D) Total length"
+    ],
+    "explanation": "Network Address Translation (NAT) maps private IP addresses to public ones when packets cross network boundaries. For packets moving from an internal network to an external one, the NAT device replaces the packet's source IP address with its own public IP. Any modification to the IP header, like changing the source IP, requires recomputing the IP header checksum. Thus, the Source IP and Header Checksum fields are modified."
+  },
+  {
+    "question_number": 15,
+    "type": "NAT",
+    "subject": "Discrete Mathematics",
+    "topic": "Set Theory & Relations",
+    "subtopic": "Set theory",
+    "difficulty": "Hard",
+    "question": "Let A and B be non-empty finite sets such that there exist one-to-one and onto functions (i) from A to B and (ii) from A\uf0b4A to A\uf0c8B. The number of possible values of A is __________.",
+    "answer": "2",
+    "a": 1.8,
+    "b": 0.8,
+    "source_chunk": 7,
+    "explanation": "This problem involves cardinality of finite sets and the properties of bijective functions, where a bijection between two sets implies they have the same cardinality. Given a bijection from A to B, let |A| = |B| = n. A bijection from A\u00d7A to A\u222aB implies n\u00b2 = |A\u222aB|. Considering the cases where A and B are identical (n=1) or disjoint (n=2), and ruling out partial overlap, results in two possible values for the cardinality of A."
+  },
+  {
+    "question_number": 16,
+    "type": "NAT",
+    "subject": "Discrete Mathematics",
+    "topic": "Graph Theory",
+    "subtopic": "Spanning Trees",
+    "difficulty": "Medium",
+    "question": "The number of spanning trees in a complete graph of 4 vertices labelled A, B,C, and D is_________.",
+    "answer": "16",
+    "a": 1.2,
+    "b": -0.2,
+    "source_chunk": 7,
+    "explanation": "Cayley's formula provides the number of distinct spanning trees in a complete graph with 'n' vertices. This formula states that a complete graph K_n has n^(n-2) spanning trees. For a complete graph with 4 vertices (K_4), the number of spanning trees is calculated as 4^(4-2) = 4^2. Therefore, K_4 has 16 spanning trees, which directly matches the given answer."
+  },
+  {
+    "question_number": 17,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Network Performance & Security",
+    "subtopic": "Network Performance",
+    "difficulty": "Medium",
+    "question": "The network has three nodes P, Q, R connected as P-Q-R. P sends 1000 packets each of size 1000 bytes. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU. Each of the links P-Q and Q-R has a bandwidth of 10^6 bits/sec, and negligible propagation latency. Router Q immediately transmits every packet it receives from P to R, with negligible processing and queueing delays. Router Q can simultaneously receive on link P-Q and transmit on link Q-R. Assume P starts transmitting the chunks at time t = 0. Which one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which R receives all the chunks of the file ?",
+    "options": [
+      "(A) 8.000",
+      "(B) 8.008",
+      "(C) 15.992",
+      "(D) 16.000"
+    ],
+    "answer": "(B) 8.008",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 8,
+    "explanation": "The end-to-end delay in a pipelined multi-hop network is the sum of the transmission time for all packets across the first link and the transmission time for the last packet across the remaining links. Each packet is 1000 bytes (8000 bits), and the link bandwidth is 10^6 bits/sec, so each packet takes 8000 / 10^6 = 0.008 seconds to transmit. With 1000 packets, the first link (P-Q) takes 1000 * 0.008 = 8 seconds to transmit all packets, and the last packet then takes an additional 0.008 seconds to transmit from Q to R, resulting in a total time of 8 + 0.008 = 8.008 seconds."
+  },
+  {
+    "question_number": 18,
+    "type": "MCQ",
+    "subject": "Compiler Design",
+    "topic": "Parsing",
+    "subtopic": "Syntax Directed Translation",
+    "difficulty": "Medium",
+    "question": "Consider the following syntax-directed definition (SDD).\n\nS \u2192 D H T U { S.val = D.val + H.val + T.val + U.val; }\nD \u2192 'M' D\u2081 { D.val = 5 + D\u2081.val; }\nD \u2192 \u03b5 { D.val = -5; }\nH \u2192 'L' H\u2081 { H.val = 5 \u00d7 10 + H\u2081.val; }\nH \u2192 \u03b5 { H.val = -10; }\nT \u2192 'C' T\u2081 { T.val = 5 \u00d7 100 + T\u2081.val; }\nT \u2192 \u03b5 { T.val = -5; }\nU \u2192 'K' { U.val = 5; }\n\nGiven 'MMLK' as the input, what is the value computed in S.val?",
+    "answer": "(A) 45",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 8,
+    "options": [
+      "(A) 45",
+      "(B) 50",
+      "(C) 55",
+      "(D) 65"
+    ],
+    "explanation": "Attribute evaluation in a syntax-directed definition proceeds by parsing the input string and applying semantic rules associated with grammar productions. For the input 'MMLK', tracing the derivations yields D.val=5 (from 'M M epsilon'), H.val=40 (from 'L epsilon'), T.val=-5 (from epsilon), and U.val=5 (from 'K'). Summing these attribute values as per S.val = D.val + H.val + T.val + U.val leads to 5 + 40 + (-5) + 5. The final computed value in S.val is 45."
+  },
+  {
+    "question_number": 19,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Data Link Layer",
+    "subtopic": "Code Optimisation",
+    "difficulty": "Medium",
+    "question": "Consider the following pseudo-code:\n\nL1: t1 = -1\nL2: t2 = 0\nL3: t3 = 0\nL4: t4 = 4 * t3\nL5: t5 = 4 * t2\nL6: t6 = t5 * M\nL7: t7 = t4 + t6\nL8: t8 = a[t7]\nL9: if t8 <= max goto L11\nL10: t1 = t8\nL11: t3 = t3 + 1\nL12: if t3 < M goto L4\nL13: t2 = t2 + 1\nL14: if t2 < N goto L3\nL15: max = t1\n\nWhich one of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively?",
+    "options": [
+      "(A) 5, 7",
+      "(B) 6, 6",
+      "(C) 7, 5",
+      "(D) 8, 4"
+    ],
+    "answer": "(D) 8,4",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 9,
+    "explanation": "A basic block is a sequence of instructions where control enters at the beginning and leaves at the end without interruption, except possibly at the last instruction. Leaders of basic blocks include the first instruction (L1), targets of jumps (L3, L4, L11), instructions immediately following conditional jumps (L10, L13, L15), and implicitly, a memory access instruction like L8 due to potential control flow changes (e.g., exceptions). Identifying these 8 leaders (L1, L3, L4, L8, L10, L11, L13, L15) delineates 8 basic blocks, with the largest block being L4-L7, containing 4 instructions."
+  },
+  {
+    "question_number": 20,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Concurrency and Synchronization",
+    "subtopic": "Process Synchronization",
+    "difficulty": "Medium",
+    "question": "Consider the following two threads T1 and T2 that update two shared variables a and b. Assume that initially a = b = 1. Though context switching between threads can happen at any time, each statement of T1 or T2 is executed atomically without interruption.\n\nT1:\n\n```c\na = a + 1;\nb = b + 1;\n```\n\nT2:\n\n```c\nb = 2 * b;\na = 2 * a;\n```\n\nWhich one of the following options lists all the possible combinations of values of a and b after both T1 and T2 finish execution?",
+    "options": [
+      "(A) (2,3), (3,2), (4,3)",
+      "(B) (2,2), (2,3), (3,2)",
+      "(C) (2,3), (3,2), (4,2)",
+      "(D) (2,2), (3,3), (4,4)"
+    ],
+    "answer": "(A) (2,3), (3,2), (4,3)",
+    "a": 1.5,
+    "b": 0.5,
+    "source_chunk": 9,
+    "explanation": "Concurrent execution of threads with shared variables introduces race conditions, where the final values depend on the non-deterministic interleaving of atomic operations. Each statement (e.g., `a = a + 1` or `b = 2 * b`) acts as an atomic read-modify-write operation. Different valid interleavings of the four atomic statements from T1 and T2 result in various final states for (a, b), including (2,3), (3,2), and (4,3)."
+  },
+  {
+    "question_number": 21,
+    "type": "MCQ",
+    "subject": "Data Structures",
+    "topic": "Trees & Heaps",
+    "subtopic": "Heap",
+    "difficulty": "Medium",
+    "question": "Consider a binary min-heap containing 105 distinct elements. Let k be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of k is",
+    "options": [
+      "(A) 53",
+      "(B) 52",
+      "(C) 54",
+      "(D) 105"
+    ],
+    "answer": "(A) 53",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 10,
+    "explanation": "A binary min-heap ensures that the value of each parent node is less than or equal to the values of its children nodes. Consequently, the maximum element in a min-heap must always be located at one of the leaf nodes in the heap's array representation. For N elements, leaf nodes occupy indices from floor(N/2) + 1 to N. For N=105 elements, the leaf nodes are at indices 53 through 105, meaning there are 105 - 53 + 1 = 53 possible array indices for the maximum element."
+  },
+  {
+    "question_number": 22,
+    "type": "MSQ",
+    "subject": "Databases",
+    "topic": "Normalization",
+    "subtopic": "Functional Dependencies",
+    "difficulty": "Medium",
+    "question": "The symbol \u2192 indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE ?",
+    "answer": [
+      "(B) (X , Y)\u2192( Z ,W)implies (X , Y)\u2192Z",
+      "(C) ((X , Y)\u2192Z and W \u2192Y) implies (X ,W)\u2192Z",
+      "(D) (X \u2192Y and Y \u2192Z) implies X \u2192Z"
+    ],
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 10,
+    "options": [
+      "(A) (X , Y)\u2192( Z ,W)implies X \u2192( Z ,W)",
+      "(B) (X , Y)\u2192( Z ,W)implies (X , Y)\u2192Z",
+      "(C) ((X , Y)\u2192Z and W \u2192Y) implies (X ,W)\u2192Z",
+      "(D) (X \u2192Y and Y \u2192Z) implies X \u2192Z"
+    ],
+    "explanation": "Armstrong's Axioms define inference rules for functional dependencies in relational database theory, ensuring sound and complete derivation of new dependencies. Option (B) demonstrates the Decomposition rule, (D) illustrates Transitivity, and (C) is derivable using Augmentation and Transitivity, which together form Pseudotransitivity. (B) is true because if a set of attributes determines another set, it also determines any subset of that determined set; (C) and (D) are true by applying known inference rules."
+  },
+  {
+    "question_number": 23,
+    "type": "MSQ",
+    "subject": "Algorithms",
+    "topic": "Graph Algorithms",
+    "subtopic": "DFS and BFS Trees",
+    "difficulty": "Hard",
+    "question": "Let G be a directed graph and T a depth first search (DFS) spanning tree in G that is rooted at a vertex v . Suppose T is also a breadth first search (BFS) tree in G , rooted at v . Which of the following statements is/are TRUE for every such graph G and tree T ?",
+    "answer": "(C) There are no forward-edges in G with respect to the tree T",
+    "a": 2.0,
+    "b": 1.5,
+    "source_chunk": 10,
+    "options": [
+      "(A) There are no back-edges in G with respect to the tree T",
+      "(B) There are no cross-edges in G with respect to the tree T",
+      "(C) There are no forward-edges in G with respect to the tree T",
+      "(D) The only edges in G are the edges in T"
+    ],
+    "explanation": "When a spanning tree T is simultaneously a Depth First Search (DFS) tree and a Breadth First Search (BFS) tree in a directed graph G, specific constraints are imposed on the graph's structure. A forward edge (u, v) implies v is a descendant of u and that its depth in the DFS tree would be greater than `depth(u) + 1` if it were not a tree edge. This contradicts the BFS property that for any edge (u, v), `depth(v)` must be at most `depth(u) + 1`. Consequently, if such an edge existed, T could not be both a DFS and a BFS tree, confirming that no forward-edges can be present in G with respect to T."
+  },
+  {
+    "question_number": 24,
+    "type": "MSQ",
+    "subject": "Databases",
+    "topic": "Transactions and Concurrency Control",
+    "subtopic": "Concurrency Control",
+    "difficulty": "Medium",
+    "question": "Consider the following read-write schedule S over three transactions T1, T2, and T3, where the subscripts in the schedule indicate transaction IDs:\n\nS: r1(z); w1(z); r2(x); r3(y); w3(y); r2(y); w2(x); w2(y);\n\nWhich of the following transaction schedules is/are conflict equivalent to S?",
+    "options": [
+      "(A) T1 T2 T3",
+      "(B) T1 T3 T2",
+      "(C) T3 T2 T1",
+      "(D) T3 T1 T2"
+    ],
+    "answer": [
+      "(B) T1 T3 T2",
+      "(C) T3 T2 T1",
+      "(D) T3 T1 T2"
+    ],
+    "a": 1.8,
+    "b": 1.0,
+    "source_chunk": 10,
+    "explanation": "Conflict serializability ensures that a schedule's execution is equivalent to some serial schedule, preserving the relative order of conflicting operations between transactions. Analyzing the given schedule S reveals conflicts on data item 'y' where all T3 operations precede T2 operations, establishing a precedence constraint T3 \u2192 T2 in the conflict graph. Any schedule that maintains this T3 before T2 ordering, allowing T1 to interleave freely as it has no inter-transaction conflicts, is conflict equivalent to S."
+  },
+  {
+    "question_number": 25,
+    "type": "MSQ",
+    "subject": "Digital Logic",
+    "topic": "Boolean Algebra",
+    "subtopic": "Boolean Algebra",
+    "difficulty": "Medium",
+    "question": "Consider a Boolean expression given by F(X, Y, Z) = \u03a3(3,5,6,7).\n\nWhich of the following statements is/are CORRECT?",
+    "options": [
+      "(A) F(X, Y, Z) = \u03a0(0,1,2,4)",
+      "(B) F(X, Y, Z) = XY + YZ + XZ",
+      "(C) F(X, Y, Z) is independent of input Y",
+      "(D) F(X, Y, Z) is independent of input X'"
+    ],
+    "answer": [
+      "(A) F(X, Y, Z) = \u03a0(0,1,2,4)",
+      "(B) F(X, Y, Z) = XY + YZ + XZ"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 11,
+    "explanation": "A Boolean expression in sum-of-minterms form, F(X, Y, Z) = \u03a3(3,5,6,7), represents the set of input combinations for which the function evaluates to true. Its product-of-maxterms form is the set of complementary minterms, F(X, Y, Z) = \u03a0(0,1,2,4), and simplification using a K-map yields the minimal Sum-of-Products expression F = XY + YZ + XZ. The presence of X, Y, and Z in the simplified expression confirms that the function's output depends on all three variables, making statements about independence incorrect."
+  },
+  {
+    "question_number": 26,
+    "type": "MSQ",
+    "subject": "Algorithms",
+    "topic": "Analysis",
+    "subtopic": "Iterative Recurrence / Closed-form Analysis",
+    "difficulty": "Hard",
+    "question": "Consider the following C function definition.\n\n```c\nint f (int x, int y) {\n    for (int i = 0; i < y; i++) {\n        x=x+x+y;\n    }\n    return x;\n}\n```\n\nWhich of the following statements is/are TRUE about the above function ?",
+    "answer": [
+      "(B) If the inputs are x=20,y=20, then the return value is greater than 2^20",
+      "(D) If the inputs are x=10,y=20, then the return value is greater than 2^20"
+    ],
+    "a": 2.0,
+    "b": 1.5,
+    "source_chunk": 11,
+    "options": [
+      "(A) If the inputs are x=20,y=10, then the return value is less than 2^20",
+      "(B) If the inputs are x=20,y=20, then the return value is greater than 2^20",
+      "(C) If the inputs are x=20,y=10, then the return value is greater than 2^10",
+      "(D) If the inputs are x=10,y=20, then the return value is greater than 2^20"
+    ],
+    "explanation": "The function `f` calculates the final value of `x` by iteratively applying the recurrence `x_new = 2 * x_old + y` for `y` times. This defines a geometric progression with an additive term. After `k` iterations, the value of `x` can be expressed as `x_k = 2^k * x_initial + (2^k - 1) * y`. For the given function, `k` equals `y` in the loop. Evaluating this formula with the inputs from options (B) and (D) demonstrates that the returned value significantly exceeds `2^20` in both cases, satisfying the conditions stated."
+  },
+  {
+    "question_number": 27,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Null Space / Rank-Nullity Theorem",
+    "difficulty": "Medium",
+    "question": "Let A be any n \u00d7 m matrix, where m > n. Which of the following statements is/are TRUE about the system of linear equations Ax = 0 ?",
+    "answer": "(A) There exist at least m - n linearly independent solutions to this system",
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 11,
+    "options": [
+      "(A) There exist at least m - n linearly independent solutions to this system",
+      "(B) There exist m - n linearly independent vectors such that every solution is a linear combination of these vectors",
+      "(C) There exists a non-zero solution in which at least m - n variables are 0",
+      "(D) There exists a solution in which at least n variables are non-zero"
+    ],
+    "explanation": "The null space of a matrix A consists of all vectors `x` such that `Ax = 0`, and its dimension is the nullity of A. The rank-nullity theorem relates the rank of a matrix to its nullity and the number of columns. For an `n x m` matrix A where `m > n`, the theorem states `rank(A) + nullity(A) = m`. Since the rank of A, `rank(A)`, can be at most `n`, the nullity of A must be at least `m - n`. The nullity represents the maximum number of linearly independent solutions to `Ax = 0`. Therefore, there exist at least `m - n` linearly independent solutions."
+  },
+  {
+    "question_number": 28,
+    "type": "MSQ",
+    "subject": "Algorithms",
+    "topic": "Graph Theory",
+    "subtopic": "Graph Coloring",
+    "difficulty": "Medium",
+    "question": "The chromatic number of a graph is the minimum number of colors used in a proper coloring of the graph. Let G be any graph with n vertices and chromatic number k. Which of the following statements is/are always TRUE?",
+    "options": [
+      "(A) G contains a complete subgraph with k vertices",
+      "(B) G contains an independent set of size at least n/k",
+      "(C) G contains at least k(k - 1)/2 edges",
+      "(D) G contains a vertex of degree at least k"
+    ],
+    "answer": [
+      "(B) G contains an independent set of size at least n/k",
+      "(C) G contains at least k(k - 1)/2 edges"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 12,
+    "explanation": "The chromatic number `k` of a graph `G` is the minimum number of colors required for a proper vertex coloring. A proper coloring assigns distinct colors to adjacent vertices. According to Turan's theorem related bounds and the pigeonhole principle, any `k`-coloring partitions `n` vertices into `k` independent sets, one of which must be at least `n/k` in size. Also, a graph with chromatic number `k` must contain at least `k(k-1)/2` edges, as demonstrated by `K_k` which is the simplest `k`-chromatic graph. Therefore, a graph `G` with `n` vertices and chromatic number `k` always contains an independent set of size at least `n/k` and has at least `k(k-1)/2` edges."
+  },
+  {
+    "question_number": 29,
+    "type": "MSQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Advanced Graph Theory & Group Theory",
+    "subtopic": "Algebraic Structures",
+    "difficulty": "Medium",
+    "question": "Consider the operators \u2192 and * defined by a \u2192 b = a + 2b and a * b = ab, for positive integers. Which of the following statements is/are TRUE?",
+    "options": [
+      "(A) Operator \u2192 obeys the associative law",
+      "(B) Operator * obeys the associative law",
+      "(C) Operator \u2192 over the operator * obeys the distributive law",
+      "(D) Operator * over the operator \u2192 obeys the distributive law"
+    ],
+    "answer": [
+      "(B) Operator * obeys the associative law",
+      "(D) Operator * over the operator \u2192 obeys the distributive law"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 12,
+    "explanation": "This question tests the fundamental properties of binary operations, specifically associativity and distributivity, for two custom-defined operators. Associativity requires `a op (b op c) = (a op b) op c`, while distributivity requires `a op1 (b op2 c) = (a op1 b) op2 (a op1 c)`. For operator `*` (multiplication), `a*(b*c) = a(bc)` and `(a*b)*c = (ab)c` are identical, satisfying associativity. For distributivity of `*` over `\u2192`, `a*(b\u2192c) = a*(b+2c) = ab+2ac`, which equals `(a*b)\u2192(a*c) = (ab)\u2192(ac) = ab+2ac`. Thus, operator `*` is associative, and it also distributes over operator `\u2192` as their respective expanded forms are equivalent for all positive integers."
+  },
+  {
+    "question_number": 30,
+    "type": "MSQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Cache Memory",
+    "difficulty": "Medium",
+    "question": "Consider two set-associative cache memory architectures: WBC, which uses the write back policy, and WTC, which uses the write through policy. Both of them use the LRU (Least Recently Used) block replacement policy. The cache memory is connected to the main memory. Which of the following statements is/are TRUE ?",
+    "answer": [
+      "(B) A read miss in WTC never triggers a write back operation of a cache block to main memory",
+      "(C) A write hit in WBC can modify the value of the dirty bit of a cache block"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 12,
+    "options": [
+      "(A) A read miss in WBC never evicts a dirty block",
+      "(B) A read miss in WTC never triggers a write back operation of a cache block to main memory",
+      "(C) A write hit in WBC can modify the value of the dirty bit of a cache block",
+      "(D) A write miss in WTC always writes the victim cache block to main memory before loading the missed block to the cache"
+    ],
+    "explanation": "Cache memory policies like write-back (WBC) and write-through (WTC) define how write operations are handled between cache and main memory, influencing the state of cache blocks. The LRU policy determines which block to evict upon a cache miss when the cache is full. In WTC, all writes update both cache and main memory simultaneously, ensuring cache blocks are never \"dirty\" and thus a read miss never triggers a write-back of an evicted block. In WBC, a write hit modifies the cache block and sets its dirty bit, indicating a discrepancy with main memory. Consequently, a read miss in WTC does not involve writing a victim block to main memory, and a write hit in WBC can change a clean block's dirty bit to set, reflecting its updated state."
+  },
+  {
+    "question_number": 31,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Mixed Problem Solving",
+    "subtopic": "Hard Disk Structure/Organization",
+    "difficulty": "Medium",
+    "question": "Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per track and each sector holds 1024 bytes of data. The number of cylinders in the hard disk is _______.",
+    "answer": "4096",
+    "a": 1.5,
+    "b": -0.2,
+    "source_chunk": 12,
+    "explanation": "The total capacity of a hard disk is determined by the product of its number of cylinders, surfaces, sectors per track, and bytes per sector. To find the number of cylinders, one must divide the total disk capacity by the product of the number of surfaces, sectors per track, and bytes per sector. Performing this calculation yields 4096, which represents the number of cylinders required to achieve the given storage capacity with the specified parameters."
+  },
+  {
+    "question_number": 32,
+    "type": "NAT",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Advanced Topics",
+    "subtopic": "Parallel Processing",
+    "difficulty": "Medium",
+    "question": "The baseline execution time of a program on a 2 GHz single core machine is 100 nanoseconds (ns ). The code corresponding to 90% of the execution time can be fully parallelized. The overhead for using an additional core is 10ns when running on a multicore system. Assume that all cores in the multicore system run their share of the parallelized for an equal amount of time. The number of cores that minimize the execution time of the program is _______.",
+    "answer": "3",
+    "a": 1.6,
+    "b": 0.3,
+    "source_chunk": 12,
+    "explanation": "Amdahl's Law quantifies the potential speedup of a program when only a fraction of its execution can be parallelized, stating that the sequential part limits overall performance. The total execution time is modeled as the sum of sequential time, parallelized time divided by the number of cores, and overhead incurred per additional core. Minimizing the function T(P) = T_sequential + (T_parallel / P) + (P-1) * T_overhead by differentiation reveals that 3 cores achieve the minimum execution time."
+  },
+  {
+    "question_number": 33,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "fork and wait system calls",
+    "difficulty": "Medium",
+    "question": "Consider the following code snippet using the fork () and wait () system calls. Assume that the code compiles and runs correctly, and that the system calls run successfully without any errors.\n\n```c\nint x = 3;\nwhile (x > 0) {\n    fork();\n    printf(\"hello\");\n    wait(NULL);\n    x --;\n}\n```\n\nThe total number of times the printf statement is executed is ________.",
+    "answer": "14",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 13,
+    "explanation": "The `fork()` system call creates a new child process which executes the subsequent code, duplicating the parent's state including local variables like `x`. Each time `fork()` is called, two processes (parent and child) proceed to execute `printf(\"hello\")`, generating two prints. Tracing the program flow reveals that the `fork()` statement is executed a total of 7 times across all processes, leading to 14 total `printf` executions because each `fork` is followed by two prints."
+  },
+  {
+    "question_number": 34,
+    "type": "NAT",
+    "subject": "Theory of Computation",
+    "topic": "Context-Free Languages",
+    "subtopic": "Context-Free Grammars",
+    "difficulty": "Medium",
+    "question": "Let G =(V, \u03a3, S, P) be a context-free grammar in Chomsky Normal Form with \u03a3 = {a, b, c} and V containing 10 variable symbols including the start symbol S. The string w=a30b30c30 is derivable from S. The number of steps (application of rules) in the derivation S \u2192* w is _________.",
+    "answer": "179",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 14,
+    "explanation": "In a Chomsky Normal Form (CNF) grammar, all production rules are either of the form A \u2192 BC or A \u2192 a. For any string `w` of length `n` derived from a CNF grammar, the derivation requires exactly `n-1` applications of rules of the form A \u2192 BC and `n` applications of rules of the form A \u2192 a. Given the string `w = a30b30c30` has a length `n = 90`, the total number of derivation steps will be `2n - 1 = 2 * 90 - 1`, which evaluates to 179."
+  },
+  {
+    "question_number": 35,
+    "type": "NAT",
+    "subject": "Data Structures",
+    "topic": "Trees",
+    "subtopic": "Graph Traversal",
+    "difficulty": "Medium",
+    "question": "The number of edges present in the forest generated by the DFS traversal of an undirected graph G with 100 vertices is 40. The number of connected components in G is _________.",
+    "answer": "60",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 14,
+    "explanation": "A Depth-First Search (DFS) traversal of an undirected graph constructs a DFS forest, where each tree within this forest corresponds to a distinct connected component of the graph. In any tree, the number of edges is always one less than the number of vertices. With 100 vertices and 40 edges in the DFS forest, applying this property yields `40 = 100 - C`, which means the graph has 60 connected components."
+  },
+  {
+    "question_number": 36,
+    "type": "NAT",
+    "subject": "Theory of Computation",
+    "topic": "Regular Languages",
+    "subtopic": "Regular Expressions",
+    "difficulty": "Hard",
+    "question": "Consider the following two regular expressions over the alphabet {0,1}: \nr = 0*+1*\n s = 01*+10*\n The total number of strings of length less than or equal to 5, which are neither in r nor in s, is ________.",
+    "answer": "44",
+    "a": 2.0,
+    "b": 1.0,
+    "source_chunk": 14,
+    "explanation": "The problem requires identifying strings of length up to five that are not part of regular expressions r = 0*+1* (strings of only 0s or only 1s) nor s = 01*+10* (strings starting with 0 followed by 1s, or 1 followed by 0s). First, calculate the total 63 binary strings from length 0 to 5, then enumerate strings in r and s. Apply the principle of inclusion-exclusion to find the total unique strings in `r U s`, which are 19 (11 in r, 10 in s, 2 in common). Subtracting this union from the total possible strings (63 - 19) yields 44 strings that are neither in r nor in s."
+  },
+  {
+    "question_number": 37,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Paging",
+    "difficulty": "Medium",
+    "question": "Consider a memory management system that uses a page size of 2 KB. Assume that both the physical and virtual addresses start from 0. Assume that the pages 0, 1, 2, and 3 are stored in the page frames 1, 3, 2, and 0, respectively. The physical address (in decimal format) corresponding to the virtual address 2500 (in decimal format) is ________.",
+    "answer": "6596",
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 14,
+    "explanation": "Paging is a memory management scheme that maps virtual addresses to physical addresses by dividing memory into fixed-size blocks called pages and frames. Given a page size of 2 KB (2048 bytes), the virtual address 2500 is resolved by dividing it by the page size to get the virtual page number and using the remainder as the offset. This gives virtual page 1 (2500/2048) with an offset of 452 (2500%2048). According to the page table, virtual page 1 resides in physical page frame 3, so the physical address is calculated as (3 * 2048) + 452, which equals 6596."
+  },
+  {
+    "question_number": 38,
+    "type": "NAT",
+    "subject": "Engineering Mathematics",
+    "topic": "Probability",
+    "subtopic": "Conditional Probability",
+    "difficulty": "Easy",
+    "question": "A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is ___________. [Engineering Mathematics, Probability](2 Marks)",
+    "answer": "0.375",
+    "a": 1.0,
+    "b": -0.8,
+    "source_chunk": 14,
+    "explanation": "This problem involves calculating conditional probability without replacement, where the state of the sample space changes after the first event. Given that the first ball drawn is red, the bag's composition for the second draw reduces to 9 red balls and 15 blue balls, totaling 24 balls. The probability that the second ball drawn is also red is then determined by the ratio of remaining red balls to the total remaining balls. This calculation yields 9/24, which simplifies to 0.375."
+  },
+  {
+    "question_number": 39,
+    "type": "NAT",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "IP Fragmentation",
+    "difficulty": "Medium",
+    "question": "Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is _________.",
+    "answer": "6",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 15,
+    "explanation": "IP fragmentation divides a datagram's payload when its size exceeds a link's MTU, ensuring fragment data is a multiple of 8 bytes. The 1400-byte data first fragments for Link 1 (MTU 542, max data 520 bytes) into three pieces. Each of these three fragments then re-fragments for Link 2 (MTU 360, max data 336 bytes), each generating two further segments, totaling six fragments at the receiver."
+  }
+]

@@ -1,0 +1,6270 @@
+{
+  "exam_folder": "CUET_PYQ",
+  "last_updated": "2026-09-04T06:16:18.891388Z",
+  "processed_files_count": 10,
+  "processed_papers": [
+    "CUET_Accountancy.json",
+    "CUET_Biology.json",
+    "CUET_Business Studies.json",
+    "CUET_Chemistry.json",
+    "CUET_Economics.json",
+    "CUET_English.json",
+    "CUET_GAT.json",
+    "CUET_Geo.json",
+    "CUET_History.json",
+    "CUET_Physics.json"
+  ],
+  "total_subjects": 14,
+  "subjects": [
+    {
+      "subject": "Accountancy",
+      "total_questions": 240,
+      "total_topics": 10,
+      "topics": [
+        {
+          "topic": "Accounting Ratios",
+          "question_count": 14,
+          "subtopics": [
+            {
+              "name": "Activity Ratios",
+              "count": 1
+            },
+            {
+              "name": "Liquidity Ratios",
+              "count": 3
+            },
+            {
+              "name": "Meaning and Objectives",
+              "count": 3
+            },
+            {
+              "name": "Profitability Ratios",
+              "count": 5
+            },
+            {
+              "name": "Solvency Ratios",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Cash Flow Statement",
+          "question_count": 7,
+          "subtopics": [
+            {
+              "name": "Preparation of Cash Flow Statement",
+              "count": 7
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Debentures",
+          "question_count": 16,
+          "subtopics": [
+            {
+              "name": "Debentures as Collateral Security",
+              "count": 2
+            },
+            {
+              "name": "Issue at Discount",
+              "count": 1
+            },
+            {
+              "name": "Issue at Par",
+              "count": 1
+            },
+            {
+              "name": "Issue of Debentures",
+              "count": 7
+            },
+            {
+              "name": "Redemption of Debentures",
+              "count": 1
+            },
+            {
+              "name": "Writing Off Discount/Loss on Issue of Debentures",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Dissolution of Partnership Firm",
+          "question_count": 49,
+          "subtopics": [
+            {
+              "name": "Cash/Bank Account",
+              "count": 1
+            },
+            {
+              "name": "Meaning of Dissolution",
+              "count": 14
+            },
+            {
+              "name": "Realisation Account",
+              "count": 21
+            },
+            {
+              "name": "Settlement of Accounts",
+              "count": 13
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Financial Statement Analysis",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Significance",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Financial Statements",
+          "question_count": 3,
+          "subtopics": [
+            {
+              "name": "Major Headings and Sub-headings",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Partnership Fundamentals",
+          "question_count": 35,
+          "subtopics": [
+            {
+              "name": "Division of Profit Among Partners",
+              "count": 4
+            },
+            {
+              "name": "Fixed Capital Method",
+              "count": 9
+            },
+            {
+              "name": "Guarantee of Profit to a Partner",
+              "count": 4
+            },
+            {
+              "name": "Nature of Partnership Firm",
+              "count": 4
+            },
+            {
+              "name": "Partnership Deed",
+              "count": 8
+            },
+            {
+              "name": "Past Adjustments",
+              "count": 1
+            },
+            {
+              "name": "Profit and Loss Appropriation Account",
+              "count": 5
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Reconstitution of Partnership Firm",
+          "question_count": 62,
+          "subtopics": [
+            {
+              "name": "Accounting Treatment of Goodwill",
+              "count": 13
+            },
+            {
+              "name": "Adjustment of Capitals",
+              "count": 2
+            },
+            {
+              "name": "Admission of a Partner",
+              "count": 6
+            },
+            {
+              "name": "Average Profit Method",
+              "count": 4
+            },
+            {
+              "name": "Capitalisation Method",
+              "count": 2
+            },
+            {
+              "name": "Change in Profit Sharing Ratio",
+              "count": 4
+            },
+            {
+              "name": "Deceased Partner's Capital Account",
+              "count": 2
+            },
+            {
+              "name": "Distribution of Reserves",
+              "count": 2
+            },
+            {
+              "name": "Factors Affecting Goodwill",
+              "count": 1
+            },
+            {
+              "name": "Gaining Ratio",
+              "count": 4
+            },
+            {
+              "name": "Goodwill",
+              "count": 7
+            },
+            {
+              "name": "Retirement of a Partner",
+              "count": 5
+            },
+            {
+              "name": "Revaluation of Assets",
+              "count": 5
+            },
+            {
+              "name": "Sacrificing Ratio",
+              "count": 2
+            },
+            {
+              "name": "Super Profit Method",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Share Capital",
+          "question_count": 52,
+          "subtopics": [
+            {
+              "name": "Calls in Advance",
+              "count": 1
+            },
+            {
+              "name": "Calls in Arrears",
+              "count": 2
+            },
+            {
+              "name": "Features of Companies",
+              "count": 3
+            },
+            {
+              "name": "Forfeiture of Shares",
+              "count": 9
+            },
+            {
+              "name": "Issue at Premium",
+              "count": 1
+            },
+            {
+              "name": "Issue of Shares",
+              "count": 10
+            },
+            {
+              "name": "Oversubscription",
+              "count": 1
+            },
+            {
+              "name": "Preference Shares",
+              "count": 1
+            },
+            {
+              "name": "Presentation of Share Capital",
+              "count": 4
+            },
+            {
+              "name": "Reissue of Forfeited Shares",
+              "count": 6
+            },
+            {
+              "name": "Share Allotment",
+              "count": 1
+            },
+            {
+              "name": "Share Capital",
+              "count": 8
+            },
+            {
+              "name": "Shares Issued for Consideration Other Than Cash",
+              "count": 2
+            },
+            {
+              "name": "Types of Companies",
+              "count": 2
+            },
+            {
+              "name": "Undersubscription",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Tools of Financial Analysis",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Common Size Statements",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Biology",
+      "total_questions": 178,
+      "total_topics": 16,
+      "topics": [
+        {
+          "topic": "Applications of Biotechnology",
+          "question_count": 19,
+          "subtopics": [
+            {
+              "name": "Biopiracy",
+              "count": 1
+            },
+            {
+              "name": "Bt Cotton",
+              "count": 5
+            },
+            {
+              "name": "Gene Therapy",
+              "count": 2
+            },
+            {
+              "name": "Genetically Modified Organisms (GMOs)",
+              "count": 5
+            },
+            {
+              "name": "Molecular Diagnosis",
+              "count": 5
+            },
+            {
+              "name": "RNA Interference (RNAi)",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Biodiversity and Conservation",
+          "question_count": 15,
+          "subtopics": [
+            {
+              "name": "Biodiversity",
+              "count": 3
+            },
+            {
+              "name": "Biodiversity Loss",
+              "count": 3
+            },
+            {
+              "name": "Endemism",
+              "count": 2
+            },
+            {
+              "name": "Ex-situ Conservation",
+              "count": 2
+            },
+            {
+              "name": "Patterns of Biodiversity",
+              "count": 5
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Biomolecules",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Proteins",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Biotechnology Principles",
+          "question_count": 15,
+          "subtopics": [
+            {
+              "name": "Bioreactors",
+              "count": 1
+            },
+            {
+              "name": "Cloning Vectors",
+              "count": 2
+            },
+            {
+              "name": "Downstream Processing",
+              "count": 2
+            },
+            {
+              "name": "PCR",
+              "count": 1
+            },
+            {
+              "name": "Recombinant DNA Technology",
+              "count": 5
+            },
+            {
+              "name": "Restriction Enzymes",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Ecosystem",
+          "question_count": 11,
+          "subtopics": [
+            {
+              "name": "Decomposition",
+              "count": 2
+            },
+            {
+              "name": "Energy Flow",
+              "count": 1
+            },
+            {
+              "name": "Food Chain",
+              "count": 4
+            },
+            {
+              "name": "Productivity",
+              "count": 3
+            },
+            {
+              "name": "Pyramid of Energy",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Evolution",
+          "question_count": 11,
+          "subtopics": [
+            {
+              "name": "Adaptive Radiation",
+              "count": 1
+            },
+            {
+              "name": "Comparative Anatomy",
+              "count": 1
+            },
+            {
+              "name": "Evolution of Plants",
+              "count": 2
+            },
+            {
+              "name": "Hardy-Weinberg Principle",
+              "count": 2
+            },
+            {
+              "name": "Human Evolution",
+              "count": 1
+            },
+            {
+              "name": "Miller's Experiment",
+              "count": 2
+            },
+            {
+              "name": "Origin of Life",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "General Science",
+          "question_count": 5,
+          "subtopics": [
+            {
+              "name": "Biology Basics",
+              "count": 5
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Human Health and Disease",
+          "question_count": 16,
+          "subtopics": [
+            {
+              "name": "Acquired Immunity",
+              "count": 2
+            },
+            {
+              "name": "Allergies",
+              "count": 2
+            },
+            {
+              "name": "Cancer",
+              "count": 2
+            },
+            {
+              "name": "Drug Abuse",
+              "count": 2
+            },
+            {
+              "name": "Health",
+              "count": 1
+            },
+            {
+              "name": "Innate Immunity",
+              "count": 1
+            },
+            {
+              "name": "Malaria",
+              "count": 3
+            },
+            {
+              "name": "Ringworm",
+              "count": 1
+            },
+            {
+              "name": "Typhoid",
+              "count": 1
+            },
+            {
+              "name": "Vitamins, Hormones, Deficiency Diseases",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json",
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Human Physiology",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Endocrine System, Hormones",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Human Reproduction",
+          "question_count": 14,
+          "subtopics": [
+            {
+              "name": "Male Reproductive System",
+              "count": 4
+            },
+            {
+              "name": "Menstrual Cycle",
+              "count": 5
+            },
+            {
+              "name": "Placenta",
+              "count": 1
+            },
+            {
+              "name": "Spermatogenesis",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Microbes in Human Welfare",
+          "question_count": 13,
+          "subtopics": [
+            {
+              "name": "Antibiotics",
+              "count": 1
+            },
+            {
+              "name": "Bioactive Molecules",
+              "count": 3
+            },
+            {
+              "name": "Biocontrol Agents",
+              "count": 1
+            },
+            {
+              "name": "Biofertilisers",
+              "count": 1
+            },
+            {
+              "name": "Household Products",
+              "count": 4
+            },
+            {
+              "name": "Sewage Treatment",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Molecular Basis of Inheritance",
+          "question_count": 15,
+          "subtopics": [
+            {
+              "name": "DNA Fingerprinting",
+              "count": 1
+            },
+            {
+              "name": "DNA Packaging",
+              "count": 2
+            },
+            {
+              "name": "DNA Structure",
+              "count": 2
+            },
+            {
+              "name": "Hershey-Chase Experiment",
+              "count": 2
+            },
+            {
+              "name": "Human Genome Project",
+              "count": 2
+            },
+            {
+              "name": "Lac Operon",
+              "count": 1
+            },
+            {
+              "name": "Transcription",
+              "count": 5
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Organisms and Populations",
+          "question_count": 10,
+          "subtopics": [
+            {
+              "name": "Birth Rate",
+              "count": 1
+            },
+            {
+              "name": "Death Rate",
+              "count": 1
+            },
+            {
+              "name": "Exponential Growth",
+              "count": 1
+            },
+            {
+              "name": "Population Attributes",
+              "count": 1
+            },
+            {
+              "name": "Population Interactions",
+              "count": 4
+            },
+            {
+              "name": "Predation",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Principles of Inheritance",
+          "question_count": 10,
+          "subtopics": [
+            {
+              "name": "Chromosomal Disorders",
+              "count": 1
+            },
+            {
+              "name": "Chromosomal Theory of Inheritance",
+              "count": 2
+            },
+            {
+              "name": "Codominance",
+              "count": 1
+            },
+            {
+              "name": "Mendelian Disorders",
+              "count": 3
+            },
+            {
+              "name": "Sex Determination",
+              "count": 2
+            },
+            {
+              "name": "Test Cross",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Reproductive Health",
+          "question_count": 11,
+          "subtopics": [
+            {
+              "name": "Contraceptive Methods",
+              "count": 4
+            },
+            {
+              "name": "IUI",
+              "count": 2
+            },
+            {
+              "name": "Medical Termination of Pregnancy (MTP)",
+              "count": 2
+            },
+            {
+              "name": "Sexually Transmitted Infections (STIs)",
+              "count": 2
+            },
+            {
+              "name": "ZIFT",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        {
+          "topic": "Sexual Reproduction in Flowering Plants",
+          "question_count": 11,
+          "subtopics": [
+            {
+              "name": "Embryo Development",
+              "count": 2
+            },
+            {
+              "name": "Fruit Formation",
+              "count": 1
+            },
+            {
+              "name": "Microsporangium",
+              "count": 2
+            },
+            {
+              "name": "Microsporogenesis",
+              "count": 1
+            },
+            {
+              "name": "Pollination",
+              "count": 3
+            },
+            {
+              "name": "Seed Formation",
+              "count": 1
+            },
+            {
+              "name": "Structure of Flower",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Business Studies",
+      "total_questions": 230,
+      "total_topics": 13,
+      "topics": [
+        {
+          "topic": "Business Environment",
+          "question_count": 11,
+          "subtopics": [
+            {
+              "name": "Meaning of Business Environment",
+              "count": 11
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Business Finance",
+          "question_count": 22,
+          "subtopics": [
+            {
+              "name": "Capital Structure",
+              "count": 9
+            },
+            {
+              "name": "Financial Planning",
+              "count": 3
+            },
+            {
+              "name": "Meaning of Business Finance",
+              "count": 1
+            },
+            {
+              "name": "Objectives of Financial Management",
+              "count": 5
+            },
+            {
+              "name": "Role of Business Finance",
+              "count": 1
+            },
+            {
+              "name": "Working Capital",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Consumer Protection",
+          "question_count": 12,
+          "subtopics": [
+            {
+              "name": "Consumer Organisations",
+              "count": 1
+            },
+            {
+              "name": "Consumer Protection Act",
+              "count": 1
+            },
+            {
+              "name": "Consumer Rights",
+              "count": 5
+            },
+            {
+              "name": "Importance of Consumer Protection",
+              "count": 3
+            },
+            {
+              "name": "Legal Redressal",
+              "count": 1
+            },
+            {
+              "name": "NGOs in Consumer Protection",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Controlling",
+          "question_count": 19,
+          "subtopics": [
+            {
+              "name": "Control Process",
+              "count": 10
+            },
+            {
+              "name": "Importance of Controlling",
+              "count": 6
+            },
+            {
+              "name": "Meaning of Controlling",
+              "count": 1
+            },
+            {
+              "name": "Planning and Controlling Relationship",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Directing",
+          "question_count": 25,
+          "subtopics": [
+            {
+              "name": "Barriers to Effective Communication",
+              "count": 3
+            },
+            {
+              "name": "Communication",
+              "count": 2
+            },
+            {
+              "name": "Leadership",
+              "count": 2
+            },
+            {
+              "name": "Maslow's Hierarchy of Needs",
+              "count": 4
+            },
+            {
+              "name": "Meaning of Directing",
+              "count": 5
+            },
+            {
+              "name": "Motivation",
+              "count": 7
+            },
+            {
+              "name": "Principles of Directing",
+              "count": 1
+            },
+            {
+              "name": "Supervision",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Entrepreneurship Development",
+          "question_count": 8,
+          "subtopics": [
+            {
+              "name": "Concept of Entrepreneurship",
+              "count": 3
+            },
+            {
+              "name": "Entrepreneurial Characteristics",
+              "count": 1
+            },
+            {
+              "name": "Entrepreneurial Competencies",
+              "count": 2
+            },
+            {
+              "name": "Entrepreneurial Motivation",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Marketing",
+          "question_count": 18,
+          "subtopics": [
+            {
+              "name": "Branding",
+              "count": 5
+            },
+            {
+              "name": "Factors Affecting Pricing",
+              "count": 2
+            },
+            {
+              "name": "Functions of Marketing",
+              "count": 1
+            },
+            {
+              "name": "Labelling",
+              "count": 1
+            },
+            {
+              "name": "Marketing Mix",
+              "count": 3
+            },
+            {
+              "name": "Meaning of Marketing",
+              "count": 1
+            },
+            {
+              "name": "Packaging",
+              "count": 1
+            },
+            {
+              "name": "Personal Selling",
+              "count": 1
+            },
+            {
+              "name": "Product Classification",
+              "count": 2
+            },
+            {
+              "name": "Promotion Mix",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Nature and Significance of Management",
+          "question_count": 25,
+          "subtopics": [
+            {
+              "name": "Characteristics of Management",
+              "count": 6
+            },
+            {
+              "name": "Concept of Management",
+              "count": 1
+            },
+            {
+              "name": "Coordination",
+              "count": 2
+            },
+            {
+              "name": "Dimensions of Management",
+              "count": 1
+            },
+            {
+              "name": "Functions of Management",
+              "count": 4
+            },
+            {
+              "name": "Importance of Coordination",
+              "count": 3
+            },
+            {
+              "name": "Levels of Management",
+              "count": 1
+            },
+            {
+              "name": "Management as a Profession",
+              "count": 2
+            },
+            {
+              "name": "Management as a Science",
+              "count": 1
+            },
+            {
+              "name": "Middle Level Management",
+              "count": 1
+            },
+            {
+              "name": "Nature of Coordination",
+              "count": 1
+            },
+            {
+              "name": "Nature of Management",
+              "count": 1
+            },
+            {
+              "name": "Organising",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Organising",
+          "question_count": 28,
+          "subtopics": [
+            {
+              "name": "Decentralisation",
+              "count": 7
+            },
+            {
+              "name": "Delegation",
+              "count": 2
+            },
+            {
+              "name": "Delegation vs Decentralisation",
+              "count": 1
+            },
+            {
+              "name": "Divisional Structure",
+              "count": 3
+            },
+            {
+              "name": "Formal Organisation",
+              "count": 2
+            },
+            {
+              "name": "Functional Structure",
+              "count": 1
+            },
+            {
+              "name": "Importance of Organising",
+              "count": 3
+            },
+            {
+              "name": "Levels of Management",
+              "count": 1
+            },
+            {
+              "name": "Meaning of Organising",
+              "count": 2
+            },
+            {
+              "name": "Steps in Organising Process",
+              "count": 6
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Planning",
+          "question_count": 19,
+          "subtopics": [
+            {
+              "name": "Features of Planning",
+              "count": 1
+            },
+            {
+              "name": "Importance of Planning",
+              "count": 2
+            },
+            {
+              "name": "Limitations of Planning",
+              "count": 1
+            },
+            {
+              "name": "Meaning of Planning",
+              "count": 2
+            },
+            {
+              "name": "Planning Process",
+              "count": 4
+            },
+            {
+              "name": "Types of Plans",
+              "count": 8
+            },
+            {
+              "name": "Types of Plans (Standing and Single-use)",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Principles of Management",
+          "question_count": 19,
+          "subtopics": [
+            {
+              "name": "Fayol's Principles of Management",
+              "count": 7
+            },
+            {
+              "name": "Significance of Principles",
+              "count": 1
+            },
+            {
+              "name": "Taylor's Scientific Management",
+              "count": 7
+            },
+            {
+              "name": "Techniques of Scientific Management",
+              "count": 3
+            },
+            {
+              "name": "Unity of Direction",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        {
+          "topic": "Share Capital",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Types of Companies",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        {
+          "topic": "Staffing",
+          "question_count": 23,
+          "subtopics": [
+            {
+              "name": "Human Resource Management",
+              "count": 2
+            },
+            {
+              "name": "Importance of Staffing",
+              "count": 2
+            },
+            {
+              "name": "Meaning of Staffing",
+              "count": 2
+            },
+            {
+              "name": "Recruitment",
+              "count": 2
+            },
+            {
+              "name": "Selection Process",
+              "count": 4
+            },
+            {
+              "name": "Sources of Recruitment",
+              "count": 3
+            },
+            {
+              "name": "Staffing Process",
+              "count": 3
+            },
+            {
+              "name": "Training",
+              "count": 5
+            }
+          ],
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "total_questions": 136,
+      "total_topics": 25,
+      "topics": [
+        {
+          "topic": "Aldehydes, Ketones and Carboxylic Acids",
+          "question_count": 2,
+          "subtopics": [
+            {
+              "name": "Distinction Tests",
+              "count": 1
+            },
+            {
+              "name": "Preparation of Ketones",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Biomolecules",
+          "question_count": 7,
+          "subtopics": [
+            {
+              "name": "Carbohydrates, Glucose Structure",
+              "count": 1
+            },
+            {
+              "name": "Classification and Characteristics of Biomolecules",
+              "count": 1
+            },
+            {
+              "name": "Enzymes and Proteins",
+              "count": 1
+            },
+            {
+              "name": "Proteins",
+              "count": 1
+            },
+            {
+              "name": "Reactions of Glucose",
+              "count": 2
+            },
+            {
+              "name": "Structure of Nucleic Acids",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Carboxylic Acids and their Derivatives",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Reactions of Esters",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Chemical Bonding",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Molecular structure and bonding",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Chemical Kinetics",
+          "question_count": 11,
+          "subtopics": [
+            {
+              "name": "Catalysis",
+              "count": 1
+            },
+            {
+              "name": "Catalyst, Reaction Order, Collision Theory",
+              "count": 1
+            },
+            {
+              "name": "Complex reactions and rate-determining step",
+              "count": 1
+            },
+            {
+              "name": "First Order Reactions / Half-life",
+              "count": 1
+            },
+            {
+              "name": "Order of Reaction",
+              "count": 2
+            },
+            {
+              "name": "Order of reaction",
+              "count": 1
+            },
+            {
+              "name": "Order of reaction and rate constant units",
+              "count": 1
+            },
+            {
+              "name": "Rate Laws and Half-Life",
+              "count": 1
+            },
+            {
+              "name": "Rate law and concentration",
+              "count": 1
+            },
+            {
+              "name": "Reaction Order / Rate Law",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Chemistry in Everyday Life",
+          "question_count": 2,
+          "subtopics": [
+            {
+              "name": "Artificial Sweeteners",
+              "count": 1
+            },
+            {
+              "name": "Drugs and Medicines (Analgesics, Antacids)",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Coordination Compounds",
+          "question_count": 10,
+          "subtopics": [
+            {
+              "name": "Catalysts",
+              "count": 1
+            },
+            {
+              "name": "Crystal Field Stabilization Energy (CFSE)",
+              "count": 1
+            },
+            {
+              "name": "Hybridization, Inner/Outer Orbital Complexes",
+              "count": 1
+            },
+            {
+              "name": "Hybridization, VBT",
+              "count": 1
+            },
+            {
+              "name": "Isomerism",
+              "count": 1
+            },
+            {
+              "name": "Magnetic Moment, Crystal Field Theory",
+              "count": 1
+            },
+            {
+              "name": "Magnetic Properties",
+              "count": 1
+            },
+            {
+              "name": "Magnetic Properties, CFT, High/Low Spin",
+              "count": 1
+            },
+            {
+              "name": "Magnetic Properties, Crystal Field Theory",
+              "count": 1
+            },
+            {
+              "name": "VBT, Magnetic Properties, Geometry",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "D & F Block Elements",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Lanthanoid and Actinoid contraction",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "D and F Block Elements",
+          "question_count": 4,
+          "subtopics": [
+            {
+              "name": "Coordination Compounds, Colour, Electronic Transitions",
+              "count": 1
+            },
+            {
+              "name": "Ionisation Enthalpy, Electronic Configuration",
+              "count": 1
+            },
+            {
+              "name": "Oxidation States of Transition Metals",
+              "count": 1
+            },
+            {
+              "name": "Properties of Transition Elements, Lanthanide Contraction, Interstitial Compounds",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Electrochemistry",
+          "question_count": 12,
+          "subtopics": [
+            {
+              "name": "Batteries / Cells",
+              "count": 1
+            },
+            {
+              "name": "Batteries, Fuel Cells, Applications",
+              "count": 1
+            },
+            {
+              "name": "Electrolysis",
+              "count": 1
+            },
+            {
+              "name": "Electrolytic Conduction",
+              "count": 1
+            },
+            {
+              "name": "Faraday's Laws of Electrolysis",
+              "count": 2
+            },
+            {
+              "name": "Faraday's Laws, Electrolysis, Stoichiometry",
+              "count": 1
+            },
+            {
+              "name": "Faraday's Laws, Stoichiometry",
+              "count": 1
+            },
+            {
+              "name": "Fuel Cells, Stoichiometry",
+              "count": 1
+            },
+            {
+              "name": "Galvanic Cells / Representation",
+              "count": 1
+            },
+            {
+              "name": "Kohlrausch's Law",
+              "count": 1
+            },
+            {
+              "name": "Oxidation-Reduction, Stoichiometry, Faraday's Laws",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "General Mental Ability",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Classification",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "General Principles and Processes of Isolation of Elements",
+          "question_count": 2,
+          "subtopics": [
+            {
+              "name": "Extraction of Silver",
+              "count": 1
+            },
+            {
+              "name": "Metallurgy (Extraction Methods)",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "General Science",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Chemistry Basics",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Inorganic Chemistry",
+          "question_count": 5,
+          "subtopics": [
+            {
+              "name": "Coordination Compounds",
+              "count": 4
+            },
+            {
+              "name": "Oxidation States",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Metallurgy",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Extraction of Aluminium",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Organic Chemistry",
+          "question_count": 45,
+          "subtopics": [
+            {
+              "name": "Alcohols, Phenols and Ethers",
+              "count": 1
+            },
+            {
+              "name": "Aldehydes",
+              "count": 3
+            },
+            {
+              "name": "Aldehydes and Ketones",
+              "count": 1
+            },
+            {
+              "name": "Aldehydes, Ketones, Qualitative Tests",
+              "count": 1
+            },
+            {
+              "name": "Alkanes, Alkenes, Reactions (Dehydrohalogenation, Ozonolysis)",
+              "count": 1
+            },
+            {
+              "name": "Alkyl Halides (Nucleophilic Substitution)",
+              "count": 1
+            },
+            {
+              "name": "Alkyl Halides (Wurtz Reaction, Nomenclature)",
+              "count": 1
+            },
+            {
+              "name": "Amines",
+              "count": 2
+            },
+            {
+              "name": "Amines (Basicity)",
+              "count": 1
+            },
+            {
+              "name": "Amines and Alcohols (Physical Properties)",
+              "count": 1
+            },
+            {
+              "name": "Amines, Hybridization, Geometry",
+              "count": 1
+            },
+            {
+              "name": "Amines, Qualitative Tests",
+              "count": 1
+            },
+            {
+              "name": "Amines, Reactions of Aniline",
+              "count": 1
+            },
+            {
+              "name": "Aromatic Halogenation, Electrophilic Substitution",
+              "count": 1
+            },
+            {
+              "name": "Biomolecules",
+              "count": 1
+            },
+            {
+              "name": "Cannizzaro Reaction",
+              "count": 1
+            },
+            {
+              "name": "Carboxylic Acids",
+              "count": 2
+            },
+            {
+              "name": "Carboxylic Acids, Inductive Effect, Acidity",
+              "count": 1
+            },
+            {
+              "name": "Dipole Moment in Haloalkanes",
+              "count": 1
+            },
+            {
+              "name": "Ethers",
+              "count": 1
+            },
+            {
+              "name": "Grignard Reaction with Nitriles",
+              "count": 1
+            },
+            {
+              "name": "Haloalkanes and Haloarenes, Named Reactions",
+              "count": 1
+            },
+            {
+              "name": "Haloalkanes, Nucleophilic Substitution (SN2)",
+              "count": 1
+            },
+            {
+              "name": "Haloarenes",
+              "count": 1
+            },
+            {
+              "name": "Hydration of Alkynes",
+              "count": 1
+            },
+            {
+              "name": "Name Reactions",
+              "count": 1
+            },
+            {
+              "name": "Nomenclature (IUPAC)",
+              "count": 1
+            },
+            {
+              "name": "Nomenclature of Haloalkanes",
+              "count": 1
+            },
+            {
+              "name": "Nomenclature of Organic Compounds",
+              "count": 1
+            },
+            {
+              "name": "Phenols (Acidity and Reactions)",
+              "count": 1
+            },
+            {
+              "name": "Properties of Organic Compounds",
+              "count": 2
+            },
+            {
+              "name": "Qualitative Analysis of Organic Compounds",
+              "count": 1
+            },
+            {
+              "name": "Reaction Mechanisms and Name Reactions",
+              "count": 1
+            },
+            {
+              "name": "Reactions of Alcohols and Carbonyl Compounds",
+              "count": 1
+            },
+            {
+              "name": "Reactions of Alkenes, Aldehydes, Grignard reagents",
+              "count": 1
+            },
+            {
+              "name": "Reactions of Aromatic Compounds",
+              "count": 1
+            },
+            {
+              "name": "Reactions of Carboxylic Acids, Amides",
+              "count": 1
+            },
+            {
+              "name": "Reactions of Phenols",
+              "count": 1
+            },
+            {
+              "name": "SN2 Reaction Mechanism",
+              "count": 1
+            },
+            {
+              "name": "Synthesis of Ethers",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Organic Chemistry Basics",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "IUPAC Nomenclature",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "P-block Elements",
+          "question_count": 2,
+          "subtopics": [
+            {
+              "name": "Halogens / Disproportionation reactions",
+              "count": 1
+            },
+            {
+              "name": "Oxoacids of Sulphur",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Physical Chemistry",
+          "question_count": 5,
+          "subtopics": [
+            {
+              "name": "Chemical Kinetics",
+              "count": 1
+            },
+            {
+              "name": "Mole Concept",
+              "count": 1
+            },
+            {
+              "name": "Solid State",
+              "count": 1
+            },
+            {
+              "name": "Solutions",
+              "count": 1
+            },
+            {
+              "name": "Surface Chemistry",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Polymers",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Classification of Polymers",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Solid State",
+          "question_count": 2,
+          "subtopics": [
+            {
+              "name": "Close Packing and Voids",
+              "count": 1
+            },
+            {
+              "name": "Crystal Defects",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Solutions",
+          "question_count": 9,
+          "subtopics": [
+            {
+              "name": "Azeotropes",
+              "count": 1
+            },
+            {
+              "name": "Colligative Properties, Osmotic Pressure",
+              "count": 1
+            },
+            {
+              "name": "Colligative properties",
+              "count": 1
+            },
+            {
+              "name": "Henry's Law",
+              "count": 1
+            },
+            {
+              "name": "Ideal and Non-Ideal Solutions",
+              "count": 1
+            },
+            {
+              "name": "Ideal and Non-ideal Solutions / Raoult's Law",
+              "count": 1
+            },
+            {
+              "name": "Osmosis and Osmotic Pressure",
+              "count": 1
+            },
+            {
+              "name": "Raoult's Law",
+              "count": 1
+            },
+            {
+              "name": "Types of solutions",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "Surface Chemistry",
+          "question_count": 3,
+          "subtopics": [
+            {
+              "name": "Adsorption Isotherms",
+              "count": 1
+            },
+            {
+              "name": "Catalysis",
+              "count": 1
+            },
+            {
+              "name": "Colloids, Coagulation",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "d- and f-Block Elements",
+          "question_count": 4,
+          "subtopics": [
+            {
+              "name": "Alloys, Lanthanoids",
+              "count": 1
+            },
+            {
+              "name": "Chemistry of Potassium Dichromate",
+              "count": 1
+            },
+            {
+              "name": "Lanthanoids, Lanthanoid Contraction",
+              "count": 1
+            },
+            {
+              "name": "Properties of Transition Elements",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        {
+          "topic": "p-Block Elements",
+          "question_count": 3,
+          "subtopics": [
+            {
+              "name": "Ammonia (Haber Process)",
+              "count": 1
+            },
+            {
+              "name": "Group 15 Elements (Nitrogen vs Phosphorus)",
+              "count": 1
+            },
+            {
+              "name": "Nitrogen Compounds",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Economics",
+      "total_questions": 217,
+      "total_topics": 12,
+      "topics": [
+        {
+          "topic": "Government Budget",
+          "question_count": 20,
+          "subtopics": [
+            {
+              "name": "Capital Expenditure",
+              "count": 1
+            },
+            {
+              "name": "Capital Receipts",
+              "count": 1
+            },
+            {
+              "name": "Components of Budget",
+              "count": 1
+            },
+            {
+              "name": "Government Budget",
+              "count": 8
+            },
+            {
+              "name": "Government Deficit",
+              "count": 3
+            },
+            {
+              "name": "Objectives of Budget",
+              "count": 2
+            },
+            {
+              "name": "Revenue Receipts",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        {
+          "topic": "Income and Employment",
+          "question_count": 28,
+          "subtopics": [
+            {
+              "name": "Aggregate Demand",
+              "count": 3
+            },
+            {
+              "name": "Components of Aggregate Demand",
+              "count": 1
+            },
+            {
+              "name": "Deficient Demand",
+              "count": 3
+            },
+            {
+              "name": "Government Spending",
+              "count": 2
+            },
+            {
+              "name": "Multiplier Mechanism",
+              "count": 8
+            },
+            {
+              "name": "Taxation",
+              "count": 1
+            },
+            {
+              "name": "Two-Sector Income Determination",
+              "count": 10
+            }
+          ],
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        {
+          "topic": "Introduction & Consumer Behaviour",
+          "question_count": 34,
+          "subtopics": [
+            {
+              "name": "Central Problems of an Economy",
+              "count": 3
+            },
+            {
+              "name": "Consumer Budget",
+              "count": 3
+            },
+            {
+              "name": "Consumer's Equilibrium",
+              "count": 2
+            },
+            {
+              "name": "Consumer's Optimal Choice",
+              "count": 6
+            },
+            {
+              "name": "Demand Curve",
+              "count": 1
+            },
+            {
+              "name": "Determinants of Demand",
+              "count": 3
+            },
+            {
+              "name": "Introduction to Microeconomics",
+              "count": 6
+            },
+            {
+              "name": "Market Demand",
+              "count": 1
+            },
+            {
+              "name": "Price Elasticity of Demand",
+              "count": 4
+            },
+            {
+              "name": "Total Expenditure Method",
+              "count": 1
+            },
+            {
+              "name": "Two Commodity Equilibrium",
+              "count": 2
+            },
+            {
+              "name": "Utility Approach",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        {
+          "topic": "Introduction & National Income",
+          "question_count": 34,
+          "subtopics": [
+            {
+              "name": "Basic Macroeconomic Concepts",
+              "count": 4
+            },
+            {
+              "name": "Circular Flow of Income",
+              "count": 2
+            },
+            {
+              "name": "Expenditure Method",
+              "count": 1
+            },
+            {
+              "name": "GDP",
+              "count": 3
+            },
+            {
+              "name": "Income Method",
+              "count": 2
+            },
+            {
+              "name": "Introduction to Macroeconomics",
+              "count": 5
+            },
+            {
+              "name": "National Income",
+              "count": 15
+            },
+            {
+              "name": "Value Added Method",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        {
+          "topic": "Market Equilibrium",
+          "question_count": 13,
+          "subtopics": [
+            {
+              "name": "Excess Demand",
+              "count": 5
+            },
+            {
+              "name": "Price Ceiling",
+              "count": 4
+            },
+            {
+              "name": "Price Floor",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        {
+          "topic": "Money and Banking",
+          "question_count": 21,
+          "subtopics": [
+            {
+              "name": "Central Bank",
+              "count": 1
+            },
+            {
+              "name": "Meaning and Functions of Money",
+              "count": 3
+            },
+            {
+              "name": "Monetary Policy Tools",
+              "count": 7
+            },
+            {
+              "name": "Money Creation",
+              "count": 1
+            },
+            {
+              "name": "Money Multiplier",
+              "count": 3
+            },
+            {
+              "name": "Money Supply",
+              "count": 6
+            }
+          ],
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        {
+          "topic": "Open Economy Macroeconomics",
+          "question_count": 15,
+          "subtopics": [
+            {
+              "name": "BOP Deficit",
+              "count": 2
+            },
+            {
+              "name": "BOP Surplus",
+              "count": 1
+            },
+            {
+              "name": "Balance of Payments",
+              "count": 2
+            },
+            {
+              "name": "Components of Balance of Payments",
+              "count": 4
+            },
+            {
+              "name": "Determination of Exchange Rate",
+              "count": 4
+            },
+            {
+              "name": "Fixed Exchange Rate",
+              "count": 1
+            },
+            {
+              "name": "Managed Floating Exchange Rate",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        {
+          "topic": "Production and Costs",
+          "question_count": 28,
+          "subtopics": [
+            {
+              "name": "Average Cost",
+              "count": 1
+            },
+            {
+              "name": "Average Product (AP)",
+              "count": 2
+            },
+            {
+              "name": "Cost Concepts",
+              "count": 6
+            },
+            {
+              "name": "Fixed Cost",
+              "count": 3
+            },
+            {
+              "name": "Long Run Production Function",
+              "count": 2
+            },
+            {
+              "name": "Marginal Cost",
+              "count": 4
+            },
+            {
+              "name": "Marginal Product (MP)",
+              "count": 3
+            },
+            {
+              "name": "Production Function",
+              "count": 3
+            },
+            {
+              "name": "Revenue Concepts",
+              "count": 2
+            },
+            {
+              "name": "Short Run Production Function",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        {
+          "topic": "Static General Knowledge",
+          "question_count": 2,
+          "subtopics": [
+            {
+              "name": "Indian Economy",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Theory of Firm under Perfect Competition",
+          "question_count": 18,
+          "subtopics": [
+            {
+              "name": "Features of Perfect Competition",
+              "count": 5
+            },
+            {
+              "name": "Price Elasticity of Supply",
+              "count": 2
+            },
+            {
+              "name": "Profit Maximization",
+              "count": 8
+            },
+            {
+              "name": "Shift in Supply Curve",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        {
+          "topic": "Transport, Communication and International Trade",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "India's Foreign Trade",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Transport, Communication and Trade",
+          "question_count": 3,
+          "subtopics": [
+            {
+              "name": "International Trade",
+              "count": 2
+            },
+            {
+              "name": "WTO and International Trade",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "English",
+      "total_questions": 164,
+      "total_topics": 2,
+      "topics": [
+        {
+          "topic": "Reading Comprehension",
+          "question_count": 54,
+          "subtopics": [
+            {
+              "name": "Factual Passages - Supporting Details",
+              "count": 7
+            },
+            {
+              "name": "Factual Passages - Tone and Purpose",
+              "count": 1
+            },
+            {
+              "name": "Factual Passages - Vocabulary in Context",
+              "count": 4
+            },
+            {
+              "name": "Literary Passages - Literary Devices",
+              "count": 17
+            },
+            {
+              "name": "Literary Passages - Theme",
+              "count": 1
+            },
+            {
+              "name": "Narrative Passages - Characters",
+              "count": 3
+            },
+            {
+              "name": "Narrative Passages - Inference",
+              "count": 19
+            },
+            {
+              "name": "Narrative Passages - Theme",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_English.json"
+          ]
+        },
+        {
+          "topic": "Verbal Ability",
+          "question_count": 110,
+          "subtopics": [
+            {
+              "name": "Match the Following - Contextual Matching",
+              "count": 6
+            },
+            {
+              "name": "Sentence Rearrangement - Coherent Paragraph Formation",
+              "count": 4
+            },
+            {
+              "name": "Sentence Rearrangement - Logical Order",
+              "count": 8
+            },
+            {
+              "name": "Sentence Rearrangement - Para Jumbles",
+              "count": 16
+            },
+            {
+              "name": "Synonyms and Antonyms - Antonyms",
+              "count": 18
+            },
+            {
+              "name": "Synonyms and Antonyms - Synonyms",
+              "count": 22
+            },
+            {
+              "name": "Synonyms and Antonyms - Word Meaning",
+              "count": 9
+            },
+            {
+              "name": "Vocabulary - Contextual Vocabulary",
+              "count": 4
+            },
+            {
+              "name": "Vocabulary - Correct Word Usage",
+              "count": 22
+            },
+            {
+              "name": "Vocabulary - Fill in the Blanks",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_English.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Environmental Science",
+      "total_questions": 11,
+      "total_topics": 4,
+      "topics": [
+        {
+          "topic": "Environment Literacy",
+          "question_count": 3,
+          "subtopics": [
+            {
+              "name": "Renewable Energy",
+              "count": 2
+            },
+            {
+              "name": "Sustainable Development",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Geographical Perspective on Issues and Problems",
+          "question_count": 3,
+          "subtopics": [
+            {
+              "name": "Environmental Pollution",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Reading Comprehension",
+          "question_count": 3,
+          "subtopics": [
+            {
+              "name": "Factual Passages - Supporting Details",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_English.json"
+          ]
+        },
+        {
+          "topic": "Resources and Development",
+          "question_count": 2,
+          "subtopics": [
+            {
+              "name": "Water Resources",
+              "count": 1
+            },
+            {
+              "name": "Water Scarcity",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "General Aptitude",
+      "total_questions": 136,
+      "total_topics": 9,
+      "topics": [
+        {
+          "topic": "Current Affairs",
+          "question_count": 5,
+          "subtopics": [
+            {
+              "name": "Awards and Honours",
+              "count": 2
+            },
+            {
+              "name": "Science and Technology",
+              "count": 1
+            },
+            {
+              "name": "Sports Current Affairs",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Environment Literacy",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Environmental Conservation",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "General Mental Ability",
+          "question_count": 56,
+          "subtopics": [
+            {
+              "name": "Alphabet Series",
+              "count": 10
+            },
+            {
+              "name": "Blood Relations",
+              "count": 6
+            },
+            {
+              "name": "Calendar",
+              "count": 6
+            },
+            {
+              "name": "Classification",
+              "count": 4
+            },
+            {
+              "name": "Clock",
+              "count": 6
+            },
+            {
+              "name": "Coding-Decoding",
+              "count": 9
+            },
+            {
+              "name": "Direction Sense",
+              "count": 6
+            },
+            {
+              "name": "Number Series",
+              "count": 3
+            },
+            {
+              "name": "Puzzle",
+              "count": 1
+            },
+            {
+              "name": "Ranking and Ordering",
+              "count": 5
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "General Science",
+          "question_count": 4,
+          "subtopics": [
+            {
+              "name": "Physics Basics",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Logical and Analytical Reasoning",
+          "question_count": 8,
+          "subtopics": [
+            {
+              "name": "Logical Puzzles",
+              "count": 6
+            },
+            {
+              "name": "Logical Reasoning",
+              "count": 1
+            },
+            {
+              "name": "Syllogism",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Numerical Ability",
+          "question_count": 21,
+          "subtopics": [
+            {
+              "name": "Average",
+              "count": 3
+            },
+            {
+              "name": "Boats and Streams",
+              "count": 2
+            },
+            {
+              "name": "Compound Interest",
+              "count": 2
+            },
+            {
+              "name": "Number System",
+              "count": 3
+            },
+            {
+              "name": "Percentage",
+              "count": 2
+            },
+            {
+              "name": "Profit and Loss",
+              "count": 3
+            },
+            {
+              "name": "Ratio and Proportion",
+              "count": 1
+            },
+            {
+              "name": "Time and Work",
+              "count": 4
+            },
+            {
+              "name": "Time, Speed and Distance",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Quantitative Aptitude",
+          "question_count": 12,
+          "subtopics": [
+            {
+              "name": "Algebra",
+              "count": 4
+            },
+            {
+              "name": "Geometry",
+              "count": 1
+            },
+            {
+              "name": "Linear Equations",
+              "count": 1
+            },
+            {
+              "name": "Median",
+              "count": 1
+            },
+            {
+              "name": "Mode",
+              "count": 2
+            },
+            {
+              "name": "Probability (Basic)",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Static General Knowledge",
+          "question_count": 27,
+          "subtopics": [
+            {
+              "name": "Art and Culture",
+              "count": 1
+            },
+            {
+              "name": "Awards and Honours",
+              "count": 1
+            },
+            {
+              "name": "Books and Authors",
+              "count": 3
+            },
+            {
+              "name": "Countries and Capitals",
+              "count": 1
+            },
+            {
+              "name": "Important Government Schemes",
+              "count": 2
+            },
+            {
+              "name": "Indian Economy",
+              "count": 1
+            },
+            {
+              "name": "Indian Geography",
+              "count": 5
+            },
+            {
+              "name": "Indian History",
+              "count": 5
+            },
+            {
+              "name": "International Organizations",
+              "count": 2
+            },
+            {
+              "name": "National Symbols",
+              "count": 1
+            },
+            {
+              "name": "Science and Technology",
+              "count": 5
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Transport, Communication and International Trade",
+          "question_count": 2,
+          "subtopics": [
+            {
+              "name": "Internet",
+              "count": 1
+            },
+            {
+              "name": "Radio Communication",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "General Knowledge",
+      "total_questions": 6,
+      "total_topics": 2,
+      "topics": [
+        {
+          "topic": "Current Affairs",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Awards and Honours",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Static General Knowledge",
+          "question_count": 5,
+          "subtopics": [
+            {
+              "name": "Books and Authors",
+              "count": 1
+            },
+            {
+              "name": "Indian Culture",
+              "count": 2
+            },
+            {
+              "name": "Science and Technology",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Geography",
+      "total_questions": 195,
+      "total_topics": 10,
+      "topics": [
+        {
+          "topic": "Geographical Perspective on Issues and Problems",
+          "question_count": 8,
+          "subtopics": [
+            {
+              "name": "Environmental Pollution",
+              "count": 2
+            },
+            {
+              "name": "Land Degradation",
+              "count": 1
+            },
+            {
+              "name": "Rural-Urban Migration",
+              "count": 3
+            },
+            {
+              "name": "Slums",
+              "count": 1
+            },
+            {
+              "name": "Water Resources and Conservation",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Human Activities",
+          "question_count": 31,
+          "subtopics": [
+            {
+              "name": "Extensive Commercial Grain Farming",
+              "count": 1
+            },
+            {
+              "name": "Gathering",
+              "count": 3
+            },
+            {
+              "name": "Household Industries",
+              "count": 2
+            },
+            {
+              "name": "Knowledge-Based Industries",
+              "count": 1
+            },
+            {
+              "name": "Manufacturing",
+              "count": 6
+            },
+            {
+              "name": "Mining",
+              "count": 1
+            },
+            {
+              "name": "Modern Agriculture",
+              "count": 2
+            },
+            {
+              "name": "Pastoralism",
+              "count": 5
+            },
+            {
+              "name": "Primary Activities",
+              "count": 1
+            },
+            {
+              "name": "Quaternary Activities",
+              "count": 4
+            },
+            {
+              "name": "Subsistence Agriculture",
+              "count": 4
+            },
+            {
+              "name": "Tertiary Activities",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Human Geography",
+          "question_count": 13,
+          "subtopics": [
+            {
+              "name": "Definitions and Schools of Thought",
+              "count": 1
+            },
+            {
+              "name": "Evolution of Geographical Thought",
+              "count": 1
+            },
+            {
+              "name": "Nature of Human Geography",
+              "count": 3
+            },
+            {
+              "name": "Scope of Human Geography",
+              "count": 8
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Human Settlements",
+          "question_count": 18,
+          "subtopics": [
+            {
+              "name": "Common Property Resources",
+              "count": 1
+            },
+            {
+              "name": "Factors of Settlement",
+              "count": 1
+            },
+            {
+              "name": "Functional Classification of Urban Settlements",
+              "count": 3
+            },
+            {
+              "name": "Rural Settlements",
+              "count": 3
+            },
+            {
+              "name": "Types of Rural Settlements",
+              "count": 3
+            },
+            {
+              "name": "Urban Settlements",
+              "count": 5
+            },
+            {
+              "name": "Urbanization in India",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "People",
+          "question_count": 13,
+          "subtopics": [
+            {
+              "name": "Human Development",
+              "count": 4
+            },
+            {
+              "name": "Population Change",
+              "count": 1
+            },
+            {
+              "name": "Population Density",
+              "count": 3
+            },
+            {
+              "name": "Population Distribution",
+              "count": 4
+            },
+            {
+              "name": "Population Growth",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Population of India",
+          "question_count": 23,
+          "subtopics": [
+            {
+              "name": "Demographic Transition Model",
+              "count": 1
+            },
+            {
+              "name": "Linguistic Composition",
+              "count": 3
+            },
+            {
+              "name": "Occupational Structure",
+              "count": 2
+            },
+            {
+              "name": "Population Composition",
+              "count": 2
+            },
+            {
+              "name": "Population Density",
+              "count": 1
+            },
+            {
+              "name": "Population Distribution",
+              "count": 3
+            },
+            {
+              "name": "Population Growth",
+              "count": 7
+            },
+            {
+              "name": "Population of India",
+              "count": 1
+            },
+            {
+              "name": "Religious Composition",
+              "count": 2
+            },
+            {
+              "name": "Rural-Urban Population Change",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Resources and Development",
+          "question_count": 31,
+          "subtopics": [
+            {
+              "name": "Agricultural Development",
+              "count": 3
+            },
+            {
+              "name": "Agricultural Land Use",
+              "count": 1
+            },
+            {
+              "name": "Coal Distribution",
+              "count": 1
+            },
+            {
+              "name": "Common Property Resources",
+              "count": 1
+            },
+            {
+              "name": "Conventional Energy Sources",
+              "count": 2
+            },
+            {
+              "name": "Energy Resources",
+              "count": 2
+            },
+            {
+              "name": "Iron Ore Distribution",
+              "count": 1
+            },
+            {
+              "name": "Land Use",
+              "count": 2
+            },
+            {
+              "name": "Major Crops",
+              "count": 9
+            },
+            {
+              "name": "Metallic Minerals",
+              "count": 2
+            },
+            {
+              "name": "Multipurpose Projects of India",
+              "count": 1
+            },
+            {
+              "name": "Sustainable Development",
+              "count": 1
+            },
+            {
+              "name": "Water Resources",
+              "count": 2
+            },
+            {
+              "name": "Water Scarcity",
+              "count": 1
+            },
+            {
+              "name": "Watershed Management",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Static General Knowledge",
+          "question_count": 15,
+          "subtopics": [
+            {
+              "name": "Indian Geography",
+              "count": 15
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Transport, Communication and International Trade",
+          "question_count": 20,
+          "subtopics": [
+            {
+              "name": "Internet",
+              "count": 2
+            },
+            {
+              "name": "Radio Communication",
+              "count": 1
+            },
+            {
+              "name": "Railways",
+              "count": 3
+            },
+            {
+              "name": "Roadways",
+              "count": 4
+            },
+            {
+              "name": "Satellite Communication",
+              "count": 2
+            },
+            {
+              "name": "Sea Ports",
+              "count": 6
+            },
+            {
+              "name": "Waterways",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Transport, Communication and Trade",
+          "question_count": 23,
+          "subtopics": [
+            {
+              "name": "Air Transport",
+              "count": 3
+            },
+            {
+              "name": "Inland Waterways",
+              "count": 1
+            },
+            {
+              "name": "Major Ocean Routes",
+              "count": 4
+            },
+            {
+              "name": "Oil and Gas Pipelines",
+              "count": 1
+            },
+            {
+              "name": "Ports",
+              "count": 7
+            },
+            {
+              "name": "Road Transport",
+              "count": 2
+            },
+            {
+              "name": "Trans-Continental Railways",
+              "count": 3
+            },
+            {
+              "name": "WTO and International Trade",
+              "count": 1
+            },
+            {
+              "name": "Water Transport",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "History",
+      "total_questions": 189,
+      "total_topics": 16,
+      "topics": [
+        {
+          "topic": "Bhakti-Sufi Traditions",
+          "question_count": 14,
+          "subtopics": [
+            {
+              "name": "Bhakti Movement",
+              "count": 6
+            },
+            {
+              "name": "Saints",
+              "count": 3
+            },
+            {
+              "name": "Social Impact",
+              "count": 1
+            },
+            {
+              "name": "Sufi Movement",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Buddhism and Jainism",
+          "question_count": 14,
+          "subtopics": [
+            {
+              "name": "Art and Architecture",
+              "count": 4
+            },
+            {
+              "name": "Cultural Developments",
+              "count": 3
+            },
+            {
+              "name": "Monastic Traditions",
+              "count": 1
+            },
+            {
+              "name": "Rise of Buddhism",
+              "count": 3
+            },
+            {
+              "name": "Rise of Jainism",
+              "count": 1
+            },
+            {
+              "name": "Spread of Buddhism",
+              "count": 1
+            },
+            {
+              "name": "Teachings of Buddha",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Colonialism and Rural Society",
+          "question_count": 15,
+          "subtopics": [
+            {
+              "name": "Colonial Rule",
+              "count": 6
+            },
+            {
+              "name": "Official Reports",
+              "count": 1
+            },
+            {
+              "name": "Peasant Life",
+              "count": 2
+            },
+            {
+              "name": "Permanent Settlement",
+              "count": 2
+            },
+            {
+              "name": "Rural Society",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Early States",
+          "question_count": 24,
+          "subtopics": [
+            {
+              "name": "Administration",
+              "count": 1
+            },
+            {
+              "name": "Ashokan Inscriptions",
+              "count": 6
+            },
+            {
+              "name": "Economic Systems",
+              "count": 2
+            },
+            {
+              "name": "Inscriptions as Historical Sources",
+              "count": 3
+            },
+            {
+              "name": "Mahajanapadas",
+              "count": 1
+            },
+            {
+              "name": "Mauryan Empire",
+              "count": 2
+            },
+            {
+              "name": "Political Systems",
+              "count": 9
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Harappan Civilisation",
+          "question_count": 13,
+          "subtopics": [
+            {
+              "name": "Archaeological Sources",
+              "count": 1
+            },
+            {
+              "name": "Craft Production",
+              "count": 1
+            },
+            {
+              "name": "Decline of Harappan Civilisation",
+              "count": 1
+            },
+            {
+              "name": "Economy",
+              "count": 4
+            },
+            {
+              "name": "Harappan Civilisation",
+              "count": 2
+            },
+            {
+              "name": "Town Planning",
+              "count": 2
+            },
+            {
+              "name": "Trade and Commerce",
+              "count": 1
+            },
+            {
+              "name": "Urban Features",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Indian Cinema",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Satyajit Ray",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Mahatma Gandhi and National Movement",
+          "question_count": 15,
+          "subtopics": [
+            {
+              "name": "Champaran Movement",
+              "count": 1
+            },
+            {
+              "name": "Civil Disobedience Movement",
+              "count": 2
+            },
+            {
+              "name": "Mahatma Gandhi",
+              "count": 2
+            },
+            {
+              "name": "Mass Movements",
+              "count": 2
+            },
+            {
+              "name": "Nationalism",
+              "count": 7
+            },
+            {
+              "name": "Non-Cooperation Movement",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Making of the Constitution",
+          "question_count": 7,
+          "subtopics": [
+            {
+              "name": "Constituent Assembly",
+              "count": 6
+            },
+            {
+              "name": "Federalism",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Medieval Society",
+          "question_count": 13,
+          "subtopics": [
+            {
+              "name": "Al-Biruni",
+              "count": 2
+            },
+            {
+              "name": "Economy",
+              "count": 1
+            },
+            {
+              "name": "Francois Bernier",
+              "count": 2
+            },
+            {
+              "name": "Ibn Battuta",
+              "count": 4
+            },
+            {
+              "name": "Travellers' Accounts",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Mughal Empire",
+          "question_count": 14,
+          "subtopics": [
+            {
+              "name": "Agrarian Society",
+              "count": 2
+            },
+            {
+              "name": "Economy",
+              "count": 2
+            },
+            {
+              "name": "Land Revenue",
+              "count": 3
+            },
+            {
+              "name": "Mughal Administration",
+              "count": 7
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Revolt of 1857",
+          "question_count": 15,
+          "subtopics": [
+            {
+              "name": "British Accounts",
+              "count": 7
+            },
+            {
+              "name": "Causes of Revolt",
+              "count": 2
+            },
+            {
+              "name": "Consequences",
+              "count": 1
+            },
+            {
+              "name": "Indian Representations",
+              "count": 2
+            },
+            {
+              "name": "Leaders",
+              "count": 2
+            },
+            {
+              "name": "Major Centres",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Social Histories",
+          "question_count": 11,
+          "subtopics": [
+            {
+              "name": "Family",
+              "count": 2
+            },
+            {
+              "name": "Gender Relations",
+              "count": 1
+            },
+            {
+              "name": "Kinship",
+              "count": 2
+            },
+            {
+              "name": "Mahabharata",
+              "count": 4
+            },
+            {
+              "name": "Social Structure",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Static General Knowledge",
+          "question_count": 10,
+          "subtopics": [
+            {
+              "name": "Indian History",
+              "count": 10
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Transport, Communication and International Trade",
+          "question_count": 1,
+          "subtopics": [
+            {
+              "name": "Radio Communication",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        {
+          "topic": "Vijayanagara Empire",
+          "question_count": 20,
+          "subtopics": [
+            {
+              "name": "Administration",
+              "count": 2
+            },
+            {
+              "name": "Architecture",
+              "count": 4
+            },
+            {
+              "name": "Hampi",
+              "count": 5
+            },
+            {
+              "name": "Political System",
+              "count": 7
+            },
+            {
+              "name": "Rise of Vijayanagara",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "World History",
+          "question_count": 2,
+          "subtopics": [
+            {
+              "name": "Empires and Dynasties",
+              "count": 1
+            },
+            {
+              "name": "Major Wars",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "total_questions": 28,
+      "total_topics": 2,
+      "topics": [
+        {
+          "topic": "Numerical Ability",
+          "question_count": 4,
+          "subtopics": [
+            {
+              "name": "Compound Interest",
+              "count": 1
+            },
+            {
+              "name": "Number System",
+              "count": 2
+            },
+            {
+              "name": "Ratio and Proportion",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Quantitative Aptitude",
+          "question_count": 24,
+          "subtopics": [
+            {
+              "name": "2D Mensuration",
+              "count": 1
+            },
+            {
+              "name": "3D Mensuration",
+              "count": 1
+            },
+            {
+              "name": "Algebra",
+              "count": 7
+            },
+            {
+              "name": "Geometry",
+              "count": 8
+            },
+            {
+              "name": "Linear Equations",
+              "count": 2
+            },
+            {
+              "name": "Mensuration",
+              "count": 3
+            },
+            {
+              "name": "Probability (Basic)",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "total_questions": 238,
+      "total_topics": 10,
+      "topics": [
+        {
+          "topic": "Atoms and Nuclei",
+          "question_count": 20,
+          "subtopics": [
+            {
+              "name": "Bohr Atomic Model",
+              "count": 7
+            },
+            {
+              "name": "Energy Levels",
+              "count": 4
+            },
+            {
+              "name": "Mass Defect",
+              "count": 1
+            },
+            {
+              "name": "Nuclear Composition",
+              "count": 2
+            },
+            {
+              "name": "Nuclear Fission",
+              "count": 2
+            },
+            {
+              "name": "Radioactivity",
+              "count": 2
+            },
+            {
+              "name": "Rutherford's Alpha Scattering Experiment",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        {
+          "topic": "Current Electricity",
+          "question_count": 33,
+          "subtopics": [
+            {
+              "name": "Cells in Series and Parallel",
+              "count": 4
+            },
+            {
+              "name": "Drift Velocity",
+              "count": 3
+            },
+            {
+              "name": "EMF of Cell",
+              "count": 2
+            },
+            {
+              "name": "Electric Current",
+              "count": 4
+            },
+            {
+              "name": "Electrical Energy",
+              "count": 1
+            },
+            {
+              "name": "Electrical Power",
+              "count": 2
+            },
+            {
+              "name": "Electrical Resistance",
+              "count": 3
+            },
+            {
+              "name": "Internal Resistance",
+              "count": 3
+            },
+            {
+              "name": "Ohm's Law",
+              "count": 2
+            },
+            {
+              "name": "Resistivity",
+              "count": 1
+            },
+            {
+              "name": "Temperature Dependence of Resistance",
+              "count": 4
+            },
+            {
+              "name": "V-I Characteristics",
+              "count": 1
+            },
+            {
+              "name": "Wheatstone Bridge",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        {
+          "topic": "Dual Nature of Matter and Radiation",
+          "question_count": 14,
+          "subtopics": [
+            {
+              "name": "Einstein's Photoelectric Equation",
+              "count": 4
+            },
+            {
+              "name": "Photoelectric Effect",
+              "count": 7
+            },
+            {
+              "name": "de Broglie Hypothesis",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        {
+          "topic": "Electromagnetic Induction and Alternating Current",
+          "question_count": 32,
+          "subtopics": [
+            {
+              "name": "AC Generator",
+              "count": 2
+            },
+            {
+              "name": "Faraday's Laws",
+              "count": 4
+            },
+            {
+              "name": "Induced EMF",
+              "count": 2
+            },
+            {
+              "name": "LCR Series Circuit",
+              "count": 4
+            },
+            {
+              "name": "Lenz's Law",
+              "count": 1
+            },
+            {
+              "name": "Mutual Inductance",
+              "count": 3
+            },
+            {
+              "name": "Peak and RMS Values",
+              "count": 3
+            },
+            {
+              "name": "Power in AC Circuits",
+              "count": 5
+            },
+            {
+              "name": "Reactance",
+              "count": 1
+            },
+            {
+              "name": "Self Inductance",
+              "count": 6
+            },
+            {
+              "name": "Transformer",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        {
+          "topic": "Electromagnetic Waves",
+          "question_count": 13,
+          "subtopics": [
+            {
+              "name": "Electromagnetic Spectrum",
+              "count": 3
+            },
+            {
+              "name": "Electromagnetic Waves",
+              "count": 2
+            },
+            {
+              "name": "Properties of EM Waves",
+              "count": 7
+            },
+            {
+              "name": "X-rays",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        {
+          "topic": "Electronic Devices",
+          "question_count": 13,
+          "subtopics": [
+            {
+              "name": "Energy Bands",
+              "count": 2
+            },
+            {
+              "name": "I-V Characteristics",
+              "count": 1
+            },
+            {
+              "name": "Semiconductor Diode",
+              "count": 5
+            },
+            {
+              "name": "Semiconductors",
+              "count": 5
+            }
+          ],
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        {
+          "topic": "Electrostatics",
+          "question_count": 38,
+          "subtopics": [
+            {
+              "name": "Capacitance",
+              "count": 3
+            },
+            {
+              "name": "Charged Spherical Shell",
+              "count": 3
+            },
+            {
+              "name": "Conductors and Insulators",
+              "count": 1
+            },
+            {
+              "name": "Coulomb's Law",
+              "count": 7
+            },
+            {
+              "name": "Dielectrics",
+              "count": 3
+            },
+            {
+              "name": "Electric Field",
+              "count": 1
+            },
+            {
+              "name": "Electric Field Due to Dipole",
+              "count": 2
+            },
+            {
+              "name": "Electric Field Due to Point Charge",
+              "count": 2
+            },
+            {
+              "name": "Electric Flux",
+              "count": 3
+            },
+            {
+              "name": "Energy Stored in Capacitor",
+              "count": 2
+            },
+            {
+              "name": "Equipotential Surfaces",
+              "count": 1
+            },
+            {
+              "name": "Potential Difference",
+              "count": 1
+            },
+            {
+              "name": "Potential Due to Point Charge",
+              "count": 1
+            },
+            {
+              "name": "Potential Energy",
+              "count": 2
+            },
+            {
+              "name": "Series and Parallel Combination",
+              "count": 5
+            },
+            {
+              "name": "Superposition Principle",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        {
+          "topic": "General Science",
+          "question_count": 5,
+          "subtopics": [
+            {
+              "name": "Chemistry Basics",
+              "count": 1
+            },
+            {
+              "name": "Physics Basics",
+              "count": 4
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        {
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "question_count": 32,
+          "subtopics": [
+            {
+              "name": "Conversion to Ammeter",
+              "count": 1
+            },
+            {
+              "name": "Current Loop as Magnetic Dipole",
+              "count": 1
+            },
+            {
+              "name": "Force Between Parallel Conductors",
+              "count": 2
+            },
+            {
+              "name": "Lorentz Force",
+              "count": 3
+            },
+            {
+              "name": "Magnetic Dipole Moment",
+              "count": 1
+            },
+            {
+              "name": "Magnetic Field",
+              "count": 5
+            },
+            {
+              "name": "Magnetic Field Due to Bar Magnet",
+              "count": 2
+            },
+            {
+              "name": "Magnetic Field Due to Circular Loop",
+              "count": 9
+            },
+            {
+              "name": "Magnetic Field Due to Straight Wire",
+              "count": 3
+            },
+            {
+              "name": "Moving Coil Galvanometer",
+              "count": 2
+            },
+            {
+              "name": "Para-, Dia- and Ferromagnetic Materials",
+              "count": 3
+            }
+          ],
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        {
+          "topic": "Optics",
+          "question_count": 38,
+          "subtopics": [
+            {
+              "name": "Astronomical Telescope",
+              "count": 1
+            },
+            {
+              "name": "Diffraction",
+              "count": 1
+            },
+            {
+              "name": "Dispersion",
+              "count": 1
+            },
+            {
+              "name": "Fringe Width",
+              "count": 1
+            },
+            {
+              "name": "Huygens' Principle",
+              "count": 1
+            },
+            {
+              "name": "Interference",
+              "count": 1
+            },
+            {
+              "name": "Lens Maker's Formula",
+              "count": 3
+            },
+            {
+              "name": "Microscope",
+              "count": 1
+            },
+            {
+              "name": "Power of Lens",
+              "count": 3
+            },
+            {
+              "name": "Reflection",
+              "count": 1
+            },
+            {
+              "name": "Refraction",
+              "count": 5
+            },
+            {
+              "name": "Scattering of Light",
+              "count": 3
+            },
+            {
+              "name": "Spherical Mirrors",
+              "count": 2
+            },
+            {
+              "name": "Total Internal Reflection",
+              "count": 4
+            },
+            {
+              "name": "Wavefront",
+              "count": 1
+            },
+            {
+              "name": "Young's Double Slit Experiment",
+              "count": 9
+            }
+          ],
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Political Science",
+      "total_questions": 13,
+      "total_topics": 2,
+      "topics": [
+        {
+          "topic": "Making of the Constitution",
+          "question_count": 3,
+          "subtopics": [
+            {
+              "name": "Features of the Indian Constitution",
+              "count": 1
+            },
+            {
+              "name": "Fundamental Rights",
+              "count": 2
+            }
+          ],
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        {
+          "topic": "Static General Knowledge",
+          "question_count": 10,
+          "subtopics": [
+            {
+              "name": "Indian Polity",
+              "count": 9
+            },
+            {
+              "name": "International Organizations",
+              "count": 1
+            }
+          ],
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        }
+      ]
+    }
+  ],
+  "subjects_data": {
+    "Accountancy": {
+      "subject": "Accountancy",
+      "total_questions": 240,
+      "topics": {
+        "Accounting Ratios": {
+          "topic": "Accounting Ratios",
+          "question_count": 14,
+          "subtopics": {
+            "Profitability Ratios": 5,
+            "Solvency Ratios": 2,
+            "Liquidity Ratios": 3,
+            "Meaning and Objectives": 3,
+            "Activity Ratios": 1
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Cash Flow Statement": {
+          "topic": "Cash Flow Statement",
+          "question_count": 7,
+          "subtopics": {
+            "Preparation of Cash Flow Statement": 7
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Debentures": {
+          "topic": "Debentures",
+          "question_count": 16,
+          "subtopics": {
+            "Writing Off Discount/Loss on Issue of Debentures": 4,
+            "Debentures as Collateral Security": 2,
+            "Issue at Discount": 1,
+            "Issue of Debentures": 7,
+            "Issue at Par": 1,
+            "Redemption of Debentures": 1
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Dissolution of Partnership Firm": {
+          "topic": "Dissolution of Partnership Firm",
+          "question_count": 49,
+          "subtopics": {
+            "Realisation Account": 21,
+            "Meaning of Dissolution": 14,
+            "Settlement of Accounts": 13,
+            "Cash/Bank Account": 1
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Financial Statement Analysis": {
+          "topic": "Financial Statement Analysis",
+          "question_count": 1,
+          "subtopics": {
+            "Significance": 1
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Financial Statements": {
+          "topic": "Financial Statements",
+          "question_count": 3,
+          "subtopics": {
+            "Major Headings and Sub-headings": 3
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Partnership Fundamentals": {
+          "topic": "Partnership Fundamentals",
+          "question_count": 35,
+          "subtopics": {
+            "Partnership Deed": 8,
+            "Fixed Capital Method": 9,
+            "Guarantee of Profit to a Partner": 4,
+            "Nature of Partnership Firm": 4,
+            "Profit and Loss Appropriation Account": 5,
+            "Division of Profit Among Partners": 4,
+            "Past Adjustments": 1
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Reconstitution of Partnership Firm": {
+          "topic": "Reconstitution of Partnership Firm",
+          "question_count": 62,
+          "subtopics": {
+            "Gaining Ratio": 4,
+            "Admission of a Partner": 6,
+            "Revaluation of Assets": 5,
+            "Accounting Treatment of Goodwill": 13,
+            "Sacrificing Ratio": 2,
+            "Change in Profit Sharing Ratio": 4,
+            "Average Profit Method": 4,
+            "Goodwill": 7,
+            "Deceased Partner's Capital Account": 2,
+            "Distribution of Reserves": 2,
+            "Super Profit Method": 3,
+            "Retirement of a Partner": 5,
+            "Adjustment of Capitals": 2,
+            "Capitalisation Method": 2,
+            "Factors Affecting Goodwill": 1
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Share Capital": {
+          "topic": "Share Capital",
+          "question_count": 52,
+          "subtopics": {
+            "Issue at Premium": 1,
+            "Undersubscription": 1,
+            "Shares Issued for Consideration Other Than Cash": 2,
+            "Forfeiture of Shares": 9,
+            "Features of Companies": 3,
+            "Reissue of Forfeited Shares": 6,
+            "Calls in Arrears": 2,
+            "Presentation of Share Capital": 4,
+            "Share Capital": 8,
+            "Issue of Shares": 10,
+            "Share Allotment": 1,
+            "Oversubscription": 1,
+            "Calls in Advance": 1,
+            "Types of Companies": 2,
+            "Preference Shares": 1
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Tools of Financial Analysis": {
+          "topic": "Tools of Financial Analysis",
+          "question_count": 1,
+          "subtopics": {
+            "Common Size Statements": 1
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        }
+      }
+    },
+    "Biology": {
+      "subject": "Biology",
+      "total_questions": 178,
+      "topics": {
+        "Applications of Biotechnology": {
+          "topic": "Applications of Biotechnology",
+          "question_count": 19,
+          "subtopics": {
+            "Biopiracy": 1,
+            "Genetically Modified Organisms (GMOs)": 5,
+            "Bt Cotton": 5,
+            "Gene Therapy": 2,
+            "RNA Interference (RNAi)": 1,
+            "Molecular Diagnosis": 5
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Biodiversity and Conservation": {
+          "topic": "Biodiversity and Conservation",
+          "question_count": 15,
+          "subtopics": {
+            "Biodiversity Loss": 3,
+            "Patterns of Biodiversity": 5,
+            "Biodiversity": 3,
+            "Ex-situ Conservation": 2,
+            "Endemism": 2
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Biomolecules": {
+          "topic": "Biomolecules",
+          "question_count": 1,
+          "subtopics": {
+            "Proteins": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Biotechnology Principles": {
+          "topic": "Biotechnology Principles",
+          "question_count": 15,
+          "subtopics": {
+            "Bioreactors": 1,
+            "Restriction Enzymes": 4,
+            "Recombinant DNA Technology": 5,
+            "PCR": 1,
+            "Downstream Processing": 2,
+            "Cloning Vectors": 2
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Ecosystem": {
+          "topic": "Ecosystem",
+          "question_count": 11,
+          "subtopics": {
+            "Food Chain": 4,
+            "Productivity": 3,
+            "Energy Flow": 1,
+            "Decomposition": 2,
+            "Pyramid of Energy": 1
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Evolution": {
+          "topic": "Evolution",
+          "question_count": 11,
+          "subtopics": {
+            "Miller's Experiment": 2,
+            "Hardy-Weinberg Principle": 2,
+            "Comparative Anatomy": 1,
+            "Adaptive Radiation": 1,
+            "Origin of Life": 2,
+            "Evolution of Plants": 2,
+            "Human Evolution": 1
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "General Science": {
+          "topic": "General Science",
+          "question_count": 5,
+          "subtopics": {
+            "Biology Basics": 5
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Human Health and Disease": {
+          "topic": "Human Health and Disease",
+          "question_count": 16,
+          "subtopics": {
+            "Allergies": 2,
+            "Ringworm": 1,
+            "Acquired Immunity": 2,
+            "Malaria": 3,
+            "Cancer": 2,
+            "Typhoid": 1,
+            "Drug Abuse": 2,
+            "Health": 1,
+            "Innate Immunity": 1,
+            "Vitamins, Hormones, Deficiency Diseases": 1
+          },
+          "source_papers": [
+            "CUET_Biology.json",
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Human Physiology": {
+          "topic": "Human Physiology",
+          "question_count": 1,
+          "subtopics": {
+            "Endocrine System, Hormones": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Human Reproduction": {
+          "topic": "Human Reproduction",
+          "question_count": 14,
+          "subtopics": {
+            "Spermatogenesis": 4,
+            "Placenta": 1,
+            "Menstrual Cycle": 5,
+            "Male Reproductive System": 4
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Microbes in Human Welfare": {
+          "topic": "Microbes in Human Welfare",
+          "question_count": 13,
+          "subtopics": {
+            "Sewage Treatment": 3,
+            "Household Products": 4,
+            "Biofertilisers": 1,
+            "Antibiotics": 1,
+            "Bioactive Molecules": 3,
+            "Biocontrol Agents": 1
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Molecular Basis of Inheritance": {
+          "topic": "Molecular Basis of Inheritance",
+          "question_count": 15,
+          "subtopics": {
+            "Lac Operon": 1,
+            "Human Genome Project": 2,
+            "DNA Packaging": 2,
+            "DNA Fingerprinting": 1,
+            "Transcription": 5,
+            "Hershey-Chase Experiment": 2,
+            "DNA Structure": 2
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Organisms and Populations": {
+          "topic": "Organisms and Populations",
+          "question_count": 10,
+          "subtopics": {
+            "Population Attributes": 1,
+            "Population Interactions": 4,
+            "Birth Rate": 1,
+            "Death Rate": 1,
+            "Predation": 2,
+            "Exponential Growth": 1
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Principles of Inheritance": {
+          "topic": "Principles of Inheritance",
+          "question_count": 10,
+          "subtopics": {
+            "Mendelian Disorders": 3,
+            "Test Cross": 1,
+            "Sex Determination": 2,
+            "Chromosomal Disorders": 1,
+            "Chromosomal Theory of Inheritance": 2,
+            "Codominance": 1
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Reproductive Health": {
+          "topic": "Reproductive Health",
+          "question_count": 11,
+          "subtopics": {
+            "Sexually Transmitted Infections (STIs)": 2,
+            "Contraceptive Methods": 4,
+            "Medical Termination of Pregnancy (MTP)": 2,
+            "ZIFT": 1,
+            "IUI": 2
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        },
+        "Sexual Reproduction in Flowering Plants": {
+          "topic": "Sexual Reproduction in Flowering Plants",
+          "question_count": 11,
+          "subtopics": {
+            "Pollination": 3,
+            "Fruit Formation": 1,
+            "Embryo Development": 2,
+            "Microsporogenesis": 1,
+            "Seed Formation": 1,
+            "Microsporangium": 2,
+            "Structure of Flower": 1
+          },
+          "source_papers": [
+            "CUET_Biology.json"
+          ]
+        }
+      }
+    },
+    "Business Studies": {
+      "subject": "Business Studies",
+      "total_questions": 230,
+      "topics": {
+        "Business Environment": {
+          "topic": "Business Environment",
+          "question_count": 11,
+          "subtopics": {
+            "Meaning of Business Environment": 11
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Business Finance": {
+          "topic": "Business Finance",
+          "question_count": 22,
+          "subtopics": {
+            "Working Capital": 3,
+            "Objectives of Financial Management": 5,
+            "Capital Structure": 9,
+            "Financial Planning": 3,
+            "Meaning of Business Finance": 1,
+            "Role of Business Finance": 1
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Consumer Protection": {
+          "topic": "Consumer Protection",
+          "question_count": 12,
+          "subtopics": {
+            "Consumer Rights": 5,
+            "NGOs in Consumer Protection": 1,
+            "Consumer Organisations": 1,
+            "Importance of Consumer Protection": 3,
+            "Consumer Protection Act": 1,
+            "Legal Redressal": 1
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Controlling": {
+          "topic": "Controlling",
+          "question_count": 19,
+          "subtopics": {
+            "Control Process": 10,
+            "Importance of Controlling": 6,
+            "Meaning of Controlling": 1,
+            "Planning and Controlling Relationship": 2
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Directing": {
+          "topic": "Directing",
+          "question_count": 25,
+          "subtopics": {
+            "Maslow's Hierarchy of Needs": 4,
+            "Meaning of Directing": 5,
+            "Barriers to Effective Communication": 3,
+            "Motivation": 7,
+            "Supervision": 1,
+            "Leadership": 2,
+            "Communication": 2,
+            "Principles of Directing": 1
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Entrepreneurship Development": {
+          "topic": "Entrepreneurship Development",
+          "question_count": 8,
+          "subtopics": {
+            "Concept of Entrepreneurship": 3,
+            "Entrepreneurial Competencies": 2,
+            "Entrepreneurial Motivation": 2,
+            "Entrepreneurial Characteristics": 1
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Marketing": {
+          "topic": "Marketing",
+          "question_count": 18,
+          "subtopics": {
+            "Promotion Mix": 1,
+            "Product Classification": 2,
+            "Meaning of Marketing": 1,
+            "Marketing Mix": 3,
+            "Branding": 5,
+            "Factors Affecting Pricing": 2,
+            "Personal Selling": 1,
+            "Functions of Marketing": 1,
+            "Packaging": 1,
+            "Labelling": 1
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Nature and Significance of Management": {
+          "topic": "Nature and Significance of Management",
+          "question_count": 25,
+          "subtopics": {
+            "Dimensions of Management": 1,
+            "Levels of Management": 1,
+            "Importance of Coordination": 3,
+            "Organising": 1,
+            "Middle Level Management": 1,
+            "Characteristics of Management": 6,
+            "Management as a Science": 1,
+            "Functions of Management": 4,
+            "Coordination": 2,
+            "Nature of Coordination": 1,
+            "Management as a Profession": 2,
+            "Nature of Management": 1,
+            "Concept of Management": 1
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Organising": {
+          "topic": "Organising",
+          "question_count": 28,
+          "subtopics": {
+            "Formal Organisation": 2,
+            "Steps in Organising Process": 6,
+            "Decentralisation": 7,
+            "Divisional Structure": 3,
+            "Importance of Organising": 3,
+            "Meaning of Organising": 2,
+            "Functional Structure": 1,
+            "Delegation": 2,
+            "Levels of Management": 1,
+            "Delegation vs Decentralisation": 1
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Planning": {
+          "topic": "Planning",
+          "question_count": 19,
+          "subtopics": {
+            "Limitations of Planning": 1,
+            "Types of Plans": 8,
+            "Planning Process": 4,
+            "Meaning of Planning": 2,
+            "Importance of Planning": 2,
+            "Types of Plans (Standing and Single-use)": 1,
+            "Features of Planning": 1
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Principles of Management": {
+          "topic": "Principles of Management",
+          "question_count": 19,
+          "subtopics": {
+            "Fayol's Principles of Management": 7,
+            "Taylor's Scientific Management": 7,
+            "Techniques of Scientific Management": 3,
+            "Unity of Direction": 1,
+            "Significance of Principles": 1
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        },
+        "Share Capital": {
+          "topic": "Share Capital",
+          "question_count": 1,
+          "subtopics": {
+            "Types of Companies": 1
+          },
+          "source_papers": [
+            "CUET_Accountancy.json"
+          ]
+        },
+        "Staffing": {
+          "topic": "Staffing",
+          "question_count": 23,
+          "subtopics": {
+            "Recruitment": 2,
+            "Training": 5,
+            "Selection Process": 4,
+            "Meaning of Staffing": 2,
+            "Human Resource Management": 2,
+            "Staffing Process": 3,
+            "Importance of Staffing": 2,
+            "Sources of Recruitment": 3
+          },
+          "source_papers": [
+            "CUET_Business Studies.json"
+          ]
+        }
+      }
+    },
+    "Chemistry": {
+      "subject": "Chemistry",
+      "total_questions": 136,
+      "topics": {
+        "Aldehydes, Ketones and Carboxylic Acids": {
+          "topic": "Aldehydes, Ketones and Carboxylic Acids",
+          "question_count": 2,
+          "subtopics": {
+            "Preparation of Ketones": 1,
+            "Distinction Tests": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Biomolecules": {
+          "topic": "Biomolecules",
+          "question_count": 7,
+          "subtopics": {
+            "Reactions of Glucose": 2,
+            "Proteins": 1,
+            "Classification and Characteristics of Biomolecules": 1,
+            "Structure of Nucleic Acids": 1,
+            "Enzymes and Proteins": 1,
+            "Carbohydrates, Glucose Structure": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Carboxylic Acids and their Derivatives": {
+          "topic": "Carboxylic Acids and their Derivatives",
+          "question_count": 1,
+          "subtopics": {
+            "Reactions of Esters": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Chemical Bonding": {
+          "topic": "Chemical Bonding",
+          "question_count": 1,
+          "subtopics": {
+            "Molecular structure and bonding": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Chemical Kinetics": {
+          "topic": "Chemical Kinetics",
+          "question_count": 11,
+          "subtopics": {
+            "First Order Reactions / Half-life": 1,
+            "Reaction Order / Rate Law": 1,
+            "Order of Reaction": 2,
+            "Rate law and concentration": 1,
+            "Order of reaction and rate constant units": 1,
+            "Complex reactions and rate-determining step": 1,
+            "Order of reaction": 1,
+            "Catalysis": 1,
+            "Rate Laws and Half-Life": 1,
+            "Catalyst, Reaction Order, Collision Theory": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Chemistry in Everyday Life": {
+          "topic": "Chemistry in Everyday Life",
+          "question_count": 2,
+          "subtopics": {
+            "Artificial Sweeteners": 1,
+            "Drugs and Medicines (Analgesics, Antacids)": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Coordination Compounds": {
+          "topic": "Coordination Compounds",
+          "question_count": 10,
+          "subtopics": {
+            "VBT, Magnetic Properties, Geometry": 1,
+            "Hybridization, VBT": 1,
+            "Magnetic Moment, Crystal Field Theory": 1,
+            "Isomerism": 1,
+            "Magnetic Properties": 1,
+            "Magnetic Properties, Crystal Field Theory": 1,
+            "Catalysts": 1,
+            "Magnetic Properties, CFT, High/Low Spin": 1,
+            "Hybridization, Inner/Outer Orbital Complexes": 1,
+            "Crystal Field Stabilization Energy (CFSE)": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "D & F Block Elements": {
+          "topic": "D & F Block Elements",
+          "question_count": 1,
+          "subtopics": {
+            "Lanthanoid and Actinoid contraction": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "D and F Block Elements": {
+          "topic": "D and F Block Elements",
+          "question_count": 4,
+          "subtopics": {
+            "Properties of Transition Elements, Lanthanide Contraction, Interstitial Compounds": 1,
+            "Ionisation Enthalpy, Electronic Configuration": 1,
+            "Coordination Compounds, Colour, Electronic Transitions": 1,
+            "Oxidation States of Transition Metals": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Electrochemistry": {
+          "topic": "Electrochemistry",
+          "question_count": 12,
+          "subtopics": {
+            "Electrolysis": 1,
+            "Galvanic Cells / Representation": 1,
+            "Batteries / Cells": 1,
+            "Faraday's Laws of Electrolysis": 2,
+            "Fuel Cells, Stoichiometry": 1,
+            "Oxidation-Reduction, Stoichiometry, Faraday's Laws": 1,
+            "Faraday's Laws, Stoichiometry": 1,
+            "Faraday's Laws, Electrolysis, Stoichiometry": 1,
+            "Batteries, Fuel Cells, Applications": 1,
+            "Electrolytic Conduction": 1,
+            "Kohlrausch's Law": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "General Mental Ability": {
+          "topic": "General Mental Ability",
+          "question_count": 1,
+          "subtopics": {
+            "Classification": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "General Principles and Processes of Isolation of Elements": {
+          "topic": "General Principles and Processes of Isolation of Elements",
+          "question_count": 2,
+          "subtopics": {
+            "Extraction of Silver": 1,
+            "Metallurgy (Extraction Methods)": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "General Science": {
+          "topic": "General Science",
+          "question_count": 1,
+          "subtopics": {
+            "Chemistry Basics": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Inorganic Chemistry": {
+          "topic": "Inorganic Chemistry",
+          "question_count": 5,
+          "subtopics": {
+            "Coordination Compounds": 4,
+            "Oxidation States": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Metallurgy": {
+          "topic": "Metallurgy",
+          "question_count": 1,
+          "subtopics": {
+            "Extraction of Aluminium": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Organic Chemistry": {
+          "topic": "Organic Chemistry",
+          "question_count": 45,
+          "subtopics": {
+            "Alkanes, Alkenes, Reactions (Dehydrohalogenation, Ozonolysis)": 1,
+            "Amines, Hybridization, Geometry": 1,
+            "Aromatic Halogenation, Electrophilic Substitution": 1,
+            "Amines, Qualitative Tests": 1,
+            "Aldehydes, Ketones, Qualitative Tests": 1,
+            "Alcohols, Phenols and Ethers": 1,
+            "Name Reactions": 1,
+            "Nomenclature of Organic Compounds": 1,
+            "Properties of Organic Compounds": 2,
+            "Reactions of Alcohols and Carbonyl Compounds": 1,
+            "Biomolecules": 1,
+            "Reactions of Aromatic Compounds": 1,
+            "Amines": 2,
+            "Carboxylic Acids": 2,
+            "Aldehydes and Ketones": 1,
+            "Aldehydes": 3,
+            "Ethers": 1,
+            "Haloarenes": 1,
+            "Haloalkanes and Haloarenes, Named Reactions": 1,
+            "Carboxylic Acids, Inductive Effect, Acidity": 1,
+            "Haloalkanes, Nucleophilic Substitution (SN2)": 1,
+            "Nomenclature of Haloalkanes": 1,
+            "Synthesis of Ethers": 1,
+            "Reactions of Alkenes, Aldehydes, Grignard reagents": 1,
+            "Qualitative Analysis of Organic Compounds": 1,
+            "Dipole Moment in Haloalkanes": 1,
+            "Reaction Mechanisms and Name Reactions": 1,
+            "Reactions of Phenols": 1,
+            "Amines, Reactions of Aniline": 1,
+            "Amines and Alcohols (Physical Properties)": 1,
+            "Amines (Basicity)": 1,
+            "Alkyl Halides (Wurtz Reaction, Nomenclature)": 1,
+            "Alkyl Halides (Nucleophilic Substitution)": 1,
+            "Phenols (Acidity and Reactions)": 1,
+            "SN2 Reaction Mechanism": 1,
+            "Reactions of Carboxylic Acids, Amides": 1,
+            "Hydration of Alkynes": 1,
+            "Nomenclature (IUPAC)": 1,
+            "Cannizzaro Reaction": 1,
+            "Grignard Reaction with Nitriles": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Organic Chemistry Basics": {
+          "topic": "Organic Chemistry Basics",
+          "question_count": 1,
+          "subtopics": {
+            "IUPAC Nomenclature": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "P-block Elements": {
+          "topic": "P-block Elements",
+          "question_count": 2,
+          "subtopics": {
+            "Oxoacids of Sulphur": 1,
+            "Halogens / Disproportionation reactions": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Physical Chemistry": {
+          "topic": "Physical Chemistry",
+          "question_count": 5,
+          "subtopics": {
+            "Mole Concept": 1,
+            "Solutions": 1,
+            "Solid State": 1,
+            "Chemical Kinetics": 1,
+            "Surface Chemistry": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Polymers": {
+          "topic": "Polymers",
+          "question_count": 1,
+          "subtopics": {
+            "Classification of Polymers": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Solid State": {
+          "topic": "Solid State",
+          "question_count": 2,
+          "subtopics": {
+            "Crystal Defects": 1,
+            "Close Packing and Voids": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Solutions": {
+          "topic": "Solutions",
+          "question_count": 9,
+          "subtopics": {
+            "Ideal and Non-ideal Solutions / Raoult's Law": 1,
+            "Henry's Law": 1,
+            "Types of solutions": 1,
+            "Colligative properties": 1,
+            "Raoult's Law": 1,
+            "Azeotropes": 1,
+            "Ideal and Non-Ideal Solutions": 1,
+            "Osmosis and Osmotic Pressure": 1,
+            "Colligative Properties, Osmotic Pressure": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "Surface Chemistry": {
+          "topic": "Surface Chemistry",
+          "question_count": 3,
+          "subtopics": {
+            "Adsorption Isotherms": 1,
+            "Catalysis": 1,
+            "Colloids, Coagulation": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "d- and f-Block Elements": {
+          "topic": "d- and f-Block Elements",
+          "question_count": 4,
+          "subtopics": {
+            "Alloys, Lanthanoids": 1,
+            "Lanthanoids, Lanthanoid Contraction": 1,
+            "Chemistry of Potassium Dichromate": 1,
+            "Properties of Transition Elements": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        },
+        "p-Block Elements": {
+          "topic": "p-Block Elements",
+          "question_count": 3,
+          "subtopics": {
+            "Ammonia (Haber Process)": 1,
+            "Nitrogen Compounds": 1,
+            "Group 15 Elements (Nitrogen vs Phosphorus)": 1
+          },
+          "source_papers": [
+            "CUET_Chemistry.json"
+          ]
+        }
+      }
+    },
+    "Economics": {
+      "subject": "Economics",
+      "total_questions": 217,
+      "topics": {
+        "Government Budget": {
+          "topic": "Government Budget",
+          "question_count": 20,
+          "subtopics": {
+            "Revenue Receipts": 4,
+            "Government Deficit": 3,
+            "Government Budget": 8,
+            "Components of Budget": 1,
+            "Objectives of Budget": 2,
+            "Capital Receipts": 1,
+            "Capital Expenditure": 1
+          },
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        "Income and Employment": {
+          "topic": "Income and Employment",
+          "question_count": 28,
+          "subtopics": {
+            "Multiplier Mechanism": 8,
+            "Aggregate Demand": 3,
+            "Taxation": 1,
+            "Two-Sector Income Determination": 10,
+            "Deficient Demand": 3,
+            "Components of Aggregate Demand": 1,
+            "Government Spending": 2
+          },
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        "Introduction & Consumer Behaviour": {
+          "topic": "Introduction & Consumer Behaviour",
+          "question_count": 34,
+          "subtopics": {
+            "Consumer Budget": 3,
+            "Introduction to Microeconomics": 6,
+            "Consumer's Equilibrium": 2,
+            "Consumer's Optimal Choice": 6,
+            "Two Commodity Equilibrium": 2,
+            "Central Problems of an Economy": 3,
+            "Determinants of Demand": 3,
+            "Price Elasticity of Demand": 4,
+            "Total Expenditure Method": 1,
+            "Utility Approach": 2,
+            "Market Demand": 1,
+            "Demand Curve": 1
+          },
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        "Introduction & National Income": {
+          "topic": "Introduction & National Income",
+          "question_count": 34,
+          "subtopics": {
+            "Introduction to Macroeconomics": 5,
+            "Value Added Method": 2,
+            "National Income": 15,
+            "Basic Macroeconomic Concepts": 4,
+            "GDP": 3,
+            "Circular Flow of Income": 2,
+            "Income Method": 2,
+            "Expenditure Method": 1
+          },
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        "Market Equilibrium": {
+          "topic": "Market Equilibrium",
+          "question_count": 13,
+          "subtopics": {
+            "Excess Demand": 5,
+            "Price Floor": 4,
+            "Price Ceiling": 4
+          },
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        "Money and Banking": {
+          "topic": "Money and Banking",
+          "question_count": 21,
+          "subtopics": {
+            "Monetary Policy Tools": 7,
+            "Money Multiplier": 3,
+            "Meaning and Functions of Money": 3,
+            "Central Bank": 1,
+            "Money Supply": 6,
+            "Money Creation": 1
+          },
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        "Open Economy Macroeconomics": {
+          "topic": "Open Economy Macroeconomics",
+          "question_count": 15,
+          "subtopics": {
+            "Managed Floating Exchange Rate": 1,
+            "Components of Balance of Payments": 4,
+            "Determination of Exchange Rate": 4,
+            "Fixed Exchange Rate": 1,
+            "Balance of Payments": 2,
+            "BOP Deficit": 2,
+            "BOP Surplus": 1
+          },
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        "Production and Costs": {
+          "topic": "Production and Costs",
+          "question_count": 28,
+          "subtopics": {
+            "Marginal Cost": 4,
+            "Production Function": 3,
+            "Long Run Production Function": 2,
+            "Marginal Product (MP)": 3,
+            "Cost Concepts": 6,
+            "Average Product (AP)": 2,
+            "Short Run Production Function": 2,
+            "Average Cost": 1,
+            "Fixed Cost": 3,
+            "Revenue Concepts": 2
+          },
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        "Static General Knowledge": {
+          "topic": "Static General Knowledge",
+          "question_count": 2,
+          "subtopics": {
+            "Indian Economy": 2
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Theory of Firm under Perfect Competition": {
+          "topic": "Theory of Firm under Perfect Competition",
+          "question_count": 18,
+          "subtopics": {
+            "Profit Maximization": 8,
+            "Shift in Supply Curve": 3,
+            "Features of Perfect Competition": 5,
+            "Price Elasticity of Supply": 2
+          },
+          "source_papers": [
+            "CUET_Economics.json"
+          ]
+        },
+        "Transport, Communication and International Trade": {
+          "topic": "Transport, Communication and International Trade",
+          "question_count": 1,
+          "subtopics": {
+            "India's Foreign Trade": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Transport, Communication and Trade": {
+          "topic": "Transport, Communication and Trade",
+          "question_count": 3,
+          "subtopics": {
+            "WTO and International Trade": 1,
+            "International Trade": 2
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        }
+      }
+    },
+    "English": {
+      "subject": "English",
+      "total_questions": 164,
+      "topics": {
+        "Reading Comprehension": {
+          "topic": "Reading Comprehension",
+          "question_count": 54,
+          "subtopics": {
+            "Narrative Passages - Inference": 19,
+            "Narrative Passages - Theme": 2,
+            "Literary Passages - Literary Devices": 17,
+            "Literary Passages - Theme": 1,
+            "Factual Passages - Supporting Details": 7,
+            "Narrative Passages - Characters": 3,
+            "Factual Passages - Vocabulary in Context": 4,
+            "Factual Passages - Tone and Purpose": 1
+          },
+          "source_papers": [
+            "CUET_English.json"
+          ]
+        },
+        "Verbal Ability": {
+          "topic": "Verbal Ability",
+          "question_count": 110,
+          "subtopics": {
+            "Sentence Rearrangement - Coherent Paragraph Formation": 4,
+            "Synonyms and Antonyms - Word Meaning": 9,
+            "Vocabulary - Correct Word Usage": 22,
+            "Synonyms and Antonyms - Synonyms": 22,
+            "Match the Following - Contextual Matching": 6,
+            "Sentence Rearrangement - Para Jumbles": 16,
+            "Synonyms and Antonyms - Antonyms": 18,
+            "Vocabulary - Fill in the Blanks": 1,
+            "Vocabulary - Contextual Vocabulary": 4,
+            "Sentence Rearrangement - Logical Order": 8
+          },
+          "source_papers": [
+            "CUET_English.json"
+          ]
+        }
+      }
+    },
+    "Environmental Science": {
+      "subject": "Environmental Science",
+      "total_questions": 11,
+      "topics": {
+        "Environment Literacy": {
+          "topic": "Environment Literacy",
+          "question_count": 3,
+          "subtopics": {
+            "Renewable Energy": 2,
+            "Sustainable Development": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Geographical Perspective on Issues and Problems": {
+          "topic": "Geographical Perspective on Issues and Problems",
+          "question_count": 3,
+          "subtopics": {
+            "Environmental Pollution": 3
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Reading Comprehension": {
+          "topic": "Reading Comprehension",
+          "question_count": 3,
+          "subtopics": {
+            "Factual Passages - Supporting Details": 3
+          },
+          "source_papers": [
+            "CUET_English.json"
+          ]
+        },
+        "Resources and Development": {
+          "topic": "Resources and Development",
+          "question_count": 2,
+          "subtopics": {
+            "Water Resources": 1,
+            "Water Scarcity": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        }
+      }
+    },
+    "General Aptitude": {
+      "subject": "General Aptitude",
+      "total_questions": 136,
+      "topics": {
+        "Current Affairs": {
+          "topic": "Current Affairs",
+          "question_count": 5,
+          "subtopics": {
+            "Awards and Honours": 2,
+            "Sports Current Affairs": 2,
+            "Science and Technology": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Environment Literacy": {
+          "topic": "Environment Literacy",
+          "question_count": 1,
+          "subtopics": {
+            "Environmental Conservation": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "General Mental Ability": {
+          "topic": "General Mental Ability",
+          "question_count": 56,
+          "subtopics": {
+            "Ranking and Ordering": 5,
+            "Classification": 4,
+            "Direction Sense": 6,
+            "Alphabet Series": 10,
+            "Coding-Decoding": 9,
+            "Blood Relations": 6,
+            "Clock": 6,
+            "Number Series": 3,
+            "Calendar": 6,
+            "Puzzle": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "General Science": {
+          "topic": "General Science",
+          "question_count": 4,
+          "subtopics": {
+            "Physics Basics": 4
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Logical and Analytical Reasoning": {
+          "topic": "Logical and Analytical Reasoning",
+          "question_count": 8,
+          "subtopics": {
+            "Logical Puzzles": 6,
+            "Logical Reasoning": 1,
+            "Syllogism": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Numerical Ability": {
+          "topic": "Numerical Ability",
+          "question_count": 21,
+          "subtopics": {
+            "Profit and Loss": 3,
+            "Compound Interest": 2,
+            "Time and Work": 4,
+            "Ratio and Proportion": 1,
+            "Boats and Streams": 2,
+            "Average": 3,
+            "Number System": 3,
+            "Time, Speed and Distance": 1,
+            "Percentage": 2
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Quantitative Aptitude": {
+          "topic": "Quantitative Aptitude",
+          "question_count": 12,
+          "subtopics": {
+            "Algebra": 4,
+            "Mode": 2,
+            "Probability (Basic)": 3,
+            "Geometry": 1,
+            "Linear Equations": 1,
+            "Median": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Static General Knowledge": {
+          "topic": "Static General Knowledge",
+          "question_count": 27,
+          "subtopics": {
+            "Science and Technology": 5,
+            "International Organizations": 2,
+            "Important Government Schemes": 2,
+            "Books and Authors": 3,
+            "Countries and Capitals": 1,
+            "Indian History": 5,
+            "National Symbols": 1,
+            "Indian Geography": 5,
+            "Awards and Honours": 1,
+            "Indian Economy": 1,
+            "Art and Culture": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Transport, Communication and International Trade": {
+          "topic": "Transport, Communication and International Trade",
+          "question_count": 2,
+          "subtopics": {
+            "Radio Communication": 1,
+            "Internet": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        }
+      }
+    },
+    "General Knowledge": {
+      "subject": "General Knowledge",
+      "total_questions": 6,
+      "topics": {
+        "Current Affairs": {
+          "topic": "Current Affairs",
+          "question_count": 1,
+          "subtopics": {
+            "Awards and Honours": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Static General Knowledge": {
+          "topic": "Static General Knowledge",
+          "question_count": 5,
+          "subtopics": {
+            "Science and Technology": 2,
+            "Books and Authors": 1,
+            "Indian Culture": 2
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        }
+      }
+    },
+    "Geography": {
+      "subject": "Geography",
+      "total_questions": 195,
+      "topics": {
+        "Geographical Perspective on Issues and Problems": {
+          "topic": "Geographical Perspective on Issues and Problems",
+          "question_count": 8,
+          "subtopics": {
+            "Land Degradation": 1,
+            "Water Resources and Conservation": 1,
+            "Environmental Pollution": 2,
+            "Slums": 1,
+            "Rural-Urban Migration": 3
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Human Activities": {
+          "topic": "Human Activities",
+          "question_count": 31,
+          "subtopics": {
+            "Quaternary Activities": 4,
+            "Modern Agriculture": 2,
+            "Pastoralism": 5,
+            "Manufacturing": 6,
+            "Gathering": 3,
+            "Extensive Commercial Grain Farming": 1,
+            "Subsistence Agriculture": 4,
+            "Knowledge-Based Industries": 1,
+            "Tertiary Activities": 1,
+            "Mining": 1,
+            "Household Industries": 2,
+            "Primary Activities": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Human Geography": {
+          "topic": "Human Geography",
+          "question_count": 13,
+          "subtopics": {
+            "Evolution of Geographical Thought": 1,
+            "Nature of Human Geography": 3,
+            "Scope of Human Geography": 8,
+            "Definitions and Schools of Thought": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Human Settlements": {
+          "topic": "Human Settlements",
+          "question_count": 18,
+          "subtopics": {
+            "Urban Settlements": 5,
+            "Urbanization in India": 2,
+            "Functional Classification of Urban Settlements": 3,
+            "Types of Rural Settlements": 3,
+            "Rural Settlements": 3,
+            "Factors of Settlement": 1,
+            "Common Property Resources": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "People": {
+          "topic": "People",
+          "question_count": 13,
+          "subtopics": {
+            "Population Density": 3,
+            "Population Distribution": 4,
+            "Human Development": 4,
+            "Population Change": 1,
+            "Population Growth": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Population of India": {
+          "topic": "Population of India",
+          "question_count": 23,
+          "subtopics": {
+            "Population Composition": 2,
+            "Population Distribution": 3,
+            "Population of India": 1,
+            "Population Growth": 7,
+            "Rural-Urban Population Change": 1,
+            "Occupational Structure": 2,
+            "Linguistic Composition": 3,
+            "Religious Composition": 2,
+            "Population Density": 1,
+            "Demographic Transition Model": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Resources and Development": {
+          "topic": "Resources and Development",
+          "question_count": 31,
+          "subtopics": {
+            "Conventional Energy Sources": 2,
+            "Major Crops": 9,
+            "Watershed Management": 2,
+            "Water Scarcity": 1,
+            "Energy Resources": 2,
+            "Metallic Minerals": 2,
+            "Land Use": 2,
+            "Sustainable Development": 1,
+            "Water Resources": 2,
+            "Iron Ore Distribution": 1,
+            "Agricultural Development": 3,
+            "Multipurpose Projects of India": 1,
+            "Coal Distribution": 1,
+            "Common Property Resources": 1,
+            "Agricultural Land Use": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Static General Knowledge": {
+          "topic": "Static General Knowledge",
+          "question_count": 15,
+          "subtopics": {
+            "Indian Geography": 15
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Transport, Communication and International Trade": {
+          "topic": "Transport, Communication and International Trade",
+          "question_count": 20,
+          "subtopics": {
+            "Sea Ports": 6,
+            "Internet": 2,
+            "Radio Communication": 1,
+            "Railways": 3,
+            "Roadways": 4,
+            "Satellite Communication": 2,
+            "Waterways": 2
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Transport, Communication and Trade": {
+          "topic": "Transport, Communication and Trade",
+          "question_count": 23,
+          "subtopics": {
+            "Major Ocean Routes": 4,
+            "Air Transport": 3,
+            "Ports": 7,
+            "WTO and International Trade": 1,
+            "Trans-Continental Railways": 3,
+            "Water Transport": 1,
+            "Road Transport": 2,
+            "Oil and Gas Pipelines": 1,
+            "Inland Waterways": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        }
+      }
+    },
+    "History": {
+      "subject": "History",
+      "total_questions": 189,
+      "topics": {
+        "Bhakti-Sufi Traditions": {
+          "topic": "Bhakti-Sufi Traditions",
+          "question_count": 14,
+          "subtopics": {
+            "Saints": 3,
+            "Sufi Movement": 4,
+            "Bhakti Movement": 6,
+            "Social Impact": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Buddhism and Jainism": {
+          "topic": "Buddhism and Jainism",
+          "question_count": 14,
+          "subtopics": {
+            "Cultural Developments": 3,
+            "Art and Architecture": 4,
+            "Monastic Traditions": 1,
+            "Spread of Buddhism": 1,
+            "Rise of Buddhism": 3,
+            "Teachings of Buddha": 1,
+            "Rise of Jainism": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Colonialism and Rural Society": {
+          "topic": "Colonialism and Rural Society",
+          "question_count": 15,
+          "subtopics": {
+            "Colonial Rule": 6,
+            "Permanent Settlement": 2,
+            "Rural Society": 4,
+            "Peasant Life": 2,
+            "Official Reports": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Early States": {
+          "topic": "Early States",
+          "question_count": 24,
+          "subtopics": {
+            "Political Systems": 9,
+            "Ashokan Inscriptions": 6,
+            "Inscriptions as Historical Sources": 3,
+            "Mauryan Empire": 2,
+            "Economic Systems": 2,
+            "Administration": 1,
+            "Mahajanapadas": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Harappan Civilisation": {
+          "topic": "Harappan Civilisation",
+          "question_count": 13,
+          "subtopics": {
+            "Economy": 4,
+            "Harappan Civilisation": 2,
+            "Urban Features": 1,
+            "Decline of Harappan Civilisation": 1,
+            "Town Planning": 2,
+            "Craft Production": 1,
+            "Archaeological Sources": 1,
+            "Trade and Commerce": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Indian Cinema": {
+          "topic": "Indian Cinema",
+          "question_count": 1,
+          "subtopics": {
+            "Satyajit Ray": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Mahatma Gandhi and National Movement": {
+          "topic": "Mahatma Gandhi and National Movement",
+          "question_count": 15,
+          "subtopics": {
+            "Non-Cooperation Movement": 1,
+            "Nationalism": 7,
+            "Civil Disobedience Movement": 2,
+            "Mahatma Gandhi": 2,
+            "Mass Movements": 2,
+            "Champaran Movement": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Making of the Constitution": {
+          "topic": "Making of the Constitution",
+          "question_count": 7,
+          "subtopics": {
+            "Constituent Assembly": 6,
+            "Federalism": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Medieval Society": {
+          "topic": "Medieval Society",
+          "question_count": 13,
+          "subtopics": {
+            "Economy": 1,
+            "Ibn Battuta": 4,
+            "Travellers' Accounts": 4,
+            "Francois Bernier": 2,
+            "Al-Biruni": 2
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Mughal Empire": {
+          "topic": "Mughal Empire",
+          "question_count": 14,
+          "subtopics": {
+            "Mughal Administration": 7,
+            "Land Revenue": 3,
+            "Economy": 2,
+            "Agrarian Society": 2
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Revolt of 1857": {
+          "topic": "Revolt of 1857",
+          "question_count": 15,
+          "subtopics": {
+            "Major Centres": 1,
+            "Consequences": 1,
+            "Indian Representations": 2,
+            "British Accounts": 7,
+            "Causes of Revolt": 2,
+            "Leaders": 2
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Social Histories": {
+          "topic": "Social Histories",
+          "question_count": 11,
+          "subtopics": {
+            "Gender Relations": 1,
+            "Mahabharata": 4,
+            "Kinship": 2,
+            "Family": 2,
+            "Social Structure": 2
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Static General Knowledge": {
+          "topic": "Static General Knowledge",
+          "question_count": 10,
+          "subtopics": {
+            "Indian History": 10
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Transport, Communication and International Trade": {
+          "topic": "Transport, Communication and International Trade",
+          "question_count": 1,
+          "subtopics": {
+            "Radio Communication": 1
+          },
+          "source_papers": [
+            "CUET_Geo.json"
+          ]
+        },
+        "Vijayanagara Empire": {
+          "topic": "Vijayanagara Empire",
+          "question_count": 20,
+          "subtopics": {
+            "Administration": 2,
+            "Hampi": 5,
+            "Political System": 7,
+            "Architecture": 4,
+            "Rise of Vijayanagara": 2
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "World History": {
+          "topic": "World History",
+          "question_count": 2,
+          "subtopics": {
+            "Empires and Dynasties": 1,
+            "Major Wars": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        }
+      }
+    },
+    "Mathematics": {
+      "subject": "Mathematics",
+      "total_questions": 28,
+      "topics": {
+        "Numerical Ability": {
+          "topic": "Numerical Ability",
+          "question_count": 4,
+          "subtopics": {
+            "Number System": 2,
+            "Compound Interest": 1,
+            "Ratio and Proportion": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Quantitative Aptitude": {
+          "topic": "Quantitative Aptitude",
+          "question_count": 24,
+          "subtopics": {
+            "Algebra": 7,
+            "Mensuration": 3,
+            "Geometry": 8,
+            "Probability (Basic)": 2,
+            "2D Mensuration": 1,
+            "Linear Equations": 2,
+            "3D Mensuration": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        }
+      }
+    },
+    "Physics": {
+      "subject": "Physics",
+      "total_questions": 238,
+      "topics": {
+        "Atoms and Nuclei": {
+          "topic": "Atoms and Nuclei",
+          "question_count": 20,
+          "subtopics": {
+            "Radioactivity": 2,
+            "Energy Levels": 4,
+            "Bohr Atomic Model": 7,
+            "Mass Defect": 1,
+            "Nuclear Fission": 2,
+            "Nuclear Composition": 2,
+            "Rutherford's Alpha Scattering Experiment": 2
+          },
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        "Current Electricity": {
+          "topic": "Current Electricity",
+          "question_count": 33,
+          "subtopics": {
+            "Electrical Resistance": 3,
+            "Wheatstone Bridge": 3,
+            "Internal Resistance": 3,
+            "Temperature Dependence of Resistance": 4,
+            "Ohm's Law": 2,
+            "Electrical Power": 2,
+            "Electric Current": 4,
+            "Cells in Series and Parallel": 4,
+            "Drift Velocity": 3,
+            "EMF of Cell": 2,
+            "V-I Characteristics": 1,
+            "Resistivity": 1,
+            "Electrical Energy": 1
+          },
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        "Dual Nature of Matter and Radiation": {
+          "topic": "Dual Nature of Matter and Radiation",
+          "question_count": 14,
+          "subtopics": {
+            "Photoelectric Effect": 7,
+            "Einstein's Photoelectric Equation": 4,
+            "de Broglie Hypothesis": 3
+          },
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        "Electromagnetic Induction and Alternating Current": {
+          "topic": "Electromagnetic Induction and Alternating Current",
+          "question_count": 32,
+          "subtopics": {
+            "LCR Series Circuit": 4,
+            "Lenz's Law": 1,
+            "Self Inductance": 6,
+            "Faraday's Laws": 4,
+            "Power in AC Circuits": 5,
+            "AC Generator": 2,
+            "Transformer": 1,
+            "Induced EMF": 2,
+            "Peak and RMS Values": 3,
+            "Mutual Inductance": 3,
+            "Reactance": 1
+          },
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        "Electromagnetic Waves": {
+          "topic": "Electromagnetic Waves",
+          "question_count": 13,
+          "subtopics": {
+            "Electromagnetic Waves": 2,
+            "X-rays": 1,
+            "Properties of EM Waves": 7,
+            "Electromagnetic Spectrum": 3
+          },
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        "Electronic Devices": {
+          "topic": "Electronic Devices",
+          "question_count": 13,
+          "subtopics": {
+            "Semiconductor Diode": 5,
+            "Energy Bands": 2,
+            "Semiconductors": 5,
+            "I-V Characteristics": 1
+          },
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        "Electrostatics": {
+          "topic": "Electrostatics",
+          "question_count": 38,
+          "subtopics": {
+            "Electric Field Due to Dipole": 2,
+            "Coulomb's Law": 7,
+            "Dielectrics": 3,
+            "Capacitance": 3,
+            "Potential Due to Point Charge": 1,
+            "Electric Flux": 3,
+            "Potential Difference": 1,
+            "Energy Stored in Capacitor": 2,
+            "Electric Field": 1,
+            "Series and Parallel Combination": 5,
+            "Electric Field Due to Point Charge": 2,
+            "Potential Energy": 2,
+            "Equipotential Surfaces": 1,
+            "Charged Spherical Shell": 3,
+            "Conductors and Insulators": 1,
+            "Superposition Principle": 1
+          },
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        "General Science": {
+          "topic": "General Science",
+          "question_count": 5,
+          "subtopics": {
+            "Physics Basics": 4,
+            "Chemistry Basics": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        },
+        "Magnetic Effects of Current and Magnetism": {
+          "topic": "Magnetic Effects of Current and Magnetism",
+          "question_count": 32,
+          "subtopics": {
+            "Para-, Dia- and Ferromagnetic Materials": 3,
+            "Magnetic Field Due to Straight Wire": 3,
+            "Magnetic Field": 5,
+            "Magnetic Field Due to Circular Loop": 9,
+            "Lorentz Force": 3,
+            "Magnetic Field Due to Bar Magnet": 2,
+            "Moving Coil Galvanometer": 2,
+            "Conversion to Ammeter": 1,
+            "Force Between Parallel Conductors": 2,
+            "Magnetic Dipole Moment": 1,
+            "Current Loop as Magnetic Dipole": 1
+          },
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        },
+        "Optics": {
+          "topic": "Optics",
+          "question_count": 38,
+          "subtopics": {
+            "Refraction": 5,
+            "Interference": 1,
+            "Power of Lens": 3,
+            "Young's Double Slit Experiment": 9,
+            "Lens Maker's Formula": 3,
+            "Microscope": 1,
+            "Scattering of Light": 3,
+            "Total Internal Reflection": 4,
+            "Spherical Mirrors": 2,
+            "Fringe Width": 1,
+            "Wavefront": 1,
+            "Diffraction": 1,
+            "Astronomical Telescope": 1,
+            "Huygens' Principle": 1,
+            "Reflection": 1,
+            "Dispersion": 1
+          },
+          "source_papers": [
+            "CUET_Physics.json"
+          ]
+        }
+      }
+    },
+    "Political Science": {
+      "subject": "Political Science",
+      "total_questions": 13,
+      "topics": {
+        "Making of the Constitution": {
+          "topic": "Making of the Constitution",
+          "question_count": 3,
+          "subtopics": {
+            "Fundamental Rights": 2,
+            "Features of the Indian Constitution": 1
+          },
+          "source_papers": [
+            "CUET_History.json"
+          ]
+        },
+        "Static General Knowledge": {
+          "topic": "Static General Knowledge",
+          "question_count": 10,
+          "subtopics": {
+            "Indian Polity": 9,
+            "International Organizations": 1
+          },
+          "source_papers": [
+            "CUET_GAT.json"
+          ]
+        }
+      }
+    }
+  }
+}

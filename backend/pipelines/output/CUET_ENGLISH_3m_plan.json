@@ -1,0 +1,214 @@
+{
+  "duration_weeks": 12,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Reading Comprehension",
+          "priority": "CRITICAL",
+          "topic": "Factual Passages",
+          "subtopics": [
+            "Main Idea",
+            "Supporting Details",
+            "Facts and Opinions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Reading Comprehension",
+          "priority": "CRITICAL",
+          "topic": "Factual Passages",
+          "subtopics": [
+            "Inference-Based Questions",
+            "Vocabulary in Context",
+            "Tone and Purpose"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Reading Comprehension",
+          "priority": "HIGH",
+          "topic": "Narrative Passages",
+          "subtopics": [
+            "Plot",
+            "Characters",
+            "Theme"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Reading Comprehension",
+          "priority": "HIGH",
+          "topic": "Narrative Passages",
+          "subtopics": [
+            "Sequence of Events",
+            "Inference",
+            "Author's Purpose"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Reading Comprehension",
+          "priority": "HIGH",
+          "topic": "Literary Passages",
+          "subtopics": [
+            "Literary Devices",
+            "Theme",
+            "Tone and Mood"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Reading Comprehension",
+          "priority": "HIGH",
+          "topic": "Literary Passages",
+          "subtopics": [
+            "Character Analysis",
+            "Symbolism",
+            "Vocabulary in Context"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Verbal Ability",
+          "priority": "CRITICAL",
+          "topic": "Sentence Rearrangement",
+          "subtopics": [
+            "Para Jumbles",
+            "Logical Order",
+            "Coherent Paragraph Formation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Verbal Ability",
+          "priority": "MEDIUM",
+          "topic": "Match the Following",
+          "subtopics": [
+            "Sentence Matching",
+            "Phrase Matching",
+            "Contextual Matching"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Verbal Ability",
+          "priority": "HIGH",
+          "topic": "Vocabulary",
+          "subtopics": [
+            "Correct Word Usage",
+            "Fill in the Blanks",
+            "Contextual Vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Verbal Ability",
+          "priority": "CRITICAL",
+          "topic": "Synonyms and Antonyms",
+          "subtopics": [
+            "Synonyms",
+            "Antonyms",
+            "Word Meaning",
+            "Vocabulary Building"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Revision & PYQ Practice",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Reading Comprehension",
+          "priority": "CRITICAL",
+          "topic": "Factual Passages",
+          "subtopics": [
+            "Main Idea",
+            "Supporting Details",
+            "Facts and Opinions",
+            "Inference-Based Questions",
+            "Vocabulary in Context",
+            "Tone and Purpose"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Advanced Application & Mixed Problem Solving",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Verbal Ability",
+          "priority": "CRITICAL",
+          "topic": "Synonyms and Antonyms",
+          "subtopics": [
+            "Synonyms",
+            "Antonyms",
+            "Word Meaning",
+            "Vocabulary Building"
+          ]
+        }
+      ]
+    }
+  ]
+}

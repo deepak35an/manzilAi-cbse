@@ -1,0 +1,3232 @@
+[
+    {
+        "question_number": 1,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Food Chain",
+        "difficulty": "Easy",
+        "question": "Arrange the given organisms involved in an ecosystem in correct sequence from lower to\nhigher order. (A) Fish (B) Phytoplankton (C) Man (D) Zooplankton",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (B), (D), (A), (C)",
+            "(C) (C), (D), (A), (B)",
+            "(D) (D), (C), (B), (A)"
+        ],
+        "answer": "(B) (B), (D), (A), (C)",
+        "explanation": "Food chains illustrate the flow of energy through an ecosystem, starting with producers and moving through various consumers. Phytoplankton are primary producers, forming the base of aquatic food webs. Zooplankton are primary consumers, feeding on phytoplankton, while fish are secondary consumers that prey on zooplankton, and humans often act as tertiary consumers in this specific chain.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 2,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Lac Operon",
+        "difficulty": "Easy",
+        "question": "The elucidation of the lac operon was the result of close association between the geneticist\n_____ and the biochemist ______.",
+        "options": [
+            "(A) Francois Jacob, Hargobind Khorana",
+            "(B) Francois Crick, Jacque Monod",
+            "(C) Francois Jacob, Jacque Monod",
+            "(D) Francois Jacob, Mathew Messelson"
+        ],
+        "answer": "(C) Francois Jacob, Jacque Monod",
+        "explanation": "The groundbreaking work on the lac operon, which described gene regulation in bacteria, was a collaborative effort. Francois Jacob, a geneticist, and Jacques Monod, a biochemist, meticulously investigated how genes are turned on or off in response to environmental cues. Their combined expertise led to the development of the operon model, a fundamental concept in molecular biology that explains coordinated gene expression.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 3,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Population Attributes",
+        "difficulty": "Easy",
+        "question": "Match List-I with List-II Terms: (A) Natality (B) Mortality (C) Immigration (D) Emigration\nExplanations: (I) Exit of individuals (II) Entry of individuals (III) Death rate (IV) Birth rate",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+            "(C) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+            "(D) (A)-(II), (B)-(I), (C)-(IV), (D)-(III)"
+        ],
+        "answer": "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+        "explanation": "Population ecology studies how populations change over time, influenced by various demographic factors. Natality refers to the birth rate, signifying new individuals joining a population, while mortality represents the death rate. Immigration is the influx of individuals into a new habitat, whereas emigration describes individuals moving out of a specific area. These processes collectively determine population size and growth.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 4,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Allergies",
+        "difficulty": "Easy",
+        "question": "The type of antibodies that produce the immune response in the presence of allergens like\npollen, dust, animal dander etc. is __________.",
+        "options": [
+            "(A) IgA",
+            "(B) IgE",
+            "(C) IgM",
+            "(D) IgG"
+        ],
+        "answer": "(B) IgE",
+        "explanation": "Allergic reactions are hypersensitive immune responses to otherwise harmless substances called allergens, such as pollen or dust. Immunoglobulin E (IgE) antibodies play a central role in mediating these immediate hypersensitivity reactions. When IgE, bound to mast cells, encounters an allergen, it triggers the release of histamine and other inflammatory mediators, leading to allergy symptoms.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 5,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Biopiracy",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Terms: (A) Bioprocess engineering (B) Somatic hybridization (C)\nGene Therapy (D) Biopiracy Features: (I) Use of bio resources without proper authorisation (II)\nCorrection of gene defect (III) Fusion of protoplasts from two different organisms (IV)\nMaintenance of sterile ambiance for microbial growth",
+        "options": [
+            "(A) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+            "(B) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(D) (A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+        ],
+        "answer": "(A) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+        "explanation": "Biotechnology encompasses various techniques with diverse applications in medicine and agriculture. Bioprocess engineering focuses on creating sterile conditions for growing desired microbes or cells on a large scale. Somatic hybridization involves fusing protoplasts from different cells to create new hybrid plant varieties. Gene therapy aims to correct genetic defects by introducing functional genes, while biopiracy refers to the unethical exploitation of biological resources and traditional knowledge without proper compensation or authorization.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 6,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Human Genome Project",
+        "difficulty": "Medium",
+        "question": "Which of the following is not the salient feature of Human Genome Project (HGP)?",
+        "options": [
+            "(A) The human genome contains 3164.7 million bp.",
+            "(B) The average gene consists of 3000 bases, but sizes vary greatly, with the largest known\nhuman gene being dystrophin at 2.4 million bases.",
+            "(C) More than 2 percent of the genome codes for proteins.",
+            "(D) Chromosome 1 has the most genes (2968), and the Y has the fewest (231)."
+        ],
+        "answer": "(C) More than 2 percent of the genome codes for proteins.",
+        "explanation": "The Human Genome Project (HGP) aimed to sequence the entire human genome, revealing several key features. While the human genome indeed contains approximately 3164.7 million base pairs and genes vary in size, a significant finding was that less than 2% of the genome codes for proteins. The vast majority consists of non-coding sequences, and chromosome 1 has the most genes, while the Y chromosome has the fewest.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 7,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Spermatogenesis",
+        "difficulty": "Medium",
+        "question": "Which of the following will have 46 chromosomes?",
+        "options": [
+            "(A) Spermatogonium and secondary spermatocytes",
+            "(B) Spermatids and spermatozoa",
+            "(C) Secondary oocyte and oogonia",
+            "(D) Oogonia and spermatogonia"
+        ],
+        "answer": "(D) Oogonia and spermatogonia",
+        "explanation": "In humans, the normal diploid number of chromosomes in somatic cells is 46. Gamete mother cells, like oogonia and spermatogonia, are diploid and thus contain 46 chromosomes. During meiosis, these diploid cells undergo reduction division to form haploid gametes, which possess 23 chromosomes. Therefore, only the undifferentiated germ line cells, oogonia and spermatogonia, maintain the full complement of 46 chromosomes before meiosis begins.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 8,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Productivity",
+        "difficulty": "Easy",
+        "question": "Which one of the following expressions is used for comparing productivity of different\necosystems?",
+        "options": [
+            "(A) kg m^-1 yr^-1 or (kcal m^-1) yr^-1",
+            "(B) g m^-2 yr^-1 or (kcal m^-2) yr^-1",
+            "(C) g m^-2 yr^-2 or (kcal m^-2) yr^-2",
+            "(D) g m^-2 yr^-1 or (kcal m^-1) yr^-2"
+        ],
+        "answer": "(B) g m^-2 yr^-1 or (kcal m^-2) yr^-1",
+        "explanation": "Ecosystem productivity refers to the rate at which biomass or organic matter is produced by producers per unit area over a specific time period. It is commonly expressed in terms of mass, such as grams per square meter per year (g m^-2 yr^-1), or energy, such as kilocalories per square meter per year (kcal m^-2 yr^-1). These units allow for standardized comparison of the energy capture efficiency across different ecosystems.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 9,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Biodiversity Loss",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Causes of biodiversity losses: (A) Habitat loss and fragmentation (B)\nOver-exploitation (C) Alien species invasion (D) Co-extinctions Examples: (I) Parthenium, Lantana\nand water hyacinth (Eichornia) (II) Co-evolved plant-pollinator mutualism (III) Deforestation for\nconversion of forest to grasslands (IV) Excessive fishing and over harvesting of certain fish\npopulations",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "Biodiversity loss is driven by several major factors, often referred to as the \"Evil Quartet.\" Habitat loss and fragmentation, such as deforestation for agricultural expansion, is the primary cause. Over-exploitation involves unsustaiable harvesting, like excessive fishing, depleting populations. Alien species invasion, exemplified by Parthenium or water hyacinth, disrupts native ecosystems. Finally, co-extinctions occur when the extinction of one species, like a pollinator, leads to the extinction of another species dependent on it.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 10,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Patterns of Biodiversity",
+        "difficulty": "Medium",
+        "question": "C and Z in the species-area relationship log S = log C + Z log A represents:",
+        "options": [
+            "(A) Slope of the line (regression coefficient) and Y-intercept, respectively",
+            "(B) Y-intercept and slope of the line (regression coefficient), respectively",
+            "(C) Area and species richness, respectively",
+            "(D) Species richness and slope of the line (regression coefficient), respectively"
+        ],
+        "answer": "(B) Y-intercept and slope of the line (regression coefficient), respectively",
+        "explanation": "The species-area relationship is often expressed by the equation S = C A^Z, where S is species richness, A is area, and C and Z are constants. When plotted on a logarithmic scale, the relationship becomes log S = log C + Z log A, representing a straight line. In this linear equation, Z is the slope of the regression line, indicating how species richness changes with area. Log C corresponds to the Y-intercept, making C a constant related to the initial species richness.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 11,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Productivity",
+        "difficulty": "Easy",
+        "question": "The net primary productivity (NPP) in an ecosystem can be represented by:",
+        "options": [
+            "(A) GPP + R = NPP",
+            "(B) GPP - R = NPP",
+            "(C) GPP + PP = NPP",
+            "(D) GPP - SP = NPP"
+        ],
+        "answer": "(B) GPP - R = NPP",
+        "explanation": "In an ecosystem, primary productivity refers to the rate at which producers convert solar energy into organic matter. Gross Primary Productivity (GPP) represents the total amount of organic matter produced during photosynthesis. However, producers also consume some of this energy for their own metabolic processes, known as respiration (R). Therefore, Net Primary Productivity (NPP) is the remaining energy available for other trophic levels and is calculated as GPP minus the energy lost through respiration.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 12,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Ringworm",
+        "difficulty": "Medium",
+        "question": "Ringworms is not caused by –",
+        "options": [
+            "(A) Microsporum",
+            "(B) Trichophyton",
+            "(C) Trichoderma polysporum",
+            "(D) Epidermophyton"
+        ],
+        "answer": "(C) Trichoderma polysporum",
+        "explanation": "Ringworm, or dermatophytosis, is a common fungal infection of the skin, hair, or nails. It is typically caused by a group of fungi known as dermatophytes, which include genera such as Microsporum, Trichophyton, and Epidermophyton. Trichoderma polysporum, however, is a different genus of fungi that is not associated with causing ringworm infections. This fungus is commercially important for producing the immunosuppressant cyclosporin A.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 13,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Mendelian Disorders",
+        "difficulty": "Easy",
+        "question": "In Sickle-cell anemia the substitution of amino acid in the globin protein results due to the\nsingle base substitution at the sixth codon of the β-globin gene from _________.",
+        "options": [
+            "(A) GAG to AUG",
+            "(B) GAG to GUG",
+            "(C) CAG to AUG",
+            "(D) UAG to GUG"
+        ],
+        "answer": "(B) GAG to GUG",
+        "explanation": "Sickle-cell anemia is a classic example of a point mutation, a genetic disorder caused by a single base substitution. Specifically, in the β-globin gene, the sixth codon changes from GAG to GUG. This seemingly small alteration results in the substitution of glutamic acid, a polar amino acid, with valine, a non-polar amino acid, at the sixth position of the β-globin chain. This change profoundly affects the hemoglobin's structure and function, leading to the characteristic sickle shape of red blood cells.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 14,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Placenta",
+        "difficulty": "Medium",
+        "question": "Which of the following hormones are produced by placental tissue? (A) hCG (B) Relaxin (C)\nhPL (D) Progestogens",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (B), (C) and (D) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (A), (C) and (D) only"
+        ],
+        "answer": "(C) (A), (B), (C) and (D)",
+        "explanation": "The placenta is a vital temporary endocrine organ that plays a crucial role in maintaining pregnancy by producing several essential hormones. These include human Chorionic Gonadotropin (hCG), which maintains the corpus luteum, and human Placental Lactogen (hPL), which regulates maternal metabolism. Additionally, the placenta is a significant source of estrogens, progestogens, and relaxin, all of which are critical for fetal development, uterine maintenance, and facilitating parturition.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 15,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Pollination",
+        "difficulty": "Easy",
+        "question": "The type of pollination which brings genetically different types of pollen grains to the\nstigma is",
+        "options": [
+            "(A) Autogamy",
+            "(B) Geitonogamy",
+            "(C) Xenogamy",
+            "(D) Polygamy"
+        ],
+        "answer": "(C) Xenogamy",
+        "explanation": "Pollination is the transfer of pollen grains from the anther to the stigma, a crucial step in plant reproduction. Xenogamy, also known as cross-pollination, specifically involves the transfer of pollen grains from the anther of one plant to the stigma of a different plant. This mechanism ensures the introduction of genetically different pollen to the stigma, leading to genetic recombination and increased genetic diversity in the offspring.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 16,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Patterns of Biodiversity",
+        "difficulty": "Medium",
+        "question": "Arrange the number of species of organisms in tropical Amazonian rain forest in\ndecreasing order. (A) Fishes (B) Birds (C) Plants (D) Mammals",
+        "options": [
+            "(A) (C), (A), (B), (D)",
+            "(B) (A), (B), (C), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (A), (C), (D), (B)"
+        ],
+        "answer": "(A) (C), (A), (B), (D)",
+        "explanation": "The Amazon rainforest is renowned as one of the most biodiverse regions on Earth, hosting an extraordinary number of species across various taxonomic groups. According to scientific data, plants constitute the largest group by far in terms of species richness. Following plants, fish species are highly diverse, succeeded by birds, and then mammals, demonstrating a clear hierarchy in their respective species counts within this ecosystem.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 1
+    },
+    {
+        "question_number": 17,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Miller's Experiment",
+        "difficulty": "Easy",
+        "question": "Which of the following component was not the part of S.L. Miller's experiment?",
+        "options": [
+            "(A) CH4",
+            "(B) NH3",
+            "(C) Water vapour",
+            "(D) N2"
+        ],
+        "answer": "(D) N2",
+        "explanation": "S.L. Miller's experiment simulated the early Earth's atmosphere, utilizing gases like methane, ammonia, hydrogen, and water vapor to investigate the abiotic synthesis of organic molecules. Nitrogen gas (N2) was not a component of the reducing atmosphere he created, as he omitted free oxygen and nitrogen to mimic primitive conditions. This setup aimed to demonstrate how simple inorganic compounds could form complex organic molecules under early Earth scenarios.",
+        "a": 1.05,
+        "b": -1.1,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 18,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Genetically Modified Organisms (GMOs)",
+        "difficulty": "Medium",
+        "question": "Identify the incorrect statement about genetically modified plants.",
+        "options": [
+            "(A) GM crops are more tolerant to abiotic stresses.",
+            "(B) GM crops show high reliance on chemical pesticides.",
+            "(C) GM crops have higher nutritional value of food.",
+            "(D) GM crops have reduced post-harvest losses."
+        ],
+        "answer": "(B) GM crops show high reliance on chemical pesticides.",
+        "explanation": "Genetically modified (GM) plants are engineered to possess desirable traits, such as increased tolerance to environmental stresses or enhanced nutritional value. A key advantage of many GM crops, like Bt cotton, is their inherent pest resistance, which significantly reduces the need for external chemical pesticides. Therefore, stating that GM crops show high reliance on chemical pesticides is an incorrect characterization of their engineered benefits.",
+        "a": 1.45,
+        "b": 0.05,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 19,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Bt Cotton",
+        "difficulty": "Easy",
+        "question": "In Bt cotton plant, the insecticidal protein encoded by the genes cry1Ac and cry IIAb control",
+        "options": [
+            "(A) Cotton bollworms",
+            "(B) Corn borer",
+            "(C) Meloidegyne incognitia",
+            "(D) Wheat borer"
+        ],
+        "answer": "(A) Cotton bollworms",
+        "explanation": "Bt cotton is a genetically modified crop engineered to produce insecticidal proteins from the bacterium Bacillus thuringiensis. The specific genes cry1Ac and cryIIAb encode proteins that are toxic to lepidopteran insects, particularly cotton bollworms. This modification provides the cotton plant with natural resistance, thereby protecting it from pest infestations and reducing the need for chemical sprays.",
+        "a": 1.15,
+        "b": -0.85,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 20,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Patterns of Biodiversity",
+        "difficulty": "Easy",
+        "question": "Identify the correct statement for the species diversity.",
+        "options": [
+            "(A) Species diversity increases as we move away from the equator towards the poles.",
+            "(B) Species diversity decreases as we move away from the equator towards the poles.",
+            "(C) Species diversity remains constant, as we move away from the equator towards the poles.",
+            "(D) Species diversity first decreases and then increases as we move away from the equator towards the poles."
+        ],
+        "answer": "(B) Species diversity decreases as we move away from the equator towards the poles.",
+        "explanation": "Species diversity generally exhibits a latitudinal gradient, where biodiversity is highest near the equator and gradually decreases towards the Earth's poles. This pattern is attributed to factors like greater solar energy, stable climates, and longer evolutionary histories in tropical regions. Consequently, ecosystems in polar areas typically host fewer distinct species compared to their tropical counterparts.",
+        "a": 1.0,
+        "b": -1.25,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 21,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Fruit Formation",
+        "difficulty": "Medium",
+        "question": "Which of the followings belong to false fruit category? (A) Apple (B) Cashew (C) Strawberry (D) Orange",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(B) (A), (B) and (C) only",
+        "explanation": "A true fruit develops exclusively from the ovary of a flower, while a false fruit incorporates other floral parts in its formation, such as the thalamus or receptacle. Apple, cashew, and strawberry are classic examples of false fruits because parts other than the ovary contribute significantly to their edible structure. Orange, however, develops solely from the ovary and is therefore classified as a true fruit.",
+        "a": 1.4,
+        "b": 0.2,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 22,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Population Interactions",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Interspecific interaction: (A) Commensalism (B) Amensalism (C) Competition (D) Predation Species A and B respectively: (I) -;- (II) +;- (III) +;0 (IV) -;0 ('+' beneficial; '-' detrimental; '0' neutral)",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "Interspecific interactions describe the relationships between different species within an ecosystem, characterized by effects on population growth or fitness. Commensalism involves one species benefiting while the other is unaffected (+;0), whereas amensalism sees one harmed and the other neutral (-;0). Competition negatively impacts both species involved (-;-), and predation benefits the predator while harming the prey (+;-).",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 23,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Test Cross",
+        "difficulty": "Medium",
+        "question": "In a typical test cross:",
+        "options": [
+            "(A) An organism (pea plant) showing dominant phenotype is crossed with the dominant parent.",
+            "(B) An organism (pea plant) showing recessive phenotype is crossed with dominant parent to determine its phenotype.",
+            "(C) An organism (pea plant) showing dominant phenotype is self-crossed to determine its genotype.",
+            "(D) An organism (pea plant) showing a dominant phenotype is crossed with a recessive parent to determine its genotype."
+        ],
+        "answer": "(D) An organism (pea plant) showing a dominant phenotype is crossed with a recessive parent to determine its genotype.",
+        "explanation": "A test cross is a crucial genetic tool used to determine the unknown genotype of an individual displaying a dominant phenotype. This is achieved by mating the dominant-phenotype individual with a homozygous recessive individual. The phenotypic ratios of the offspring then reveal whether the dominant-phenotype parent was homozygous dominant or heterozygous.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 24,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Embryo Development",
+        "difficulty": "Medium",
+        "question": "Identify the correct sequence of mature embryo formation from zygote. (A) Heart-shaped embryo (B) Globular embryo (C) Proembryo (D) Mature embryo",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (B), (A), (D), (C)",
+            "(C) (A), (D), (B), (C)",
+            "(D) (C), (B), (A), (D)"
+        ],
+        "answer": "(D) (C), (B), (A), (D)",
+        "explanation": "Embryo development in flowering plants follows a specific sequence from the zygote to a mature embryo. The zygote first divides to form a proembryo, which then differentiates into a globular-shaped structure. Further development leads to the characteristic heart-shaped embryo, eventually maturing into a fully developed plant embryo. This orderly progression ensures proper organogenesis and seed formation.",
+        "a": 1.35,
+        "b": 0.0,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 25,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Menstrual Cycle",
+        "difficulty": "Medium",
+        "question": "Identify the correct sequence of events during menstrual cycle in human. (A) Next cycle begins (B) Secretory phase (C) Follicular phase (D) Menstruation",
+        "options": [
+            "(A) (D), (A), (B), (C)",
+            "(B) (D), (C), (B), (A)",
+            "(C) (C), (D), (B), (A)",
+            "(D) (B), (A), (D), (C)"
+        ],
+        "answer": "(B) (D), (C), (B), (A)",
+        "explanation": "The human menstrual cycle is a precisely regulated series of events that prepares the female body for potential pregnancy. It typically begins with menstruation, shedding the uterine lining, followed by the follicular phase where ovarian follicles mature. After ovulation, the secretory (luteal) phase prepares the uterus for implantation, and if pregnancy does not occur, the cycle concludes and a new one commences with menstruation.",
+        "a": 1.4,
+        "b": 0.15,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 26,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "Sexually Transmitted Infections (STIs)",
+        "difficulty": "Easy",
+        "question": "Which disease is not the sexually transmitted infection?",
+        "options": [
+            "(A) Chlamydiasis",
+            "(B) Elephantiasis",
+            "(C) Trichomoniasis",
+            "(D) Gonorrhoea"
+        ],
+        "answer": "(B) Elephantiasis",
+        "explanation": "Sexually transmitted infections (STIs) are diseases primarily spread through sexual contact. Chlamydiasis, trichomoniasis, and gonorrhoea are well-known bacterial or parasitic STIs that affect reproductive health. Elephantiasis, however, is a parasitic disease caused by filarial worms transmitted by mosquito bites, affecting the lymphatic system and is not sexually transmitted.",
+        "a": 1.2,
+        "b": -0.7,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 27,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Hardy-Weinberg Principle",
+        "difficulty": "Easy",
+        "question": "The factors that affect the Hardy-Weinberg equilibrium are: (A) Gene migration or gene flow (B) Natural selection (C) Mutation (D) Genetic drift",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(C) (A), (B), (C) and (D)",
+        "explanation": "The Hardy-Weinberg equilibrium describes a theoretical state where allele and genotype frequencies in a population remain constant across generations, implying no evolution. This equilibrium is disturbed by several evolutionary forces, including gene migration (gene flow), natural selection, mutation, and genetic drift. The absence of any of these factors is a prerequisite for maintaining Hardy-Weinberg equilibrium.",
+        "a": 1.05,
+        "b": -0.55,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 28,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Acquired Immunity",
+        "difficulty": "Easy",
+        "question": "Mucosa-associated lymphoid tissue (MALT) is located within the lining of",
+        "options": [
+            "(A) Nervous and skeletal system",
+            "(B) Endocrine and circulatory system",
+            "(C) Skin and muscle system",
+            "(D) Respiratory, digestive and urogenital tracts"
+        ],
+        "answer": "(D) Respiratory, digestive and urogenital tracts",
+        "explanation": "Mucosa-associated lymphoid tissue (MALT) represents a crucial component of the body's immune system, strategically located in the mucous membranes. It is predominantly found lining the respiratory, digestive, and urogenital tracts, which are interfaces with the external environment. MALT provides localized immune surveillance and defense against pathogens entering through these vulnerable mucosal surfaces.",
+        "a": 1.1,
+        "b": -0.65,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 29,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "DNA Packaging",
+        "difficulty": "Easy",
+        "question": "Histones are rich in amino acids",
+        "options": [
+            "(A) Lysine and leucine",
+            "(B) Lysine and phenylalanine",
+            "(C) Arginine and asparagine",
+            "(D) Lysine and arginine"
+        ],
+        "answer": "(D) Lysine and arginine",
+        "explanation": "Histones are a family of small, positively charged proteins essential for packaging DNA into structural units called nucleosomes within eukaryotic chromosomes. Their strong positive charge, which allows them to bind tightly to negatively charged DNA, is primarily due to a high abundance of basic amino acids, particularly lysine and arginine, in their composition.",
+        "a": 1.0,
+        "b": -0.8,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 30,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "Contraceptive Methods",
+        "difficulty": "Medium",
+        "question": "Identify the hormone releasing IUD.",
+        "options": [
+            "(A) Multiload 375",
+            "(B) LNG-20",
+            "(C) Saheli",
+            "(D) Lippes loop"
+        ],
+        "answer": "(B) LNG-20",
+        "explanation": "Intrauterine Devices (IUDs) are a highly effective form of contraception, with different types offering varied mechanisms of action. Hormone-releasing IUDs, such as LNG-20 (which releases Levonorgestrel), prevent pregnancy by thickening cervical mucus, thinning the uterine lining, and sometimes inhibiting ovulation. In contrast, devices like Multiload 375 and Lippes loop are copper-releasing or non-medicated IUDs.",
+        "a": 1.3,
+        "b": 0.0,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 31,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Birth Rate",
+        "difficulty": "Easy",
+        "question": "If in a pond there were 20 lotus plants last year and through reproduction 8 new plants are added, taking the current population to 28, then the birth rate will be",
+        "options": [
+            "(A) 0.1 offspring per lotus per month",
+            "(B) 0.4 offspring per lotus per day",
+            "(C) 0.1 offspring per lotus per year",
+            "(D) 0.4 offspring per lotus per year"
+        ],
+        "answer": "(D) 0.4 offspring per lotus per year",
+        "explanation": "Birth rate in a population quantifies the number of new individuals produced per existing individual over a specific time period. In this scenario, 8 new lotus plants were added to an initial population of 20 plants over one year. Therefore, the birth rate is calculated as 8 new plants divided by 20 original plants, resulting in 0.4 offspring per lotus per year.",
+        "a": 1.2,
+        "b": -0.5,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 32,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "Medical Termination of Pregnancy (MTP)",
+        "difficulty": "Medium",
+        "question": "Medical termination of pregnancy (MTPs) are considered safe during the",
+        "options": [
+            "(A) Upto 24 weeks of pregnancy",
+            "(B) Upto 12 weeks of pregnancy",
+            "(C) Upto 36 weeks of pregnancy",
+            "(D) Upto 18 weeks of pregnancy"
+        ],
+        "answer": "(B) Upto 12 weeks of pregnancy",
+        "explanation": "Medical Termination of Pregnancy (MTPs) are considered safest when performed during the first trimester of pregnancy, which is approximately up to 12 weeks. During this early stage, the procedure carries minimal risks to the woman's health. As pregnancy progresses beyond 12 weeks, the risks associated with MTP increase significantly due to fetal development and changes in the uterus.",
+        "a": 1.35,
+        "b": 0.0,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 33,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Sex Determination",
+        "difficulty": "Easy",
+        "question": "Two different sex chromosomes, designated as Z and W involved in sex determination are found in:",
+        "options": [
+            "(A) Taenia",
+            "(B) Human",
+            "(C) Drosophila",
+            "(D) Birds"
+        ],
+        "answer": "(D) Birds",
+        "explanation": "Sex determination mechanisms vary across different species, leading to diverse chromosomal systems. In birds, the ZW-ZZ system is prevalent, where females are heterogametic (ZW chromosomes) and males are homogametic (ZZ chromosomes). This contrasts with the XY-XX system found in humans and Drosophila, where males are XY and females are XX.",
+        "a": 1.1,
+        "b": -0.75,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 34,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Genetically Modified Organisms (GMOs)",
+        "difficulty": "Medium",
+        "question": "Which one of the following organization is set by the Indian Government for making decisions regarding the validity of GM research and the safety of introducing GM-organisms for public services?",
+        "options": [
+            "(A) Genetic Engineering Approval Commission (GEAC)",
+            "(B) Genetic Engineering Approval Co-operative (GEAC)",
+            "(C) Genetic Engineering Approval Company (GEAC)",
+            "(D) Genetic Engineering Approval Committee (GEAC)"
+        ],
+        "answer": "(D) Genetic Engineering Approval Committee (GEAC)",
+        "explanation": "In India, the Genetic Engineering Appraisal Committee (GEAC) is the apex regulatory body established under the Ministry of Environment, Forest and Climate Change. Its primary role is to evaluate and approve activities involving genetically engineered organisms, including research, large-scale release, and commercial use. This committee ensures the safety and ethical considerations of biotechnology applications for public welfare.",
+        "a": 1.3,
+        "b": 0.1,
+        "source_chunk": 2
+    },
+    {
+        "question_number": 35,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Bt Cotton",
+        "difficulty": "Medium",
+        "question": "Bacillus thuringiensis produces insecticidal proteins that kills insects, belongs to - (A) Dipterans (B) Lepidopterans (C) Coleopterans (D) Ephimepterans",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(B) (A), (B) and (C) only",
+        "explanation": "Bacillus thuringiensis (Bt) produces insecticidal proteins that are toxic to specific insect orders. These proteins are particularly effective against Lepidopterans (e.g., tobacco budworm), Coleopterans (e.g., beetles), and Dipterans (e.g., flies and mosquitoes). Ephemeropterans, or mayflies, are generally not known to be susceptible to Bt toxins, making the combination of Dipterans, Lepidopterans, and Coleopterans the correct response.",
+        "a": 1.45,
+        "b": 0.2,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 36,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Comparative Anatomy",
+        "difficulty": "Medium",
+        "question": "Identify, which is not the example of homology in evolution.",
+        "options": [
+            "(A) Vertebrate hearts or brains",
+            "(B) Eye of the octopus and of mammals",
+            "(C) Bones of forelimbs in mammals",
+            "(D) Thorn and tendrils of Bougainvillea and Cucurbita, respectively"
+        ],
+        "answer": "(B) Eye of the octopus and of mammals",
+        "explanation": "Homology refers to structures that are similar in origin and basic structure, reflecting common ancestry, even if their functions differ. Conversely, analogy involves structures that perform similar functions but have different evolutionary origins. The vertebrate heart, brain, mammalian forelimbs, and plant thorns/tendrils are homologous structures. The eye of an octopus and a mammal evolved independently to serve a similar function (vision), thus representing an example of analogous organs.",
+        "a": 1.5,
+        "b": 0.1,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 37,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Malaria",
+        "difficulty": "Easy",
+        "question": "The infective stage of malarial parasite, Plasmodium is:",
+        "options": [
+            "(A) Female gametocyte",
+            "(B) Male gametocyte",
+            "(C) Sporozoite",
+            "(D) Trophozoite"
+        ],
+        "answer": "(C) Sporozoite",
+        "explanation": "Malaria is a disease caused by the parasite Plasmodium, transmitted through the bite of infected Anopheles mosquitoes. When an infected mosquito bites a human, it injects the sporozoites, which are the infective stage, into the bloodstream. These sporozoites then travel to the liver, where they multiply before infecting red blood cells, leading to the symptoms of malaria.",
+        "a": 1.2,
+        "b": -0.8,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 38,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Menstrual Cycle",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Hormones: (A) LH (B) FSH (C) Oxytocin (D) Progesterone\nRole/functions: (I) Causes stronger uterine contractions (II) Essential for maintenance of the endometrium during menstrual cycle (III) Acts on Leydig cells and stimulates synthesis and secretion of androgens (IV) Acts on Sertoli cells and stimulates secretion of some factors which help in the process of spermiogenesis",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(III), (B)-(I), (C)-(II), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "Luteinizing Hormone (LH) stimulates Leydig cells to produce androgens, while Follicle Stimulating Hormone (FSH) acts on Sertoli cells to aid spermiogenesis. Oxytocin is known for inducing strong uterine contractions during childbirth. Progesterone plays a crucial role in maintaining the uterine endometrium, supporting the menstrual cycle and early pregnancy.",
+        "a": 1.6,
+        "b": 0.5,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 39,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Sewage Treatment",
+        "difficulty": "Easy",
+        "question": "Microbes in human welfare - LAB, cheese, BOD, biogas, biofertilisers, Rhizobium, Azospirillum, Azotobacter\n\nBOD refers to the",
+        "options": [
+            "(A) Amount of the oxygen that would be released if all the organic matter in one liter of water were reduced by bacteria.",
+            "(B) Amount of the oxygen that would be consumed if all the organic matter in one liter of water were reduced by bacteria.",
+            "(C) Amount of the oxygen that would be released if all the organic matter in one liter of water were oxidised by bacteria.",
+            "(D) Amount of the oxygen that would be consumed if all the organic matter in one liter of water were oxidised by bacteria."
+        ],
+        "answer": "(D) Amount of the oxygen that would be consumed if all the organic matter in one liter of water were oxidised by bacteria.",
+        "explanation": "BOD stands for Biochemical Oxygen Demand, which is a measure of the amount of oxygen required by aerobic microorganisms. It quantifies the oxygen consumed to biologically oxidize all the organic matter present in one liter of water. A higher BOD value indicates a greater amount of organic pollution in the water body.",
+        "a": 1.1,
+        "b": -0.6,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 40,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Household Products",
+        "difficulty": "Easy",
+        "question": "Microbes in human welfare - LAB, cheese, BOD, biogas, biofertilisers, Rhizobium, Azospirillum, Azotobacter\n\nWhich statement is true about LAB?",
+        "options": [
+            "(A) Inoculum containing LAB produces bases which coagulate and convert milk into curd.",
+            "(B) Addition of LAB in milk improves the nutritional quality by increasing vitamin B12.",
+            "(C) Addition of LAB in milk improves the nutritional quality by increasing vitamin D.",
+            "(D) LAB cause diseases and are very harmful to human."
+        ],
+        "answer": "(B) Addition of LAB in milk improves the nutritional quality by increasing vitamin B12.",
+        "explanation": "Lactic Acid Bacteria (LAB) ferment lactose in milk to produce lactic acid, which causes milk proteins to coagulate and form curd, not bases. The addition of LAB to milk significantly improves its nutritional quality by increasing the content of Vitamin B12. Far from being harmful, these microbes are beneficial and commonly used in dairy products.",
+        "a": 1.3,
+        "b": -0.3,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 41,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Biofertilisers",
+        "difficulty": "Medium",
+        "question": "Microbes in human welfare - LAB, cheese, BOD, biogas, biofertilisers, Rhizobium, Azospirillum, Azotobacter\n\nIdentify, the free living bacteria in soil, which can fix the atmospheric nitrogen.",
+        "options": [
+            "(A) Rhizobium",
+            "(B) Glomus",
+            "(C) Azospirillum",
+            "(D) Anabaena"
+        ],
+        "answer": "(C) Azospirillum",
+        "explanation": "Nitrogen-fixing organisms convert atmospheric nitrogen into forms usable by plants. Rhizobium forms a symbiotic association with leguminous plants, while Glomus is a mycorrhizal fungus, not a nitrogen-fixing bacterium. Azospirillum is a well-known free-living bacterium found in soil that significantly contributes to atmospheric nitrogen fixation. Anabaena is a cyanobacterium, also capable of nitrogen fixation, but Azospirillum fits the 'bacteria' descriptor more specifically in this context.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 42,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Household Products",
+        "difficulty": "Easy",
+        "question": "Microbes in human welfare - LAB, cheese, BOD, biogas, biofertilisers, Rhizobium, Azospirillum, Azotobacter\n\nThe large holes in Swiss cheese are generated by",
+        "options": [
+            "(A) Propionibacterium shamanii",
+            "(B) Propioibacterium sharmanii",
+            "(C) Propionibacterium sharmanii",
+            "(D) Propioibacterium shamanii"
+        ],
+        "answer": "(C) Propionibacterium sharmanii",
+        "explanation": "Swiss cheese is distinctively characterized by its large holes and unique flavor. These features are produced by the bacterium Propionibacterium sharmanii during its fermentation process. This bacterium ferments propionic acid, producing large amounts of carbon dioxide gas, which creates the characteristic 'eyes' or holes in the cheese.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 43,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Bioreactors",
+        "difficulty": "Easy",
+        "question": "Nucleases, restriction endonucleases, gel electrophoresis, bioreactors, PCR\n\nBioreactors are generally used to process large volumes of culture to obtain yield of desire protein. Identify the correct volume of given culture processed by a bio-reactor?",
+        "options": [
+            "(A) 5-100000 litres",
+            "(B) 10-1000 litres",
+            "(C) 1000-100000 litres",
+            "(D) 100-1000 litres"
+        ],
+        "answer": "(D) 100-1000 litres",
+        "explanation": "Bioreactors are large vessels designed to carry out biological conversions on a commercial scale. They provide optimal conditions for microbial or cell growth and product formation, ensuring high yields. Typically, bioreactors are designed to handle large volumes of culture, commonly ranging from 100 to 1000 litres, as stated in NCERT textbooks.",
+        "a": 1.1,
+        "b": -0.7,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 44,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Restriction Enzymes",
+        "difficulty": "Easy",
+        "question": "Nucleases, restriction endonucleases, gel electrophoresis, bioreactors, PCR\n\nWhich one of the following enzymes remove nucleotides from the ends of the DNA?",
+        "options": [
+            "(A) Endonucleases",
+            "(B) Exonucleases",
+            "(C) Restriction enzymes",
+            "(D) Hind II"
+        ],
+        "answer": "(B) Exonucleases",
+        "explanation": "Nucleases are enzymes that cleave the phosphodiester bonds within nucleic acid chains. Exonucleases specifically remove nucleotides one by one from the ends of a DNA or RNA molecule. In contrast, endonucleases and restriction enzymes (a type of endonuclease) cut within the nucleic acid strand, not exclusively from the ends.",
+        "a": 1.2,
+        "b": -0.5,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 45,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Recombinant DNA Technology",
+        "difficulty": "Easy",
+        "question": "Nucleases, restriction endonucleases, gel electrophoresis, bioreactors, PCR\n\nIdentify the correct enzyme to release the DNA from the fungal cells.",
+        "options": [
+            "(A) Cellulase",
+            "(B) Lysozyme",
+            "(C) Chitinase",
+            "(D) Lipase"
+        ],
+        "answer": "(C) Chitinase",
+        "explanation": "To isolate DNA from cells, the cell wall must first be broken down. Fungal cell walls are primarily composed of chitin, a complex carbohydrate polymer. Therefore, the enzyme chitinase is used to digest these cell walls and facilitate the release of DNA from fungal cells. Other enzymes like cellulase target plant cell walls, and lysozyme targets bacterial cell walls.",
+        "a": 1.05,
+        "b": -0.9,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 46,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "PCR",
+        "difficulty": "Medium",
+        "question": "Nucleases, restriction endonucleases, gel electrophoresis, bioreactors, PCR\n\nIdentify the incorrect fact about the PCR?",
+        "options": [
+            "(A) Primers are small chemically synthesised oligonucleotides that are complementary to the regions of DNA.",
+            "(B) In PCR, multiple copies of the gene (or DNA) of interest is synthesised in vitro using two sets of primers.",
+            "(C) If the process of replication of DNA is repeated many times, the segment of DNA can be amplified to approximately billion times, i.e., 1 billion copies are made.",
+            "(D) The repeated amplification in PCR is achieved by the use of a thermostable DNA polymerase, isolated from a bacterium, Thermus quatica."
+        ],
+        "answer": "(D) The repeated amplification in PCR is achieved by the use of a thermostable DNA polymerase, isolated from a bacterium, Thermus quatica.",
+        "explanation": "The Polymerase Chain Reaction (PCR) uses small, synthetic DNA primers complementary to target DNA sequences to amplify DNA in vitro. This process generates millions to billions of copies of the DNA segment through repeated cycles of replication. The crucial enzyme for this amplification is a thermostable DNA polymerase, specifically isolated from the bacterium Thermus aquaticus, not 'Thermus quatica'.",
+        "a": 1.7,
+        "b": 0.6,
+        "source_chunk": 3
+    },
+    {
+        "question_number": 47,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Biodiversity",
+        "difficulty": "Easy",
+        "question": "Who popularised the term 'Biodiversity'?",
+        "options": [
+            "(A) Edward Wilson",
+            "(B) Charles Darwin",
+            "(C) Lamarck",
+            "(D) Watson and Crick"
+        ],
+        "answer": "(A) Edward Wilson",
+        "explanation": "Edward O. Wilson, an American biologist and naturalist, played a pivotal role in popularizing the term 'biodiversity'. He emphasized the importance of conservation and the vast variety of life forms on Earth. His extensive work highlighted the critical need to understand and protect the planet's biological diversity.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 48,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Downstream Processing",
+        "difficulty": "Easy",
+        "question": "In gel electrophoresis, the separated DNA fragment can be visualized",
+        "options": [
+            "(A) When ethidium bromide exposed to UV light",
+            "(B) When ethidium bromide exposed to infrared light",
+            "(C) When bromophenol blue exposed to UV light",
+            "(D) When acetocarmine exposed to UV light"
+        ],
+        "answer": "(A) When ethidium bromide exposed to UV light",
+        "explanation": "DNA fragments, being negatively charged, move towards the anode during gel electrophoresis. To visualize these fragments, the gel is stained with ethidium bromide, which intercalates into the DNA. When exposed to ultraviolet (UV) light, the ethidium bromide-stained DNA fluoresces, appearing as bright orange bands, allowing for their detection.",
+        "a": 1.1,
+        "b": -0.8,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 49,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Miller's Experiment",
+        "difficulty": "Medium",
+        "question": "Which of the following components were taken by S.L. Miller in a closed flask for his experiment on the origin of life? (A) CH4 (B) NH3 (C) CO2 (D) Water vapours",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (B) and (D) only",
+        "explanation": "Stanley Miller's classic experiment aimed to simulate early Earth conditions to understand the origin of life. He used a closed flask containing a mixture of methane (CH4), ammonia (NH3), hydrogen (H2), and water vapor (D). These components represented the reducing atmosphere hypothesized to exist on primitive Earth, from which organic molecules could form.",
+        "a": 1.45,
+        "b": 0.2,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 50,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Male Reproductive System",
+        "difficulty": "Easy",
+        "question": "Identify the correct pathway for transport of sperms? (A) Rete testis (B) Vasa efferentia (C) Epididymis (D) Vas deferens",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(A) (A), (B), (C), (D)",
+        "explanation": "Sperm production occurs in the seminiferous tubules of the testis, from where they are collected into the rete testis. From the rete testis, sperm pass through the vasa efferentia into the epididymis for maturation and storage. Finally, during ejaculation, sperm travel from the epididymis through the vas deferens to the ejaculatory duct and then out of the body.",
+        "a": 1.05,
+        "b": -0.75,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 51,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Bt Cotton",
+        "difficulty": "Easy",
+        "question": "Which one of the following Bt crops is being grown in India by the farmers?",
+        "options": [
+            "(A) Brinjal",
+            "(B) Maize",
+            "(C) Cotton",
+            "(D) Soyabean"
+        ],
+        "answer": "(C) Cotton",
+        "explanation": "Bt cotton is the only genetically modified crop widely cultivated by farmers in India. It incorporates genes from the bacterium Bacillus thuringiensis, which produce a toxin that is effective against certain insect pests like the cotton bollworm. This modification helps in reducing pesticide use and increasing crop yields, specifically in the cotton farming sector.",
+        "a": 0.95,
+        "b": -1.2,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 52,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Cloning Vectors",
+        "difficulty": "Medium",
+        "question": "Which of the following features are required to facilitate cloning? (A) Presence of origin of replication (Ori) in the cloning vector (B) Presence of a selectable marker in the cloning vector (C) Presence of a single recognition site (preferably) for restriction enzyme in the cloning vector (D) Presence of more than two promoter regions in the cloning vector",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(B) (A), (B) and (C) only",
+        "explanation": "An ideal cloning vector must possess an origin of replication (Ori) for independent replication within the host cell. It should also have a selectable marker, which helps in identifying transformed cells and eliminating non-transformants. Additionally, a cloning vector needs a cloning site, ideally a single recognition site for a restriction enzyme, to insert the foreign DNA without disrupting essential vector functions, facilitating efficient cloning.",
+        "a": 1.5,
+        "b": 0.35,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 53,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Population Interactions",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Population interactions: (A) Competition (B) Parasitism (C) Amensalism (D) Commensalism Affected species: (I) One species is benefitted, while the other is neither benefited nor harmed (II) Both species are in loss (III) Only one species is benefitted (IV) One species is harmed, the other is unaffected",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+            "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+        "explanation": "Competition is an interaction where both species incur a loss (-/-), thus (A)-(II). Parasitism involves one species benefiting at the expense of another (+/-), so (B)-(III) fits, implying only one species benefits. Amensalism is when one species is harmed, and the other is unaffected (-/0), making (C)-(IV) correct. Commensalism sees one species benefiting while the other is neither harmed nor benefited (+/0), matching (D)-(I).",
+        "a": 1.6,
+        "b": 0.5,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 54,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Genetically Modified Organisms (GMOs)",
+        "difficulty": "Medium",
+        "question": "Identify the incorrect fact about genetic modification.",
+        "options": [
+            "(A) Crops are made more tolerant to abiotic stresses (cold, drought, salt, heat)",
+            "(B) Increase in efficiency of mineral usage by plants",
+            "(C) Help to reduce post harvest losses",
+            "(D) Increase in reliance on chemical pesticides (pest-resistant crops)"
+        ],
+        "answer": "(D) Increase in reliance on chemical pesticides (pest-resistant crops)",
+        "explanation": "Genetic modification aims to improve crop traits, including enhanced tolerance to abiotic stresses like cold, drought, and heat, as well as increased mineral usage efficiency. GM crops can also help reduce post-harvest losses by improving shelf life or resistance to spoilage. Conversely, a key goal of developing pest-resistant crops through genetic modification is to *decrease*, not increase, the reliance on chemical pesticides.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 55,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Chromosomal Disorders",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Terms: (A) Chromosomal disorder (B) Incomplete dominance (C) Sex-linked recessive disorder (D) Male heterogamety Examples: (I) Color Blindness (II) Drosophila (III) Antirrhinum (IV) Down's Syndrome",
+        "options": [
+            "(A) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(B) (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+            "(C) (A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(B) (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+        "explanation": "Down's Syndrome is a chromosomal disorder, specifically trisomy 21 (A-IV). Incomplete dominance, where the heterozygous phenotype is intermediate, is exemplified by flower color in Antirrhinum (B-III). Color blindness is a classic example of a sex-linked recessive disorder (C-I). Male heterogamety, where males produce two different types of gametes (XY), is observed in organisms like Drosophila (D-II).",
+        "a": 1.7,
+        "b": 0.6,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 56,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Menstrual Cycle",
+        "difficulty": "Easy",
+        "question": "GnRH is secreted by:",
+        "options": [
+            "(A) Pituitary gland",
+            "(B) Hypothalamus",
+            "(C) Testis",
+            "(D) Ovary"
+        ],
+        "answer": "(B) Hypothalamus",
+        "explanation": "Gonadotropin-releasing hormone (GnRH) is a crucial hormone that initiates the process of reproduction. It is secreted by the hypothalamus, a region in the brain. GnRH then acts on the anterior pituitary gland, stimulating it to release gonadotropins, namely Luteinizing Hormone (LH) and Follicle-Stimulating Hormone (FSH), which regulate gonadal function.",
+        "a": 1.15,
+        "b": -0.9,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 57,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Embryo Development",
+        "difficulty": "Easy",
+        "question": "Arrange the given stages involved in embryo development in a dicot angiosperm in correct sequence (A) Globular embryo (B) Proembryo (C) Zygote (D) Heart shaped embryo",
+        "options": [
+            "(A) (C), (B), (D), (A)",
+            "(B) (C), (B), (A), (D)",
+            "(C) (B), (D), (C), (A)",
+            "(D) (D), (A), (B), (C)"
+        ],
+        "answer": "(B) (C), (B), (A), (D)",
+        "explanation": "In dicot angiosperms, embryo development begins with the fertilization of an egg to form a zygote (C). The zygote then undergoes initial divisions to form a proembryo (B). This proembryo subsequently develops into a globular embryo (A) and further differentiates into a distinctive heart-shaped embryo (D), eventually maturing into a torpedo and then a mature embryo.",
+        "a": 1.2,
+        "b": -0.6,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 58,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Adaptive Radiation",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Types of evolution: (A) Divergent evolution (B) Adaptive radiation (C) Convergent evolution (D) Industrial melanism Examples: (I) Moths (II) Eyes of octopus and mammals (III) Darwin's finches (IV) Thorn of Bougainvillea and tendrils of Cucurbita",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+        "explanation": "Divergent evolution leads to homologous structures, such as the thorn of Bougainvillea and tendrils of Cucurbita (A-IV). Adaptive radiation is exemplified by Darwin's finches, diversifying from a common ancestor (B-III). Convergent evolution results in analogous structures, like the eyes of octopus and mammals, serving similar functions despite different origins (C-II). Industrial melanism, particularly in peppered moths, is a classic example of natural selection (D-I).",
+        "a": 1.65,
+        "b": 0.45,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 59,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Gene Therapy",
+        "difficulty": "Easy",
+        "question": "The first clinical gene therapy was given to a 4-year old girl with:",
+        "options": [
+            "(A) Insulin deficiency",
+            "(B) Adenosine deaminase deficiency (ADA)",
+            "(C) Chicken Pox",
+            "(D) Polio"
+        ],
+        "answer": "(B) Adenosine deaminase deficiency (ADA)",
+        "explanation": "The first clinical gene therapy, performed in 1990, was administered to a four-year-old girl suffering from adenosine deaminase (ADA) deficiency. This genetic disorder impairs the immune system, making individuals highly susceptible to infections. The therapy involved introducing functional ADA genes into the patient's lymphocytes, providing a landmark achievement in medical biotechnology and offering hope for treating genetic diseases.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 60,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Death Rate",
+        "difficulty": "Easy",
+        "question": "If 4 individuals in a laboratory population of 40 fruitflies died during a specified time interval, say a week, the death rate in the population during that period is",
+        "options": [
+            "(A) 1 individual per fruitfly per week",
+            "(B) 0.1 individual per fruitfly per week",
+            "(C) 10 individuals per fruitfly per week",
+            "(D) 0.4 individual per fruitfly per week"
+        ],
+        "answer": "(B) 0.1 individual per fruitfly per week",
+        "explanation": "The death rate, also known as the mortality rate, is calculated by dividing the number of deaths by the initial population size. In this scenario, 4 fruitflies died from an initial population of 40. Therefore, the death rate is 4 divided by 40, which equals 0.1. This signifies that 0.1 individuals died per fruitfly per week during the observed period.",
+        "a": 1.25,
+        "b": -0.7,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 61,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "DNA Fingerprinting",
+        "difficulty": "Medium",
+        "question": "Identify the correct sequence involved in technique of DNA fingerprinting? (A) Hybridisation using labelled VNTR probe, and detection of hybridised DNA fragments by autoradiography (B) Separation of DNA fragments by electrophoresis (C) Transferring of separated DNA fragments to synthetic membranes, such as nitrocellulose or nylon (D) Isolation and digestion of DNA by restriction endonucleases",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (D), (B), (C), (A)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (D), (B), (C), (A)",
+        "explanation": "DNA fingerprinting typically begins with the isolation of DNA, followed by its digestion with restriction enzymes (D). The resulting DNA fragments are then separated by size using gel electrophoresis (B). Next, these separated fragments are transferred from the gel to a synthetic membrane via Southern blotting (C). Finally, the membrane is hybridized with a labeled VNTR probe, and the hybridised fragments are detected using autoradiography (A).",
+        "a": 1.55,
+        "b": 0.3,
+        "source_chunk": 4
+    },
+    {
+        "question_number": 62,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Biodiversity",
+        "difficulty": "Easy",
+        "question": "A medicinal plant growing in different Himalayan ranges shows different potency and\nconcentration of the active chemical (reserpine) that the plant produces. Identify the plant:",
+        "options": [
+            "(A) Papaver somniferum",
+            "(B) Rauwolfia vomitoria",
+            "(C) Erythroxylum coca",
+            "(D) Saccharomyces cerevisiae"
+        ],
+        "answer": "(B) Rauwolfia vomitoria",
+        "explanation": "This question tests knowledge about medicinal plants and their active compounds. Rauwolfia vomitoria is a well-known medicinal plant found in the Himalayan ranges, recognized for producing the active chemical reserpine. Different growing conditions lead to variations in the potency and concentration of reserpine, confirming its identity.",
+        "a": 1.05,
+        "b": -1.1,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 63,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Transcription",
+        "difficulty": "Medium",
+        "question": "A transcription unit in DNA is defined primarily by the following regions - (A) Structural\ngene (B) A terminator (C) A promoter (D) Exon",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(B) (A), (B) and (C) only",
+        "explanation": "A transcription unit is a fundamental segment of DNA crucial for gene expression. It is precisely defined by three main regions: a promoter, a structural gene, and a terminator. These components work in sequence to ensure accurate initiation, coding, and termination of transcription.",
+        "a": 1.55,
+        "b": 0.25,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 64,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Biodiversity Loss",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Extinct species: (A) Dodo (B) Quagga (C) Thylacine (D) Steller's sea\ncow Countries: (I) Africa (II) Russia (III) Mauritius (IV) Australia",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+            "(C) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(C) (A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+        "explanation": "This question requires matching extinct species with their native countries, a topic often covered in biodiversity and conservation. The Dodo was native to Mauritius, the Quagga to Africa, the Thylacine to Australia, and Steller's sea cow to Russia. Correctly associating each species with its geographical origin allows for the accurate selection of the matching pair.",
+        "a": 1.65,
+        "b": 0.45,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 65,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Energy Flow",
+        "difficulty": "Easy",
+        "question": "Plants capture only______of the photosynthetically active radiation (PAR) and this small\namount of energy sustains the entire living world.",
+        "options": [
+            "(A) 2-5 percent",
+            "(B) 2-20 percent",
+            "(C) 2-10 percent",
+            "(D) 5-15 percent"
+        ],
+        "answer": "(C) 2-10 percent",
+        "explanation": "This question relates to the efficiency of energy capture in ecosystems, specifically by plants. Plants absorb only a small fraction of the photosynthetically active radiation (PAR) available from sunlight. It is precisely this 2-10 percent of PAR that forms the energy base sustaining nearly all life on Earth.",
+        "a": 0.95,
+        "b": -0.85,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 66,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Spermatogenesis",
+        "difficulty": "Medium",
+        "question": "Which one of the given groups of structures are haploid?",
+        "options": [
+            "(A) Spermatogonia, spermatids, spermatozoids",
+            "(B) Sertoli cells, sperms, secondary spermatocytes",
+            "(C) Spermatogonia, primary spermatocyte, sertoli cells",
+            "(D) Spermatids, spermatozoa, secondary spermatocytes"
+        ],
+        "answer": "(D) Spermatids, spermatozoa, secondary spermatocytes",
+        "explanation": "This question evaluates understanding of ploidy levels during human spermatogenesis. Spermatogonia and primary spermatocytes are diploid, while secondary spermatocytes, spermatids, and mature spermatozoa are all haploid. Sertoli cells are somatic cells and thus diploid, making the group of spermatids, spermatozoa, and secondary spermatocytes exclusively haploid.",
+        "a": 1.45,
+        "b": 0.15,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 67,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Sex Determination",
+        "difficulty": "Easy",
+        "question": "The sex determination in honey bee is based on the number of sets of chromosomes an\nindividual receives. So, the males are_____ having_____.",
+        "options": [
+            "(A) Haploid, 32 chromosomes",
+            "(B) Diploid, 16 chromosomes",
+            "(C) Haploid, 16 chromosomes",
+            "(D) Diploid, 32 chromosomes"
+        ],
+        "answer": "(C) Haploid, 16 chromosomes",
+        "explanation": "This question addresses the unique haplo-diploid sex determination system found in honey bees. Males, known as drones, develop from unfertilized eggs, meaning they possess only one set of chromosomes, making them haploid. Consequently, they have 16 chromosomes, while diploid females have 32.",
+        "a": 1.05,
+        "b": -0.55,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 68,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "Sexually Transmitted Infections (STIs)",
+        "difficulty": "Easy",
+        "question": "Select one of the given options which includes all sexually transmitted infections.",
+        "options": [
+            "(A) Chlamydiasis, genital herpes, hepatitis B",
+            "(B) Gonorrhoea, hepatitis-B, influenza",
+            "(C) Trichomoniasis, HIV-infection, cancer",
+            "(D) Gonorrhoea, malaria, filaria"
+        ],
+        "answer": "(A) Chlamydiasis, genital herpes, hepatitis B",
+        "explanation": "This question assesses knowledge of sexually transmitted infections (STIs), which are diseases primarily spread through sexual contact. Chlamydiasis, genital herpes, and hepatitis B are all recognized as common sexually transmissible diseases. The other options contain conditions like influenza, cancer, malaria, and filaria, which are not classified as STIs.",
+        "a": 0.85,
+        "b": -0.95,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 69,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Microsporogenesis",
+        "difficulty": "Medium",
+        "question": "Arrange the stages of microsporogenesis in their order of occurrence (A) Development of\npollen from microspores (B) Formation of microspore tetrad (C) Sporogenous tissue occupies\nthe center of microsporangium (D) Meiotic division in the cells of sporogenous tissue",
+        "options": [
+            "(A) (D), (B), (C), (A)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (D), (B), (A)"
+        ],
+        "answer": "(D) (C), (D), (B), (A)",
+        "explanation": "This question requires sequencing the steps involved in microsporogenesis, the process of pollen formation in plants. The process begins with sporogenous tissue, followed by meiosis in its cells to form microspore tetrads. Finally, microspores develop into mature pollen grains.",
+        "a": 1.55,
+        "b": 0.35,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 70,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Seed Formation",
+        "difficulty": "Easy",
+        "question": "Select the seeds with perisperm from the following options.",
+        "options": [
+            "(A) Pea and groundnut",
+            "(B) Maize and black pepper",
+            "(C) Beet and castor",
+            "(D) Beet and black pepper"
+        ],
+        "answer": "(D) Beet and black pepper",
+        "explanation": "This question tests knowledge of different seed structures, specifically identifying seeds containing perisperm. Perisperm is the remnant of the nucellus that persists in some seeds, serving as a nutritive tissue. Both beet and black pepper seeds are classic examples where a persistent nucellus forms the perisperm.",
+        "a": 1.15,
+        "b": -0.35,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 71,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Human Genome Project",
+        "difficulty": "Medium",
+        "question": "Which of the following are the salient features of Human Genome project? (A) The\naverage gene consists of 3000 bases, but sizes vary greatly. (B) Chromosome 1 has most genes\n(2968), and the Y has the fewest (231). (C) The total number of genes is estimated at 30,000\nmuch lower than previous estimates of 80,000 to 1,40,000 genes. (D) Repetitive sequences are\nstretches of DNA sequences that are repeated many times, sometimes hundred to thousand\ntimes.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(C) (A), (B), (C) and (D)",
+        "explanation": "This question evaluates comprehensive knowledge of the key findings and characteristics of the Human Genome Project. All four statements accurately describe significant aspects, including gene size, gene distribution across chromosomes, the estimated total number of genes, and the prevalence of repetitive sequences. Each point contributes to the understanding of the human genome's complexity.",
+        "a": 1.65,
+        "b": 0.55,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 72,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Productivity",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Terms: (A) Secondary productivity (B) Net primary productivity (C)\nGross primary productivity (D) Primary production Explanation: (I) The amount of biomass or\norganic matter produced per unit area over a time period by plants (II) The rate of formation of\nnew organic matter by consumers (III) The available biomass for the consumption to\nheterotrophs (herbivores and decomposers) (IV) The rate of production of organic matter during\nphotosynthesis",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+        "explanation": "This question requires matching ecological productivity terms with their correct definitions. Primary production refers to total biomass produced by plants, while Gross primary productivity is the rate of organic matter production through photosynthesis. Net primary productivity is the biomass remaining after respiration, and secondary productivity involves organic matter formation by consumers.",
+        "a": 1.75,
+        "b": 0.65,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 73,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "RNA Interference (RNAi)",
+        "difficulty": "Easy",
+        "question": "In RNA interference (RNAi) the genes are silenced using:",
+        "options": [
+            "(A) ds-DNA",
+            "(B) ds-RNA",
+            "(C) ss-RNA",
+            "(D) ss-DNA"
+        ],
+        "answer": "(B) ds-RNA",
+        "explanation": "This question pertains to RNA interference (RNAi), a crucial mechanism for gene regulation and silencing. In RNAi, gene expression is specifically inhibited by targeting mRNA with double-stranded RNA (ds-RNA) molecules. This ds-RNA leads to the degradation or translational repression of complementary mRNA sequences, thereby silencing the gene.",
+        "a": 1.05,
+        "b": -0.75,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 74,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "ZIFT",
+        "difficulty": "Medium",
+        "question": "The early embryos with upto 8 blastomeres are transferred into the fallopian tube in one\nof the assisted reproductive technologies (ART). Identify the technique.",
+        "options": [
+            "(A) GIFT",
+            "(B) ZIFT",
+            "(C) ICSI",
+            "(D) IUT"
+        ],
+        "answer": "(B) ZIFT",
+        "explanation": "This question focuses on assisted reproductive technologies (ART) used for infertility treatment. Zygote Intra Fallopian Transfer (ZIFT) is a specific ART technique where an early embryo, typically with up to eight blastomeres, is transferred directly into the fallopian tube. This allows the embryo to continue its natural journey towards the uterus for implantation.",
+        "a": 1.45,
+        "b": 0.25,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 75,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Male Reproductive System",
+        "difficulty": "Medium",
+        "question": "Secretions of which one of the following structures does not help in maturation and\nmotility of sperms?",
+        "options": [
+            "(A) Epididymis",
+            "(B) Seminal vesicles",
+            "(C) Urethra",
+            "(D) Prostate"
+        ],
+        "answer": "(C) Urethra",
+        "explanation": "This question examines the functions of accessory glands and ducts in the male reproductive system concerning sperm. The epididymis, seminal vesicles, and prostate gland all contribute secretions that are vital for sperm maturation, nourishment, and motility. The urethra, while a passage for semen, does not contribute secretions that aid in these specific functions.",
+        "a": 1.55,
+        "b": 0.15,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 76,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Biodiversity",
+        "difficulty": "Easy",
+        "question": "50,000 different strains of rice are example of:",
+        "options": [
+            "(A) Loss of biodiversity",
+            "(B) Species diversity",
+            "(C) Genetic diversity",
+            "(D) Ecological diversity"
+        ],
+        "answer": "(C) Genetic diversity",
+        "explanation": "This question defines a fundamental concept in biodiversity. Genetic diversity refers to the variation present within a single species, encompassing different strains, varieties, or breeds. The presence of 50,000 different strains of rice exemplifies this concept, highlighting the vast genetic variability within the species Oryza sativa.",
+        "a": 0.95,
+        "b": -0.65,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 77,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Mendelian Disorders",
+        "difficulty": "Easy",
+        "question": "Thalassemia is:",
+        "options": [
+            "(A) Sex-linked recessive disorder",
+            "(B) Autosome-linked dominant disorder",
+            "(C) Autosome-linked recessive disorder",
+            "(D) Sex-linked dominant disorder"
+        ],
+        "answer": "(C) Autosome-linked recessive disorder",
+        "explanation": "This question asks about the genetic basis of Thalassemia, a common inherited blood disorder. Thalassemia is characterized as an autosome-linked recessive disorder, meaning the defective gene is located on an autosome (non-sex chromosome) and requires two copies of the recessive allele for the disease to manifest. This pattern of inheritance distinguishes it from sex-linked or dominant conditions.",
+        "a": 1.15,
+        "b": -0.45,
+        "source_chunk": 5
+    },
+    {
+        "question_number": 78,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Food Chain",
+        "difficulty": "Easy",
+        "question": "Arrange the given organisms in the food chain starting from lower to higher trophic level?\n(A) Lion (B) Cow (C) Grass (D) Wolf",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(D) (C), (B), (D), (A)",
+        "explanation": "Food chains illustrate the flow of energy through an ecosystem, beginning with producers and moving up through various consumer levels. To construct a food chain, one must identify the producers, followed by primary, secondary, and tertiary consumers in sequence. Grass is a producer, cows are primary consumers, wolves are secondary consumers, and lions are tertiary consumers, correctly ordering them as (C), (B), (D), (A).",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 79,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "Contraceptive Methods",
+        "difficulty": "Easy",
+        "question": "Which one of the followings is not a method of contraception in females?",
+        "options": [
+            "(A) Diaphragms",
+            "(B) Vaults",
+            "(C) Vasectomy",
+            "(D) Cervical caps"
+        ],
+        "answer": "(C) Vasectomy",
+        "explanation": "Contraceptive methods are strategies used to prevent pregnancy, available for both males and females. Diaphragms, vaults, and cervical caps are all barrier methods designed for female use, physically blocking sperm from entering the uterus. Vasectomy, however, is a permanent surgical method of contraception performed on males, involving the cutting or sealing of the vas deferens.",
+        "a": 1.1,
+        "b": -0.8,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 80,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Hardy-Weinberg Principle",
+        "difficulty": "Medium",
+        "question": "Which of the following statements are true with respect to the Hardy-Weinberg principle:\n(A) Allele frequencies in a population are stable and are constant from generation to generation.\n(B) The sum total of all the frequencies is equal to 1. (C) Gene pool remains constant. (D) Total\ngenes and their alleles keep on changing in a given population.",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(B) (A), (B) and (C) only",
+        "explanation": "The Hardy-Weinberg principle describes a theoretical model where allele and genotype frequencies in a population remain constant from generation to generation under specific conditions. These conditions include no mutation, no gene flow, random mating, no genetic drift, and no natural selection, ensuring the gene pool's stability. Thus, stable allele frequencies, a total frequency sum of one, and a constant gene pool are characteristic features of this principle.",
+        "a": 1.4,
+        "b": 0.2,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 81,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Molecular Diagnosis",
+        "difficulty": "Easy",
+        "question": "A single stranded DNA or RNA, tagged with a radioactive molecule is called as:",
+        "options": [
+            "(A) Primer",
+            "(B) Quencher",
+            "(C) Reporter",
+            "(D) Probe"
+        ],
+        "answer": "(D) Probe",
+        "explanation": "Molecular probes are essential tools in biotechnology used for detecting specific nucleic acid sequences within a sample. These probes are single-stranded segments of DNA or RNA that are complementary to the target sequence and are tagged with a detectable marker. The radioactive molecule allows for visualization and identification of the probe-target hybrid, confirming the presence of the desired sequence.",
+        "a": 0.9,
+        "b": -0.7,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 82,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Restriction Enzymes",
+        "difficulty": "Easy",
+        "question": "Which one of the following enzymes acts as molecular scissors?",
+        "options": [
+            "(A) DNA polymerase",
+            "(B) RNA polymerase",
+            "(C) Restriction enzymes",
+            "(D) Helicase"
+        ],
+        "answer": "(C) Restriction enzymes",
+        "explanation": "Restriction enzymes are a class of endonucleases that play a crucial role in molecular biology by cleaving DNA at specific recognition sequences. Their ability to precisely cut DNA strands has earned them the nickname \"molecular scissors.\" This property makes them indispensable for genetic engineering techniques, including gene cloning and the creation of recombinant DNA.",
+        "a": 1.0,
+        "b": -0.5,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 83,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Downstream Processing",
+        "difficulty": "Easy",
+        "question": "Which one of the following techniques is used for the separation of DNA fragments?",
+        "options": [
+            "(A) Polymerase Chain Reaction (PCR)",
+            "(B) MRI",
+            "(C) Gel electrophoresis",
+            "(D) ELISA"
+        ],
+        "answer": "(C) Gel electrophoresis",
+        "explanation": "Gel electrophoresis is a widely used laboratory technique for separating macromolecules like DNA, RNA, and proteins based on their size and electrical charge. DNA fragments, being negatively charged, migrate through an agarose or polyacrylamide gel towards the positive electrode. Smaller fragments move faster and further, allowing for effective separation and size estimation.",
+        "a": 0.95,
+        "b": -0.6,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 84,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "DNA Packaging",
+        "difficulty": "Easy",
+        "question": "The negatively charged DNA is wrapped around the positively charged histone octamer and forms a structure, called:",
+        "options": [
+            "(A) Chromosome",
+            "(B) Nucleosome",
+            "(C) Centrosome",
+            "(D) Peroxisome"
+        ],
+        "answer": "(B) Nucleosome",
+        "explanation": "Eukaryotic DNA is highly organized within the nucleus to fit into the limited space of the cell. This packaging involves the winding of negatively charged DNA around positively charged histone proteins, forming fundamental structural units. This complex of DNA wrapped around a histone octamer is known as a nucleosome, serving as the basic repeating unit of chromatin.",
+        "a": 1.05,
+        "b": -0.75,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 85,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Cancer",
+        "difficulty": "Medium",
+        "question": "(Passage: Salmonella typhi, Plasmodium, MALT, cancer/contact inhibition, cannabinoids)\nWhich one of the following statements is not true?",
+        "options": [
+            "(A) Cancerous cells lose the property of contact inhibition.",
+            "(B) Normal cells do not show the property of contact inhibition.",
+            "(C) Cancerous cells show uncontrolled growth.",
+            "(D) Benign tumors normally remain confined to their original location."
+        ],
+        "answer": "(B) Normal cells do not show the property of contact inhibition.",
+        "explanation": "Contact inhibition is a fundamental property of normal animal cells that regulates their growth and division, causing them to stop proliferating once they come into contact with neighboring cells. Cancerous cells, however, lose this crucial regulatory mechanism, leading to their characteristic uncontrolled growth and division. Therefore, the statement that normal cells do not show contact inhibition is incorrect.",
+        "a": 1.35,
+        "b": 0.1,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 86,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Malaria",
+        "difficulty": "Medium",
+        "question": "(Passage: Salmonella typhi, Plasmodium, MALT, cancer/contact inhibition, cannabinoids)\nThe rupture of RBCs is associated with release of a toxic substance__________, which is responsible for the chill and high fever recurring every three to four days.",
+        "options": [
+            "(A) Haeme",
+            "(B) Haemozoin",
+            "(C) Haemoglobin",
+            "(D) Heparin"
+        ],
+        "answer": "(B) Haemozoin",
+        "explanation": "Malaria is a severe disease caused by Plasmodium parasites, which infect red blood cells during their life cycle. When these infected red blood cells rupture, they release a toxic pigment called haemozoin into the bloodstream. This release triggers the body's immune response, leading to the recurring cycles of chills and high fever characteristic of malarial symptoms.",
+        "a": 1.45,
+        "b": 0.3,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 87,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Acquired Immunity",
+        "difficulty": "Medium",
+        "question": "(Passage: Salmonella typhi, Plasmodium, MALT, cancer/contact inhibition, cannabinoids)\nWhich one of the following structures constitute about 50 percent of the lymphoid tissue in the human body?",
+        "options": [
+            "(A) Mucosa associated lymphoid tissue",
+            "(B) Bone marrow",
+            "(C) Thymus",
+            "(D) Lymph node"
+        ],
+        "answer": "(A) Mucosa associated lymphoid tissue",
+        "explanation": "The human immune system includes various lymphoid tissues that protect the body from pathogens. Mucosa-Associated Lymphoid Tissue (MALT) is a significant component, found in the linings of the respiratory, digestive, and urogenital tracts. MALT collectively represents approximately 50 percent of the total lymphoid tissue in the human body, acting as a crucial first line of defense.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 88,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Typhoid",
+        "difficulty": "Easy",
+        "question": "(Passage: Salmonella typhi, Plasmodium, MALT, cancer/contact inhibition, cannabinoids)\nWidal test is used to diagnose",
+        "options": [
+            "(A) Malaria",
+            "(B) Dengue",
+            "(C) Typhoid",
+            "(D) Chikungunya"
+        ],
+        "answer": "(C) Typhoid",
+        "explanation": "Typhoid fever is a bacterial infection caused by Salmonella typhi, primarily transmitted through contaminated food and water. The Widal test is a common serological diagnostic method used to detect antibodies produced by the body in response to Salmonella typhi infection. A positive Widal test indicates the presence of these specific antibodies, confirming a typhoid diagnosis.",
+        "a": 0.9,
+        "b": -0.6,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 89,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Drug Abuse",
+        "difficulty": "Medium",
+        "question": "(Passage: Salmonella typhi, Plasmodium, MALT, cancer/contact inhibition, cannabinoids)\nIn which organ of the human body, cannabinoid receptors are principally present?",
+        "options": [
+            "(A) Kidney",
+            "(B) Lungs",
+            "(C) Heart",
+            "(D) Brain"
+        ],
+        "answer": "(D) Brain",
+        "explanation": "Cannabinoid receptors are specific protein receptors in the brain and other parts of the body that bind to cannabinoids, the active compounds found in cannabis. These receptors are principally concentrated in the brain, where they play a crucial role in regulating various physiological and cognitive processes. Their presence in the brain mediates the psychoactive and therapeutic effects of cannabinoids.",
+        "a": 1.3,
+        "b": 0.0,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 90,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Household Products",
+        "difficulty": "Easy",
+        "question": "(Passage: Antibiotics, Streptokinase, sewage treatment, prions)\nThe puffed-up appearance of dough in the baking industry is due to the production of",
+        "options": [
+            "(A) Carbon dioxide",
+            "(B) Methane",
+            "(C) Carbon monoxide",
+            "(D) Lactic acid"
+        ],
+        "answer": "(A) Carbon dioxide",
+        "explanation": "The process of baking dough involves the fermentation activity of yeast, typically Saccharomyces cerevisiae. During fermentation, yeast metabolizes sugars present in the dough, producing ethanol and carbon dioxide gas as byproducts. The accumulation of carbon dioxide gas within the dough creates bubbles, which causes the dough to rise and gives it a characteristic puffed-up appearance.",
+        "a": 0.85,
+        "b": -0.9,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 91,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Sewage Treatment",
+        "difficulty": "Medium",
+        "question": "(Passage: Antibiotics, Streptokinase, sewage treatment, prions)\nPrimary sludge treatment involves",
+        "options": [
+            "(A) Treatment of sewage by the heterotrophic microbes naturally",
+            "(B) Biologically removal of small and large particles from the sewage",
+            "(C) Chemically removal of small and large particles from the sewage",
+            "(D) Physically removal of small and large particles from the sewage"
+        ],
+        "answer": "(D) Physically removal of small and large particles from the sewage",
+        "explanation": "Primary sewage treatment is the initial stage of wastewater purification, primarily a physical process designed to remove large and small suspended solids. This stage involves sequential filtration to remove floating debris, followed by sedimentation in large tanks where grit and solids settle down to form primary sludge. The supernatant is then moved to secondary treatment.",
+        "a": 1.3,
+        "b": 0.05,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 92,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Antibiotics",
+        "difficulty": "Easy",
+        "question": "(Passage: Antibiotics, Streptokinase, sewage treatment, prions)\nAntibiotics work against?",
+        "options": [
+            "(A) Viral disease",
+            "(B) Bacterial disease",
+            "(C) Bacterial and Viral disease",
+            "(D) Fungal disease"
+        ],
+        "answer": "(B) Bacterial disease",
+        "explanation": "Antibiotics are potent antimicrobial agents specifically designed to combat bacterial infections. They function by either killing bacteria directly or inhibiting their growth and reproduction, without significantly harming human cells. Crucially, antibiotics are ineffective against viral diseases because viruses have different cellular structures and reproductive mechanisms.",
+        "a": 1.1,
+        "b": -0.5,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 93,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Bioactive Molecules",
+        "difficulty": "Medium",
+        "question": "(Passage: Antibiotics, Streptokinase, sewage treatment, prions)\nGenetically modified Streptokinase is used as a 'clot buster' for removing clots from the blood vessels is produced by:",
+        "options": [
+            "(A) Staphylococcus",
+            "(B) Aspergillus niger",
+            "(C) Streptococcus",
+            "(D) Penicillium notatum"
+        ],
+        "answer": "(C) Streptococcus",
+        "explanation": "Streptokinase is an enzyme derived from Streptococcus bacteria, widely utilized in medicine as a 'clot buster'. This enzyme helps dissolve blood clots that can obstruct blood flow in vessels, preventing conditions like heart attacks and strokes. Genetically modified forms of Streptokinase are produced for enhanced efficacy and safety in therapeutic applications.",
+        "a": 1.4,
+        "b": 0.25,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 94,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Health",
+        "difficulty": "Medium",
+        "question": "(Passage: Antibiotics, Streptokinase, sewage treatment, prions)\nPrions are made up of:",
+        "options": [
+            "(A) RNA",
+            "(B) DNA",
+            "(C) Protein",
+            "(D) Both RNA and Protein"
+        ],
+        "answer": "(C) Protein",
+        "explanation": "Prions are unique infectious agents composed solely of misfolded protein molecules, notably lacking any nucleic acid genetic material (DNA or RNA). These abnormal proteins can induce normally folded proteins in the host to misfold into the prion form. This process leads to severe neurodegenerative diseases in humans and animals, such as Creutzfeldt-Jakob disease.",
+        "a": 1.35,
+        "b": 0.15,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 95,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Hershey-Chase Experiment",
+        "difficulty": "Medium",
+        "question": "The unequivocal proof that DNA is the genetic material came from the experiments of ___.",
+        "options": [
+            "(A) Matthew Meselson and Franklin Stahl",
+            "(B) Frederick Griffith",
+            "(C) Oswald Avery, Colin MacLeod and Maclyn McCarty",
+            "(D) Alfred Hershey and Martha Chase"
+        ],
+        "answer": "(D) Alfred Hershey and Martha Chase",
+        "explanation": "The definitive evidence establishing DNA as the genetic material came from the pivotal experiments conducted by Alfred Hershey and Martha Chase. They used bacteriophages, viruses that infect bacteria, to demonstrate that it was the phage's DNA, not its protein, that entered the bacterial cell and directed the synthesis of new viruses. This groundbreaking work solidified DNA's role as the carrier of genetic information.",
+        "a": 1.4,
+        "b": 0.2,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 96,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Recombinant DNA Technology",
+        "difficulty": "Medium",
+        "question": "The construction of the first recombinant DNA emerged from linking a gene encoding antibiotic resistance with a native plasmid of _______________.",
+        "options": [
+            "(A) Streptococcus pneumoniae",
+            "(B) Escherichia coli",
+            "(C) Staphylococcus",
+            "(D) Salmonella typhimurium"
+        ],
+        "answer": "(D) Salmonella typhimurium",
+        "explanation": "The groundbreaking achievement of constructing the first artificial recombinant DNA molecule involved combining genetic material from different sources. This feat was accomplished by Stanley Cohen and Herbert Boyer, who linked a gene encoding antibiotic resistance. This gene was successfully ligated into a plasmid derived from the bacterium Salmonella typhimurium, marking a critical milestone in biotechnology.",
+        "a": 1.5,
+        "b": 0.35,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 97,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Microsporangium",
+        "difficulty": "Easy",
+        "question": "Which one of the following layers of microsporangium nourishes the developing pollen grains?",
+        "options": [
+            "(A) Endothecium",
+            "(B) Tapetum",
+            "(C) Epidermis",
+            "(D) Middle layer"
+        ],
+        "answer": "(B) Tapetum",
+        "explanation": "Within the microsporangium of flowering plants, several layers protect and nourish the developing pollen grains. The tapetum is the innermost and most crucial layer, characterized by its dense cytoplasm and multinucleate cells. Its primary function is to provide essential nutrients and enzymes required for the proper development and maturation of microspores into functional pollen grains.",
+        "a": 0.9,
+        "b": -0.7,
+        "source_chunk": 6
+    },
+    {
+        "question_number": 98,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Molecular Diagnosis",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II\nTechniques: (A) ELISA (B) PCR (C) Autoradiography (D) Recombinant DNA technology\nRelated features: (I) Production of mature insulin (II) Antigen-antibody interaction (III) Amplification of DNA (IV) Photographic film",
+        "options": [
+            "(A) (A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+        "explanation": "This question tests knowledge of common biotechnological techniques and their applications. ELISA relies on the specific binding between antigens and antibodies for detection, while PCR is used to amplify DNA sequences. Autoradiography visualizes radioactive isotopes using photographic film, and recombinant DNA technology allowed the first successful production of human insulin. Matching these definitions leads directly to the correct option.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 99,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Predation",
+        "difficulty": "Easy",
+        "question": "What is the defense mechanism adopted by Acacia and Cactus to protect themselves from predators (herbivores)?",
+        "options": [
+            "(A) Fleshy stem",
+            "(B) Dry habitat",
+            "(C) Thorns",
+            "(D) Rough texture"
+        ],
+        "answer": "(C) Thorns",
+        "explanation": "Plants have evolved various defense mechanisms against herbivory. Acacia and Cactus, both adapted to arid environments, prominently feature thorns. These sharp, modified stems or leaves physically deter herbivores from consuming the plant material. This adaptation significantly reduces the chances of predation, enhancing the plant's survival.",
+        "a": 1.1,
+        "b": -1.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 100,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Food Chain",
+        "difficulty": "Medium",
+        "question": "Arrange the trophic levels in an order from lowest to highest in a terrestrial food chain: (A) Wolf (B) Grass (C) Cow (D) Lion",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (B), (C), (A), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (B), (C), (A), (D)",
+        "explanation": "Trophic levels categorize organisms by their position in a food chain, starting with producers. Grass (B) is a producer, forming the lowest trophic level. The Cow (C) is a primary consumer (herbivore), feeding on grass. The Wolf (A) is a secondary consumer, preying on herbivores like the cow, and the Lion (D) is a tertiary consumer or top predator, positioned highest in this chain. Thus, the correct order from lowest to highest is Grass, Cow, Wolf, Lion.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 101,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Decomposition",
+        "difficulty": "Medium",
+        "question": "The decomposition rate is slower if detritus is rich in–",
+        "options": [
+            "(A) Nitrogen",
+            "(B) Sugars",
+            "(C) Cellulose",
+            "(D) Chitin"
+        ],
+        "answer": "(D) Chitin",
+        "explanation": "The rate of decomposition is influenced by the chemical composition of detritus. Substances like nitrogen and water-soluble sugars promote faster decomposition by decomposers. Conversely, complex organic compounds such as lignin and chitin are highly resistant to microbial action, leading to a significantly slower rate of breakdown. Among the options, chitin is explicitly known for slowing decomposition due to its recalcitrant nature.",
+        "a": 1.55,
+        "b": 0.35,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 102,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Male Reproductive System",
+        "difficulty": "Easy",
+        "question": "Which is not the male sex accessory gland?",
+        "options": [
+            "(A) Seminal vesicle",
+            "(B) Prostate",
+            "(C) Rete testis",
+            "(D) Bulbourethral gland"
+        ],
+        "answer": "(C) Rete testis",
+        "explanation": "The male accessory glands contribute fluids to the semen, including the seminal vesicles, prostate gland, and bulbourethral glands. The rete testis, however, is a network of tubules located within the testis itself. Its function is to collect spermatozoa from the seminiferous tubules and transport them to the efferent ducts, classifying it as part of the testicular structure rather than an accessory gland.",
+        "a": 1.0,
+        "b": -0.8,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 103,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "IUI",
+        "difficulty": "Easy",
+        "question": "The technique in which the semen collected either from the husband or the donor is artificially introduced into the uterus is known as–",
+        "options": [
+            "(A) Gamete intra fallopian transfer",
+            "(B) Zygote intra fallopian transfer",
+            "(C) Intra cytoplasmic sperm injection",
+            "(D) Intra uterine insemination"
+        ],
+        "answer": "(D) Intra uterine insemination",
+        "explanation": "This question describes the specific assisted reproductive technology known as Intra Uterine Insemination (IUI). In IUI, semen is directly introduced into the female's uterus, bypassing the vagina and cervix. This technique is often used to overcome male infertility issues or unexplained infertility. Other options like GIFT, ZIFT, and ICSI involve different procedures such as transfer of gametes/zygotes to fallopian tubes or direct sperm injection into an egg.",
+        "a": 1.2,
+        "b": -0.6,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 104,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Transcription",
+        "difficulty": "Medium",
+        "question": "Which one of the following regions is not present in transcriptional unit of DNA",
+        "options": [
+            "(A) A Promoter",
+            "(B) The Structural gene",
+            "(C) Initiation factor",
+            "(D) A Terminator"
+        ],
+        "answer": "(C) Initiation factor",
+        "explanation": "A typical transcriptional unit in DNA consists of three main regions: a promoter, a structural gene, and a terminator. These DNA sequences directly dictate where transcription begins, what sequence is transcribed, and where it ends. An initiation factor, like the sigma factor in prokaryotes, is a protein that aids RNA polymerase in initiating transcription but is not a physical region of the DNA itself.",
+        "a": 1.45,
+        "b": 0.25,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 105,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Transcription",
+        "difficulty": "Medium",
+        "question": "RNA polymerase III is responsible for transcription of ",
+        "options": [
+            "(A) rRNAs",
+            "(B) hnRNA",
+            "(C) tRNA, 5srRNA, and snRNAs",
+            "(D) ds RNA"
+        ],
+        "answer": "(C) tRNA, 5srRNA, and snRNAs",
+        "explanation": "In eukaryotic cells, different RNA polymerases are specialized for transcribing specific types of RNA. RNA polymerase I is responsible for transcribing most ribosomal RNAs (rRNAs). RNA polymerase II transcribes messenger RNA precursors (hnRNA) and some small nuclear RNAs (snRNAs). RNA polymerase III specifically transcribes transfer RNA (tRNA), 5S rRNA, and other small nuclear RNAs (snRNAs).",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 106,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Restriction Enzymes",
+        "difficulty": "Easy",
+        "question": "Roman numbers in the names of restriction enzymes indicate –",
+        "options": [
+            "(A) Number of genus of the bacteria",
+            "(B) Number of species of bacteria",
+            "(C) Order in which enzymes were isolated from that strain of bacteria",
+            "(D) Position at which they cut in the DNA sequence"
+        ],
+        "answer": "(C) Order in which enzymes were isolated from that strain of bacteria",
+        "explanation": "The nomenclature of restriction enzymes follows a specific convention. The first letter comes from the genus, the next two letters from the species of the prokaryotic cell, and the Roman numerals indicate the order of discovery or isolation from that particular strain of bacteria. For example, in EcoRI, 'I' signifies that it was the first enzyme isolated from the R strain of E. coli. This system ensures clear identification and classification of these molecular tools.",
+        "a": 1.25,
+        "b": -0.55,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 107,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Spermatogenesis",
+        "difficulty": "Medium",
+        "question": "Identify the correct sequence of structures formed during spermatogenesis. (A) Spermatozoa (B) Secondary spermatocytes (C) Spermatogonia (D) Spermatids",
+        "options": [
+            "(A) (A), (C), (D), (B)",
+            "(B) (A), (B), (C), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(D) (C), (B), (D), (A)",
+        "explanation": "Spermatogenesis is the process of sperm formation, which occurs in a specific sequence. It begins with spermatogonia (C), which undergo mitosis to increase in number and then meiosis to form primary spermatocytes. These then proceed to form secondary spermatocytes (B) after meiosis I. Secondary spermatocytes undergo meiosis II to produce spermatids (D), which finally differentiate into mature spermatozoa (A) through spermiogenesis. Therefore, the correct sequence is Spermatogonia, Secondary spermatocytes, Spermatids, and Spermatozoa.",
+        "a": 1.4,
+        "b": 0.05,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 108,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Chromosomal Theory of Inheritance",
+        "difficulty": "Easy",
+        "question": "Who discovered that the behaviour of chromosomes was parallel to the behaviour of genes?",
+        "options": [
+            "(A) Sutton and Boveri",
+            "(B) de Vries and Correns",
+            "(C) Mendel",
+            "(D) Thomas Hunt Morgan"
+        ],
+        "answer": "(A) Sutton and Boveri",
+        "explanation": "The Chromosomal Theory of Inheritance, which postulates that genes are located on chromosomes, was independently proposed by Walter Sutton and Theodor Boveri in the early 20th century. Their observations of chromosome movement during meiosis provided a physical basis for Mendel's laws of heredity. They showed a clear parallelism between the behavior of chromosomes and the behavior of Mendelian factors (genes). This work laid the foundation for modern genetics.",
+        "a": 1.15,
+        "b": -0.7,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 109,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Menstrual Cycle",
+        "difficulty": "Medium",
+        "question": "The menstrual flow results due to: A. Increased estrogen levels B. When released ovum is not fertilized C. When pregnancy occurs D. Breakdown of the endometrial lining of the uterus and its blood vessels",
+        "options": [
+            "(A) (A), (B), (C) and (D)",
+            "(B) (A), (C) and (D) only",
+            "(C) (A), (B) and (D) only",
+            "(D) (B) and (D) only"
+        ],
+        "answer": "(D) (B) and (D) only",
+        "explanation": "Menstrual flow occurs when the released ovum is not fertilized, leading to the degeneration of the corpus luteum. This degeneration causes a sharp decrease in the levels of progesterone and estrogen hormones. The abrupt decline in these hormones triggers the breakdown of the thickened endometrial lining of the uterus, along with its blood vessels, which is then shed as menstrual flow. Increased estrogen levels and pregnancy actually prevent menstruation.",
+        "a": 1.35,
+        "b": 0.0,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 110,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Patterns of Biodiversity",
+        "difficulty": "Easy",
+        "question": "In species-area relationships equation - log S = log C + Z log A, 'Z' denotes the ",
+        "options": [
+            "(A) Area",
+            "(B) Species richness",
+            "(C) Regression coefficient",
+            "(D) Y-intercept"
+        ],
+        "answer": "(C) Regression coefficient",
+        "explanation": "The species-area relationship describes how species richness (S) relates to the area (A) of a habitat, often expressed as S = CA^Z. When plotted on a logarithmic scale, the equation becomes log S = log C + Z log A. In this linear equation, 'Z' represents the slope of the line, which is statistically known as the regression coefficient, or the species-area exponent. It indicates how steeply species richness increases with area.",
+        "a": 1.1,
+        "b": -0.65,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 111,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Pollination",
+        "difficulty": "Medium",
+        "question": "In water hyacinth, pollination is carried out by - (A) Wind (B) Water (C) Insects (D) Animals",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(B) (A) and (C) only",
+        "explanation": "Water hyacinth (Eichhornia crassipes) is an aquatic plant, but its flowers are emergent and situated above the water surface. Unlike submerged aquatic plants, it primarily relies on biotic and abiotic agents for pollination that operate in the air. Therefore, pollination in water hyacinth is typically carried out by wind (anemophily) or insects (entomophily), not by water. Other animals are less likely primary pollinators.",
+        "a": 1.3,
+        "b": -0.1,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 112,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Population Interactions",
+        "difficulty": "Easy",
+        "question": "Match List-I with List-II\nSigns of Interspecific Interactions (Between Species A and B): (A) +/- (B) +/+ (C) +/0 (D) -/0\nPopulation Interactions: (I) Commensalism (II) Parasitism (III) Amensalism (IV) Mutualism",
+        "options": [
+            "(A) (A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(D) (A)-(II), (B)-(IV), (C)-(III), (D)-(I)"
+        ],
+        "answer": "(A) (A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+        "explanation": "This question requires matching symbols of interspecific interactions to their correct definitions. The +/- interaction signifies parasitism, where one species benefits and the other is harmed. A +/+ interaction denotes mutualism, benefiting both species. Commensalism is represented by +/0, where one species benefits and the other is unaffected. Finally, -/0 indicates amensalism, where one species is harmed while the other remains unaffected. This matching clarifies the different types of ecological relationships.",
+        "a": 1.05,
+        "b": -0.9,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 113,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Ex-situ Conservation",
+        "difficulty": "Medium",
+        "question": "Select the examples of ex-situ conservation: (A) Zoological parks (B) Sanctuaries (C) Seed banks (D) Cryopreservation of gametes",
+        "options": [
+            "(A) (A), (C) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (C) and (D) only",
+        "explanation": "Ex-situ conservation involves protecting and conserving components of biological diversity outside their natural habitats. Zoological parks maintain animals in controlled environments, seed banks store genetic material as seeds, and cryopreservation involves freezing gametes for long-term storage, all representing ex-situ methods. Sanctuaries, however, are areas where wildlife and their habitats are protected in their natural environment, thus categorizing them as in-situ conservation. Therefore, (A), (C), and (D) are correct.",
+        "a": 1.3,
+        "b": -0.2,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 114,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Endemism",
+        "difficulty": "Easy",
+        "question": "The Western Ghats have a greater number of amphibian species than the Eastern Ghats. This is an example of:",
+        "options": [
+            "(A) Genetic Diversity",
+            "(B) Species Diversity",
+            "(C) Ecological Diversity",
+            "(D) Global Diversity"
+        ],
+        "answer": "(B) Species Diversity",
+        "explanation": "Species diversity refers to the variety of different species present in a particular region. When comparing the number of amphibian species between the Western and Eastern Ghats, we are specifically assessing the richness and abundance of different species. Genetic diversity relates to variations within a single species, while ecological diversity refers to the variety of ecosystems. Global diversity encompasses all life on Earth.",
+        "a": 1.15,
+        "b": -0.85,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 115,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Bt Cotton",
+        "difficulty": "Medium",
+        "question": "Bt toxin is expressed in plants to provide resistance to insects; hence used as a biopesticide. Select the correct examples of Bt plants: (A) Bt Cotton (B) Bt Rice (C) Bt Peas (D) Bt Corn",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (B) and (D) only",
+        "explanation": "Bt plants are genetically modified to express toxins from Bacillus thuringiensis, providing inherent resistance against certain insect pests. Bt Cotton and Bt Corn are widely commercialized and recognized examples of such genetically engineered crops. Bt Rice has also been successfully developed and tested for pest resistance. While genetic modification is possible for many crops, Bt Peas are not typically listed among the prominent commercial Bt crops alongside cotton, rice, and corn.",
+        "a": 1.4,
+        "b": 0.15,
+        "source_chunk": 7
+    },
+    {
+        "question_number": 116,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Origin of Life",
+        "difficulty": "Easy",
+        "question": "About ________________ the first cellular forms of life appeared on earth.",
+        "options": [
+            "(A) 200 million years ago",
+            "(B) 500 million years ago",
+            "(C) 2000 million years ago",
+            "(D) 20000 million years ago"
+        ],
+        "answer": "(C) 2000 million years ago",
+        "explanation": "This question pertains to the timeline of life's origin and the evolutionary processes on Earth. According to established biological timelines and paleontological evidence, the first cellular forms of life emerged approximately 2000 million years ago. This significant period marks the beginning of prokaryotic life, which fundamentally set the stage for all subsequent complex biological diversity and ecosystem development.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 117,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Evolution of Plants",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Geological periods: (A) Cretaceous (B) Jurassic (C) Carboniferous\n(D) Devonian Plant forms: (I) Seed ferns (II) Progymnosperms (III) Sphenopsids (IV) Conifers",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+            "(D) (A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+        ],
+        "answer": "(C) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "This question requires matching geological periods with characteristic plant forms. The Devonian period is known for the emergence of Progymnosperms, while the Jurassic period saw the dominance of Conifers. The Carboniferous period is well-known for extensive forests of Seed ferns, and Sphenopsids, though peaking earlier, were still present in the Cretaceous period.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 118,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "DNA Structure",
+        "difficulty": "Easy",
+        "question": "A nucleoside comprises:",
+        "options": [
+            "(A) A nitrogenous base, a pentose sugar, and a phosphate group",
+            "(B) A nitrogenous base and a phosphate group",
+            "(C) A nitrogenous base and a pentose sugar",
+            "(D) A pentose sugar and a phosphate group"
+        ],
+        "answer": "(C) A nitrogenous base and a pentose sugar",
+        "explanation": "A nucleoside is a fundamental structural unit in nucleic acids, specifically DNA and RNA. It consists of a nitrogenous base covalently bonded to a pentose sugar, which can be either ribose or deoxyribose. The addition of a phosphate group to a nucleoside then forms a nucleotide, which is the monomer of nucleic acid polymers.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 119,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Recombinant DNA Technology",
+        "difficulty": "Medium",
+        "question": "Arrange the steps for transformation of recombinant DNA in sequence - (A) For heat\nshock, bacterial cells are placed at 42°C; and then they are placed on ice. (B) The bacterial cells\nmust be made 'competent' to take up DNA by treating them with a specific concentration of\ndivalent cation such as calcium. (C) The bacteria are now able to take up the recombinant DNA.\n(D) Recombinant DNA can then be forced into those cells by incubating the cells with\nrecombinant DNA on ice.",
+        "options": [
+            "(A) (B), (D), (A), (C)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(A) (B), (D), (A), (C)",
+        "explanation": "The first step in transforming bacterial cells with recombinant DNA involves making them competent to absorb DNA, typically using divalent cations like calcium. Next, these competent cells are incubated with the recombinant DNA on ice to facilitate molecular binding. Following this, a brief heat shock at 42°C induces the cells to effectively take up the DNA, after which they are returned to ice.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 120,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "Contraceptive Methods",
+        "difficulty": "Medium",
+        "question": "Identify the correct combination of intra uterine devices. (A) Lippes loop (B) LNG-20 (C)\nSaheli (D) Multiload 375",
+        "options": [
+            "(A) (B), (C) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (A), (B) and (D) only"
+        ],
+        "answer": "(D) (A), (B) and (D) only",
+        "explanation": "Intrauterine Devices (IUDs) are contraceptive methods specifically inserted into the uterus to prevent pregnancy. Lippes loop represents a non-medicated IUD, while LNG-20 and Multiload 375 are hormone-releasing and copper-releasing IUDs, respectively, each with distinct mechanisms of action. Saheli, however, is an oral contraceptive pill and not an IUD, thus it is excluded from the correct combination of IUDs.",
+        "a": 1.4,
+        "b": -0.1,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 121,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Genetically Modified Organisms (GMOs)",
+        "difficulty": "Easy",
+        "question": "'GEAC' stands for",
+        "options": [
+            "(A) Genetic Engineering Association Committee",
+            "(B) Genetic Engineering Approval Committee",
+            "(C) Genetic Editing Approval Commission",
+            "(D) Genetic Editing Association Commission"
+        ],
+        "answer": "(B) Genetic Engineering Approval Committee",
+        "explanation": "GEAC, which stands for Genetic Engineering Approval Committee, is a crucial regulatory body in India. Its primary role involves making informed decisions regarding the validity of genetic modification research and ensuring the environmental safety of introducing genetically modified organisms for public services. This committee ensures ethical and safety guidelines are meticulously followed in all genetic engineering applications.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 122,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Molecular Diagnosis",
+        "difficulty": "Easy",
+        "question": "A single stranded DNA or RNA tagged with a radioactive probe is allowed to hybridize to\nits complementary DNA in a clone of cells followed by detection using _____________.",
+        "options": [
+            "(A) Polymerase chain reaction",
+            "(B) ELISA",
+            "(C) Autoradiography",
+            "(D) Gel electrophoresis"
+        ],
+        "answer": "(C) Autoradiography",
+        "explanation": "This technique, involving the hybridization of a radioactive probe to complementary DNA, is a core principle in molecular diagnostics and biotechnology applications. The precise detection of the hybridized radioactive probe is achieved through autoradiography, which visualizes the emitted radiation. This process allows for the accurate identification of specific DNA sequences within a complex sample or cloned population of cells.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 123,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Mendelian Disorders",
+        "difficulty": "Easy",
+        "question": "Identify the autosome-linked recessive disorder.",
+        "options": [
+            "(A) Myotonic dystrophy",
+            "(B) Color blindness",
+            "(C) Thalassemia",
+            "(D) Haemophilia"
+        ],
+        "answer": "(C) Thalassemia",
+        "explanation": "Autosomal recessive disorders are genetic conditions that manifest when an individual inherits two abnormal gene copies, one from each parent, located on non-sex chromosomes. Thalassemia perfectly fits this description, being a common example of an autosome-linked recessive blood disorder affecting hemoglobin production. In contrast, color blindness and haemophilia are X-linked recessive, while myotonic dystrophy is autosomal dominant.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 124,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Exponential Growth",
+        "difficulty": "Easy",
+        "question": "When resources are unlimited in a habitat, what type of growth is seen in the population?",
+        "options": [
+            "(A) Exponential growth",
+            "(B) Logistic growth",
+            "(C) Stable growth",
+            "(D) Lagging growth"
+        ],
+        "answer": "(A) Exponential growth",
+        "explanation": "In ecology, population growth models describe how populations change over time under varying resource conditions. When environmental resources are abundant and there are no limiting factors, a population will exhibit exponential growth, characterized by a rapid and continuous increase in numbers. This J-shaped curve signifies that the population's growth rate is directly proportional to its current size, without any carrying capacity constraints.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 125,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Gene Therapy",
+        "difficulty": "Easy",
+        "question": "The first clinical gene therapy was given in 1990 to a 4-year-old girl with\n___________________.",
+        "options": [
+            "(A) Adenosine aminase deficiency",
+            "(B) Cytosine deaminase deficiency",
+            "(C) Adenosine deaminase deficiency",
+            "(D) Adenosine protease deficiency"
+        ],
+        "answer": "(C) Adenosine deaminase deficiency",
+        "explanation": "The landmark first clinical gene therapy was successfully performed in 1990 to address a severe combined immunodeficiency (SCID) caused by Adenosine Deaminase (ADA) deficiency. This pioneering medical treatment involved introducing functional ADA genes into the patient's lymphocytes, specifically targeting the genetic defect. It demonstrated the immense potential of gene therapy to effectively correct inherited genetic disorders at their root cause.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 126,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Biodiversity Loss",
+        "difficulty": "Medium",
+        "question": "Identify, which is not the recently extinct species?",
+        "options": [
+            "(A) Bali tiger",
+            "(B) Caspian tiger",
+            "(C) Bengal tiger",
+            "(D) Javan tiger"
+        ],
+        "answer": "(C) Bengal tiger",
+        "explanation": "This question assesses knowledge about species classifications, specifically differentiating between recently extinct and currently endangered species. The Bali, Caspian, and Javan tigers are all recognized as distinct subspecies that have become recently extinct. In contrast, the Bengal tiger, while critically endangered, is still alive and remains a flagship species in global conservation efforts.",
+        "a": 1.4,
+        "b": -0.1,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 127,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Cancer",
+        "difficulty": "Easy",
+        "question": "Which one of the followings has the ability to transform normal cells into cancerous cells\nin animals?",
+        "options": [
+            "(A) β-galactosidase",
+            "(B) Retroviruses",
+            "(C) T-DNA",
+            "(D) Rhinoviruses"
+        ],
+        "answer": "(B) Retroviruses",
+        "explanation": "Cancer is a complex disease often associated with the transformation of normal cells into neoplastic cells, a process triggered by various factors. Retroviruses, specifically oncogenic types, are known for their ability to carry oncogenes that disrupt cell cycle control. These viral genes can effectively induce cancerous transformation in animal cells by integrating into the host genome and altering cellular functions.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 128,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Human Evolution",
+        "difficulty": "Easy",
+        "question": "During ice age between _____ modern Homo sapiens arose.",
+        "options": [
+            "(A) 100,000 - 40,000 years ago",
+            "(B) 75,000 - 10,000 years ago",
+            "(C) 2,000,000 - 1,500,000 years ago",
+            "(D) 4,000,000 - 3,000,000 years ago"
+        ],
+        "answer": "(B) 75,000 - 10,000 years ago",
+        "explanation": "This question pertains to the evolutionary timeline of modern humans and their emergence during Earth's geological history. Homo sapiens arose during the last ice age, a significant period marked by substantial global climatic shifts. Specifically, modern humans emerged and subsequently spread across the globe between approximately 75,000 and 10,000 years ago, adapting to the challenging environmental conditions of that era.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 129,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "Medical Termination of Pregnancy (MTP)",
+        "difficulty": "Easy",
+        "question": "Medical termination of pregnancy (MTP) is considered relatively safe",
+        "options": [
+            "(A) Upto 30 weeks of pregnancy",
+            "(B) Upto 24 weeks of pregnancy",
+            "(C) Upto 12 weeks of pregnancy",
+            "(D) Upto 18 weeks of pregnancy"
+        ],
+        "answer": "(C) Upto 12 weeks of pregnancy",
+        "explanation": "Medical Termination of Pregnancy (MTP) refers to the intentional termination of pregnancy before full term, a procedure with varying safety profiles. MTPs are considered significantly safer when performed during the first trimester, which encompasses up to 12 weeks of gestation. Terminating pregnancy beyond this crucial period, especially in the second trimester, carries substantially higher risks and potential complications for the pregnant individual.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 130,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Structure of Flower",
+        "difficulty": "Easy",
+        "question": "Identify the condition when more than one pistils are fused together in angiosperms:",
+        "options": [
+            "(A) Syncarpous",
+            "(B) Monocarpellary",
+            "(C) Apocarpous",
+            "(D) Multicarpellary"
+        ],
+        "answer": "(A) Syncarpous",
+        "explanation": "In flowering plants, the gynoecium, or pistil, can consist of one or more individual carpels. When multiple pistils or carpels are completely fused together to form a single, unified compound pistil, this specific condition is botanically termed syncarpous. This fusion is a key characteristic observed in the floral morphology of many diverse angiosperm families.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 131,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Menstrual Cycle",
+        "difficulty": "Medium",
+        "question": "Identify the correct sequence of events during the menstrual cycle in female. (A) Next\ncycle begins (B) Proliferative phase (C) Menstruation (D) Secretory phase",
+        "options": [
+            "(A) (C), (D), (B), (A)",
+            "(B) (A), (B), (D), (C)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(D) (C), (B), (D), (A)",
+        "explanation": "The menstrual cycle is a recurring physiological process in sexually mature females, typically commencing with menstruation, the shedding of the uterine lining. This is then followed by the proliferative phase, where the endometrium rebuilds under estrogen's influence, leading to the secretory phase, which prepares for potential embryo implantation. If pregnancy does not occur, the cycle concludes, initiating a new cycle.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 132,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Pyramid of Energy",
+        "difficulty": "Medium",
+        "question": "Arrange the amount of energy in a sequence from the highest trophic level to the lowest\ntrophic level (Pyramid of Energy): (A) 10,000 J (B) 1000 J (C) 10 J (D) 100 J",
+        "options": [
+            "(A) (A), (B), (D), (C)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (C), (D), (B), (A)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(C) (C), (D), (B), (A)",
+        "explanation": "The pyramid of energy graphically illustrates the flow of energy through different trophic levels in an ecosystem. Energy transfer between successive trophic levels adheres to the approximate 10 percent law, meaning only about 10% of the energy is transferred, with the majority lost as heat. Consequently, the highest trophic levels possess the least available energy, while the lowest trophic levels, such as producers, contain the most.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 133,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Innate Immunity",
+        "difficulty": "Medium",
+        "question": "(Passage: Plasmodium/malaria, innate immunity barriers, allergy, drug abuse)\n\nWhich one of the followings is not the example of cellular barrier?",
+        "options": [
+            "(A) Leukocytes",
+            "(B) Monocytes",
+            "(C) Peyer's patches",
+            "(D) Macrophages"
+        ],
+        "answer": "(C) Peyer's patches",
+        "explanation": "Innate immunity utilizes various defense barriers to prevent pathogen entry, including cellular components. Leukocytes, monocytes, and macrophages are all examples of these mobile cellular barriers, actively involved in immune defense. Peyer's patches, however, are organized lymphoid tissues located in the small intestine, functioning as part of the mucosal immune system rather than being individual cellular effectors of a barrier.",
+        "a": 1.4,
+        "b": -0.1,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 134,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Malaria",
+        "difficulty": "Easy",
+        "question": "(Passage: Plasmodium/malaria, innate immunity barriers, allergy, drug abuse)\n\nMalignant malaria is caused by ___ is the most serious one and can even\nbe fatal.",
+        "options": [
+            "(A) Plasmodium gigantica",
+            "(B) Plasmodium malaria",
+            "(C) Plasmodium vivax",
+            "(D) Plasmodium falciparum"
+        ],
+        "answer": "(D) Plasmodium falciparum",
+        "explanation": "Malaria is a parasitic disease caused by Plasmodium species, primarily transmitted through infected mosquito bites. Among the various Plasmodium species, Plasmodium falciparum is specifically responsible for malignant malaria, recognized as the most severe and life-threatening form of the disease. Its rapid proliferation and ability to sequester in vital organs often lead to serious complications and potential fatalities.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 135,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Allergies",
+        "difficulty": "Medium",
+        "question": "(Passage: Plasmodium/malaria, innate immunity barriers, allergy, drug abuse)\n\nWhich one of the following drugs or chemicals can not quickly reduce the\nsymptoms of allergy?",
+        "options": [
+            "(A) Anti-histamine",
+            "(B) Adrenalin",
+            "(C) Serotonin",
+            "(D) Steroids"
+        ],
+        "answer": "(C) Serotonin",
+        "explanation": "Allergic reactions involve the release of various chemical mediators that cause symptoms like inflammation and itching. Anti-histamines directly block histamine, and adrenalin provides rapid relief in severe allergic reactions. Steroids effectively reduce inflammation over time. Serotonin, however, is a neurotransmitter and vasoconstrictor that can be released during allergic responses; it does not quickly reduce allergy symptoms.",
+        "a": 1.5,
+        "b": 0.0,
+        "source_chunk": 8
+    },
+    {
+        "question_number": 136,
+        "subject": "Biology",
+        "topic": "Human Health and Disease",
+        "subtopic": "Drug Abuse",
+        "difficulty": "Medium",
+        "question": "Which one of the following drugs is not used as medicine to help patients\ncope with mental illnesses like depression and insomnia?",
+        "options": [
+            "(A) Barbiturates",
+            "(B) Cocaine",
+            "(C) Amphetamines",
+            "(D) Benzodiazepines"
+        ],
+        "answer": "(B) Cocaine",
+        "explanation": "Cocaine is a powerful central nervous system stimulant with high abuse potential, and it is not prescribed as a medicine to treat mental illnesses like depression or insomnia due to its severe adverse effects and addictive nature. Barbiturates and benzodiazepines are legitimate sedatives used for these conditions. Amphetamines are prescribed stimulants for other conditions, but not typically depression or insomnia. Cocaine's recreational profile and lack of therapeutic role for these conditions make it the correct answer.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 137,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Bioactive Molecules",
+        "difficulty": "Medium",
+        "question": "Bioactive molecule,\ncyclosporin A, that is used as an immunosuppressive agent in organ-transplant patients, is\nproduced by the fungus –",
+        "options": [
+            "(A) Monascus purpureus",
+            "(B) Saccharomyces cerevisiae",
+            "(C) Trichoderma polysporum",
+            "(D) Aspergillus niger"
+        ],
+        "answer": "(C) Trichoderma polysporum",
+        "explanation": "Cyclosporin A is a potent immunosuppressive agent crucial in organ transplantation to prevent graft rejection, and it is famously produced by the fungus Trichoderma polysporum. This bioactive molecule helps suppress the immune response of the recipient's body against the transplanted organ. Understanding the microbial sources of such important drugs is a key aspect of applied microbiology.",
+        "a": 1.3,
+        "b": 0.0,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 138,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Sewage Treatment",
+        "difficulty": "Easy",
+        "question": "The greater the BOD of waste water",
+        "options": [
+            "(A) The more is its polluting potential",
+            "(B) The less is its polluting potential",
+            "(C) The greater will be the oxygen",
+            "(D) The lesser will be the methane gas"
+        ],
+        "answer": "(A) The more is its polluting potential",
+        "explanation": "Biological Oxygen Demand (BOD) measures the amount of oxygen consumed by microorganisms to decompose organic matter in a water sample. A higher BOD indicates a greater amount of biodegradable organic matter in the wastewater, meaning there are more pollutants for microbes to break down. Consequently, a greater BOD signifies a higher polluting potential, as more oxygen will be depleted from the water, harming aquatic life.",
+        "a": 1.0,
+        "b": -0.5,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 139,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Biocontrol Agents",
+        "difficulty": "Easy",
+        "question": "Baculoviruses are",
+        "options": [
+            "(A) Pests",
+            "(B) Biological control agents",
+            "(C) Pathogens",
+            "(D) Insects"
+        ],
+        "answer": "(B) Biological control agents",
+        "explanation": "Baculoviruses are a group of viruses primarily used as biological control agents, particularly against insects and other arthropods. They are species-specific, narrow-spectrum insecticides that do not harm plants, mammals, birds, fish, or non-target insects. This makes them ideal for integrated pest management programs, minimizing ecological damage compared to chemical pesticides.",
+        "a": 1.2,
+        "b": -0.3,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 140,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Household Products",
+        "difficulty": "Easy",
+        "question": "Propionibacterium sharmanii is used for the production of –",
+        "options": [
+            "(A) Roquefort cheese",
+            "(B) Swiss Cheese",
+            "(C) Wine",
+            "(D) Toddy"
+        ],
+        "answer": "(B) Swiss Cheese",
+        "explanation": "Propionibacterium sharmanii is a bacterium specifically known for its role in the production of Swiss cheese. This bacterium ferments lactic acid to propionic acid, acetic acid, and carbon dioxide. The large amounts of carbon dioxide produced during this process create the characteristic large holes or \"eyes\" in Swiss cheese, contributing to its unique texture and flavor.",
+        "a": 1.0,
+        "b": -0.8,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 141,
+        "subject": "Biology",
+        "topic": "Microbes in Human Welfare",
+        "subtopic": "Bioactive Molecules",
+        "difficulty": "Easy-Medium",
+        "question": "Statins are produced by:",
+        "options": [
+            "(A) Trichoderma polysporum",
+            "(B) Saccharomyces cerevisiae",
+            "(C) Lactobacillus",
+            "(D) Monascus purpureus"
+        ],
+        "answer": "(D) Monascus purpureus",
+        "explanation": "Statins are a class of drugs widely used to lower blood cholesterol levels, reducing the risk of cardiovascular diseases. These cholesterol-lowering agents are famously produced by the yeast Monascus purpureus. Statins function by competitively inhibiting the enzyme HMG-CoA reductase, which is crucial for cholesterol synthesis in the body.",
+        "a": 1.1,
+        "b": -0.6,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 142,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Hershey-Chase Experiment",
+        "difficulty": "Easy",
+        "question": "The unequivocal proof that DNA is the genetic material came from the experiments of ___.",
+        "options": [
+            "(A) Matthew Meselson and Franklin Stahl",
+            "(B) Frederick Griffith",
+            "(C) Oswald Avery, Colin MacLeod and Maclyn McCarty",
+            "(D) Alfred Hershey and Martha Chase"
+        ],
+        "answer": "(D) Alfred Hershey and Martha Chase",
+        "explanation": "Alfred Hershey and Martha Chase conducted experiments using bacteriophages, which provided unequivocal proof that DNA, not protein, is the genetic material. They labeled DNA with radioactive phosphorus and proteins with radioactive sulfur, demonstrating that only the DNA entered the bacterial cells and directed the synthesis of new viruses. This landmark work solidified DNA's role as the hereditary substance.",
+        "a": 1.0,
+        "b": -0.7,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 143,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Recombinant DNA Technology",
+        "difficulty": "Medium",
+        "question": "The construction of the first recombinant DNA emerged from linking a gene encoding\nantibiotic resistance with a native plasmid of _______________.",
+        "options": [
+            "(A) Streptococcus pneumoniae",
+            "(B) Escherichia coli",
+            "(C) Staphylococcus",
+            "(D) Salmonella typhimurium"
+        ],
+        "answer": "(D) Salmonella typhimurium",
+        "explanation": "The very first artificial recombinant DNA molecule was constructed by Stanley Cohen and Herbert Boyer in 1972. They achieved this by isolating an antibiotic resistance gene and linking it to a native plasmid of the bacterium Salmonella typhimurium. This pioneering experiment marked the birth of recombinant DNA technology, revolutionizing molecular biology and genetic engineering.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 144,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Microsporangium",
+        "difficulty": "Easy",
+        "question": "Which one of the following layers of microsporangium nourishes the developing pollen\ngrains?",
+        "options": [
+            "(A) Endothecium",
+            "(B) Tapetum",
+            "(C) Epidermis",
+            "(D) Middle layer"
+        ],
+        "answer": "(B) Tapetum",
+        "explanation": "The tapetum is the innermost layer of the microsporangium wall, and its primary function is to nourish the developing pollen grains (microspores). Tapetal cells are typically polyploid and rich in nutrients, providing essential substances required for the growth and maturation of pollen. This specialized nutritional support is crucial for successful pollen development.",
+        "a": 0.9,
+        "b": -0.9,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 145,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Codominance",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Types of inheritance: (A) Pleiotropy (B) Polygenic inheritance (C)\nIncomplete dominance (D) Co-dominance Examples: (I) ABO blood grouping in human (II)\nSnapdragon plant (III) Phenylketonuria (IV) Human skin colour",
+        "options": [
+            "(A) (A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(A) (A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+        "explanation": "Pleiotropy describes when a single gene affects multiple phenotypic traits, exemplified by Phenylketonuria. Polygenic inheritance involves multiple genes contributing to a single trait, such as human skin color. Incomplete dominance results in an intermediate phenotype in heterozygotes, typically seen in Snapdragon flower color. Co-dominance is characterized by both alleles expressing fully and distinctly in the heterozygote, as observed in ABO blood grouping in humans.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 146,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Molecular Diagnosis",
+        "difficulty": "Medium",
+        "question": "Match List-I with List-II Techniques: (A) ELISA (B) PCR (C) Autoradiography (D) Recombinant\nDNA technology Related features: (I) Production of mature insulin (II) Antigen-antibody\ninteraction (III) Amplification of DNA (IV) Photographic film",
+        "options": [
+            "(A) (A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(D) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+        ],
+        "answer": "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+        "explanation": "ELISA relies on the specific interaction between antigens and antibodies to detect substances, as seen in disease diagnosis. PCR is a molecular biology technique used to amplify millions of copies of a specific DNA segment, crucial for research and forensics. Autoradiography employs photographic film to visualize the distribution of radioactive substances, often used in molecular hybridization. Recombinant DNA technology has revolutionized medicine, notably enabling the large-scale production of human insulin.",
+        "a": 1.5,
+        "b": 0.4,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 147,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Predation",
+        "difficulty": "Easy",
+        "question": "What is the defense mechanism adopted by Acacia and Cactus to protect themselves from\npredators (herbivores)?",
+        "options": [
+            "(A) Fleshy stem",
+            "(B) Dry habitat",
+            "(C) Thorns",
+            "(D) Rough texture"
+        ],
+        "answer": "(C) Thorns",
+        "explanation": "Acacia and Cactus plants have evolved thorns as a primary defense mechanism against herbivory. Thorns are modified leaves or stems that are sharp and rigid, effectively deterring animals from consuming the plant tissue. This physical adaptation helps reduce damage from grazing animals, enhancing the plant's survival in its ecosystem.",
+        "a": 0.8,
+        "b": -1.0,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 148,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Food Chain",
+        "difficulty": "Easy-Medium",
+        "question": "Arrange the trophic levels in an order from lowest to highest in a terrestrial food chain: (A)\nWolf (B) Grass (C) Cow (D) Lion",
+        "options": [
+            "(A) (A), (B), (C), (D)",
+            "(B) (B), (C), (A), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(B) (B), (C), (A), (D)",
+        "explanation": "In a terrestrial food chain, trophic levels are arranged based on how organisms obtain energy. Grass (B) is a producer, forming the lowest level. Cows (C) are primary consumers, feeding on grass. Wolves (A) are secondary consumers, preying on herbivores like cows. Lions (D) are tertiary consumers, often at the top of the food chain, preying on animals like wolves or other large herbivores.",
+        "a": 1.1,
+        "b": -0.4,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 149,
+        "subject": "Biology",
+        "topic": "Ecosystem",
+        "subtopic": "Decomposition",
+        "difficulty": "Medium",
+        "question": "The decomposition rate is slower if detritus is rich in–",
+        "options": [
+            "(A) Nitrogen",
+            "(B) Sugars",
+            "(C) Cellulose",
+            "(D) Chitin"
+        ],
+        "answer": "(D) Chitin",
+        "explanation": "The rate of decomposition is significantly influenced by the chemical composition of the detritus. Materials rich in complex and resistant substances like chitin or lignin decompose much more slowly than those rich in sugars or nitrogen. Chitin, a complex polysaccharide found in fungal cell walls and arthropod exoskeletons, requires specific enzymes for degradation, thereby slowing the overall decomposition process.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 150,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Male Reproductive System",
+        "difficulty": "Easy",
+        "question": "Which is not the male sex accessory gland?",
+        "options": [
+            "(A) Seminal vesicle",
+            "(B) Prostate",
+            "(C) Rete testis",
+            "(D) Bulbourethral gland"
+        ],
+        "answer": "(C) Rete testis",
+        "explanation": "The seminal vesicle, prostate gland, and bulbourethral glands are all male accessory glands, contributing fluids to semen. The rete testis, however, is a network of tiny tubules located within the testis that collects sperm from the seminiferous tubules and transports them to the efferent ductules. It is part of the sperm transport system within the testis itself, not an accessory gland.",
+        "a": 1.0,
+        "b": -0.5,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 151,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "IUI",
+        "difficulty": "Easy-Medium",
+        "question": "The technique in which the semen collected either from the husband or the donor is\nartificially introduced into the uterus is known as–",
+        "options": [
+            "(A) Gamete intra fallopian transfer",
+            "(B) Zygote intra fallopian transfer",
+            "(C) Intra cytoplasmic sperm injection",
+            "(D) Intra uterine insemination"
+        ],
+        "answer": "(D) Intra uterine insemination",
+        "explanation": "Intra Uterine Insemination (IUI) is an Assisted Reproductive Technology where semen, collected from either the husband or a healthy donor, is artificially introduced directly into the uterus of the female. This procedure helps increase the chances of fertilization by bypassing potential barriers in the cervix and placing sperm closer to the egg. It is commonly used for couples facing infertility issues.",
+        "a": 1.2,
+        "b": -0.2,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 152,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Transcription",
+        "difficulty": "Medium",
+        "question": "Which one of the following regions is not present in transcriptional unit of DNA",
+        "options": [
+            "(A) A Promoter",
+            "(B) The Structural gene",
+            "(C) Initiation factor",
+            "(D) A Terminator"
+        ],
+        "answer": "(C) Initiation factor",
+        "explanation": "A typical transcriptional unit in DNA includes a promoter, a structural gene, and a terminator, which are specific DNA sequences. The promoter signals the start of transcription, the structural gene codes for RNA, and the terminator signals the end. An initiation factor, however, is a protein that binds to RNA polymerase to initiate transcription, but it is not a part of the DNA transcriptional unit itself.",
+        "a": 1.3,
+        "b": 0.0,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 153,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "Transcription",
+        "difficulty": "Medium",
+        "question": "RNA polymerase III is responsible for transcription of",
+        "options": [
+            "(A) rRNAs",
+            "(B) hnRNA",
+            "(C) tRNA, 5srRNA, and snRNAs",
+            "(D) ds RNA"
+        ],
+        "answer": "(C) tRNA, 5srRNA, and snRNAs",
+        "explanation": "In eukaryotes, there are three main types of RNA polymerases, each responsible for transcribing different classes of RNA. RNA polymerase III specifically transcribes transfer RNA (tRNA), 5S ribosomal RNA (5srRNA), and small nuclear RNAs (snRNAs). RNA polymerase I transcribes rRNAs (except 5S rRNA), and RNA polymerase II transcribes hnRNA (precursor to mRNA).",
+        "a": 1.4,
+        "b": 0.2,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 154,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Restriction Enzymes",
+        "difficulty": "Easy",
+        "question": "Roman numbers in the names of restriction enzymes indicate –",
+        "options": [
+            "(A) Number of genus of the bacteria",
+            "(B) Number of species of bacteria",
+            "(C) Order in which enzymes were isolated from that strain of bacteria",
+            "(D) Position at which they cut in the DNA sequence"
+        ],
+        "answer": "(C) Order in which enzymes were isolated from that strain of bacteria",
+        "explanation": "The nomenclature of restriction enzymes follows specific rules, where Roman numerals indicate the order of discovery or isolation of the enzyme from a particular strain of bacteria. For example, in EcoRI, 'R' indicates the strain, 'I' indicates that it was the first enzyme isolated from that strain. This convention helps in systematically identifying different restriction enzymes.",
+        "a": 1.0,
+        "b": -0.3,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 155,
+        "subject": "Biology",
+        "topic": "Human Reproduction",
+        "subtopic": "Spermatogenesis",
+        "difficulty": "Easy-Medium",
+        "question": "Identify the correct sequence of structures formed during spermatogenesis. (A)\nSpermatozoa (B) Secondary spermatocytes (C) Spermatogonia (D) Spermatids",
+        "options": [
+            "(A) (A), (C), (D), (B)",
+            "(B) (A), (B), (C), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(D) (C), (B), (D), (A)",
+        "explanation": "Spermatogenesis is the process of sperm formation, which begins with spermatogonia. These diploid cells divide mitotically and then mature into primary spermatocytes, which are not listed but precede secondary spermatocytes. Secondary spermatocytes then undergo meiosis II to form spermatids, which finally differentiate into mature spermatozoa through spermiogenesis. Thus, the correct sequence is Spermatogonia, Secondary spermatocytes, Spermatids, and Spermatozoa.",
+        "a": 1.2,
+        "b": -0.1,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 156,
+        "subject": "Biology",
+        "topic": "Principles of Inheritance",
+        "subtopic": "Chromosomal Theory of Inheritance",
+        "difficulty": "Easy",
+        "question": "Who discovered that the behaviour of chromosomes was parallel to the behaviour of\ngenes?",
+        "options": [
+            "(A) Sutton and Boveri",
+            "(B) de Vries and Correns",
+            "(C) Mendel",
+            "(D) Thomas Hunt Morgan"
+        ],
+        "answer": "(A) Sutton and Boveri",
+        "explanation": "Theodor Boveri and Walter Sutton independently observed the behavior of chromosomes during meiosis. They noted that the segregation and independent assortment of chromosomes mirrored the principles of inheritance described by Mendel for genes. This led them to propose the Chromosomal Theory of Inheritance, which states that chromosomes are the carriers of hereditary units (genes).",
+        "a": 1.0,
+        "b": -0.4,
+        "source_chunk": 9
+    },
+    {
+        "question_number": 157,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Patterns of Biodiversity",
+        "difficulty": "Medium",
+        "question": "In species-area relationships equation - log S = log C + Z log A, 'Z' denotes the",
+        "options": [
+            "(A) Area",
+            "(B) Species richness",
+            "(C) Regression coefficient",
+            "(D) Y-intercept"
+        ],
+        "answer": "(C) Regression coefficient",
+        "explanation": "The species-area relationship describes how species richness (S) increases with geographic area (A), often expressed as S = CA^Z. When plotted on a log-log scale, this relationship becomes log S = log C + Z log A. In this linear equation, 'Z' represents the slope of the regression line, which is known as the regression coefficient. This coefficient indicates how rapidly species richness increases with increasing area.",
+        "a": 1.5,
+        "b": 0.2,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 158,
+        "subject": "Biology",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "subtopic": "Pollination",
+        "difficulty": "Medium",
+        "question": "In water hyacinth, pollination is carried out by - (A) Wind (B) Water (C) Insects (D) Animals",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(B) (A) and (C) only",
+        "explanation": "Water hyacinth, despite being an aquatic plant, has emergent flowers that rise above the water surface. According to NCERT, these flowers are primarily pollinated by insects or wind, not typically by water. Therefore, modes of pollination include both wind and insects, making options (A) and (C) correct. The broader category of 'Animals' includes insects, but 'Insects' is more specific and accurate in this context.",
+        "a": 1.4,
+        "b": 0.1,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 159,
+        "subject": "Biology",
+        "topic": "Organisms and Populations",
+        "subtopic": "Population Interactions",
+        "difficulty": "Easy",
+        "question": "Match List-I with List-II Signs of Interspecific Interactions (Between Species A and B): (A) +/- (B) +/+ (C) +/0 (D) -/0 Population Interactions: (I) Commensalism (II) Parasitism (III) Amensalism (IV) Mutualism",
+        "options": [
+            "(A) (A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(D) (A)-(II), (B)-(IV), (C)-(III), (D)-(I)"
+        ],
+        "answer": "(A) (A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+        "explanation": "Interspecific interactions describe relationships between different species, with symbols indicating benefit (+), harm (-), or no effect (0). A +/- interaction signifies parasitism, where one benefits at the other's expense. A +/+ interaction denotes mutualism, where both species benefit. A +/0 interaction represents commensalism, benefiting one species without affecting the other, while a -/0 interaction describes amensalism, harming one species with no effect on the other.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 160,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Ex-situ Conservation",
+        "difficulty": "Medium",
+        "question": "Select the examples of ex-situ conservation: (A) Zoological parks (B) Sanctuaries (C) Seed banks (D) Cryopreservation of gametes",
+        "options": [
+            "(A) (A), (C) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (C) and (D) only",
+        "explanation": "Ex-situ conservation involves protecting endangered species by maintaining them outside their natural habitats. Zoological parks provide a controlled environment for animal breeding and care, while seed banks store seeds for long-term genetic preservation. Cryopreservation of gametes involves freezing reproductive cells, which are all methods employed away from natural ecosystems. Sanctuaries, however, are areas set aside for wildlife protection within their natural habitats, classifying them as in-situ conservation.",
+        "a": 1.4,
+        "b": 0.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 161,
+        "subject": "Biology",
+        "topic": "Biodiversity and Conservation",
+        "subtopic": "Endemism",
+        "difficulty": "Easy",
+        "question": "The Western Ghats have a greater number of amphibian species than the Eastern Ghats. This is an example of:",
+        "options": [
+            "(A) Genetic Diversity",
+            "(B) Species Diversity",
+            "(C) Ecological Diversity",
+            "(D) Global Diversity"
+        ],
+        "answer": "(B) Species Diversity",
+        "explanation": "Species diversity refers to the variety of different species present in a particular region. When comparing the number of amphibian species between the Western and Eastern Ghats, we are directly assessing the richness and abundance of different species in these areas. Genetic diversity relates to variations within a single species, while ecological diversity refers to the variety of ecosystems. Global diversity encompasses all life forms on Earth.",
+        "a": 1.1,
+        "b": -0.8,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 162,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Bt Cotton",
+        "difficulty": "Medium",
+        "question": "Bt toxin is expressed in plants to provide resistance to insects; hence used as a biopesticide. Select the correct examples of Bt plants: (A) Bt Cotton (B) Bt Rice (C) Bt Peas (D) Bt Corn",
+        "options": [
+            "(A) (A), (B) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (B), (C) and (D) only"
+        ],
+        "answer": "(A) (A), (B) and (D) only",
+        "explanation": "Bt plants are genetically engineered to produce insecticidal toxins from the bacterium Bacillus thuringiensis (Bt), conferring resistance against specific insect pests. Prominent examples of successfully developed and widely known Bt crops include Bt Cotton and Bt Corn. Bt Rice has also been developed and researched for insect resistance. Bt Peas, while possibly subject to research, are not as widely recognized as a commercially significant Bt crop compared to the others.",
+        "a": 1.35,
+        "b": 0.15,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 163,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Cloning Vectors",
+        "difficulty": "Easy",
+        "question": "Match List-I with List-II Terms: (A) Cloning (B) Plasmid (C) Origin of replication (D) Endonuclease Functions: (I) Cuts at the specific position within DNA (II) Making multiple identical copies of template DNA (III) Autonomously replicating circular extrachromosomal DNA (IV) Initiates replication",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+            "(C) (A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+            "(D) (A)-(II), (B)-(III), (C)-(I), (D)-(IV)"
+        ],
+        "answer": "(B) (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+        "explanation": "Cloning refers to the process of creating multiple identical copies of a DNA fragment or organism. A plasmid is an autonomously replicating circular extrachromosomal DNA molecule often used as a vector. The origin of replication (ori) is the specific DNA sequence where replication is initiated. Endonucleases are enzymes, such as restriction enzymes, that cut DNA at specific internal positions.",
+        "a": 1.05,
+        "b": -0.7,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 164,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Origin of Life",
+        "difficulty": "Easy",
+        "question": "About ________________ the first cellular forms of life appeared on earth.",
+        "options": [
+            "(A) 200 million years ago",
+            "(B) 500 million years ago",
+            "(C) 2000 million years ago",
+            "(D) 20000 million years ago"
+        ],
+        "answer": "(C) 2000 million years ago",
+        "explanation": "The evolutionary timeline indicates that the first cellular forms of life emerged on Earth approximately 2000 million years ago, which is equivalent to 2 billion years ago. This crucial event marked the beginning of biological evolution leading to the diversity of life we see today. Prior to this, complex organic molecules formed, but true cellular structures developed around this period.",
+        "a": 1.1,
+        "b": -1.2,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 165,
+        "subject": "Biology",
+        "topic": "Evolution",
+        "subtopic": "Evolution of Plants",
+        "difficulty": "Hard",
+        "question": "Match List-I with List-II Geological periods: (A) Cretaceous (B) Jurassic (C) Carboniferous (D) Devonian Plant forms: (I) Seed ferns (II) Progymnosperms (III) Sphenopsids (IV) Conifers",
+        "options": [
+            "(A) (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+            "(B) (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+            "(C) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+            "(D) (A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+        ],
+        "answer": "(C) (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+        "explanation": "This question requires knowledge of major plant groups and their prevalence in geological periods. Jurassic period is known for the dominance of Conifers. Carboniferous period saw abundant forests of Seed ferns. The Devonian period is significant for the emergence of Progymnosperms, which were precursors to seed plants. While Sphenopsids were most characteristic of the Carboniferous, their presence in the Cretaceous period, albeit less dominant, makes the given pairing the most consistent among the choices.",
+        "a": 1.9,
+        "b": 1.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 166,
+        "subject": "Biology",
+        "topic": "Molecular Basis of Inheritance",
+        "subtopic": "DNA Structure",
+        "difficulty": "Easy",
+        "question": "A nucleoside comprises:",
+        "options": [
+            "(A) A nitrogenous base, a pentose sugar, and a phosphate group",
+            "(B) A nitrogenous base and a phosphate group",
+            "(C) A nitrogenous base and a pentose sugar",
+            "(D) A pentose sugar and a phosphate group"
+        ],
+        "answer": "(C) A nitrogenous base and a pentose sugar",
+        "explanation": "A nucleoside is a fundamental building block of nucleic acids, formed by the covalent bonding of a nitrogenous base to a pentose sugar. The nitrogenous base can be a purine (adenine, guanine) or a pyrimidine (cytosine, thymine, uracil), while the pentose sugar is either ribose (in RNA) or deoxyribose (in DNA). Adding a phosphate group to a nucleoside converts it into a nucleotide.",
+        "a": 1.2,
+        "b": -1.5,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 167,
+        "subject": "Biology",
+        "topic": "Biotechnology Principles",
+        "subtopic": "Recombinant DNA Technology",
+        "difficulty": "Medium",
+        "question": "Arrange the steps for transformation of recombinant DNA in sequence - (A) For heat shock, bacterial cells are placed at 42°C; and then they are placed on ice. (B) The bacterial cells must be made 'competent' to take up DNA by treating them with a specific concentration of divalent cation such as calcium. (C) The bacteria are now able to take up the recombinant DNA. (D) Recombinant DNA can then be forced into those cells by incubating the cells with recombinant DNA on ice.",
+        "options": [
+            "(A) (B), (D), (A), (C)",
+            "(B) (A), (C), (B), (D)",
+            "(C) (B), (A), (D), (C)",
+            "(D) (C), (B), (D), (A)"
+        ],
+        "answer": "(A) (B), (D), (A), (C)",
+        "explanation": "Bacterial transformation involves making cells competent to internalize foreign DNA. First, bacterial cells are treated with divalent cations like calcium to increase cell wall permeability, rendering them competent. Then, competent cells are incubated with recombinant DNA on ice. A brief heat shock at 42°C, followed by immediate placement on ice, facilitates the uptake of DNA by the bacterial cells. This sequence ensures successful introduction of recombinant DNA into the bacteria.",
+        "a": 1.5,
+        "b": 0.3,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 168,
+        "subject": "Biology",
+        "topic": "Reproductive Health",
+        "subtopic": "Contraceptive Methods",
+        "difficulty": "Medium",
+        "question": "Identify the correct combination of intra uterine devices. (A) Lippes loop (B) LNG-20 (C) Saheli (D) Multiload 375",
+        "options": [
+            "(A) (B), (C) and (D) only",
+            "(B) (A), (B) and (C) only",
+            "(C) (A), (B), (C) and (D)",
+            "(D) (A), (B) and (D) only"
+        ],
+        "answer": "(D) (A), (B) and (D) only",
+        "explanation": "Intrauterine Devices (IUDs) are contraceptive methods inserted into the uterus. Lippes loop is a non-medicated IUD, while LNG-20 (Levonorgestrel-20) and Multiload 375 are hormone-releasing and copper-releasing IUDs, respectively. Saheli, on the other hand, is an oral contraceptive pill and not an intrauterine device. Therefore, (A), (B), and (D) represent correct examples of IUDs.",
+        "a": 1.45,
+        "b": 0.25,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 169,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Genetically Modified Organisms (GMOs)",
+        "difficulty": "Easy",
+        "question": "'GEAC' stands for",
+        "options": [
+            "(A) Genetic Engineering Association Committee",
+            "(B) Genetic Engineering Approval Committee",
+            "(C) Genetic Editing Approval Commission",
+            "(D) Genetic Editing Association Commission"
+        ],
+        "answer": "(B) Genetic Engineering Approval Committee",
+        "explanation": "GEAC is an acronym for the Genetic Engineering Approval Committee, a statutory body in India. Its primary role is to evaluate the validity of genetically modified (GM) research and to approve the release of GM organisms into the environment for commercial use. This committee ensures ethical and safety considerations are met regarding genetic engineering activities.",
+        "a": 1.0,
+        "b": -1.0,
+        "source_chunk": 10
+    },
+    {
+        "question_number": 170,
+        "subject": "Biology",
+        "topic": "Applications of Biotechnology",
+        "subtopic": "Molecular Diagnosis",
+        "difficulty": "Medium",
+        "question": "A single stranded DNA or RNA tagged with a radioactive probe is allowed to hybridize to its complementary DNA in a clone of cells followed by detection using _____________. ",
+        "options": [
+            "(A) Polymerase chain reaction",
+            "(B) ELISA",
+            "(C) Autoradiography",
+            "(D) Gel electrophoresis"
+        ],
+        "answer": "(C) Autoradiography",
+        "explanation": "The process described involves using a radioactive probe that binds to complementary DNA sequences, forming a hybrid. Autoradiography is the technique specifically designed to detect such radioactive labels. It utilizes X-ray film to visualize the emitted radiation from the tagged probe, thereby identifying the location of the hybridized DNA. Other techniques like PCR, ELISA, and gel electrophoresis serve different purposes in molecular biology.",
+        "a": 1.3,
+        "b": 0.05,
+        "source_chunk": 10
+    }
+]

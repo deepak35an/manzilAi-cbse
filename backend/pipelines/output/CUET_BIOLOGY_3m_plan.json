@@ -1,0 +1,406 @@
+{
+  "duration_weeks": 12,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Reproduction",
+          "priority": "HIGH",
+          "topic": "Sexual Reproduction in Flowering Plants",
+          "subtopics": [
+            "Structure of Flower",
+            "Stamen",
+            "Microsporangium",
+            "Pollen Grain",
+            "Pistil",
+            "Megasporangium",
+            "Embryo Sac",
+            "Microsporogenesis",
+            "Megasporogenesis",
+            "Pollination",
+            "Agents of Pollination",
+            "Outbreeding Devices",
+            "Pollen-Pistil Interaction",
+            "Double Fertilisation",
+            "Endosperm Development",
+            "Embryo Development",
+            "Seed Formation",
+            "Fruit Formation",
+            "Parthenocarpy",
+            "Apomixis",
+            "Polyembryony"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 11,
+      "subjects": [
+        {
+          "subject": "Reproduction",
+          "priority": "CRITICAL",
+          "topic": "Human Reproduction & Reproductive Health",
+          "subtopics": [
+            "Male Reproductive System",
+            "Female Reproductive System",
+            "Testis",
+            "Ovary",
+            "Spermatogenesis",
+            "Oogenesis",
+            "Menstrual Cycle",
+            "Fertilisation",
+            "Blastocyst Formation",
+            "Implantation",
+            "Pregnancy",
+            "Placenta",
+            "Embryonic Development",
+            "Parturition",
+            "Lactation",
+            "Reproductive Health",
+            "Amniocentesis",
+            "Population Stabilisation",
+            "Contraceptive Methods",
+            "Medical Termination of Pregnancy (MTP)",
+            "Sexually Transmitted Infections (STIs)",
+            "Infertility",
+            "IVF",
+            "ZIFT",
+            "GIFT",
+            "ICSI",
+            "IUI"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 16,
+      "subjects": [
+        {
+          "subject": "Genetics and Evolution",
+          "priority": "CRITICAL",
+          "topic": "Principles of Inheritance & Variation",
+          "subtopics": [
+            "Mendel's Laws",
+            "Monohybrid Cross",
+            "Dihybrid Cross",
+            "Law of Dominance",
+            "Law of Segregation",
+            "Law of Independent Assortment",
+            "Test Cross",
+            "Back Cross",
+            "Incomplete Dominance",
+            "Codominance",
+            "Multiple Alleles",
+            "Blood Groups",
+            "Chromosomal Theory of Inheritance",
+            "Linkage",
+            "Recombination",
+            "Polygenic Inheritance",
+            "Pleiotropy",
+            "Sex Determination",
+            "Mutation",
+            "Pedigree Analysis",
+            "Mendelian Disorders",
+            "Chromosomal Disorders",
+            "Down Syndrome",
+            "Turner Syndrome",
+            "Klinefelter Syndrome"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 16,
+      "subjects": [
+        {
+          "subject": "Genetics and Evolution",
+          "priority": "CRITICAL",
+          "topic": "Molecular Basis of Inheritance",
+          "subtopics": [
+            "DNA Structure",
+            "DNA Packaging",
+            "Transforming Principle",
+            "Hershey-Chase Experiment",
+            "DNA Replication",
+            "Meselson and Stahl Experiment",
+            "Transcription",
+            "RNA Types",
+            "RNA World",
+            "Genetic Code",
+            "Mutation",
+            "tRNA",
+            "Translation",
+            "Lac Operon",
+            "Human Genome Project",
+            "DNA Fingerprinting",
+            "VNTR"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Genetics and Evolution",
+          "priority": "HIGH",
+          "topic": "Evolution",
+          "subtopics": [
+            "Origin of Life",
+            "Miller's Experiment",
+            "Darwin's Theory",
+            "Evidences of Evolution",
+            "Embryological Evidence",
+            "Paleontological Evidence",
+            "Comparative Anatomy",
+            "Divergent Evolution",
+            "Convergent Evolution",
+            "Adaptive Radiation",
+            "Natural Selection",
+            "Hardy-Weinberg Principle",
+            "Gene Migration",
+            "Genetic Drift",
+            "Evolution of Plants",
+            "Evolution of Vertebrates",
+            "Human Evolution"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 11,
+      "subjects": [
+        {
+          "subject": "Biology and Human Welfare",
+          "priority": "CRITICAL",
+          "topic": "Human Health & Disease",
+          "subtopics": [
+            "Health",
+            "Typhoid",
+            "Pneumonia",
+            "Common Cold",
+            "Malaria",
+            "Amoebiasis",
+            "Ascariasis",
+            "Filariasis",
+            "Ringworm",
+            "Innate Immunity",
+            "Acquired Immunity",
+            "Active Immunity",
+            "Passive Immunity",
+            "Vaccination",
+            "Immunisation",
+            "Allergies",
+            "Autoimmunity",
+            "AIDS",
+            "Cancer",
+            "Drug Abuse",
+            "Alcohol Abuse"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Biology and Human Welfare",
+          "priority": "MEDIUM",
+          "topic": "Microbes in Human Welfare",
+          "subtopics": [
+            "Household Products",
+            "Industrial Products",
+            "Fermentation",
+            "Antibiotics",
+            "Enzymes",
+            "Bioactive Molecules",
+            "Sewage Treatment",
+            "Biogas Production",
+            "Biocontrol Agents",
+            "Biofertilisers"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Biotechnology and its Applications",
+          "priority": "HIGH",
+          "topic": "Biotechnology: Principles & Processes",
+          "subtopics": [
+            "Principles of Biotechnology",
+            "Restriction Enzymes",
+            "Cloning Vectors",
+            "Competent Host",
+            "Recombinant DNA Technology",
+            "PCR",
+            "Gene Cloning",
+            "Bioreactors",
+            "Downstream Processing"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Biotechnology and its Applications",
+          "priority": "HIGH",
+          "topic": "Biotechnology Applications",
+          "subtopics": [
+            "Tissue Culture",
+            "Genetically Modified Organisms (GMOs)",
+            "Bt Cotton",
+            "RNA Interference (RNAi)",
+            "Insulin Production",
+            "Gene Therapy",
+            "Molecular Diagnosis",
+            "Transgenic Animals",
+            "Biopiracy",
+            "Patents"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Ecology and Environment",
+          "priority": "CRITICAL",
+          "topic": "Ecology & Environment",
+          "subtopics": [
+            "Population Attributes",
+            "Birth Rate",
+            "Death Rate",
+            "Age Pyramid",
+            "Exponential Growth",
+            "Logistic Growth",
+            "Life History Variation",
+            "Population Interactions",
+            "Predation",
+            "Competition",
+            "Parasitism",
+            "Commensalism",
+            "Mutualism",
+            "Amensalism",
+            "Ecosystem Structure",
+            "Ecosystem Function",
+            "Productivity",
+            "Decomposition",
+            "Energy Flow",
+            "Trophic Levels",
+            "Food Chain",
+            "Food Web",
+            "Ecological Pyramids",
+            "Pyramid of Energy",
+            "Pyramid of Biomass",
+            "Pyramid of Numbers",
+            "Biodiversity",
+            "Patterns of Biodiversity",
+            "Importance of Biodiversity",
+            "Biodiversity Loss",
+            "Conservation Approaches",
+            "In-situ Conservation",
+            "Endemism",
+            "Biodiversity Hotspots",
+            "Sacred Groves",
+            "Ex-situ Conservation",
+            "Zoological Parks",
+            "Wildlife Safaris",
+            "Cryopreservation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Revision",
+      "weightage": 15,
+      "subjects": [
+        {
+          "subject": "Reproduction & Genetics and Evolution",
+          "priority": "CRITICAL",
+          "topic": "Human Reproduction & Reproductive Health, Principles of Inheritance & Variation, Molecular Basis of Inheritance",
+          "subtopics": [
+            "Male Reproductive System",
+            "Female Reproductive System",
+            "Spermatogenesis",
+            "Oogenesis",
+            "Menstrual Cycle",
+            "Contraceptive Methods",
+            "Sexually Transmitted Infections (STIs)",
+            "IVF",
+            "Mendel's Laws",
+            "Monohybrid Cross",
+            "Dihybrid Cross",
+            "Linkage",
+            "Pedigree Analysis",
+            "DNA Structure",
+            "DNA Replication",
+            "Transcription",
+            "Genetic Code",
+            "Translation",
+            "Lac Operon",
+            "DNA Fingerprinting"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Revision & Practice",
+      "weightage": 15,
+      "subjects": [
+        {
+          "subject": "Biology and Human Welfare, Biotechnology and its Applications, Ecology and Environment, Genetics and Evolution",
+          "priority": "CRITICAL",
+          "topic": "Human Health & Disease, Ecology & Environment, Sexual Reproduction in Flowering Plants, Evolution, Biotechnology: Principles & Processes, Biotechnology Applications",
+          "subtopics": [
+            "Innate Immunity",
+            "Acquired Immunity",
+            "AIDS",
+            "Cancer",
+            "Population Interactions",
+            "Ecological Pyramids",
+            "Biodiversity Loss",
+            "Conservation Approaches",
+            "Pollination",
+            "Double Fertilisation",
+            "Seed Formation",
+            "Natural Selection",
+            "Hardy-Weinberg Principle",
+            "Recombinant DNA Technology",
+            "PCR",
+            "Gene Therapy",
+            "Transgenic Animals"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "duration_weeks": 24,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Introductory Microeconomics",
+          "priority": "CRITICAL",
+          "topic": "Consumer Behaviour & Demand",
+          "subtopics": [
+            "Introduction to Microeconomics",
+            "Central Problems of an Economy",
+            "Consumer's Equilibrium",
+            "Utility Approach",
+            "One Commodity Equilibrium",
+            "Two Commodity Equilibrium",
+            "Consumer Budget"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Introductory Microeconomics",
+          "priority": "CRITICAL",
+          "topic": "Consumer Behaviour & Demand",
+          "subtopics": [
+            "Consumer's Optimal Choice",
+            "Demand",
+            "Market Demand",
+            "Determinants of Demand",
+            "Demand Schedule",
+            "Demand Curve"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Introductory Microeconomics",
+          "priority": "CRITICAL",
+          "topic": "Consumer Behaviour & Demand",
+          "subtopics": [
+            "Movement Along Demand Curve",
+            "Shift in Demand Curve",
+            "Price Elasticity of Demand",
+            "Percentage Method",
+            "Total Expenditure Method",
+            "Factors Affecting Price Elasticity of Demand"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Introductory Microeconomics",
+          "priority": "CRITICAL",
+          "topic": "Production, Costs & Revenue",
+          "subtopics": [
+            "Production Function",
+            "Short Run Production Function",
+            "Long Run Production Function",
+            "Total Product (TP)",
+            "Marginal Product (MP)",
+            "Average Product (AP)"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Introductory Microeconomics",
+          "priority": "CRITICAL",
+          "topic": "Production, Costs & Revenue",
+          "subtopics": [
+            "Cost Concepts",
+            "Fixed Cost",
+            "Variable Cost",
+            "Total Cost",
+            "Average Cost",
+            "Marginal Cost"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Introductory Microeconomics",
+          "priority": "CRITICAL",
+          "topic": "Production, Costs & Revenue",
+          "subtopics": [
+            "Revenue Concepts",
+            "Total Revenue",
+            "Average Revenue",
+            "Marginal Revenue",
+            "Producer's Equilibrium",
+            "MC-MR Approach"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Introductory Microeconomics",
+          "priority": "HIGH",
+          "topic": "Perfect Competition & Market Equilibrium",
+          "subtopics": [
+            "Features of Perfect Competition",
+            "Profit Maximization",
+            "Price Determination",
+            "Equilibrium Price",
+            "Effect of Demand Shift",
+            "Effect of Supply Shift",
+            "Supply"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Introductory Microeconomics",
+          "priority": "HIGH",
+          "topic": "Perfect Competition & Market Equilibrium",
+          "subtopics": [
+            "Market Supply",
+            "Determinants of Supply",
+            "Supply Schedule",
+            "Supply Curve",
+            "Movement Along Supply Curve",
+            "Shift in Supply Curve",
+            "Price Elasticity of Supply"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Introductory Microeconomics",
+          "priority": "HIGH",
+          "topic": "Perfect Competition & Market Equilibrium",
+          "subtopics": [
+            "Measurement of Price Elasticity of Supply",
+            "Market Equilibrium",
+            "Excess Demand",
+            "Excess Supply",
+            "Price Ceiling",
+            "Price Floor"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Introductory Macroeconomics",
+          "priority": "CRITICAL",
+          "topic": "National Income Accounting",
+          "subtopics": [
+            "Introduction to Macroeconomics",
+            "Basic Macroeconomic Concepts",
+            "Circular Flow of Income",
+            "National Income",
+            "Value Added Method",
+            "Expenditure Method"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Introductory Macroeconomics",
+          "priority": "CRITICAL",
+          "topic": "National Income Accounting",
+          "subtopics": [
+            "Income Method",
+            "Factor Cost",
+            "Basic Price",
+            "Market Price",
+            "GDP",
+            "GDP and Welfare"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Introductory Macroeconomics",
+          "priority": "HIGH",
+          "topic": "Money & Banking",
+          "subtopics": [
+            "Meaning and Functions of Money",
+            "Money Supply",
+            "Money Creation",
+            "Money Multiplier",
+            "Central Bank",
+            "Reserve Bank of India (RBI)",
+            "Monetary Policy Tools"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Introductory Macroeconomics",
+          "priority": "CRITICAL",
+          "topic": "Income Determination & Employment",
+          "subtopics": [
+            "Aggregate Demand",
+            "Components of Aggregate Demand",
+            "Two-Sector Income Determination",
+            "Excess Demand",
+            "Deficient Demand"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Introductory Macroeconomics",
+          "priority": "CRITICAL",
+          "topic": "Income Determination & Employment",
+          "subtopics": [
+            "Government Spending",
+            "Taxation",
+            "Money Supply",
+            "Multiplier Mechanism"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Introductory Macroeconomics",
+          "priority": "MEDIUM",
+          "topic": "Government Budget",
+          "subtopics": [
+            "Government Budget",
+            "Objectives of Budget",
+            "Components of Budget",
+            "Revenue Receipts",
+            "Capital Receipts",
+            "Revenue Expenditure"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Introductory Macroeconomics",
+          "priority": "MEDIUM",
+          "topic": "Government Budget",
+          "subtopics": [
+            "Capital Expenditure",
+            "Balanced Budget",
+            "Surplus Budget",
+            "Deficit Budget",
+            "Government Deficit"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Introductory Macroeconomics",
+          "priority": "HIGH",
+          "topic": "Open Economy Macroeconomics",
+          "subtopics": [
+            "Balance of Payments",
+            "Components of Balance of Payments",
+            "BOP Surplus",
+            "BOP Deficit",
+            "Foreign Exchange Rate"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Introductory Macroeconomics",
+          "priority": "HIGH",
+          "topic": "Open Economy Macroeconomics",
+          "subtopics": [
+            "Fixed Exchange Rate",
+            "Flexible Exchange Rate",
+            "Managed Floating Exchange Rate",
+            "Merits and Demerits of Exchange Rate Regimes",
+            "Determination of Exchange Rate"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Indian Economic Development",
+          "priority": "MEDIUM",
+          "topic": "Development Policies (1947–1990)",
+          "subtopics": [
+            "Indian Economy at Independence",
+            "Indian Economic System",
+            "Five Year Plans",
+            "Agriculture Policies",
+            "Institutional Reforms",
+            "Green Revolution",
+            "Industrial Policy Resolution (1956)",
+            "Small Scale Industries (SSI)",
+            "Foreign Trade"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Indian Economic Development",
+          "priority": "HIGH",
+          "topic": "Economic Reforms (LPG)",
+          "subtopics": [
+            "Economic Reforms",
+            "Liberalisation",
+            "Privatisation",
+            "Globalisation (LPG)",
+            "Appraisal of LPG Reforms"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Indian Economic Development",
+          "priority": "CRITICAL",
+          "topic": "Current Challenges of Indian Economy",
+          "subtopics": [
+            "Human Capital Formation",
+            "Education Sector in India",
+            "Rural Development",
+            "Agricultural Credit",
+            "Agricultural Marketing"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Indian Economic Development",
+          "priority": "CRITICAL",
+          "topic": "Current Challenges of Indian Economy",
+          "subtopics": [
+            "Cooperatives",
+            "Agriculture Diversification",
+            "Organic Farming",
+            "Employment",
+            "Formal Sector"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Indian Economic Development",
+          "priority": "CRITICAL",
+          "topic": "Current Challenges of Indian Economy",
+          "subtopics": [
+            "Informal Sector",
+            "Employment Policies",
+            "Environment",
+            "Sustainable Development",
+            "Environmental Strategies"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Indian Economic Development",
+          "priority": "LOW",
+          "topic": "Development Experience of India",
+          "subtopics": [
+            "India and Neighbouring Countries",
+            "Economic Growth Comparison",
+            "Population Comparison",
+            "Sectoral Development",
+            "Human Development Indicators (HDI)",
+            "Development Strategies"
+          ]
+        }
+      ]
+    }
+  ]
+}

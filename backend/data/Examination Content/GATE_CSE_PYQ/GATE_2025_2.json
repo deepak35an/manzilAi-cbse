@@ -1,0 +1,957 @@
+[
+  {
+    "question_number": 1,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Functions / Real Analysis",
+    "difficulty": "Medium",
+    "question": "If \ud835\udc43\ud835\udc52^\ud835\udc65 = \ud835\udc44\ud835\udc52^(\u2212\ud835\udc65) for all real values of \ud835\udc65, which one of the following statements is\ntrue?",
+    "options": [
+      "(A) \ud835\udc43= \ud835\udc44= 0",
+      "(B) \ud835\udc43= \ud835\udc44= 1",
+      "(C) \ud835\udc43= 1; \ud835\udc44= \u22121",
+      "(D) P/Q = 0"
+    ],
+    "answer": "(A) \ud835\udc43= \ud835\udc44= 0",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 1,
+    "explanation": "This problem tests function identity: two functions are equal for all inputs if their parameters strictly match. The equation P*e^x = Q*e^(-x) for all x rearranges to P*e^(2x) = Q. For a varying exponential P*e^(2x) to equal a constant Q, P must be zero, implying Q is also zero."
+  },
+  {
+    "question_number": 2,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Set Theory & Relations",
+    "subtopic": "Number Theory",
+    "difficulty": "Medium",
+    "question": "Let \ud835\udc5d1 and \ud835\udc5d2 denote two arbitrary prime numbers. Which one of the following\nstatements is correct for all values of \ud835\udc5d1 and \ud835\udc5d2 ?",
+    "options": [
+      "(A) \ud835\udc5d1 + \ud835\udc5d2 is not a prime number.",
+      "(B) \ud835\udc5d1\ud835\udc5d2 is not a prime number.",
+      "(C) \ud835\udc5d1 + \ud835\udc5d2 + 1 is a prime number.",
+      "(D) \ud835\udc5d1\ud835\udc5d2 + 1 is a prime number."
+    ],
+    "answer": "(B) \ud835\udc5d1\ud835\udc5d2 is not a prime number.",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 1,
+    "explanation": "A prime number is a natural number greater than 1 with only two positive divisors: 1 and itself. The product of two prime numbers p1 and p2 is always divisible by p1 and p2. Since p1, p2 > 1, p1*p2 has divisors other than 1 and itself, making it a composite number."
+  },
+  {
+    "question_number": 3,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis",
+    "subtopic": "Recurrence Relations / Sequence Analysis",
+    "difficulty": "Medium",
+    "question": "Consider the sequences I, X, and Y as given in the table below.\n\n|Iteration (i)|0|1|2|3|\n|---|---|---|---|---|\n|Input (I)|20|\u22124|10|15|\n|Output (X)|20|16|26|41|\n|Output (Y)|20|\u221280|\u2212800|\u221212000|\n\nWhich ONE of the following pairs of recurrence relations correctly describes the relationship between these sequences for i > 0?",
+    "options": [
+      "(A) \ud835\udc4b(\ud835\udc56) = \ud835\udc4b(\ud835\udc56\u22121) + \ud835\udc3c(\ud835\udc56);   \ud835\udc4c(\ud835\udc56) = \ud835\udc4c(\ud835\udc56\u22121)\ud835\udc3c(\ud835\udc56);    \ud835\udc56> 0",
+      "(B) \ud835\udc4b(\ud835\udc56) = \ud835\udc4b(\ud835\udc56\u22121)\ud835\udc3c(\ud835\udc56);    \ud835\udc4c(\ud835\udc56) = \ud835\udc4c(\ud835\udc56\u22121) + \ud835\udc3c(\ud835\udc56);    \ud835\udc56> 0",
+      "(C) \ud835\udc4b(\ud835\udc56) = \ud835\udc4b(\ud835\udc56\u22121)\ud835\udc3c(\ud835\udc56);    \ud835\udc4c(\ud835\udc56) = \ud835\udc4c(\ud835\udc56\u22121)\ud835\udc3c(\ud835\udc56);    \ud835\udc56> 0",
+      "(D) \ud835\udc4b(\ud835\udc56) = \ud835\udc4b(\ud835\udc56\u22121) + \ud835\udc3c(\ud835\udc56);    \ud835\udc4c(\ud835\udc56) = \ud835\udc4c(\ud835\udc56\u22121)\ud835\udc3c(\ud835\udc56\u22121);     \ud835\udc56> 0"
+    ],
+    "answer": "(A) \ud835\udc4b(\ud835\udc56) = \ud835\udc4b(\ud835\udc56\u22121) + \ud835\udc3c(\ud835\udc56);   \ud835\udc4c(\ud835\udc56) = \ud835\udc4c(\ud835\udc56\u22121)\ud835\udc3c(\ud835\udc56);    \ud835\udc56> 0",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 2,
+    "explanation": "This problem tests pattern recognition to derive recurrence relations from tabular data. For sequence X, X(i) = X(i-1) + I(i) is observed, as X(1) = 20 + (-4) = 16. For sequence Y, Y(i) = Y(i-1) * I(i) holds, as Y(1) = 20 * (-4) = -80, validating the relations."
+  },
+  {
+    "question_number": 4,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Linear Algebra / Matrices",
+    "difficulty": "Medium",
+    "question": "If $A = \\begin{pmatrix} 1 & 2 \\\\ 2 & -1 \\end{pmatrix}$, then which ONE of the following is $A^8$?",
+    "options": [
+      "(A) $( \\begin{pmatrix} 25 & 0 \\\\ 0 & 25 \\end{pmatrix} )$",
+      "(B) $( \\begin{pmatrix} 125 & 0 \\\\ 0 & 125 \\end{pmatrix} )$",
+      "(C) $( \\begin{pmatrix} 625 & 0 \\\\ 0 & 625 \\end{pmatrix} )$",
+      "(D) $( \\begin{pmatrix} 3125 & 0 \\\\ 0 & 3125 \\end{pmatrix} )$"
+    ],
+    "answer": "(C) $( \\begin{pmatrix} 625 & 0 \\\\ 0 & 625 \\end{pmatrix} )$",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 2,
+    "explanation": "This problem tests matrix exponentiation, focusing on efficiently calculating high powers of a given matrix. Calculating A^2 reveals a simplification: A^2 = \\begin{pmatrix} 5 & 0 \\\\ 0 & 5 \\end{pmatrix} = 5I. Therefore, A^8 = (A^2)^4 = (5I)^4 = 5^4 I = 625I, which is the matrix \\begin{pmatrix} 625 & 0 \\\\ 0 & 625 \\end{pmatrix}."
+  },
+  {
+    "question_number": 5,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Calculus / Integration",
+    "difficulty": "Medium",
+    "question": "The value of $x$ such that $x > 1$, satisfying the equation $\\int_1^x t \\ln t \\,dt = \\frac{1}{4}$ is",
+    "options": [
+      "(A) \u221a\ud835\udc52",
+      "(B) \ud835\udc52",
+      "(C) \ud835\udc522",
+      "(D) \ud835\udc52\u22121"
+    ],
+    "answer": "(A) \u221a\ud835\udc52",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 2,
+    "explanation": "This problem involves solving an equation using definite integration, specifically requiring the application of integration by parts. Applying integration by parts to \\int t \\ln t \\,dt (with u=ln t, dv=t dt) yields the form (t^2/2)ln t - (t^2/4). Evaluating from 1 to x and equating to 1/4 simplifies to ln x = 1/2, thus x = \\sqrt{e}."
+  },
+  {
+    "question_number": 6,
+    "type": "MCQ",
+    "subject": "Data Structures",
+    "topic": "Trees",
+    "subtopic": "Trees / Binary Tree Properties",
+    "difficulty": "Medium",
+    "question": "Consider a binary tree $T$ in which every node has either zero or two children.\nLet $n > 0$ be the number of nodes in $T$.\nWhich ONE of the following is the number of nodes in $T$ that have exactly two\nchildren?",
+    "options": [
+      "(A) $\\frac{n\u22122}{2}$",
+      "(B) $\\frac{n\u22121}{2}$",
+      "(C) $\\frac{n}{2}$",
+      "(D) $\\frac{n+ 1}{2}$"
+    ],
+    "answer": "(B) $\\frac{n\u22121}{2}$",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 2,
+    "explanation": "In a strictly binary tree, where every node has either zero or two children, there is a fixed relationship between the total number of nodes, internal nodes, and leaf nodes. If 'i' is the number of internal nodes (nodes with two children) and 'l' is the number of leaf nodes, then $l = i + 1$, and the total number of nodes $n = i + l$. Substituting $l$ into the total node equation yields $n = i + (i + 1) = 2i + 1$, from which $i = \\frac{n-1}{2}$ is derived as the count of nodes with two children."
+  },
+  {
+    "question_number": 7,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Linear Algebra / Determinants",
+    "difficulty": "Medium",
+    "question": "Let $L, M$, and $N$ be non-singular matrices of order 3 satisfying the equations\n$L^2 = L^{-1}$, $M = L^8$ and $N = L^2$.\nWhich ONE of the following is the value of the determinant of $(M-N)$?",
+    "options": [
+      "(A) 0",
+      "(B) 1",
+      "(C) 2",
+      "(D) 3"
+    ],
+    "answer": "(A) 0",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 2,
+    "explanation": "This problem tests the properties of matrix exponentiation and the determinant of a zero matrix, specifically using the relationship derived from $L^2 = L^{-1}$. Given $L^2 = L^{-1}$, multiplying by $L$ yields $L^3 = I$, where $I$ is the identity matrix. Consequently, $M = L^8 = (L^3)^2 L^2 = I^2 L^2 = L^2$, and $N = L^2$ as given. Since both $M$ and $N$ simplify to $L^2$, their difference $M-N$ is the zero matrix of order 3, whose determinant is always 0."
+  },
+  {
+    "question_number": 8,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Logic",
+    "subtopic": "Discrete Mathematics / Logic and Proof Techniques",
+    "difficulty": "Easy",
+    "question": "Let P(x) be an arbitrary predicate over the domain of natural numbers. Which ONE of the following statements is TRUE?",
+    "options": [
+      "(A) (P(0) \u2227 (\u2200x [P(x) \u21d2 P(x + 1)])) \u21d2 (\u2200x P(x))",
+      "(B) (P(0) \u2227 (\u2200x [P(x) \u21d2 P(x \u2212 1)])) \u21d2 (\u2200x P(x))",
+      "(C) (P(1000) \u2227 (\u2200x [P(x) \u21d2 P(x \u2212 1)])) \u21d2 (\u2200x P(x))",
+      "(D) (P(1000) \u2227 (\u2200x [P(x) \u21d2 P(x + 1)])) \u21d2 (\u2200x P(x))"
+    ],
+    "answer": "(A) (P(0) \u2227 (\u2200x [P(x) \u21d2 P(x + 1)])) \u21d2 (\u2200x P(x))",
+    "a": 1.0,
+    "b": -0.5,
+    "source_chunk": 2,
+    "explanation": "The statement represents the Principle of Mathematical Induction (PMI), a fundamental proof technique for establishing the truth of a predicate for all natural numbers. PMI requires a base case, P(0) in this instance, and an inductive step, where the truth of P(x) implies the truth of P(x+1) for all x in the domain. If both conditions are met, the predicate P(x) is universally true for all natural numbers, directly aligning with the structure and conclusion of a valid inductive proof."
+  },
+  {
+    "question_number": 9,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "Network Layer Protocols / TCP/IP",
+    "difficulty": "Medium",
+    "question": "Consider the following statements:\n(i) Address Resolution Protocol (ARP) provides a mapping from an IP\naddress to the corresponding hardware (link-layer) address.\n(ii) A single TCP segment from a sender S to a receiver R cannot carry both\ndata from S to R and acknowledgement for a segment from R to S.\nWhich ONE of the following is CORRECT?",
+    "options": [
+      "(A) Both (i) and (ii) are TRUE",
+      "(B) (i) is TRUE and (ii) is FALSE",
+      "(C) (i) is FALSE and (ii) is TRUE",
+      "(D) Both (i) and (ii) are FALSE"
+    ],
+    "answer": "(B) (i) is TRUE and (ii) is FALSE",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 3,
+    "explanation": "The question examines the fundamental functions of Address Resolution Protocol (ARP) and the behavior of Transmission Control Protocol (TCP) regarding acknowledgements. ARP's primary role is indeed to map an IP address to its corresponding hardware (MAC) address on a local network. However, TCP utilizes piggybacking, which allows an acknowledgment for received data to be included within an outgoing data segment to the same destination. Therefore, statement (i) accurately describes ARP's function, while statement (ii) is incorrect because a single TCP segment can carry both data and an acknowledgement."
+  },
+  {
+    "question_number": 10,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "Routing Algorithms",
+    "difficulty": "Easy",
+    "question": "Consider the routing protocols given in List I and the names given in List II:\nList I List II\n(i) Distance vector routing (a) Bellman-Ford\n(ii) Link state routing (b) Dijkstra\nFor matching of items in List I with those in List II, which ONE of the following\noptions is CORRECT?",
+    "options": [
+      "(A) (i) - (a) and (ii) - (b)",
+      "(B) (i) - (a) and (ii) - (a)",
+      "(C) (i) - (b) and (ii) - (a)",
+      "(D) (i) - (b) and (ii) - (b)"
+    ],
+    "answer": "(A) (i) - (a) and (ii) - (b)",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 3,
+    "explanation": "This question pertains to the fundamental shortest path algorithms employed by different categories of routing protocols. Distance Vector routing protocols, such as RIP, iteratively compute shortest paths using the Bellman-Ford algorithm by exchanging information with direct neighbors. Link State routing protocols, like OSPF, construct a full network topology and then individually run Dijkstra's algorithm to determine shortest paths. Therefore, Distance Vector routing is correctly associated with Bellman-Ford, and Link State routing is correctly associated with Dijkstra's algorithm."
+  },
+  {
+    "question_number": 11,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "IP Protocol Field / Network Layer",
+    "difficulty": "Medium",
+    "question": "A machine receives an IPv4 datagram. The protocol field of the IPv4 header has the\nprotocol number of a protocol X.\nWhich ONE of the following is NOT a possible candidate for X?",
+    "options": [
+      "(A) Internet Control Message Protocol (ICMP)",
+      "(B) Internet Group Management Protocol (IGMP)",
+      "(C) Open Shortest Path First (OSPF)",
+      "(D) Routing Information Protocol (RIP)"
+    ],
+    "answer": "(D) Routing Information Protocol (RIP)",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 3,
+    "explanation": "The IPv4 Protocol field identifies the next-level protocol whose data is encapsulated within the IP datagram, such as network control or a transport layer. ICMP, IGMP, and OSPF are network-layer protocols that operate directly over IP, so their dedicated protocol numbers are used in this field. Routing Information Protocol (RIP) is an application-layer protocol running over UDP; thus, the IPv4 Protocol field indicates UDP, not RIP directly."
+  },
+  {
+    "question_number": 12,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "C Programming / Pointers and Strings",
+    "difficulty": "Medium",
+    "question": "Consider the following C program:\n\n```c\n#include <stdio.h>\nvoid stringcopy(char *, char *);\nint main(){\n    char a^30 = \"@#Hello World!\";\n    stringcopy(a, a + 2);\n    printf(\"%s\\n\", a);\n    return 0;\n}\nvoid stringcopy(char *s, char *t) {\n    while(*t)\n        *s++ = *t++;\n}\n```\n\nWhich ONE of the following will be the output of the program?",
+    "options": [
+      "(A) `@#Hello World!`",
+      "(B) `Hello World!`",
+      "(C) `ello World!`",
+      "(D) `Hello World!d!`"
+    ],
+    "answer": "(B) `Hello World!`",
+    "a": 1.4,
+    "b": 0.1,
+    "source_chunk": 3,
+    "explanation": "This C program demonstrates string copying using pointer arithmetic, where the custom stringcopy function handles overlapping source and destination memory regions. The call stringcopy(a, a + 2) copies characters from a^2 ('H') onwards to the start of array a (a^0). This operation effectively overwrites a^0 and a^1 with 'H' and 'e', shifting \"Hello World!\" to the array's beginning for printing."
+  },
+  {
+    "question_number": 13,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Sorting and Searching",
+    "subtopic": "Comparison-based Problems",
+    "difficulty": "Easy",
+    "question": "Consider an unordered list of \ud835\udc41 distinct integers.\nWhat is the minimum number of element comparisons required to find an integer\nin the list that is NOT the largest in the list?",
+    "options": [
+      "(A) 1",
+      "(B) \ud835\udc41\u22121",
+      "(C) \ud835\udc41",
+      "(D) 2\ud835\udc41\u22121"
+    ],
+    "answer": "(A) 1",
+    "a": 1.2,
+    "b": -0.8,
+    "source_chunk": 3,
+    "explanation": "The objective is to find an element guaranteed not to be the largest in an unordered list of N distinct integers. Since the integers are distinct and N \u2265 2, there must be at least two unique values. Comparing any two elements, X and Y, will immediately establish one as smaller. The identified smaller element is definitively not the largest in the entire list, thus requiring only a single comparison."
+  },
+  {
+    "question_number": 14,
+    "type": "MCQ",
+    "subject": "Compiler Design",
+    "topic": "Advanced Topics",
+    "subtopic": "Intermediate Code Generation / Backpatching",
+    "difficulty": "Medium",
+    "question": "Consider the following statements about the use of backpatching in a compiler for\nintermediate code generation:\n(I) Backpatching can be used to generate code for Boolean expression in\none pass.\n(II) Backpatching can be used to generate code for flow-of-control\nstatements in one pass.\nWhich ONE of the following options is CORRECT?",
+    "options": [
+      "(A) Only (I) is correct.",
+      "(B) Only (II) is correct.",
+      "(C) Both (I) and (II) are correct.",
+      "(D) Neither (I) nor (II) is correct."
+    ],
+    "answer": "(C) Both (I) and (II) are correct.",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 3,
+    "explanation": "Backpatching is a one-pass code generation technique in compilers used to resolve unknown jump targets after initial code generation. It is fundamental for generating intermediate code for Boolean expressions, where true/false jump lists need to be connected to appropriate target labels. Similarly, backpatching is essential for flow-of-control statements to resolve the addresses of conditional branches and loop exits."
+  },
+  {
+    "question_number": 15,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "IP Fragmentation",
+    "difficulty": "Medium",
+    "question": "Consider a network that uses Ethernet and IPv4. Assume that IPv4 headers do not\nuse any options field. Each Ethernet frame can carry a maximum of 1500 bytes in\nits data field. A UDP segment is transmitted. The payload (data) in the UDP\nsegment is 7488 bytes.\nWhich ONE of the following choices has the CORRECT total number of fragments\ntransmitted and the size of the last fragment including IPv4 header?",
+    "options": [
+      "(A) 5 fragments, 1488 bytes",
+      "(B) 6 fragments, 88 bytes",
+      "(C) 6 fragments, 108 bytes",
+      "(D) 6 fragments, 116 bytes"
+    ],
+    "answer": "(D) 6 fragments, 116 bytes",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 4,
+    "explanation": "IPv4 fragmentation divides a datagram when its total size exceeds the Maximum Transmission Unit (MTU) of the network link. The 7496-byte UDP segment is fragmented, with each fragment capable of carrying 1480 bytes of data. This results in 5 full fragments and a 6th fragment carrying 96 data bytes, totaling 116 bytes (96 data + 20 header)."
+  },
+  {
+    "question_number": 16,
+    "type": "MCQ",
+    "subject": "Theory of Computation",
+    "topic": "Context-Free Languages",
+    "subtopic": "Pushdown Automata / Language Hierarchy",
+    "difficulty": "Easy",
+    "question": "Which ONE of the following languages is accepted by a deterministic pushdown\nautomaton?",
+    "options": [
+      "(A) Any regular language.",
+      "(B) Any context-free language.",
+      "(C) Any language accepted by a non-deterministic pushdown automaton.",
+      "(D) Any decidable language."
+    ],
+    "answer": "(A) Any regular language.",
+    "a": 1.0,
+    "b": -0.8,
+    "source_chunk": 4,
+    "explanation": "A Deterministic Pushdown Automaton (DPDA) recognizes Deterministic Context-Free Languages (DCFLs), which form a proper subset of Context-Free Languages (CFLs). All regular languages are inherently deterministic; a DPDA can simulate a Finite Automaton by simply not using its stack, effectively accepting any regular language. Therefore, every regular language is also a Deterministic Context-Free Language, making it accepted by a DPDA."
+  },
+  {
+    "question_number": 17,
+    "type": "MCQ",
+    "subject": "Theory of Computation",
+    "topic": "Computability",
+    "subtopic": "Decidability / Context-Free Languages",
+    "difficulty": "Medium",
+    "question": "Let \ud835\udc3a, \ud835\udc3a be Context Free Grammars (CFGs) and \ud835\udc45 be a regular expression. For a\n1 2\ngrammar \ud835\udc3a, let \ud835\udc3f(\ud835\udc3a) denote the language generated by \ud835\udc3a.\nWhich ONE among the following questions is decidable?",
+    "options": [
+      "(A) Is \ud835\udc3f(\ud835\udc3a1) = \ud835\udc3f(\ud835\udc3a2)?",
+      "(B) Is \ud835\udc3f(\ud835\udc3a1) \u2229 \ud835\udc3f(\ud835\udc3a2) = \u2205?",
+      "(C) Is \ud835\udc3f(\ud835\udc3a1) = \ud835\udc3f(\ud835\udc45)?",
+      "(D) Is \ud835\udc3f(\ud835\udc3a1) = \u2205?"
+    ],
+    "answer": "(D) Is \ud835\udc3f(\ud835\udc3a1) = \u2205?",
+    "a": 1.4,
+    "b": 0.0,
+    "source_chunk": 4,
+    "explanation": "The emptiness problem for Context-Free Languages (CFLs) asks if the language generated by a CFG is empty. This problem is decidable because an algorithm can determine if the start symbol of the grammar can derive any terminal string. Other questions like equivalence of two CFGs, intersection emptiness of two CFLs, or CFG-regular language equivalence are known to be undecidable."
+  },
+  {
+    "question_number": 18,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "CPU Scheduling (SRTF)",
+    "difficulty": "Medium",
+    "question": "Processes\ud835\udc431, \ud835\udc432, \ud835\udc433, \ud835\udc434 arrive in that order at times 0, 1, 2, and 8 milliseconds\nrespectively, and have execution times of 10, 13, 6, and 9 milliseconds respectively.\nShortest Remaining Time First (SRTF) algorithm is used as the CPU scheduling\npolicy. Ignore context switching times.\nWhich ONE of the following correctly gives the average turnaround time of the four\nprocesses in milliseconds?",
+    "options": [
+      "(A) 22",
+      "(B) 15",
+      "(C) 37",
+      "(D) 19"
+    ],
+    "answer": "(D) 19",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 4,
+    "explanation": "Shortest Remaining Time First (SRTF) is a preemptive scheduling algorithm that always processes the job with the least remaining execution time. Average turnaround time is computed by simulating SRTF to find completion times, then averaging the difference between completion and arrival for all processes. This calculation, using the given process data, results in an average turnaround time of 19 milliseconds."
+  },
+  {
+    "question_number": 19,
+    "type": "MSQ",
+    "subject": "Databases",
+    "topic": "Transactions and Concurrency Control",
+    "subtopic": "Transaction Properties (ACID)",
+    "difficulty": "Hard",
+    "question": "An audit of a banking transactions system has found that on an earlier occasion, two\njoint holders of account \ud835\udc34 attempted simultaneous transfers of Rs. 10000 each from\naccount \ud835\udc34 to account \ud835\udc35. Both transactions read the same value, Rs. 11000, as the\ninitial balance in \ud835\udc34 and were allowed to go through. \ud835\udc35 was credited Rs. 10000 twice.\n\ud835\udc34 was debited only once and ended up with a balance of Rs. 1000.\nWhich of the following properties is/are certain to have been violated by the\nsystem?",
+    "options": [
+      "(A) Atomicity",
+      "(B) Consistency",
+      "(C) Isolation",
+      "(D) Durability"
+    ],
+    "answer": [
+      "(B) Consistency",
+      "(C) Isolation"
+    ],
+    "a": 1.8,
+    "b": 1.0,
+    "source_chunk": 4,
+    "explanation": "The ACID properties ensure database transactions maintain data integrity and reliability, especially during concurrent operations. Concurrent transactions reading the same initial balance and one update being lost demonstrates a violation of Isolation, as their execution was not serializable. This lost update directly leads to an incorrect final account balance, thereby violating Consistency, as the database transitions to an invalid state."
+  },
+  {
+    "question_number": 20,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Instruction Set Architecture",
+    "difficulty": "Easy",
+    "question": "Which of the following is/are part of an Instruction Set Architecture of a processor?",
+    "options": [
+      "(A) The size of the cache memory",
+      "(B) The clock frequency of the processor",
+      "(C) The number of cache memory levels",
+      "(D) The total number of registers"
+    ],
+    "answer": "(D) The total number of registers",
+    "a": 0.9,
+    "b": -0.6,
+    "source_chunk": 4,
+    "explanation": "An Instruction Set Architecture (ISA) specifies the abstract interface between software and hardware, including instructions, data types, and register set. Microarchitectural details such as cache size, cache levels, and clock frequency are implementation-specific and are not part of the ISA definition. The total number of programmer-visible registers is an intrinsic part of the ISA, defining the available storage directly addressable by instructions."
+  },
+  {
+    "question_number": 21,
+    "type": "MSQ",
+    "subject": "Theory of Computation",
+    "topic": "Context-Free Languages",
+    "subtopic": "Formal Languages and Automata Theory / Closure Properties",
+    "difficulty": "Medium",
+    "question": "Consider the two lists List I and List II given below:\nList I List II\n(i) Context free languages (a) Closed under union\n(ii) Recursive languages (b) Not closed under complementation\n(iii) Regular languages (c) Closed under intersection\nFor matching of items in List I with those in List II, which of the following\noption(s) is/are CORRECT?",
+    "options": [
+      "(A) (i) - (a), (ii) - (b), and (iii) - (c)",
+      "(B) (i) - (b), (ii) - (a), and (iii) - (c)",
+      "(C) (i) - (b), (ii) - (c), and (iii) - (a)",
+      "(D) (i) - (a), (ii) - (c), and (iii) - (b)"
+    ],
+    "answer": [
+      "(B) (i) - (b), (ii) - (a), and (iii) - (c)",
+      "(C) (i) - (b), (ii) - (c), and (iii) - (a)"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 5,
+    "explanation": "Context-free languages are defined by context-free grammars, recursive languages are Turing-decidable, and regular languages are recognized by finite automata. Context-free languages are not closed under complementation, whereas recursive languages are closed under union and intersection, and regular languages are closed under both union and intersection. These closure properties establish that CFLs are not closed under complement, while RLs and RegLs exhibit closure under union and intersection respectively."
+  },
+  {
+    "question_number": 22,
+    "type": "NAT",
+    "subject": "Computer Networks",
+    "topic": "Network Performance & Security",
+    "subtopic": "Computer Arithmetic / Booth's Algorithm",
+    "difficulty": "Medium",
+    "question": "The following two signed 2's complement numbers (multiplicand M and\nmultiplier Q) are being multiplied using Booth's algorithm:\nM: 1100 1101 1110 1101 and Q: 1010 0100 1010 1010\nThe total number of addition and subtraction operations to be performed is\n___________. (Answer in integer)",
+    "answer": "13",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 5,
+    "explanation": "Booth's algorithm is a method for efficient multiplication of signed binary numbers in two's complement form. The total number of addition and subtraction operations is determined by counting the (01) and (10) transitions in the multiplier bit string, including an assumed Q_-1 bit of zero. For the given multiplier, observing these transitions from LSB to MSB with Q_-1=0 yields exactly 13 such operations."
+  },
+  {
+    "question_number": 23,
+    "type": "NAT",
+    "subject": "Programming and Data Structures",
+    "topic": "C Programming",
+    "subtopic": "C Programming / Euclidean Algorithm / GCD",
+    "difficulty": "Easy",
+    "question": "\n```c\nint x=126,y=105;\ndo {\n    if(x>y) x=x-y;\n    else y=y-x;\n} while(x!=y);\nprintf(\"%d\",x);\n```\n\nThe output of the given C code segment is ________. (Answer in integer)",
+    "answer": "21",
+    "a": 1.0,
+    "b": -0.8,
+    "source_chunk": 5,
+    "explanation": "The C code implements the Euclidean algorithm for finding the Greatest Common Divisor (GCD) of two integers using repeated subtraction. In this iterative process, the larger number is replaced by the difference between the two numbers until both variables become equal. Given initial values x=126 and y=105, the loop converges to 21, which is the GCD printed."
+  },
+  {
+    "question_number": 24,
+    "type": "NAT",
+    "subject": "Digital Logic",
+    "topic": "Combinational Circuits",
+    "subtopic": "Counters / Asynchronous Counters",
+    "difficulty": "Easy",
+    "question": "In a 4-bit ripple counter, if the period of the waveform at the last flip-flop is 64\nmicroseconds, then the frequency of the ripple counter in kHz is ________. (Answer\nin integer)",
+    "answer": "250",
+    "a": 0.9,
+    "b": -0.7,
+    "source_chunk": 5,
+    "explanation": "A ripple counter uses cascaded flip-flops, where each stage's output clocks the next, thus dividing the input frequency. The period of the last flip-flop's output in an N-bit counter is 2^N times the input clock period. Given a 4-bit counter with a 64 \u00b5s last flip-flop period, the input clock period is 64/16 = 4 \u00b5s, resulting in a 250 kHz frequency."
+  },
+  {
+    "question_number": 25,
+    "type": "NAT",
+    "subject": "Data Structures",
+    "topic": "Trees",
+    "subtopic": "Data Structures / Binary Search Trees",
+    "difficulty": "Medium",
+    "question": "Suppose the values10, \u22124, 15, 30, 20, 5, 60, 19 are inserted in that order into an\ninitially empty binary search tree. Let\ud835\udc47 be the resulting binary search tree.\nThe number of edges in the path from the node containing19 to the root node of\ud835\udc47 \nis ___________. (Answer in integer)",
+    "answer": "4",
+    "a": 1.3,
+    "b": 0.0,
+    "source_chunk": 5,
+    "explanation": "A binary search tree (BST) maintains that left children are smaller and right children are larger than their parent. The path from a node to the root consists of traversing its ancestors, and the number of edges equals its depth. After inserting the values, node 19 is at depth 4 (path: 19-20-30-15-10), meaning 4 edges connect it to the root."
+  },
+  {
+    "question_number": 26,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Data Link Layer",
+    "subtopic": "Data Link Layer / Stop-and-Wait Protocol",
+    "difficulty": "Medium",
+    "question": "Suppose we are transmitting frames between two nodes using Stop-and-Wait\nprotocol. The frame size is 3000 bits. The transmission rate of the channel is 2000\nbps (bits/second) and the propagation delay between the two nodes is 100\nmilliseconds. Assume that the processing times at the source and destination are\nnegligible. Also, assume that the size of the acknowledgement packet is negligible.\nWhich ONE of the following most accurately gives the channel utilization for the\nabove scenario in percentage?",
+    "options": [
+      "(A) 88.23",
+      "(B) 93.75",
+      "(C) 85.44",
+      "(D) 66.67"
+    ],
+    "answer": "(A) 88.23",
+    "a": 1.2,
+    "b": 0.1,
+    "source_chunk": 5,
+    "explanation": "Channel utilization in Stop-and-Wait protocol is the ratio of transmission time for a frame to the total cycle time, including propagation delays. The transmission time for a 3000-bit frame at 2000 bps is 1.5 seconds, and the round-trip propagation delay is 2 * 100 ms = 0.2 seconds. Thus, the utilization is calculated as 1.5 / (1.5 + 0.2), which equals approximately 0.8823 or 88.23%."
+  },
+  {
+    "question_number": 27,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Graph Algorithms",
+    "subtopic": "Graph Algorithms / MST / Shortest Path",
+    "difficulty": "Medium",
+    "question": "Let \ud835\udc3a be an edge-weighted undirected graph with positive edge weights. Suppose a\npositive constant \ud835\udefc is added to the weight of every edge.\nWhich ONE of the following statements is TRUE about the minimum spanning\ntrees (MSTs) and shortest paths (SPs) in \ud835\udc3a before and after the edge weight update?",
+    "options": [
+      "(A) Every MST remains an MST, and every SP remains an SP.",
+      "(B) MSTs need not remain MSTs, and every SP remains an SP.",
+      "(C) Every MST remains an MST, and SPs need not remain SPs.",
+      "(D) MSTs need not remain MSTs, and SPs need not remain SPs."
+    ],
+    "answer": "(C) Every MST remains an MST, and SPs need not remain SPs.",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "explanation": "A Minimum Spanning Tree (MST) relies on the relative ordering of edge weights, which remains unchanged when a positive constant is added to every edge weight. Consequently, MST algorithms will select the same edges, preserving the MST structure. However, shortest paths are found by summing edge weights, so adding a constant to each edge can alter the path with the minimum sum, meaning shortest paths need not remain shortest paths."
+  },
+  {
+    "question_number": 28,
+    "type": "MCQ",
+    "subject": "Data Structures",
+    "topic": "Trees & Heaps",
+    "subtopic": "Data Structures / Heaps / Linked Lists / Binary Search Trees",
+    "difficulty": "Medium",
+    "question": "A meld operation on two instances of a data structure combines them into one single\ninstance of the same data structure. Consider the following data structures:\nP: Unsorted doubly linked list with pointers to the head node and tail node\nof the list.\nQ: Min-heap implemented using an array.\nR: Binary Search Tree.\nWhich ONE of the following options gives the worst-case time complexities for\nmeld operation on instances of size \ud835\udc5b of these data structures?",
+    "options": [
+      "(A) P:\u0398(1), Q:\u0398(\ud835\udc5b), R:\u0398(\ud835\udc5b)",
+      "(B) P:\u0398(1), Q:\u0398(\ud835\udc5blog \ud835\udc5b), R:\u0398(\ud835\udc5b)",
+      "(C) P:\u0398(\ud835\udc5b), Q:\u0398(\ud835\udc5blog \ud835\udc5b), R:\u0398(\ud835\udc5b2)",
+      "(D) P:\u0398(1), Q:\u0398(\ud835\udc5b), R:\u0398(\ud835\udc5blog \ud835\udc5b)"
+    ],
+    "answer": "(A) P:\u0398(1), Q:\u0398(\ud835\udc5b), R:\u0398(\ud835\udc5b)",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 6,
+    "explanation": "Meld on an unsorted doubly linked list with head and tail pointers involves constant time pointer manipulation to link the two list ends. For min-heaps, merging can be done by combining their elements into a new array and then performing a build-heap operation, taking linear time. For Binary Search Trees, melding can be achieved by converting both into sorted lists, merging them, and then building a new balanced BST, which collectively takes linear time."
+  },
+  {
+    "question_number": 29,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Cache Memory",
+    "difficulty": "Easy",
+    "question": "For a direct-mapped cache, 4 bits are used for the tag field and 12 bits are used to\nindex into a cache block. The size of each cache block is one byte. Assume that\nthere is no other information stored for each cache block.\nWhich ONE of the following is the CORRECT option for the sizes of the main\nmemory and the cache memory in this system (byte addressable), respectively?",
+    "options": [
+      "(A) 64 KB and 4 KB",
+      "(B) 128 KB and 16 KB",
+      "(C) 64 KB and 8 KB",
+      "(D) 128 KB and 6 KB"
+    ],
+    "answer": "(A) 64 KB and 4 KB",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 6,
+    "explanation": "In a direct-mapped cache, the number of index bits determines the number of cache blocks, and the total address bits determine main memory size. With 12 index bits and 1-byte blocks, the cache memory size is 2^12 bytes, which equals 4 KB. The total address length is 4 tag bits + 12 index bits = 16 bits, so main memory size is 2^16 bytes, or 64 KB."
+  },
+  {
+    "question_number": 30,
+    "type": "MCQ",
+    "subject": "Theory of Computation",
+    "topic": "Context-Free Languages",
+    "subtopic": "Parsing / Context-Free Grammars / LR Parsers",
+    "difficulty": "Medium",
+    "question": "Given a Context-Free Grammar\ud835\udc3a as follows:\n\ud835\udc46 \u2192 \ud835\udc34\ud835\udc4e | \ud835\udc4f\ud835\udc34\ud835\udc50 | \ud835\udc51\ud835\udc50 | \ud835\udc4f\ud835\udc51\ud835\udc4e \n\ud835\udc34 \u2192 \ud835\udc51 \nWhich ONE of the following statements is TRUE?",
+    "options": [
+      "(A) \ud835\udc3a is neither LALR(1) nor SLR(1)",
+      "(B) \ud835\udc3a is CLR(1), not LALR(1)",
+      "(C) \ud835\udc3a is LALR(1), not SLR(1)",
+      "(D) \ud835\udc3a is LALR(1), also SLR(1)"
+    ],
+    "answer": "(A) \ud835\udc3a is neither LALR(1) nor SLR(1)",
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 6,
+    "explanation": "This grammar is neither LALR(1) nor SLR(1) because it exhibits an inherent shift-reduce conflict even with CLR(1) parsing. Specifically, in the state after parsing 'd', the item `S -> d.c` indicates a shift on lookahead 'c'. Simultaneously, the item `A -> d.` exists, and 'c' is in `FOLLOW(A)` due to the rule `S -> bAc`, leading to a reduce action on 'c'."
+  },
+  {
+    "question_number": 31,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Sorting and Searching",
+    "subtopic": "Searching / Bitonic Array",
+    "difficulty": "Medium",
+    "question": "An array \ud835\udc34 of length \ud835\udc5b with distinct elements is said to be bitonic if there is an index\n1 \u2264 \ud835\udc56 \u2264 \ud835\udc5b such that \ud835\udc34[1. . \ud835\udc56] is sorted in the non-decreasing order and \ud835\udc34[\ud835\udc56 + 1 . . \ud835\udc5b]\nis sorted in the non-increasing order.\nWhich ONE of the following represents the best possible asymptotic bound for the\nworst-case number of comparisons by an algorithm that searches for an element in\na bitonic array \ud835\udc34?",
+    "options": [
+      "(A) \u0398(\ud835\udc5b)",
+      "(B) \u0398(1)",
+      "(C) \u0398(log2 \ud835\udc5b)",
+      "(D) \u0398(log \ud835\udc5b)"
+    ],
+    "answer": "(C) \u0398(log2 \ud835\udc5b)",
+    "a": 1.4,
+    "b": 0.1,
+    "source_chunk": 6,
+    "explanation": "Searching in a bitonic array, which is an array with distinct elements that first increases and then decreases, can be efficiently done using a modified binary search approach. First, the peak element, which is the maximum value, can be found in \u0398(log n) time. Once the peak is identified, the array is divided into two monotonic parts, and a standard binary search can be applied to each part, resulting in an overall worst-case complexity of \u0398(log n)."
+  },
+  {
+    "question_number": 32,
+    "type": "MSQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Advanced Topics",
+    "subtopic": "Discrete Mathematics / Relations / Partial Orders / Lattices",
+    "difficulty": "Hard",
+    "question": "Let \u2131 be the set of all functions from{1, \u2026, \ud835\udc5b} to{0,1}. Define\nthe binary relation\u227c on\u2131 as follows:\n\u2200\ud835\udc53, \ud835\udc54\u2208\u2131,  \ud835\udc53\u227c\ud835\udc54 if and only if\u2200\ud835\udc65\u2208{1, \u2026, \ud835\udc5b}, \ud835\udc53(\ud835\udc65) \u2264\ud835\udc54(\ud835\udc65), where0 \u22641. \nWhich of the following statement(s) is/are TRUE?",
+    "options": [
+      "(A) \u227c is a symmetric relation",
+      "(B) (\u2131, \u227c ) is a partial order",
+      "(C) (\u2131, \u227c ) is a lattice",
+      "(D) \u227c is an equivalence relation"
+    ],
+    "answer": [
+      "(B) (\u2131, \u227c ) is a partial order",
+      "(C) (\u2131, \u227c ) is a lattice"
+    ],
+    "a": 2.0,
+    "b": 1.0,
+    "source_chunk": 6,
+    "explanation": "A partial order is a binary relation that is reflexive, antisymmetric, and transitive; a lattice is a partial order where every pair of elements has a least upper bound and a greatest lower bound. The given relation \ud835\udc53\u227c\ud835\udc54 (pointwise \ud835\udc53(\ud835\udc65)\u2264\ud835\udc54(\ud835\udc65)) is reflexive, antisymmetric, and transitive, thus forming a partial order. Furthermore, for any \ud835\udc53, \ud835\udc54, meet (min(\ud835\udc53(\ud835\udc65),\ud835\udc54(\ud835\udc65))) and join (max(\ud835\udc53(\ud835\udc65),\ud835\udc54(\ud835\udc65))) exist pointwise for all \ud835\udc65. Therefore, (\u2131, \u227c) is both a partial order and a lattice."
+  },
+  {
+    "question_number": 33,
+    "type": "MSQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Linear Algebra / LU Decomposition",
+    "difficulty": "Medium",
+    "question": "Consider a system of linear equations \ud835\udc43\ud835\udc4b = \ud835\udc44 where \ud835\udc43 \u2208 \u211d3\u00d73 and Q \u2208 \u211d3\u00d71.\nSuppose \ud835\udc43 has an LU decomposition, \ud835\udc43 = \ud835\udc3f\ud835\udc48, where\n1 0 0 \ud835\udc62 \ud835\udc62 \ud835\udc62\n11 12 13\n\ud835\udc3f = [\ud835\udc59 1 0] and \ud835\udc48 = [ 0 \ud835\udc62 \ud835\udc62 ].\n21 22 23\n\ud835\udc59 \ud835\udc59 1 0 0 \ud835\udc62\n31 32 33\nWhich of the following statement(s) is/are TRUE?",
+    "options": [
+      "(A) The system \ud835\udc43\ud835\udc4b= \ud835\udc44 can be solved by first solving \ud835\udc3f\ud835\udc4c= \ud835\udc44 and then \ud835\udc48\ud835\udc4b= \ud835\udc4c.",
+      "(B) If \ud835\udc43 is invertible, then both \ud835\udc3f and \ud835\udc48 are invertible.",
+      "(C) If \ud835\udc43 is singular, then at least one of the diagonal elements of \ud835\udc48 is zero.",
+      "(D) If \ud835\udc43 is symmetric, then both \ud835\udc3f and \ud835\udc48 are symmetric."
+    ],
+    "answer": [
+      "(A) The system \ud835\udc43\ud835\udc4b= \ud835\udc44 can be solved by first solving \ud835\udc3f\ud835\udc4c= \ud835\udc44 and then \ud835\udc48\ud835\udc4b= \ud835\udc4c.",
+      "(B) If \ud835\udc43 is invertible, then both \ud835\udc3f and \ud835\udc48 are invertible.",
+      "(C) If \ud835\udc43 is singular, then at least one of the diagonal elements of \ud835\udc48 is zero."
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 7,
+    "explanation": "LU decomposition factors a matrix \ud835\udc43 into a lower triangular \ud835\udc3f and an upper triangular \ud835\udc48, \ud835\udc43=\ud835\udc3f\ud835\udc48, simplifying linear system solutions. To solve \ud835\udc43\ud835\udc4b=\ud835\udc44, one solves \ud835\udc3f\ud835\udc4c=\ud835\udc44 for \ud835\udc4c then \ud835\udc48\ud835\udc4b=\ud835\udc4c for \ud835\udc4b. If \ud835\udc43 is invertible, det(\ud835\udc43)\u22600. Since det(\ud835\udc43)=det(\ud835\udc3f)det(\ud835\udc48) and det(\ud835\udc3f)=1, det(\ud835\udc48)\u22600, making \ud835\udc48 invertible; if \ud835\udc43 is singular, det(\ud835\udc43)=0, forcing det(\ud835\udc48)=0, meaning a diagonal element of \ud835\udc48 is zero."
+  },
+  {
+    "question_number": 34,
+    "type": "MCQ",
+    "subject": "Data Structures",
+    "topic": "Trees & Heaps",
+    "subtopic": "Stack / Augmentation",
+    "difficulty": "Medium",
+    "question": "Consider a stack data structure into which we can PUSH and POP records. Assume\nthat each record pushed in the stack has a positive integer key and that all keys are\ndistinct.\nWe wish to augment the stack data structure with an \ud835\udc42(1) time MIN operation that\nreturns a pointer to the record with smallest key present in the stack\n1) without deleting the corresponding record, and\n2) without increasing the complexities of the standard stack operations.\nWhich one or more of the following approach(es) can achieve it?",
+    "options": [
+      "(A) Keep with every record in the stack, a pointer to the record with the smallest key\nbelow it.",
+      "(B) Keep a pointer to the record with the smallest key in the stack.",
+      "(C) Keep an auxiliary array in which the key values of the records in the stack are\nmaintained in sorted order.",
+      "(D) Keep a Min-Heap in which the key values of the records in the stack are maintained."
+    ],
+    "answer": "(A) Keep with every record in the stack, a pointer to the record with the smallest key\nbelow it.",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 7,
+    "explanation": "Augmenting a stack for O(1) MIN operation, returning the smallest key, necessitates preserving O(1) PUSH/POP complexity. Storing a global minimum fails upon its pop. Auxiliary structures like sorted arrays or Min-Heaps increase PUSH/POP to O(log N) or O(N), violating constraints. By linking each record to the minimum element below or at its position in the stack, the top record always provides the current stack minimum in O(1) time."
+  },
+  {
+    "question_number": 35,
+    "type": "MSQ",
+    "subject": "Databases",
+    "topic": "Normalization",
+    "subtopic": "Relational Model / Normal Forms",
+    "difficulty": "Medium",
+    "question": "Consider the following relational schema along with all the functional dependencies\nthat hold on them.\nR1(A, B, C, D, E): { \ud835\udc37 \u2192 \ud835\udc38, \ud835\udc38\ud835\udc34 \u2192 \ud835\udc35, \ud835\udc38\ud835\udc35 \u2192 \ud835\udc36}\nR2(A, B, C, D): { \ud835\udc34 \u2192 \ud835\udc37, \ud835\udc34 \u2192 \ud835\udc35, \ud835\udc36 \u2192 \ud835\udc34}\nWhich of the following statement(s) is/are TRUE?",
+    "options": [
+      "(A) _R1_is in 3NF",
+      "(B) _R2_ is in 3NF",
+      "(C) _R1_ is NOT in 3NF",
+      "(D) _R2_ is NOT in 3NF"
+    ],
+    "answer": [
+      "(C) _R1_ is NOT in 3NF",
+      "(D) _R2_ is NOT in 3NF"
+    ],
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 7,
+    "explanation": "A relation is in Third Normal Form (3NF) if for every non-trivial functional dependency X \u2192 A, X is a superkey or A is a prime attribute. For R1, EA is a candidate key. The dependency D\u2192E violates 3NF because D is not a superkey and E is not prime. For R2, C is a candidate key. The dependency A\u2192D violates 3NF because A is not a superkey and D is not prime. Consequently, both R1 and R2 are not in 3NF due to these violations."
+  },
+  {
+    "question_number": 36,
+    "type": "MSQ",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Memory Management / Page Replacement Algorithms",
+    "difficulty": "Hard",
+    "question": "Consider a demand paging system with three frames, and the following page\nreference string: 1 2 3 4 5 4 1 6 4 5 1 3 2. The contents of the frames are as follows\ninitially and after each reference (from left to right):\ninitially after\n- 1* 2* 3* 4* 5* 4 1 6* 4 5 1* 3* 2*\n- 1 1 1 1 1 1 1 6 6 6 6 6 2\n- - 2 2 4 4 4 4 4 4 4 1 1 1\n- - - 3 3 5 5 5 5 5 5 5 3 3\nThe *-marked references cause page replacements.\nWhich one or more of the following could be the page replacement policy/policies\nin use?",
+    "options": [
+      "(A) Least Recently Used page replacement policy",
+      "(B) Least Frequently Used page replacement policy",
+      "(C) Most Frequently Used page replacement policy",
+      "(D) Optimal page replacement policy"
+    ],
+    "answer": [
+      "(C) Most Frequently Used page replacement policy",
+      "(D) Optimal page replacement policy"
+    ],
+    "a": 1.9,
+    "b": 1.0,
+    "source_chunk": 7,
+    "explanation": "Page replacement policies like Most Frequently Used (MFU) and Optimal (MIN) determine which page to evict from memory frames during a page fault. MFU evicts the page with the highest reference count, while Optimal replaces the page that will not be used for the longest time in the future. Careful application of these rules, including consideration of tie-breaking for MFU and arbitrary selection for Optimal when multiple pages are not referenced, shows the provided trace is consistent with both policies."
+  },
+  {
+    "question_number": 37,
+    "type": "MSQ",
+    "subject": "Operating System",
+    "topic": "Deadlocks",
+    "subtopic": "Deadlock / Resource Allocation Graph",
+    "difficulty": "Medium",
+    "question": "\ud835\udc43 = {\ud835\udc431, \ud835\udc432, \ud835\udc433, \ud835\udc434} consists of all active processes in an operating system. \ud835\udc45 = {\ud835\udc451, \ud835\udc452, \ud835\udc453, \ud835\udc454} consists of single instances of distinct types of resources in the system.\nThe resource allocation graph has the following assignment and claim edges.\nAssignment edges: \ud835\udc451 \u2192 \ud835\udc431, \ud835\udc452 \u2192 \ud835\udc432, \ud835\udc453 \u2192 \ud835\udc433, \ud835\udc454 \u2192 \ud835\udc434 (the assignment edge \ud835\udc451 \u2192 \ud835\udc431 means resource \ud835\udc451 is assigned to process \ud835\udc431, and so on for others)\nClaim edges: \ud835\udc431 \u2192 \ud835\udc452, \ud835\udc432 \u2192 \ud835\udc453, \ud835\udc433 \u2192 \ud835\udc451, \ud835\udc432 \u2192 \ud835\udc454, \ud835\udc434 \u2192 \ud835\udc452 (the claim edge \ud835\udc431 \u2192 \ud835\udc452 means process \ud835\udc431 is waiting for resource \ud835\udc452, and so on for others)\nWhich of the following statement(s) is/are CORRECT?",
+    "options": [
+      "(A) Aborting \ud835\udc431 makes the system deadlock free.",
+      "(B) Aborting \ud835\udc433 makes the system deadlock free.",
+      "(C) Aborting \ud835\udc432 makes the system deadlock free.",
+      "(D) Aborting \ud835\udc431 and \ud835\udc434 makes the system deadlock free."
+    ],
+    "answer": [
+      "(C) Aborting \ud835\udc432 makes the system deadlock free.",
+      "(D) Aborting \ud835\udc431 and \ud835\udc434 makes the system deadlock free."
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 8,
+    "explanation": "Deadlock occurs in an operating system when processes are cyclically waiting for resources held by others, identifiable by cycles in a Resource Allocation Graph (RAG) for single-instance resources. Analyzing the given RAG reveals two cycles: P1-R2-P2-R3-P3-R1-P1 and P2-R4-P4-R2-P2. Aborting P2 breaks both cycles by releasing R2 and R4, allowing P1, P3, and P4 to acquire needed resources, and similarly, aborting P1 and P4 together also resolves all deadlocks."
+  },
+  {
+    "question_number": 38,
+    "type": "MSQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Data Representation",
+    "subtopic": "Floating Point Representation",
+    "difficulty": "Medium",
+    "question": "Three floating point numbers \ud835\udc4b, \ud835\udc4c, and \ud835\udc4d are stored in three registers R_X, R_Y, and R_Z, respectively in IEEE 754 single precision format as given below in hexadecimal:\nR_X = 0xC1100000, R_Y = 0x40C00000, and R_Z = 0x41400000\nWhich of the following option(s) is/are CORRECT?",
+    "options": [
+      "(A) 4(\ud835\udc4b+ \ud835\udc4c) + \ud835\udc4d = 0",
+      "(B) 2\ud835\udc4c - \ud835\udc4d = 0",
+      "(C) 4\ud835\udc4b + 3\ud835\udc4d = 0",
+      "(D) \ud835\udc4b+ \ud835\udc4c+ \ud835\udc4d = 0"
+    ],
+    "answer": [
+      "(A) 4(\ud835\udc4b+ \ud835\udc4c) + \ud835\udc4d = 0",
+      "(B) 2\ud835\udc4c - \ud835\udc4d = 0",
+      "(C) 4\ud835\udc4b + 3\ud835\udc4d = 0"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 8,
+    "explanation": "The IEEE 754 single precision format represents a floating-point number using a sign bit, an 8-bit biased exponent, and a 23-bit normalized mantissa with an implicit leading 1. Converting the given hexadecimal values 0xC1100000, 0x40C00000, and 0x41400000 yields decimal values X = -9.0, Y = 6.0, and Z = 12.0 respectively. Evaluating the expressions with these values shows that 4(X+Y)+Z, 2Y-Z, and 4X+3Z all correctly evaluate to zero."
+  },
+  {
+    "question_number": 39,
+    "type": "MSQ",
+    "subject": "Digital Logic",
+    "topic": "Boolean Algebra",
+    "subtopic": "Boolean Algebra and Minimization",
+    "difficulty": "Hard",
+    "question": "Which of the following Boolean algebraic equation(s) is/are CORRECT?",
+    "options": [
+      "(A) ABC + AB'C + A'B'C + A'BC + ABC' = BC + B'C + AB'",
+      "(B) AB + AC + BC = AB + AC",
+      "(C) (A + C)(A + B) = AB + AC",
+      "(D) (A + B' + D')(C + D)(A + C + D)(A + B + D') = AD + CD'"
+    ],
+    "answer": [
+      "(D) (A + B' + D')(C + D)(A + C + D)(A + B + D') = AD + CD'"
+    ],
+    "a": 2.0,
+    "b": 1.0,
+    "source_chunk": 8,
+    "explanation": "Boolean algebraic equations are verified by applying fundamental identities and theorems like distributive and absorption laws. The left-hand side of option (D) simplifies using X(X+Y)=X and (X+Y)(X+Y')=X to (A + D')(C + D). Expanding this yields AC + AD + CD'. The term AC is redundant in this expression because its truth implies the truth of AD + CD', thus simplifying the entire expression to the right-hand side AD + CD'."
+  },
+  {
+    "question_number": 40,
+    "type": "MSQ",
+    "subject": "Theory of Computation",
+    "topic": "Context-Free Languages",
+    "subtopic": "Context-Free Grammars / LL(1) Parsers",
+    "difficulty": "Medium",
+    "question": "Consider two grammars \ud835\udc3a1 and \ud835\udc3a2 with the production rules given below:\n\ud835\udc3a1 : \ud835\udc46 \u2192 \ud835\udc56\ud835\udc53 \ud835\udc38 \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc46 | \ud835\udc56\ud835\udc53 \ud835\udc38 \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc46 \ud835\udc52\ud835\udc59\ud835\udc60\ud835\udc52 \ud835\udc46 | \ud835\udc4e\n\ud835\udc38 \u2192 \ud835\udc4f\n\ud835\udc3a2 : \ud835\udc46 \u2192 \ud835\udc56\ud835\udc53 \ud835\udc38 \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc46 | \ud835\udc40\n\ud835\udc40 \u2192 \ud835\udc56\ud835\udc53 \ud835\udc38 \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc40 \ud835\udc52\ud835\udc59\ud835\udc60\ud835\udc52 \ud835\udc46 | \ud835\udc50\n\ud835\udc38 \u2192 \ud835\udc4f\nwhere \ud835\udc56\ud835\udc53, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b, \ud835\udc52\ud835\udc59\ud835\udc60\ud835\udc52, \ud835\udc4e, \ud835\udc4f, \ud835\udc50 are the terminals.\nWhich of the following option(s) is/are CORRECT?",
+    "options": [
+      "(A) \ud835\udc3a1 is not \ud835\udc3f\ud835\udc3f(1) and \ud835\udc3a2 is\ud835\udc3f\ud835\udc3f(1).",
+      "(B) \ud835\udc3a1 is \ud835\udc3f\ud835\udc3f(1) and \ud835\udc3a2 is not\ud835\udc3f\ud835\udc3f(1).",
+      "(C) \ud835\udc3a1 and \ud835\udc3a2 are not \ud835\udc3f\ud835\udc3f(1).",
+      "(D) \ud835\udc3a1 and \ud835\udc3a2 are ambiguous."
+    ],
+    "answer": [
+      "(C) \ud835\udc3a1 and \ud835\udc3a2 are not \ud835\udc3f\ud835\udc3f(1)."
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 8,
+    "explanation": "An LL(1) grammar requires that for any non-terminal's alternative productions, their FIRST sets must be disjoint. For Grammar G1, the productions S -> if E then S and S -> if E then S else S both have 'if' in their FIRST sets, failing the LL(1) condition. Similarly, for Grammar G2, S -> if E then S and S -> M have 'if' in their respective FIRST sets (as First(M) includes 'if'), so G2 is also not LL(1)."
+  },
+  {
+    "question_number": 41,
+    "type": "MSQ",
+    "subject": "Theory of Computation",
+    "topic": "Finite Automata",
+    "subtopic": "Regular Languages",
+    "difficulty": "Medium",
+    "question": "Let \u03a3 = {a, b, c}. For x \u2208 \u03a3*, and \u03b1 \u2208 \u03a3, let #\u03b1(x) denote the number of occurrences of \u03b1 in x. Which one or more of the following option(s) define(s) regular language(s)?",
+    "options": [
+      "(A) {a^m b^n | m, n \u2265 0}",
+      "(B) {a, b}* \u2229 {a^m b^n c^(m\u2212n) | m \u2265 n \u2265 0}",
+      "(C) {w | w \u2208 {a, b}*, #a(w) \u2261 2 (mod 7), and #b(w) \u2261 3 (mod 9)}",
+      "(D) {w | w \u2208 {a, b}*, #a(w) \u2261 2 (mod 7), and #a(w) = #b(w)}"
+    ],
+    "answer": [
+      "(A) {a^m b^n | m, n \u2265 0}",
+      "(C) {w | w \u2208 {a, b}*, #a(w) \u2261 2 (mod 7), and #b(w) \u2261 3 (mod 9)}"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 8,
+    "explanation": "Regular languages are those recognized by finite automata, which have finite memory and cannot perform arbitrary counting or comparisons of unbounded quantities. Language (A) {a^m b^n | m, n \u2265 0} is regular as it corresponds to the regular expression a*b*, and language (C) {w | w \u2208 {a, b}*, #a(w) \u2261 2 (mod 7), and #b(w) \u2261 3 (mod 9)} involves only modular counting, which DFAs can easily handle. However, languages (B) and (D) require comparing or relating unbounded counts of characters, such as #a = #b + #c or #a = #b, which necessitates infinite memory, making them non-regular. Therefore, only (A) and (C) define regular languages."
+  },
+  {
+    "question_number": 42,
+    "type": "NAT",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Cache Memory / Performance",
+    "difficulty": "Medium",
+    "question": "Given a computing system with two levels of cache (L1 and L2) and a main\nmemory. The first level (L1) cache access time is 1 nanosecond (ns) and the \"hit\nrate\" for L1 cache is 90% while the processor is accessing the data from L1 cache.\nWhereas, for the second level (L2) cache, the \"hit rate\" is 80% and the \"miss\npenalty\" for transferring data from L2 cache to L1 cache is 10 ns. The \"miss\npenalty\" for the data to be transferred from main memory to L2 cache is 100 ns.\nThen the average memory access time in this system in nanoseconds is\n___________ . (rounded off to one decimal place)",
+    "answer": "4.0",
+    "a": 1.4,
+    "b": 0.0,
+    "source_chunk": 9,
+    "explanation": "The Average Memory Access Time (AMAT) for a hierarchical memory system is calculated by considering the access time and hit rate at each level. For a two-level cache, AMAT = T_L1 + (1 - H_L1) * (T_L2_hit + (1 - H_L2) * T_MM_penalty). Applying the given values: L1 access is 1 ns, L1 miss rate is (1 - 0.9), L2 hit time (miss penalty from L1) is 10 ns, L2 miss rate is (1 - 0.8), and main memory penalty (miss penalty from L2) is 100 ns. Substituting these into the formula yields 1 + (0.1) * (10 + (0.2) * 100) = 1 + 0.1 * (10 + 20) = 1 + 3 = 4.0 nanoseconds."
+  },
+  {
+    "question_number": 43,
+    "type": "NAT",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Pipelining",
+    "subtopic": "Pipeline Clock Cycle / Inter-stage Latch Delay",
+    "difficulty": "Medium",
+    "question": "A 5-stage instruction pipeline has stage delays of 180, 250, 150, 170, and 250,\nrespectively, in nanoseconds. The delay of an inter-stage latch is 10 nanoseconds.\nAssume that there are no pipeline stalls due to branches and other hazards. The time\ntaken to process 1000 instructions in microseconds is __________ . (rounded off to\ntwo decimal places)",
+    "answer": "261.04",
+    "a": 1.35,
+    "b": 0.1,
+    "source_chunk": 9,
+    "explanation": "In an N-stage instruction pipeline, the clock cycle time is determined by the maximum delay of any stage plus the inter-stage latch delay. The total time to process K instructions is calculated as (N + K - 1) multiplied by this clock cycle time, assuming no stalls. The maximum stage delay is 250 ns, so with a 10 ns latch delay, the clock cycle is 260 ns. For 1000 instructions in a 5-stage pipeline, the total time is (5 + 1000 - 1) * 260 ns = 1004 * 260 ns = 261040 ns, which converts to 261.04 microseconds."
+  },
+  {
+    "question_number": 44,
+    "type": "NAT",
+    "subject": "Databases",
+    "topic": "Indexing",
+    "subtopic": "B+ Trees",
+    "difficulty": "Hard",
+    "question": "In a B+- tree where each node can hold at most four key values, a root to leaf path\nconsists of the following nodes:\nA = (49, 77, 83, -), B = (7, 19, 33, 44), C = (20*, 22*, 25*, 26*)\nThe *-marked keys signify that these are data entries in a leaf.\nAssume that a pointer between keys\ud835\udc581 and\ud835\udc582 points to a subtree containing keys\nin [\ud835\udc581, \ud835\udc582), and that when a leaf is created, the smallest key in it is copied up into\nits parent.\nA record with key value 23 is inserted into the B+- tree.\nThe smallest key value in the parent of the leaf that contains 25* is __________.\n(Answer in integer)",
+    "answer": "33",
+    "a": 1.9,
+    "b": 1.2,
+    "source_chunk": 9,
+    "explanation": "B+-tree insertion involves potentially splitting an overflowing leaf and copying its smallest new key to the parent, then potentially splitting an overflowing internal node and promoting its median key. Inserting 23 into leaf C=(20*, 22*, 25*, 26*) causes C to split into C1=(20*, 22*) and C2=(23*, 25*, 26*), copying 23 to parent B=(7, 19, 33, 44), which then overflows. B splits into B1=(7, 19) and B2=(33, 44), promoting 23 to parent A=(49, 77, 83) which becomes (23, 49, 77, 83). The leaf containing 25* is C2, which is now a child of the internal node B2, meaning its parent is (33, 44); thus, the smallest key in this parent is 33."
+  },
+  {
+    "question_number": 45,
+    "type": "NAT",
+    "subject": "Theory of Computation",
+    "topic": "Finite Automata",
+    "subtopic": "Automata Theory / DFA Design",
+    "difficulty": "Medium",
+    "question": "Let \u03a3 = {1,2,3,4}. For \ud835\udc65 \u2208 \u03a3\u2217, let \ud835\udc5d\ud835\udc5f\ud835\udc5c\ud835\udc51(\ud835\udc65) be the product of symbols in\n\ud835\udc65 modulo 7. We take \ud835\udc5d\ud835\udc5f\ud835\udc5c\ud835\udc51(\ud835\udf16) = 1, where \ud835\udf16 is the null string.\nFor example, \ud835\udc5d\ud835\udc5f\ud835\udc5c\ud835\udc51(124) = (1 \u00d7 2 \u00d7 4) mod 7 = 1.\nDefine \ud835\udc3f = {\ud835\udc65 \u2208 \u03a3\u2217 | \ud835\udc5d\ud835\udc5f\ud835\udc5c\ud835\udc51(\ud835\udc65) = 2}.\nThe number of states in a minimum state DFA for \ud835\udc3f is ___________. (Answer in\ninteger)",
+    "answer": "6",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 10,
+    "explanation": "A minimum state DFA for `prod(x) mod N` requires a distinct state for each reachable remainder of the product modulo N. Since the alphabet is {1, 2, 3, 4} and the modulus is 7, and none of these symbols are 0 mod 7, the product modulo 7 will always be a non-zero element of Z_7. Starting from `prod(\u03b5)=1`, all non-zero residues {1, 2, 3, 4, 5, 6} are reachable by multiplying with alphabet symbols. Therefore, a separate state is required for each of these 6 distinct reachable product values, with the state for 2 being the accepting state."
+  },
+  {
+    "question_number": 46,
+    "type": "NAT",
+    "subject": "Computer Networks",
+    "topic": "Network Performance & Security",
+    "subtopic": "Performance Metrics / CPU Performance",
+    "difficulty": "Medium",
+    "question": "An application executes6.4 \u00d7 108 number of instructions in 6.3 seconds. There are\nfour types of instructions, the details of which are given in the table. The duration\nof a clock cycle in nanoseconds is _________. (rounded off to one decimal place)\nInstruction type\nClock cycles required per\ninstruction (CPI)\nNumber of instructions\nexecuted\nBranch\n2 \n2.25 \u00d7 108 \nLoad\n5 \n1.20 \u00d7 108 \nStore\n4 \n1.65 \u00d7 108 \nArithmetic\n3 \n1.30 \u00d7 108 \n \n \n",
+    "answer": "3.0",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 10,
+    "explanation": "This problem involves calculating the clock cycle duration using the total execution time and the total number of clock cycles. The total clock cycles required are determined by summing the product of the number of instructions executed and their respective Cycles Per Instruction (CPI) for each instruction type. The clock cycle time is then found by dividing the total execution time by this total number of clock cycles, resulting in the specified nanosecond value of 3.0."
+  },
+  {
+    "question_number": 47,
+    "type": "NAT",
+    "subject": "Programming and Data Structures",
+    "topic": "C Programming",
+    "subtopic": "Pointers / Arrays / C Programming",
+    "difficulty": "Medium",
+    "question": "Consider the following C program:\n\n```c\n#include <stdio.h>\nint main(){\n    int a;\n    int arr^5 = {30,50,10};\n    int *ptr;\n    ptr = &arr^0 + 1;\n    a = *ptr;\n    (*ptr)++;\n    ptr++;\n    printf(\"%d\", a + (*ptr) + arr^1);\n    return 0;\n}\n```\n\nThe output of the above program is ___________. (Answer in integer)",
+    "answer": "111",
+    "a": 1.2,
+    "b": -0.1,
+    "source_chunk": 10,
+    "explanation": "This C program demonstrates pointer arithmetic, array indexing, and the effects of post-increment operators on pointers and values. `ptr` is initialized to point to `arr^1`, whose value is then assigned to `a`. `(*ptr)++` increments the value at `arr^1` to 51, and `ptr++` advances the pointer to `arr^2`. The final expression computes `a` plus the value at `arr^2` (10) and the modified value at `arr^1` (51), resulting in 111."
+  },
+  {
+    "question_number": 48,
+    "type": "NAT",
+    "subject": "Programming and Data Structures",
+    "topic": "C Programming",
+    "subtopic": "Functions / Loops / C Programming",
+    "difficulty": "Easy",
+    "question": "Consider the following C program:\n\n```c\n#include <stdio.h>\nint g(int n) {\n    return (n+10);\n}\nint f(int n) {\n    return g(n*2);\n}\nint main() {\n    int sum, n;\n    sum=0;\n    for (n=1; n<3; n++)\n        sum += g(f(n));\n    printf (\"%d\", sum);\n    return 0;\n}\n```\n\nThe output of the given C program is ________. (Answer in integer)",
+    "answer": "46",
+    "a": 0.9,
+    "b": -1.0,
+    "source_chunk": 10,
+    "explanation": "This C program involves evaluating nested function calls `g(f(n))` within a `for` loop, accumulating results in `sum`. The inner function `f(n)` first calculates `g(n*2)`, and its return value is then passed as an argument to the outer `g` function. For `n=1`, `sum` adds `g(g(2)) = 22`, and for `n=2`, it adds `g(g(4)) = 24`. The cumulative sum of these evaluations produces the final output of 46."
+  },
+  {
+    "question_number": 49,
+    "type": "NAT",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus & Probability",
+    "subtopic": "Complex Numbers / Probability",
+    "difficulty": "Hard",
+    "question": "A quadratic polynomial(\ud835\udc65\u2212 \ud835\udefc)(\ud835\udc65\u2212\ud835\udefd) over complex numbers is said to be square\ninvariant if(\ud835\udc65\u2212 \ud835\udefc)(\ud835\udc65\u2212\ud835\udefd) = (\ud835\udc65\u2212\ud835\udefc2)(\ud835\udc65\u2212\ud835\udefd2). Suppose from the set of all\nsquare invariant quadratic polynomials we choose one at random.\nThe probability that the roots of the chosen polynomial are equal is __________.\n(rounded off to one decimal place)",
+    "answer": "0.5",
+    "a": 2.0,
+    "b": 1.0,
+    "source_chunk": 10,
+    "explanation": "A quadratic polynomial is square invariant if its set of roots {\u03b1, \u03b2} is identical to {\u03b1\u00b2, \u03b2\u00b2}. This implies either \u03b1=\u03b1\u00b2 and \u03b2=\u03b2\u00b2, or \u03b1=\u03b2\u00b2 and \u03b2=\u03b1\u00b2. These conditions mean \u03b1, \u03b2 must be chosen from {0, 1, \u03c9, \u03c9\u00b2}, where \u03c9 is a complex cube root of unity. Systematically listing the distinct square-invariant polynomials reveals four such polynomials. Among these four, two polynomials, `x\u00b2` and `(x-1)\u00b2`, have equal roots, yielding a probability of 0.5."
+  },
+  {
+    "question_number": 50,
+    "type": "NAT",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus & Probability",
+    "subtopic": "Probability / Expected Value",
+    "difficulty": "Hard",
+    "question": "The unit interval (0,1) is divided at a point chosen uniformly distributed over (0,1)\nin \u211d into two disjoint subintervals.\nThe expected length of the subinterval that contains 0.4 is ___________. (rounded\noff to two decimal places)",
+    "answer": "0.74",
+    "a": 1.8,
+    "b": 0.5,
+    "source_chunk": 10,
+    "explanation": "This problem requires finding the expected length of the subinterval containing a fixed point (0.4) after a unit interval is divided by a uniformly distributed random point `X`. If `X < 0.4`, the length is `1-X`; otherwise, it is `X`. The expected length is calculated by integrating `(1-x)` over `[0, 0.4]` and `x` over `[0.4, 1]`, with the uniform probability density function being 1. The sum of these two definite integrals provides the total expected length of 0.74."
+  }
+]

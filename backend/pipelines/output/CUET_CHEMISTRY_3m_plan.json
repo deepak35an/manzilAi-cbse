@@ -1,0 +1,403 @@
+{
+  "duration_weeks": 12,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "weightage": "10–12%",
+          "topic": "Solutions",
+          "subtopics": [
+            "Introduction to Solutions and Types of Solutions",
+            "Expressing Concentration of Solutions",
+            "Solubility of Solids in Liquids",
+            "Solubility of Gases in Liquids",
+            "Henry's Law",
+            "Vapour Pressure of Liquid-Liquid Solutions",
+            "Raoult's Law",
+            "Vapour Pressure of Solutions of Solids in Liquids",
+            "Ideal and Non-Ideal Solutions",
+            "Azeotropes"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Solutions",
+          "priority": "CRITICAL",
+          "weightage": "10–12%",
+          "topic": "Solutions",
+          "subtopics": [
+            "Colligative Properties",
+            "Relative Lowering of Vapour Pressure",
+            "Elevation of Boiling Point",
+            "Depression of Freezing Point",
+            "Osmosis and Osmotic Pressure",
+            "Reverse Osmosis and Water Purification",
+            "Abnormal Molar Masses",
+            "Van't Hoff Factor"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "weightage": "10–12%",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Electrochemical Cells",
+            "Galvanic Cells",
+            "Standard Electrode Potential",
+            "Measurement of Electrode Potential",
+            "EMF of a Cell",
+            "Nernst Equation",
+            "Applications of Nernst Equation",
+            "Electrochemical Cell and Gibbs Free Energy",
+            "Conductance of Electrolytic Solutions",
+            "Measurement of Conductivity",
+            "Specific Conductivity",
+            "Molar Conductivity"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Electrochemistry",
+          "priority": "CRITICAL",
+          "weightage": "10–12%",
+          "topic": "Electrochemistry",
+          "subtopics": [
+            "Variation of Conductivity with Concentration",
+            "Kohlrausch's Law and Applications",
+            "Electrolytic Cells",
+            "Electrolysis",
+            "Faraday's Laws of Electrolysis",
+            "Products of Electrolysis",
+            "Primary Batteries",
+            "Secondary Batteries",
+            "Fuel Cells",
+            "Corrosion"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "weightage": "8–10%",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Introduction to Chemical Kinetics",
+            "Rate of Chemical Reactions",
+            "Average and Instantaneous Rate",
+            "Factors Affecting Reaction Rate",
+            "Effect of Concentration",
+            "Effect of Temperature",
+            "Effect of Catalyst",
+            "Rate Law",
+            "Rate Constant",
+            "Order of Reaction",
+            "Molecularity of Reaction",
+            "Integrated Rate Equations",
+            "Half-Life of Reactions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Chemical Kinetics",
+          "priority": "HIGH",
+          "weightage": "8–10%",
+          "topic": "Chemical Kinetics",
+          "subtopics": [
+            "Zero Order Reactions",
+            "First Order Reactions",
+            "Pseudo First Order Reactions",
+            "Arrhenius Equation",
+            "Activation Energy",
+            "Collision Theory",
+            "Limitations of Collision Theory"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "d- and f-Block Elements",
+          "priority": "HIGH",
+          "weightage": "8–10%",
+          "topic": "d- and f-Block Elements",
+          "subtopics": [
+            "Introduction to d- and f-Block Elements",
+            "Position in the Periodic Table",
+            "Electronic Configuration",
+            "General Properties of Transition Elements",
+            "Physical Properties",
+            "Atomic and Ionic Sizes",
+            "Lanthanoid Contraction",
+            "Ionization Enthalpy",
+            "Oxidation States",
+            "Standard Electrode Potentials",
+            "Stability of Higher Oxidation States",
+            "Chemical Reactivity",
+            "Magnetic Properties",
+            "Formation of Coloured Ions",
+            "Complex Formation",
+            "Catalytic Properties",
+            "Interstitial Compounds",
+            "Alloy Formation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "d- and f-Block Elements",
+          "priority": "HIGH",
+          "weightage": "8–10%",
+          "topic": "d- and f-Block Elements",
+          "subtopics": [
+            "Oxides and Oxoanions",
+            "Potassium Dichromate (K₂Cr₂O₇)",
+            "Potassium Permanganate (KMnO₄)",
+            "Lanthanoids",
+            "Actinoids",
+            "Comparison of Lanthanoids and Actinoids",
+            "Applications of d- and f-Block Elements"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Coordination Compounds",
+          "priority": "CRITICAL",
+          "weightage": "10–12%",
+          "topic": "Coordination Compounds",
+          "subtopics": [
+            "Introduction to Coordination Compounds",
+            "Werner's Theory",
+            "Double Salts",
+            "Coordination Entity",
+            "Central Atom/Ion",
+            "Ligands",
+            "Coordination Number",
+            "Coordination Sphere",
+            "Coordination Polyhedron",
+            "Oxidation Number",
+            "Homoleptic and Heteroleptic Complexes",
+            "IUPAC Nomenclature",
+            "Isomerism in Coordination Compounds",
+            "Valence Bond Theory (VBT)",
+            "Limitations of VBT"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Coordination Compounds",
+          "priority": "CRITICAL",
+          "weightage": "10–12%",
+          "topic": "Coordination Compounds",
+          "subtopics": [
+            "Crystal Field Theory (CFT)",
+            "Applications of CFT",
+            "Magnetic Properties",
+            "Colour of Coordination Compounds",
+            "Spectrochemical Series",
+            "Metal Carbonyls",
+            "Importance and Applications"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Haloalkanes and Haloarenes",
+          "priority": "HIGH",
+          "weightage": "8–10%",
+          "topic": "Haloalkanes and Haloarenes",
+          "subtopics": [
+            "Introduction",
+            "Classification",
+            "IUPAC Nomenclature",
+            "Nature of Carbon-Halogen Bond",
+            "Methods of Preparation",
+            "Physical Properties",
+            "Melting and Boiling Points",
+            "Density and Solubility",
+            "Chemical Properties",
+            "SN Reactions",
+            "Optical Activity",
+            "Chirality",
+            "Retention",
+            "Inversion",
+            "Racemization",
+            "Polyhalogen Compounds",
+            "Dichloromethane (CH₂Cl₂)",
+            "Chloroform (CHCl₃)",
+            "Iodoform (CHI₃)",
+            "Carbon Tetrachloride (CCl₄)",
+            "Freons",
+            "DDT"
+          ]
+        },
+        {
+          "subject": "Alcohols, Phenols and Ethers",
+          "priority": "HIGH",
+          "weightage": "8–10%",
+          "topic": "Alcohols, Phenols and Ethers",
+          "subtopics": [
+            "Classification",
+            "IUPAC Nomenclature",
+            "Structure of Functional Groups",
+            "Methods of Preparation",
+            "Physical Properties",
+            "Boiling Point",
+            "Solubility",
+            "Chemical Properties of Alcohols",
+            "Cleavage of C–OH Bond",
+            "Cleavage of C–H Bond",
+            "Chemical Properties of Phenols",
+            "Oxidation and Reduction",
+            "Chemical Properties of Ethers",
+            "Methanol",
+            "Ethanol"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "subjects": [
+        {
+          "subject": "Aldehydes, Ketones and Carboxylic Acids",
+          "priority": "CRITICAL",
+          "weightage": "10–12%",
+          "topic": "Aldehydes, Ketones and Carboxylic Acids",
+          "subtopics": [
+            "Introduction to Carbonyl Compounds",
+            "IUPAC Nomenclature",
+            "Structure of Carbonyl Group",
+            "Methods of Preparation of Aldehydes",
+            "Methods of Preparation of Ketones",
+            "Physical Properties",
+            "Boiling Point",
+            "Solubility",
+            "Chemical Properties of Aldehydes",
+            "Chemical Properties of Ketones",
+            "Uses of Aldehydes",
+            "Uses of Ketones",
+            "Structure of Carboxyl Group",
+            "Methods of Preparation of Carboxylic Acids",
+            "Physical Properties of Carboxylic Acids",
+            "Chemical Properties of Carboxylic Acids",
+            "Uses of Carboxylic Acids"
+          ]
+        },
+        {
+          "subject": "Amines",
+          "priority": "HIGH",
+          "weightage": "8–10%",
+          "topic": "Amines",
+          "subtopics": [
+            "Introduction to Amines",
+            "Structure of Amines",
+            "Classification",
+            "IUPAC Nomenclature",
+            "Methods of Preparation",
+            "Physical Properties",
+            "Boiling Point",
+            "Solubility",
+            "Basic Character of Amines",
+            "Chemical Properties of Amines",
+            "Aliphatic Diazonium Salts",
+            "Aromatic Diazonium Salts",
+            "Preparation of Diazonium Salts",
+            "Physical Properties",
+            "Chemical Properties",
+            "Importance in Aromatic Synthesis"
+          ]
+        },
+        {
+          "subject": "Biomolecules",
+          "priority": "CRITICAL",
+          "weightage": "10–12%",
+          "topic": "Biomolecules",
+          "subtopics": [
+            "Carbohydrates",
+            "Classification of Carbohydrates",
+            "Preparation of Glucose",
+            "Structure of Glucose",
+            "D- and L-Configuration",
+            "Preparation of Fructose",
+            "Structure of Fructose",
+            "Disaccharides (Sucrose, Maltose, Lactose)",
+            "Polysaccharides (Starch, Cellulose, Glycogen)",
+            "Importance of Carbohydrates",
+            "Amino Acids",
+            "Classification of Amino Acids",
+            "Proteins",
+            "Types of Proteins",
+            "Denaturation of Proteins",
+            "Enzymes",
+            "Mechanism of Enzyme Action",
+            "Vitamins",
+            "Types of Vitamins",
+            "Sources of Vitamins",
+            "Deficiency Diseases",
+            "Nucleic Acids",
+            "Types of Nucleic Acids",
+            "Composition and Structure",
+            "Biological Importance",
+            "Hormones",
+            "Classification of Hormones",
+            "Biological Importance",
+            "Deficiency Diseases"
+          ]
+        }
+      ]
+    }
+  ]
+}

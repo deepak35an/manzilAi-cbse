@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "processed_files": {
+    "CUET_PYQ/CUET_Accountancy.json": {
+      "md5": "44cc36eda2fce49a19608cb4ac45c28d",
+      "processed_at": "2026-09-04T06:16:18.868728Z",
+      "question_count": 241
+    },
+    "CUET_PYQ/CUET_Biology.json": {
+      "md5": "64e9d0f8b44b3ee6e0e5624ef250418c",
+      "processed_at": "2026-09-04T06:16:18.870728Z",
+      "question_count": 170
+    },
+    "CUET_PYQ/CUET_Business Studies.json": {
+      "md5": "285dd4e077afeae581dfaec137053c90",
+      "processed_at": "2026-09-04T06:16:18.872878Z",
+      "question_count": 229
+    },
+    "CUET_PYQ/CUET_Chemistry.json": {
+      "md5": "6ad0e00a2a8ed0b0c0055fb375a474ff",
+      "processed_at": "2026-09-04T06:16:18.874842Z",
+      "question_count": 137
+    },
+    "CUET_PYQ/CUET_Economics.json": {
+      "md5": "82cc9107e77adc9f4103702830a36f8b",
+      "processed_at": "2026-09-04T06:16:18.877877Z",
+      "question_count": 211
+    },
+    "CUET_PYQ/CUET_English.json": {
+      "md5": "386af11726d53a406b08d9a0f8cd8294",
+      "processed_at": "2026-09-04T06:16:18.879877Z",
+      "question_count": 167
+    },
+    "CUET_PYQ/CUET_GAT.json": {
+      "md5": "3ad28862aef1ce6af475f3cfe482b206",
+      "processed_at": "2026-09-04T06:16:18.882740Z",
+      "question_count": 220
+    },
+    "CUET_PYQ/CUET_Geo.json": {
+      "md5": "66aca157d1401f34df5bda9e0539949b",
+      "processed_at": "2026-09-04T06:16:18.884390Z",
+      "question_count": 192
+    },
+    "CUET_PYQ/CUET_History.json": {
+      "md5": "168e90e5d9da04525b625f6bb9d43d46",
+      "processed_at": "2026-09-04T06:16:18.887388Z",
+      "question_count": 181
+    },
+    "CUET_PYQ/CUET_Physics.json": {
+      "md5": "f299cedb73492162f2c12e7d8e54097c",
+      "processed_at": "2026-09-04T06:16:18.890390Z",
+      "question_count": 233
+    },
+    "GATE_CSE_PYQ/GATE_2012.json": {
+      "md5": "ee4e12cd2a696e4afb8a92b728309845",
+      "processed_at": "2026-09-04T06:16:44.760443Z",
+      "question_count": 42
+    },
+    "GATE_CSE_PYQ/GATE_2013.json": {
+      "md5": "94fc54d5dbaa51781975f55fa7e558d5",
+      "processed_at": "2026-09-04T06:16:44.770616Z",
+      "question_count": 42
+    },
+    "GATE_CSE_PYQ/GATE_2014_1.json": {
+      "md5": "9f6ed54911ca55de85ad0f639a9d4add",
+      "processed_at": "2026-09-04T06:16:44.829660Z",
+      "question_count": 36
+    },
+    "GATE_CSE_PYQ/GATE_2014_2.json": {
+      "md5": "ce94e139d83cd104f7ca611428990242",
+      "processed_at": "2026-09-04T06:16:44.840177Z",
+      "question_count": 34
+    },
+    "GATE_CSE_PYQ/GATE_2014_3.json": {
+      "md5": "b71ab89f05780d14714c9c89a6f19f86",
+      "processed_at": "2026-09-04T06:16:44.855220Z",
+      "question_count": 28
+    },
+    "GATE_CSE_PYQ/GATE_2015_1.json": {
+      "md5": "af0292e4a18634470210f2489eeafa74",
+      "processed_at": "2026-09-04T06:16:44.868218Z",
+      "question_count": 34
+    },
+    "GATE_CSE_PYQ/GATE_2015_2.json": {
+      "md5": "c6e46bd67cf8490bbea89db131c8d45e",
+      "processed_at": "2026-09-04T06:16:44.881755Z",
+      "question_count": 41
+    },
+    "GATE_CSE_PYQ/GATE_2015_3.json": {
+      "md5": "474ac0b14753c0aa48ddfdf0ea24ab10",
+      "processed_at": "2026-09-04T06:16:44.895801Z",
+      "question_count": 36
+    },
+    "GATE_CSE_PYQ/GATE_2016_1.json": {
+      "md5": "c0e73bd489bcc8377ec4e0e1a778e00e",
+      "processed_at": "2026-09-04T06:16:44.910699Z",
+      "question_count": 43
+    },
+    "GATE_CSE_PYQ/GATE_2016_2.json": {
+      "md5": "9fb043a05982267aa348416ff1377479",
+      "processed_at": "2026-09-04T06:16:44.924547Z",
+      "question_count": 37
+    },
+    "GATE_CSE_PYQ/GATE_2017_1.json": {
+      "md5": "891929521732647bf43a74baf3119020",
+      "processed_at": "2026-09-04T06:16:44.940556Z",
+      "question_count": 45
+    },
+    "GATE_CSE_PYQ/GATE_2017_2.json": {
+      "md5": "f82ff85be194a9de0cc0e541ae9c0d78",
+      "processed_at": "2026-09-04T06:16:44.955373Z",
+      "question_count": 50
+    },
+    "GATE_CSE_PYQ/GATE_2018.json": {
+      "md5": "a5bb9a0a7544fadeb15a81eee6bd5b01",
+      "processed_at": "2026-09-04T06:16:44.970006Z",
+      "question_count": 42
+    },
+    "GATE_CSE_PYQ/GATE_2019.json": {
+      "md5": "e863a1e93ead01e6122802a700d350f3",
+      "processed_at": "2026-09-04T06:16:44.985749Z",
+      "question_count": 43
+    },
+    "GATE_CSE_PYQ/GATE_2020.json": {
+      "md5": "b6fce0140756c12fac65d68d222ebb55",
+      "processed_at": "2026-09-04T06:16:45.001504Z",
+      "question_count": 34
+    },
+    "GATE_CSE_PYQ/GATE_2021.json": {
+      "md5": "843f1ee7f4c39ab35a3a1d28435200b9",
+      "processed_at": "2026-09-04T06:16:45.016929Z",
+      "question_count": 33
+    },
+    "GATE_CSE_PYQ/GATE_2021_2.json": {
+      "md5": "1c82a38dbd6f75267f6e74086fb7adce",
+      "processed_at": "2026-09-04T06:16:45.029317Z",
+      "question_count": 45
+    },
+    "GATE_CSE_PYQ/GATE_2022.json": {
+      "md5": "d28c407ab04260d3fcac4b7908e68ef7",
+      "processed_at": "2026-09-04T06:16:45.042394Z",
+      "question_count": 30
+    },
+    "GATE_CSE_PYQ/GATE_2023.json": {
+      "md5": "3d58442a86ec8d8d7ea73b2e232ae032",
+      "processed_at": "2026-09-04T06:16:45.056196Z",
+      "question_count": 33
+    },
+    "GATE_CSE_PYQ/GATE_2024.json": {
+      "md5": "1a935d97c8901e88545363940c3cbf69",
+      "processed_at": "2026-09-04T06:16:45.057701Z",
+      "question_count": 43
+    },
+    "GATE_CSE_PYQ/GATE_2024_2.json": {
+      "md5": "dcab4527ccb8a02ceedc621fe5926b20",
+      "processed_at": "2026-09-04T06:16:45.074780Z",
+      "question_count": 39
+    },
+    "GATE_CSE_PYQ/GATE_2025.json": {
+      "md5": "0902a8de26fe24a2402ba029adb8b5b5",
+      "processed_at": "2026-09-04T06:16:45.084370Z",
+      "question_count": 36
+    },
+    "GATE_CSE_PYQ/GATE_2025_2.json": {
+      "md5": "6fc7479cafd08d2a4d377d96d2b3e2d2",
+      "processed_at": "2026-09-04T06:16:45.159182Z",
+      "question_count": 50
+    },
+    "GATE_CSE_PYQ/GATE_2026_1.json": {
+      "md5": "4966e7092e7af987a5e760ac46c9d45f",
+      "processed_at": "2026-09-04T06:16:45.169814Z",
+      "question_count": 54
+    },
+    "GATE_CSE_PYQ/GATE_2026_2.json": {
+      "md5": "f57778ec6046ca294b2204552c2cfd64",
+      "processed_at": "2026-09-04T06:16:45.177935Z",
+      "question_count": 45
+    }
+  },
+  "last_updated": "2026-09-04T06:17:04.346591Z"
+}

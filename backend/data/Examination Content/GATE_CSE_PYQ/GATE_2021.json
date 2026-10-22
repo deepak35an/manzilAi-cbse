@@ -1,0 +1,618 @@
+[
+  {
+    "question_number": 1,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus & Probability",
+    "subtopic": "Probability",
+    "difficulty": "Medium",
+    "question": "There are five bags each containing identical sets of ten distinct chocolates. One chocolate is picked from each bag. The probability that at least two chocolates are identical is:",
+    "options": [
+      "(A) 0.3024",
+      "(B) 0.4235",
+      "(C) 0.6976",
+      "(D) 0.8125"
+    ],
+    "answer": "(C) 0.6976",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 2,
+    "explanation": "This problem requires calculating the probability of at least two identical selections, which is found using the complement rule: 1 minus the probability that all selections are distinct. With five chocolates picked from ten distinct types, the total outcomes are 10^5, and distinct outcomes are P(10, 5) = 10 \u00d7 9 \u00d7 8 \u00d7 7 \u00d7 6. The probability of all distinct chocolates is 0.3024, so the probability of at least two identical chocolates is 1 - 0.3024 = 0.6976."
+  },
+  {
+    "question_number": 2,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Logic",
+    "subtopic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Given below are two statements 1 and 2, and two conclusions I and II.\nStatement 1: All bacteria are microorganisms.\nStatement 2: All pathogens are microorganisms.\nConclusion I: Some pathogens are bacteria.\nConclusion II: All pathogens are not bacteria.\nBased on the above statements and conclusions, which one of the following options is logically CORRECT?",
+    "options": [
+      "(A) Only conclusion I is correct",
+      "(B) Only conclusion II is correct",
+      "(C) Either conclusion I or II is correct",
+      "(D) Neither conclusion I nor II is correct"
+    ],
+    "answer": "(C) Either conclusion I or II is correct; (D) Neither conclusion I nor II is correct",
+    "a": 1.4,
+    "b": 0.1,
+    "source_chunk": 2,
+    "explanation": "Both 'bacteria' and 'pathogens' are subsets of 'microorganisms'. The given statements do not specify whether these two subsets overlap or are disjoint. Therefore, Conclusion I ('Some pathogens are bacteria') is not definitely true, and Conclusion II ('All pathogens are not bacteria') is also not definitely true. However, exactly one of these must be true: either the two sets overlap (making I true) or they do not overlap (making II true). Hence, the correct answer is 'Either conclusion I or II is correct'."
+  },
+  {
+    "question_number": 3,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis",
+    "subtopic": "Asymptotic Analysis",
+    "difficulty": "Medium",
+    "question": "Consider the following three functions:\n```\n   f1 = 10^n f2 = n^(log n) f3 = n^(sqrt(n))\n```\n\nWhich one of the following options arranges the functions in the increasing order of asymptotic growth rate?",
+    "options": [
+      "(A) f\u2083, f\u2082, f\u2081",
+      "(B) f\u2082, f\u2081, f\u2083",
+      "(C) f\u2081, f\u2082, f\u2083",
+      "(D) f\u2082, f\u2083, f\u2081"
+    ],
+    "answer": "(D) f\u2082, f\u2083, f\u2081",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 3,
+    "explanation": "The problem requires determining the asymptotic growth rates of given functions to arrange them in increasing order. Functions n^(log n), n^(sqrt(n)), and 10^n represent increasing growth complexities from super-polynomial to exponential. Specifically, n^(log n) grows slower than n^(sqrt(n)), which is slower than 10^n, establishing the order f\u2082, f\u2083, f\u2081."
+  },
+  {
+    "question_number": 4,
+    "type": "MCQ",
+    "subject": "Compiler Design",
+    "topic": "Advanced Topics",
+    "subtopic": "Runtime Environments",
+    "difficulty": "Medium",
+    "question": "Consider the following statements.\n\nS\u2081 : The sequence of procedure calls corresponds to a preorder traversal of the activation tree.\n\nS\u2082 : The sequence of procedure returns corresponds to a postorder traversal of the activation tree.\n\nWhich one of the following options is correct?",
+    "options": [
+      "(A) S\u2081 is true and S\u2082 is false",
+      "(B) S\u2081 is false and S\u2082 is true",
+      "(C) S\u2081 is true and S\u2082 is true",
+      "(D) S\u2081 is false and S\u2082 is false"
+    ],
+    "answer": "(C) S\u2081 is true and S\u2082 is true",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 3,
+    "explanation": "The question relates procedure calls and returns to tree traversals within an activation tree, which models dynamic function execution. Procedure calls follow a preorder traversal because a parent function is called before any of its child functions within the execution hierarchy. Conversely, procedure returns correspond to a postorder traversal, as a parent function returns only after all its called child functions have completed execution."
+  },
+  {
+    "question_number": 5,
+    "type": "MCQ",
+    "subject": "Digital Logic",
+    "topic": "Number Representation",
+    "subtopic": "Number Representation",
+    "difficulty": "Medium",
+    "question": "Let the representation of a number in base 3 be 210. What is the hexadecimal representation of the number?",
+    "options": [
+      "(A) 15",
+      "(B) 21",
+      "(C) D2",
+      "(D) 528"
+    ],
+    "answer": "(A) 15",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 4,
+    "explanation": "This problem involves converting a number from a given base to hexadecimal, which typically requires an intermediate conversion to decimal. The base 3 number 210 converts to its decimal equivalent by 2\u00d73\u00b2 + 1\u00d73\u00b9 + 0\u00d73\u2070, yielding 21. Subsequently, decimal 21 is converted to hexadecimal by repeated division by 16, yielding a quotient of 1 and remainder of 5, forming (15)\u2081\u2086."
+  },
+  {
+    "question_number": 6,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Logic",
+    "subtopic": "Propositional Logic",
+    "difficulty": "Medium",
+    "question": "Let p and q be two propositions. Consider the following two formulae in propositional logic.\n\nS1: (\u00acp \u2227 (p \u2228 q)) \u2192 q\n\nS2: q \u2192 (\u00acp \u2227 (p \u2228 q))\n\nWhich one of the following choices is correct?",
+    "options": [
+      "(A) Both S1 and S2 are tautologies.",
+      "(B) S1 is a tautology but S2 is not a tautology.",
+      "(C) S1 is not a tautology but S2 is a tautology.",
+      "(D) Neither S1 nor S2 is a tautology."
+    ],
+    "answer": "(B) S1 is a tautology but S2 is not a tautology.",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 4,
+    "explanation": "A tautology in propositional logic is a formula that is always true, irrespective of the truth values of its constituent atomic propositions. For formula S1, (\u00acp \u2227 (p \u2228 q)) simplifies to (\u00acp \u2227 q), making S1 equivalent to (\u00acp \u2227 q) \u2192 q, which is a known tautology. For formula S2, if p is True and q is True, then S2 evaluates to True \u2192 (False \u2227 (True \u2228 True)), which is True \u2192 False, making S2 false. S1 is therefore a tautology, while S2 is not, as it can be false."
+  },
+  {
+    "question_number": 7,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "ARP",
+    "difficulty": "Medium",
+    "question": "Consider the following two statements.\n\nS1: Destination MAC address of an ARP reply is a broadcast address.\n\nS2: Destination MAC address of an ARP request is a broadcast address.\n\nWhich one of the following choices is correct?",
+    "options": [
+      "(A) Both S1 and S2 are true.",
+      "(B) S1 is true and S2 is false.",
+      "(C) S1 is false and S2 is true.",
+      "(D) Both S1 and S2 are false."
+    ],
+    "answer": "(C) S1 is false and S2 is true.",
+    "a": 1.4,
+    "b": 0.1,
+    "source_chunk": 4,
+    "explanation": "Address Resolution Protocol (ARP) resolves IP addresses to MAC addresses on a local network segment. An ARP request is sent as a broadcast packet to the MAC address FF:FF:FF:FF:FF:FF so that all devices on the segment receive it and the intended recipient can reply. An ARP reply, however, is sent as a unicast packet directly to the specific MAC address of the host that originated the request. Therefore, statement S2 is correct, while statement S1 is false."
+  },
+  {
+    "question_number": 8,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis of Algorithms",
+    "subtopic": "Analysis of Algorithms",
+    "difficulty": "Hard",
+    "question": "Consider the following array:\n```\n   23 32 45 69 72 73 89 97\n```\n\nWhich algorithm out of the following options uses the least number of comparisons (among the array elements) to sort the above array in ascending order?",
+    "options": [
+      "(A) Selection sort",
+      "(B) Mergesort",
+      "(C) Insertion sort",
+      "(D) Quicksort using the last element as pivot"
+    ],
+    "answer": "(C) Insertion sort",
+    "a": 2.0,
+    "b": 1.2,
+    "source_chunk": 4,
+    "explanation": "The number of comparisons required by a sorting algorithm depends on its nature and the initial order of the input array. For an array that is already sorted, Insertion Sort exhibits the best-case performance in terms of comparisons. It iterates through the array, and for each element, it performs only one comparison with its preceding element before determining it is in the correct position, leading to O(N) comparisons. Other algorithms like Merge Sort, Quick Sort, or Selection Sort perform more comparisons, even on sorted data."
+  },
+  {
+    "question_number": 9,
+    "type": "MSQ",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Paging",
+    "difficulty": "Medium",
+    "question": "In the context of operating systems, which of the following statements is/are correct with respect to paging?",
+    "options": [
+      "(A) Paging helps solve the issue of external fragmentation.",
+      "(B) Page size has no impact on internal fragmentation.",
+      "(C) Paging incurs memory overheads.",
+      "(D) Multi-level paging is necessary to support pages of different sizes."
+    ],
+    "answer": [
+      "(A) Paging helps solve the issue of external fragmentation.",
+      " (C) Paging incurs memory overheads."
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 5,
+    "explanation": "Paging is a memory management technique that eliminates external fragmentation by dividing physical memory into fixed-size frames and logical memory into equally sized pages. However, paging inherently introduces internal fragmentation within the last page allocated to a process if it's not fully utilized. Furthermore, maintaining page tables for address translation and utilizing structures like TLBs introduces memory overheads. Multi-level paging is used to manage large logical address spaces, not to support pages of different sizes."
+  },
+  {
+    "question_number": 10,
+    "type": "MSQ",
+    "subject": "Theory of Computation",
+    "topic": "Computability",
+    "subtopic": "Undecidability",
+    "difficulty": "Hard",
+    "question": "Let \u27e8M\u27e9 denote an encoding of an automaton M. Suppose that \u03a3 = {0,1}. Which of the following languages is/are NOT recursive?",
+    "options": [
+      "(A) {\u27e8M\u27e9 | M is a DFA such that L(M) = \u2205}",
+      "(B) {\u27e8M\u27e9 | M is a DFA such that L(M) = \u03a3*}",
+      "(C) {\u27e8M\u27e9 | M is a PDA such that L(M) = \u2205}",
+      "(D) {\u27e8M\u27e9 | M is a PDA such that L(M) = \u03a3*}"
+    ],
+    "answer": "(D) L = { IMI | M is a PDA such that L(M) = \u03a3* }",
+    "a": 2.0,
+    "b": 1.5,
+    "source_chunk": 5,
+    "explanation": "A language is recursive if there exists a Turing machine that halts on all inputs and decides membership. The emptiness problem (L(M) = \u2205) for both Deterministic Finite Automata (DFAs) and Pushdown Automata (PDAs) is decidable, making these languages recursive. Similarly, the universality problem (L(M) = \u03a3*) for DFAs is also decidable. However, the universality problem for PDAs, which asks if a given PDA accepts all possible strings, is known to be an undecidable problem. Thus, the language representing universal PDAs is not recursive."
+  },
+  {
+    "question_number": 11,
+    "type": "MSQ",
+    "subject": "Databases",
+    "topic": "Mixed Problem Solving",
+    "subtopic": "Transaction Management",
+    "difficulty": "Medium",
+    "question": "Suppose a database system crashes again while recovering from a previous crash. Assume checkpointing is not done by the database either during the transactions or during recovery. Which of the following statements is/are correct?",
+    "options": [
+      "(A) The same undo and redo list will be used while recovering again.",
+      "(B) The system cannot recover any further.",
+      "(C) All the transactions that are already undone and redone will not be recovered again.",
+      "(D) The database will become inconsistent."
+    ],
+    "answer": "(A) The same undo and redo list will be used while recovering again.",
+    "a": 1.5,
+    "b": 0.5,
+    "source_chunk": 5,
+    "explanation": "Database recovery ensures atomicity and durability by using undo and redo operations logged in the system to restore a consistent state after a crash. These operations are derived from transaction log records to either revert uncommitted changes or reapply committed ones. If a system crashes during recovery and no checkpointing is used, the recovery process must restart from the beginning by re-scanning the entire log, regenerating identical undo and redo lists."
+  },
+  {
+    "question_number": 12,
+    "type": "MSQ",
+    "subject": "Operating System",
+    "topic": "Mixed Problem Solving",
+    "subtopic": "System Calls",
+    "difficulty": "Medium",
+    "question": "Which of the following standard C library functions will always invoke a system call when executed from a single-threaded process in a UNIX/Linux operating system?",
+    "options": [
+      "(A) exit",
+      "(B) malloc",
+      "(C) sleep",
+      "(D) strlen"
+    ],
+    "answer": [
+      "(A) exit",
+      "(C) sleep"
+    ],
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 5,
+    "explanation": "System calls are the interface for user programs to request privileged services from the operating system kernel, managing resources and I/O. C library functions can either directly invoke system calls or operate entirely in user space. `exit()` always makes a system call to terminate the process and release its resources to the kernel, while `sleep()` requires kernel intervention for process scheduling. `malloc()` typically manages memory within user space without immediate kernel interaction, and `strlen()` is a pure in-memory computation, avoiding system calls directly."
+  },
+  {
+    "question_number": 13,
+    "type": "NAT",
+    "subject": "Algorithms",
+    "topic": "Graph Theory",
+    "subtopic": "Discrete Mathematics",
+    "difficulty": "Medium",
+    "question": "In an undirected connected planar graph G, there are eight vertices and five faces. The number of edges in G is ______.",
+    "answer": "11",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "explanation": "For any connected planar graph, Euler's formula establishes a fundamental relationship between the number of vertices (V), edges (E), and faces (F). This formula states that V - E + F = 2. Given V = 8 vertices and F = 5 faces, we can substitute these values into Euler's formula to solve for the number of edges, E. The calculation becomes 8 - E + 5 = 2. Solving the equation (13 - E = 2) yields E = 11, which represents the total number of edges in the given undirected connected planar graph."
+  },
+  {
+    "question_number": 14,
+    "type": "NAT",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus & Probability",
+    "subtopic": "Probability and Statistics",
+    "difficulty": "Medium",
+    "question": "The lifetime of a component of a certain type is a random variable whose probability density function is exponentially distributed with parameter 2. For a randomly picked component of this type, the probability that its lifetime exceeds the expected lifetime (rounded to 2 decimal places) is ______.",
+    "answer": "0.37",
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 6,
+    "explanation": "For an exponentially distributed random variable with parameter \u03bb, the expected lifetime is E[X] = 1/\u03bb and the probability P(X > t) is given by e^(-\u03bbt). This distribution models continuous random events. Given \u03bb = 2, the expected lifetime is 1/2 = 0.5. We need to calculate P(X > 0.5), applying the formula P(X > t) = e^(-\u03bbt). Substituting values, P(X > 0.5) = e^(-2 * 0.5) = e^(-1) \u2248 0.367879, which, rounded to two decimal places, is 0.37."
+  },
+  {
+    "question_number": 15,
+    "type": "NAT",
+    "subject": "Discrete Mathematics",
+    "topic": "Combinatorics",
+    "subtopic": "Discrete Mathematics",
+    "difficulty": "Hard",
+    "question": "There are 6 jobs with distinct difficulty levels, and 3 computers with distinct processing speeds. Each job is assigned to a computer such that: the fastest computer gets the toughest job and the slowest computer gets the easiest job; every computer gets at least one job. The number of ways in which this can be done is ______.",
+    "answer": "65",
+    "a": 2.0,
+    "b": 1.2,
+    "source_chunk": 6,
+    "explanation": "This combinatorics problem requires assigning distinct jobs to distinct computers under specific initial conditions and an 'every computer gets at least one job' constraint. Two jobs are pre-assigned: toughest to fastest computer and easiest to slowest. This leaves 4 distinct jobs for 3 distinct computers, with the middle computer initially unassigned. To fulfill the minimum occupancy for the middle computer, we calculate total assignments (3^4) minus assignments excluding it (2^4), which yields 81 - 16 = 65 ways."
+  },
+  {
+    "question_number": 16,
+    "type": "NAT",
+    "subject": "Data Structures",
+    "topic": "Basic Data Structures",
+    "subtopic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Consider the following sequence of operations on an empty stack:\n   push(54); push(52); pop(); push(55); push(62); s = pop();\n\nConsider the following sequence of operations on an empty queue:\n   enqueue(21); enqueue(24); dequeue(); enqueue(28); enqueue(32); q =\n   dequeue();\n\nThe value of s + q is ______.",
+    "answer": "86",
+    "a": 1.0,
+    "b": -0.8,
+    "source_chunk": 6,
+    "explanation": "Stack and queue are fundamental data structures, operating on Last-In-First-Out (LIFO) and First-In-First-Out (FIFO) principles, respectively. Tracing the operations for the stack involves pushing elements onto the top and popping from the top, while for the queue, elements are enqueued at the rear and dequeued from the front. Executing the sequence reveals that the final popped stack value `s` is 62 and the final dequeued queue value `q` is 24, resulting in a sum `s + q` of 86."
+  },
+  {
+    "question_number": 17,
+    "type": "NAT",
+    "subject": "Databases",
+    "topic": "Relational Algebra & SQL",
+    "subtopic": "Relational Algebra",
+    "difficulty": "Medium",
+    "question": "A relation r(A, B) in a relational database has 1200 tuples. The attribute A has integer values ranging from 6 to 20, and the attribute B has integer values ranging from 1 to 20. Assume that the attributes A and B are independently distributed. The estimated number of tuples in the output of \u03c3(A>10)\u2228(B=18)\u200b(r) ______.",
+    "answer": [
+      "819",
+      "820",
+      "205"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 7,
+    "explanation": "Relational selection (\u03c3) filters tuples based on a predicate, and for independent attributes, probabilities of individual conditions multiply. The selection condition (A>10)\u2228(B=18) with independent attributes uses the inclusion-exclusion principle: P(X\u2228Y) = P(X) + P(Y) - P(X)P(Y). Calculating P(A>10) = 10/15 and P(B=18) = 1/20, the combined probability is (10/15) + (1/20) - (10/15)(1/20) = 41/60. Multiplying this probability by the total 1200 tuples yields an estimated output size of 820."
+  },
+  {
+    "question_number": 18,
+    "type": "NAT",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Data Representation",
+    "subtopic": "Floating Point Representation",
+    "difficulty": "Medium",
+    "question": "Consider the following representation of a number in IEEE 754 single-precision floating point format with a bias of 127: S: 1 E: 10000001 F: 11110000000000000000000 Here S, E and F denote the sign, exponent and fraction components of the floating point representation. The decimal value corresponding to the above representation (rounded to 2 decimal places) is ______.",
+    "answer": "-7.75",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 7,
+    "explanation": "IEEE 754 single-precision floating-point format represents numbers using a sign bit, a biased exponent, and a fraction, following the formula (-1)^S * 1.F * 2^(E-bias). The given representation S=1 indicates a negative number, the exponent E=10000001 (129 decimal) combined with a bias of 127 yields a true exponent of 2, and the fraction F=11110000... forms a significand of 1.1111 binary. Applying the formula, the value is -1 * (1 + 1/2 + 1/4 + 1/8 + 1/16) * 2^2, which calculates to -1 * 1.9375 * 4 = -7.75."
+  },
+  {
+    "question_number": 19,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "CPU Scheduling",
+    "difficulty": "Medium",
+    "question": "Three processes arrive at time zero with CPU bursts of 16, 20 and 10 milliseconds. If the scheduler has prior knowledge about the length of the CPU bursts, the minimum achievable average waiting time for these three processes in a non-preemptive scheduler (rounded to nearest integer) is ______ milliseconds.",
+    "answer": "12",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 7,
+    "explanation": "The non-preemptive Shortest Job First (SJF) scheduling algorithm minimizes average waiting time by executing processes in ascending order of their CPU burst times. Since all three processes arrive at time zero, they are scheduled as P3 (10ms), P1 (16ms), then P2 (20ms). This sequence results in waiting times of 0ms for P3, 10ms for P1, and 26ms for P2. Summing these waiting times (36ms) and dividing by the three processes gives an average waiting time of 12 milliseconds."
+  },
+  {
+    "question_number": 20,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis",
+    "subtopic": "Recurrence Relations",
+    "difficulty": "Medium",
+    "question": "Consider the following recurrence relation:\n   T(n) = T(n/2) + T(2n/5) + 7n if n > 0\n   T(0) = 1\n\nWhich one of the following options is correct?",
+    "options": [
+      "(A) T(n) = \u0398(n [5/2] )",
+      "(B) T(n) = \u0398(n log n)",
+      "(C) T(n) = \u0398(n)",
+      "(D) T(n) = \u0398((log n) [5/2] )"
+    ],
+    "answer": "(C) T(n) = \u0398(n)",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 9,
+    "explanation": "The recurrence T(n) = T(n/2) + T(2n/5) + 7n describes an algorithm whose work is partitioned into two subproblems and a linear amount of work at each level. Since the sum of the argument fractions for the recursive calls (1/2 + 2/5 = 9/10) is less than 1, the total work done at progressively deeper levels of the recursion tree decreases geometrically. Consequently, the total computational cost is dominated by the work performed at the initial root level, resulting in an asymptotic complexity of \u0398(n)."
+  },
+  {
+    "question_number": 21,
+    "type": "MCQ",
+    "subject": "Databases",
+    "topic": "Transactions and Concurrency Control",
+    "subtopic": "Concurrency Control",
+    "difficulty": "Medium",
+    "question": "Let r (z) and w (z) denote read and write operations on a data item z by transaction T . Consider the following two schedules:\n\n   S1: r1(x) r1(y) r2(x) r2(y) w2(y) w1(x)\n   S2: r1(x) r2(x) r2(y) w2(y) r1(y) w1(x)\n\nWhich one of the following options is correct?",
+    "options": [
+      "(A) S is conflict serializable, and S is not conflict serializable.\n1 2",
+      "(B) S is not conflict serializable, and S is conflict serializable.\n1 2",
+      "(C) Both S and S are conflict serializable.\n1 2",
+      "(D) Neither S nor S is conflict serializable.\n1 2"
+    ],
+    "answer": "(B) S is not conflict serializable, and S is conflict serializable.\n1 2",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 9,
+    "explanation": "Conflict serializability ensures a schedule's effect is equivalent to some serial execution, determined by checking for cycles in its precedence graph formed by conflicting operations. Schedule S1 exhibits a read-write conflict (r1(y), w2(y)) and a read-write conflict (r2(x), w1(x)), creating a cycle T1 -> T2 -> T1 in its precedence graph. Schedule S2, having an acyclic precedence graph, is conflict serializable, whereas S1's cycle prevents it from being conflict serializable."
+  },
+  {
+    "question_number": 22,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Advanced Graph Theory & Group Theory",
+    "subtopic": "Group Theory",
+    "difficulty": "Medium",
+    "question": "Let G be a group of order 6, and H be a subgroup of G such that 1 < |H| < 6. Which one of the following options is correct?",
+    "options": [
+      "(A) Both G and H are always cyclic.",
+      "(B) G may not be cyclic, but H is always cyclic.",
+      "(C) G is always cyclic, but H may not be cyclic.",
+      "(D) Both G and H may not be cyclic."
+    ],
+    "answer": "(B) G may not be cyclic, but H is always cyclic.",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 10,
+    "explanation": "Lagrange's Theorem states that the order of any subgroup must divide the order of the group, and any group of prime order is cyclic. For group G of order 6, the subgroup H must have order 2 or 3, both of which are prime numbers. Therefore, H is always cyclic, while G itself may or may not be cyclic, as exemplified by S3, the symmetric group of order 6, which is non-cyclic."
+  },
+  {
+    "question_number": 23,
+    "type": "MCQ",
+    "subject": "Theory of Computation",
+    "topic": "Computability",
+    "subtopic": "Decidability",
+    "difficulty": "Medium",
+    "question": "For a Turing machine M, |M| denotes an encoding of M. Consider the following two languages:\nL1 = { |M| | M takes more than 2021 steps on ALL inputs }\nL2 = { |M| | M takes more than 2021 steps on SOME input }\nWhich one of the following options is correct?",
+    "options": [
+      "(A) Both L1 and L2 are decidable.",
+      "(B) L1 is decidable and L2 is undecidable.",
+      "(C) L1 is undecidable and L2 is decidable.",
+      "(D) Both L1 and L2 are undecidable."
+    ],
+    "answer": "(A) Both L1 and L2 are decidable.",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 11,
+    "explanation": "Decidable languages are those for which a Turing machine can always determine membership in finite time, contrasting with undecidable properties of arbitrary TM behavior. Properties concerning a Turing machine's behavior within a fixed, finite number of steps are generally decidable, regardless of whether the condition applies to \"all\" or \"some\" inputs. For both L1 and L2, the 2021-step bound allows a decider to simulate the TM for a finite duration on relevant inputs and determine membership, rendering both languages decidable."
+  },
+  {
+    "question_number": 24,
+    "type": "MSQ",
+    "subject": "Algorithms",
+    "topic": "Dynamic Programming",
+    "subtopic": "Rod Cutting Problem",
+    "difficulty": "Medium",
+    "question": "Define R_n to be the maximum amount earned by cutting a rod of length n meters into one or more pieces of integer length and selling them. For i > 0, let p[i] denote the selling price of a rod whose length is i meters. Consider the array of prices:\np^1=1, p^2=5, p^3=8, p^4=9, p^5=10, p^6=17, p^7=18\nWhich of the following statements is/are correct about R_7 ?",
+    "options": [
+      "(A) R_7 = 18",
+      "(B) R_7 = 19",
+      "(C) R_7 is achieved by three different solutions.",
+      "(D) R_7 cannot be achieved by a solution consisting of three pieces."
+    ],
+    "answer": [
+      "(A) R_7 = 18",
+      "(C) R_7 is achieved by three different solutions."
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 11,
+    "explanation": "The Rod Cutting problem seeks to maximize profit by optimally cutting a rod of length 'n' using the recurrence R_n = max(p[n], max_{1 <= i < n} (p[i] + R_{n-i})). Applying this dynamic programming approach with the given prices, we calculate R_1 through R_7, leading to R_7 = 18. This maximum profit of 18 can be achieved by three distinct sets of cut pieces: {7}, {1,6}, and {2,2,3}."
+  },
+  {
+    "question_number": 25,
+    "type": "MSQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Set Theory & Relations",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "A relation R is said to be circular if aRb and bRc together imply cRa. Which of the following options is/are correct?",
+    "options": [
+      "(A) If a relation S is reflexive and symmetric, then S is an equivalence relation.",
+      "(B) If a relation S is circular and symmetric, then S is an equivalence relation.",
+      "(C) If a relation S is reflexive and circular, then S is an equivalence relation.",
+      "(D) If a relation S is transitive and circular, then S is an equivalence relation."
+    ],
+    "answer": "(C) If a relation S is reflexive and circular, then S is an equivalence relation.",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 12,
+    "explanation": "An equivalence relation must be reflexive, symmetric, and transitive, while a circular relation implies aRb and bRc together yield cRa. If a relation S is reflexive and circular, then for any (a,b) in S, using reflexivity (b,b) and circularity (aRb, bRb implies bRa) establishes symmetry. This derived symmetry, combined with circularity (aRb and bRc implies cRa, which by symmetry gives aRc), ensures transitivity, making S an equivalence relation."
+  },
+  {
+    "question_number": 26,
+    "type": "MSQ",
+    "subject": "Computer Networks",
+    "topic": "Transport & Application Layer",
+    "subtopic": "TCP",
+    "difficulty": "Medium",
+    "question": "A TCP server application is programmed to listen on port number P on host S. A TCP client is connected to the TCP server over the network. Consider that while the TCP connection was active, the server machine S crashed and rebooted. Assume that the client does not use the TCP keepalive timer. Which of the following behaviors is/are possible?",
+    "options": [
+      "(A) If the client was waiting to receive a packet, it may wait indefinitely.",
+      "(B) The TCP server application on S can listen on P after reboot.",
+      "(C) If the client sends a packet after the server reboot, it will receive a RST segment.",
+      "(D) If the client sends a packet after the server reboot ,it will receive a FIN sehment"
+    ],
+    "answer": [
+      "(A) If the client was waiting to receive a packet, it may wait indefinitely.",
+      " (B) The TCP server application on S can listen on P after reboot.",
+      " (C) If the client sends a packet after the server reboot, it will receive a RST segment."
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 12,
+    "explanation": "The question concerns TCP connection state and error handling during server crash and reboot without client keepalive timers. TCP connections are stateful, requiring synchronized state between endpoints. A client may wait indefinitely, unaware of the crash, while the rebooted server can re-listen on its port. Subsequent client packets receive a RST segment from the server's TCP stack due to no active connection."
+  },
+  {
+    "question_number": 27,
+    "type": "MSQ",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "IP Fragmentation",
+    "difficulty": "Medium",
+    "question": "Consider two hosts P and Q connected through a router R. The MTU value of the link between P and R is 1500 bytes, and between R and Q is 820 bytes. A TCP segment of size 1400 bytes was transferred from P to Q through R, with IP identification value 0x1234. Assume that the IP header size is 20 bytes. Further, the packet is allowed to be fragmented (DF flag not set). Which of the following statements is/are correct?",
+    "options": [
+      "(A) Two fragments are created at R and the IP datagram size carrying the second fragment is 620 bytes.",
+      "(B) If the second fragment is lost, R will resend the fragment with the IP identification value 0x1234.",
+      "(C) If the second fragment is lost, P is required to resend the whole TCP segment.",
+      "(D) TCP destination port can be determined by analysing only the second fragment."
+    ],
+    "answer": [
+      "(A) Two fragments are created at R and the IP datagram size carrying the second fragment is 620 bytes.",
+      " (C) If the second fragment is lost, P is required to resend the whole TCP segment."
+    ],
+    "a": 1.5,
+    "b": 0.5,
+    "source_chunk": 13,
+    "explanation": "The question concerns IP fragmentation at routers when a datagram exceeds the outgoing link's Maximum Transmission Unit (MTU). IP fragmentation creates smaller packets with identical IP identification, allowing transmission. For a 1420-byte IP datagram and an 820-byte MTU (20-byte IP header), the packet splits into two, with the second fragment's total size being 620 bytes. Since IP is stateless, the source host P must retransmit the entire TCP segment if any fragment is lost."
+  },
+  {
+    "question_number": 28,
+    "type": "MSQ",
+    "subject": "Operating System",
+    "topic": "Deadlocks",
+    "subtopic": "Concurrency",
+    "difficulty": "Hard",
+    "question": "Consider the following pseudocode, where S is a semaphore initialized to 5 (line 2) and counter is a shared variable initialized to 0 (line 1). The increment operation in line 7 is not atomic.\n```\n   1. int counter = 0;\n   2. Semaphore S = init(5);\n   3. void parop(void) \n   4.{ \n5. wait(S);\n   6. wait(S);\n   7. counter++;\n   8. signal(S);\n   9. signal(S);\n   10. }\n```\n\nIf five threads execute parop concurrently, which of the following program behavior(s) is/are possible?",
+    "options": [
+      "(A) The value of counter is 5 after all the threads successfully complete the execution of parop.",
+      "(B) The value of counter is 1 after all the threads successfully complete the execution of parop.",
+      "(C) The value of counter is 0 after all the threads successfully complete the execution of parop.",
+      "(D) There is a deadlock involving all the threads."
+    ],
+    "answer": [
+      "(A) The value of counter is 5 after all the threads successfully complete the execution of parop.",
+      "(B) The value of counter is 1 after all the threads successfully complete the execution of parop.",
+      "(D) There is a deadlock involving all the threads."
+    ],
+    "a": 2.0,
+    "b": 1.2,
+    "source_chunk": 13,
+    "explanation": "This question explores concurrent thread execution with semaphores, examining shared counter outcomes and deadlock. Semaphores regulate access to shared resources. With S initialized to 5 and five threads, each requiring two semaphore permits, a deadlock can occur where all threads acquire one permit then block on the second. Due to the non-atomic `counter++`, the final value can be 5 (all increments) or 1 (race condition)."
+  },
+  {
+    "question_number": 29,
+    "type": "NAT",
+    "subject": "Programming and Data Structures",
+    "topic": "C Programming",
+    "subtopic": "Programming",
+    "difficulty": "Medium",
+    "question": "Consider the following ANSI C function:\n\n```c\nint SimpleFunction(int Y[], int n, int x) {\n    int total = Y^0, loopIndex;\n    for (loopIndex = 1; loopIndex <= n-1; loopIndex++)\n        total = x * total + Y[loopIndex];\n    return total;\n}\n```\n\nLet Z be an array of 10 elements with Z[i] = 1 for all i such that 0 \u2264 i \u2264 9. The value returned by SimpleFunction(Z, 10, 2) is ______.",
+    "answer": "1023",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 14,
+    "explanation": "The function implements Horner's method to evaluate a polynomial of the form `Y^0x^(n-1) + ... + Y[n-1]`. For `Y[i]=1`, `n=10`, and `x=2`, this computes the sum `1*2^9 + ... + 1*2^0`. This geometric series sum of powers of 2 from `2^0` to `2^9` equals `(2^10 - 1)`, resulting in 1023."
+  },
+  {
+    "question_number": 30,
+    "type": "NAT",
+    "subject": "Computer Networks",
+    "topic": "Transport Layer",
+    "subtopic": "Flow Control",
+    "difficulty": "Medium",
+    "question": "Consider the sliding window flow-control protocol operating between a sender and a receiver over a full-duplex error-free link. Assume the following:\n\u2022 The time taken for processing the data frame by the receiver is negligible.\n\u2022 The time taken for processing the acknowledgement frame by the sender is negligible.\n\u2022 The sender has infinite number of frames available for transmission.\n\u2022 The size of the data frame is 2000 bits and the size of the acknowledgement frame is 10 bits.\n\u2022 The link data rate in each direction is 1 Mbps (= 10^6 bits per second).\n\u2022 One way propagation delay of the link is 100 milliseconds.\nThe minimum value of the sender's window size in terms of the number of frames, rounded to the nearest integer, needed to achieve a link utilization of 50% is ________.",
+    "answer": [
+      "50",
+      "51",
+      "52"
+    ],
+    "a": 1.7,
+    "b": 0.6,
+    "source_chunk": 14,
+    "explanation": "This question determines the minimum sender window size for a specified link utilization in a sliding window flow control protocol. Link utilization is calculated as `(W * Tt) / (Tt + 2 * Tp)`, where `W` is window size, `Tt` is data frame transmission time, and `Tp` is one-way propagation delay. Given `Tt = 2 ms` and `Tp = 100 ms`, 50% utilization leads to `0.5 = (W * 2) / (2 + 200)`, yielding `W = 50.5`, which rounds to 51 frames."
+  },
+  {
+    "question_number": 31,
+    "type": "NAT",
+    "subject": "Compiler Design",
+    "topic": "Advanced Topics",
+    "subtopic": "Intermediate Code Generation",
+    "difficulty": "Medium",
+    "question": "Consider the following C code segment:\n\n```c\na = b + c;\ne = a + 1;\nd = b + c;\nf = d + 1;\ng = e + f;\n```\n\nIn a compiler, this code segment is represented internally as a directed acyclic graph (DAG). The number\nof nodes in the DAG is ______.",
+    "answer": "6",
+    "a": 1.4,
+    "b": 0.4,
+    "source_chunk": 14,
+    "explanation": "A Directed Acyclic Graph (DAG) represents a basic block by having nodes for variables and operators, where common subexpressions are shared. Each unique operand (b, c, 1) and unique computation (b+c, (b+c)+1, (e+f)) forms a distinct node, consolidating identical operations. Thus, there are three operand nodes and three unique operation nodes, resulting in a total of six nodes in the DAG."
+  },
+  {
+    "question_number": 32,
+    "type": "NAT",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Eigenvalues and Eigenvectors",
+    "difficulty": "Medium",
+    "question": "Consider the following matrix:\n[[0,1,1,1],[1,0,1,1],[1,1,0,1],[1,1,1,0]]",
+    "answer": "3",
+    "a": 1.5,
+    "b": 0.15,
+    "source_chunk": 15,
+    "explanation": "The given matrix is an adjacency matrix representing an undirected graph with four vertices where all distinct pairs of vertices are connected. This structure corresponds to a complete graph K4, where every vertex is adjacent to every other vertex. Consequently, the degree of each vertex in this K4 graph is n-1, which is 4-1 = 3."
+  },
+  {
+    "question_number": 33,
+    "type": "NAT",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Pipelining",
+    "subtopic": "Pipeline Performance",
+    "difficulty": "Medium",
+    "question": "A five-stage pipeline has stage delays of 150, 120, 150, 160 and 140 nanoseconds. The registers that are used between the pipeline stages have a delay of 5 nanoseconds each. The total time to execute 100 independent instructions on this pipeline, assuming there are no pipeline stalls, is ______ nanoseconds.",
+    "answer": "17160",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 15,
+    "explanation": "The total execution time for a pipelined processor is determined by its clock cycle time and the number of instructions and stages. The clock cycle time equals the maximum stage delay plus the register delay, which is 160 ns + 5 ns = 165 ns. For 100 instructions in a 5-stage pipeline, the total time is (100 + 5 - 1) * 165 = 17160 nanoseconds."
+  }
+]

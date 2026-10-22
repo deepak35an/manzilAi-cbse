@@ -1,0 +1,519 @@
+{
+  "duration_weeks": 24,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Nature and Significance of Management",
+          "priority": "HIGH",
+          "topic": "Fundamentals of Management",
+          "subtopics": [
+            "Management: Concept",
+            "Objectives of Management",
+            "Importance of Management",
+            "Nature of Management"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Nature and Significance of Management",
+          "priority": "HIGH",
+          "topic": "Management as a Discipline & Levels",
+          "subtopics": [
+            "Management as a Science",
+            "Management as an Art",
+            "Management as a Profession",
+            "Levels of Management",
+            "Top-Level Management",
+            "Middle-Level Management",
+            "Supervisory/First-Level Management"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Nature and Significance of Management",
+          "priority": "HIGH",
+          "topic": "Functions of Management & Coordination",
+          "subtopics": [
+            "Functions of Management",
+            "Planning",
+            "Organising",
+            "Staffing",
+            "Directing",
+            "Controlling",
+            "Coordination",
+            "Nature and Importance of Coordination"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Principles of Management",
+          "priority": "HIGH",
+          "topic": "Principles of Management Concepts",
+          "subtopics": [
+            "Meaning of Principles of Management",
+            "Nature of Principles of Management",
+            "Significance of Principles of Management"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Principles of Management",
+          "priority": "HIGH",
+          "topic": "Fayol's & Taylor's Scientific Management",
+          "subtopics": [
+            "Fayol's Principles of Management",
+            "Taylor's Scientific Management",
+            "Principles of Scientific Management",
+            "Techniques of Scientific Management"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Business Environment",
+          "priority": "MEDIUM",
+          "topic": "Business Environment Basics & Dimensions",
+          "subtopics": [
+            "Meaning of Business Environment",
+            "Importance of Business Environment",
+            "Dimensions of Business Environment",
+            "Economic Environment",
+            "Social Environment",
+            "Technological Environment",
+            "Political Environment",
+            "Legal Environment"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Planning",
+          "priority": "HIGH",
+          "topic": "Planning Concepts & Limitations",
+          "subtopics": [
+            "Meaning of Planning",
+            "Features of Planning",
+            "Importance of Planning",
+            "Limitations of Planning",
+            "Planning Process"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Planning",
+          "priority": "HIGH",
+          "topic": "Types of Plans",
+          "subtopics": [
+            "Types of Plans",
+            "Objectives",
+            "Strategy",
+            "Policy",
+            "Procedure",
+            "Method",
+            "Rule",
+            "Budget",
+            "Programme"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Organising",
+          "priority": "HIGH",
+          "topic": "Organising Concepts & Structure",
+          "subtopics": [
+            "Meaning of Organising",
+            "Importance of Organising",
+            "Process of Organising",
+            "Organisational Structure",
+            "Functional Structure",
+            "Divisional Structure",
+            "Formal Organisation",
+            "Informal Organisation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Organising",
+          "priority": "HIGH",
+          "topic": "Delegation & Decentralisation",
+          "subtopics": [
+            "Delegation",
+            "Meaning of Delegation",
+            "Elements of Delegation",
+            "Importance of Delegation",
+            "Decentralisation",
+            "Meaning of Decentralisation",
+            "Importance of Decentralisation",
+            "Delegation vs Decentralisation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Staffing",
+          "priority": "HIGH",
+          "topic": "Staffing Process & Recruitment",
+          "subtopics": [
+            "Meaning of Staffing",
+            "Need and Importance of Staffing",
+            "Staffing as a Part of Human Resource Management",
+            "Staffing Process",
+            "Recruitment",
+            "Meaning of Recruitment",
+            "Recruitment Process",
+            "Internal Sources of Recruitment",
+            "External Sources of Recruitment",
+            "Merits and Demerits of Internal Recruitment",
+            "Merits and Demerits of External Recruitment"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Staffing",
+          "priority": "HIGH",
+          "topic": "Selection, Training & Development",
+          "subtopics": [
+            "Selection",
+            "Meaning of Selection",
+            "Selection Process",
+            "Training and Development",
+            "Need for Training",
+            "On-the-Job Training",
+            "Off-the-Job Training"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Directing",
+          "priority": "CRITICAL",
+          "topic": "Directing Basics & Supervision",
+          "subtopics": [
+            "Meaning of Directing",
+            "Importance of Directing",
+            "Principles of Directing",
+            "Supervision",
+            "Meaning and Importance of Supervision"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Directing",
+          "priority": "CRITICAL",
+          "topic": "Motivation & Incentives",
+          "subtopics": [
+            "Motivation",
+            "Meaning and Importance of Motivation",
+            "Maslow's Hierarchy of Needs",
+            "Financial Incentives",
+            "Non-Financial Incentives"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Directing",
+          "priority": "CRITICAL",
+          "topic": "Leadership & Communication",
+          "subtopics": [
+            "Leadership",
+            "Meaning and Importance of Leadership",
+            "Authoritative Leadership",
+            "Democratic Leadership",
+            "Laissez-Faire Leadership",
+            "Communication",
+            "Meaning and Importance of Communication",
+            "Formal Communication",
+            "Informal Communication",
+            "Barriers to Effective Communication",
+            "Measures to Overcome Communication Barriers"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Controlling",
+          "priority": "MEDIUM",
+          "topic": "Controlling Concepts & Process",
+          "subtopics": [
+            "Meaning of Controlling",
+            "Importance of Controlling",
+            "Relationship Between Planning and Controlling",
+            "Process of Control"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Business Finance",
+          "priority": "CRITICAL",
+          "topic": "Business Finance Fundamentals & Decisions",
+          "subtopics": [
+            "Meaning of Business Finance",
+            "Role of Financial Management",
+            "Objectives of Financial Management",
+            "Financial Decisions",
+            "Investment Decision",
+            "Financing Decision",
+            "Dividend Decision",
+            "Factors Affecting Financial Decisions"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Business Finance",
+          "priority": "CRITICAL",
+          "topic": "Financial Planning & Capital Structure",
+          "subtopics": [
+            "Financial Planning",
+            "Meaning and Importance of Financial Planning",
+            "Capital Structure",
+            "Meaning of Capital Structure",
+            "Factors Affecting Capital Structure",
+            "Fixed Capital",
+            "Factors Affecting Fixed Capital Requirements",
+            "Working Capital",
+            "Factors Affecting Working Capital Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Financial Markets",
+          "priority": "HIGH",
+          "topic": "Financial Market Concepts & Money Market",
+          "subtopics": [
+            "Concept of Financial Market",
+            "Money Market",
+            "Money Market Instruments",
+            "Capital Market",
+            "Primary Market"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Financial Markets",
+          "priority": "HIGH",
+          "topic": "Capital Market & SEBI",
+          "subtopics": [
+            "Secondary Market",
+            "Stock Exchange",
+            "Functions of Stock Exchange",
+            "Trading Procedure",
+            "Depository Services",
+            "Demat Account",
+            "Securities and Exchange Board of India (SEBI)",
+            "Objectives of SEBI",
+            "Functions of SEBI"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Marketing",
+          "priority": "CRITICAL",
+          "topic": "Marketing Fundamentals & Philosophies",
+          "subtopics": [
+            "Meaning of Marketing",
+            "Functions of Marketing",
+            "Role of Marketing",
+            "Marketing Philosophies",
+            "Marketing vs Selling",
+            "Marketing Mix",
+            "Elements of Marketing Mix"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Marketing",
+          "priority": "CRITICAL",
+          "topic": "Marketing Mix - Product & Physical Distribution",
+          "subtopics": [
+            "Product",
+            "Nature and Classification of Products",
+            "Branding",
+            "Labelling",
+            "Packaging",
+            "Physical Distribution",
+            "Meaning and Role of Physical Distribution",
+            "Components of Physical Distribution",
+            "Channels of Distribution",
+            "Types of Distribution Channels",
+            "Factors Determining Choice of Channels"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Marketing",
+          "priority": "CRITICAL",
+          "topic": "Marketing Mix - Promotion & Price",
+          "subtopics": [
+            "Promotion",
+            "Meaning and Role of Promotion",
+            "Promotion Mix",
+            "Advertising",
+            "Personal Selling",
+            "Sales Promotion",
+            "Public Relations",
+            "Role of Advertising",
+            "Objections to Advertising",
+            "Price",
+            "Factors Influencing Pricing"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Consumer Protection",
+          "priority": "HIGH",
+          "topic": "Consumer Protection Act & Rights",
+          "subtopics": [
+            "Meaning and Concept of Consumer Protection",
+            "Importance of Consumer Protection",
+            "Consumer Protection Act, 2019",
+            "Consumer Rights",
+            "Consumer Responsibilities",
+            "Who Can File a Complaint",
+            "Consumer Awareness",
+            "Legal Redressal",
+            "Remedies Available under Consumer Protection Act, 2019",
+            "Consumer Organisations",
+            "Non-Governmental Organisations (NGOs)"
+          ]
+        }
+      ]
+    }
+  ]
+}

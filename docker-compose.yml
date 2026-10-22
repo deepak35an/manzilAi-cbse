@@ -1,0 +1,84 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Works on both VPS and local dev without changes.
+#
+# LOCAL:  docker compose up -d           (ports open on 0.0.0.0)
+# VPS:    BIND=127.0.0.1 docker compose up -d  (ports bound to localhost only)
+#
+# Or set BIND=127.0.0.1 in your VPS .env file.
+# ─────────────────────────────────────────────────────────────────────────────
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: online_assessment-postgres-1
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-assessment_db}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    ports:
+      - "${BIND:-0.0.0.0}:${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: online_assessment-redis-1
+    ports:
+      - "${BIND:-0.0.0.0}:${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: online_assessment-ollama-1
+    environment:
+      - OLLAMA_KEEP_ALIVE=24h
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: online_assessment-backend-1
+    ports:
+      - "${BIND:-0.0.0.0}:${BACKEND_PORT:-8000}:8000"
+    env_file:
+      - ./backend/.env.docker
+    volumes:
+      - ./backend/data:/data
+      - ./backend/pipelines:/app/pipelines
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: online_assessment-frontend-1
+    ports:
+      - "${BIND:-0.0.0.0}:${FRONTEND_PORT:-5173}:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  redisdata:
+  ollama_data:

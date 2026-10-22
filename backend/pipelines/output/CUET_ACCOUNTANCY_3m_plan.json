@@ -1,0 +1,291 @@
+{
+  "duration_weeks": 12,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "HIGH",
+          "topic": "Partnership Fundamentals",
+          "subtopics": [
+            "Nature of Partnership Firm",
+            "Partnership Deed",
+            "Importance of Partnership Deed",
+            "Fixed Capital Method",
+            "Fluctuating Capital Method",
+            "Division of Profit Among Partners",
+            "Profit and Loss Appropriation Account",
+            "Guarantee of Profit to a Partner",
+            "Past Adjustments"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Change in Profit Sharing Ratio",
+            "Sacrificing Ratio",
+            "Gaining Ratio",
+            "Revaluation of Assets",
+            "Reassessment of Liabilities",
+            "Distribution of Reserves",
+            "Accumulated Profits",
+            "Goodwill",
+            "Factors Affecting Goodwill"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Average Profit Method",
+            "Super Profit Method",
+            "Capitalisation Method",
+            "Admission of a Partner",
+            "Accounting Treatment of Goodwill",
+            "Adjustment of Capitals",
+            "Retirement of a Partner",
+            "Death of a Partner"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Deceased Partner's Capital Account",
+            "Executor's Account",
+            "Loan Account"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "HIGH",
+          "topic": "Dissolution of Partnership Firm",
+          "subtopics": [
+            "Meaning of Dissolution",
+            "Settlement of Accounts",
+            "Realisation Account",
+            "Partners' Capital Accounts",
+            "Cash/Bank Account"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Features of Companies",
+            "Types of Companies",
+            "Share Capital",
+            "Equity Shares",
+            "Preference Shares",
+            "Issue of Shares",
+            "Share Allotment",
+            "Oversubscription",
+            "Undersubscription",
+            "Issue at Par",
+            "Issue at Premium"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Calls in Advance",
+            "Calls in Arrears",
+            "Shares Issued for Consideration Other Than Cash",
+            "Forfeiture of Shares",
+            "Reissue of Forfeited Shares",
+            "Presentation of Share Capital",
+            "Presentation of Debentures"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "HIGH",
+          "topic": "Debentures",
+          "subtopics": [
+            "Issue of Debentures",
+            "Issue at Par",
+            "Issue at Premium",
+            "Issue at Discount",
+            "Debentures for Consideration Other Than Cash",
+            "Redemption of Debentures",
+            "Debentures as Collateral Security",
+            "Interest on Debentures",
+            "Writing Off Discount/Loss on Issue of Debentures"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "HIGH",
+          "topic": "Financial Statements",
+          "subtopics": [
+            "Financial Statements of a Company",
+            "Preparation of Financial Statements",
+            "Major Headings and Sub-headings"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "MEDIUM",
+          "topic": "Financial Statement Analysis",
+          "subtopics": [
+            "Meaning of Financial Analysis",
+            "Significance",
+            "Purpose",
+            "Limitations",
+            "Comparative Statements",
+            "Common Size Statements"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "CRITICAL",
+          "topic": "Accounting Ratios",
+          "subtopics": [
+            "Meaning and Objectives",
+            "Liquidity Ratios",
+            "Solvency Ratios",
+            "Activity Ratios",
+            "Profitability Ratios",
+            "Meaning and Objectives (Cash Flow Statement)",
+            "Preparation of Cash Flow Statement",
+            "Depreciation Adjustments",
+            "Amortization Adjustments",
+            "Dividend Adjustments",
+            "Tax Adjustments",
+            "Purchase of Non-current Assets",
+            "Sale of Non-current Assets"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Revision & Advanced Practice",
+      "weightage": 0,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Admission of a Partner",
+            "Retirement of a Partner",
+            "Death of a Partner",
+            "Accounting Treatment of Goodwill"
+          ]
+        },
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Forfeiture of Shares",
+            "Reissue of Forfeited Shares",
+            "Issue of Shares"
+          ]
+        },
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "CRITICAL",
+          "topic": "Accounting Ratios",
+          "subtopics": [
+            "Liquidity Ratios",
+            "Solvency Ratios",
+            "Activity Ratios",
+            "Profitability Ratios"
+          ]
+        },
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "CRITICAL",
+          "topic": "Cash Flow Statement",
+          "subtopics": [
+            "Preparation of Cash Flow Statement",
+            "Depreciation Adjustments",
+            "Tax Adjustments"
+          ]
+        }
+      ]
+    }
+  ]
+}

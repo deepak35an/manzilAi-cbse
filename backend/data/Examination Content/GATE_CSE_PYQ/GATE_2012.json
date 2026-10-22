@@ -1,0 +1,842 @@
+[
+  {
+    "question_number": 1,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Logic",
+    "subtopic": "Discrete Mathematics / Logic / Inference",
+    "difficulty": "Medium",
+    "question": "Consider the following logical inferences.\n\nI1: If it rains then the cricket match will not be played.\nThe cricket match was played.\nInference : There was no rain.\nI2: If it rains then the cricket match will not be played.\nIt did not rain.\nInference : The cricket match was played.\n\nWhich of the following is TRUE ?",
+    "options": [
+      "(A) Both I1 and I2 are correct inferences",
+      "(B) I1 is correct but I2 is not a correct inference",
+      "(C) I1 is not correct but I2 is a correct inference",
+      "(D) Both I1 and I2 are not correct inferences"
+    ],
+    "answer": "(B) I1 is correct but I2 is not a correct inference",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 2,
+    "explanation": "Logical inference evaluates the validity of conclusions drawn from given premises using rules of deduction. Inference I1 demonstrates Modus Tollens, a valid argument form where 'If P then Q' and 'not Q' correctly imply 'not P'. Inference I2, however, represents the Fallacy of Denying the Antecedent, where 'If P then Q' and 'not P' incorrectly imply 'not Q'. Therefore, I1 is a correct inference while I2 is not valid."
+  },
+  {
+    "question_number": 2,
+    "type": "MCQ",
+    "subject": "Databases",
+    "topic": "Normalization",
+    "subtopic": "Relational Model / Normalization / Normal Forms",
+    "difficulty": "Easy",
+    "question": "Which of the following is TRUE ?",
+    "options": [
+      "(A) Every relation in 3NF is also in BCNF",
+      "(B) A relation R is in 3NF if every non-prime attribute of R is fully functionally dependent on every\nkey of R",
+      "(C) Every relation in BCNF is also in 3NF",
+      "(D) No relation can be in both BCNF and 3NF"
+    ],
+    "answer": "(C) Every relation in BCNF is also in 3NF",
+    "a": 1.0,
+    "b": -0.8,
+    "source_chunk": 2,
+    "explanation": "Boyce-Codd Normal Form (BCNF) requires that for every non-trivial functional dependency X \u2192 A, X must be a superkey. Third Normal Form (3NF) requires that for every non-trivial functional dependency X \u2192 A, X must be a superkey or A must be a prime attribute. BCNF is a stricter normal form than 3NF because it eliminates the exception for prime attributes. Consequently, any relation that satisfies the conditions for BCNF will inherently satisfy the conditions for 3NF."
+  },
+  {
+    "question_number": 3,
+    "type": "MCQ",
+    "subject": "Programming and Data Structures",
+    "topic": "C Programming",
+    "subtopic": "C Programming / Control Flow / switch-case",
+    "difficulty": "Easy",
+    "question": "What will be the output of the following C program segment?\n\n```c\nchar inChar = 'A' ;\nswitch ( inChar ) {\ncase 'A' : printf (\"Choice A\\ n\") ;\ncase 'B' :\ncase 'C' : printf (\"Choice B\") ;\ncase 'D' :\ncase 'E' :\ndefault : printf ( \" No Choice\" ) ; }\n```",
+    "options": [
+      "(A) `No Choice`",
+      "(B) `Choice A`",
+      "(C) `Choice A`\n    `Choice B No Choice`",
+      "(D) Program gives no output as it is erroneous"
+    ],
+    "answer": "(C) `Choice A`\n    `Choice B No Choice`",
+    "a": 1.0,
+    "b": -0.7,
+    "source_chunk": 2,
+    "explanation": "The C `switch` statement executes code blocks sequentially from the matched `case` label until a `break` statement is encountered or the `switch` block ends. With `inChar` initialized to 'A', execution begins at `case 'A'`, printing \"Choice A\\n\". Due to the absence of `break` statements, execution falls through to `case 'C'` (after skipping `case 'B'`), printing \"Choice B\". It then continues falling through until the `default` label, which prints \" No Choice\", resulting in cumulative output."
+  },
+  {
+    "question_number": 5,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Sorting and Searching",
+    "subtopic": "Data Structures / Trees / Binary Search Trees",
+    "difficulty": "Easy",
+    "question": "The worst-case running time to search for an element in a balanced binary search tree with n^(2^n) elements is",
+    "options": [
+      "(A) \u0398(n log n)",
+      "(B) \u0398(n^(2^n))",
+      "(C) \u0398(n)",
+      "(D) \u0398(2^n log n)"
+    ],
+    "answer": "(D) \u0398(2^n log n)",
+    "a": 1.0,
+    "b": -0.9,
+    "source_chunk": 2,
+    "explanation": "The worst-case search time in a balanced binary search tree is logarithmic in the number of stored elements because its height is proportional to the logarithm of the tree size. Since the tree contains n^(2^n) elements, the search complexity is \u0398(log(n^(2^n))), which simplifies to \u0398(2^n log n) using the logarithm power rule. Therefore, the correct asymptotic running time is \u0398(2^n log n)"
+  },
+  {
+    "question_number": 6,
+    "type": "MCQ",
+    "subject": "Digital Logic",
+    "topic": "Boolean Algebra",
+    "subtopic": "Boolean Algebra / Truth Tables",
+    "difficulty": "Easy",
+    "question": "The truth table\n\n|X|Y|f (X, Y)|\n|---|---|---|\n|0|0|0|\n|0|1|0|\n|1|0|1|\n|1|1|1|\n\nrepresents the Boolean function",
+    "options": [
+      "(A) X",
+      "(B) X + Y",
+      "(C) X \uf0c5 Y",
+      "(D) Y"
+    ],
+    "answer": "(A) X",
+    "a": 0.9,
+    "b": -1.0,
+    "source_chunk": 2,
+    "explanation": "A truth table defines a Boolean function by mapping all possible input combinations to their corresponding output values. By inspecting the given truth table, the output `f(X,Y)` is 0 when X is 0 (for inputs 00 and 01) and 1 when X is 1 (for inputs 10 and 11). The output value is thus directly dependent only on the value of X, irrespective of Y. Therefore, the Boolean function represented by this truth table is simply X."
+  },
+  {
+    "question_number": 7,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Data Representation",
+    "subtopic": "Data Representation / Floating Point Numbers",
+    "difficulty": "Medium",
+    "question": "The decimal value 0.5 in IEEE single precision floating point representation has",
+    "options": [
+      "(A) fraction bits of 000\u2026000 and exponent value of 0",
+      "(B) fraction bits of 000\u2026000 and exponent value of \u22121",
+      "(C) fraction bits of 100\u2026000 and exponent value of 0",
+      "(D) no exact representation"
+    ],
+    "answer": "(B) fraction bits of 000\u2026000 and exponent value of \u22121",
+    "a": 1.5,
+    "b": 0.1,
+    "source_chunk": 2,
+    "explanation": "IEEE 754 single-precision floating-point numbers are represented as `(-1)^S * 1.F * 2^(E-Bias)`, consisting of a sign, biased exponent, and fraction. The decimal value 0.5 equals `2^(-1)`. Its normalized form, `1.0 * 2^(-1)`, directly indicates that the significand's fractional part (F) must be all zeros. Thus, the fraction bits are 000\u2026000, and the actual exponent value (power of 2) required for this representation is -1."
+  },
+  {
+    "question_number": 8,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "Process Management / fork() system call",
+    "difficulty": "Medium",
+    "question": "A process executes the code\n\n```c\nfork();\nfork();\nfork();\n```\n\nThe total number of **child** processes created is",
+    "options": [
+      "(A) 3",
+      "(B) 4",
+      "(C) 7",
+      "(D) 8"
+    ],
+    "answer": "(C) 7",
+    "a": 1.4,
+    "b": 0.2,
+    "source_chunk": 2,
+    "explanation": "The `fork()` system call creates a child process that is a duplicate of its parent, continuing execution from the point of the call. Each `fork()` operation effectively doubles the number of active processes. For three sequential `fork()` calls, the total number of processes becomes `2^3 = 8`. This count includes the original parent process. Therefore, subtracting the original parent from the total gives `8 - 1 = 7` child processes created."
+  },
+  {
+    "question_number": 9,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Calculus / Functions / Extrema",
+    "difficulty": "Medium",
+    "question": "Consider the function f( _x_ ) = sin( _x_ ) in the interval _x_ \u2208[\u03c0/4, 7\u03c0/4]. The number and location(s) of the\nlocal minima of this function are",
+    "options": [
+      "(A) One, at \u03c0/2",
+      "(B) One, at 3\u03c0/2",
+      "(C) Two, at \u03c0/2 and 3\u03c0/2",
+      "(D) Two, at \u03c0/4"
+    ],
+    "answer": "(B) One, at 3\u03c0/2",
+    "a": 1.3,
+    "b": 0.0,
+    "source_chunk": 2,
+    "explanation": "A local minimum for a function occurs where its first derivative is zero and its second derivative is positive. For `f(x) = sin(x)` on `[\u03c0/4, 7\u03c0/4]`, `f'(x)=0` at `x=\u03c0/2, 3\u03c0/2`. The second derivative `f''(x)=-sin(x)` is negative at `\u03c0/2` and positive at `3\u03c0/2`. This confirms `3\u03c0/2` as the sole local minimum."
+  },
+  {
+    "question_number": 10,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Transport & Application Layer",
+    "subtopic": "OSI/TCP-IP Model / PDUs",
+    "difficulty": "Easy",
+    "question": "The protocol data unit (PDU) for the application layer in the Internet stack is",
+    "options": [
+      "(A) Segment",
+      "(B) Datagram",
+      "(C) Message",
+      "(D) Frame"
+    ],
+    "answer": "(C) Message",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 3,
+    "explanation": "Each layer in the Internet protocol stack defines a Protocol Data Unit (PDU) for its data encapsulation. The application layer's PDU represents the logical unit of data exchanged between applications. This PDU is specifically known as a Message. Segment is for the transport layer, Datagram for the network, and Frame for the data link layer, confirming Message as the application layer PDU."
+  },
+  {
+    "question_number": 11,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Linear Algebra / Eigenvalues",
+    "difficulty": "Medium",
+    "question": "Let A be the 2 \u00d7 2 matrix with elements a11 = a12 = a21 = +1 and a22 = \u22121. Then the eigenvalues of\nthe matrix A [19 ] are",
+    "options": [
+      "(A) 1024 and \u22121024",
+      "(B) 1024\u221a2 and \u22121024\u221a2",
+      "(C) 4\u221a2 and \u22124\u221a2",
+      "(D) 512\u221a2 and \u2212512\u221a2"
+    ],
+    "answer": "(D) 512\u221a2 and \u2212512\u221a2",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 3,
+    "explanation": "The problem involves finding eigenvalues of a matrix raised to a power, utilizing the property that if \u03bb is an eigenvalue of matrix A, then \u03bb^k is an eigenvalue of A^k. First, determine the eigenvalues of the original matrix A by solving its characteristic equation, det(A - \u03bbI) = 0, which yields \u03bb = \u00b1\u221a2. Subsequently, raise these eigenvalues to the power of 19, resulting in (\u221a2)^19 = 512\u221a2 and (-\u221a2)^19 = -512\u221a2."
+  },
+  {
+    "question_number": 12,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Logic",
+    "subtopic": "Discrete Mathematics / Predicate Logic",
+    "difficulty": "Easy",
+    "question": "What is the correct translation of the following statement into mathematical logic?\n\n\"Some real numbers are rational\"",
+    "options": [
+      "(A) \u2203x (real(x) \u2228 rational(x))",
+      "(B) \u2200x (real(x) \u2192 rational(x))",
+      "(C) \u2203x (real(x) \u2227 rational(x))",
+      "(D) \u2203x (rational(x) \u2192 real(x))"
+    ],
+    "answer": "(C) \u2203x (real(x) \u2227 rational(x))",
+    "a": 1.0,
+    "b": -0.8,
+    "source_chunk": 3,
+    "explanation": "This question tests the translation of a natural language statement into first-order predicate logic, specifically using existential quantifiers for \"some\". The phrase \"Some A are B\" correctly translates to an existential quantifier (\u2203x) followed by a conjunction (\u2227) of the predicates A(x) and B(x). Thus, \"Some real numbers are rational\" means there exists an x such that x is a real number AND x is a rational number."
+  },
+  {
+    "question_number": 13,
+    "type": "MCQ",
+    "subject": "Databases",
+    "topic": "ER Model & Relational Model",
+    "subtopic": "ER Model and Relational Model",
+    "difficulty": "Medium",
+    "question": "Given the basic ER and relational models, which of the following is **INCORRECT** ?",
+    "options": [
+      "(A) An attribute of an entity can have more than one value",
+      "(B) An attribute of an entity can be composite",
+      "(C) In a row of a relational table, an attribute can have more than one value",
+      "(D) In a row of a relational table, an attribute can have exactly one value or a NULL value"
+    ],
+    "answer": "(C) In a row of a relational table, an attribute can have more than one value",
+    "a": 1.4,
+    "b": 0.0,
+    "source_chunk": 3,
+    "explanation": "This question distinguishes between attribute characteristics in the Entity-Relationship (ER) model and the Relational model, particularly focusing on attribute atomicity. In the ER model, attributes can be multi-valued or composite, allowing multiple or structured values for a single attribute. However, in the Relational model, a fundamental rule dictates that each attribute in a table row must hold only a single, atomic value or a NULL."
+  },
+  {
+    "question_number": 14,
+    "type": "MCQ",
+    "subject": "Databases",
+    "topic": "Relational Algebra & SQL",
+    "subtopic": "SQL / GROUP BY and HAVING",
+    "difficulty": "Medium",
+    "question": "Which of the following statements are **TRUE** about an SQL query?\n\nP : An SQL query can contain a HAVING clause even if it does not have a GROUP BY clause\nQ : An SQL query can contain a HAVING clause only if it has a GROUP BY clause\nR : All attributes used in the GROUP BY clause must appear in the SELECT clause\nS : Not all attributes used in the GROUP BY clause need to appear in the SELECT clause",
+    "options": [
+      "(A) P and R",
+      "(B) P and S",
+      "(C) Q and R",
+      "(D) Q and S"
+    ],
+    "answer": "(B) P and S",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 3,
+    "explanation": "This question tests knowledge of SQL query structure, specifically the interaction between the GROUP BY and HAVING clauses, and attribute selection. The HAVING clause can be used without a GROUP BY clause, where it applies conditions to the entire result set as a single group, making statement P true. Additionally, not all attributes used in the GROUP BY clause are required to appear in the SELECT clause, confirming statement S as true."
+  },
+  {
+    "question_number": 15,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis",
+    "subtopic": "Recurrence Relations / Towers of Hanoi",
+    "difficulty": "Easy",
+    "question": "The recurrence relation capturing the optimal execution time of the Towers of Hanoi problem with n discs is",
+    "options": [
+      "(A) T(n) = 2T(n - 2) + 2",
+      "(B) T(n) = 2T(n - 1) + n",
+      "(C) T(n) = 2T(n/2) + 1",
+      "(D) T(n) = 2T(n - 1) + 1"
+    ],
+    "answer": "(D) T(n) = 2T(n - 1) + 1",
+    "a": 1.0,
+    "b": -0.7,
+    "source_chunk": 3,
+    "explanation": "The Towers of Hanoi problem is a classic recursive puzzle, and its optimal execution time is characterized by a specific recurrence relation. To move n discs, one must first move n-1 discs to an auxiliary peg, then move the largest disc, and finally move the n-1 discs from the auxiliary to the destination peg. This process directly translates to the recurrence relation T(n) = 2T(n-1) + 1, with a base case of T(1) = 1."
+  },
+  {
+    "question_number": 16,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Graph Theory",
+    "subtopic": "Graph Theory / Planar Graphs (Euler's Formula)",
+    "difficulty": "Medium",
+    "question": "Let G be a simple undirected planar graph on 10 vertices with 15 edges. If G is a connected graph,\nthen the number of **bounded** faces in any embedding of G on the plane is equal to",
+    "options": [
+      "(A) 3",
+      "(B) 4",
+      "(C) 5",
+      "(D) 6"
+    ],
+    "answer": "(D) 6",
+    "a": 1.5,
+    "b": 0.1,
+    "source_chunk": 3,
+    "explanation": "Euler's formula, V - E + F = 2, defines the relationship between vertices (V), edges (E), and faces (F) in a connected planar graph. With 10 vertices and 15 edges, the total number of faces is calculated as F = 2 - 10 + 15 = 7. Subtracting the one unbounded outer face, the graph has 6 bounded faces."
+  },
+  {
+    "question_number": 17,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis of Algorithms",
+    "subtopic": "Asymptotic Notations",
+    "difficulty": "Easy",
+    "question": "Let W(n) and A(n) denote respectively the worst-case and average-case running times of an algorithm executed on an input of size n. Which of the following is ALWAYS TRUE?",
+    "options": [
+      "(A) A(n) = \u03a9(W(n))",
+      "(B) A(n) = \u0398(W(n))",
+      "(C) A(n) = O(W(n))",
+      "(D) A(n) = o(W(n))"
+    ],
+    "answer": "(C) A(n) = O(W(n))",
+    "a": 1.2,
+    "b": -0.5,
+    "source_chunk": 3,
+    "explanation": "Worst-case running time W(n) represents the maximum time an algorithm takes for any input of size n, while average-case A(n) is the expected time over all inputs. By definition, the average running time of an algorithm cannot be asymptotically greater than its worst-case running time. Therefore, A(n) is always bounded above by W(n), which is expressed using Big-O notation as A(n) = O(W(n))."
+  },
+  {
+    "question_number": 18,
+    "type": "MCQ",
+    "subject": "Digital Logic",
+    "topic": "Combinational Circuits",
+    "subtopic": "Memory (ROM) / Multipliers",
+    "difficulty": "Medium",
+    "question": "The amount of ROM needed to implement a 4 bit multiplier is",
+    "options": [
+      "(A) 64 bits",
+      "(B) 128 bits",
+      "(C) 1 Kbits",
+      "(D) 2 Kbits"
+    ],
+    "answer": "(D) 2 Kbits",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 3,
+    "explanation": "A Read-Only Memory (ROM) implements combinational logic by mapping inputs as addresses to output data. A 4-bit multiplier requires 8 address lines for its inputs and 8 data output lines for its 8-bit product. The ROM size is thus `2^8 * 8` bits, calculated as `256 * 8 = 2048` bits, which equals 2 Kbits."
+  },
+  {
+    "question_number": 19,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Pipelining",
+    "subtopic": "Pipelining / Hazards / Register Renaming",
+    "difficulty": "Easy",
+    "question": "Register renaming is done in pipelined processors",
+    "options": [
+      "(A) as an alternative to register allocation at compile time",
+      "(B) for efficient access to function parameters and local variables",
+      "(C) to handle certain kinds of hazards",
+      "(D) as part of address translation"
+    ],
+    "answer": "(C) to handle certain kinds of hazards",
+    "a": 1.1,
+    "b": -0.6,
+    "source_chunk": 3,
+    "explanation": "Register renaming is a pipelined processor technique to eliminate false data dependencies, specifically Write After Read (WAR) and Write After Write (WAW) hazards. These hazards occur when instructions incorrectly depend on the same architectural register name, even without true data flow. By mapping architectural registers to distinct physical registers, renaming resolves these name dependencies, improving pipeline performance."
+  },
+  {
+    "question_number": 20,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus & Probability",
+    "subtopic": "Probability / CDF",
+    "difficulty": "Easy",
+    "question": "Consider a random variable _X_ that takes values +1 and \u22121 with probability 0.5 each. The values of\nthe cumulative distribution function F( _x_ ) at _x_ = \u22121 and +1 are",
+    "options": [
+      "(A) 0 and 0.5",
+      "(B) 0 and 1",
+      "(C) 0.5 and 1",
+      "(D) 0.25 and 0.75"
+    ],
+    "answer": "(C) 0.5 and 1",
+    "a": 1.0,
+    "b": -0.9,
+    "source_chunk": 3,
+    "explanation": "The Cumulative Distribution Function (CDF) F(x) for a random variable X is the probability P(X \u2264 x). For the given discrete variable, F(-1) = P(X = -1) = 0.5, as -1 is the only value less than or equal to itself. Consequently, F(+1) = P(X = -1) + P(X = +1) = 0.5 + 0.5 = 1."
+  },
+  {
+    "question_number": 21,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Transport & Application Layer",
+    "subtopic": "Transport Layer / Application Layer Protocols",
+    "difficulty": "Easy",
+    "question": "Which of the following transport layer protocols is used to support electronic mail?",
+    "options": [
+      "(A) SMTP",
+      "(B) IP",
+      "(C) TCP",
+      "(D) UDP"
+    ],
+    "answer": "(C) TCP",
+    "a": 1.1,
+    "b": -1.0,
+    "source_chunk": 4,
+    "explanation": "TCP (Transmission Control Protocol) is a reliable, connection-oriented transport layer protocol that provides end-to-end data delivery assurance. Electronic mail services, such as SMTP, require reliable data transfer to ensure messages are delivered completely and in order, which are functionalities offered by TCP. Therefore, TCP is the appropriate transport layer protocol used to support applications like electronic mail, guaranteeing data integrity and ordered delivery."
+  },
+  {
+    "question_number": 22,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "IPv4 Addressing",
+    "difficulty": "Medium",
+    "question": "In the IPv4 addressing format, the number of networks allowed under Class C addresses is",
+    "options": [
+      "(A) 2^14",
+      "(B) 2^7",
+      "(C) 2^21",
+      "(D) 2^24"
+    ],
+    "answer": "(C) 2^21",
+    "a": 1.4,
+    "b": 0.2,
+    "source_chunk": 4,
+    "explanation": "IPv4 Class C addressing designates specific bit patterns to identify network and host portions, with the first three bits fixed as 110. For a Class C address, 24 bits are allocated for the network ID, but since the first three bits are fixed, 24 - 3 = 21 bits remain available for unique network identifiers. This allocation means that the number of distinct networks allowed under Class C addressing is 2 raised to the power of these 21 available bits."
+  },
+  {
+    "question_number": 23,
+    "type": "MCQ",
+    "subject": "Theory of Computation",
+    "topic": "Computability",
+    "subtopic": "Decidability / Halting Problem",
+    "difficulty": "Medium",
+    "question": "Which of the following problems are decidable?\n\n1) Does a given program ever produce an output?\n2) If _L_ is a context-free language, then, is _L_ also context-free?\n3) If _L_ is a regular language, then, is _L_ also regular?\n4) If _L_ is a recursive language, then, is _L_ also recursive?",
+    "options": [
+      "(A) 1, 2, 3, 4",
+      "(B) 1, 2",
+      "(C) 2, 3, 4",
+      "(D) 3, 4"
+    ],
+    "answer": "(C) 2, 3, 4",
+    "a": 1.5,
+    "b": 0.5,
+    "source_chunk": 4,
+    "explanation": "A problem is decidable if there exists a Turing machine that always halts and provides a yes/no answer for every input instance. Determining if a given program ever produces output is equivalent to the undecidable Halting Problem, whereas tautological statements like \"if L is a context-free language, then L is also context-free\" are trivially true and thus decidable. Consequently, problems 2, 3, and 4 are decidable because they are inherently true statements about language classifications, unlike the undecidable problem 1."
+  },
+  {
+    "question_number": 24,
+    "type": "MCQ",
+    "subject": "Theory of Computation",
+    "topic": "Finite Automata",
+    "subtopic": "Languages / Kleene Closure",
+    "difficulty": "Medium",
+    "question": "Given the language _L_ = { _ab, aa, baa_ }, which of the following strings are in _L_ [*] ?",
+    "options": [
+      "(A) 1, 2 and 3",
+      "(B) 2, 3 and 4",
+      "(C) 1, 2 and 4",
+      "(D) 1, 3 and 4"
+    ],
+    "answer": "(C) 1, 2 and 4",
+    "a": 1.35,
+    "b": 0.1,
+    "source_chunk": 4,
+    "explanation": "The Kleene closure L* of a language L includes all strings formed by concatenating zero or more strings from L, always containing the empty string \u03b5. For L = {ab, aa, baa}, string \"aaab\" is \"aa\" followed by \"ab\", \"baaabaa\" is \"baa\" followed by \"ab\" followed by \"baa\", and \"abab\" is \"ab\" followed by \"ab\", all formed by elements of L. String \"aaabbbaaa\" cannot be formed as \"bbb\" cannot be constructed from the given strings in L, thus confirming 1, 2, and 4 are in L*."
+  },
+  {
+    "question_number": 25,
+    "type": "MCQ",
+    "subject": "Databases",
+    "topic": "Transactions and Concurrency Control",
+    "subtopic": "Concurrency Control / Serializability",
+    "difficulty": "Hard",
+    "question": "Consider the following transactions with data items P and Q initialized to zero:\n**T1 :** `read (P);`\n```c\nread (Q);\nif P = 0 then Q := Q + 1 ;\nwrite (Q).\n```\n\n**T2** **:** `read (Q);`\n```c\nread (P);\nif Q = 0 then P := P + 1 ;\nwrite (P).\n```\n\nAny **non-serial** interleaving of **T1** and **T2** for concurrent execution leads to",
+    "options": [
+      "(A) a serializable schedule",
+      "(B) a schedule that is not conflict serializable",
+      "(C) a conflict serializable schedule",
+      "(D) a schedule for which a precedence graph cannot be drawn"
+    ],
+    "answer": "(B) a schedule that is not conflict serializable",
+    "a": 1.85,
+    "b": 1.2,
+    "source_chunk": 4,
+    "explanation": "Conflict serializability means a schedule is equivalent to some serial schedule in terms of the order of conflicting operations, ensuring consistent transaction results. The given transactions T1 and T2 can be interleaved in a non-serial manner, for instance, R1(P), R2(Q), W2(P), W1(Q), creating conflicting operations on P and Q. This specific interleaving results in a cycle T1 -> T2 -> T1 in the precedence graph due to read-write conflicts, thus producing a schedule that is not conflict serializable."
+  },
+  {
+    "question_number": 26,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Numerical Methods / Bisection Method",
+    "difficulty": "Medium",
+    "question": "The bisection method is applied to compute a zero of the function _f(x) =_ _x_ _[4]_ - _x_ [3] - _x_ [2] - 4 in the\ninterval [1,9]. The method converges to a solution after ----- iterations.",
+    "options": [
+      "(A) 1",
+      "(B) 3",
+      "(C) 5",
+      "(D) 7"
+    ],
+    "answer": "(B) 3",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 4,
+    "explanation": "The bisection method finds a root of a continuous function by repeatedly halving an interval where the function's sign changes. For f(x) = x^4 - x^3 - x^2 - 4 in [1,9], f(1) is negative and f(9) is positive. The process iteratively narrows to x=2, finding f(2)=0 in the third iteration, thereby indicating convergence after three steps."
+  },
+  {
+    "question_number": 27,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Graph Theory",
+    "subtopic": "Graph Algorithms / Minimum Spanning Trees",
+    "difficulty": "Medium",
+    "question": "Let G be a weighted graph with edge weights greater than one and G\u2032 be the graph constructed by\nsquaring the weights of edges in G. Let T and T\u2032 be the minimum spanning trees of G and G\u2032,\nrespectively, with total weights t and t\u2032 . Which of the following statements is **TRUE** ?",
+    "options": [
+      "(A) T\u2032 = T with total weight t\u2032 = t^2",
+      "(B) T\u2032 = T with total weight t\u2032 < t^2",
+      "(C) T\u2032 \u2260 T but total weight t\u2032 = t^2",
+      "(D) None of the above"
+    ],
+    "answer": "(B) T\u2032 = T with total weight t\u2032 < t^2",
+    "a": 1.7,
+    "b": 0.6,
+    "source_chunk": 4,
+    "explanation": "A Minimum Spanning Tree (MST) is formed by selecting edges with minimum relative weights to connect all graph vertices. Since all edge weights w_i > 1, squaring them preserves their relative order because f(x)=x^2 is strictly increasing for x>1. Therefore, the set of edges forming the MST remains identical (T' = T), but the total weight t' is strictly less than t^2."
+  },
+  {
+    "question_number": 28,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "CPU Scheduling / FCFS and Round Robin",
+    "difficulty": "Medium",
+    "question": "Consider the 3 processes, P1, P2 and P3 shown in the table.\n\n|Process|Arrival\ntime|Time Units\nRequired|\n|---|---|---|\n|P1|0|5|\n|P2|1|7|\n|P3|3|4|\n\nThe completion order of the 3 processes under the policies FCFS and RR2 (round robin scheduling\nwith CPU quantum of 2 time units) are",
+    "options": [
+      "(A) **FCFS:** P1, P2, P3 **RR2:** P1, P2, P3",
+      "(B) **FCFS:** P1, P3, P2 **RR2:** P1, P3, P2",
+      "(C) **FCFS:** P1, P2, P3 **RR2:** P1, P3, P2",
+      "(D) **FCFS:** P1, P3, P2 **RR2:** P1, P2, P3"
+    ],
+    "answer": "(C) **FCFS:** P1, P2, P3 **RR2:** P1, P3, P2",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 5,
+    "explanation": "FCFS (First-Come, First-Served) schedules processes by arrival time, while Round Robin (RR) with quantum 2 uses time-slicing for CPU allocation. FCFS processes P1, then P2, then P3 sequentially, yielding a P1, P2, P3 completion. RR2's interleaved execution completes P1 first, then P3, and finally P2, producing the order P1, P3, P2."
+  },
+  {
+    "question_number": 29,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Concurrency and Synchronization",
+    "subtopic": "Concurrency / Spinlocks",
+    "difficulty": "Medium",
+    "question": "`Fetch_And_Add(X,i)` is an atomic Read-Modify-Write instruction that reads the value of\nmemory location X, increments it by the value i, and returns the old value of X. It is used in the\npseudocode shown below to implement a busy-wait lock. L is an unsigned integer shared variable\ninitialized to 0. The value of 0 corresponds to lock being available, while any non-zero value\ncorresponds to the lock being not available.\n\n```c\nAcquireLock(L){\n    while (Fetch_And_Add(L,1))\n        L = 1;\n}\nReleaseLock(L){\n    L = 0;\n}\n```\n\nThis implementation",
+    "options": [
+      "(A) fails as L can overflow",
+      "(B) fails as L can take on a non-zero value when the lock is actually available",
+      "(C) works correctly but may starve some processes",
+      "(D) works correctly without starvation"
+    ],
+    "answer": "(C) works correctly but may starve some processes",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 5,
+    "explanation": "`Fetch_And_Add` is an atomic Read-Modify-Write operation used to implement this busy-wait lock. Mutual exclusion is guaranteed as a process only acquires the lock when `Fetch_And_Add(L,1)` returns 0, indicating availability. However, waiting processes continuously increment L, leading to unbounded values and potential starvation due to unfair access."
+  },
+  {
+    "question_number": 30,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Probability",
+    "subtopic": "Probability / Conditional Probability",
+    "difficulty": "Medium",
+    "question": "Suppose a fair six-sided die is rolled once. If the value on the die is 1, 2, or 3, the die is rolled a\nsecond time. What is the probability that the sum total of values that turn up is at least 6?",
+    "options": [
+      "(A) 10/21",
+      "(B) 5/12",
+      "(C) 2/3",
+      "(D) 1/6"
+    ],
+    "answer": "(B) 5/12",
+    "a": 1.4,
+    "b": 0.1,
+    "source_chunk": 5,
+    "explanation": "This problem calculates the probability of a sum of at least 6 from a fair six-sided die, with a second roll conditional on the first outcome. The total probability is derived by summing two disjoint events: (R1=6) and (R1 in {1,2,3} followed by R2 with R1+R2 >= 6). P(R1=6) is 1/6. The favorable outcomes for R1 in {1,2,3} contribute 9/36, summing to a total probability of 1/6 + 9/36 = 5/12."
+  },
+  {
+    "question_number": 31,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "IP Addressing / CIDR Subnetting",
+    "difficulty": "Medium",
+    "question": "An Internet Service Provider (ISP) has the following chunk of CIDR-based IP addresses available\nwith it: 245.248.128.0/20. The ISP wants to give half of this chunk of addresses to Organization A,\nand a quarter to Organization B, while retaining the remaining with itself. Which of the following is\na valid allocation of addresses to A and B?",
+    "options": [
+      "(A) 245.248.136.0/21 and 245.248.128.0/22",
+      "(B) 245.248.128.0/21 and 245.248.128.0/22",
+      "(C) 245.248.132.0/22 and 245.248.132.0/21",
+      "(D) 245.248.136.0/24 and 245.248.132.0/21"
+    ],
+    "answer": "(A) 245.248.136.0/21 and 245.248.128.0/22",
+    "a": 1.55,
+    "b": 0.35,
+    "source_chunk": 5,
+    "explanation": "CIDR address allocation divides an IP range into blocks where a /N prefix specifies 2^(32-N) addresses. Halving a block increases its prefix by one, while quartering increases it by two. An initial /20 block (4096 addresses) can be split into two /21 halves (2048 addresses each) or four /22 quarters (1024 addresses each). The given allocation provides a /21 block and a /22 block which are non-overlapping valid sub-blocks derived from the original /20 range."
+  },
+  {
+    "question_number": 32,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Advanced Graph Theory & Group Theory",
+    "subtopic": "Graph Theory / Cycles",
+    "difficulty": "Medium",
+    "question": "Let G be a complete undirected graph on 6 vertices. If vertices of G are labeled, then the number of\ndistinct cycles of length 4 in G is equal to",
+    "options": [
+      "(A) 15",
+      "(B) 30",
+      "(C) 90",
+      "(D) 360"
+    ],
+    "answer": "(C) 90",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "explanation": "A cycle of length k in a complete graph K_n consists of k distinct vertices connected in a closed path. To count distinct cycles, one first chooses k vertices from the n available vertices in C(n,k) ways. For each set of k chosen vertices, (k-1)! distinct cycles can be formed, considering sequences distinct but ignoring starting position for labeled vertices. Therefore, for K6 and cycles of length 4, the total number is C(6,4) * (4-1)! which equals 15 * 6 = 90."
+  },
+  {
+    "question_number": 33,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Sorting and Searching",
+    "subtopic": "Sorting / Merge Sort",
+    "difficulty": "Medium",
+    "question": "A list of n strings, each of length n, is sorted into lexicographic order using the merge-sort algorithm. The worst-case running time of this computation is",
+    "options": [
+      "(A) O(n log n)",
+      "(B) O(n^2 log n)",
+      "(C) O(n^2 + log n)",
+      "(D) O(n^2)"
+    ],
+    "answer": "(B) O(n^2 log n)",
+    "a": 1.4,
+    "b": 0.3,
+    "source_chunk": 6,
+    "explanation": "Merge sort, a comparison-based sorting algorithm, generally exhibits an O(N log N) time complexity for N items when comparisons take constant time. However, in this scenario, N is n, and each comparison between two strings of length n takes O(n) time in the worst case for lexicographic ordering. Therefore, the total worst-case running time is the product of O(n log n) comparisons and O(n) per comparison, yielding an overall complexity of O(n^2 log n)."
+  },
+  {
+    "question_number": 34,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Deadlocks",
+    "subtopic": "File Systems / File Allocation",
+    "difficulty": "Medium",
+    "question": "A file system with 300 GByte disk uses a file descriptor with 8 direct block addresses, 1 indirect\nblock address and 1 doubly indirect block address. The size of each disk block is 128 Bytes and the\nsize of each disk block address is 8 Bytes. The maximum possible file size in this file system is",
+    "options": [
+      "(A) 3 KBytes",
+      "(B) 35 KBytes",
+      "(C) 280 KBytes",
+      "(D) dependent on the size of the disk"
+    ],
+    "answer": "(B) 35 KBytes",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 6,
+    "explanation": "The maximum file size in a file system is determined by the addressing scheme used in its file descriptor, specifying how data blocks are located. This system utilizes 8 direct pointers, one single indirect pointer, and one doubly indirect pointer, each pointing to data blocks of 128 Bytes. A block can hold 16 block addresses. The total size is the sum of 8 direct blocks (1KB), 16 blocks from the indirect pointer (2KB), and 256 blocks from the doubly indirect pointer (32KB), yielding a maximum file size of 35 KBytes."
+  },
+  {
+    "question_number": 35,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Memory Management / Paging / Page Replacement Algorithms",
+    "difficulty": "Medium",
+    "question": "Consider the virtual page reference string\n1, 2, 3, 2, 4, 1, 3, 2, 4, 1\non a demand paged virtual memory system running on a computer system that has main memory\nsize of 3 page frames which are initially empty. Let LRU, FIFO and OPTIMAL denote the number\nof page faults under the corresponding page replacement policy. Then",
+    "options": [
+      "(A) OPTIMAL < LRU < FIFO",
+      "(B) OPTIMAL < FIFO < LRU",
+      "(C) OPTIMAL = LRU",
+      "(D) OPTIMAL = FIFO"
+    ],
+    "answer": "(B) OPTIMAL < FIFO < LRU",
+    "a": 1.7,
+    "b": 0.5,
+    "source_chunk": 6,
+    "explanation": "Page replacement algorithms like FIFO, LRU, and OPTIMAL manage memory frames to minimize page faults during virtual page references. Applying these policies to the given reference string {1, 2, 3, 2, 4, 1, 3, 2, 4, 1} with 3 frames yields 6 faults for FIFO, 8 for LRU, and 5 for OPTIMAL. OPTIMAL strategy minimizes page faults by replacing the page that will not be used for the longest time, which in this sequence results in fewer faults than both FIFO and LRU."
+  },
+  {
+    "question_number": 36,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Data Link Layer",
+    "subtopic": "Network Layers / Data Link Layer / Transmission Delay / Propagation Delay",
+    "difficulty": "Medium",
+    "question": "Consider a source computer (S) transmitting a file of size 10^6 bits to a destination computer (D)\nover a network of two routers (R1 and R2) and three links (L1, L2, and L3). L1 connects S to R1; L2\nconnects R1 to R2; and L3 connects R2 to D. Let each link be of length 100 km. Assume signals\ntravel over each link at a speed of 10^8 meters per second. Assume that the link bandwidth on each\nlink is 1Mbps. Let the file be broken down into 1000 packets each of size 1000 bits. Find the total\nsum of transmission and propagation delays in transmitting the file from S to D?",
+    "options": [
+      "(A) 1005 ms",
+      "(B) 1010 ms",
+      "(C) 3000 ms",
+      "(D) 3003 ms"
+    ],
+    "answer": "(A) 1005 ms",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 7,
+    "explanation": "The total end-to-end delay for a file transmitted via packet switching over a multi-hop network accounts for both transmission delay for placing data on a link and propagation delay for signal travel. For K packets across M links with store-and-forward routers, the total delay is given by M * (packet_transmission_delay + link_propagation_delay) + (K-1) * packet_transmission_delay. With 1000 packets, 3 links, 1 ms packet transmission delay (1000 bits / 1 Mbps), and 1 ms link propagation delay (100km / 10^8 m/s), the total delay is 3*(1+1) + (1000-1)*1 = 1005 ms."
+  },
+  {
+    "question_number": 37,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Transport Layer",
+    "subtopic": "Transport Layer / TCP Congestion Control (AIMD)",
+    "difficulty": "Medium",
+    "question": "Consider an instance of TCP's Additive Increase Multiplicative Decrease (AIMD) algorithm where\nthe window size at the start of the slow start phase is 2 MSS and the threshold at the start of the first\ntransmission is 8 MSS. Assume that a timeout occurs during the fifth transmission. Find the\ncongestion window size at the end of the tenth transmission.",
+    "options": [
+      "(A) 8 MSS",
+      "(B) 14 MSS",
+      "(C) 7 MSS",
+      "(D) 12 MSS"
+    ],
+    "answer": "(C) 7 MSS",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 7,
+    "explanation": "TCP's AIMD algorithm adjusts the congestion window (CWND) using slow start (doubles per RTT) and congestion avoidance (increments by one MSS). A timeout halves ssthresh (CWND/2) and resets CWND to 1 MSS, restarting slow start. From CWND=2, ssthresh=8, a 5th transmission timeout (CWND=10) sets ssthresh=5, CWND=1, leading to 7 MSS at the tenth transmission."
+  },
+  {
+    "question_number": 38,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Cache Memory / Address Translation",
+    "difficulty": "Medium",
+    "question": "The number of bits in the tag field of an address is",
+    "options": [
+      "(A) 11",
+      "(B) 14",
+      "(C) 16",
+      "(D) 27"
+    ],
+    "answer": "(C) 16",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 9,
+    "explanation": "The tag field in a cache address uniquely identifies a memory block within a cache set, calculated by subtracting block offset and set index bits from the total physical address bits. Using a 32-bit physical address, a 256 KB 4-way set associative cache, and 32 B blocks results in 5 bits for block offset and 11 bits for set index. The number of bits in the tag field is then determined as 32 - 11 - 5 = 16 bits."
+  },
+  {
+    "question_number": 39,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Cache Memory / Cache Design",
+    "difficulty": "Medium",
+    "question": "The size of the cache tag directory is",
+    "options": [
+      "(A) 160 Kbits",
+      "(B) 136 Kbits",
+      "(C) 40 Kbits",
+      "(D) 32 Kbits"
+    ],
+    "answer": "(A) 160 Kbits",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 9,
+    "explanation": "The cache tag directory stores tag and status bits for each cache line, enabling efficient identification of cached memory blocks during lookups. A 256 KB 4-way set associative cache with 32 B blocks comprises 8192 lines, each requiring storage for its 16-bit tag and additional status information. The given 160 Kbits total directory size implies each entry stores 20 bits (160 Kbits / 8192 lines), accommodating 16 tag bits and 4 status bits."
+  },
+  {
+    "question_number": 40,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Calculus / Maxima and Minima",
+    "difficulty": "Medium",
+    "question": "A political party orders an arch for the entrance to the ground in which the annual convention is\nbeing held. The profile of the arch follows the equation y = 2x - 0.1x\u00b2 where y is the height of the\narch in meters. The maximum possible height of the arch is",
+    "options": [
+      "(A) 8 meters",
+      "(B) 10 meters",
+      "(C) 12 meters",
+      "(D) 14 meters"
+    ],
+    "answer": "(B) 10 meters",
+    "a": 1.5,
+    "b": 0.1,
+    "source_chunk": 10,
+    "explanation": "The maximum height of a parabolic arch, described by y = f(x), is found by locating the vertex of the parabola using differential calculus principles. The method involves finding the critical point x by setting the first derivative dy/dx to zero, and then substituting this x back into the function. For y = 2x - 0.1x\u00b2, dy/dx = 2 - 0.2x. Setting 2 - 0.2x = 0 gives x=10, which yields the maximum height of 10 meters."
+  },
+  {
+    "question_number": 41,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Probability",
+    "subtopic": "Probability / Bayes' Theorem",
+    "difficulty": "Medium",
+    "question": "An automobile plant contracted to buy shock absorbers from two suppliers X and Y. X supplies\n60% and Y supplies 40% of the shock absorbers. All shock absorbers are subjected to a quality test.\nThe ones that pass the quality test are considered reliable. Of X's shock absorbers, 96% are reliable.\nOf Y's shock absorbers, 72% are reliable.\nThe probability that a randomly chosen shock absorber, which is found to be reliable, is made by Y\nis",
+    "options": [
+      "(A) 0.288",
+      "(B) 0.334",
+      "(C) 0.667",
+      "(D) 0.720"
+    ],
+    "answer": "(B) 0.334",
+    "a": 1.6,
+    "b": 0.3,
+    "source_chunk": 10,
+    "explanation": "This problem applies Bayes' Theorem to calculate the conditional probability of an event given prior evidence. Bayes' Theorem expresses P(A|B) as [P(B|A) * P(A)] / P(B), allowing us to update a hypothesis's probability with new information. We calculate the total probability of a reliable shock absorber using the law of total probability, and then apply Bayes' theorem to find P(Y | Reliable). The computation yields approximately 0.334, which is the required conditional probability."
+  },
+  {
+    "question_number": 42,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus & Probability",
+    "subtopic": "Statistics / Mean and Standard Deviation",
+    "difficulty": "Medium",
+    "question": "Which of the following assertions are **CORRECT** ?\nP: Adding 7 to each entry in a list adds 7 to the mean of the list\nQ: Adding 7 to each entry in a list adds 7 to the standard deviation of the list\nR: Doubling each entry in a list doubles the mean of the list\nS: Doubling each entry in a list leaves the standard deviation of the list unchanged",
+    "options": [
+      "(A) P, Q",
+      "(B) Q, R",
+      "(C) P, R",
+      "(D) R, S"
+    ],
+    "answer": "(C) P, R",
+    "a": 1.4,
+    "b": 0.0,
+    "source_chunk": 10,
+    "explanation": "This question assesses the properties of statistical measures, specifically how the mean and standard deviation of a dataset transform under linear operations. The mean, a measure of central tendency, shifts by a constant added to each element and scales by a constant factor applied to each element. Conversely, the standard deviation, which measures dispersion, remains unchanged by adding a constant but scales proportionally when elements are multiplied by a constant. Assertions P and R accurately reflect these transformation rules for the mean."
+  },
+  {
+    "question_number": 43,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Logic",
+    "subtopic": "Logical Reasoning / Pattern Recognition",
+    "difficulty": "Easy",
+    "question": "Given the sequence of terms, AD CG FK JP, the next term is",
+    "options": [
+      "(A) OV",
+      "(B) OW",
+      "(C) PV",
+      "(D) PW"
+    ],
+    "answer": "(A) OV",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 10,
+    "explanation": "This question tests the ability to identify and extrapolate an additive pattern within an alphanumeric sequence. The pattern for the first letter in each pair involves increasing increments of alphabetical positions: +2, +3, +4, suggesting the next increment is +5. Similarly, the second letters follow increments of +3, +4, +5, indicating the next increment is +6. Applying these sequential differences to the current last letters J and P correctly predicts the next term as OV."
+  }
+]

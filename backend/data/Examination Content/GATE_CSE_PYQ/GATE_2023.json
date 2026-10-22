@@ -1,0 +1,623 @@
+[
+  {
+    "question_number": 1,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Advanced Topics",
+    "subtopic": "Linear Recurrence Relations",
+    "difficulty": "Medium",
+    "question": "A series of natural numbers F_1, F_2, F_3, F_4, F_5, F_6, F_7,\u2026\u2026. obeys F_{n+1} = F_n + F_{n-1} for all integers n >= 2. If F_6 = 37, and F_7 = 60, then what is F_1 ?",
+    "options": [
+      "(A) 4",
+      "(B) 8",
+      "(C) 5",
+      "(D) 9"
+    ],
+    "answer": "(A) 4",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 1,
+    "explanation": "This problem involves a linear recurrence relation, where each term F_{n+1} is the sum of the two preceding terms, F_n and F_{n-1}. To find F_1, one must reverse the recurrence relation to F_{n-1} = F_{n+1} - F_n and iteratively compute terms backward from F_7 and F_6. Applying this, F_5 = 23, F_4 = 14, F_3 = 9, F_2 = 5, and consequently F_1 is found to be 4."
+  },
+  {
+    "question_number": 2,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Functions and Limits",
+    "difficulty": "Medium",
+    "question": "Consider two functions of time (t), \nf(t) = t^2 / 0.01 and g(t) = 4/t.\nWhere 0 < t < infinity.\n Now consider the following two statements: \n(i) For some t > 0, g(t) > f(t) \n(ii) There exists a T, such that f(t) > g(t) for all t > T.\n Which one of the following options are TRUE?",
+    "options": [
+      "(A) only (ii) is correct",
+      "(B) both (i) and (ii) are correct",
+      "(C) neither (i) nor (ii) is correct",
+      "(D) only (i) is correct"
+    ],
+    "answer": "(B) both (i) and (ii) are correct",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 2,
+    "explanation": "This problem evaluates the relative growth rates of functions f(t) = t^2 / 0.01 and g(t) = 4/t. Statement (i) asserts g(t) > f(t) for some t, which is true because for very small positive t (e.g., t=0.1), g(t) dominates f(t) as t^3 < 0.04 holds. Statement (ii) asserts f(t) > g(t) for all t > T for some T, which is also true since t^3 > 0.04 holds for all t greater than the cube root of 0.04, signifying eventual quadratic dominance."
+  },
+  {
+    "question_number": 3,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Set Theory & Relations",
+    "subtopic": "Functions",
+    "difficulty": "Easy",
+    "question": "f(x) and g(y) are functions of x and y, respectively, and f(x) = g(y) for all real values of x and y. Which one of the following options is necessarily TRUE for all x and y?",
+    "options": [
+      "(A) f(x) = 0 and g(y) = 0",
+      "(B) f(x) = g(y) = constant",
+      "(C) f(x) != constant and g(y) != constant",
+      "(D) f(x) + g(y) = f(x) - g(y)"
+    ],
+    "answer": "(B) f(x) = g(y) = constant",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 2,
+    "explanation": "This question explores the properties of functions of independent variables when their values are universally equal. If f(x) = g(y) for all real x and y, it implies that neither f(x) can vary with x, nor can g(y) vary with y, because any change in x would necessitate a change in g(y) to maintain equality, which is impossible as g(y) is independent of x. Therefore, the only way for the equality to hold across all independent variable combinations is if both f(x) and g(y) are equal to the same constant value."
+  },
+  {
+    "question_number": 4,
+    "type": "MCQ",
+    "subject": "Compiler Design",
+    "topic": "Lexical Analysis",
+    "subtopic": "Compiler Front-End vs Back-End Architecture",
+    "difficulty": "Medium",
+    "question": "Consider the following statements regarding the front-end and back-end of a compiler. S1: The front-end includes phases that are independent of the target hardware. S2: The back-end includes phases that are specific to the target hardware. S3: The back-end includes phases that are specific to the programming language used in the source code. Identify the CORRECT option",
+    "options": [
+      "(A) Only S1 is TRUE.",
+      "(B) Only S1 and S2 are TRUE",
+      "(C) S1, S2, and S3 are all TRUE",
+      "(D) Only S1 and S3 are TRUE"
+    ],
+    "answer": "(B) Only S1 and S2 are TRUE",
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 2,
+    "explanation": "This question concerns the modular design principles of a compiler's front-end and back-end architecture. The front-end phases, like lexical analysis and parsing, are primarily concerned with the source programming language and generate an intermediate representation, making them target hardware independent (S1 is TRUE). The back-end phases, including code optimization and generation, transform the intermediate representation into target machine code, making them specific to the target hardware (S2 is TRUE). Language-specific phases are exclusively part of the front-end, not the back-end (S3 is FALSE)."
+  },
+  {
+    "question_number": 5,
+    "type": "MCQ",
+    "subject": "Data Structures",
+    "topic": "Trees & Heaps",
+    "subtopic": "Max-heap property",
+    "difficulty": "Medium",
+    "question": "Which one of the following sequences when stored in an array at locations A^1,...,A^10 forms a max-heap ?",
+    "options": [
+      "(A) 23, 17, 10, 6, 13, 14, 1, 5, 7, 12",
+      "(B) 23, 17, 14, 7, 13, 10, 1, 5, 6, 12",
+      "(C) 23, 17, 14, 6, 13, 10, 1, 5, 7, 15",
+      "(D) 23, 14, 17, 1, 10, 13, 16, 12, 7, 5"
+    ],
+    "answer": "(B) 23, 17, 14, 7, 13, 10, 1, 5, 6, 12",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 3,
+    "explanation": "This problem requires identifying a sequence that satisfies the max-heap property when stored in an array. A max-heap is a complete binary tree where every parent node's value is greater than or equal to its children's values. For an array A where A[i] is the parent, its children are at A[2i] and A[2i+1]; therefore, the condition A[i] >= A[2i] and A[i] >= A[2i+1] must hold for all parents. Checking the options reveals that only the sequence 23, 17, 14, 7, 13, 10, 1, 5, 6, 12 consistently adheres to this fundamental property."
+  },
+  {
+    "question_number": 6,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Mixed Problem Solving",
+    "subtopic": "Time Complexity",
+    "difficulty": "Medium",
+    "question": "Let SLLdel be a function that deletes a node in a singly-linked list given a pointer to the node and a pointer to the head of the list. Similarly, let DLLdel be another function that deletes a node in a doubly-linked list given a pointer to the node and a pointer to the head of the list. Let n denote the number of nodes in each of the linked lists. Which one of the following choices is TRUE about the worst-case time complexity of SLLdel and DLLdel ?",
+    "options": [
+      "(A) SLLdel is O(1) and DLLdel is O(n)",
+      "(B) Both SLLdel and DLLdel are O(log(n))",
+      "(C) Both SLLdel and DLLdel are O(1)",
+      "(D) SLLdel is O(n) and DLLdel is O(1)"
+    ],
+    "answer": "(D) SLLdel is O(n) and DLLdel is O(1)",
+    "a": 1.4,
+    "b": 0.0,
+    "source_chunk": 3,
+    "explanation": "Deleting a node in a linked list typically requires updating the next pointer of its predecessor. For a singly linked list, locating the predecessor of a given node necessitates a traversal from the head, resulting in O(n) worst-case time. In contrast, a doubly linked list provides a prev pointer for direct access to the predecessor. Thus, SLLdel has O(n) complexity due to the scan, whereas DLLdel achieves O(1) complexity because its predecessor is immediately available."
+  },
+  {
+    "question_number": 7,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis",
+    "subtopic": "Recurrence Relations",
+    "difficulty": "Medium",
+    "question": "The Lucas sequence Ln is defined by the recurrence relation : Ln = Ln \u22121 + Ln \u2212 2, for n \u2265 3, with L1 = 1 and L2 = 3. Which one of the options given is TRUE?",
+    "options": [
+      "(A) Ln = ((1+sqrt(5))/2)^n + ((1-sqrt(5))/2)^n",
+      "(B) Ln = ((1+sqrt(5))/2)^n - ((1-sqrt(5))/3)^n",
+      "(C) Ln = ((1+sqrt(5))/2)^n + ((1-sqrt(5))/3)^n",
+      "(D) Ln = ((1+sqrt(5))/2)^n - ((1-sqrt(5))/2)^n"
+    ],
+    "answer": "(A) Ln = ((1+sqrt(5))/2)^n + ((1-sqrt(5))/2)^n",
+    "a": 1.3,
+    "b": 0.5,
+    "source_chunk": 3,
+    "explanation": "The Lucas sequence is defined by a linear homogeneous recurrence relation Ln = Ln-1 + Ln-2, which can be solved using its characteristic equation. The characteristic equation r\u00b2 - r - 1 = 0 has roots \u03c6 = (1+\u221a5)/2 and \u03c8 = (1-\u221a5)/2, leading to a general closed form Ln = A\u03c6^n + B\u03c8^n. Using the initial conditions L1=1 and L2=3 to solve for A and B yields A=1 and B=1, thus producing the final expression."
+  },
+  {
+    "question_number": 8,
+    "type": "MCQ",
+    "subject": "Databases",
+    "topic": "ER Model & Relational Model",
+    "subtopic": "Relational Model Concepts",
+    "difficulty": "Easy",
+    "question": "Which one of the options given below refers to the degree (or arity) of a relation in relational database systems?",
+    "options": [
+      "(A) Number of attributes of its relation schema.",
+      "(B) Number of tuples stored in the relation.",
+      "(C) Number of entries in the relation.",
+      "(D) Number of distinct domains of its relation schema."
+    ],
+    "answer": "(A) Number of attributes of its relation schema.",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 4,
+    "explanation": "In relational database systems, the degree or arity of a relation defines the number of attributes (columns) present in its relation schema. This fundamental property dictates the structure and number of distinct fields that each tuple within the relation must contain. Consequently, the degree of a relation is directly determined by counting the attributes in its schema, reflecting its dimensionality."
+  },
+  {
+    "question_number": 9,
+    "type": "MCQ",
+    "subject": "Computer Networks",
+    "topic": "Data Link Layer",
+    "subtopic": "Flow and Error Control",
+    "difficulty": "Medium",
+    "question": "Suppose two hosts are connected by a point-to-point link and they are configured to use Stop-and-Wait protocol for reliable data transfer. Identify in which one of the following scenarios, the utilization of the link is the lowest.",
+    "options": [
+      "(A) Longer link length and lower transmission rate",
+      "(B) Longer link length and higher transmission rate",
+      "(C) Shorter link length and lower transmission rate",
+      "(D) Shorter link length and higher transmission rate"
+    ],
+    "answer": "(B) Longer link length and higher transmission rate",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 4,
+    "explanation": "The Stop-and-Wait protocol's link utilization depends on the ratio of data transmission time (Tt) to the total round-trip time (RTT), including propagation delay (Tp). Utilization is calculated as Tt / (Tt + 2 * Tp); a longer link increases Tp, and a higher transmission rate reduces Tt for a given packet size. Therefore, longer link length (high Tp) combined with higher transmission rate (low Tt) maximizes the idle time, resulting in the lowest link utilization for Stop-and-Wait."
+  },
+  {
+    "question_number": 10,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Determinants",
+    "difficulty": "Medium",
+    "question": "Let A = [[1,2,3,4],[4,1,2,3],[3,4,1,2],[2,3,4,1]] and B = [[3,4,1,2],[4,1,2,3],[1,2,3,4],[2,3,4,1]]. Let det(A) and det(B) denote the determinants of the matrices A and B, respectively. Which one of the options given below is TRUE?",
+    "options": [
+      "(A) det(A)=det(B)",
+      "(B) det(B)=\u2212det(A)",
+      "(C) det(A)=0",
+      "(D) det(AB)=det(A)+det(B"
+    ],
+    "answer": "(B) det(B)=\u2212det(A)",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 4,
+    "explanation": "The determinant of a matrix changes sign when two rows are swapped, and the sign flips cumulatively for multiple swaps. Matrix B is obtained from Matrix A by performing a single row swap: interchanging row 1 and row 3 of matrix A. A single row swap changes the sign of the determinant, establishing that det(B) = -det(A)."
+  },
+  {
+    "question_number": 11,
+    "type": "MSQ",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "CPU Scheduling",
+    "difficulty": "Medium",
+    "question": "Which one or more of the following CPU scheduling algorithms can potentially cause starvation?",
+    "options": [
+      "(A) First-in First-Out",
+      "(B) Round Robin",
+      "(C) Priority Scheduling",
+      "(D) Shortest Job First"
+    ],
+    "answer": [
+      "(A) First-in First-Out",
+      "(C) Priority Scheduling",
+      "(D) Shortest Job First"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "explanation": "Starvation in CPU scheduling is when a process is indefinitely prevented from running, despite being ready, because the scheduler continually selects other processes. First-in First-Out, Priority Scheduling, and Shortest Job First can cause starvation by continuously favoring certain processes based on their criteria. These algorithms lack mechanisms like aging or time-slicing to guarantee every process eventual CPU access, thus leading to potential indefinite waiting."
+  },
+  {
+    "question_number": 12,
+    "type": "MSQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Local Maxima and Minima",
+    "difficulty": "Medium",
+    "question": "Let f(x) = x^3 + 15x^2 - 33x - 36 be a real-valued function. Which of the following statements is/are TRUE?",
+    "options": [
+      "(A) f(x) does not have a local maximum.",
+      "(B) f(x) has a local maximum.",
+      "(C) f(x) does not have a local minimum.",
+      "(D) f(x) has a local minimum"
+    ],
+    "answer": [
+      "(B) f(x) has a local maximum.",
+      "(D) f(x) has a local minimum"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "explanation": "Local extrema (maxima and minima) for a differentiable function occur at critical points where its first derivative is zero. For f(x), f'(x) = 3x^2 + 30x - 33. Setting it to zero yields critical points x = -11 and x = 1. The second derivative test shows f''(-11) < 0 (local maximum) and f''(1) > 0 (local minimum), confirming both exist."
+  },
+  {
+    "question_number": 13,
+    "type": "MSQ",
+    "subject": "Algorithms",
+    "topic": "Analysis of Algorithms",
+    "subtopic": "Asymptotic Notations",
+    "difficulty": "Medium",
+    "question": "Let f and g be functions of natural numbers given by f(n) = n and g(n) = n^2. Which of the following statements is/are TRUE?",
+    "options": [
+      "(A) f \u2208 O(g)",
+      "(B) f \u2208 \u03a9(g)",
+      "(C) f \u2208 o(g)",
+      "(D) f \u2208 \u0398(g)"
+    ],
+    "answer": [
+      "(A) f \u2208 O(g)",
+      "(C) f \u2208 o(g)"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 6,
+    "explanation": "Asymptotic notations (O, \u03a9, o, \u0398) compare the growth rates of functions as their input approaches infinity. For f(n) = n and g(n) = n^2, the ratio f(n)/g(n) = 1/n, which approaches 0 as n tends to infinity. Since the limit is 0, f(n) grows strictly slower than g(n), implying f \u2208 o(g) and consequently f \u2208 O(g)."
+  },
+  {
+    "question_number": 14,
+    "type": "NAT",
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Definite Integral",
+    "difficulty": "Medium",
+    "question": "The value of the definite integral \u222b\u222b\u222b from -1 to 1, -2 to 2, -3 to 3 (4xy - z^3) dz dy dx is________. (Rounded off to the nearest integer)",
+    "answer": "0",
+    "a": 1.4,
+    "b": 0.0,
+    "source_chunk": 7,
+    "explanation": "The integral of an odd function over a symmetric interval centered at zero is zero. The given integrand (4xy - z^3) is integrated over symmetric intervals for x, y, and z. Integrating -z^3 over z is zero. Integrating 4xy with respect to y over its symmetric interval is also zero, thus the total integral is 0."
+  },
+  {
+    "question_number": 15,
+    "type": "NAT",
+    "subject": "Digital Logic",
+    "topic": "Number Representation",
+    "subtopic": "Radix Conversion",
+    "difficulty": "Easy",
+    "question": "A particular number is written as 132 in radix-4 representation. The same number in radix-5 representation is_________.",
+    "answer": "110",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 7,
+    "explanation": "Radix conversion transforms a number's representation from one base to another, typically through a base-10 intermediate. The number 132 (base-4) evaluates to (1*16) + (3*4) + (2*1), which equals 30 in base-10. Converting 30 (base-10) to radix-5 involves repeated division, resulting in remainders 0, 1, 1, thus forming 110."
+  },
+  {
+    "question_number": 16,
+    "type": "NAT",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Pipelining",
+    "subtopic": "Pipeline Execution Time Calculation",
+    "difficulty": "Medium",
+    "question": "Consider a 3-stage pipelined processor having a delay of 10 ns (nanoseconds), 20 ns, and 14 ns, for the first, second, and the third stages, respectively. Assume that there is no other delay and the processor does not suffer from any pipeline hazards. Also assume that one instruction is fetched every cycle. The total execution time for executing 100 instructions on this processor is ________ ns.",
+    "answer": "2040",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 7,
+    "explanation": "The total execution time for a k-stage pipelined processor without hazards is determined by the pipeline's clock cycle time and the number of instructions. The clock cycle is limited by the maximum delay of any stage. Here, the maximum stage delay is 20 ns, which becomes the clock cycle. For 100 instructions in a 3-stage pipeline, the total execution time is (3 + 100 - 1) cycles multiplied by the clock cycle time. Calculating (102 cycles * 20 ns/cycle) yields 2040 ns, which is the total time for all instructions to complete using the optimal pipeline throughput."
+  },
+  {
+    "question_number": 18,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Static Variables",
+    "difficulty": "Medium",
+    "question": "The integer value printed by the ANSI-C program given below is _______.\n\n```c\n#include<stdio.h>\nint funcp(){\n    static int x = 1;\n    x++;\n    return x;\n}\nint main(){\n    int x,y;\n    x = funcp();\n    y = funcp()+x;\n    printf(\"%d\\n\", (x+y));\n    return 0;\n}\n```",
+    "answer": "7",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 7,
+    "explanation": "This program evaluates C `static` variable behavior: variables within a function retain values across calls and initialize once. `funcp` increments its static `x`. First, `main`'s `x` becomes 2. Next, `funcp` returns 3, which added to `main`'s `x` (2) sets `main`'s `y` to 5. The final `printf` of `(x+y)` evaluates to `(2+5)`, printing 7."
+  },
+  {
+    "question_number": 19,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Concurrency and Synchronization",
+    "subtopic": "Concurrency and Synchronization",
+    "difficulty": "Medium",
+    "question": "Consider the two functions incr and decr shown below. incr(){ wait(s); X = X+1; signal(s); } decr(){ wait(s); X = X-1; signal(s); } There are 5 threads each invoking incr once, and 3 threads each invoking decr once, on the same shared variable X. The initial value of X is 10. Suppose there are two implementations of the semaphore s, as follows: I-1: s is a binary semaphore initialized to 1. I-2: s is a counting semaphore initialized to 2. Let V1, V2 be the values of X at the end of execution of all the threads with implementations I-1, I-2, respectively. Which one of the following choices corresponds to the minimum possible values of V1, V2, respectively?",
+    "options": [
+      "(A) 15, 7",
+      "(B) 7, 7",
+      "(C) 12, 7",
+      "(D) 12, 8"
+    ],
+    "answer": "(C) 12, 7",
+    "a": 1.5,
+    "b": 0.5,
+    "source_chunk": 8,
+    "explanation": "This problem tests semaphore behavior for concurrent access, distinguishing binary (mutual exclusion) from counting (controlled concurrency) semaphores. For I-1 (binary semaphore, init 1), operations serialize, guaranteeing atomic updates. For I-2 (counting semaphore, init 2), two threads concurrently update `X`, risking lost updates. V1 calculates to `10 + 5 - 3 = 12`. The minimum V2 is 7, reflecting an interleaving where increments are largely overridden."
+  },
+  {
+    "question_number": 20,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Instruction Set Architecture",
+    "subtopic": "Assembly Language and Addressing Modes",
+    "difficulty": "Medium",
+    "question": "Consider the given C-code and its corresponding assembly code, with a few operands U1-U4 being unknown. Some useful information as well as the semantics of each unique assembly instruction is annotated as inline comments in the code. The memory is byte-addressable.\n\n//C-code\nint a^10, b^10, i;\n// int is 32-bit\n\n```c\nfor (i=0; i<10; i++)\n    a[i] = b[i] * 8;\n```\n\n;assembly-code (; indicates comments)\n;r1-r5 are 32-bit integer registers\n;initialize r1=0, r2=10\n;initialize r3, r4 with base address of a, b\nL01: jeq r1, r2, end ;if(r1==r2) goto end\nL02: lw r5, 0(r4) ;r5 <- Memory[r4+0]\nL03: shl r5, r5, U1 ;r5 <- r5 << U1\nL04: sw r5, 0(r3) ;Memory[r3+0] <- r5\nL05: add r3, r3, U2 ;r3 <- r3+U2\nL06: add r4, r4, U3\nL07: add r1, r1, 1\nL08: jmp U4 ;goto U4\nL09: end\n\nWhich one of the following options is a CORRECT replacement for operands in the position (U1, U2, U3, U4) in the above assembly code?",
+    "options": [
+      "(A) (8, 4, 1, L02)",
+      "(B) (3, 4, 4, L01)",
+      "(C) (8, 1, 1, L02)",
+      "(D) (3, 1, 1, L01)"
+    ],
+    "answer": "(B) (3, 4, 4, L01)",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 9,
+    "explanation": "This problem translates C array operations and multiplication to assembly, examining array indexing and loop control. `a[i] = b[i] * 8` translates to loading `b[i]`, left-shifting by 3 (`*8`), then storing to `a[i]`. Array pointers increment by `sizeof(int)` for each element. Hence, `U1` is 3, `U2` and `U3` are 4 (for 32-bit int), and `U4` is `L01` for loop re-entry."
+  },
+  {
+    "question_number": 21,
+    "type": "MCQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Data Representation",
+    "subtopic": "IEEE 754 Floating Point Representation",
+    "difficulty": "Hard",
+    "question": "Consider the IEEE-754 single precision floating point numbers P=0xC1800000 and Q=0x3F5C2EF4. Which one of the following corresponds to the product of these numbers (i.e., P \u00d7 Q), represented in the IEEE-754 single precision format?",
+    "options": [
+      "(A) 0x404C2EF4",
+      "(B) 0x405C2EF4",
+      "(C) 0xC15C2EF4",
+      "(D) 0xC14C2EF4"
+    ],
+    "answer": "(C) 0xC15C2EF4",
+    "a": 2.0,
+    "b": 1.5,
+    "source_chunk": 10,
+    "explanation": "IEEE-754 single precision floating-point numbers use a sign bit, an 8-bit biased exponent, and a 23-bit fractional mantissa for normalized representation. Floating-point multiplication involves XORing signs, adding true exponents, and multiplying mantissas, then normalizing and adjusting the result's biased exponent. For P=0xC1800000 (-16.0) and Q=0x3F5C2EF4 (0.735...), the negative product has a true exponent of 3, leading to the representation 0xC15C2EF4."
+  },
+  {
+    "question_number": 22,
+    "type": "MCQ",
+    "subject": "Data Structures",
+    "topic": "Trees & Heaps",
+    "subtopic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "Let A be a priority queue for maintaining a set of elements. Suppose A is implemented using a max-heap data structure. The operation Extract-Max(A) extracts and deletes the maximum element from A. The operation Insert(A, key) inserts a new element key in A. The properties of a max-heap are preserved at the end of each of these operations.\n\nWhen A contains n elements, which one of the following statements about the worst case running time of these two operations is TRUE?",
+    "options": [
+      "(A) Both Extract-Max(A) and Insert(A, key) run in O(l).",
+      "(B) Both Extract-Max(A) and Insert(A, key) run in O(log(n)).",
+      "(C) Extract-Max(A) runs in O(l) whereas Insert(A, key) runs in O(n).",
+      "(D) Extract-Max(A) runs in O(l) whereas Insert(A, key) runs in O(log(n))."
+    ],
+    "answer": "(B) Both Extract-Max(A) and Insert(A, key) run in O(log(n)).",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 11,
+    "explanation": "A max-heap is a complete binary tree where each node's value is greater than or equal to its children's, preserving the max-heap property. Extract-Max removes the root and re-heapifies downwards, while Insert adds an element and re-heapifies upwards, both involving path traversals. The height of a heap with 'n' elements is O(log n), thus the worst-case running time for both these operations is O(log n)."
+  },
+  {
+    "question_number": 23,
+    "type": "MSQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Set Theory & Relations",
+    "subtopic": "Functions and Relations",
+    "difficulty": "Hard",
+    "question": "Let f : A \u2192 B be an onto (or surjective) function, where A and B are nonempty sets. Define an equivalence relation \u223c on the set A as\n a1 \u223c a2 if f(a1) = f(a2), \nWhere a1, a2 \u2208 A. Let E = {[x] : x \u2208 A} be the set of all the equivalence classes under \u223c. Define a new mapping F : E \u2192 B as \nF([x]) = f(x), for all the equivalence classes [x] in E. Which of the following statements is/are TRUE?",
+    "options": [
+      "(A) F is NOT well-defined.",
+      "(B) F is an onto (or surjective) function.",
+      "(C) F is a one-to-one (or injective) function.",
+      "(D) F is a bijective function."
+    ],
+    "answer": [
+      "(B) F is an onto (or surjective) function.",
+      "(C) F is a one-to-one (or injective) function.",
+      "(D) F is a bijective function."
+    ],
+    "a": 1.8,
+    "b": 0.8,
+    "source_chunk": 11,
+    "explanation": "An equivalence relation a1 ~ a2 if f(a1) = f(a2) partitions A into classes where members map to the same image under function f. F([x]) = f(x) is well-defined because [x1]=[x2] means f(x1)=f(x2); it is injective, as F([x1])=F([x2]) implies [x1]=[x2]. Since f is surjective, F is also surjective onto B. Thus, F is a bijective function, mapping classes to unique elements."
+  },
+  {
+    "question_number": 24,
+    "type": "MSQ",
+    "subject": "Computer Networks",
+    "topic": "Transport Layer",
+    "subtopic": "TCP Congestion Control",
+    "difficulty": "Medium",
+    "question": "Suppose you are asked to design a new reliable byte-stream transport protocol like TCP. This protocol, named myTCP, runs over a 100 Mbps network with Round Trip Time of 150 milliseconds and the maximum segment lifetime of 2 minutes. Which of the following is/are valid lengths of the Sequence Number field in the myTCP header?",
+    "options": [
+      "(A) 30 bits",
+      "(B) 32 bits",
+      "(C) 34 bits",
+      "(D) 36 bit"
+    ],
+    "answer": [
+      "(B) 32 bits",
+      "(C) 34 bits",
+      "(D) 36 bit"
+    ],
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 12,
+    "explanation": "A reliable transport protocol requires its sequence numbers to not wrap around within the Maximum Segment Lifetime (MSL) to avoid ambiguity. A 100 Mbps network transmits 1.5 \u00d7 10^9 bytes over a 2-minute MSL (100 * 10^6 * 120 / 8). Therefore, the sequence number field must be at least \u2308log2(1.5 \u00d7 10^9)\u2309 = 31 bits, hence 32, 34, and 36 bits are valid."
+  },
+  {
+    "question_number": 25,
+    "type": "MSQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Advanced Graph Theory & Group Theory",
+    "subtopic": "Set theory and Algebra",
+    "difficulty": "Medium",
+    "question": "Let X be a set and 2^X denote the powerset of X. Define a binary operation \u0394 on 2^X as follows : A \u0394 B = (A - B) \u222a (B - A). Let H = (2^X, \u0394). Which of the following statements about H is/are correct?",
+    "options": [
+      "(A) H is a group.",
+      "(B) Every element in H has an inverse, but H is NOT a group.",
+      "(C) For every A \u2208 2^X, the inverse of A is the complement of A.",
+      "(D) For every A \u2208 2^X, the inverse of A is A."
+    ],
+    "answer": [
+      "(A) H is a group.",
+      "(D) For every A \u2208 2^X, the inverse of A is A."
+    ],
+    "a": 1.6,
+    "b": 0.3,
+    "source_chunk": 12,
+    "explanation": "A set with a binary operation forms a group if it satisfies closure, associativity, identity, and inverse properties. For the symmetric difference A \u0394 B on the power set 2^X, closure and associativity hold, the empty set (\u2205) is the identity element. Crucially, every element A acts as its own inverse (A \u0394 A = \u2205), thus satisfying all group axioms and making (2^X, \u0394) a group."
+  },
+  {
+    "question_number": 26,
+    "type": "MSQ",
+    "subject": "Computer Networks",
+    "topic": "Application Layer",
+    "subtopic": "HTTP and DNS",
+    "difficulty": "Hard",
+    "question": "Suppose in a web browser, you click on the www.gate-2023.in URL. The browser cache is empty. The IP address for this URL is not cached in your local host, so a DNS lookup is triggered (by the local DNS server deployed on your local host) over the 3-tier DNS hierarchy in an iterative mode. No resource records are cached anywhere across all DNS servers. Let RTT denote the round trip time between your local host and DNS servers in the DNS hierarchy. The round trip time between the local host and the web server hosting www.gate-2023.in is also equal to RTT. The HTML file associated with the URL is small enough to have negligible transmission time and negligible rendering time by your web browser, which references 10 equally small objects on the same web server. Which of the following statements is/are CORRECT about the minimum elapsed time between clicking on the URL and your browser fully rendering it?",
+    "options": [
+      "(A) 7 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.",
+      "(B) 5 RTTs, in case of persistent HTTP with pipelining.",
+      "(C) 9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.",
+      "(D) 6 RTTs, in case of persistent HTTP with pipelining."
+    ],
+    "answer": [
+      "(C) 9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.",
+      "(D) 6 RTTs, in case of persistent HTTP with pipelining."
+    ],
+    "a": 2.0,
+    "b": 1.5,
+    "source_chunk": 12,
+    "explanation": "Web page load time involves DNS resolution, TCP connection, and HTTP object fetching. A 3-tier iterative DNS lookup without caching requires three Round Trip Times (RTTs). Base HTML transfer adds two RTTs (TCP connection and data); non-persistent HTTP with 5 parallel connections needs two additional 2-RTT cycles. This totals 9 RTTs. Persistent HTTP with pipelining fetches all 10 objects in one RTT after HTML, leading to 6 RTTs."
+  },
+  {
+    "question_number": 27,
+    "type": "MSQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Probability",
+    "subtopic": "Independent Events",
+    "difficulty": "Easy",
+    "question": "Consider a random experiment where two fair coins are tossed. Let A be the event that denotes HEAD on both the throws, B be the event that denotes HEAD on the first throw, and C be the event that denotes HEAD on the second throw. Which of the following statements is/are TRUE?",
+    "options": [
+      "(A) A and B are independent.",
+      "(B) A and C are independent.",
+      "(C) B and C are independent.",
+      "(D) Prob(B|C) = Prob(B)"
+    ],
+    "answer": [
+      "(C) B and C are independent.",
+      "(D) Prob(B|C) = Prob(B)"
+    ],
+    "a": 1.0,
+    "b": -0.8,
+    "source_chunk": 12,
+    "explanation": "This problem tests event independence, where P(E1 \u2229 E2) = P(E1)P(E2) must hold. Two fair coin tosses yield four equally likely outcomes, each with probability 1/4. Event B (HEAD on first) and C (HEAD on second) have P(B)=1/2, P(C)=1/2. Their intersection A (HEAD on both) has P(A)=1/4. Since P(A) = P(B)P(C), B and C are independent; this implies Prob(B|C) = Prob(B)."
+  },
+  {
+    "question_number": 28,
+    "type": "NAT",
+    "subject": "Discrete Mathematics",
+    "topic": "Set Theory & Relations",
+    "subtopic": "BFS",
+    "difficulty": "Hard",
+    "question": "Let U = {1,2,3}. Let 2^U denote the powerset of U. Consider an undirected graph G whose vertex set is 2^U. For any A, B \u2208 2^U, (A,B) is an edge in G if and only if (i) A \u2260 B, and (ii) either A \u228a B or B \u228a A. For any vertex A in G, the set of all possible orderings in which the vertices of G can be visited in a Breadth First Search (BFS) starting from A is denoted by B(A).\n\nIf \u2205 denotes the empty set, then the cardinality of B(\u2205) is _______.",
+    "answer": "5040",
+    "a": 1.9,
+    "b": 0.5,
+    "source_chunk": 14,
+    "explanation": "The graph has 2^3=8 vertices, representing the power set of U={1,2,3}, where an edge (A,B) exists if A is a proper subset of B or vice versa. For BFS starting from the empty set (\u2205), \u2205 is connected to all 7 other non-empty sets, as \u2205 is a proper subset of each. Thus, after \u2205 is visited, the remaining 7 vertices can be added to the queue and subsequently visited in any order, leading to 7! = 5040 possible BFS orderings."
+  },
+  {
+    "question_number": 29,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Virtual Memory",
+    "difficulty": "Medium",
+    "question": "Consider the following two-dimensional array D in the C programming language, which is stored in row-major order:\n\nint D^128[128];\n\nDemand paging is used for allocating memory and each physical page frame holds 512 elements of the array D. The Least Recently Used (LRU) page-replacement policy is used by the operating system. A total of 30 physical page frames are allocated to a process which executes the following code snippet:\n\n```c\nfor (int i = 0; i < 128; i++)\n    for (int j = 0; j < 128; j++)\n        D[j][i] *= 10;\n```\n\nThe number of page faults generated during the execution of this code snippet is _______.",
+    "answer": "4096",
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 14,
+    "explanation": "This problem calculates page faults for a row-major array D^128[128] accessed column-major, using demand paging and LRU. With 512 elements per page, the array spans 32 pages. The column-major access pattern D[j][i] causes sequential references to all 32 pages for each outer loop iteration (fixed i). Since only 30 page frames are allocated, every i iteration causes 32 page faults under LRU, totaling 128 * 32 = 4096."
+  },
+  {
+    "question_number": 30,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Virtual Memory",
+    "difficulty": "Medium",
+    "question": "Consider a computer system with 57-bit virtual addressing using multi-level tree-structured page tables with L levels for virtual to physical address translation. The page size is 4 KB (1 KB = 1024 B) and a page table entry at any of the levels occupies 8 bytes. The value of L is _______.",
+    "answer": "5",
+    "a": 1.5,
+    "b": -0.2,
+    "source_chunk": 14,
+    "explanation": "This problem determines a multi-level page table's levels from virtual address (57-bit), page size (4KB), and PTE size (8B). A 4KB (2^12 B) page implies 12 bits for the offset. This leaves 45 bits for the Virtual Page Number (VPN). An 8B (2^3 B) PTE means a 4KB page contains 2^9 entries. Each level's index is 9 bits. Thus, 45 VPN bits / 9 bits/level equals L = 5."
+  },
+  {
+    "question_number": 31,
+    "type": "NAT",
+    "subject": "Data Structures",
+    "topic": "Basic Data Structures",
+    "subtopic": "Stack & Queue",
+    "difficulty": "Medium",
+    "question": "Consider a sequence a of elements a0 = 1, a1 = 5, a2 = 7, a3 = 8, a4 = 9, and a5 = 2. The following operations are performed on a stack S and a queue Q, both of which are initially empty.\n\nI: push the elements of a from a0 to a5 in that order into S.\nII: enqueue the elements of a from a0 to a5 in that order into Q.\nIII: pop an element from S.\nIV: dequeue an element from Q.\nV: pop an element from S.\nVI: dequeue an element from Q.\nVII: dequeue an element from Q and push the same element into S.\nVIII: Repeat operation VII three times.\nIX: pop an element from S.\nX: pop an element from S.\n\nThe top element of S after executing the above operations is _______.",
+    "answer": "8",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 14,
+    "explanation": "This problem assesses the understanding of basic stack (LIFO) and queue (FIFO) operations. A stack supports push and pop at one end (top), while a queue supports enqueue at the rear and dequeue from the front. The sequence of operations involves pushing elements into the stack S and enqueuing them into queue Q. Elements are popped and dequeued, then specific elements are moved from Q to S. The element '8' is enqueued, then dequeued, and subsequently pushed onto the stack during the repeated operation VII. After subsequent pops, 8 remains on top."
+  },
+  {
+    "question_number": 32,
+    "type": "NAT",
+    "subject": "Compiler Design",
+    "topic": "Parsing",
+    "subtopic": "Syntax Directed Translations",
+    "difficulty": "Medium",
+    "question": "Consider the syntax directed translation given by the following grammar and semantic rules. Here N, I, F and B are non-terminals. N is the starting non-terminal, and #, 0 and 1 are lexical tokens corresponding to input letters '#', '0' and '1', respectively. X.val denotes the synthesized attribute (a numeric value) associated with a non-terminal X. I1 and F1 denote occurrences of I and F on the right hand side of a production, respectively. For the tokens 0 and 1, 0.val = 0 and 1.val = 1.\n\nN \u2192 I # F        { N.val = I.val + F.val }\nI \u2192 I1 B         { I.val = (2 * I1.val) + B.val }\nI \u2192 B            { I.val = B.val }\nF \u2192 B F1         { F.val = (1/2) * (B.val + F1.val) }\nF \u2192 B            { F.val = (1/2) * B.val }\nB \u2192 0            { B.val = 0.val }\nB \u2192 1            { B.val = 1.val }\n\nThe value computed by the translation scheme for the input string 10#011 is _______. (Rounded off to three decimal places)",
+    "answer": "2.375",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 15,
+    "explanation": "This problem evaluates a syntax-directed translation scheme that computes synthesized attributes based on grammar productions. The N.val attribute is derived by summing I.val (integer part) and F.val (fractional part) of a binary string. I.val calculates the integer equivalent of the binary string before '#', while F.val calculates the fractional equivalent using powers of 1/2 for the string after '#'. For input \"10#011\", I.val is 2 and F.val is 0.375, yielding N.val as 2.375."
+  },
+  {
+    "question_number": 33,
+    "type": "NAT",
+    "subject": "Theory of Computation",
+    "topic": "Finite Automata",
+    "subtopic": "DFA",
+    "difficulty": "Medium",
+    "question": "Consider the language L over the alphabet {0,1}, given below:\n\nL = { w \u2208 {0,1}* | w does not contain three or more consecutive 1's }.\n\nThe minimum number of states in a Deterministic Finite-State Automaton (DFA) for L is _______.",
+    "answer": "4",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 15,
+    "explanation": "This problem determines the minimum number of states in a Deterministic Finite Automaton (DFA) for a language rejecting strings with three or more consecutive '1's. The DFA must maintain a count of consecutive '1's, resetting on '0', to prevent violations. States are required to denote zero, one, and two consecutive '1's. An additional non-accepting trap state, reached upon seeing three consecutive '1's, makes four states the minimum for this language."
+  },
+  {
+    "question_number": 34,
+    "type": "NAT",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Cache Memory and address Mapping",
+    "difficulty": "Medium",
+    "question": "An 8-way set associative cache of size 64 KB (1 KB = 1024 bytes) is used in a system with 32-bit address. The address is sub-divided into TAG, INDEX, and BLOCK OFFSET.\nThe number of bits in the TAG is _______.",
+    "answer": "19",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 15,
+    "explanation": "This question asks for the number of TAG bits in a cache memory system, where a physical address is divided into TAG, INDEX, and BLOCK OFFSET fields. BLOCK OFFSET indicates the byte within a cache line, INDEX selects a cache set, and TAG identifies the unique main memory block. For a 32-bit address with a 64KB 8-way set-associative cache, assuming a 64-byte block size yields 6 BLOCK OFFSET bits. The number of sets is 2^7, so 7 INDEX bits are required, leaving 32 - (6 + 7) = 19 TAG bits."
+  }
+]

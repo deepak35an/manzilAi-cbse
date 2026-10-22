@@ -1,0 +1,197 @@
+{
+  "duration_weeks": 12,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Nature and Significance of Management",
+          "priority": "HIGH",
+          "topic": "Management: Concept, Objectives, Importance & Nature",
+          "subtopics": [
+            "Management: Concept",
+            "Nature of Management"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Principles of Management",
+          "priority": "HIGH",
+          "topic": "Principles of Management: Meaning, Nature, Significance & Key Theories",
+          "subtopics": [
+            "Fayol's Principles of Management",
+            "Taylor's Scientific Management"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Business Environment",
+          "priority": "MEDIUM",
+          "topic": "Business Environment: Meaning, Importance & Dimensions",
+          "subtopics": [
+            "Importance of Business Environment",
+            "Dimensions of Business Environment"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Planning",
+          "priority": "HIGH",
+          "topic": "Planning: Meaning, Features, Importance, Limitations, Process & Types",
+          "subtopics": [
+            "Planning Process",
+            "Types of Plans"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Organising",
+          "priority": "HIGH",
+          "topic": "Organising: Meaning, Importance, Process, Structures & Delegation",
+          "subtopics": [
+            "Organisational Structure",
+            "Delegation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Staffing",
+          "priority": "HIGH",
+          "topic": "Staffing: Meaning, Need, Process, Recruitment, Selection & Training",
+          "subtopics": [
+            "Recruitment",
+            "Selection"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 11,
+      "subjects": [
+        {
+          "subject": "Directing",
+          "priority": "CRITICAL",
+          "topic": "Directing: Key Elements of Motivation & Leadership",
+          "subtopics": [
+            "Motivation",
+            "Leadership"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 7,
+      "subjects": [
+        {
+          "subject": "Controlling",
+          "priority": "MEDIUM",
+          "topic": "Controlling: Meaning, Importance, Process & Planning Relationship",
+          "subtopics": [
+            "Process of Control",
+            "Relationship Between Planning and Controlling"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 11,
+      "subjects": [
+        {
+          "subject": "Business Finance",
+          "priority": "CRITICAL",
+          "topic": "Business Finance: Role, Objectives, Financial Decisions & Capital Structure",
+          "subtopics": [
+            "Financial Decisions",
+            "Capital Structure"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 9,
+      "subjects": [
+        {
+          "subject": "Financial Markets",
+          "priority": "HIGH",
+          "topic": "Financial Markets: Concept, Money Market & Capital Market",
+          "subtopics": [
+            "Money Market",
+            "Capital Market"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 13,
+      "subjects": [
+        {
+          "subject": "Marketing",
+          "priority": "CRITICAL",
+          "topic": "Marketing: Meaning, Functions, Role, Philosophies, Mix & Elements (Product & Promotion)",
+          "subtopics": [
+            "Product",
+            "Promotion"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": 7,
+      "subjects": [
+        {
+          "subject": "Consumer Protection",
+          "priority": "HIGH",
+          "topic": "Consumer Protection: Concept, Importance, Rights & Legal Redressal",
+          "subtopics": [
+            "Consumer Rights",
+            "Legal Redressal"
+          ]
+        }
+      ]
+    }
+  ]
+}

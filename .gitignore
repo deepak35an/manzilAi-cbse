@@ -1,0 +1,51 @@
+# Virtual Environment
+backend/venv/
+venv/
+ENV/
+.venv/
+
+# Node Modules
+frontend/node_modules/
+node_modules/
+
+# Build outputs
+frontend/dist/
+dist/
+build/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Sensitive data
+.env
+*.env
+*.env.*
+backend/.env*
+frontend/.env*
+*.pem
+*.key
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data Staging
+backend/data/.staging/
+
+# Temporary files
+*.zip
+*.log
+v1_application_fixes_*.md
+Updated_plan.md
+RUNNING_GUIDE.md
+my personall/
+frontend/tsconfig.tsbuildinfo
+
+# TypeScript build cache
+*.tsbuildinfo

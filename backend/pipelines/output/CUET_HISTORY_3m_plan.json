@@ -1,0 +1,250 @@
+{
+  "duration_weeks": 12,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Harappan Civilisation",
+          "priority": "HIGH",
+          "topic": "Harappan Civilisation",
+          "subtopics": [
+            "Archaeological Sources",
+            "Town Planning",
+            "Urban Features",
+            "Economy",
+            "Trade and Commerce",
+            "Craft Production",
+            "Religion",
+            "Decline of Harappan Civilisation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Early States",
+          "priority": "HIGH",
+          "topic": "Political Systems",
+          "subtopics": [
+            "Economic Systems",
+            "Mahajanapadas",
+            "Mauryan Empire",
+            "Inscriptions as Historical Sources",
+            "Ashokan Inscriptions",
+            "Administration",
+            "Taxation"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Social Histories",
+          "priority": "MEDIUM",
+          "topic": "Mahabharata",
+          "subtopics": [
+            "Social Structure",
+            "Kinship",
+            "Family",
+            "Caste System",
+            "Gender Relations",
+            "Property and Inheritance"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Buddhism and Jainism",
+          "priority": "HIGH",
+          "topic": "Rise of Buddhism",
+          "subtopics": [
+            "Rise of Jainism",
+            "Teachings of Buddha",
+            "Teachings of Mahavira",
+            "Monastic Traditions",
+            "Spread of Buddhism",
+            "Cultural Developments",
+            "Art and Architecture"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 6,
+      "subjects": [
+        {
+          "subject": "Medieval Society",
+          "priority": "MEDIUM",
+          "topic": "Travellers' Accounts",
+          "subtopics": [
+            "Ibn Battuta",
+            "Al-Biruni",
+            "Francois Bernier",
+            "Society",
+            "Economy",
+            "Culture"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Bhakti-Sufi Traditions",
+          "priority": "HIGH",
+          "topic": "Bhakti Movement",
+          "subtopics": [
+            "Sufi Movement",
+            "Saints",
+            "Devotional Traditions",
+            "Social Impact",
+            "Religious Reform"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Vijayanagara Empire",
+          "priority": "HIGH",
+          "topic": "Rise of Vijayanagara",
+          "subtopics": [
+            "Political System",
+            "Administration",
+            "Economy",
+            "Trade",
+            "Architecture",
+            "Hampi"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Mughal Empire",
+          "priority": "CRITICAL",
+          "topic": "Mughal Administration",
+          "subtopics": [
+            "Mansabdari System",
+            "Jagirdari System",
+            "Agrarian Society",
+            "Land Revenue",
+            "Peasantry",
+            "Economy"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Colonialism and Rural Society",
+          "priority": "CRITICAL",
+          "topic": "Colonial Rule",
+          "subtopics": [
+            "Rural Society",
+            "Official Reports",
+            "Permanent Settlement",
+            "Ryotwari System",
+            "Mahalwari System",
+            "Peasant Life"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 8,
+      "subjects": [
+        {
+          "subject": "Revolt of 1857",
+          "priority": "HIGH",
+          "topic": "Causes of Revolt",
+          "subtopics": [
+            "Major Centres",
+            "Leaders",
+            "Course of Revolt",
+            "Consequences",
+            "British Accounts",
+            "Indian Representations"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 12,
+      "subjects": [
+        {
+          "subject": "Mahatma Gandhi and National Movement",
+          "priority": "CRITICAL",
+          "topic": "Mahatma Gandhi",
+          "subtopics": [
+            "Champaran Movement",
+            "Kheda Satyagraha",
+            "Non-Cooperation Movement",
+            "Civil Disobedience Movement",
+            "Quit India Movement",
+            "Nationalism",
+            "Mass Movements"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Making of the Constitution",
+          "priority": "CRITICAL",
+          "topic": "Constituent Assembly",
+          "subtopics": [
+            "Drafting Committee",
+            "B. R. Ambedkar",
+            "Fundamental Rights",
+            "Directive Principles",
+            "Federalism",
+            "Secularism",
+            "Features of the Indian Constitution"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+[
+  {
+    "question_number": 1,
+    "type": "NAT",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "Distance Vector Routing / Count-to-Infinity",
+    "difficulty": "Medium",
+    "question": "Consider a network with three routers P, Q, and R. All links have cost of unit, the routers exchange distance vector routing information & converge on routing tables. After some time link Q-R fails, assume P & Q send out routing update at random time, each at same average rate. The probability of routing loop form (Rounded off to one decimal place) between P & Q leading to count to infinity problem is_____.",
+    "answer": "0.5",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 1,
+    "explanation": "Distance Vector Routing protocols are susceptible to the count-to-infinity problem, where routing loops arise from stale information after a link failure. A loop between P and Q, after Q-R fails, forms if P updates R's reachability via Q *before* Q learns of the Q-R failure. Given random, same-rate updates, the probability of P updating first, propagating stale information and initiating the loop, is 0.5."
+  },
+  {
+    "question_number": 2,
+    "type": "NAT",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "subtopic": "Transmission and Propagation Delay",
+    "difficulty": "Medium",
+    "question": "Consider a 100 Mbps link between an earth station (sender) and a satellite (receiver) at an altitude of 2100 km. The signal propagates at a speed of 3 \u00d7 10^8 m/s. The time taken (in milliseconds runoff to 2 decimal places) for the receiver to completely receive a packet of 1000 bytes transmitted by the sender is _____.",
+    "answer": "7.08",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 1,
+    "explanation": "The total time for a receiver to completely receive a packet involves both the transmission delay and the propagation delay of the signal. Transmission delay is calculated by dividing the packet size by the link bandwidth, while propagation delay is determined by the distance divided by the signal propagation speed. Summing the calculated transmission delay of 0.08 ms and propagation delay of 7 ms yields a total reception time of 7.08 ms for the given link and packet."
+  },
+  {
+    "question_number": 3,
+    "type": "NAT",
+    "subject": "Computer Networks",
+    "topic": "Transport & Application Layer",
+    "subtopic": "TCP",
+    "difficulty": "Medium",
+    "question": "Consider the data transfer using TCP over a 1 Gbps link. Assuming that the maximum segment lifetime (MSL) is set to 60 seconds, the minimum number of bits required for the sequence number field of the TCP header, to prevent the sequence number space from wrapping around during the MSL, is ________.",
+    "answer": "33",
+    "a": 1.8,
+    "b": 0.8,
+    "source_chunk": 1,
+    "explanation": "TCP sequence number space must not wrap around within the Maximum Segment Lifetime (MSL) to avoid ambiguity of segment delivery. The minimum number of bits (N) ensures 2^N is greater than or equal to the total bytes transmitted over the link during the MSL. For a 1 Gbps link and 60s MSL, 7.5 * 10^9 bytes are sent, thus requiring a minimum of 33 bits for the sequence number."
+  },
+  {
+    "question_number": 4,
+    "type": "NAT",
+    "subject": "Computer Networks",
+    "topic": "Application Layer",
+    "subtopic": "DNS",
+    "difficulty": "Easy",
+    "question": "Consider a resolution of domain name www.gate.org.in by a DNS resolver. Assume that no records are called anywhere across the DNS servers and the iterative query resolution mechanism is used in the resolution. The number of DNS query response pairs involved in completely resolving the domain name is ____.",
+    "answer": "4",
+    "a": 1.0,
+    "b": -1.0,
+    "source_chunk": 1,
+    "explanation": "Iterative DNS resolution requires the client resolver to sequentially query various DNS servers (root, TLD, authoritative) to resolve a domain name. For www.gate.org.in, queries proceed from root to .in TLD, then to the .org.in authoritative server for delegation information. These three delegation query-response pairs, plus one final query-response to fetch the A record, total four pairs."
+  },
+  {
+    "question_number": 5,
+    "type": "MCQ",
+    "subject": "Compiler Design",
+    "topic": "Lexical Analysis",
+    "subtopic": "Lexical Analysis, Parsing, Data Flow Analysis",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is TRUE?",
+    "options": [
+      "(A) Symbol table is accessed only during the lexical analysis.",
+      "(B) LR (1) parsing is sufficient for DCFL.",
+      "(C) The LALR (1) parser for a grammar G cannot have R/R conflict if the LR (1) parser for G does not have R/R conflict",
+      "(D) Data flow analysis is necessary for run time memory management."
+    ],
+    "answer": "(B) LR (1) parsing is sufficient for DCFL.",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 2,
+    "explanation": "This question assesses knowledge of fundamental compiler design concepts, including the roles of symbol tables, parsing techniques, and data flow analysis. LR(1) parsing is recognized as the most powerful form of shift-reduce parsing, capable of parsing all Deterministic Context-Free Languages (DCFLs), which are generated by LR(1) grammars. Therefore, the statement that LR(1) parsing is sufficient for DCFLs is correct, distinguishing it from the inaccuracies of the other options."
+  },
+  {
+    "question_number": 6,
+    "type": "NAT",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Memory Hierarchy",
+    "difficulty": "Medium",
+    "question": "A cache memory that has a hit rate of 0.8 has an access latency 10 ns and miss penalty 100 ns. An optimization is done on the cache to reduce the miss rate. However the optimization results in an increase of cache access latency to 15 ns, whereas the miss penalty is not affected. The minimum hit rate needed after the optimization such that it should not increase the average memory access time is _____ ",
+    "answer": "0.85",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 2,
+    "explanation": "Average Memory Access Time (AMAT) is a performance metric defined as Hit_Time + (1 - Hit_Rate) \u00d7 Miss_Penalty, representing the average latency of memory accesses. To ensure the optimization does not increase overall memory access time, the new AMAT must be less than or equal to the initial AMAT. The original AMAT is 30 ns; solving 15 ns + (1 - H_new) \u00d7 100 ns \u2264 30 ns yields a minimum new hit rate of 0.85."
+  },
+  {
+    "question_number": 7,
+    "type": "MSQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Memory Hierarchy",
+    "difficulty": "Hard",
+    "question": "Consider a system with 2 KB direct mapped data cache with a block size of 64 bytes. The system has a physical address space of 64 KB and a word length of 16 bits. During the execution of a program, four data words P, Q, R, and S are accessed in that order 10 times (i.e., PQRSPQRS\u2026). Hence, there are 40 accesses to data cache altogether. Assume that the data cache is initially empty and no other data words are accessed by the program. The addresses of the first bytes of P, Q, R, and S are 0xA248, 0xC28A, 0xCA8A, and 0xA262, respectively. For the execution of the above program, which of the following statements is/are TRUE with respect to the data cache?",
+    "options": [
+      "(A) Every access to S is a hit.",
+      "(B) Once P is brought to the cache it is never evicted.",
+      "(C) At the end of the execution only R and S reside in the cache.",
+      "(D) Every access to R evicts Q from the cache."
+    ],
+    "answer": [
+      "(A) Every access to S is a hit.",
+      "(B) Once P is brought to the cache it is never evicted.",
+      "(D) Every access to R evicts Q from the cache."
+    ],
+    "a": 2.0,
+    "b": 1.5,
+    "source_chunk": 2,
+    "explanation": "A direct-mapped cache maps memory blocks to cache lines using address index bits, causing conflicts if distinct blocks map to the same line. P and S map to cache line 9 sharing a block, while Q and R map to cache line 10 with distinct tags. P is never evicted, S always hits, and every R access evicts Q from line 10."
+  },
+  {
+    "question_number": 8,
+    "type": "NAT",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Pipelining",
+    "subtopic": "Control Hazards, Branch Prediction, Speedup",
+    "difficulty": "Medium",
+    "question": "A processor X1 operating at 2 GHz has a standard 5-stage RISC instruction pipeline having a base CPI (cycles per instruction) of one without any pipeline hazards.\n\nFor a given program P that has 30% branch instructions, control hazards incur 2 cycles stall for every branch. A new version of the processor X2 operating at same clock frequency has an additional branch predictor unit (BPU) that completely eliminates stalls for correctly predicted branches. There is neither any savings nor any additional stalls for wrong predictions. There are no structural hazards and data hazards for X1 and X2.\n\nIf the BPU has a prediction accuracy of 80%, the speed up (rounded off to two decimal places) obtained by X2 over X1 in executing P is ________.",
+    "answer": "1.43",
+    "a": 1.5,
+    "b": 0.0,
+    "source_chunk": 2,
+    "explanation": "Pipeline speedup compares Cycles Per Instruction (CPI), accounting for base execution and hazard stalls. X1's CPI is 1 + (0.3 * 2) = 1.6; X2, with 80% branch prediction accuracy, achieves CPI = 1 + (0.3 * 0.2 * 2) = 1.12. The speedup of X2 over X1 is their CPI ratio, 1.6 / 1.12, approximately 1.43."
+  },
+  {
+    "question_number": 9,
+    "type": "MSQ",
+    "subject": "Computer Organization and Architecture",
+    "topic": "Cache Memory",
+    "subtopic": "Memory Hierarchy",
+    "difficulty": "Medium",
+    "question": "Let WB and WT be two set associative cache organizations that use LRU algorithm for cache block replacement. WB is Write Back cache and WT is Write through cache. Which of the following statements are false?",
+    "options": [
+      "(A) Every write hit in WB leads to a data transfer from cache to main memory",
+      "(B) Eviction of a block from WT will not lead to data transfer from cache to main memory",
+      "(C) A read miss in WB will never lead to eviction of a dirty block from WB",
+      "(D) Each cache block in WB and WT has a dirty bit"
+    ],
+    "answer": [
+      "(A) Every write hit in WB leads to a data transfer from cache to main memory",
+      "(C) A read miss in WB will never lead to eviction of a dirty block from WB",
+      "(D) Each cache block in WB and WT has a dirty bit"
+    ],
+    "a": 1.5,
+    "b": 0.3,
+    "source_chunk": 3,
+    "explanation": "Cache write policies, Write-Through (WT) and Write-Back (WB), define how cache modifications propagate to main memory. In WB, write hits mark blocks dirty, updating main memory only on eviction; WT updates main memory simultaneously, so its blocks are never dirty. Therefore, asserting that WB write hits always transfer data, WT blocks have dirty bits, or WB read misses never evict dirty blocks is false."
+  },
+  {
+    "question_number": 10,
+    "type": "MSQ",
+    "subject": "Theory of Computation",
+    "topic": "Computability",
+    "subtopic": "Language Hierarchy",
+    "difficulty": "Hard",
+    "question": "Which of the following statements is/are TRUE?",
+    "options": [
+      "(A) Every subset of a recursively enumerable language is recursive.",
+      "(B) If a language L and its complement L\u0305 are both recursively enumerable, then L must be recursive.",
+      "(C) Complement of a context-free language must be recursive.",
+      "(D) If L1 and L2 are regular, then L1 \u2229 L2 must be deterministic context-free."
+    ],
+    "answer": [
+      "(B) If a language L and its complement L\u0305 are both recursively enumerable, then L must be recursive.",
+      "(C) Complement of a context-free language must be recursive.",
+      "(D) If L1 and L2 are regular, then L1 \u2229 L2 must be deterministic context-free."
+    ],
+    "a": 2.0,
+    "b": 1.5,
+    "source_chunk": 3,
+    "explanation": "Formal language theory defines language classes based on their computational recognition and closure properties. A language is recursive if and only if both it and its complement are recursively enumerable, and all regular languages are deterministic context-free. Also, context-free languages are subsets of recursive languages, implying their complements are recursive, thus making the given statements true."
+  },
+  {
+    "question_number": 11,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Matrix Properties",
+    "difficulty": "Medium",
+    "question": "Consider the following two statements with respect to the matrices A(m\u00d7n), B(n\u00d7m), C(n\u00d7n) and D(n\u00d7n).\n\nStatement 1: tr(AB) = tr(BA)\nStatement 2: tr(CD) = tr(DC)\n\nwhere tr() represents the trace of a matrix. Which one of the following holds?",
+    "options": [
+      "(A) Statement 1 is correct and Statement 2 is wrong.",
+      "(B) Statement 1 is wrong and Statement 2 is correct.",
+      "(C) Both Statement 1 and Statement 2 are correct.",
+      "(D) Both Statement 1 and Statement 2 are wrong."
+    ],
+    "answer": [
+      "(C) Both Statement 1 and Statement 2 are correct."
+    ],
+    "a": 1.4,
+    "b": 0.0,
+    "source_chunk": 5,
+    "explanation": "The trace of a matrix, denoted tr(M), is the sum of the elements on its main diagonal. A fundamental property of the trace operation is that for any two matrices X and Y, tr(XY) = tr(YX) holds, provided both products XY and YX are well-defined and result in square matrices. Since AB (m x m) and BA (n x n) are both square matrices, and CD and DC are both n x n square matrices, the trace property holds for both statements."
+  },
+  {
+    "question_number": 12,
+    "type": "NAT",
+    "subject": "Algorithms",
+    "topic": "Graph Theory",
+    "subtopic": "Disconnected Graphs / Maximum Edges",
+    "difficulty": "Medium",
+    "question": "Consider a simple undirected graph of 10 vertices if the graph is disconnected then the maximum number of edges it can have is__________.",
+    "answer": "36",
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 5,
+    "explanation": "A disconnected simple undirected graph with V vertices can be partitioned into at least two non-empty vertex sets with no edges connecting them. To maximize the edges in such a graph, it must contain a complete subgraph on V-1 vertices and one isolated vertex. For V=10, this configuration leads to a K9 complete subgraph, which has (9 * 8) / 2 = 36 edges, maximizing edges while ensuring disconnection."
+  },
+  {
+    "question_number": 13,
+    "type": "MCQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Combinatorics",
+    "subtopic": "Combinatorics",
+    "difficulty": "Medium",
+    "question": "Which one of the following is the closed form for the generating function of the sequence {a_n}_{n\u22650} defined below?\n\na_n = {\n  n + 1, if n is odd\n  1, otherwise\n}",
+    "options": [
+      "(A) x(1 + x^2) / (1 - x^2)^2 + 1 / (1 - x)",
+      "(B) x(3 - x^2) / (1 - x^2)^2 + 1 / (1 - x)",
+      "(C) 2x / (1 - x^2)^2 + 1 / (1 - x)",
+      "(D) x / (1 - x^2)^2 + 1 / (1 - x)"
+    ],
+    "answer": "(A) x(1 + x^2) / (1 - x^2)^2 + 1 / (1 - x)",
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 6,
+    "explanation": "A generating function G(x) for a sequence {a_n} is defined as the infinite series G(x) = \u03a3 a_n x^n, where each a_n is the coefficient of x^n. The given sequence {1, 2, 1, 4, 1, 6, ...} can be decomposed into two parts: {1, 1, 1, ...} and {0, 1, 0, 3, 0, 5, ...}. The generating function for {1, 1, 1, ...} is 1/(1-x), and for {0, 1, 0, 3, 0, 5, ...} it is x(1+x^2)/(1-x^2)^2, which sum to the final result."
+  },
+  {
+    "question_number": 14,
+    "type": "MCQ",
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "subtopic": "Graph Theory",
+    "difficulty": "Medium",
+    "question": "Consider a simple undirected unweighted graph with at least three vertices. If A is the adjacency matrix of the graph, then the number of 3-cycles in the graph is given by the trace of",
+    "options": [
+      "(A) A^3",
+      "(B) A^3 divided by 2",
+      "(C) A^3 divided by 3",
+      "(D) A^3 divided by 6"
+    ],
+    "answer": [
+      "(D) A^3 divided by 6"
+    ],
+    "a": 1.4,
+    "b": 0.3,
+    "source_chunk": 6,
+    "explanation": "The (i,j)-th entry of the k-th power of an adjacency matrix A gives the count of walks of length k from vertex i to vertex j. The trace of A^3 sums all closed walks of length 3 (v -> v) across all vertices in the graph. Since each unique 3-cycle forms 6 distinct closed walks of length 3 (e.g., a-b-c-a and a-c-b-a), the total number of 3-cycles is tr(A^3) divided by 6."
+  },
+  {
+    "question_number": 15,
+    "type": "MSQ",
+    "subject": "Discrete Mathematics",
+    "topic": "Advanced Graph Theory & Group Theory",
+    "subtopic": "Discrete Mathematics",
+    "difficulty": "Hard",
+    "question": "Which of the following is /are true for group G?",
+    "options": [
+      "(A) If the order of G in 2, then G is commutative",
+      "(B) If for all, x, y \u2208 G, (xy)^2 = x^2 y^2, then G in commutative.",
+      "(C) If G is commutative then a subgroup of G need not to be commutative",
+      "(D) If for all x \u2208 G, x^2 = 1, then G in commutative, here 1 in identity element of G"
+    ],
+    "answer": [
+      "(A) If the order of G in 2, then G is commutative",
+      "(B) If for all, x, y \u2208 G, (xy)^2 = x^2 y^2, then G in commutative.",
+      "(D) If for all x \u2208 G, x^2 = 1, then G in commutative, here 1 in identity element of G"
+    ],
+    "a": 2.0,
+    "b": 1.0,
+    "source_chunk": 6,
+    "explanation": "A group G is commutative (abelian) if its binary operation satisfies xy = yx for all elements x, y \u2208 G. Groups of order 2 are always cyclic and thus abelian. The property (xy)^2 = x^2 y^2 directly implies commutativity through cancellation. If x^2 = 1 for all x, then (xy)^2 = x^2 y^2 holds, ensuring commutativity, whereas subgroups of abelian groups are always abelian."
+  },
+  {
+    "question_number": 16,
+    "type": "NAT",
+    "subject": "Discrete Mathematics",
+    "topic": "Combinatorics",
+    "subtopic": "Combinatorics",
+    "difficulty": "Medium",
+    "question": "The number of arrangement of 6 identical ball in 3 identical bins__________.",
+    "answer": "7",
+    "a": 1.4,
+    "b": 0.1,
+    "source_chunk": 7,
+    "explanation": "This problem concerns partitioning an integer, distributing identical items into identical bins where the order of bins is irrelevant. For 6 identical balls into 3 identical bins, we enumerate all distinct partitions of 6 into at most three parts, representing the number of balls in each bin. The distinct partitions are (6), (5,1), (4,2), (3,3), (4,1,1), (3,2,1), and (2,2,2), resulting in 7 unique arrangements."
+  },
+  {
+    "question_number": 17,
+    "type": "MSQ",
+    "subject": "Algorithms",
+    "topic": "Graph Algorithms",
+    "subtopic": "Graph Properties",
+    "difficulty": "Hard",
+    "question": "Which of the properties hold for the adjacency matrix A of a simple undirected unweighted graph having n vertices?",
+    "options": [
+      "(A) The diagonal entries of A^2 are the degrees of the vertices of the graph",
+      "(B) If the sum of all the elements of A is at most 2(n-1) then the graph must be acyclic",
+      "(C) If the graph is connected then none of the entries of A^(n-1) + I can be zero",
+      "(D) If there is at least a 1 in each of A's rows and columns, then the graph must be connected"
+    ],
+    "answer": "(A) The diagonal entries of A^2 are the degrees of the vertices of the graph",
+    "a": 1.8,
+    "b": 0.8,
+    "source_chunk": 7,
+    "explanation": "An adjacency matrix A's A^2[i,i] entry indicates paths of length two from i to itself. This sum is derived from A[i,k] * A[k,i] across all intermediate k. For an undirected graph, A[i,k] equals A[k,i], making A^2[i,i] the count of edges incident to i, thus its degree."
+  },
+  {
+    "question_number": 18,
+    "type": "MSQ",
+    "subject": "Algorithms",
+    "topic": "Analysis",
+    "subtopic": "Algorithm Analysis",
+    "difficulty": "Medium",
+    "question": "Consider the following recurrence:\n\nf(1) = 1\nf(2n) = 2f(n) - 1, for n \u2265 1\nf(2n + 1) = 2f(n) + 1, for n \u2265 1\n\nThen, which of the following statements is/are TRUE?",
+    "options": [
+      "(A) f(2^n - 1) = 2^n - 1",
+      "(B) f(2^n) = 1",
+      "(C) f(5 \u00b7 2^n) = 2^(n+1) + 1",
+      "(D) f(2^n + 1) = 2^n + 1"
+    ],
+    "answer": [
+      "(A) f(2^n - 1) = 2^n - 1",
+      "(B) f(2^n) = 1",
+      "(C) f(5 \u00b7 2^n) = 2^(n+1) + 1"
+    ],
+    "a": 1.5,
+    "b": 0.4,
+    "source_chunk": 8,
+    "explanation": "The recurrence f(n) operates based on n's parity, mimicking binary shifts and additions/subtractions. Repeated application confirms f(2^n)=1 and f(2^n-1)=2^n-1. Using the general form f(m\u00b72^k) = 2^k f(m) - (2^k-1) for m=5 and f(5)=3, f(5\u00b72^n) evaluates to 2^(n+1)+1."
+  },
+  {
+    "question_number": 19,
+    "type": "MSQ",
+    "subject": "Algorithms",
+    "topic": "Graph Theory",
+    "subtopic": "Minimum Spanning Tree",
+    "difficulty": "Medium",
+    "question": "Consider a simple undirected weighted graph G, all of whose edge weights are distinct. Which of the following statements about the minimum spanning trees of G is/are TRUE?",
+    "options": [
+      "(A) The edge with the second smallest weight is always part of any minimum spanning tree of G.",
+      "(B) One or both of the edges with the third smallest and the fourth smallest weights are part of any minimum spanning tree of G.",
+      "(C) Suppose S \u2286 V be such that S \u2260 \u03d5 and S \u2260 V. Consider the edge with the minimum weight such that one of its vertices is in S and the other in V \\ S. Such an edge will always be part of any minimum spanning tree of G.",
+      "(D) G can have multiple minimum spanning trees."
+    ],
+    "answer": [
+      "(A) The edge with the second smallest weight is always part of any minimum spanning tree of G.",
+      "(B) One or both of the edges with the third smallest and the fourth smallest weights are part of any minimum spanning tree of G.",
+      "(C) Suppose S \u2286 V be such that S \u2260 \u03d5 and S \u2260 V. Consider the edge with the minimum weight such that one of its vertices is in S and the other in V \\ S. Such an edge will always be part of any minimum spanning tree of G."
+    ],
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 8,
+    "explanation": "A graph with distinct edge weights has a unique Minimum Spanning Tree (MST) guided by the Cut Property. The minimum-weight edge crossing any cut (S, V\\S) is always in the MST. Similarly, the two smallest edges are always included as they cannot form a cycle; at least one of the third or fourth must join the MST if more edges are needed."
+  },
+  {
+    "question_number": 20,
+    "type": "MCQ",
+    "subject": "Algorithms",
+    "topic": "Analysis",
+    "subtopic": "Algorithm Analysis",
+    "difficulty": "Medium",
+    "question": "Which one of the following statement is True for all positive functions f(n)?",
+    "options": [
+      "(A) f(n^2) = \u03a9( (f(n))^2 )",
+      "(B) f(n^2) = O( (f(n))^2 )",
+      "(C) f(n^2) = \u0398( (f(n))^2 ), when f(n) is a polynomial",
+      "(D) f(n^2) = o( (f(n))^2 ), when f(n) is an exponential function."
+    ],
+    "answer": "(C) f(n^2) = \u0398( (f(n))^2 ), when f(n) is a polynomial",
+    "a": 1.4,
+    "b": 0.3,
+    "source_chunk": 8,
+    "explanation": "Asymptotic notation \u0398(g(n)) means f(n) is bounded both above and below by g(n) for large inputs. If f(n) is a polynomial, say n^k, then f(n^2) is n^(2k) and (f(n))^2 is n^(2k). Thus, f(n^2) = \u0398((f(n))^2) holds for polynomial functions."
+  },
+  {
+    "question_number": 21,
+    "type": "MCQ",
+    "subject": "Data Structures",
+    "topic": "Basic Data Structures",
+    "subtopic": "Hashing",
+    "difficulty": "Medium",
+    "question": "Suppose we are given n keys, m hash table slots and two simple uniform hash functions h1 and h2. Further suppose our hashing scheme uses h1 for the odd keys and h2 for the even keys. What is the expected no. of keys in a slot?",
+    "options": [
+      "(A) n/m",
+      "(B) m/n",
+      "(C) 2n/m",
+      "(D) n/m"
+    ],
+    "answer": "(A) n/m",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 9,
+    "explanation": "Simple uniform hashing implies that each key is equally likely to hash into any of the m slots, independently of other keys. Even with two distinct simple uniform hash functions for odd and even keys, each of the n keys still maps to any of the m slots with equal probability 1/m. Consequently, the expected number of keys in any given slot remains the total number of keys divided by the total number of slots, yielding n/m."
+  },
+  {
+    "question_number": 22,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "CPU Scheduling",
+    "difficulty": "Medium",
+    "question": "Consider four processes P, Q, R and S scheduled on a CPU as per round robin algorithm with a time quantum of 4 units. The processes arrive in the order P, Q, R, S all at time t=0. There is exactly one context switch from S to Q, exactly one context switch from R to Q. Exactly two context switches from Q to R. There is no context switch from S to P. Switching to a ready process after the termination of another process is also considered a context switch. Which one of the following is NOT possible a CPU burst time (in time units) of these process?",
+    "options": [
+      "(A) P=3, Q=7, R=7, S=3",
+      "(B) P=4, Q=10, R=6, S=2",
+      "(C) P=4, Q=12, R=5, S=4",
+      "(D) P=2, Q=9, R=5, S=1"
+    ],
+    "answer": "(A) P=3, Q=7, R=7, S=3",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 10,
+    "explanation": "Round Robin scheduling preempts processes that exceed the time quantum, placing them at the end of the ready queue, and a context switch occurs when the CPU switches from one process to another. We must trace the execution of processes given the time quantum and CPU burst times, carefully counting the specific context switches between process pairs. Option A is not possible because a trace reveals zero context switches from process R to Q, contradicting the problem statement of \"exactly one context switch from R to Q\"."
+  },
+  {
+    "question_number": 23,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Memory Management",
+    "difficulty": "Medium",
+    "question": "Consider a demand paging system with four page frames (initially empty) and LRU page replacement policy. For the following page reference string\n 7, 2, 7, 3, 2, 5, 3, 4, 6, 7, 7, 1, 5, 6, 1\n the page fault rate, defined as the ratio of number of page faults to the number of memory accesses. (2 decimal) is _____",
+    "answer": "0.6",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 10,
+    "explanation": "The LRU (Least Recently Used) page replacement policy evicts the page that has not been accessed for the longest time when a page fault occurs. To determine the page fault rate, we simulate the LRU algorithm with four initially empty page frames, counting each instance where a referenced page is not found in memory. Tracing the given page reference string results in 9 page faults for 15 total memory accesses, yielding a page fault rate of 9/15, which is 0.6."
+  },
+  {
+    "question_number": 24,
+    "type": "NAT",
+    "subject": "Operating System",
+    "topic": "Process Management",
+    "subtopic": "File Systems",
+    "difficulty": "Medium",
+    "question": "Consider two file systems A and B, that use contiguous allocation and linked allocation, respectively. A file of size 100 blocks is already stored in A and also in B. Now, consider inserting a new block in the middle of the file (between 50th and 51st block), whose data is already available in the memory. Assume that there are enough free blocks at the end of the file and that the file control blocks are already in memory. Let the number of disk accesses required to insert a block in the middle of the file in A and B be nA and nB respectively, then the value of nA + nB is ________.",
+    "answer": "153",
+    "a": 1.6,
+    "b": 0.4,
+    "source_chunk": 11,
+    "explanation": "Contiguous allocation stores file blocks sequentially, requiring physical shifting for insertions, while linked allocation stores blocks as a chain of pointers, enabling flexible insertions. For contiguous allocation, inserting a block in the middle of a 100-block file involves reading 50 blocks and rewriting 50 existing blocks, plus writing the new block, summing to 101 disk accesses. For linked allocation, accessing the 50th block requires 50 disk accesses to traverse the chain, followed by two additional writes for updating pointers in the 50th and the new block, resulting in 52 accesses, hence nA + nB = 101 + 52 = 153."
+  },
+  {
+    "question_number": 25,
+    "type": "MCQ",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "subtopic": "Memory Hierarchy",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is False?",
+    "options": [
+      "(A) The TLB performs an associative search in parallel on all its valid entries using page number of incoming virtual address.",
+      "(B) If the virtual address of a word given by CPU has a TLB hit, but the subsequent search for the word results in a cache miss, then the word will always be present in the main memory.",
+      "(C) The memory access time using a given inverted page table is always same for all incoming virtual addresses.",
+      "(D) In a system that uses hashed page tables, if two distinct virtual addresses V1 and V2 map to the same value while hashing, then the memory access time of these addresses will not be the same."
+    ],
+    "answer": "(D) In a system that uses hashed page tables, if two distinct virtual addresses V1 and V2 map to the same value while hashing, then the memory access time of these addresses will not be the same.",
+    "a": 1.7,
+    "b": 0.6,
+    "source_chunk": 11,
+    "explanation": "Memory management systems employ various techniques like TLBs, caches, and different page table organizations, each with distinct performance characteristics regarding address translation. Statement A, B, and C are true: TLBs perform associative searches, a TLB hit but cache miss implies data in main memory, and inverted page table access time is generally not uniform due to hash collisions. Statement D is false because specific hardware designs could potentially provide identical lookup times for distinct virtual addresses that hash to the same value, by processing the collision bucket in parallel."
+  },
+  {
+    "question_number": 26,
+    "type": "MSQ",
+    "subject": "Operating System",
+    "topic": "Deadlocks",
+    "subtopic": "Deadlock Necessary Conditions",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is/are TRUE with respect to deadlocks?",
+    "options": [
+      "(A) Circular wait is a necessary condition for the formation of deadlock.",
+      "(B) In a system where each resource has more than one instance, a cycle in its wait-for graph indicates the presence of a deadlock.",
+      "(C) If the current allocation of resources to processes leads the system to unsafe state, then deadlock will necessarily occur.",
+      "(D) In the resource-allocation graph of a system, the existence of a cycle implies the existence of a deadlock only if every resource type has exactly one instance."
+    ],
+    "answer": [
+      "(A) Circular wait is a necessary condition for the formation of deadlock.",
+      "(D) In the resource-allocation graph of a system, the existence of a cycle implies the existence of a deadlock only if every resource type has exactly one instance."
+    ],
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 11,
+    "explanation": "Circular wait is one of the four necessary conditions (mutual exclusion, hold and wait, no preemption, circular wait) for a deadlock to occur, meaning a set of processes must be waiting for resources held by other processes in a cycle. In a resource-allocation graph, a cycle guarantees a deadlock if and only if each resource type has exactly one instance; otherwise, a cycle merely indicates a possibility of a deadlock. Therefore, circular wait is a fundamental requirement, and the existence of a cycle in the resource-allocation graph implies a deadlock only under the single-instance resource constraint."
+  },
+  {
+    "question_number": 27,
+    "type": "MCQ",
+    "subject": "Digital Logic",
+    "topic": "Number Representation",
+    "subtopic": "Two's complement, overflow",
+    "difficulty": "Medium",
+    "question": "Let R1 and R2 be two 4-bit registers that store numbers in 2's complement form. For the operation R1 + R2, which one of the following values of R1 and R2 gives an arithmetic overflow?",
+    "options": [
+      "(A) R1 = 1011 and R2 = 1110",
+      "(B) R1 = 1100 and R2 = 1010",
+      "(C) R1 = 0011 and R2 = 0100",
+      "(D) R1 = 1001 and R2 = 1111"
+    ],
+    "answer": "(B) R1 = 1100 and R2 = 1010",
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 12,
+    "explanation": "Arithmetic overflow in 2's complement occurs when the sum of two numbers with the same sign yields a result with the opposite sign, indicating the result exceeds the representable range. For 4-bit 2's complement, the representable range is from -8 (1000) to +7 (0111). Adding 1100 (-4) and 1010 (-6) results in 10110, which when truncated to 4 bits is 0110 (+6). Since two negative numbers sum to a positive number, this clearly indicates an overflow as -10 is outside the 4-bit 2's complement range."
+  },
+  {
+    "question_number": 28,
+    "type": "MCQ",
+    "subject": "Databases",
+    "topic": "Normalization",
+    "subtopic": "Normalization",
+    "difficulty": "Medium",
+    "question": "In a relational data model, which one of the following statements is TRUE?",
+    "options": [
+      "(A) A relation with only two attributes is always in BCNF.",
+      "(B) If all attributes of a relation are prime attributes, then the relation is in BCNF.",
+      "(C) Every relation has at least one non-prime attribute.",
+      "(D) BCNF decompositions preserve functional dependencies."
+    ],
+    "answer": "(A) A relation with only two attributes is always in BCNF.",
+    "a": 1.5,
+    "b": 0.2,
+    "source_chunk": 13,
+    "explanation": "A relation is in Boyce-Codd Normal Form (BCNF) if for every non-trivial functional dependency X \u2192 Y, X is a superkey. For a relation with exactly two attributes, say R(A, B), the only possible non-trivial functional dependencies are A \u2192 B or B \u2192 A. In such cases, if A \u2192 B holds, then A must be a superkey; similarly for B \u2192 A, B must be a superkey. Consequently, any relation containing only two attributes will always satisfy the BCNF condition because any left-hand side of an FD must inherently be a superkey."
+  },
+  {
+    "question_number": 29,
+    "type": "NAT",
+    "subject": "Databases",
+    "topic": "Normalization",
+    "subtopic": "Normalization",
+    "difficulty": "Medium",
+    "question": "Consider a relation R(A, B, C, D, E) with the following functional dependencies:\n\nAB \u2192 C\nBC \u2192 D\nC \u2192 E\n\nThe number of superkeys in the relation R is ________.",
+    "answer": "8",
+    "a": 1.6,
+    "b": 0.5,
+    "source_chunk": 13,
+    "explanation": "A superkey is any set of attributes that includes a candidate key, meaning it uniquely identifies each tuple in the relation. The given functional dependencies are AB \u2192 C, BC \u2192 D, and C \u2192 E. To find a candidate key, determine the closure of attribute sets; (AB)+ = ABCDE, making {A, B} the unique candidate key. Since a superkey must contain all attributes of a candidate key, any superset of {A, B} from the relation R(A, B, C, D, E) is a superkey. The remaining attributes are {C, D, E}, and there are 2^3 = 8 possible subsets of these attributes that can be combined with {A, B} to form distinct superkeys."
+  },
+  {
+    "question_number": 30,
+    "type": "MSQ",
+    "subject": "Databases",
+    "topic": "Relational Algebra & SQL",
+    "subtopic": "Relational Algebra",
+    "difficulty": "Medium",
+    "question": "Consider the following three relations in a relational database.\n\nEmployee(eId, Name)\nBrand(bId, bName)\nOwn(eId, bId)\n\nWhich of the following relational algebra expressions return the set of eIds who own all the brands?",
+    "options": [
+      "(A) \u03a0_eId ((\u03a0_eId,bId (Own)) \u00f7 \u03a0_bId (Brand))",
+      "(B) \u03a0_eId (Own) \u2212 \u03a0_eId (((\u03a0_eId (Own) \u00d7 \u03a0_bId (Brand)) \u2212 \u03a0_eId,bId (Own)))",
+      "(C) \u03a0_eId ((\u03a0_eId,bId (Own)) \u00f7 \u03a0_bId (Own))",
+      "(D) \u03a0_eId (((\u03a0_eId (Own) \u00d7 \u03a0_bId (Own)) \u00f7 \u03a0_bId (Brand)))"
+    ],
+    "answer": [
+      "(A) \u03a0_eId ((\u03a0_eId,bId (Own)) \u00f7 \u03a0_bId (Brand))",
+      "(B) \u03a0_eId (Own) \u2212 \u03a0_eId (((\u03a0_eId (Own) \u00d7 \u03a0_bId (Brand)) \u2212 \u03a0_eId,bId (Own)))"
+    ],
+    "a": 1.7,
+    "b": 0.6,
+    "source_chunk": 13,
+    "explanation": "The relational algebra division operator (\u00f7) is fundamentally used to find elements of one set that are associated with *all* elements of another set. To find eIds who own all brands, one can divide the set of (eId, bId) pairs from the `Own` relation by the set of all `bIds` from the `Brand` relation. Alternatively, one can find all (eId, bId) pairs that an employee *could* own (`\u03a0_eId (Own) \u00d7 \u03a0_bId (Brand)`) and subtract the pairs they *do* own (`\u03a0_eId,bId (Own)`), then project the eIds from this difference to find employees who *do not* own all brands, finally subtracting these from the set of all eIds who own at least one brand."
+  }
+]

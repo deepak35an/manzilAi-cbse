@@ -1,0 +1,387 @@
+{
+  "duration_weeks": 24,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Change in Profit Sharing Ratio",
+            "Sacrificing Ratio"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Gaining Ratio",
+            "Revaluation of Assets"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Reassessment of Liabilities",
+            "Distribution of Reserves"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Accumulated Profits",
+            "Goodwill"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Factors Affecting Goodwill",
+            "Average Profit Method"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Super Profit Method",
+            "Capitalisation Method"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Admission of a Partner",
+            "Accounting Treatment of Goodwill"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Adjustment of Capitals",
+            "Retirement of a Partner"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Death of a Partner",
+            "Deceased Partner's Capital Account"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 25,
+      "subjects": [
+        {
+          "subject": "Accounting for Partnership",
+          "priority": "CRITICAL",
+          "topic": "Reconstitution of Partnership Firm",
+          "subtopics": [
+            "Executor's Account",
+            "Loan Account"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Features of Companies",
+            "Types of Companies"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Share Capital",
+            "Equity Shares"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Preference Shares",
+            "Issue of Shares"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Share Allotment",
+            "Oversubscription"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Undersubscription",
+            "Issue at Par"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Issue at Premium",
+            "Calls in Advance"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Calls in Arrears",
+            "Shares Issued for Consideration Other Than Cash"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Forfeiture of Shares",
+            "Reissue of Forfeited Shares"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus_type": "Core Learning",
+      "weightage": 18,
+      "subjects": [
+        {
+          "subject": "Company Accounts",
+          "priority": "CRITICAL",
+          "topic": "Share Capital",
+          "subtopics": [
+            "Presentation of Share Capital"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "CRITICAL",
+          "topic": "Accounting Ratios",
+          "subtopics": [
+            "Meaning and Objectives",
+            "Liquidity Ratios"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "CRITICAL",
+          "topic": "Accounting Ratios",
+          "subtopics": [
+            "Solvency Ratios",
+            "Activity Ratios"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "CRITICAL",
+          "topic": "Accounting Ratios",
+          "subtopics": [
+            "Profitability Ratios"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "CRITICAL",
+          "topic": "Cash Flow Statement",
+          "subtopics": [
+            "Meaning and Objectives",
+            "Preparation of Cash Flow Statement"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus_type": "Core Learning",
+      "weightage": 10,
+      "subjects": [
+        {
+          "subject": "Analysis of Financial Statements",
+          "priority": "CRITICAL",
+          "topic": "Cash Flow Statement",
+          "subtopics": [
+            "Depreciation Adjustments",
+            "Amortization Adjustments"
+          ]
+        }
+      ]
+    }
+  ]
+}

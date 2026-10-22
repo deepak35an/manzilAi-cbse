@@ -1,0 +1,196 @@
+{
+  "duration_weeks": 12,
+  "roadmap": [
+    {
+      "week": 1,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Indian Foundations",
+          "subtopics": [
+            "Indian History",
+            "Indian Geography"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Indian Governance & Economy",
+          "subtopics": [
+            "Indian Polity",
+            "Indian Economy"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Culture & Symbols",
+          "subtopics": [
+            "Indian Culture",
+            "Art and Culture"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Facts & Figures",
+          "subtopics": [
+            "Important Days",
+            "National Symbols"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Achievements & Literature",
+          "subtopics": [
+            "Awards and Honours",
+            "Books and Authors"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Global & Scientific Overview",
+          "subtopics": [
+            "Sports",
+            "International Organizations"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "World & Schemes",
+          "subtopics": [
+            "Countries and Capitals",
+            "Science and Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus_type": "Core Learning",
+      "weightage": 4,
+      "subjects": [
+        {
+          "subject": "Static General Knowledge",
+          "priority": "CRITICAL",
+          "topic": "Government Initiatives",
+          "subtopics": [
+            "Important Government Schemes"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Current Affairs",
+          "priority": "CRITICAL",
+          "topic": "National & International Updates",
+          "subtopics": [
+            "National Current Affairs",
+            "International Current Affairs"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Current Affairs",
+          "priority": "CRITICAL",
+          "topic": "Economic & Scientific Developments",
+          "subtopics": [
+            "Economy and Banking",
+            "Science and Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Current Affairs",
+          "priority": "CRITICAL",
+          "topic": "Sports & Recognition",
+          "subtopics": [
+            "Sports Current Affairs",
+            "Awards and Honours"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus_type": "Core Learning",
+      "weightage": 5,
+      "subjects": [
+        {
+          "subject": "Current Affairs",
+          "priority": "CRITICAL",
+          "topic": "Policy & Environment",
+          "subtopics": [
+            "Government Policies",
+            "Environment"
+          ]
+        }
+      ]
+    }
+  ]
+}
