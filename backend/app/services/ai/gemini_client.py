@@ -6,7 +6,7 @@ import httpx
 from app.config import settings
 from app.utils.logging import logger
 
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent"
 
 
 async def extract_questions_from_text(
