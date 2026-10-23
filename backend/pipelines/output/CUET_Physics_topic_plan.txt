@@ -1,0 +1,173 @@
+=== CUET_Physics | Topic-wise plan ===
+{
+  "exam": "CUET_Physics",
+  "total_topics": 9,
+  "topics": [
+    {
+      "topic_id": "physics_atoms_and_nuclei",
+      "sequence": 1,
+      "subject": "Physics",
+      "topic": "Atoms and Nuclei",
+      "priority": "HIGH",
+      "subtopics": [
+        "Radioactivity",
+        "Energy Levels",
+        "Bohr Atomic Model",
+        "Mass Defect",
+        "Nuclear Fission",
+        "Nuclear Composition",
+        "Rutherford's Alpha Scattering Experiment"
+      ]
+    },
+    {
+      "topic_id": "physics_current_electricity",
+      "sequence": 2,
+      "subject": "Physics",
+      "topic": "Current Electricity",
+      "priority": "CRITICAL",
+      "subtopics": [
+        "Electrical Resistance",
+        "Wheatstone Bridge",
+        "Internal Resistance",
+        "Temperature Dependence of Resistance",
+        "Ohm's Law",
+        "Electrical Power",
+        "Electric Current",
+        "Cells in Series and Parallel",
+        "Drift Velocity",
+        "EMF of Cell",
+        "V-I Characteristics",
+        "Resistivity",
+        "Electrical Energy"
+      ]
+    },
+    {
+      "topic_id": "physics_dual_nature_of_matter_and_radiation",
+      "sequence": 3,
+      "subject": "Physics",
+      "topic": "Dual Nature of Matter and Radiation",
+      "priority": "MEDIUM",
+      "subtopics": [
+        "Photoelectric Effect",
+        "Einstein's Photoelectric Equation",
+        "de Broglie Hypothesis"
+      ]
+    },
+    {
+      "topic_id": "physics_electromagnetic_induction_and_alternating_current",
+      "sequence": 4,
+      "subject": "Physics",
+      "topic": "Electromagnetic Induction and Alternating Current",
+      "priority": "CRITICAL",
+      "subtopics": [
+        "LCR Series Circuit",
+        "Lenz's Law",
+        "Self Inductance",
+        "Faraday's Laws",
+        "Power in AC Circuits",
+        "AC Generator",
+        "Transformer",
+        "Induced EMF",
+        "Peak and RMS Values",
+        "Mutual Inductance",
+        "Reactance"
+      ]
+    },
+    {
+      "topic_id": "physics_electromagnetic_waves",
+      "sequence": 5,
+      "subject": "Physics",
+      "topic": "Electromagnetic Waves",
+      "priority": "MEDIUM",
+      "subtopics": [
+        "Electromagnetic Waves",
+        "X-rays",
+        "Properties of EM Waves",
+        "Electromagnetic Spectrum"
+      ]
+    },
+    {
+      "topic_id": "physics_electronic_devices",
+      "sequence": 6,
+      "subject": "Physics",
+      "topic": "Electronic Devices",
+      "priority": "MEDIUM",
+      "subtopics": [
+        "Semiconductor Diode",
+        "Energy Bands",
+        "Semiconductors",
+        "I-V Characteristics"
+      ]
+    },
+    {
+      "topic_id": "physics_electrostatics",
+      "sequence": 7,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "priority": "CRITICAL",
+      "subtopics": [
+        "Electric Field Due to Dipole",
+        "Coulomb's Law",
+        "Dielectrics",
+        "Capacitance",
+        "Potential Due to Point Charge",
+        "Electric Flux",
+        "Potential Difference",
+        "Energy Stored in Capacitor",
+        "Electric Field",
+        "Series and Parallel Combination",
+        "Electric Field Due to Point Charge",
+        "Potential Energy",
+        "Equipotential Surfaces",
+        "Charged Spherical Shell",
+        "Conductors and Insulators",
+        "Superposition Principle"
+      ]
+    },
+    {
+      "topic_id": "physics_magnetic_effects_of_current_and_magnetism",
+      "sequence": 8,
+      "subject": "Physics",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "priority": "CRITICAL",
+      "subtopics": [
+        "Para-, Dia- and Ferromagnetic Materials",
+        "Magnetic Field Due to Straight Wire",
+        "Magnetic Field",
+        "Magnetic Field Due to Circular Loop",
+        "Lorentz Force",
+        "Magnetic Field Due to Bar Magnet",
+        "Moving Coil Galvanometer",
+        "Conversion to Ammeter",
+        "Force Between Parallel Conductors",
+        "Magnetic Dipole Moment",
+        "Current Loop as Magnetic Dipole"
+      ]
+    },
+    {
+      "topic_id": "physics_optics",
+      "sequence": 9,
+      "subject": "Physics",
+      "topic": "Optics",
+      "priority": "CRITICAL",
+      "subtopics": [
+        "Refraction",
+        "Interference",
+        "Power of Lens",
+        "Young's Double Slit Experiment",
+        "Lens Maker's Formula",
+        "Microscope",
+        "Scattering of Light",
+        "Total Internal Reflection",
+        "Spherical Mirrors",
+        "Fringe Width",
+        "Wavefront",
+        "Diffraction",
+        "Astronomical Telescope",
+        "Huygens' Principle",
+        "Reflection",
+        "Dispersion"
+      ]
+    }
+  ]
+}
