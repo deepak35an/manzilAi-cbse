@@ -66,13 +66,13 @@ class StudentResponse(BaseModel):
 
 
 class StudentPlanInfo(BaseModel):
-    duration_months: int
+    duration_months: int | None = None  # None for topic-wise plans
     started_at: datetime | None = None
     current_week: int | None = None
 
 class CuetBatchInfo(BaseModel):
     """One CUET enrollment group: same duration, multiple subjects."""
-    duration_months: int
+    duration_months: int | None = None  # None for topic-wise CUET plans
     subjects: List[str]  # e.g. ["History", "Economics", "Accountancy"]
     started_at: datetime | None = None
     current_week: int | None = None
@@ -82,7 +82,7 @@ class EnrolledBatchInfo(BaseModel):
     exam: str
     is_cuet: bool = False
     subjects: List[str] = []
-    duration_months: int
+    duration_months: int | None = None  # None for topic-wise plans
     started_at: datetime | None = None
     current_week: int | None = None
     plan_id: str | None = None
@@ -444,6 +444,9 @@ async def list_org_students(
         cuet_durs = set()
         b_list = []
         for dur, e_name in p_list:
+            # Topic-wise plans have null duration_months — skip for batch filters
+            if dur is None:
+                continue
             if e_name.startswith("CUET_") or e_name == "CUET":
                 if dur not in cuet_durs:
                     cuet_durs.add(dur)
@@ -595,17 +598,23 @@ async def get_student_detail(
     cuet_enr_rows = res_cuet_enr.scalars().all()
 
     # Calculate batches: group CUET subjects by duration_months into 1 batch per duration group
+    # Topic-wise plans (duration_months=None) are excluded from all_batches duration filters
     cuet_durs_seen = set()
     all_batches = []
     for user_plan, template in plan_rows:
         e_name = template.exam or ""
+        dur = template.duration_months
+        if dur is None:
+            continue
         if e_name.startswith("CUET_") or e_name == "CUET":
-            if template.duration_months not in cuet_durs_seen:
-                cuet_durs_seen.add(template.duration_months)
-                all_batches.append(template.duration_months)
+            if dur not in cuet_durs_seen:
+                cuet_durs_seen.add(dur)
+                all_batches.append(dur)
         else:
-            all_batches.append(template.duration_months)
+            all_batches.append(dur)
     for ce in cuet_enr_rows:
+        if ce.duration_months is None:
+            continue
         if ce.duration_months not in cuet_durs_seen:
             cuet_durs_seen.add(ce.duration_months)
             all_batches.append(ce.duration_months)
@@ -616,7 +625,12 @@ async def get_student_detail(
     exam = None
     cuet_batches_out: list = []
     enrolled_batches_out: list = []
-    cuet_durs_added: set[int] = set()
+    cuet_durs_added: set = set()
+
+    def _sort_dur_key(item):
+        # Put None (topic-wise) after numeric durations
+        dur = item[0]
+        return (dur is None, dur if dur is not None else 0)
 
     for user_plan, template in plan_rows:
         plans_list.append(StudentPlanInfo(
@@ -632,7 +646,7 @@ async def get_student_detail(
         for ce in cuet_enr_rows:
             if ce.template:
                 cuet_by_dur[ce.duration_months].append(ce)
-        for dur, entries in sorted(cuet_by_dur.items()):
+        for dur, entries in sorted(cuet_by_dur.items(), key=_sort_dur_key):
             subjects = []
             first_ce = entries[0]
             cuet_pids = [str(ce.template_id) for ce in entries]
@@ -668,7 +682,7 @@ async def get_student_detail(
         cuet_by_dur: dict = defaultdict(list)
         for up, t in cuet_rows:
             cuet_by_dur[t.duration_months].append((up, t))
-        for dur, entries in sorted(cuet_by_dur.items()):
+        for dur, entries in sorted(cuet_by_dur.items(), key=_sort_dur_key):
             subjects = []
             first_up = entries[0][0]
             first_week = entries[0][0].current_week

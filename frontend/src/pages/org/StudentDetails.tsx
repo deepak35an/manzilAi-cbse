@@ -106,7 +106,10 @@ export default function StudentDetails() {
   const filterParams = activeBatch
     ? {
         plan_id: activeBatch.plan_id || undefined,
-        duration_months: activeBatch.duration_months,
+        // Omit for topic-wise plans (null duration) so the API scopes by plan_id only
+        ...(activeBatch.duration_months != null
+          ? { duration_months: activeBatch.duration_months }
+          : {}),
       }
     : undefined
 
@@ -219,11 +222,13 @@ export default function StudentDetails() {
                 className="bg-gray-50 border border-gray-200 hover:border-primary-500 font-bold text-gray-900 text-sm rounded-xl px-3.5 py-1.5 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500/20 cursor-pointer pr-8 appearance-none transition-all"
               >
                 {batchesList.map((b: any, i: number) => {
+                  const durationLabel =
+                    b.duration_months != null ? `${b.duration_months} months` : 'Topic-wise'
                   const label = b.is_cuet
-                    ? `CUET [${(b.subjects || []).join(', ')}] — ${b.duration_months} months`
-                    : `${b.exam || 'Plan'} — ${b.duration_months} months`
+                    ? `CUET [${(b.subjects || []).join(', ')}] — ${durationLabel}`
+                    : `${b.exam || 'Plan'} — ${durationLabel}`
                   return (
-                    <option key={`${b.exam}-${b.duration_months}-${i}`} value={i}>
+                    <option key={`${b.exam}-${b.duration_months ?? 'topic'}-${i}`} value={i}>
                       {label}
                     </option>
                   )

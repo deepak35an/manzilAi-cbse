@@ -32,13 +32,13 @@ export interface OrgStudent {
 }
 
 export interface StudentPlanInfo {
-  duration_months: number
+  duration_months: number | null
   started_at: string | null
   current_week: number | null
 }
 
 export interface CuetBatchInfo {
-  duration_months: number
+  duration_months: number | null
   subjects: string[]
   started_at: string | null
   current_week: number | null
@@ -48,7 +48,7 @@ export interface EnrolledBatchInfo {
   exam: string
   is_cuet: boolean
   subjects: string[]
-  duration_months: number
+  duration_months: number | null
   started_at: string | null
   current_week: number | null
   plan_id?: string | null
