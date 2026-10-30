@@ -32,13 +32,13 @@ export default function EvaluationSelector() {
   const [isChangingStrategy, setIsChangingStrategy] = useState(false)
   const setQuizState = useQuizStore((state) => state.startQuiz)
 
-  const savePlan = (plan: string, id: string, completed?: number[], current?: number, exam?: string, duration?: number) => {
+  const savePlan = (plan: string, id: string, completed?: number[], current?: number, exam?: string, duration?: number | null) => {
     setStudyPlan(plan)
     setPlanId(id)
     if (completed) setCompletedWeeks(completed)
     if (current) setCurrentWeek(current)
     if (exam) setSelectedExam(exam)
-    if (duration) setPrepDuration(duration)
+    if (duration != null) setPrepDuration(duration)
     localStorage.setItem('studyPlan', plan)
     localStorage.setItem('planId', id)
   }
@@ -192,7 +192,7 @@ export default function EvaluationSelector() {
   const planMutation = useMutation({
     mutationFn: generateStudyPlan,
     onSuccess: (data, variables) => {
-      savePlan(data.plan, data.plan_id, data.completed_weeks, data.current_week, variables.exam, variables.duration_months)
+      savePlan(data.plan, data.plan_id, data.completed_weeks, data.current_week, variables.exam, data.duration_months ?? variables.duration_months)
       toast.success('Strategy generated!')
     },
     onError: () => toast.error('Failed to generate strategy'),

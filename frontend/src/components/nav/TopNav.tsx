@@ -72,21 +72,24 @@ export default function TopNav() {
   // Group CUET subject plans by duration into combined CUET journeys
   const displayPlans: (import('@/types/exam').ExamJourney & { isCuetGroup?: boolean; isGroupActive?: boolean; displayLabel?: string })[] = []
   if (plans && plans.length > 0) {
-    const cuetGroupMap: Record<number, any> = {}
+    const cuetGroupMap: Record<string, any> = {}
     for (const p of plans) {
       if (p.exam?.startsWith('CUET_') || p.exam === 'CUET') {
-        if (!cuetGroupMap[p.duration_months]) {
+        const groupKey = String(p.duration_months ?? 'topic')
+        if (!cuetGroupMap[groupKey]) {
           const isGroupActive = plans.some(
             (item) => (item.exam?.startsWith('CUET_') || item.exam === 'CUET') && item.duration_months === p.duration_months && item.plan_id === currentPlanId
           )
           const cuetEntry = {
             ...p,
             exam: 'CUET',
-            displayLabel: `CUET (${p.duration_months} Month Plan)`,
+            displayLabel: p.plan_type === 'TOPIC_WISE_TESTS' || !p.duration_months
+              ? 'CUET (Topic-wise Plan)'
+              : `CUET (${p.duration_months} Month Plan)`,
             isCuetGroup: true,
             isGroupActive,
           }
-          cuetGroupMap[p.duration_months] = cuetEntry
+          cuetGroupMap[groupKey] = cuetEntry
           displayPlans.push(cuetEntry)
         }
       } else {
@@ -129,7 +132,9 @@ export default function TopNav() {
                   >
                     <div>
                       <p className="font-medium">{plan.displayLabel || plan.exam}</p>
-                      <p className="text-xs text-gray-400">Week {plan.current_week} of {plan.total_weeks}</p>
+                      <p className="text-xs text-gray-400">
+                        {plan.plan_type === 'TOPIC_WISE_TESTS' ? 'Topic' : 'Week'} {plan.current_week} of {plan.total_weeks}
+                      </p>
                     </div>
                     {plan.isGroupActive && (
                       <span className="text-xs bg-primary-100 text-primary-700 px-2 py-0.5 rounded-full font-semibold">Active</span>

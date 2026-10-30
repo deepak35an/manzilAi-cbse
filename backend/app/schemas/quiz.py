@@ -23,7 +23,8 @@ class QuizStartResponse(BaseModel):
 
 class StudyPlanRequest(BaseModel):
     exam: str
-    duration_months: int
+    # Optional for topic-wise (durationless) templates; required for week-wise generation
+    duration_months: Optional[int] = None
     topic_proficiency: Optional[dict] = None  # {topic_name: 1-5 rating}
 
 
@@ -31,16 +32,18 @@ class StudyPlanResponse(BaseModel):
     plan: str
     plan_id: str
     exam: str
-    duration_months: int
+    duration_months: Optional[int] = None
     completed_weeks: Optional[List[int]] = []
     current_week: Optional[int] = 1
+    plan_type: Optional[str] = None  # e.g. TOPIC_WISE_TESTS
+    total_weeks: Optional[int] = None  # weeks OR topic count (API field name kept for compat)
 
 
 class WeeklyTestRequest(BaseModel):
     plan_id: str
-    week_number: int
+    week_number: int  # Week number OR topic sequence for topic-wise plans
     exam: str
-    test_number: int = 1  # Which sub-test within the week (1, 2, or 3)
+    test_number: int = 1  # Sub-test within the week (always 1 for topic-wise)
 
 
 class QuestionOut(BaseModel):

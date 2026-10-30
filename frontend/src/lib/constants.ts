@@ -55,7 +55,10 @@ export const STUDENT_ROUTES = {
   JOB_DASHBOARD: '/student/job/dashboard',
 }
 
-export const EXAM_TYPES = ['GATE', 'CUET', 'JEE', 'UPSC_CSE', 'CAT', 'Other']
+export const EXAM_TYPES = ['GATE', 'CUET', 'CBSE Class 10', 'JEE', 'UPSC_CSE', 'CAT', 'Other']
+
+/** Exams that use durationless topic-wise study plans (one test per topic). */
+export const TOPIC_WISE_EXAMS = ['CBSE Class 10', 'CBSE', 'CBSE_10']
 
 export const PREP_DURATIONS = [
   { months: 3, label: '3 Months', description: 'Intensive crash course' },

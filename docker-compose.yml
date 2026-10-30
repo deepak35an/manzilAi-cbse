@@ -60,6 +60,7 @@ services:
     volumes:
       - ./backend/data:/data
       - ./backend/pipelines:/app/pipelines
+      - ./backend/scripts:/app/scripts
     depends_on:
       postgres:
         condition: service_healthy

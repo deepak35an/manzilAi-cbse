@@ -1192,8 +1192,8 @@ async def get_available_exams(
         "CUET",
         "CAT",
         "Class 10 CBSE",
+        "CBSE_10_SOCIAL_SCIENCE",
         "Class 12 CBSE",
-        
     ]
 
     # Merge DB exams (org-specific content) with the static list

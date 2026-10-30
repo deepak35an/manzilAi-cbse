@@ -31,10 +31,53 @@ from app.services.evaluation_service import evaluate_answer, generate_session_su
 from app.services.performance_service import update_topic_performance
 from app.services.ai.gemini_client import generate_study_plan
 from app.services.ai.gemma_client import generate_grading, generate_summary
+from app.services.study_plan_utils import (
+    TOPIC_WISE_PLAN_TYPE,
+    TOPIC_WISE_TEST_SIZE,
+    content_subfolders_for_exam,
+    exam_allocation_matches,
+    extract_targets_for_unit,
+    is_topic_wise_plan,
+    parse_plan_json,
+    resolve_exam_key,
+    sample_topic_test_questions,
+    tests_required_for_plan,
+    total_units_for_template,
+)
 import json as json_mod
 import re
 
 router = APIRouter()
+
+
+def _unit_label(plan_obj: dict, unit_number: int, test_number: int = 1) -> str:
+    """Human-readable label for a week or topic-unit test."""
+    if is_topic_wise_plan(plan_obj):
+        _, labels, _ = extract_targets_for_unit(plan_obj, unit_number, topic_wise=True)
+        name = labels[0] if labels else f"Topic {unit_number}"
+        return name
+    return f"W-{unit_number} Test {test_number}"
+
+
+async def _resolve_cuet_duration(
+    db: AsyncSession,
+    user_id: uuid.UUID,
+    template_id: uuid.UUID,
+    template_duration: Optional[int],
+) -> Optional[int]:
+    """CUET enrollments keep duration_months even when the template is topic-wise (NULL)."""
+    from app.models.quiz import CuetEnrollment
+
+    own_q = await db.execute(
+        select(CuetEnrollment).where(
+            CuetEnrollment.user_id == user_id,
+            CuetEnrollment.template_id == template_id,
+        )
+    )
+    own = own_q.scalar_one_or_none()
+    if own is not None:
+        return own.duration_months
+    return template_duration
 
 
 # @router.post("/start-pyq", response_model=QuizStartResponse)
@@ -300,7 +343,7 @@ async def complete_quiz(
     # with ai_summary=None, then the background task stores it when Ollama finishes.
     ai_summary = None
 
-    # If this was a weekly test, mark it as completed only when ALL sub-tests for the week are done
+    # If this was a plan unit test (week or topic), mark complete when all sub-tests are done
     metadata = state.get("metadata")
     if metadata and "plan_id" in metadata and "week_number" in metadata:
         from app.models.quiz import UserStudyPlan, StudyPlanTemplate, CuetEnrollment
@@ -308,28 +351,32 @@ async def complete_quiz(
         week_num = metadata["week_number"]
         test_num = metadata.get("test_number", 1)
 
-        # Determine how many tests are required for this plan's duration
         tmpl_q2 = await db.execute(
             select(StudyPlanTemplate).where(StudyPlanTemplate.id == uuid.UUID(plan_id))
         )
         tmpl2 = tmpl_q2.scalar_one_or_none()
+        plan_obj2 = parse_plan_json(tmpl2.plan) if tmpl2 else {}
         duration = tmpl2.duration_months if tmpl2 else 6
-        tests_per_week = 2 if duration >= 12 else 3
+        tests_per_week = tests_required_for_plan(plan_obj2, duration)
 
         is_cuet = tmpl2 and (tmpl2.exam.startswith("CUET_") or tmpl2.exam == "CUET")
         cuet_tmpl_ids = [uuid.UUID(plan_id)]
         if is_cuet:
-            cuet_q = await db.execute(
-                select(CuetEnrollment).where(
-                    CuetEnrollment.user_id == user.id,
-                    CuetEnrollment.duration_months == duration,
-                )
+            cuet_dur = await _resolve_cuet_duration(
+                db, user.id, uuid.UUID(plan_id), duration
             )
-            cuet_enrollments = cuet_q.scalars().all()
-            if cuet_enrollments:
-                cuet_tmpl_ids = [e.template_id for e in cuet_enrollments]
+            if cuet_dur is not None:
+                cuet_q = await db.execute(
+                    select(CuetEnrollment).where(
+                        CuetEnrollment.user_id == user.id,
+                        CuetEnrollment.duration_months == cuet_dur,
+                    )
+                )
+                cuet_enrollments = cuet_q.scalars().all()
+                if cuet_enrollments:
+                    cuet_tmpl_ids = [e.template_id for e in cuet_enrollments]
 
-        # Count how many distinct test_numbers for this week now have a completed TestResult
+        # Count how many distinct test_numbers for this unit now have a completed TestResult
         done_sessions_q = await db.execute(
             select(QuizSession).where(
                 QuizSession.user_id == user.id,
@@ -352,7 +399,7 @@ async def complete_quiz(
         done_count += 1
 
         if done_count >= tests_per_week:
-            # All sub-tests done — mark week as complete across all matching enrolled plans
+            # All sub-tests done — mark unit complete across matching enrolled plans
             user_plans_q = await db.execute(
                 select(UserStudyPlan).where(
                     UserStudyPlan.user_id == user.id,
@@ -523,8 +570,7 @@ async def get_session_meta(
     db: AsyncSession = Depends(get_db),
     redis: aioredis.Redis = Depends(get_redis),
 ):
-    """Return metadata about a planned weekly test (topics, question count) for instructions page."""
-    # Load plan from DB
+    """Return metadata about a planned unit test (week or topic) for the instructions page."""
     from app.models.quiz import StudyPlanTemplate, UserStudyPlan
     usp_q = await db.execute(
         select(UserStudyPlan).where(
@@ -544,78 +590,58 @@ async def get_session_meta(
         raise HTTPException(status_code=404, detail="Plan template not found")
 
     is_cuet = tmpl.exam.startswith("CUET_") or tmpl.exam == "CUET"
+    primary_plan = parse_plan_json(tmpl.plan)
+    topic_wise = is_topic_wise_plan(primary_plan)
     topics: list[str] = []
     weightage = 0
     targets: list[dict] = []
-    exam_keys: list[str] = [tmpl.exam]
+    exam_keys: list[str] = content_subfolders_for_exam(tmpl.exam)
+    plan_obj_for_tests = primary_plan
 
     if is_cuet:
         from app.models.quiz import CuetEnrollment
         from sqlalchemy.orm import joinedload
-        cuet_q = await db.execute(
-            select(CuetEnrollment)
-            .options(joinedload(CuetEnrollment.template))
-            .where(
-                CuetEnrollment.user_id == user.id,
-                CuetEnrollment.duration_months == tmpl.duration_months,
-            )
+        cuet_dur = await _resolve_cuet_duration(
+            db, user.id, uuid.UUID(plan_id), tmpl.duration_months
         )
-        cuet_enrollments = cuet_q.scalars().all()
+        cuet_enrollments = []
+        if cuet_dur is not None:
+            cuet_q = await db.execute(
+                select(CuetEnrollment)
+                .options(joinedload(CuetEnrollment.template))
+                .where(
+                    CuetEnrollment.user_id == user.id,
+                    CuetEnrollment.duration_months == cuet_dur,
+                )
+            )
+            cuet_enrollments = cuet_q.scalars().all()
         if cuet_enrollments:
-            exam_keys = [e.template.exam for e in cuet_enrollments]
+            exam_keys = []
             for e in cuet_enrollments:
-                try:
-                    raw = e.template.plan.strip()
-                    if raw.startswith("```"):
-                        raw = raw.split("```")[1].split("```")[0].strip()
-                        if raw.startswith("json"):
-                            raw = raw[4:].strip()
-                    plan_obj = json_mod.loads(raw)
-                    week_data = next((w for w in plan_obj.get("roadmap", []) if w.get("week") == week_number), None)
-                    if week_data:
-                        for sb in week_data.get("subjects", []):
-                            t = sb.get("topic", "")
-                            if t and t not in topics:
-                                topics.append(t)
-                            targets.append({
-                                "subject": (sb.get("subject") or "").lower().strip(),
-                                "topic": (sb.get("topic") or "").lower().strip(),
-                                "subtopics": [s.lower().strip() for s in sb.get("subtopics", []) if s],
-                            })
-                except Exception:
-                    pass
+                exam_keys.extend(content_subfolders_for_exam(e.template.exam))
+            exam_keys = list(dict.fromkeys(exam_keys))
+            for e in cuet_enrollments:
+                plan_obj = parse_plan_json(e.template.plan)
+                unit_targets, labels, meta = extract_targets_for_unit(plan_obj, week_number)
+                targets.extend(unit_targets)
+                for label in labels:
+                    if label and label not in topics:
+                        topics.append(label)
+                if meta.get("weightage"):
+                    weightage = meta["weightage"]
+            plan_obj_for_tests = parse_plan_json(cuet_enrollments[0].template.plan)
     else:
-        try:
-            raw = tmpl.plan.strip()
-            if raw.startswith("```"):
-                raw = raw.split("```")[1].split("```")[0].strip()
-                if raw.startswith("json"):
-                    raw = raw[4:].strip()
-            plan_obj = json_mod.loads(raw)
-            roadmap = plan_obj.get("roadmap", [])
-            week_data = next((w for w in roadmap if w["week"] == week_number), None)
-            if week_data:
-                for sb in week_data.get("subjects", []):
-                    t = sb.get("topic", "")
-                    if t:
-                        topics.append(t)
-                    targets.append({
-                        "subject": (sb.get("subject") or "").lower().strip(),
-                        "topic": (sb.get("topic") or "").lower().strip(),
-                        "subtopics": [s.lower().strip() for s in sb.get("subtopics", []) if s],
-                    })
-                weightage = week_data.get("weightage", 0)
-        except Exception:
-            pass
+        unit_targets, labels, meta = extract_targets_for_unit(primary_plan, week_number)
+        targets = unit_targets
+        topics = labels
+        weightage = meta.get("weightage") or 0
 
     # Count questions for this specific test's slice (mirrors start_weekly_test split logic)
     question_count = 0
     if targets:
-        import hashlib
         from app.models.content_registry import SourceType
 
-        duration_months = tmpl.duration_months
-        tests_per_week = 2 if duration_months >= 12 else 3
+        tests_per_week = tests_required_for_plan(plan_obj_for_tests, tmpl.duration_months)
         safe_test_number = max(1, min(test_number, tests_per_week))
 
         stmt = (
@@ -641,12 +667,14 @@ async def get_session_meta(
         matched_questions = await match_questions_for_targets(targets, registries, redis)
         matched_questions = interleave_questions_by_subject(matched_questions)
 
-        total_q = len(matched_questions)
-        chunk_size = (total_q + tests_per_week - 1) // tests_per_week
-        start_idx = (safe_test_number - 1) * chunk_size
-        end_idx = min(start_idx + chunk_size, total_q)
-        question_count = end_idx - start_idx
-
+        if topic_wise:
+            question_count = min(TOPIC_WISE_TEST_SIZE, len(matched_questions))
+        else:
+            total_q = len(matched_questions)
+            chunk_size = (total_q + tests_per_week - 1) // tests_per_week
+            start_idx = (safe_test_number - 1) * chunk_size
+            end_idx = min(start_idx + chunk_size, total_q)
+            question_count = end_idx - start_idx
 
     return {
         "plan_id": plan_id,
@@ -657,6 +685,9 @@ async def get_session_meta(
         "question_count": question_count or 0,
         "marks_per_question": 1,
         "negative_marking": False,
+        "plan_type": TOPIC_WISE_PLAN_TYPE if topic_wise else None,
+        "tests_per_week": tests_required_for_plan(plan_obj_for_tests, tmpl.duration_months),
+        "label": _unit_label(primary_plan, week_number, test_number),
     }
 
 
@@ -695,11 +726,28 @@ async def get_session_result(
     completed = session.completed_at if session else None
     time_seconds = int((completed - started).total_seconds()) if started and completed else 0
 
+    plan_type = None
+    unit_label = None
+    if session and session.plan_id:
+        from app.models.quiz import StudyPlanTemplate
+        tmpl_q = await db.execute(
+            select(StudyPlanTemplate).where(StudyPlanTemplate.id == session.plan_id)
+        )
+        tmpl = tmpl_q.scalar_one_or_none()
+        if tmpl:
+            plan_obj = parse_plan_json(tmpl.plan)
+            if is_topic_wise_plan(plan_obj):
+                plan_type = TOPIC_WISE_PLAN_TYPE
+                if session.week_number:
+                    unit_label = _unit_label(plan_obj, session.week_number, session.test_number or 1)
+
     return {
         "session_id": session_id,
         "plan_id": str(session.plan_id) if session and session.plan_id else None,
         "week_number": session.week_number if session else None,
         "test_number": session.test_number if session else None,
+        "plan_type": plan_type,
+        "label": unit_label,
         "total_score": result.total_score,
         "max_score": result.max_score,
         "theta_final": result.theta_final,
@@ -724,39 +772,50 @@ async def generate_plan_endpoint(
     from app.models.content_registry import SourceType
     from app.models.quiz import StudyPlanTemplate, UserStudyPlan
 
-    # Normalise friendly frontend exam keys → actual DB/subfolder names
-    EXAM_ALIAS: dict[str, str] = {
-        "GATE": "GATE_CSE_PYQ",
-        "GATE CSE": "GATE_CSE_PYQ",
-        "GATE_CSE": "GATE_CSE_PYQ",
-    }
-    exam_key = EXAM_ALIAS.get(request.exam, request.exam)
+    exam_key = resolve_exam_key(request.exam)
 
     # Enforce exam allocation: students may only generate plans for their allocated exams
     if user.role.value == "student":
         allocated = (user.metadata_ or {}).get("allocated_exams", [])
-        if allocated and exam_key not in allocated:
+        if not exam_allocation_matches(allocated, exam_key):
             raise HTTPException(
                 status_code=403,
                 detail=f"You are not allocated to prepare for '{exam_key}'. Please contact your organization."
             )
 
-    # 1. Check if a pre-made template already exists for this exam/duration
+    # 1. Prefer topic-wise (durationless) template for this exam; else week-wise by duration
     template_q = await db.execute(
         select(StudyPlanTemplate).where(
             StudyPlanTemplate.exam == exam_key,
-            StudyPlanTemplate.duration_months == request.duration_months
+            StudyPlanTemplate.duration_months.is_(None),
         )
     )
     template = template_q.scalar_one_or_none()
-    
+
+    if not template and request.duration_months is not None:
+        template_q = await db.execute(
+            select(StudyPlanTemplate).where(
+                StudyPlanTemplate.exam == exam_key,
+                StudyPlanTemplate.duration_months == request.duration_months,
+            )
+        )
+        template = template_q.scalar_one_or_none()
+
     if not template:
-        # Template doesn't exist, generate it via AI
-        # (Keep the existing registry/hierarchy logic to feed the AI)
+        if request.duration_months is None:
+            raise HTTPException(
+                status_code=404,
+                detail=(
+                    f"No topic-wise study plan template for '{exam_key}'. "
+                    "Run pipelines/generate_study_plan.py and upsert it first."
+                ),
+            )
+        # Legacy: generate a week-wise plan via AI when no pre-made template exists
+        content_keys = content_subfolders_for_exam(exam_key)
         if user.role.value == "super_admin":
             stmt = select(ContentRegistry).where(
                 ContentRegistry.source_type == SourceType.pyq,
-                ContentRegistry.subfolder == exam_key
+                ContentRegistry.subfolder.in_(content_keys),
             )
         else:
             stmt = (
@@ -764,7 +823,7 @@ async def generate_plan_endpoint(
                 .outerjoin(ContentAccess)
                 .where(
                     ContentRegistry.source_type == SourceType.pyq,
-                    ContentRegistry.subfolder == exam_key,
+                    ContentRegistry.subfolder.in_(content_keys),
                     or_(
                         ContentRegistry.visibility == Visibility.global_,
                         ContentAccess.org_id == user.org_id
@@ -772,15 +831,15 @@ async def generate_plan_endpoint(
                 )
                 .distinct()
             )
-        
+
         result = await db.execute(stmt)
         records = result.scalars().all()
         if not records:
             raise HTTPException(status_code=404, detail="No content found for this examination category")
-        
+
         registries = [{"id": str(r.id), "file_path": r.file_path} for r in records]
         hierarchy = await get_pyq_subtopics(registries, redis)
-        
+
         table_lines = []
         for subj in hierarchy:
             table_lines.append(f"{subj['subject']}")
@@ -789,11 +848,10 @@ async def generate_plan_endpoint(
                 for sub in topic['subtopics']:
                     table_lines.append(f"    - {sub}")
         topic_table_str = "\n".join(table_lines)
-        
+
         duration_weeks = request.duration_months * 4
         plan_text = await generate_study_plan(duration_weeks, topic_table_str, request.topic_proficiency)
-        
-        # Save as new template
+
         template = StudyPlanTemplate(
             exam=exam_key,
             duration_months=request.duration_months,
@@ -839,23 +897,25 @@ async def generate_plan_endpoint(
 
     await db.commit()
     
-    # 3. For backward compatibility with Redis weekly tests
-    # We store the plan in Redis using the template ID as the plan_id
+    plan_obj = parse_plan_json(plan_text)
     plan_data = {
         "plan": plan_text,
         "exam": exam_key,
         "user_id": str(user.id),
-        "duration_months": request.duration_months,
+        "duration_months": template.duration_months,
+        "plan_type": plan_obj.get("plan_type"),
     }
     await redis.setex(f"study_plan:{template.id}", 86400 * 30, json_mod.dumps(plan_data))
-    
+
     return StudyPlanResponse(
-        plan=plan_text, 
+        plan=plan_text,
         plan_id=str(template.id),
         exam=template.exam,
         duration_months=template.duration_months,
         completed_weeks=user_plan.completed_weeks,
-        current_week=user_plan.current_week
+        current_week=user_plan.current_week,
+        plan_type=plan_obj.get("plan_type") if is_topic_wise_plan(plan_obj) else None,
+        total_weeks=total_units_for_template(plan_obj, template.duration_months),
     )
 
 
@@ -874,36 +934,39 @@ async def get_my_plan(
     stmt = select(UserStudyPlan).options(joinedload(UserStudyPlan.template)).join(StudyPlanTemplate).where(UserStudyPlan.user_id == user.id)
     if exam:
         stmt = stmt.where(StudyPlanTemplate.exam == exam)
-    if duration_months:
+    if duration_months is not None:
         stmt = stmt.where(StudyPlanTemplate.duration_months == duration_months)
-    
+
     # Order by most recent link
     stmt = stmt.order_by(UserStudyPlan.created_at.desc())
-    
+
     result = await db.execute(stmt)
     user_plan = result.scalars().first()
-    
+
     if not user_plan:
         raise HTTPException(status_code=404, detail="No matching study plan found")
-    
-    template = user_plan.template
 
-    # Refresh Redis for weekly tests
+    template = user_plan.template
+    plan_obj = parse_plan_json(template.plan)
+
     plan_data = {
         "plan": template.plan,
         "exam": template.exam,
         "user_id": str(user.id),
         "duration_months": template.duration_months,
+        "plan_type": plan_obj.get("plan_type"),
     }
     await redis.setex(f"study_plan:{template.id}", 86400 * 30, json_mod.dumps(plan_data))
-    
+
     return StudyPlanResponse(
-        plan=template.plan, 
+        plan=template.plan,
         plan_id=str(template.id),
         exam=template.exam,
         duration_months=template.duration_months,
         completed_weeks=user_plan.completed_weeks,
-        current_week=user_plan.current_week
+        current_week=user_plan.current_week,
+        plan_type=plan_obj.get("plan_type") if is_topic_wise_plan(plan_obj) else None,
+        total_weeks=total_units_for_template(plan_obj, template.duration_months),
     )
 
 
@@ -914,7 +977,7 @@ async def get_plan_status(
     db: AsyncSession = Depends(get_db),
     redis: aioredis.Redis = Depends(get_redis),
 ):
-    """Return week-by-week plan status with session/result IDs for lock/unlock UI."""
+    """Return unit-by-unit plan status (weeks or topics) with session/result IDs for lock/unlock UI."""
     from app.models.quiz import UserStudyPlan, StudyPlanTemplate, TestResult
 
     try:
@@ -922,7 +985,6 @@ async def get_plan_status(
     except ValueError:
         raise HTTPException(status_code=400, detail="Invalid plan_id")
 
-    # Load user study plan
     plan_q = await db.execute(
         select(UserStudyPlan)
         .options(__import__('sqlalchemy.orm', fromlist=['joinedload']).joinedload(UserStudyPlan.template))
@@ -933,11 +995,12 @@ async def get_plan_status(
         raise HTTPException(status_code=404, detail="Study plan not found")
 
     template = user_plan.template
-    total_weeks = template.duration_months * 4
+    full_plan = parse_plan_json(template.plan)
+    topic_wise = is_topic_wise_plan(full_plan)
+    total_weeks = total_units_for_template(full_plan, template.duration_months)
     completed = set(user_plan.completed_weeks or [])
     current = user_plan.current_week
 
-    # Parse plan JSON to extract week topics, subjects, priority, and subtopics
     week_topics: dict[int, list[str]] = {}
     week_subtopics: dict[int, list[str]] = {}
     week_weightage: dict[int, int] = {}
@@ -945,76 +1008,99 @@ async def get_plan_status(
     week_priority: dict[int, str] = {}
 
     PRIORITY_ORDER = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
+    safe_total = max(total_weeks, 1)
 
-    try:
-        clean = template.plan.strip()
-        if clean.startswith('```'):
-            clean = clean.split('\n', 1)[1].rsplit('```', 1)[0].strip()
-        full_plan = json_mod.loads(clean)
-        for wk in full_plan.get("roadmap", []):
-            wn = wk.get("week")
-            if wn:
-                subjects = wk.get("subjects", [])
-                topics = [s.get("topic", "") for s in subjects if s.get("topic")]
-                subtopics = []
-                for s in subjects:
-                    subtopics.extend(s.get("subtopics", []))
-                # Collect unique subject names for this week
-                unique_subjects = list(dict.fromkeys(
-                    s.get("subject", "") for s in subjects if s.get("subject")
-                ))
-                # Find the average priority level across all subjects this week
-                priority_scores = [PRIORITY_ORDER[s.get("priority", "").upper()]
-                                   for s in subjects
-                                   if s.get("priority", "").upper() in PRIORITY_ORDER]
-                if priority_scores:
-                    avg = sum(priority_scores) / len(priority_scores)
-                    if avg <= 0.5:
-                        top_priority = "CRITICAL"
-                    elif avg <= 1.5:
-                        top_priority = "HIGH"
-                    elif avg <= 2.5:
-                        top_priority = "MEDIUM"
+    if topic_wise:
+        topics_list = full_plan.get("topics") or []
+        source_total = sum(
+            int((t.get("test") or {}).get("question_count") or t.get("question_count") or 0)
+            for t in topics_list if isinstance(t, dict)
+        ) or safe_total
+        for idx, topic in enumerate(topics_list, start=1):
+            if not isinstance(topic, dict):
+                continue
+            wn = int(topic.get("sequence") or idx)
+            name = topic.get("topic") or ""
+            subs = topic.get("subtopics") or []
+            if subs and isinstance(subs[0], dict):
+                sub_names = [s.get("name") or s.get("subtopic") or "" for s in subs]
+            else:
+                sub_names = [s for s in subs if isinstance(s, str)]
+            q_count = int(
+                (topic.get("test") or {}).get("question_count")
+                or topic.get("question_count")
+                or 0
+            )
+            week_topics[wn] = [name] if name else []
+            week_subtopics[wn] = [s for s in sub_names if s]
+            week_subject[wn] = topic.get("subject") or ""
+            week_priority[wn] = (topic.get("priority") or "").upper()
+            week_weightage[wn] = max(1, round(100 * q_count / source_total)) if source_total else max(1, 100 // safe_total)
+    else:
+        try:
+            for wk in full_plan.get("roadmap", []):
+                wn = wk.get("week")
+                if wn:
+                    subjects = wk.get("subjects", [])
+                    topics = [s.get("topic", "") for s in subjects if s.get("topic")]
+                    subtopics = []
+                    for s in subjects:
+                        subtopics.extend(s.get("subtopics", []))
+                    unique_subjects = list(dict.fromkeys(
+                        s.get("subject", "") for s in subjects if s.get("subject")
+                    ))
+                    priority_scores = [PRIORITY_ORDER[s.get("priority", "").upper()]
+                                       for s in subjects
+                                       if s.get("priority", "").upper() in PRIORITY_ORDER]
+                    if priority_scores:
+                        avg = sum(priority_scores) / len(priority_scores)
+                        if avg <= 0.5:
+                            top_priority = "CRITICAL"
+                        elif avg <= 1.5:
+                            top_priority = "HIGH"
+                        elif avg <= 2.5:
+                            top_priority = "MEDIUM"
+                        else:
+                            top_priority = "LOW"
                     else:
-                        top_priority = "LOW"
-                else:
-                    top_priority = ""
-                # weightage may not exist in JSON; fall back to equal split
-                weight = wk.get("weightage", 100 // total_weeks)
-                week_topics[wn] = topics
-                week_subtopics[wn] = subtopics
-                week_weightage[wn] = weight
-                week_subject[wn] = ", ".join(unique_subjects)
-                week_priority[wn] = top_priority
-    except Exception:
-        pass
+                        top_priority = ""
+                    weight = wk.get("weightage", 100 // safe_total)
+                    week_topics[wn] = topics
+                    week_subtopics[wn] = subtopics
+                    week_weightage[wn] = weight
+                    week_subject[wn] = ", ".join(unique_subjects)
+                    week_priority[wn] = top_priority
+        except Exception:
+            pass
 
     is_cuet = template.exam.startswith("CUET_") or template.exam == "CUET"
     cuet_tmpl_ids = [plan_uuid]
+    cuet_dur = None
     if is_cuet:
         from app.models.quiz import CuetEnrollment
-        cuet_q = await db.execute(
-            select(CuetEnrollment).where(
-                CuetEnrollment.user_id == user.id,
-                CuetEnrollment.duration_months == template.duration_months,
-            )
+        cuet_dur = await _resolve_cuet_duration(
+            db, user.id, plan_uuid, template.duration_months
         )
-        enrollments = cuet_q.scalars().all()
-        if enrollments:
-            cuet_tmpl_ids = [e.template_id for e in enrollments]
+        if cuet_dur is not None:
+            cuet_q = await db.execute(
+                select(CuetEnrollment).where(
+                    CuetEnrollment.user_id == user.id,
+                    CuetEnrollment.duration_months == cuet_dur,
+                )
+            )
+            enrollments = cuet_q.scalars().all()
+            if enrollments:
+                cuet_tmpl_ids = [e.template_id for e in enrollments]
 
-    # Load existing sessions for this plan (or all enrolled CUET subject plans), keyed by (week_number, test_number)
     sessions_q = await db.execute(
         select(QuizSession).where(
             QuizSession.user_id == user.id,
             QuizSession.plan_id.in_(cuet_tmpl_ids),
-            QuizSession.completed_at.isnot(None),  # only completed sessions
+            QuizSession.completed_at.isnot(None),
         )
     )
     all_sessions = sessions_q.scalars().all()
 
-
-    # Build map: week_number -> {test_number -> (session, result_id)}
     week_session_map: dict[int, dict[int, tuple]] = {}
     for s in all_sessions:
         wn = s.week_number or 0
@@ -1025,23 +1111,22 @@ async def get_plan_status(
             select(TestResult).where(TestResult.session_id == s.id)
         )
         tr = tr_q.scalar_one_or_none()
-        # Keep the latest session per (week, test_number)
         week_session_map[wn][tn] = (s, str(tr.id) if tr else None)
 
-    # Determine tests_per_week from duration
-    duration_months = template.duration_months
-    tests_per_week = 2 if duration_months >= 12 else 3
+    tests_per_week = tests_required_for_plan(full_plan, template.duration_months)
 
     weeks = []
     for wn in range(1, total_weeks + 1):
         if wn in completed:
             week_status = "completed"
+        elif topic_wise:
+            # Topic-wise: every topic is selectable (no sequential lock)
+            week_status = "current"
         elif wn == current:
             week_status = "current"
         else:
             week_status = "locked"
 
-        # Build per-test status list
         test_map = week_session_map.get(wn, {})
         completed_test_numbers = set(test_map.keys())
         tests = []
@@ -1054,8 +1139,7 @@ async def get_plan_status(
                 test_status = "locked"
                 test_session_id = None
                 result_id = None
-            elif (tn - 1) in completed_test_numbers or tn == 1:
-                # Test is available: it's either test 1, or previous test is done
+            elif topic_wise or (tn - 1) in completed_test_numbers or tn == 1:
                 test_status = "current"
                 test_session_id = None
                 result_id = None
@@ -1076,18 +1160,17 @@ async def get_plan_status(
             "priority": week_priority.get(wn, ""),
             "topics": week_topics.get(wn, []),
             "subtopics": week_subtopics.get(wn, []),
-            "weightage": week_weightage.get(wn, max(1, 100 // total_weeks)),
+            "weightage": week_weightage.get(wn, max(1, 100 // safe_total)),
             "status": week_status,
             "tests_per_week": tests_per_week,
             "tests": tests,
-            # Legacy single-session fields (for backwards compat)
             "session_id": tests[0]["session_id"] if tests else None,
             "result_id": tests[0]["result_id"] if tests else None,
+            "question_count": TOPIC_WISE_TEST_SIZE if topic_wise else None,
         })
 
-    is_cuet = template.exam.startswith("CUET_") or template.exam == "CUET"
     cuet_subjects = []
-    if is_cuet:
+    if is_cuet and cuet_dur is not None:
         from app.models.quiz import CuetEnrollment
         from sqlalchemy.orm import joinedload
         cuet_q = await db.execute(
@@ -1095,7 +1178,7 @@ async def get_plan_status(
             .options(joinedload(CuetEnrollment.template))
             .where(
                 CuetEnrollment.user_id == user.id,
-                CuetEnrollment.duration_months == template.duration_months,
+                CuetEnrollment.duration_months == cuet_dur,
             )
         )
         cuet_enrollments = cuet_q.scalars().all()
@@ -1116,6 +1199,7 @@ async def get_plan_status(
         "current_week": current,
         "total_weeks": total_weeks,
         "weeks": weeks,
+        "plan_type": TOPIC_WISE_PLAN_TYPE if topic_wise else None,
     }
 
 
@@ -1137,19 +1221,22 @@ async def get_my_plans(
     )
     plans = result.scalars().all()
 
-    return [
-        {
+    out = []
+    for p in plans:
+        plan_obj = parse_plan_json(p.template.plan)
+        topic_wise = is_topic_wise_plan(plan_obj)
+        out.append({
             "plan_id": str(p.template_id),
             "exam": p.template.exam,
             "duration_months": p.template.duration_months,
             "current_week": p.current_week,
-            "total_weeks": p.template.duration_months * 4,
+            "total_weeks": total_units_for_template(plan_obj, p.template.duration_months),
             "completed_weeks": p.completed_weeks or [],
             "topic_proficiency": p.topic_proficiency,
             "created_at": p.created_at.isoformat(),
-        }
-        for p in plans
-    ]
+            "plan_type": TOPIC_WISE_PLAN_TYPE if topic_wise else None,
+        })
+    return out
 
 
 @router.post("/complete-week")
@@ -1179,6 +1266,19 @@ async def complete_week(
     is_cuet = user_plan.template.exam.startswith("CUET_") or user_plan.template.exam == "CUET"
 
     if is_cuet:
+        from app.models.quiz import CuetEnrollment
+        cuet_dur = await _resolve_cuet_duration(
+            db, user.id, user_plan.template_id, user_plan.template.duration_months
+        )
+        enrolled_tmpl_ids: set[uuid.UUID] = set()
+        if cuet_dur is not None:
+            enr_q = await db.execute(
+                select(CuetEnrollment.template_id).where(
+                    CuetEnrollment.user_id == user.id,
+                    CuetEnrollment.duration_months == cuet_dur,
+                )
+            )
+            enrolled_tmpl_ids = set(enr_q.scalars().all())
         all_cuet_q = await db.execute(
             select(UserStudyPlan)
             .options(joinedload(UserStudyPlan.template))
@@ -1187,8 +1287,14 @@ async def complete_week(
         all_user_plans = all_cuet_q.scalars().all()
         target_plans = [
             p for p in all_user_plans
-            if p.template.duration_months == user_plan.template.duration_months
-            and (p.template.exam.startswith("CUET_") or p.template.exam == "CUET")
+            if (p.template.exam.startswith("CUET_") or p.template.exam == "CUET")
+            and (
+                p.template_id in enrolled_tmpl_ids
+                or (
+                    not enrolled_tmpl_ids
+                    and p.template.duration_months == user_plan.template.duration_months
+                )
+            )
         ]
         for p in target_plans:
             cw = set(p.completed_weeks or [])
@@ -1215,6 +1321,11 @@ async def start_weekly_test(
     db: AsyncSession = Depends(get_db),
     redis: aioredis.Redis = Depends(get_redis),
 ):
+    """Start a unit test for a study plan.
+
+    ``week_number`` is the week index for classic plans, or the topic
+    ``sequence`` for topic-wise (TOPIC_WISE_TESTS) plans.
+    """
     from app.models.content_registry import SourceType
     from app.models.quiz import StudyPlanTemplate, CuetEnrollment
     from sqlalchemy.orm import joinedload
@@ -1226,64 +1337,48 @@ async def start_weekly_test(
     if not tmpl:
         raise HTTPException(status_code=404, detail="Study plan not found")
 
+    primary_plan = parse_plan_json(tmpl.plan)
+    topic_wise = is_topic_wise_plan(primary_plan)
     is_cuet = tmpl.exam.startswith("CUET_") or tmpl.exam == "CUET"
     targets: list[dict] = []
-    exam_keys: list[str] = [tmpl.exam]
+    exam_keys: list[str] = content_subfolders_for_exam(tmpl.exam)
+    cuet_enrollments = []
+    plan_obj_for_tests = primary_plan
 
     if is_cuet:
-        cuet_q = await db.execute(
-            select(CuetEnrollment)
-            .options(joinedload(CuetEnrollment.template))
-            .where(
-                CuetEnrollment.user_id == user.id,
-                CuetEnrollment.duration_months == tmpl.duration_months,
-            )
+        cuet_dur = await _resolve_cuet_duration(
+            db, user.id, uuid.UUID(request.plan_id), tmpl.duration_months
         )
-        cuet_enrollments = cuet_q.scalars().all()
-        if cuet_enrollments:
-            exam_keys = [e.template.exam for e in cuet_enrollments]
-            for e in cuet_enrollments:
-                try:
-                    raw = e.template.plan.strip()
-                    if raw.startswith("```"):
-                        raw = raw.split("```")[1].split("```")[0].strip()
-                        if raw.startswith("json"):
-                            raw = raw[4:].strip()
-                    plan_obj = json_mod.loads(raw)
-                    week_data = next((w for w in plan_obj.get("roadmap", []) if w.get("week") == request.week_number), None)
-                    if week_data:
-                        for sb in week_data.get("subjects", []):
-                            targets.append({
-                                "subject": (sb.get("subject") or "").lower().strip(),
-                                "topic": (sb.get("topic") or "").lower().strip(),
-                                "subtopics": [s.lower().strip() for s in sb.get("subtopics", []) if s],
-                            })
-                except Exception:
-                    pass
+        if cuet_dur is not None:
+            cuet_q = await db.execute(
+                select(CuetEnrollment)
+                .options(joinedload(CuetEnrollment.template))
+                .where(
+                    CuetEnrollment.user_id == user.id,
+                    CuetEnrollment.duration_months == cuet_dur,
+                )
+            )
+            cuet_enrollments = cuet_q.scalars().all()
+            if cuet_enrollments:
+                exam_keys = []
+                for e in cuet_enrollments:
+                    exam_keys.extend(content_subfolders_for_exam(e.template.exam))
+                exam_keys = list(dict.fromkeys(exam_keys))
+                for e in cuet_enrollments:
+                    plan_obj = parse_plan_json(e.template.plan)
+                    unit_targets, _, _ = extract_targets_for_unit(plan_obj, request.week_number)
+                    targets.extend(unit_targets)
+                plan_obj_for_tests = parse_plan_json(cuet_enrollments[0].template.plan)
     else:
-        try:
-            raw = tmpl.plan.strip()
-            if raw.startswith("```"):
-                raw = raw.split("```")[1].split("```")[0].strip()
-                if raw.startswith("json"):
-                    raw = raw[4:].strip()
-            plan_obj = json_mod.loads(raw)
-            roadmap = plan_obj.get("roadmap", [])
-            week_data = next((w for w in roadmap if w["week"] == request.week_number), None)
-            if week_data:
-                for sb in week_data.get("subjects", []):
-                    targets.append({
-                        "subject": (sb.get("subject") or "").lower().strip(),
-                        "topic": (sb.get("topic") or "").lower().strip(),
-                        "subtopics": [s.lower().strip() for s in sb.get("subtopics", []) if s],
-                    })
-        except Exception:
-            pass
+        targets, _, _ = extract_targets_for_unit(primary_plan, request.week_number)
 
+    unit_name = "topic" if topic_wise else "week"
     if not targets:
-        raise HTTPException(status_code=400, detail="Could not extract topics from this week's plan")
-    
-    # Get registries for the exam(s)
+        raise HTTPException(
+            status_code=400,
+            detail=f"Could not extract topics from this {unit_name}'s plan",
+        )
+
     stmt = (
         select(ContentRegistry)
         .outerjoin(ContentAccess)
@@ -1301,38 +1396,42 @@ async def start_weekly_test(
         .distinct()
     )
 
-
     result = await db.execute(stmt)
     records = result.scalars().all()
     registries = [{"id": str(r.id), "file_path": r.file_path} for r in records]
-    
-    # 5. Load ALL questions and filter by plan targets using shared helper
+
     matched_questions = await match_questions_for_targets(targets, registries, redis)
 
     if not matched_questions:
-        raise HTTPException(status_code=404, detail=f"No questions found for Week {request.week_number} topics")
-    
-    # 6. Round-robin interleave questions across subjects and slice by test_number
-    duration_months = tmpl.duration_months
-    tests_per_week = 2 if duration_months >= 12 else 3
+        raise HTTPException(
+            status_code=404,
+            detail=f"No questions found for {unit_name.title()} {request.week_number} topics",
+        )
+
+    tests_per_week = tests_required_for_plan(plan_obj_for_tests, tmpl.duration_months)
     test_number = max(1, min(request.test_number, tests_per_week))
 
     matched_questions = interleave_questions_by_subject(matched_questions)
 
-    # Split into equal buckets
-
-    total_q = len(matched_questions)
-    chunk_size = (total_q + tests_per_week - 1) // tests_per_week  # ceiling division
-    start_idx = (test_number - 1) * chunk_size
-    end_idx = min(start_idx + chunk_size, total_q)
-    test_questions = matched_questions[start_idx:end_idx]
+    if topic_wise:
+        test_questions = sample_topic_test_questions(
+            matched_questions,
+            size=TOPIC_WISE_TEST_SIZE,
+            seed=f"{request.plan_id}:{request.week_number}:{test_number}:{user.id}",
+        )
+    else:
+        total_q = len(matched_questions)
+        chunk_size = (total_q + tests_per_week - 1) // tests_per_week
+        start_idx = (test_number - 1) * chunk_size
+        end_idx = min(start_idx + chunk_size, total_q)
+        test_questions = matched_questions[start_idx:end_idx]
 
     if not test_questions:
-        raise HTTPException(status_code=404, detail=f"No questions for Test {test_number} of Week {request.week_number}")
+        raise HTTPException(
+            status_code=404,
+            detail=f"No questions for Test {test_number} of {unit_name.title()} {request.week_number}",
+        )
 
-    # 7. Start session with this test's question slice
-    # For CUET combined tests, include plan_ids + exam_keys so complete_quiz
-    # can route each question's subject to the correct plan for PerformanceSummary.
     if is_cuet and cuet_enrollments:
         plan_ids_list = [str(e.template_id) for e in cuet_enrollments]
         session_metadata = {
@@ -1342,12 +1441,14 @@ async def start_weekly_test(
             "week_number": request.week_number,
             "test_number": test_number,
             "cuet_combined": True,
+            "plan_type": TOPIC_WISE_PLAN_TYPE if topic_wise else None,
         }
     else:
         session_metadata = {
             "plan_id": request.plan_id,
             "week_number": request.week_number,
             "test_number": test_number,
+            "plan_type": TOPIC_WISE_PLAN_TYPE if topic_wise else None,
         }
 
     session_data = await start_session(
@@ -1361,7 +1462,6 @@ async def start_weekly_test(
         max_questions=None,
     )
 
-    # Persist plan_id + week_number + test_number to the QuizSession row
     try:
         session_q = await db.execute(
             select(QuizSession).where(QuizSession.id == uuid.UUID(session_data["session_id"]))
@@ -1373,7 +1473,7 @@ async def start_weekly_test(
             session_row.test_number = test_number
             await db.commit()
     except Exception:
-        pass  # Non-critical — Redis metadata is the primary source
+        pass
 
     question = session_data.get("question")
     return QuizStartResponse(
@@ -1389,22 +1489,37 @@ async def start_weekly_test(
 
 @router.get("/available-cuet-subjects")
 async def get_available_cuet_subjects(
-    duration_months: int,
+    duration_months: Optional[int] = None,
     db: AsyncSession = Depends(get_db),
     user: User = Depends(get_current_user),
 ):
-    """Return CUET subject keys that have a plan template for the given duration."""
+    """Return CUET subject keys that have a plan template.
+
+    Prefers topic-wise (durationless) templates when present; otherwise filters
+    by ``duration_months`` for classic week-wise plans.
+    """
     from app.models.quiz import StudyPlanTemplate
 
-    result = await db.execute(
+    # Prefer topic-wise CUET templates when available
+    topic_wise_q = await db.execute(
         select(StudyPlanTemplate.exam, StudyPlanTemplate.id)
         .where(
             StudyPlanTemplate.exam.like("CUET_%"),
-            StudyPlanTemplate.duration_months == duration_months,
+            StudyPlanTemplate.duration_months.is_(None),
         )
         .order_by(StudyPlanTemplate.exam)
     )
-    rows = result.all()
+    rows = topic_wise_q.all()
+    if not rows and duration_months is not None:
+        result = await db.execute(
+            select(StudyPlanTemplate.exam, StudyPlanTemplate.id)
+            .where(
+                StudyPlanTemplate.exam.like("CUET_%"),
+                StudyPlanTemplate.duration_months == duration_months,
+            )
+            .order_by(StudyPlanTemplate.exam)
+        )
+        rows = result.all()
 
     # Friendly display label: "CUET_CHEMISTRY" → "Chemistry"
     def _label(key: str) -> str:
@@ -1457,19 +1572,30 @@ async def enroll_cuet(
         if not subject_key.startswith("CUET_"):
             continue
 
-        # Look up the template
+        # Prefer topic-wise template; fall back to week-wise for this duration
         tmpl_q = await db.execute(
             select(StudyPlanTemplate).where(
                 StudyPlanTemplate.exam == subject_key,
-                StudyPlanTemplate.duration_months == request.duration_months,
+                StudyPlanTemplate.duration_months.is_(None),
             )
         )
         template = tmpl_q.scalar_one_or_none()
         if not template:
+            tmpl_q = await db.execute(
+                select(StudyPlanTemplate).where(
+                    StudyPlanTemplate.exam == subject_key,
+                    StudyPlanTemplate.duration_months == request.duration_months,
+                )
+            )
+            template = tmpl_q.scalar_one_or_none()
+        if not template:
             raise HTTPException(
                 status_code=404,
-                detail=f"No study plan template found for {subject_key} ({request.duration_months} months). "
-                       "Please ask your administrator to generate the plan first."
+                detail=(
+                    f"No study plan template found for {subject_key}. "
+                    "Ask your administrator to generate a topic-wise plan "
+                    f"(or a {request.duration_months}-month week-wise plan)."
+                ),
             )
 
         # Upsert UserStudyPlan (week-level progress tracker)
@@ -1564,13 +1690,16 @@ async def get_my_cuet_plans(
     groups: dict[int, list] = {}
     for e in enrollments:
         usp = usp_map.get(e.template_id)
+        plan_obj = parse_plan_json(e.template.plan)
+        topic_wise = is_topic_wise_plan(plan_obj)
         subject_info = {
             "plan_id": str(e.template_id),
             "exam": e.template.exam,
             "label": e.template.exam.replace("CUET_", "").replace("_", " ").title(),
             "current_week": usp.current_week if usp else 1,
-            "total_weeks": e.duration_months * 4,
+            "total_weeks": total_units_for_template(plan_obj, e.template.duration_months),
             "completed_weeks": usp.completed_weeks or [] if usp else [],
+            "plan_type": TOPIC_WISE_PLAN_TYPE if topic_wise else None,
         }
         groups.setdefault(e.duration_months, []).append(subject_info)
 
@@ -1594,15 +1723,14 @@ async def start_cuet_weekly_test(
     db: AsyncSession = Depends(get_db),
     redis: aioredis.Redis = Depends(get_redis),
 ):
-    """Start a combined weekly test that merges topics from ALL enrolled CUET subjects for the given week.
+    """Start a combined CUET unit test across all enrolled subjects.
 
-    Questions from all subjects are pooled and split into 3 sub-tests per week.
+    ``week_number`` is a week index or topic sequence. Topic-wise plans use one
+    full test per unit; classic plans split into sub-tests.
     """
     import hashlib
     from app.models.quiz import CuetEnrollment, StudyPlanTemplate
     from app.models.content_registry import SourceType
-
-    TESTS_PER_WEEK = 3  # Fixed for CUET
 
     # 1. Load all enrolled subjects for this user/duration
     enroll_result = await db.execute(
@@ -1617,38 +1745,27 @@ async def start_cuet_weekly_test(
     if not enrollments:
         raise HTTPException(status_code=404, detail="No CUET enrollment found for this duration.")
 
-    # 2. For each subject, extract week targets from its plan
+    # 2. For each subject, extract unit targets from its plan
     all_targets: list[dict] = []
     exam_keys: list[str] = []
+    topic_wise = False
+    plan_obj_for_tests: dict = {}
 
     for enrollment in enrollments:
         template = enrollment.template
         exam_keys.append(template.exam)
+        plan_obj = parse_plan_json(template.plan)
+        if not plan_obj_for_tests:
+            plan_obj_for_tests = plan_obj
+            topic_wise = is_topic_wise_plan(plan_obj)
+        unit_targets, _, _ = extract_targets_for_unit(plan_obj, request.week_number)
+        all_targets.extend(unit_targets)
 
-        try:
-            clean = template.plan.strip()
-            if clean.startswith("```"):
-                clean = clean.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-            plan_obj = json_mod.loads(clean)
-            week_data = next(
-                (w for w in plan_obj.get("roadmap", []) if w["week"] == request.week_number),
-                None,
-            )
-        except Exception:
-            week_data = None
-
-        if week_data:
-            for subj_block in week_data.get("subjects", []):
-                all_targets.append({
-                    "subject": (subj_block.get("subject") or "").lower().strip(),
-                    "topic": (subj_block.get("topic") or "").lower().strip(),
-                    "subtopics": [s.lower().strip() for s in subj_block.get("subtopics", []) if s],
-                })
-
+    unit_name = "topic" if topic_wise else "week"
     if not all_targets:
         raise HTTPException(
             status_code=400,
-            detail=f"Week {request.week_number} not found in any enrolled subject plan."
+            detail=f"{unit_name.title()} {request.week_number} not found in any enrolled subject plan."
         )
 
     # 3. Load question registries for all enrolled exam keys
@@ -1677,17 +1794,17 @@ async def start_cuet_weekly_test(
     if not matched_questions:
         raise HTTPException(
             status_code=404,
-            detail=f"No questions found for Week {request.week_number} across enrolled subjects."
+            detail=f"No questions found for {unit_name.title()} {request.week_number} across enrolled subjects."
         )
 
-    # 5. Deterministic 3-way split by MD5 hash
-    test_number = max(1, min(request.test_number, TESTS_PER_WEEK))
+    tests_per_week = tests_required_for_plan(plan_obj_for_tests, request.duration_months)
+    test_number = max(1, min(request.test_number, tests_per_week))
     matched_questions.sort(key=lambda q: hashlib.md5(
         q.get("question", q.get("text", "")).encode()
     ).hexdigest())
 
     total_q = len(matched_questions)
-    chunk_size = (total_q + TESTS_PER_WEEK - 1) // TESTS_PER_WEEK
+    chunk_size = (total_q + tests_per_week - 1) // tests_per_week
     start_idx = (test_number - 1) * chunk_size
     end_idx = min(start_idx + chunk_size, total_q)
     test_questions = matched_questions[start_idx:end_idx]
@@ -1695,7 +1812,7 @@ async def start_cuet_weekly_test(
     if not test_questions:
         raise HTTPException(
             status_code=404,
-            detail=f"No questions for Test {test_number} of Week {request.week_number}"
+            detail=f"No questions for Test {test_number} of {unit_name.title()} {request.week_number}"
         )
 
     # Use the first enrolled subject's plan_id as the session anchor

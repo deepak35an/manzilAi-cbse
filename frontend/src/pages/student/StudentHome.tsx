@@ -34,16 +34,17 @@ export default function StudentHome() {
 
 
   const processedJourneys: ExamJourney[] = [];
-  const cuetGroupMap: Record<number, ExamJourney> = {};
+  const cuetGroupMap: Record<string, ExamJourney> = {};
 
   for (const j of journeys) {
     if (j.exam?.startsWith('CUET_') || j.exam === 'CUET') {
-      if (!cuetGroupMap[j.duration_months]) {
+      const groupKey = String(j.duration_months ?? 'topic');
+      if (!cuetGroupMap[groupKey]) {
         const cuetEntry = {
           ...j,
           exam: 'CUET',
         };
-        cuetGroupMap[j.duration_months] = cuetEntry;
+        cuetGroupMap[groupKey] = cuetEntry;
         processedJourneys.push(cuetEntry);
       }
     } else {
@@ -116,7 +117,11 @@ export default function StudentHome() {
                     </div>
                     <div className="text-left">
                       <div className="flex items-center gap-2">
-                        <p className="font-semibold text-gray-900">{j.duration_months} Month Plan</p>
+                        <p className="font-semibold text-gray-900">
+                          {j.plan_type === 'TOPIC_WISE_TESTS' || !j.duration_months
+                            ? 'Topic-wise Plan'
+                            : `${j.duration_months} Month Plan`}
+                        </p>
                         {isLatest && (
                           <span className="text-[10px] font-semibold bg-primary-100 text-primary-700 px-2 py-0.5 rounded-full uppercase tracking-wider">
                             Recent Visited
@@ -124,8 +129,8 @@ export default function StudentHome() {
                         )}
                       </div>
                       <p className="text-xs text-gray-400">
-                        {j.exam} · Week {j.current_week} of {j.total_weeks} ·{" "}
-                        {j.completed_weeks.length} weeks done
+                        {j.exam} · {j.plan_type === 'TOPIC_WISE_TESTS' ? 'Topic' : 'Week'} {j.current_week} of {j.total_weeks} ·{" "}
+                        {j.completed_weeks.length} {j.plan_type === 'TOPIC_WISE_TESTS' ? 'topics' : 'weeks'} done
                       </p>
                     </div>
                   </div>

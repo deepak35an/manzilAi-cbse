@@ -52,16 +52,35 @@ async def _get_target_template_ids(\
     is_cuet = template.exam.startswith("CUET_") or template.exam == "CUET"
 
     if is_cuet:
-        cuet_q = await db.execute(
-            select(CuetEnrollment)
-            .where(
+        # Resolve enrollment group via this template's enrollment row (works when
+        # StudyPlanTemplate.duration_months is NULL for topic-wise plans).
+        own_q = await db.execute(
+            select(CuetEnrollment).where(
                 CuetEnrollment.user_id == user_id,
-                CuetEnrollment.duration_months == template.duration_months,
+                CuetEnrollment.template_id == plan_uuid,
             )
         )
-        cuet_enrollments = cuet_q.scalars().all()
-        if cuet_enrollments:
-            return [e.template_id for e in cuet_enrollments], up
+        own = own_q.scalar_one_or_none()
+        if own:
+            cuet_q = await db.execute(
+                select(CuetEnrollment).where(
+                    CuetEnrollment.user_id == user_id,
+                    CuetEnrollment.duration_months == own.duration_months,
+                )
+            )
+            cuet_enrollments = cuet_q.scalars().all()
+            if cuet_enrollments:
+                return [e.template_id for e in cuet_enrollments], up
+        elif template.duration_months is not None:
+            cuet_q = await db.execute(
+                select(CuetEnrollment).where(
+                    CuetEnrollment.user_id == user_id,
+                    CuetEnrollment.duration_months == template.duration_months,
+                )
+            )
+            cuet_enrollments = cuet_q.scalars().all()
+            if cuet_enrollments:
+                return [e.template_id for e in cuet_enrollments], up
 
     return [plan_uuid], up
 
@@ -123,23 +142,48 @@ async def student_dashboard(
 
     plan_info = None
     if up_obj:
+        from app.services.study_plan_utils import (
+            TOPIC_WISE_PLAN_TYPE,
+            extract_targets_for_unit,
+            is_topic_wise_plan,
+            parse_plan_json,
+            tests_required_for_plan,
+            total_units_for_template,
+        )
+
         up = up_obj
         is_cuet = up.template.exam.startswith("CUET_") or up.template.exam == "CUET"
-        total_weeks = up.template.duration_months * 4
+        primary_plan = parse_plan_json(up.template.plan)
+        topic_wise = is_topic_wise_plan(primary_plan)
+        total_weeks = total_units_for_template(primary_plan, up.template.duration_months)
         next_week = up.current_week
+        tests_needed = tests_required_for_plan(primary_plan, up.template.duration_months)
 
         if is_cuet:
             from app.models.quiz import CuetEnrollment
             from sqlalchemy.orm import joinedload
-            cuet_q = await db.execute(
-                select(CuetEnrollment)
-                .options(joinedload(CuetEnrollment.template))
-                .where(
+            cuet_enrollments = []
+            own_enroll_q = await db.execute(
+                select(CuetEnrollment).where(
                     CuetEnrollment.user_id == user.id,
-                    CuetEnrollment.duration_months == up.template.duration_months,
+                    CuetEnrollment.template_id == up.template_id,
                 )
             )
-            cuet_enrollments = cuet_q.scalars().all()
+            own_enroll = own_enroll_q.scalar_one_or_none()
+            cuet_dur = (
+                own_enroll.duration_months if own_enroll
+                else up.template.duration_months
+            )
+            if cuet_dur is not None:
+                cuet_q = await db.execute(
+                    select(CuetEnrollment)
+                    .options(joinedload(CuetEnrollment.template))
+                    .where(
+                        CuetEnrollment.user_id == user.id,
+                        CuetEnrollment.duration_months == cuet_dur,
+                    )
+                )
+                cuet_enrollments = cuet_q.scalars().all()
 
             done_q = await db.execute(
                 select(QuizSession).where(
@@ -149,27 +193,16 @@ async def student_dashboard(
                     QuizSession.completed_at.isnot(None),
                 )
             )
-            next_test_number = len(done_q.scalars().all()) + 1
+            next_test_number = min(len(done_q.scalars().all()) + 1, tests_needed)
 
-            import json as json_mod
             combined_topics: list[str] = []
             for e in (cuet_enrollments or [up]):
-                tmpl = e.template if hasattr(e, 'template') else up.template
-                try:
-                    raw = tmpl.plan.strip()
-                    if raw.startswith("```"):
-                        raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-                    plan_obj = json_mod.loads(raw)
-                    week_data = next(
-                        (w for w in plan_obj.get("roadmap", []) if w.get("week") == next_week),
-                        None,
-                    )
-                    if week_data:
-                        for s in week_data.get("subjects", []):
-                            if s.get("topic") and s.get("topic") not in combined_topics:
-                                combined_topics.append(s.get("topic"))
-                except Exception:
-                    pass
+                tmpl = e.template if hasattr(e, "template") else up.template
+                plan_obj = parse_plan_json(tmpl.plan)
+                _, labels, _ = extract_targets_for_unit(plan_obj, next_week)
+                for label in labels:
+                    if label and label not in combined_topics:
+                        combined_topics.append(label)
 
             from app.services.performance_service import exam_key_to_canonical_subject
             cuet_subjects = [
@@ -181,18 +214,23 @@ async def student_dashboard(
                 for e in (cuet_enrollments or [])
             ]
 
+            upcoming_label = (
+                combined_topics[0] if topic_wise and combined_topics
+                else f"W-{next_week} Test {next_test_number}"
+            )
             plan_info = {
                 "exam_name": "CUET",
                 "is_cuet": True,
                 "duration_months": up.template.duration_months,
                 "current_week": up.current_week,
                 "total_weeks": total_weeks,
+                "plan_type": TOPIC_WISE_PLAN_TYPE if topic_wise else None,
                 "cuet_subjects": cuet_subjects,
                 "upcoming_test": {
                     "week_number": next_week,
                     "test_number": next_test_number,
                     "topics": combined_topics,
-                    "label": f"W-{next_week} Test {next_test_number}",
+                    "label": upcoming_label,
                 },
             }
         else:
@@ -204,38 +242,25 @@ async def student_dashboard(
                     QuizSession.completed_at.isnot(None),
                 )
             )
-            next_test_number = len(done_q.scalars().all()) + 1
+            next_test_number = min(len(done_q.scalars().all()) + 1, tests_needed)
 
-            week_topics: list[str] = []
-            try:
-                import json as json_mod
-                raw = up.template.plan.strip()
-                if raw.startswith("```"):
-                    raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-                plan_obj = json_mod.loads(raw)
-                week_data = next(
-                    (w for w in plan_obj.get("roadmap", []) if w.get("week") == next_week),
-                    None,
-                )
-                if week_data:
-                    week_topics = [
-                        s.get("topic", "")
-                        for s in week_data.get("subjects", [])
-                        if s.get("topic")
-                    ]
-            except Exception:
-                pass
+            _, week_topics, _ = extract_targets_for_unit(primary_plan, next_week)
+            upcoming_label = (
+                week_topics[0] if topic_wise and week_topics
+                else f"W-{next_week} Test {next_test_number}"
+            )
 
             plan_info = {
                 "exam_name": up.template.exam,
                 "is_cuet": False,
                 "current_week": up.current_week,
                 "total_weeks": total_weeks,
+                "plan_type": TOPIC_WISE_PLAN_TYPE if topic_wise else None,
                 "upcoming_test": {
                     "week_number": next_week,
                     "test_number": next_test_number,
                     "topics": week_topics,
-                    "label": f"W-{next_week} Test {next_test_number}",
+                    "label": upcoming_label,
                 },
             }
 
@@ -268,7 +293,11 @@ async def student_dashboard(
                 "test_number": r[4],   # from QuizSession
                 "exam_title": r[1] or "General Assessment",
                 "test_name": (
-                    f"W-{r[2]} Test {r[4] or 1}"
+                    (
+                        f"Topic {r[2]}"
+                        if plan_info and plan_info.get("plan_type") == "TOPIC_WISE_TESTS"
+                        else f"W-{r[2]} Test {r[4] or 1}"
+                    )
                     if r[2]
                     else (r[1] or "General Assessment")
                 ),
@@ -300,9 +329,16 @@ async def student_history(
     user: User = Depends(require_role(["student"])),
     db: AsyncSession = Depends(get_db),
 ):
+    from app.services.study_plan_utils import is_topic_wise_plan, parse_plan_json
+
     target_tmpl_ids: list[uuid.UUID] = []
+    up_obj = None
     if plan_id:
-        target_tmpl_ids, _ = await _get_target_template_ids(plan_id, user.id, db)
+        target_tmpl_ids, up_obj = await _get_target_template_ids(plan_id, user.id, db)
+
+    topic_wise = False
+    if up_obj and up_obj.template:
+        topic_wise = is_topic_wise_plan(parse_plan_json(up_obj.template.plan))
 
     base_stmt = (
         select(TestResult, QuizSession)
@@ -332,6 +368,14 @@ async def student_history(
         correct = sum(1 for resp in responses if resp.get("score", 0) > 0)
         accuracy = correct / attempted if attempted > 0 else 0.0
         mode = details.get("mode", "Mixed")
+        if sess.week_number:
+            test_name = (
+                f"Topic {sess.week_number}"
+                if topic_wise
+                else f"W-{sess.week_number} Test {sess.test_number or 1}"
+            )
+        else:
+            test_name = f"{mode.upper()} Evaluation"
         items.append({
             "id": str(r.id),
             "session_id": str(r.session_id),
@@ -341,7 +385,7 @@ async def student_history(
             "ai_summary": r.ai_summary,
             "details": r.details,
             "created_at": r.created_at.isoformat(),
-            "test_name": f"W-{sess.week_number} Test {sess.test_number or 1}" if sess.week_number else f"{mode.upper()} Evaluation",
+            "test_name": test_name,
             "topic": mode.capitalize(),
             "question_count": attempted,
             "accuracy": round(accuracy, 3),
@@ -418,14 +462,11 @@ async def get_pyq_exams_endpoint(
 
     # Intersect with student's allocated exams if the org has set a restriction
     if user.role.value == "student":
+        from app.services.study_plan_utils import exam_allocation_matches
+
         allocated = (user.metadata_ or {}).get("allocated_exams", [])
         if allocated:
-            allocated_set = set(allocated)
-            if "CUET" in allocated_set:
-                allocated_set.add("CUET_PYQ")
-            if "CUET_PYQ" in allocated_set:
-                allocated_set.add("CUET")
-            exams = [e for e in exams if e in allocated_set]
+            exams = [e for e in exams if exam_allocation_matches(allocated, e)]
 
     return exams
 
@@ -811,29 +852,32 @@ async def cuet_dashboard(
         if results else 0.0
     )
 
+    from app.services.study_plan_utils import parse_plan_json, total_units_for_template
+
     # Per-subject completion summary
     usp_q = await db.execute(
-        select(UserStudyPlan, StudyPlanTemplate.exam)
+        select(UserStudyPlan, StudyPlanTemplate)
         .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
         .where(
             UserStudyPlan.user_id == user.id,
             UserStudyPlan.template_id.in_(template_ids),
         )
     )
-    subjects = [
-        {
+    subjects = []
+    for row in usp_q.all():
+        tmpl = row.StudyPlanTemplate
+        plan_obj = parse_plan_json(tmpl.plan)
+        total_units = total_units_for_template(plan_obj, tmpl.duration_months) or max(duration_months * 4, 1)
+        completed_n = len(row.UserStudyPlan.completed_weeks or [])
+        subjects.append({
             "plan_id": str(row.UserStudyPlan.template_id),
-            "exam": row.exam,
-            "label": exam_key_to_canonical_subject(row.exam),
+            "exam": tmpl.exam,
+            "label": exam_key_to_canonical_subject(tmpl.exam),
             "current_week": row.UserStudyPlan.current_week,
-            "total_weeks": duration_months * 4,
-            "completed_weeks": len(row.UserStudyPlan.completed_weeks or []),
-            "completion_pct": round(
-                len(row.UserStudyPlan.completed_weeks or []) / (duration_months * 4) * 100
-            ),
-        }
-        for row in usp_q.all()
-    ]
+            "total_weeks": total_units,
+            "completed_weeks": completed_n,
+            "completion_pct": round(completed_n / total_units * 100) if total_units else 0,
+        })
 
     # Recent combined sessions (last 5)
     recent = []

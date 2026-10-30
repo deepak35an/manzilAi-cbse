@@ -40,14 +40,19 @@ async def seed(phone: str, name: str) -> None:
             await engine.dispose()
             return
 
+        parts = name.strip().split(None, 1)
+        first_name = parts[0] if parts else "Platform"
+        last_name = parts[1] if len(parts) > 1 else "Admin"
+
         admin = User(
             phone=normalized,
-            name=name,
+            first_name=first_name,
+            last_name=last_name,
             role=UserRole.super_admin,
         )
         session.add(admin)
         await session.commit()
-        print(f"Super admin created: phone={normalized}, name={name}, id={admin.id}")
+        print(f"Super admin created: phone={normalized}, name={admin.name}, id={admin.id}")
 
     await engine.dispose()
 

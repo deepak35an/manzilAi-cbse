@@ -4,21 +4,35 @@ import { BookOpen, ChevronRight, ChevronLeft, Check, Loader2, CheckSquare, Squar
 import { useMutation, useQuery } from '@tanstack/react-query'
 import { generateStudyPlan, enrollCuet, getAvailableCuetSubjects } from '@/services/quizApi'
 import { useExam } from '@/context/ExamContext'
-import { STUDENT_ROUTES, EXAM_TYPES, PREP_DURATIONS, CUET_PREP_DURATIONS, TOPIC_PROFICIENCY_LABELS } from '@/lib/constants'
+import {
+  STUDENT_ROUTES,
+  EXAM_TYPES,
+  TOPIC_WISE_EXAMS,
+  PREP_DURATIONS,
+  CUET_PREP_DURATIONS,
+  TOPIC_PROFICIENCY_LABELS,
+} from '@/lib/constants'
 import { cn } from '@/lib/utils'
 
-// Topics by exam type (only for non-CUET exams)
+// Topics by exam type (only for non-CUET / non-topic-wise exams)
 const EXAM_TOPICS: Record<string, string[]> = {
   GATE: ['Data Structures', 'Algorithms', 'Operating Systems', 'Computer Networks', 'DBMS', 'Computer Architecture', 'Theory of Computation', 'Discrete Mathematics', 'Engineering Mathematics', 'Digital Logic'],
   JEE: ['Physics - Mechanics', 'Physics - Electromagnetism', 'Chemistry - Organic', 'Chemistry - Physical', 'Mathematics - Calculus', 'Mathematics - Algebra', 'Mathematics - Coordinate Geometry'],
   UPSC_CSE: ['General Studies I', 'General Studies II', 'General Studies III', 'General Studies IV', 'Essay'],
   CAT: ['Verbal Ability', 'Reading Comprehension', 'Data Interpretation', 'Logical Reasoning', 'Quantitative Aptitude'],
   Other: ['Subject 1', 'Subject 2', 'Subject 3', 'Mathematics', 'Science'],
+  'CBSE Class 10': [
+    'The Rise of Nationalism in Europe',
+    'Nationalism in India',
+    'The Making of a Global World',
+    'Resources and Development',
+    'Power Sharing',
+  ],
 }
 
-// Steps differ for CUET vs all other exams
 const GATE_STEPS = ['Select Exam', 'Topic Proficiency', 'Duration', 'Creating Plan']
 const CUET_STEPS = ['Select Exam', 'Duration', 'Select Subjects', 'Enrolling']
+const TOPIC_WISE_STEPS = ['Select Exam', 'Topic Proficiency', 'Creating Plan']
 
 export default function ExamOnboarding() {
   const navigate = useNavigate()
@@ -32,41 +46,62 @@ export default function ExamOnboarding() {
   const [error, setError] = useState('')
 
   const isCuet = selectedExam === 'CUET'
-  const STEPS = isCuet ? CUET_STEPS : GATE_STEPS
+  const isTopicWise = TOPIC_WISE_EXAMS.includes(selectedExam)
+  const STEPS = isCuet ? CUET_STEPS : isTopicWise ? TOPIC_WISE_STEPS : GATE_STEPS
   const topics = EXAM_TOPICS[selectedExam] || []
   const durations = isCuet ? CUET_PREP_DURATIONS : PREP_DURATIONS
 
-  // Fetch available CUET subjects (only when on subject step)
   const { data: availableSubjects = [], isLoading: subjectsLoading } = useQuery({
     queryKey: ['cuet-subjects', duration],
     queryFn: () => getAvailableCuetSubjects(duration),
     enabled: isCuet && step === 2,
   })
 
-  // GATE/other: generate plan
+  const formatApiError = (err: any, fallback: string) => {
+    const detail = err?.response?.data?.detail
+    if (typeof detail === 'string') return detail
+    if (Array.isArray(detail)) {
+      return detail.map((d) => d?.msg || JSON.stringify(d)).join('; ')
+    }
+    return fallback
+  }
+
   const generateMutation = useMutation({
-    mutationFn: () =>
-      generateStudyPlan({ exam: selectedExam, duration_months: duration, topic_proficiency: proficiency }),
+    mutationFn: () => {
+      const payload: {
+        exam: string
+        duration_months?: number | null
+        topic_proficiency?: Record<string, number>
+      } = {
+        exam: selectedExam,
+        topic_proficiency: Object.keys(proficiency).length ? proficiency : undefined,
+      }
+      // Topic-wise plans omit duration so the backend picks the durationless template
+      if (!isTopicWise) {
+        payload.duration_months = duration
+      }
+      return generateStudyPlan(payload)
+    },
     onSuccess: (data) => {
       const journey = {
         plan_id: data.plan_id,
         exam: data.exam,
-        duration_months: data.duration_months,
+        duration_months: data.duration_months ?? null,
         current_week: data.current_week || 1,
-        total_weeks: data.duration_months * 4,
+        total_weeks: data.total_weeks ?? (data.duration_months ? data.duration_months * 4 : 0),
         completed_weeks: data.completed_weeks || [],
+        plan_type: data.plan_type ?? null,
       }
       addOrUpdateJourney(journey)
       setActiveJourney(journey)
       navigate(STUDENT_ROUTES.examDashboard(data.plan_id))
     },
     onError: (err: any) => {
-      setError(err.response?.data?.detail || 'Failed to generate plan. Please try again.')
-      setStep(isCuet ? 3 : 2)
+      setError(formatApiError(err, 'Failed to generate plan. Please try again.'))
+      // Stay on the last step so the error is visible with a retry button
     },
   })
 
-  // CUET: enroll in selected subjects
   const enrollMutation = useMutation({
     mutationFn: () => enrollCuet({ duration_months: duration, subjects: selectedSubjects }),
     onSuccess: (data) => {
@@ -93,7 +128,6 @@ export default function ExamOnboarding() {
     },
   })
 
-
   const handleNext = () => {
     if (step === 0 && !selectedExam) { setError('Please select an exam'); return }
     if (isCuet && step === 2 && selectedSubjects.length === 0) { setError('Select at least one subject'); return }
@@ -106,12 +140,20 @@ export default function ExamOnboarding() {
         setStep(3)
         enrollMutation.mutate()
       }
+    } else if (isTopicWise) {
+      if (step < 1) {
+        setStep((s) => s + 1)
+      } else {
+        // Advance first, then start mutation so the loading/error panel is visible
+        setStep(2)
+        setTimeout(() => generateMutation.mutate(), 0)
+      }
     } else {
       if (step < 2) {
         setStep((s) => s + 1)
       } else {
         setStep(3)
-        generateMutation.mutate()
+        setTimeout(() => generateMutation.mutate(), 0)
       }
     }
   }
@@ -127,10 +169,12 @@ export default function ExamOnboarding() {
     )
   }
 
+  const showProficiency = (!isCuet && !isTopicWise && step === 1) || (isTopicWise && step === 1)
+  const showDuration = (isCuet && step === 1) || (!isCuet && !isTopicWise && step === 2)
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-accent-50 flex items-center justify-center p-6">
       <div className="w-full max-w-2xl">
-        {/* Progress */}
         <div className="mb-8">
           <div className="flex items-center justify-between mb-3">
             {STEPS.map((s, i) => (
@@ -152,9 +196,7 @@ export default function ExamOnboarding() {
           <p className="text-sm text-gray-400 text-center">{STEPS[step]}</p>
         </div>
 
-        {/* Card */}
         <div className="card p-8">
-          {/* Step 0: Exam selection */}
           {step === 0 && (
             <div>
               <div className="flex items-center gap-3 mb-6">
@@ -182,6 +224,9 @@ export default function ExamOnboarding() {
                     {exam === 'CUET' && (
                       <span className="block text-xs font-normal text-gray-400 mt-1">Multi-subject</span>
                     )}
+                    {TOPIC_WISE_EXAMS.includes(exam) && (
+                      <span className="block text-xs font-normal text-gray-400 mt-1">Topic-wise tests</span>
+                    )}
                   </button>
                 ))}
               </div>
@@ -189,12 +234,15 @@ export default function ExamOnboarding() {
             </div>
           )}
 
-          {/* Step 1 (non-CUET): Topic proficiency sliders */}
-          {step === 1 && !isCuet && (
+          {showProficiency && (
             <div>
               <div className="mb-6">
                 <h2 className="font-bold text-gray-900 mb-1">Rate Your Topic Proficiency</h2>
-                <p className="text-sm text-gray-500">This helps us prioritize weaker topics in your early weeks.</p>
+                <p className="text-sm text-gray-500">
+                  {isTopicWise
+                    ? 'Optional — helps prioritize which topics to tackle first.'
+                    : 'This helps us prioritize weaker topics in your early weeks.'}
+                </p>
               </div>
               <div className="space-y-4 max-h-80 overflow-y-auto pr-1">
                 {topics.map((topic) => {
@@ -229,8 +277,7 @@ export default function ExamOnboarding() {
             </div>
           )}
 
-          {/* Step 1 (CUET) or Step 2 (non-CUET): Duration */}
-          {((isCuet && step === 1) || (!isCuet && step === 2)) && (
+          {showDuration && (
             <div>
               <div className="mb-6">
                 <h2 className="font-bold text-gray-900 mb-1">Choose Preparation Duration</h2>
@@ -257,7 +304,6 @@ export default function ExamOnboarding() {
             </div>
           )}
 
-          {/* Step 2 (CUET): Subject multi-select */}
           {isCuet && step === 2 && (
             <div>
               <div className="mb-6">
@@ -310,31 +356,65 @@ export default function ExamOnboarding() {
             </div>
           )}
 
-          {/* Last step: Loading */}
-          {step === STEPS.length - 1 && (enrollMutation.isPending || generateMutation.isPending) && (
+          {step === STEPS.length - 1 && (
             <div className="text-center py-8">
-              <div className="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-5">
-                <Loader2 className="w-9 h-9 text-primary-600 animate-spin" />
-              </div>
-              <h2 className="text-xl font-bold text-gray-900 mb-2">
-                {isCuet ? 'Setting up your CUET plan…' : 'Creating your personalized roadmap…'}
-              </h2>
-              <p className="text-sm text-gray-500 max-w-sm mx-auto">
-                {isCuet
-                  ? `Enrolling you in ${selectedSubjects.length} subject${selectedSubjects.length > 1 ? 's' : ''} for your ${duration}-month CUET preparation.`
-                  : `Our AI is building a week-by-week plan for ${selectedExam}, optimized for your ${duration}-month timeline.`
-                }
-              </p>
-              {error && (
-                <div className="mt-6 p-4 bg-danger-50 rounded-xl text-sm text-danger-700 text-left">
-                  <p className="font-semibold mb-1">Failed</p>
-                  <p>{error}</p>
-                </div>
+              {(enrollMutation.isPending || generateMutation.isPending) ? (
+                <>
+                  <div className="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-5">
+                    <Loader2 className="w-9 h-9 text-primary-600 animate-spin" />
+                  </div>
+                  <h2 className="text-xl font-bold text-gray-900 mb-2">
+                    {isCuet
+                      ? 'Setting up your CUET plan…'
+                      : isTopicWise
+                        ? 'Loading your topic-wise plan…'
+                        : 'Creating your personalized roadmap…'}
+                  </h2>
+                  <p className="text-sm text-gray-500 max-w-sm mx-auto">
+                    {isCuet
+                      ? `Enrolling you in ${selectedSubjects.length} subject${selectedSubjects.length > 1 ? 's' : ''} for your ${duration}-month CUET preparation.`
+                      : isTopicWise
+                        ? `Linking the topic-wise test plan for ${selectedExam}. One full test per topic.`
+                        : `Our AI is building a week-by-week plan for ${selectedExam}, optimized for your ${duration}-month timeline.`
+                    }
+                  </p>
+                </>
+              ) : error ? (
+                <>
+                  <h2 className="text-xl font-bold text-gray-900 mb-2">Couldn’t start your plan</h2>
+                  <div className="mt-4 p-4 bg-danger-50 rounded-xl text-sm text-danger-700 text-left max-w-md mx-auto">
+                    <p>{error}</p>
+                  </div>
+                  <div className="flex items-center justify-center gap-3 mt-6">
+                    <button
+                      onClick={() => { setError(''); setStep(Math.max(0, STEPS.length - 2)) }}
+                      className="btn-outline btn-md"
+                    >
+                      Back
+                    </button>
+                    <button
+                      onClick={() => {
+                        setError('')
+                        if (isCuet) enrollMutation.mutate()
+                        else generateMutation.mutate()
+                      }}
+                      className="btn-primary btn-md"
+                    >
+                      Retry
+                    </button>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-5">
+                    <Loader2 className="w-9 h-9 text-primary-600 animate-spin" />
+                  </div>
+                  <h2 className="text-xl font-bold text-gray-900 mb-2">Starting…</h2>
+                </>
               )}
             </div>
           )}
 
-          {/* Navigation */}
           {step < STEPS.length - 1 && (
             <div className="flex items-center justify-between mt-8">
               {step > 0 ? (
@@ -345,8 +425,16 @@ export default function ExamOnboarding() {
               ) : (
                 <div />
               )}
-              <button onClick={handleNext} className="btn-primary btn-md flex items-center gap-2">
-                {isCuet && step === 2 ? 'Enroll' : step === STEPS.length - 2 ? (isCuet ? 'Enroll' : 'Generate Plan') : 'Continue'}
+              <button
+                onClick={handleNext}
+                disabled={generateMutation.isPending || enrollMutation.isPending}
+                className="btn-primary btn-md flex items-center gap-2"
+              >
+                {isCuet && step === 2
+                  ? 'Enroll'
+                  : step === STEPS.length - 2
+                    ? (isCuet ? 'Enroll' : isTopicWise ? 'Start Topic Plan' : 'Generate Plan')
+                    : 'Continue'}
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>
@@ -356,4 +444,3 @@ export default function ExamOnboarding() {
     </div>
   )
 }
-

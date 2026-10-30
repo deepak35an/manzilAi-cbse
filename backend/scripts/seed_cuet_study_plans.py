@@ -11,8 +11,8 @@ Requirements:
     pip install asyncpg python-dotenv
 
 The script reads DATABASE_URL from .env (or falls back to default localhost).
-It uses ON CONFLICT (exam, duration_months) DO UPDATE so running it multiple times
-updates the database templates with the latest generated output files.
+It upserts by (exam, duration_months) with a SELECT + INSERT/UPDATE so it works
+with the partial unique indexes used for week-wise and topic-wise templates.
 """
 
 import asyncio
@@ -20,7 +20,6 @@ import os
 import json
 import re
 import uuid
-from datetime import datetime
 from pathlib import Path
 
 try:
@@ -122,21 +121,37 @@ async def seed():
     for t in templates:
         plan_json = json.dumps(t["plan"], ensure_ascii=False)
         try:
-            await conn.execute(
+            existing_id = await conn.fetchval(
                 """
-                INSERT INTO study_plan_templates (id, exam, duration_months, plan, created_at)
-                VALUES ($1::uuid, $2, $3, $4, $5)
-                ON CONFLICT (exam, duration_months) DO UPDATE
-                SET plan = EXCLUDED.plan,
-                    created_at = EXCLUDED.created_at
+                SELECT id FROM study_plan_templates
+                WHERE exam = $1 AND duration_months IS NOT DISTINCT FROM $2
                 """,
-                t["id"],
                 t["exam"],
                 t["duration_months"],
-                plan_json,
-                datetime.utcnow(),
             )
-            print(f"  [SEEDED/UPDATED] {t['exam']} -- {t['duration_months']}m ({t['filepath']}) -> ID: {t['id']}")
+            if existing_id:
+                await conn.execute(
+                    """
+                    UPDATE study_plan_templates
+                    SET plan = $1, created_at = NOW()
+                    WHERE id = $2
+                    """,
+                    plan_json,
+                    existing_id,
+                )
+                print(f"  [UPDATED] {t['exam']} -- {t['duration_months']}m ({t['filepath']}) -> ID: {existing_id}")
+            else:
+                await conn.execute(
+                    """
+                    INSERT INTO study_plan_templates (id, exam, duration_months, plan, created_at)
+                    VALUES ($1::uuid, $2, $3, $4, NOW())
+                    """,
+                    t["id"],
+                    t["exam"],
+                    t["duration_months"],
+                    plan_json,
+                )
+                print(f"  [INSERTED] {t['exam']} -- {t['duration_months']}m ({t['filepath']}) -> ID: {t['id']}")
             inserted_or_updated += 1
         except Exception as e:
             print(f"  [ERROR] {t['exam']} -- {t['duration_months']}m ({t['filepath']}): {e}")

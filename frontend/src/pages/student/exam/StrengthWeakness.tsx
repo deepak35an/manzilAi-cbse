@@ -200,7 +200,7 @@ export default function StrengthWeakness() {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
             <p className="font-semibold text-gray-900">Ready to study?</p>
-            <p className="text-sm text-gray-500 mt-0.5">Jump to your study plan and start the current week's evaluation.</p>
+            <p className="text-sm text-gray-500 mt-0.5">Jump to your study plan and start the next topic evaluation.</p>
           </div>
           <Link
             to={STUDENT_ROUTES.examPlan(planId!)}

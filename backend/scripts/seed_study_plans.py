@@ -11,14 +11,14 @@ Requirements:
     pip install asyncpg python-dotenv
 
 The script reads DATABASE_URL from .env (or you can set it directly below).
-It uses ON CONFLICT DO NOTHING so it is safe to run multiple times.
+It checks for an existing (exam, duration_months) row before insert,
+so it is safe to run multiple times (works with partial unique indexes).
 """
 
 import asyncio
 import os
 import json
 import uuid
-from datetime import datetime
 from pathlib import Path
 
 try:
@@ -452,25 +452,32 @@ async def seed():
     inserted = 0
     skipped = 0
     for t in TEMPLATES:
+        existing = await conn.fetchval(
+            """
+            SELECT id FROM study_plan_templates
+            WHERE exam = $1 AND duration_months = $2
+            """,
+            t["exam"],
+            t["duration_months"],
+        )
+        if existing:
+            print(f"  [SKIPPED]  {t['exam']} -- {t['duration_months']} month(s) (already exists)")
+            skipped += 1
+            continue
+
         plan_json = json.dumps(t["plan"], ensure_ascii=False)
-        result = await conn.execute(
+        await conn.execute(
             """
             INSERT INTO study_plan_templates (id, exam, duration_months, plan, created_at)
-            VALUES ($1::uuid, $2, $3, $4, $5)
-            ON CONFLICT (exam, duration_months) DO NOTHING
+            VALUES ($1::uuid, $2, $3, $4, NOW())
             """,
             t["id"],
             t["exam"],
             t["duration_months"],
             plan_json,
-            datetime.utcnow(),
         )
-        if result == "INSERT 0 1":
-            print(f"  [INSERTED] {t['exam']} -- {t['duration_months']} month(s)  (id={t['id']})")
-            inserted += 1
-        else:
-            print(f"  [SKIPPED]  {t['exam']} -- {t['duration_months']} month(s) (already exists)")
-            skipped += 1
+        print(f"  [INSERTED] {t['exam']} -- {t['duration_months']} month(s)  (id={t['id']})")
+        inserted += 1
 
     await conn.close()
     print(f"\nDone. {inserted} inserted, {skipped} skipped.")

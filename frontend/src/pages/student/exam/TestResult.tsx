@@ -108,9 +108,12 @@ export default function TestResult() {
           )}>{pct}%</span>
         </div>
         <h1 className="text-xl font-bold text-gray-900">
-          {data?.week_number
-            ? (data.test_number ? `W-${data.week_number} Test ${data.test_number}` : `Week ${data.week_number}`)
-            : `Week ${testId}`}{' '}
+          {data?.label
+            || (data?.week_number
+              ? (data.plan_type === 'TOPIC_WISE_TESTS'
+                ? `Topic ${data.week_number}`
+                : (data.test_number ? `W-${data.week_number} Test ${data.test_number}` : `Week ${data.week_number}`))
+              : `Week ${testId}`)}{' '}
           Complete
         </h1>
         <p className="text-gray-500 text-sm mt-1">

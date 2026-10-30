@@ -9,9 +9,10 @@ interface WeeklyPlanCardProps {
   week: WeekPlan
   planId: string
   isCurrent: boolean
+  topicWise?: boolean
 }
 
-function TestRow({ test, planId, week, testsPerWeek }: { test: WeekTest; planId: string; week: WeekPlan; testsPerWeek: number }) {
+function TestRow({ test, planId, week, testsPerWeek, topicWise }: { test: WeekTest; planId: string; week: WeekPlan; testsPerWeek: number; topicWise?: boolean }) {
   const isDone = test.status === 'completed'
   const isActive = test.status === 'current'
   const isLocked = test.status === 'locked'
@@ -37,8 +38,8 @@ function TestRow({ test, planId, week, testsPerWeek }: { test: WeekTest; planId:
           isActive ? 'text-primary-700' :
           'text-gray-400'
         )}>
-          Test {test.test_number}
-          {testsPerWeek > 1 && <span className="text-xs font-normal text-gray-400 ml-1">of {testsPerWeek}</span>}
+          {topicWise ? 'Full Topic Test' : `Test ${test.test_number}`}
+          {!topicWise && testsPerWeek > 1 && <span className="text-xs font-normal text-gray-400 ml-1">of {testsPerWeek}</span>}
         </span>
       </div>
 
@@ -77,12 +78,13 @@ function TestRow({ test, planId, week, testsPerWeek }: { test: WeekTest; planId:
   )
 }
 
-export default function WeeklyPlanCard({ week, planId, isCurrent }: WeeklyPlanCardProps) {
+export default function WeeklyPlanCard({ week, planId, isCurrent, topicWise }: WeeklyPlanCardProps) {
   const [expanded, setExpanded] = useState(isCurrent)
   const isLocked = week.status === 'locked'
   const isCompleted = week.status === 'completed'
-  const testsPerWeek = week.tests_per_week ?? 3
+  const testsPerWeek = week.tests_per_week ?? (topicWise ? 1 : 3)
   const tests = week.tests ?? []
+  const topicTitle = week.topics?.[0]
 
   // Compute overall progress label: e.g. "2/3 tests done"
   const doneCount = tests.filter((t) => t.status === 'completed').length
@@ -94,8 +96,8 @@ export default function WeeklyPlanCard({ week, planId, isCurrent }: WeeklyPlanCa
       isLocked && 'opacity-70'
     )}>
       <button
-        onClick={() => !isLocked && setExpanded((p) => !p)}
-        className={cn('w-full flex items-center justify-between p-4', !isLocked && 'hover:bg-gray-50')}
+        onClick={() => (topicWise || !isLocked) && setExpanded((p) => !p)}
+        className={cn('w-full flex items-center justify-between p-4', (topicWise || !isLocked) && 'hover:bg-gray-50')}
       >
         <div className="flex items-center gap-3">
           {/* Status icon */}
@@ -121,30 +123,35 @@ export default function WeeklyPlanCard({ week, planId, isCurrent }: WeeklyPlanCa
               isLocked ? 'text-gray-400' :
               'text-gray-900'
             )}>
-              Week {week.week}
+              {topicWise
+                ? (topicTitle || `Topic ${week.week}`)
+                : `Week ${week.week}`}
               {isCurrent && <span className="ml-2 badge-primary">Current</span>}
               {isCompleted && <span className="ml-2 badge-success">Done</span>}
             </p>
 
-            {week.subject && (
+            {(week.subject || (!topicWise && doneCount > 0)) && (
               <p className="text-xs text-gray-400 mt-0.5">
-                <span className="badge-gray">{week.subject}</span>
-                {!isCompleted && !isLocked && doneCount > 0 && (
+                {week.subject && <span className="badge-gray">{week.subject}</span>}
+                {topicWise && week.priority && (
+                  <span className="ml-2 badge-gray">{week.priority}</span>
+                )}
+                {!topicWise && !isCompleted && !isLocked && doneCount > 0 && (
                   <span className="ml-2 text-primary-500 font-medium">{doneCount}/{testsPerWeek} tests done</span>
                 )}
               </p>
             )}
           </div>
         </div>
-        {!isLocked && (
+        {(topicWise || !isLocked) && (
           expanded ? <ChevronUp className="w-4 h-4 text-gray-400" /> : <ChevronDown className="w-4 h-4 text-gray-400" />
         )}
       </button>
 
-      {expanded && !isLocked && (
+      {expanded && (topicWise || !isLocked) && (
         <div className="px-4 pb-4 border-t border-gray-100 pt-3 space-y-3">
-          {/* Topics list */}
-          {week.topics.length > 0 && (
+          {/* Topics list (week-wise only; topic-wise uses the card title) */}
+          {!topicWise && week.topics.length > 0 && (
             <div>
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Topics</p>
               <div className="flex flex-wrap gap-1.5">
@@ -179,6 +186,7 @@ export default function WeeklyPlanCard({ week, planId, isCurrent }: WeeklyPlanCa
                   planId={planId}
                   week={week}
                   testsPerWeek={testsPerWeek}
+                  topicWise={topicWise}
                 />
               ))}
             </div>

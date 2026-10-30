@@ -1,11 +1,12 @@
 export interface ExamJourney {
   plan_id: string
   exam: string
-  duration_months: number
+  duration_months: number | null
   current_week: number
   total_weeks: number
   completed_weeks: number[]
   created_at?: string
+  plan_type?: string | null  // TOPIC_WISE_TESTS when durationless topic plan
 }
 
 export interface WeekTest {
@@ -36,6 +37,7 @@ export interface PlanStatus {
   weeks: WeekPlan[]
   is_cuet?: boolean
   cuet_subjects?: { plan_id: string; exam: string; label: string }[]
+  plan_type?: string | null  // TOPIC_WISE_TESTS for topic-wise plans
 }
 
 
@@ -45,7 +47,7 @@ export interface TopicProficiency {
 
 export interface GeneratePlanRequest {
   exam: string
-  duration_months: number
+  duration_months?: number | null
   topic_proficiency?: TopicProficiency
 }
 

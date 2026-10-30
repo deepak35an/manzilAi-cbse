@@ -122,7 +122,12 @@ def scan_content_files(base_path: Path) -> list[dict]:
 # ── Database Clean-up & Sync Execution ───────────────────────────────────────
 async def sync():
     db_url = _get_db_url()
-    base_path = (Path(__file__).parent.parent / "data").resolve()
+    # Prefer CONTENT_STORAGE_PATH (Docker mounts host data at /data)
+    storage = os.getenv("CONTENT_STORAGE_PATH", "").strip()
+    if storage:
+        base_path = Path(storage).resolve()
+    else:
+        base_path = (Path(__file__).parent.parent / "data").resolve()
     print(f"Connecting to database: {db_url}")
     print(f"Scanning content storage path: {base_path}")
 

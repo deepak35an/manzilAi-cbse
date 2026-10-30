@@ -28,12 +28,14 @@ export interface StudyPlanData {
   plan: string;
   plan_id: string;
   exam: string;
-  duration_months: number;
+  duration_months: number | null;
   completed_weeks: number[];
   current_week: number;
+  plan_type?: string | null;
+  total_weeks?: number | null;
 }
 
-export const generateStudyPlan = (data: { exam: string; duration_months: number; topic_proficiency?: Record<string, number> }) =>
+export const generateStudyPlan = (data: { exam: string; duration_months?: number | null; topic_proficiency?: Record<string, number> }) =>
   api.post<StudyPlanData>('/quiz/generate-plan', data).then((r) => r.data)
 
 export const startWeeklyTest = (data: { plan_id: string; week_number: number; exam: string; test_number?: number }) =>
@@ -62,6 +64,9 @@ export interface SessionMeta {
   question_count: number
   marks_per_question: number
   negative_marking: boolean
+  plan_type?: string | null
+  tests_per_week?: number
+  label?: string
 }
 
 export const getSessionMeta = (planId: string, weekNumber: number, testNumber?: number) =>
@@ -72,6 +77,8 @@ export interface SessionResult {
   plan_id: string | null
   week_number: number | null
   test_number?: number | null
+  plan_type?: string | null
+  label?: string | null
   total_score: number
   max_score: number
   theta_final: number

@@ -3,7 +3,7 @@ import enum
 from datetime import datetime
 from typing import Optional
 
-from sqlalchemy import String, Integer, Float, DateTime, ForeignKey, Text, Index, UniqueConstraint
+from sqlalchemy import String, Integer, Float, DateTime, ForeignKey, Text, Index, UniqueConstraint, text
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -117,13 +117,27 @@ class StudyPlanTemplate(Base):
 
     id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     exam: Mapped[str] = mapped_column(String(255))
-    duration_months: Mapped[int] = mapped_column(Integer)
+    # NULL = topic-wise (durationless) template; non-null = classic week-wise plan
+    duration_months: Mapped[Optional[int]] = mapped_column(Integer, nullable=True)
     plan: Mapped[str] = mapped_column(Text)             # Full JSON plan text
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
-    # Constraint: one template per exam/duration combo
+    # Partial unique indexes (see alembic g1a2b3c4d5e6):
+    # - (exam, duration_months) unique when duration_months IS NOT NULL
+    # - exam unique when duration_months IS NULL (topic-wise)
     __table_args__ = (
-        Index("ix_study_plan_templates_exam_duration", "exam", "duration_months", unique=True),
+        Index(
+            "ix_study_plan_templates_exam_duration",
+            "exam", "duration_months",
+            unique=True,
+            postgresql_where=text("duration_months IS NOT NULL"),
+        ),
+        Index(
+            "ix_study_plan_templates_exam_topicwise",
+            "exam",
+            unique=True,
+            postgresql_where=text("duration_months IS NULL"),
+        ),
     )
 
 class UserStudyPlan(Base):
@@ -134,7 +148,8 @@ class UserStudyPlan(Base):
     template_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey("study_plan_templates.id"))
     
     # Progress tracking
-    completed_weeks: Mapped[dict | None] = mapped_column(JSONB, default=list)  # List of week numbers completed
+    # Progress: week numbers OR topic sequence numbers (topic-wise plans)
+    completed_weeks: Mapped[dict | None] = mapped_column(JSONB, default=list)
     current_week: Mapped[int] = mapped_column(Integer, default=1)
     topic_proficiency: Mapped[dict | None] = mapped_column(JSONB, nullable=True)  # From onboarding sliders
     

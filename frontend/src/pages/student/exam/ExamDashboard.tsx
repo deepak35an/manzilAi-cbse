@@ -25,6 +25,7 @@ export default function ExamDashboard() {
     enabled: !!planId,
   })
 
+  const topicWise = data?.plan_type === 'TOPIC_WISE_TESTS'
   const progressPct = data?.current_week && data?.total_weeks
     ? Math.round(((data.current_week - 1) / data.total_weeks) * 100)
     : 0
@@ -68,7 +69,7 @@ export default function ExamDashboard() {
               )}
             </div>
             <p className="text-sm text-gray-500 mb-3">
-              Week {data?.current_week ?? 1} of {data?.total_weeks ?? 0}
+              {topicWise ? 'Topic' : 'Week'} {data?.current_week ?? 1} of {data?.total_weeks ?? 0}
             </p>
 
             {/* CUET Subject Badges */}
@@ -123,7 +124,7 @@ export default function ExamDashboard() {
             <div>
               <p className="text-sm font-semibold text-primary-600 uppercase tracking-wider mb-1">Continue Preparation</p>
               <p className="text-lg text-gray-900 font-bold">
-                This week's topics:{' '}
+                {topicWise ? 'Current topic:' : "This week's topics:"}{' '}
                 <span className="text-gray-500 text-base font-normal">
                   {data.upcoming_test.topics.length > 0 ? data.upcoming_test.topics.join(', ') : '—'}
                 </span>
@@ -219,7 +220,9 @@ export default function ExamDashboard() {
         <div className="card p-10 text-center">
           <BookOpen className="w-12 h-12 text-gray-300 mx-auto mb-3" />
           <p className="text-gray-500 font-medium">No tests taken yet</p>
-          <p className="text-sm text-gray-400 mt-1 mb-5">Start your Week 1 evaluation to see your performance here.</p>
+          <p className="text-sm text-gray-400 mt-1 mb-5">
+            Start your {topicWise ? 'first topic' : 'Week 1'} evaluation to see your performance here.
+          </p>
           <Link
             to={STUDENT_ROUTES.examPlan(planId!)}
             className="btn-primary btn-md"

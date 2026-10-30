@@ -58,9 +58,12 @@ export default function TestReview() {
     ? Math.round(data.time_seconds / data.total_questions)
     : 0
 
-  const weekLabel = data?.week_number
-    ? (data.test_number ? `W-${data.week_number} Test ${data.test_number}` : `Week ${data.week_number}`)
-    : 'Evaluation'
+  const weekLabel = data?.label
+    || (data?.week_number
+      ? (data.plan_type === 'TOPIC_WISE_TESTS'
+        ? `Topic ${data.week_number}`
+        : (data.test_number ? `W-${data.week_number} Test ${data.test_number}` : `Week ${data.week_number}`))
+      : 'Evaluation')
 
   return (
     <div className="max-w-2xl mx-auto space-y-6 animate-fade-in">

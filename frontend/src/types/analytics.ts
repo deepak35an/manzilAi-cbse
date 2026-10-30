@@ -35,6 +35,7 @@ export interface DashboardData {
   upcoming_test?: UpcomingTest
   is_cuet?: boolean
   cuet_subjects?: { plan_id: string; exam: string; label: string }[]
+  plan_type?: string | null
 }
 
 

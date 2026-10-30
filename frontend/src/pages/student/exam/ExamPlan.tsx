@@ -33,21 +33,30 @@ export default function ExamPlan() {
   const currentWeek = planStatus?.current_week ?? 1
   const isCuet = planStatus?.is_cuet || planStatus?.exam?.startsWith('CUET_')
   const cuetSubjects = planStatus?.cuet_subjects || []
+  const topicWise = planStatus?.plan_type === 'TOPIC_WISE_TESTS'
+  const unitLabel = topicWise ? 'topics' : 'weeks'
+  const completedCount = weeks.filter((w) => w.status === 'completed').length
+  const currentUnitLabel = topicWise
+    ? `${completedCount}/${planStatus?.total_weeks ?? 0} topics done`
+    : `Week ${currentWeek}`
 
   return (
     <div className="space-y-6 animate-fade-in">
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="text-xl font-bold text-gray-900">Full Study Plan</h1>
+          <h1 className="text-xl font-bold text-gray-900">
+            {topicWise ? 'Topic-wise Tests' : 'Full Study Plan'}
+          </h1>
           <p className="text-sm text-gray-500 mt-0.5">
-            {planStatus?.exam} · {weeks.filter((w) => w.status === 'completed').length} of {planStatus?.total_weeks ?? 0} weeks completed
+            {planStatus?.exam} · {completedCount} of {planStatus?.total_weeks ?? 0} {unitLabel} completed
+            {topicWise ? ' · pick any topic · 20 questions each' : ''}
           </p>
         </div>
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5 px-3 py-1.5 bg-primary-50 text-primary-700 rounded-xl text-sm font-semibold shrink-0">
             <BookOpen className="w-4 h-4" />
-            Week {currentWeek}
+            {currentUnitLabel}
           </div>
         </div>
       </div>
@@ -75,7 +84,7 @@ export default function ExamPlan() {
         </div>
       )}
 
-      {/* Week list */}
+      {/* Unit list (weeks or topics) */}
       {weeks.length === 0 ? (
         <div className="card p-10 text-center">
           <p className="text-gray-400">Plan not loaded yet. Try refreshing.</p>
@@ -87,7 +96,8 @@ export default function ExamPlan() {
               key={week.week}
               week={week}
               planId={activePlanId || routePlanId!}
-              isCurrent={week.week === currentWeek}
+              isCurrent={!topicWise && week.week === currentWeek}
+              topicWise={topicWise}
             />
           ))}
         </div>

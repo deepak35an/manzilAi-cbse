@@ -15,13 +15,19 @@ export default function TestQuiz() {
   const [agreed, setAgreed] = useState(false)
   const weekNumber = parseInt(testId || '1', 10)
   const testNumber = routeState?.test_number ?? 1
-  const testsPerWeek = routeState?.tests_per_week ?? 3
 
   const { data: meta, isLoading } = useQuery({
     queryKey: ['session-meta', planId, weekNumber, testNumber],
     queryFn: () => getSessionMeta(planId!, weekNumber, testNumber),
     enabled: !!planId && !isNaN(weekNumber),
   })
+
+  const topicWise = meta?.plan_type === 'TOPIC_WISE_TESTS'
+  const testsPerWeek = meta?.tests_per_week ?? routeState?.tests_per_week ?? (topicWise ? 1 : 3)
+  const headerLabel = meta?.label
+    || (topicWise
+      ? (meta?.topics?.[0] || `Topic ${weekNumber}`)
+      : `W-${weekNumber} Test ${testNumber} of ${testsPerWeek}`)
 
   const startMutation = useMutation({
     mutationFn: () => startWeeklyTest({ plan_id: planId!, week_number: weekNumber, exam: meta?.exam || '', test_number: testNumber }),
@@ -55,7 +61,7 @@ export default function TestQuiz() {
           </div>
           <div>
             <p className="text-xs text-gray-400 uppercase tracking-wide font-semibold">
-            W-{weekNumber} Test {testNumber} of {testsPerWeek}
+            {headerLabel}
           </p>
             <h1 className="text-xl font-bold text-gray-900 mt-0.5">{meta?.exam || 'Exam'} Preparation</h1>
             <div className="flex flex-wrap gap-1.5 mt-2">
