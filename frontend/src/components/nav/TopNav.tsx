@@ -93,9 +93,12 @@ export default function TopNav() {
           displayPlans.push(cuetEntry)
         }
       } else {
+        const cbseLabel = p.exam?.startsWith('CBSE_10_')
+          ? `CBSE 10 ${p.exam.replace('CBSE_10_', '').replace(/_/g, ' ')}`
+          : p.exam
         displayPlans.push({
           ...p,
-          displayLabel: p.exam,
+          displayLabel: cbseLabel,
           isGroupActive: p.plan_id === currentPlanId,
         })
       }

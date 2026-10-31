@@ -1531,6 +1531,50 @@ async def get_available_cuet_subjects(
     ]
 
 
+@router.get("/available-cbse-subjects")
+async def get_available_cbse_subjects(
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(get_current_user),
+):
+    """Return CBSE Class 10 subject keys that have a topic-wise plan template.
+
+    Examples: CBSE_10_MATHEMATICS, CBSE_10_SCIENCE, CBSE_10_ENGLISH,
+    CBSE_10_SOCIAL_SCIENCE.
+    """
+    from app.models.quiz import StudyPlanTemplate
+    from app.services.study_plan_utils import cbse_10_subject_label
+
+    result = await db.execute(
+        select(StudyPlanTemplate.exam, StudyPlanTemplate.id)
+        .where(
+            StudyPlanTemplate.exam.like("CBSE_10_%"),
+            StudyPlanTemplate.duration_months.is_(None),
+        )
+        .order_by(StudyPlanTemplate.exam)
+    )
+    rows = result.all()
+
+    # Prefer a stable subject order in the UI
+    preferred = [
+        "CBSE_10_MATHEMATICS",
+        "CBSE_10_SCIENCE",
+        "CBSE_10_ENGLISH",
+        "CBSE_10_SOCIAL_SCIENCE",
+    ]
+    by_key = {row.exam: row for row in rows}
+    ordered = [by_key[k] for k in preferred if k in by_key]
+    ordered.extend(row for row in rows if row.exam not in preferred)
+
+    return [
+        {
+            "key": row.exam,
+            "label": cbse_10_subject_label(row.exam),
+            "plan_id": str(row.id),
+        }
+        for row in ordered
+    ]
+
+
 from pydantic import BaseModel as _BM
 
 

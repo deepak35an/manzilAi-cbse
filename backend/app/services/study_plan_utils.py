@@ -9,7 +9,10 @@ from typing import Any, Optional
 TOPIC_WISE_PLAN_TYPE = "TOPIC_WISE_TESTS"
 TOPIC_WISE_TEST_SIZE = 20  # Fixed question count per topic test
 
-# Friendly UI / org allocation labels → canonical StudyPlanTemplate.exam keys
+# Friendly UI / org allocation labels → canonical StudyPlanTemplate.exam keys.
+# Note: "CBSE Class 10" is an umbrella label — students pick a subject plan
+# (CBSE_10_MATHEMATICS / SCIENCE / ENGLISH / SOCIAL_SCIENCE) during onboarding.
+# The alias below is only a legacy default when a bare CBSE label is resolved.
 EXAM_ALIAS: dict[str, str] = {
     "GATE": "GATE_CSE_PYQ",
     "GATE CSE": "GATE_CSE_PYQ",
@@ -19,6 +22,15 @@ EXAM_ALIAS: dict[str, str] = {
     "Class 10 CBSE": "CBSE_10_SOCIAL_SCIENCE",
     "CBSE_10": "CBSE_10_SOCIAL_SCIENCE",
     "CBSE 10": "CBSE_10_SOCIAL_SCIENCE",
+}
+
+# Labels that mean "any CBSE Class 10 subject plan is allowed"
+CBSE_10_UMBRELLA_LABELS: set[str] = {
+    "CBSE",
+    "CBSE Class 10",
+    "Class 10 CBSE",
+    "CBSE_10",
+    "CBSE 10",
 }
 
 # ContentRegistry.subfolder values that hold questions for a plan exam key
@@ -54,6 +66,7 @@ def exam_allocation_matches(allocated: list[str], exam_key: str) -> bool:
     if not allocated:
         return True
     allowed: set[str] = set()
+    has_cbse_umbrella = False
     for item in allocated:
         allowed.add(item)
         allowed.add(resolve_exam_key(item))
@@ -62,12 +75,24 @@ def exam_allocation_matches(allocated: list[str], exam_key: str) -> bool:
             if canonical == item or item == canonical:
                 allowed.add(label)
                 allowed.add(canonical)
+        if item in CBSE_10_UMBRELLA_LABELS:
+            has_cbse_umbrella = True
     # Always allow the resolved form of the requested exam
     allowed.add(exam_key)
     allowed.add(resolve_exam_key(exam_key))
     if "CUET" in allowed:
         allowed.update({"CUET_PYQ", "CUET"})
+    # Allocated "CBSE Class 10" (or similar) → any CBSE_10_* subject plan
+    if has_cbse_umbrella and exam_key.startswith("CBSE_10_"):
+        return True
     return exam_key in allowed or resolve_exam_key(exam_key) in allowed
+
+
+def cbse_10_subject_label(exam_key: str) -> str:
+    """CBSE_10_MATHEMATICS → Mathematics."""
+    if exam_key.startswith("CBSE_10_"):
+        return exam_key.removeprefix("CBSE_10_").replace("_", " ").title()
+    return exam_key.replace("_", " ").title()
 
 
 def parse_plan_json(raw: str | None) -> dict:

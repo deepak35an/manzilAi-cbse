@@ -1206,6 +1206,9 @@ async def get_available_exams(
         "CUET",
         "CAT",
         "Class 10 CBSE",
+        "CBSE_10_MATHEMATICS",
+        "CBSE_10_SCIENCE",
+        "CBSE_10_ENGLISH",
         "CBSE_10_SOCIAL_SCIENCE",
         "Class 12 CBSE",
     ]

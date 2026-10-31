@@ -132,6 +132,9 @@ export interface CuetPlanGroup {
 export const getAvailableCuetSubjects = (durationMonths: number) =>
   api.get<CuetSubject[]>('/quiz/available-cuet-subjects', { params: { duration_months: durationMonths } }).then((r) => r.data)
 
+export const getAvailableCbseSubjects = () =>
+  api.get<CuetSubject[]>('/quiz/available-cbse-subjects').then((r) => r.data)
+
 export const enrollCuet = (data: { duration_months: number; subjects: string[] }) =>
   api.post<{ status: string; duration_months: number; subjects: CuetSubjectProgress[] }>('/quiz/enroll-cuet', data).then((r) => r.data)
 

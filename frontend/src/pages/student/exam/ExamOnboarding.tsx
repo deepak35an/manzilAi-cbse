@@ -2,7 +2,12 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { BookOpen, ChevronRight, ChevronLeft, Check, Loader2, CheckSquare, Square } from 'lucide-react'
 import { useMutation, useQuery } from '@tanstack/react-query'
-import { generateStudyPlan, enrollCuet, getAvailableCuetSubjects } from '@/services/quizApi'
+import {
+  generateStudyPlan,
+  enrollCuet,
+  getAvailableCuetSubjects,
+  getAvailableCbseSubjects,
+} from '@/services/quizApi'
 import { useExam } from '@/context/ExamContext'
 import {
   STUDENT_ROUTES,
@@ -14,25 +19,18 @@ import {
 } from '@/lib/constants'
 import { cn } from '@/lib/utils'
 
-// Topics by exam type (only for non-CUET / non-topic-wise exams)
+// Topics by exam type (week-wise exams only; CBSE subjects come from the API)
 const EXAM_TOPICS: Record<string, string[]> = {
   GATE: ['Data Structures', 'Algorithms', 'Operating Systems', 'Computer Networks', 'DBMS', 'Computer Architecture', 'Theory of Computation', 'Discrete Mathematics', 'Engineering Mathematics', 'Digital Logic'],
   JEE: ['Physics - Mechanics', 'Physics - Electromagnetism', 'Chemistry - Organic', 'Chemistry - Physical', 'Mathematics - Calculus', 'Mathematics - Algebra', 'Mathematics - Coordinate Geometry'],
   UPSC_CSE: ['General Studies I', 'General Studies II', 'General Studies III', 'General Studies IV', 'Essay'],
   CAT: ['Verbal Ability', 'Reading Comprehension', 'Data Interpretation', 'Logical Reasoning', 'Quantitative Aptitude'],
   Other: ['Subject 1', 'Subject 2', 'Subject 3', 'Mathematics', 'Science'],
-  'CBSE Class 10': [
-    'The Rise of Nationalism in Europe',
-    'Nationalism in India',
-    'The Making of a Global World',
-    'Resources and Development',
-    'Power Sharing',
-  ],
 }
 
 const GATE_STEPS = ['Select Exam', 'Topic Proficiency', 'Duration', 'Creating Plan']
 const CUET_STEPS = ['Select Exam', 'Duration', 'Select Subjects', 'Enrolling']
-const TOPIC_WISE_STEPS = ['Select Exam', 'Topic Proficiency', 'Creating Plan']
+const TOPIC_WISE_STEPS = ['Select Exam', 'Select Subjects', 'Creating Plan']
 
 export default function ExamOnboarding() {
   const navigate = useNavigate()
@@ -57,6 +55,12 @@ export default function ExamOnboarding() {
     enabled: isCuet && step === 2,
   })
 
+  const { data: availableCbseSubjects = [], isLoading: cbseSubjectsLoading } = useQuery({
+    queryKey: ['cbse-subjects'],
+    queryFn: getAvailableCbseSubjects,
+    enabled: isTopicWise && step === 1,
+  })
+
   const formatApiError = (err: any, fallback: string) => {
     const detail = err?.response?.data?.detail
     if (typeof detail === 'string') return detail
@@ -67,7 +71,20 @@ export default function ExamOnboarding() {
   }
 
   const generateMutation = useMutation({
-    mutationFn: () => {
+    mutationFn: async () => {
+      // CBSE Class 10: enroll each selected subject plan (e.g. Mathematics, Science)
+      if (isTopicWise) {
+        if (selectedSubjects.length === 0) {
+          throw new Error('Select at least one subject')
+        }
+        const results = []
+        for (const subjectKey of selectedSubjects) {
+          const data = await generateStudyPlan({ exam: subjectKey })
+          results.push(data)
+        }
+        return { multi: true as const, results }
+      }
+
       const payload: {
         exam: string
         duration_months?: number | null
@@ -75,30 +92,36 @@ export default function ExamOnboarding() {
       } = {
         exam: selectedExam,
         topic_proficiency: Object.keys(proficiency).length ? proficiency : undefined,
+        duration_months: duration,
       }
-      // Topic-wise plans omit duration so the backend picks the durationless template
-      if (!isTopicWise) {
-        payload.duration_months = duration
-      }
-      return generateStudyPlan(payload)
+      const data = await generateStudyPlan(payload)
+      return { multi: false as const, results: [data] }
     },
-    onSuccess: (data) => {
-      const journey = {
-        plan_id: data.plan_id,
-        exam: data.exam,
-        duration_months: data.duration_months ?? null,
-        current_week: data.current_week || 1,
-        total_weeks: data.total_weeks ?? (data.duration_months ? data.duration_months * 4 : 0),
-        completed_weeks: data.completed_weeks || [],
-        plan_type: data.plan_type ?? null,
+    onSuccess: (payload) => {
+      const results = payload.results
+      if (!results.length) {
+        setError('No plans were created.')
+        return
       }
-      addOrUpdateJourney(journey)
-      setActiveJourney(journey)
-      navigate(STUDENT_ROUTES.examDashboard(data.plan_id))
+      let firstJourney: ReturnType<typeof addOrUpdateJourney> extends void ? any : any = null
+      for (const data of results) {
+        const journey = {
+          plan_id: data.plan_id,
+          exam: data.exam,
+          duration_months: data.duration_months ?? null,
+          current_week: data.current_week || 1,
+          total_weeks: data.total_weeks ?? (data.duration_months ? data.duration_months * 4 : 0),
+          completed_weeks: data.completed_weeks || [],
+          plan_type: data.plan_type ?? null,
+        }
+        addOrUpdateJourney(journey)
+        if (!firstJourney) firstJourney = journey
+      }
+      setActiveJourney(firstJourney)
+      navigate(STUDENT_ROUTES.examDashboard(firstJourney.plan_id))
     },
     onError: (err: any) => {
-      setError(formatApiError(err, 'Failed to generate plan. Please try again.'))
-      // Stay on the last step so the error is visible with a retry button
+      setError(formatApiError(err, err?.message || 'Failed to generate plan. Please try again.'))
     },
   })
 
@@ -131,6 +154,7 @@ export default function ExamOnboarding() {
   const handleNext = () => {
     if (step === 0 && !selectedExam) { setError('Please select an exam'); return }
     if (isCuet && step === 2 && selectedSubjects.length === 0) { setError('Select at least one subject'); return }
+    if (isTopicWise && step === 1 && selectedSubjects.length === 0) { setError('Select at least one subject'); return }
     setError('')
 
     if (isCuet) {
@@ -144,7 +168,6 @@ export default function ExamOnboarding() {
       if (step < 1) {
         setStep((s) => s + 1)
       } else {
-        // Advance first, then start mutation so the loading/error panel is visible
         setStep(2)
         setTimeout(() => generateMutation.mutate(), 0)
       }
@@ -169,8 +192,12 @@ export default function ExamOnboarding() {
     )
   }
 
-  const showProficiency = (!isCuet && !isTopicWise && step === 1) || (isTopicWise && step === 1)
+  const showProficiency = !isCuet && !isTopicWise && step === 1
   const showDuration = (isCuet && step === 1) || (!isCuet && !isTopicWise && step === 2)
+  const subjectList = isTopicWise ? availableCbseSubjects : availableSubjects
+  const subjectListLoading = isTopicWise ? cbseSubjectsLoading : subjectsLoading
+  const showSubjectPicker =
+    (isCuet && step === 2) || (isTopicWise && step === 1)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-accent-50 flex items-center justify-center p-6">
@@ -239,9 +266,7 @@ export default function ExamOnboarding() {
               <div className="mb-6">
                 <h2 className="font-bold text-gray-900 mb-1">Rate Your Topic Proficiency</h2>
                 <p className="text-sm text-gray-500">
-                  {isTopicWise
-                    ? 'Optional — helps prioritize which topics to tackle first.'
-                    : 'This helps us prioritize weaker topics in your early weeks.'}
+                  This helps us prioritize weaker topics in your early weeks.
                 </p>
               </div>
               <div className="space-y-4 max-h-80 overflow-y-auto pr-1">
@@ -304,25 +329,29 @@ export default function ExamOnboarding() {
             </div>
           )}
 
-          {isCuet && step === 2 && (
+          {showSubjectPicker && (
             <div>
               <div className="mb-6">
                 <h2 className="font-bold text-gray-900 mb-1">Select Your Subjects</h2>
                 <p className="text-sm text-gray-500">
-                  Choose the subjects you'll prepare for CUET. These cannot be changed after enrollment.
+                  {isTopicWise
+                    ? 'Choose one or more CBSE Class 10 subjects. Each subject gets its own topic-wise test plan.'
+                    : "Choose the subjects you'll prepare for CUET. These cannot be changed after enrollment."}
                 </p>
               </div>
-              {subjectsLoading ? (
+              {subjectListLoading ? (
                 <div className="flex items-center justify-center py-10">
                   <Loader2 className="w-6 h-6 text-primary-600 animate-spin" />
                 </div>
-              ) : availableSubjects.length === 0 ? (
+              ) : subjectList.length === 0 ? (
                 <div className="p-4 bg-warning-50 rounded-xl text-sm text-warning-700">
-                  No subject plans are available for a {duration}-month duration yet. Please contact your administrator.
+                  {isTopicWise
+                    ? 'No CBSE Class 10 subject plans are available yet. Ask your administrator to generate and seed them.'
+                    : `No subject plans are available for a ${duration}-month duration yet. Please contact your administrator.`}
                 </div>
               ) : (
                 <div className="grid grid-cols-2 gap-3 max-h-72 overflow-y-auto pr-1">
-                  {availableSubjects.map((subj) => {
+                  {subjectList.map((subj) => {
                     const selected = selectedSubjects.includes(subj.key)
                     return (
                       <button
@@ -374,7 +403,7 @@ export default function ExamOnboarding() {
                     {isCuet
                       ? `Enrolling you in ${selectedSubjects.length} subject${selectedSubjects.length > 1 ? 's' : ''} for your ${duration}-month CUET preparation.`
                       : isTopicWise
-                        ? `Linking the topic-wise test plan for ${selectedExam}. One full test per topic.`
+                        ? `Linking topic-wise test plans for ${selectedSubjects.length} subject${selectedSubjects.length > 1 ? 's' : ''}. One full test per topic.`
                         : `Our AI is building a week-by-week plan for ${selectedExam}, optimized for your ${duration}-month timeline.`
                     }
                   </p>
@@ -432,9 +461,11 @@ export default function ExamOnboarding() {
               >
                 {isCuet && step === 2
                   ? 'Enroll'
-                  : step === STEPS.length - 2
-                    ? (isCuet ? 'Enroll' : isTopicWise ? 'Start Topic Plan' : 'Generate Plan')
-                    : 'Continue'}
+                  : isTopicWise && step === 1
+                    ? 'Start Topic Plan'
+                    : step === STEPS.length - 2
+                      ? (isCuet ? 'Enroll' : 'Generate Plan')
+                      : 'Continue'}
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>
