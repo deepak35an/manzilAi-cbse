@@ -1,0 +1,734 @@
+SUBJECT: Social Science
+  TOPIC: The Rise of Nationalism in Europe | QUESTION_COUNT: 158
+    - Chronology of European nationalist events
+    - Giuseppe Mazzini and Young Italy
+    - Congress of Vienna
+    - German unification
+    - Giuseppe Mazzini
+    - Habsburg Empire
+    - Young Europe
+    - Napoleonic Code
+    - Frederic Sorrieu's vision
+    - Italian unification
+    - Germania allegory symbols
+    - Chronology of European unification
+    - Sequence of Italian unification
+    - European chronology
+    - Symbols of freedom
+    - Giuseppe Garibaldi
+    - Balkan nationalism
+    - Romantic nationalism
+    - Act of Union 1707
+    - Nineteenth-century chronology
+    - Zollverein customs union
+    - Economic liberalism
+    - Nationalist symbols
+    - Germania allegory
+    - Post-Napoleonic conservatism
+    - Nationalist chronology
+    - Marianne allegory
+    - Italian unification leaders
+    - Allegory of a new era
+    - Act of Union
+    - Zollverein
+    - German unification wars
+    - German emperor
+    - Silesian weavers
+    - British nation-state
+    - Grimm folktales
+    - Cultural nationalism
+    - Foreign domination and culture
+    - Collective belonging
+    - Conservative regimes of 1815
+    - Conservative censorship
+    - French revolutionary influence
+    - European rivalry
+    - Anti-imperial movements
+    - Imperial rivalry
+    - Nineteenth-century Europe
+    - British Isles ethnic groups
+    - French tricolour
+    - Formation of Britain
+    - Greek independence
+    - Conservative ideology
+    - Congress of Vienna aims
+    - Balance of power
+    - French Revolution and nationalism
+    - Treaty of Vienna
+    - Liberal nationalism
+    - Metternich's remark
+    - European political figures
+    - Young Italy
+    - Bismarck and German unification
+    - Frédéric Sorrieu's vision
+  TOPIC: Nationalism in India | QUESTION_COUNT: 72
+    - Lahore Congress and Purna Swaraj
+    - Chronology of the national movement
+    - Poona Pact
+    - Nationalist figures and symbols
+    - Gandhian satyagrahas
+    - Swaraj Party
+    - Chronology of satyagraha movements
+    - Depressed Classes Association
+    - Chronology of national movement events
+    - Formation of the Swaraj Party
+    - Folklore and national identity
+    - Civil Disobedience chronology
+    - Leaders and movements
+    - Founders of Swaraj Party
+    - Chronology of national organisations and conferences
+    - Rowlatt Act
+    - Non-cooperation chronology
+    - Persistence in mass movements
+    - Civil Disobedience
+    - Nationalist movement chronology
+    - Bardoli movement
+    - Gandhi in South Africa
+    - Chauri Chaura
+    - Vande Mataram
+    - Chronology of nationalist events
+    - Industrial workers and Civil Disobedience
+    - Simon Commission
+    - Start of Non-Cooperation
+    - Irwin's dominion-status offer
+  TOPIC: The Making of a Global World | QUESTION_COUNT: 56
+    - Indian Ocean trade
+    - Irish potato famine
+    - Disease and conquest of the Americas
+    - Colonisation of the Americas
+    - Indus Valley coastal trade
+    - American silver and Asian trade
+    - Sea routes and pre-modern trade
+    - Nineteenth-century migration
+    - Spread of smallpox in America
+    - Smallpox and European conquest
+    - Silk Routes
+    - Eighteenth-century Atlantic trade
+    - Potato and European diets
+    - El Dorado legend
+    - Foods from the Americas
+    - Spread of Buddhism along trade routes
+    - Silk Routes trade
+    - Buddhism and Silk Routes
+    - Second World War alliances
+    - Twentieth-century economic chronology
+    - First World War alliances
+    - Flows linking the world
+    - Bretton Woods system
+    - El Dorado
+    - Colonial expansion
+  TOPIC: The Age of Industrialisation | QUESTION_COUNT: 5
+    - Mass production
+    - Steam engine
+    - Railways and heavy industry
+  TOPIC: Print Culture and the Modern World | QUESTION_COUNT: 50
+    - Books and authors
+    - Print and despotism
+    - Khalsa Tract Society
+    - Writers and publications
+    - Chronology of print
+    - Chronology of Indian print
+    - Early printed books
+    - Calcutta book printing
+    - Writers and works
+    - Printed criticism of absolutism
+    - Effects of print technology
+    - Early printed books in Korea
+    - Bal Gangadhar Tilak's newspaper
+    - Colonial censorship
+    - Regional language press
+    - Publications and authors
+    - Print and Indian nationalism
+    - Caricatures in newspapers
+    - Samvad Kaumudi
+    - Martin Luther on printing
+    - Rashsundari Devi's autobiography
+    - Vernacular Press Act
+    - Printing in China
+    - Print revolution
+    - Caste critique in print
+    - Gulamgiri
+    - Women's writings
+    - Gutenberg Bible
+    - Bengal Gazette
+    - Index of prohibited books
+    - Rashsundari Devi autobiography
+    - Tilak's newspaper
+    - Gita Govind
+    - Print chronology
+    - Tarabai Shinde
+    - Manuscript fragility
+    - Chapmen
+    - Bibliothèque Bleue
+    - Print and the French Revolution
+    - Raja Ram Mohan Roy's newspaper
+    - Scientific ideas and print
+    - Early printed materials
+    - Martin Luther and print
+    - Arrival of printing in India
+    - Hickey's Bengal Gazette
+    - Persian-language newspapers
+    - Early printed books in Japan
+    - Indian print reformers
+  TOPIC: The Nationalist Movement in Indo-China | QUESTION_COUNT: 3
+    - French exploration of the Mekong
+    - Tonkin Free School
+    - Hoa Hao movement
+  TOPIC: Resources and Development | QUESTION_COUNT: 32
+    - Bhoodan-Gramdan Movement
+    - Factors affecting land use
+    - Soil characteristics
+    - Land use categories
+    - Black soil properties
+    - Current fallow land
+    - Resource development
+    - Black soil formation
+    - Resource creation
+    - Laterite soil
+    - Alluvial soil
+    - Black soil
+    - Alluvial soil distribution
+    - Resource classification
+    - Alluvial soil composition
+    - Land degradation by mining
+    - Laterite soil distribution
+    - Types of soil erosion
+    - Land-use categories
+    - Resource categories
+    - Exhaustible resources
+    - Fallow land
+    - Rio Earth Summit
+    - Mountain relief
+    - Land degradation
+    - Renewable energy
+    - Regional resource diversity
+    - Resource planning
+    - Resource overuse
+    - Biotic and abiotic resources
+  TOPIC: Forest and Wildlife Resources | QUESTION_COUNT: 28
+    - Forests in the ecosystem
+    - National parks and states
+    - Chipko Movement
+    - Permanent forests
+    - Tiger poaching
+    - Reserved and protected forests
+    - Forest classification by area
+    - Tiger reserves
+    - Wild Life Protection Act
+    - Protected areas and states
+    - Tiger reserves and states
+    - Permanent forests by state
+    - Forest classification
+    - Joint Forest Management
+    - Reasons for wildlife conservation
+    - Tiger conservation
+    - Wildlife and power lines
+    - Forest categories
+    - Wildlife Protection Act
+    - Community forest conservation
+    - Forest classes
+    - Endemic species
+  TOPIC: Water Resources | QUESTION_COUNT: 21
+    - Bamboo drip irrigation
+    - Dams from north to south
+    - Rooftop rainwater harvesting
+    - Pradhan Mantri Krishi Sinchaee Yojana
+    - Dams and rivers
+    - Inter-state river disputes
+    - Sardar Sarovar project
+    - Historic artificial lakes
+    - Tankas rainwater harvesting
+    - Historic water conservation
+    - Groundwater depletion
+    - Bhakra Nangal project
+    - Tungabhadra dam
+    - River-dam pairs
+    - Tehri Dam
+  TOPIC: Agriculture | QUESTION_COUNT: 45
+    - Climate requirements of rubber
+    - Regional names of slash and burn farming
+    - Jute growing regions and soils
+    - Types of farming
+    - Plantation crops
+    - Kharif crops
+    - Beej-Bachao Andolan
+    - Sugarcane climate
+    - Rabi crops
+    - Conditions for cotton cultivation
+    - Shifting cultivation
+    - Coffee cultivation
+    - Rubber cultivation
+    - Jute as golden fibre
+    - Soil for cotton cultivation
+    - Jute cultivation
+    - Crops and their types
+    - Rice cultivation
+    - Plantation agriculture features
+    - Wheat cultivation
+    - Commercial farming
+    - Pulse crops
+    - Maize cultivation
+    - Coffee-growing region
+    - Soil degradation
+    - Crop diversification
+    - Commercial crops
+    - Agricultural inputs
+    - Intensive farming in Punjab and Haryana
+    - Industrial crops
+    - Principal cereal crops
+    - Subsistence farming
+    - Land reforms
+    - Commercial farming inputs
+    - Comprehensive land development
+    - Agricultural modernisation
+    - Cropping diversification
+    - Intensive subsistence farming
+    - Primitive cultivation names
+    - Zaid crops
+    - Millets
+  TOPIC: Minerals and Energy Resources | QUESTION_COUNT: 31
+    - Iron ore types
+    - Bauxite producing states
+    - Types of coal
+    - Atomic energy plant locations
+    - Wind energy
+    - Importance of minerals
+    - Mineral producing centres
+    - Solar energy potential
+    - Thermal power plants
+    - Uses of minerals
+    - Placer mineral deposits
+    - Nuclear power plants and states
+    - Lignite coal
+    - Mineral uses
+    - Energy minerals
+    - Mineral categories
+    - Manganese production by state
+    - Bauxite production
+    - Geothermal energy
+    - Solar energy
+    - Mineral reserves
+    - Kalpakkam nuclear plant
+    - Location of energy and mineral sites
+    - Kaiga nuclear plant
+    - Rawatbhata nuclear plant
+    - Kakrapara atomic power plant
+    - Khetri copper mines
+    - Nuclear power plants
+    - Locations of minerals and energy resources
+    - Non-metallic minerals
+  TOPIC: Manufacturing Industries | QUESTION_COUNT: 10
+    - Jute industry location
+    - Agriculture-industry link
+    - Industrial location
+    - Secondary-sector industry
+    - Sector classification
+    - Farm modernisation
+    - Industrial infrastructure
+    - Private sector industries
+    - Bauxite and aluminium
+    - Electronics industry
+  TOPIC: Lifelines of National Economy | QUESTION_COUNT: 5
+    - Major ports
+    - Sea ports and states
+    - Mass communication
+    - Natural harbours
+    - Road density
+  TOPIC: Power Sharing | QUESTION_COUNT: 68
+    - Vertical division of power
+    - Belgium language communities
+    - Majoritarian policies in Sri Lanka
+    - Horizontal division of power
+    - Language communities in Brussels
+    - Sri Lanka's majority community
+    - Belgium and Sri Lanka
+    - Sri Lankan majoritarianism
+    - Belgium's location
+    - Sri Lankan ethnic conflict
+    - Belgian power-sharing arrangements
+    - Belgian ethnic composition
+    - Prudential value of power sharing
+    - Belgian power-sharing arrangement
+    - European Union headquarters
+    - Sri Lanka's language communities
+    - Belgian communities
+    - Horizontal distribution of power
+    - Belgian accommodation of diversity
+    - Majoritarianism in Sri Lanka
+    - Belgian power sharing measures
+    - Belgian community government
+    - Political terms
+    - Brussels government
+    - Checks and balances
+    - Belgian power sharing
+    - Belgian linguistic accommodation
+    - Reasons for power sharing
+    - Benefits of power sharing
+    - Participation and legitimacy
+    - Majoritarianism and power sharing
+    - Conflict prevention
+    - Accommodation of communities
+    - Sri Lankan Tamil demands
+    - Horizontal distribution
+    - Belgian constitutional amendments
+    - Sinhala Only Act
+    - Belgium's language groups
+    - Political stability
+    - Belgium's neighbours
+    - Belgium's community government
+    - Accommodation of ethnic groups
+    - Horizontal power sharing
+    - Sinhala-only policy
+    - Separation of powers
+    - Forms of power sharing
+    - Belgian accommodation
+    - Belgium language groups
+    - Sri Lankan Tamils
+    - Sri Lankan communities
+    - Belgium's languages
+    - Ethnic composition of Sri Lanka
+  TOPIC: Federalism | QUESTION_COUNT: 67
+    - Panchayati Raj institutions
+    - 1992 decentralisation reforms
+    - Union, State and Concurrent Lists
+    - Coming together federation
+    - Houses of Parliament
+    - Panchayati Raj
+    - Urban local government
+    - Union List and currency
+    - Federal systems across countries
+    - Power sharing in Belgium
+    - Scheduled languages
+    - Concurrent List
+    - Division of power between levels
+    - Local government constitutional amendments
+    - Concurrent List subjects
+    - Union List subjects
+    - Linguistic states
+    - Federal lists and powers
+    - Decentralisation and local elections
+    - Women's representation in panchayats
+    - Decentralisation of power
+    - Holding-together federation
+    - Special provisions for north-eastern states
+    - Constitutional division of powers
+    - Legislative lists
+    - Constitutional subject lists
+    - Centre-state dispute resolution
+    - Women's reservation in panchayats
+    - State List subjects
+    - Federal countries
+    - Subsidiarity
+    - Coming-together federation
+    - Decentralisation
+    - Centre-state powers
+    - Article 371A
+    - Judicial interpretation
+    - Eighth Schedule languages
+    - Quasi-federal features
+    - Constitutional federalism
+    - Presidential electoral college
+    - Grass roots democracy
+    - Constitutional status of local bodies
+    - Gram sabha accountability
+    - Local government finance
+    - Constitutional amendment
+    - Union List
+    - State List
+    - Levels of government
+    - Language policy
+  TOPIC: Gender, Religion and Caste | QUESTION_COUNT: 23
+    - Feminism
+    - Women in public life
+    - Caste in politics
+    - Women's reservation in local bodies
+    - Equal voting rights
+    - Women's equal treatment
+    - Communal politics
+    - Secularism
+    - Secular state
+    - Women's empowerment
+    - Women's parliamentary representation
+    - Constitutional secularism
+    - Gender mobilisation
+    - Women's movement
+    - Family laws
+    - Women's public participation
+    - Secular constitution
+    - Secularism in India
+    - Women in parliaments
+    - Women's political participation
+    - Feminist movements
+    - Gender and literacy
+  TOPIC: Political Parties | QUESTION_COUNT: 39
+    - Candidate affidavits
+    - Regional parties and states
+    - National and regional parties
+    - Functions of political parties
+    - Components of a political party
+    - State parties
+    - Party reform measures
+    - Party registration and election symbols
+    - Regional parties and election symbols
+    - Multi-party system
+    - Two-party systems
+    - One-party system
+    - Electoral accountability
+    - Need for political parties
+    - Party reform by Election Commission
+    - India's multi-party system
+    - Candidate disclosure rules
+    - Representative democracy
+    - Forming government
+    - Party diversity
+    - Regional party governments
+    - Two-party system
+    - Why India has multiple parties
+    - Role of parties in democracy
+    - Parties in democracy
+    - Party alliances
+    - Opposition parties
+    - Regional parties
+    - Recognised party benefits
+  TOPIC: Outcomes of Democracy | QUESTION_COUNT: 29
+    - Legitimacy and participation
+    - Government accountability
+    - Democracy since independence
+    - Citizen participation in policy
+    - Dignity and equality
+    - Limits of democracy
+    - Popular rule
+    - Democratic principles
+    - Political equality
+    - Accountability
+    - Rights protection
+    - Representative accountability
+    - Democratic limits
+    - Elections and participation
+    - Democracy's popularity
+    - Acceptability of democracy
+    - Correcting democratic mistakes
+    - Accountability and legitimacy
+    - Decision-making delay
+    - Equality in democracy
+    - Voting rights
+    - Transparency
+    - Legitimacy
+    - Decision-making procedures
+    - Legitimacy and elections
+    - Common features of democracies
+    - Attitudes toward democracy
+  TOPIC: Popular Struggles and Movements | QUESTION_COUNT: 1
+    - Nepal's democracy movement
+  TOPIC: Development | QUESTION_COUNT: 79
+    - Development goals of a rainfed farmer
+    - Body Mass Index calculation
+    - Development goals of educated youth
+    - Literacy rate
+    - Human Development Report indicators
+    - Education indicators
+    - Human Development Report
+    - Literacy rate age group
+    - Life expectancy comparison
+    - Characteristics of developed countries
+    - Infant mortality rate
+    - Development goals
+    - Average income
+    - Net attendance ratio
+    - Literacy rate comparison
+    - Renewable resources
+    - Limits of per capita income
+    - Human Development Index rankings
+    - Comparing HDI indicators
+    - World Bank country classification
+    - Development goals of a university student
+    - Sustainable use of crude oil
+    - Human Development Index
+    - World Bank income criterion
+    - Goals of landless rural labourers
+    - Development and environmental sustainability
+    - Gender gap in literacy
+    - Infant mortality and public services
+    - Average income calculation
+    - World Bank development indicator
+    - Goals of prosperous farmers
+    - Economic development indicators
+    - Literacy rate definition
+    - Human Development Index ranking
+    - State Human Development Index
+    - Livelihood training
+    - Health and education
+    - World Bank country comparison
+    - Human Development Index ranks
+    - Human development measures
+    - Factory worker goals
+    - Non-monetary public goods
+    - World Development Report
+    - Planning Commission
+    - Development factors
+    - Average income definition
+    - Different developmental goals
+    - Girls' school attendance
+    - Equal access to water
+    - Sustainable development
+    - Human development
+    - Income distribution
+    - Body Mass Index
+    - Depleting resources
+    - Public goods
+    - Conflicting goals
+    - Conflicting goals of dams
+    - Per capita income
+    - Different development goals
+  TOPIC: Sectors of the Indian Economy | QUESTION_COUNT: 71
+    - Interdependence of economic sectors
+    - Gross domestic income from sectors
+    - Sectors by ownership
+    - Primary and tertiary activities
+    - Public sector examples
+    - Private sector ownership
+    - Public sector ownership
+    - Disguised unemployment
+    - Tertiary-sector support
+    - Primary sector activities
+    - Secondary sector occupations
+    - Gross domestic product
+    - Tertiary sector activities
+    - Organised sector employment
+    - Private sector
+    - Public and private companies
+    - Tertiary occupations
+    - Basis for economic sector classification
+    - Unorganised sector employment
+    - Secondary sector manufacturing
+    - Rural employment guarantee
+    - Public and private sector enterprises
+    - Mixed economic sectors
+    - Employment-based sector classification
+    - Primary-sector employment
+    - Organised sector work
+    - Tertiary sector occupations
+    - Organised sector enterprises
+    - Basis of sector classification
+    - Tertiary sector contribution to GDP
+    - Floriculture as primary activity
+    - Employment share of sectors
+    - Animal husbandry
+    - Interdependence of sectors
+    - Employment statistics
+    - Primary sector work
+    - Organised sector benefits
+    - Secondary sector
+    - Unorganised sector
+    - GDP by sector
+    - Employment by sector
+    - Tertiary sector services
+    - Unorganised work
+    - Organised-sector laws
+    - Paid leave and job security
+    - Public-sector examples
+    - Organised and unorganised sectors
+    - MGNREGA
+    - Organised-sector welfare
+    - Primary activities
+    - Organised sector
+    - Tertiary-sector services
+    - Unorganised employment
+    - Primary-sector underemployment
+    - Underemployment
+    - GDP calculation
+    - Sector interdependence
+    - Unorganised-sector leave
+    - Unorganised-sector protections
+    - Informalisation
+    - Tertiary sector growth
+    - Informal work
+    - Classification of occupations
+    - Public sector role
+    - Public and private sectors
+  TOPIC: Money and Credit | QUESTION_COUNT: 56
+    - Rupee as legal tender
+    - Informal credit sources
+    - Formal credit for cultivation
+    - Collateral
+    - Demand deposits
+    - Formal credit and debt traps
+    - Cost of credit
+    - Issuing currency notes
+    - Double coincidence of wants
+    - Formal credit access
+    - Informal credit in urban areas
+    - Rural credit sources
+    - Barriers to formal loans
+    - Formal sources of credit
+    - Kisan Credit Card loans
+    - Formal agricultural credit
+    - Currency as a medium of exchange
+    - Formal car loans
+    - Productive role of credit
+    - Regulation of formal credit
+    - Purpose of bank loans
+    - Formal credit sources
+    - Reserve Bank of India functions
+    - Productive use of credit
+    - Legal tender
+    - Collateral and bank lending
+    - Informal credit dependence
+    - Bank interest income
+    - Money and barter
+    - Self-help groups
+    - Formal credit
+    - Modern currency
+    - Currency issuer
+    - Self-help group decisions
+    - Cooperative credit
+    - Medium of exchange
+    - Currency issuance
+    - Debt trap
+    - Informal-sector loans
+    - Informal rural credit
+    - Interest on bank deposits
+  TOPIC: Globalisation and the Indian Economy | QUESTION_COUNT: 49
+    - Meaning of liberalisation
+    - Early trade and investment restrictions
+    - Liberalisation
+    - Import tariffs
+    - Effects of foreign trade
+    - Imported cotton and domestic farmers
+    - Trade barriers
+    - Effects of globalisation
+    - Technology and globalisation
+    - Information technology and globalisation
+    - Digital connectivity
+    - Internet and global communication
+    - Trade and investment liberalisation
+    - Transport and globalisation
+    - Drivers of globalisation
+    - Integration of markets
+    - Aspects of globalisation
+    - Market access through globalisation
+    - Meaning of globalisation
+    - Trade liberalisation
+    - Founding of WTO
+    - Foreign trade and markets
+    - Definition of globalisation
+    - Cross-border production
+    - MNC advantages in India
+    - MNC joint production
+    - Uneven impact of globalisation
+    - Cargill Foods origin
+    - Multinational companies
+    - 1991 trade policy
+    - World Trade Organization
+    - Globalisation policies
+    - Examples of globalisation
+    - MNC location factors
+    - Foreign investment
+    - Multinational corporations
+    - Production in India
+    - Interlinked production
+    - Factors enabling globalisation
+    - Special Economic Zones
+  TOPIC: Consumer Rights | QUESTION_COUNT: 2
+    - ISI certification mark
+    - Hallmark certification

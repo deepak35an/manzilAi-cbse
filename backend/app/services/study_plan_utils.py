@@ -24,6 +24,9 @@ EXAM_ALIAS: dict[str, str] = {
 # ContentRegistry.subfolder values that hold questions for a plan exam key
 CONTENT_SUBFOLDER_ALIASES: dict[str, list[str]] = {
     "CBSE_10_SOCIAL_SCIENCE": ["CBSE_10_SOCIAL_SCIENCE", "CBSE_10"],
+    "CBSE_10_MATHEMATICS": ["CBSE_10_MATHEMATICS", "CBSE_10"],
+    "CBSE_10_SCIENCE": ["CBSE_10_SCIENCE", "CBSE_10"],
+    "CBSE_10_ENGLISH": ["CBSE_10_ENGLISH", "CBSE_10"],
     "GATE_CSE_PYQ": ["GATE_CSE_PYQ"],
 }
 
