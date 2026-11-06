@@ -77,9 +77,37 @@ async def _ensure_ollama_running() -> bool:
     return False
 
 
+async def _ensure_model_pulled() -> None:
+    """Pull MODEL_NAME if it is not already available in Ollama."""
+    try:
+        async with httpx.AsyncClient(timeout=30.0) as client:
+            tags = await client.get(OLLAMA_HEALTH_URL)
+            tags.raise_for_status()
+            names = {
+                m.get("name") or m.get("model")
+                for m in (tags.json().get("models") or [])
+            }
+            if MODEL_NAME in names or any(
+                (n or "").startswith(MODEL_NAME.split(":")[0]) for n in names
+            ):
+                return
+    except Exception as exc:
+        logger.warning("ollama_tags_check_failed", error=str(exc))
+
+    logger.warning("ollama_model_missing__pulling", model=MODEL_NAME)
+    # Pull via HTTP so this works inside Docker (no local ollama binary needed)
+    async with httpx.AsyncClient(timeout=None) as client:
+        resp = await client.post(
+            f"{settings.OLLAMA_BASE_URL}/api/pull",
+            json={"name": MODEL_NAME, "stream": False},
+        )
+        resp.raise_for_status()
+    logger.info("ollama_model_pulled", model=MODEL_NAME)
+
+
 async def _call_ollama(prompt: str, use_json_format: bool = False, timeout: float = 60.0) -> dict:
     """
-    Core Ollama call with one auto-start retry.
+    Core Ollama call with auto-start and missing-model pull retries.
     Returns the raw JSON response dict from Ollama.
     Raises httpx.HTTPError or RuntimeError on failure.
     """
@@ -91,10 +119,21 @@ async def _call_ollama(prompt: str, use_json_format: bool = False, timeout: floa
     if use_json_format:
         payload["format"] = "json"
 
-    for attempt in (1, 2):          # attempt 1: normal; attempt 2: after auto-start
+    model_pull_attempted = False
+    for attempt in (1, 2, 3):
         try:
             async with httpx.AsyncClient(timeout=timeout) as client:
                 response = await client.post(OLLAMA_GENERATE_URL, json=payload)
+                # Missing model returns 404 from Ollama — pull then retry once
+                if response.status_code == 404 and not model_pull_attempted:
+                    model_pull_attempted = True
+                    logger.warning(
+                        "ollama_model_not_found__pulling",
+                        model=MODEL_NAME,
+                        body=(response.text or "")[:200],
+                    )
+                    await _ensure_model_pulled()
+                    continue
                 response.raise_for_status()
                 return response.json()
         except (httpx.ConnectError, httpx.TimeoutException) as exc:
@@ -107,7 +146,6 @@ async def _call_ollama(prompt: str, use_json_format: bool = False, timeout: floa
                 started = await _ensure_ollama_running()
                 if not started:
                     raise RuntimeError("Ollama could not be started automatically.") from exc
-                # loop continues for attempt 2
             else:
                 raise
 
