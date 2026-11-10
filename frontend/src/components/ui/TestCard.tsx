@@ -58,11 +58,16 @@ export default function TestCard({ result, planId, compact }: TestCardProps) {
             </Link>
             <Link
               to={STUDENT_ROUTES.testQuiz(planId, weekNum)}
-              state={{ test_number: result.test_number ?? 1 }}
+              state={{
+                test_number: result.test_number ?? 1,
+                retake: true,
+                exclude_session_id: result.session_id,
+              }}
               className="btn-outline btn-sm flex items-center gap-1.5"
+              title="Want to take test again with different questions"
             >
               <RotateCcw className="w-3.5 h-3.5" />
-              Retake
+              Want to take test again
             </Link>
           </>
         )}

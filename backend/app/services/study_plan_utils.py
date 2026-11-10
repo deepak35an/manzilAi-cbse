@@ -233,17 +233,29 @@ def total_units_for_template(plan_obj: dict, duration_months: int | None) -> int
     return months * 4
 
 
+def _question_stable_id(q: dict) -> str:
+    """Match quiz_engine._get_question_id for exclude/compare."""
+    num = str(q.get("question_number", q.get("id", "")))
+    src = q.get("source_file", "")
+    if src:
+        return f"{src}::{num}"
+    return num
+
+
 def sample_topic_test_questions(
     questions: list[dict],
     *,
     size: int = TOPIC_WISE_TEST_SIZE,
     seed: str | None = None,
+    exclude_ids: set[str] | None = None,
 ) -> list[dict]:
-    """Pick up to ``size`` questions for a topic-wise test (deterministic shuffle)."""
+    """Pick up to ``size`` questions for a topic-wise test.
+
+    Prefers questions whose IDs are not in ``exclude_ids`` (previous attempts).
+    If not enough fresh questions remain, fills the rest from previously seen ones.
+    """
     if not questions:
         return []
-    if len(questions) <= size:
-        return list(questions)
 
     import hashlib
     import random
@@ -251,6 +263,13 @@ def sample_topic_test_questions(
     rng = random.Random(
         int(hashlib.md5((seed or "topic-test").encode()).hexdigest()[:8], 16)
     )
-    pool = list(questions)
-    rng.shuffle(pool)
-    return pool[:size]
+    excluded = exclude_ids or set()
+    fresh = [q for q in questions if _question_stable_id(q) not in excluded]
+    seen = [q for q in questions if _question_stable_id(q) in excluded]
+    rng.shuffle(fresh)
+    rng.shuffle(seen)
+
+    selected = fresh[:size]
+    if len(selected) < size:
+        selected.extend(seen[: size - len(selected)])
+    return selected

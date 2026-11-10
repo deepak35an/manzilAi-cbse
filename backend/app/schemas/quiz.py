@@ -44,6 +44,9 @@ class WeeklyTestRequest(BaseModel):
     week_number: int  # Week number OR topic sequence for topic-wise plans
     exam: str
     test_number: int = 1  # Sub-test within the week (always 1 for topic-wise)
+    # When retaking, pass the prior session so those questions are excluded
+    exclude_session_id: Optional[str] = None
+    retake: bool = False
 
 
 class QuestionOut(BaseModel):

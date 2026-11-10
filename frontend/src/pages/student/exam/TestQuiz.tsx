@@ -11,10 +11,17 @@ export default function TestQuiz() {
   const { id: planId, testId } = useParams<{ id: string; testId: string }>()
   const navigate = useNavigate()
   const location = useLocation()
-  const routeState = location.state as { test_number?: number; tests_per_week?: number } | null
+  const routeState = location.state as {
+    test_number?: number
+    tests_per_week?: number
+    retake?: boolean
+    exclude_session_id?: string
+  } | null
   const [agreed, setAgreed] = useState(false)
   const weekNumber = parseInt(testId || '1', 10)
   const testNumber = routeState?.test_number ?? 1
+  const isRetake = !!routeState?.retake || !!routeState?.exclude_session_id
+  const excludeSessionId = routeState?.exclude_session_id
 
   const { data: meta, isLoading } = useQuery({
     queryKey: ['session-meta', planId, weekNumber, testNumber],
@@ -30,7 +37,15 @@ export default function TestQuiz() {
       : `W-${weekNumber} Test ${testNumber} of ${testsPerWeek}`)
 
   const startMutation = useMutation({
-    mutationFn: () => startWeeklyTest({ plan_id: planId!, week_number: weekNumber, exam: meta?.exam || '', test_number: testNumber }),
+    mutationFn: () =>
+      startWeeklyTest({
+        plan_id: planId!,
+        week_number: weekNumber,
+        exam: meta?.exam || '',
+        test_number: testNumber,
+        retake: isRetake,
+        exclude_session_id: excludeSessionId,
+      }),
     onSuccess: (data) => {
       navigate(STUDENT_ROUTES.testAttempt(planId!, testId!), {
         state: { session_id: data.session_id, first_question: data.question, total: data.total_questions, test_number: testNumber },
@@ -114,6 +129,11 @@ export default function TestQuiz() {
 
       {/* Agreement + Start */}
       <div className="card p-5">
+        {isRetake && (
+          <div className="mb-4 p-3 rounded-xl bg-primary-50 border border-primary-100 text-sm text-primary-800">
+            Retake mode — you will get a different set of questions from your previous attempt where possible.
+          </div>
+        )}
         <label className="flex items-start gap-3 cursor-pointer">
           <input
             type="checkbox"
@@ -134,7 +154,11 @@ export default function TestQuiz() {
           )}
         >
           <Play className="w-4 h-4" />
-          {startMutation.isPending ? 'Starting…' : 'Start Test'}
+          {startMutation.isPending
+            ? 'Starting…'
+            : isRetake
+              ? 'Want to take test again'
+              : 'Start Test'}
         </button>
         {startMutation.isError && (
           <p className="text-sm text-danger-600 mt-2 text-center">Failed to start test. Please try again.</p>

@@ -55,11 +55,17 @@ function TestRow({ test, planId, week, testsPerWeek, topicWise }: { test: WeekTe
           </Link>
           <Link
             to={STUDENT_ROUTES.testQuiz(planId, week.week)}
-            state={{ test_number: test.test_number, tests_per_week: testsPerWeek }}
+            state={{
+              test_number: test.test_number,
+              tests_per_week: testsPerWeek,
+              retake: true,
+              exclude_session_id: test.session_id,
+            }}
             className="btn-outline btn-sm flex items-center gap-1 text-xs text-warning-600 border-warning-300 hover:bg-warning-50"
+            title="Want to take test again with different questions"
           >
             <RotateCcw className="w-3 h-3" />
-            Retake
+            Take again
           </Link>
         </div>
       ) : isActive ? (

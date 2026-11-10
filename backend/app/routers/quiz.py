@@ -50,6 +50,84 @@ import re
 router = APIRouter()
 
 
+async def _previous_question_ids_for_unit(
+    db: AsyncSession,
+    user_id: uuid.UUID,
+    plan_id: uuid.UUID,
+    week_number: int,
+    test_number: int,
+    exclude_session_id: Optional[str] = None,
+) -> tuple[set[str], int]:
+    """
+    Collect question IDs already used in completed attempts of this unit test.
+    Returns (exclude_ids, completed_attempt_count).
+    """
+    sessions_q = await db.execute(
+        select(QuizSession).where(
+            QuizSession.user_id == user_id,
+            QuizSession.plan_id == plan_id,
+            QuizSession.week_number == week_number,
+            QuizSession.test_number == test_number,
+            QuizSession.completed_at.isnot(None),
+        )
+    )
+    sessions = sessions_q.scalars().all()
+    exclude_ids: set[str] = set()
+
+    # Prefer question_ids stored on TestResult.details (covers skipped questions too)
+    if sessions:
+        result_q = await db.execute(
+            select(TestResult).where(
+                TestResult.session_id.in_([s.id for s in sessions])
+            )
+        )
+        for tr in result_q.scalars().all():
+            stored = (tr.details or {}).get("question_ids") or []
+            for qid in stored:
+                if qid:
+                    exclude_ids.add(str(qid))
+
+    # Fallback / supplement: answered UserResponse rows
+    resp_q = await db.execute(
+        select(UserResponse.question_id)
+        .join(QuizSession, UserResponse.session_id == QuizSession.id)
+        .where(
+            QuizSession.user_id == user_id,
+            QuizSession.plan_id == plan_id,
+            QuizSession.week_number == week_number,
+            QuizSession.test_number == test_number,
+            QuizSession.completed_at.isnot(None),
+        )
+    )
+    for (qid,) in resp_q.all():
+        if qid:
+            exclude_ids.add(str(qid))
+
+    # Explicitly exclude a specific prior session (e.g. from result-page retake)
+    if exclude_session_id:
+        try:
+            sid = uuid.UUID(exclude_session_id)
+        except (ValueError, TypeError):
+            sid = None
+        if sid:
+            tr_q = await db.execute(
+                select(TestResult).where(TestResult.session_id == sid)
+            )
+            tr = tr_q.scalar_one_or_none()
+            if tr:
+                for qid in (tr.details or {}).get("question_ids") or []:
+                    if qid:
+                        exclude_ids.add(str(qid))
+            resp2 = await db.execute(
+                select(UserResponse.question_id).where(UserResponse.session_id == sid)
+            )
+            for (qid,) in resp2.all():
+                if qid:
+                    exclude_ids.add(str(qid))
+
+    return exclude_ids, len(sessions)
+
+
 def _unit_label(plan_obj: dict, unit_number: int, test_number: int = 1) -> str:
     """Human-readable label for a week or topic-unit test."""
     if is_topic_wise_plan(plan_obj):
@@ -415,6 +493,9 @@ async def complete_quiz(
                     p.current_week = week_num + 1
 
 
+    # Persist full question ID list so retakes can exclude this attempt's set
+    session_question_ids = [_qid(q) for q in all_questions[:total_q_count]]
+
     test_result = TestResult(
         id=uuid.uuid4(),
         session_id=uuid.UUID(session_id),
@@ -424,9 +505,10 @@ async def complete_quiz(
         theta_final=state["theta"],
         ai_summary=None,  # Filled by background task after Ollama completes
         details={
-            "answered": len(responses), 
+            "answered": len(responses),
             "mode": state.get("mode"),
-            "responses": details_responses
+            "responses": details_responses,
+            "question_ids": session_question_ids,
         },
     )
     db.add(test_result)
@@ -1413,18 +1495,43 @@ async def start_weekly_test(
 
     matched_questions = interleave_questions_by_subject(matched_questions)
 
+    # Exclude questions from prior attempts so retakes get a different set
+    exclude_ids, prior_attempts = await _previous_question_ids_for_unit(
+        db,
+        user.id,
+        uuid.UUID(request.plan_id),
+        request.week_number,
+        test_number,
+        exclude_session_id=request.exclude_session_id,
+    )
+    attempt_n = prior_attempts + 1
+    seed = (
+        f"{request.plan_id}:{request.week_number}:{test_number}:{user.id}:attempt{attempt_n}"
+    )
+
     if topic_wise:
         test_questions = sample_topic_test_questions(
             matched_questions,
             size=TOPIC_WISE_TEST_SIZE,
-            seed=f"{request.plan_id}:{request.week_number}:{test_number}:{user.id}",
+            seed=seed,
+            exclude_ids=exclude_ids,
         )
     else:
         total_q = len(matched_questions)
         chunk_size = (total_q + tests_per_week - 1) // tests_per_week
         start_idx = (test_number - 1) * chunk_size
         end_idx = min(start_idx + chunk_size, total_q)
-        test_questions = matched_questions[start_idx:end_idx]
+        chunk = matched_questions[start_idx:end_idx]
+        # On retake, reshuffle the chunk preferring unseen questions
+        if request.retake or exclude_ids or prior_attempts > 0:
+            test_questions = sample_topic_test_questions(
+                chunk,
+                size=len(chunk) or TOPIC_WISE_TEST_SIZE,
+                seed=seed,
+                exclude_ids=exclude_ids,
+            )
+        else:
+            test_questions = chunk
 
     if not test_questions:
         raise HTTPException(

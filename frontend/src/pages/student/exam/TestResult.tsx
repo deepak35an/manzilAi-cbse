@@ -3,7 +3,7 @@ import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { useEffect, useState } from 'react'
 import { getSessionResult, getSummaryStatus } from '@/services/quizApi'
 import { STUDENT_ROUTES } from '@/lib/constants'
-import { CheckCircle2, Clock, Target, BookOpen, Eye, LayoutDashboard, Sparkles, Loader2 } from 'lucide-react'
+import { CheckCircle2, Clock, Target, BookOpen, Eye, LayoutDashboard, Sparkles, Loader2, RotateCcw } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import AiReportFormatter from '@/components/ui/AiReportFormatter'
 
@@ -192,6 +192,18 @@ export default function TestResult() {
           Detailed Review
         </Link>
       </div>
+      <Link
+        to={STUDENT_ROUTES.testQuiz(planId!, testId!)}
+        state={{
+          test_number: data?.test_number ?? 1,
+          retake: true,
+          exclude_session_id: sessionId,
+        }}
+        className="btn-outline w-full flex items-center justify-center gap-2 py-3 text-primary-700 border-primary-300 hover:bg-primary-50"
+      >
+        <RotateCcw className="w-4 h-4" />
+        Want to take test again
+      </Link>
     </div>
   )
 }

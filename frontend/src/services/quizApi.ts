@@ -38,7 +38,14 @@ export interface StudyPlanData {
 export const generateStudyPlan = (data: { exam: string; duration_months?: number | null; topic_proficiency?: Record<string, number> }) =>
   api.post<StudyPlanData>('/quiz/generate-plan', data).then((r) => r.data)
 
-export const startWeeklyTest = (data: { plan_id: string; week_number: number; exam: string; test_number?: number }) =>
+export const startWeeklyTest = (data: {
+  plan_id: string
+  week_number: number
+  exam: string
+  test_number?: number
+  exclude_session_id?: string
+  retake?: boolean
+}) =>
   api.post<QuizStartResponse>('/quiz/start-weekly-test', data).then((r) => r.data)
 
 export const getMyPlan = (params?: { exam?: string; duration_months?: number }) =>
