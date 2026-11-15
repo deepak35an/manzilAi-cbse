@@ -12,15 +12,13 @@ services:
     image: postgres:16-alpine
     container_name: online_assessment-postgres-1
     env_file:
-    - ./backend/.env.docker
-    environment:
-      POSTGRES_DB: ${POSTGRES_DB:-assessment_db}
-      POSTGRES_USER: ${POSTGRES_USER:-postgres}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      - ./backend/.env.docker
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-assessment_db}"]
+      test:
+        - CMD-SHELL
+        - 'pg_isready -U "$${POSTGRES_USER:-postgres}" -d "$${POSTGRES_DB:-assessment_db}"'
       interval: 5s
       timeout: 3s
       retries: 5
@@ -42,7 +40,7 @@ services:
     image: ollama/ollama:latest
     container_name: online_assessment-ollama-1
     environment:
-      - OLLAMA_KEEP_ALIVE=24h
+      OLLAMA_KEEP_ALIVE: 24h
     volumes:
       - ollama_data:/root/.ollama
     restart: unless-stopped
