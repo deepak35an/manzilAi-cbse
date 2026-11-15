@@ -51,7 +51,9 @@ export default function TestReview() {
     )
   }
 
-  const pct = data ? Math.round((data.total_score / Math.max(data.max_score, 1)) * 100) : 0
+  const marks = data.correct_count ?? 0
+  const maxMarks = data.total_questions || Math.round(data.max_score / 10)
+  const pct = maxMarks > 0 ? Math.round((marks / maxMarks) * 100) : 0
   const mins = data ? Math.floor(data.time_seconds / 60) : 0
   const secs = data ? data.time_seconds % 60 : 0
   const avgSecs = data && data.total_questions > 0
@@ -87,7 +89,7 @@ export default function TestReview() {
           <span className={cn(
             'text-xl font-extrabold',
             pct >= 80 ? 'text-success-700' : pct >= 60 ? 'text-warning-700' : 'text-danger-700'
-          )}>{pct}%</span>
+          )}>{marks}/{maxMarks}</span>
         </div>
         <h1 className="text-xl font-bold text-gray-900">{weekLabel} — Detailed Review</h1>
         <p className="text-gray-500 text-sm mt-1">

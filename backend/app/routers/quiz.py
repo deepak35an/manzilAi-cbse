@@ -1561,7 +1561,7 @@ async def start_weekly_test(
     session_data = await start_session(
         user_id=str(user.id),
         content_registry_id=None,
-        mode="pyq",
+        mode="subject",
         questions=test_questions,
         redis=redis,
         db=db,
@@ -1973,7 +1973,7 @@ async def start_cuet_weekly_test(
     session_data = await start_session(
         user_id=str(user.id),
         content_registry_id=None,
-        mode="pyq",
+        mode="subject",
         questions=test_questions,
         redis=redis,
         db=db,

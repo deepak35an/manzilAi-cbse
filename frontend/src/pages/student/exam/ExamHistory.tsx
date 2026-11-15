@@ -123,7 +123,11 @@ export default function ExamHistory() {
               </thead>
               <tbody className="divide-y divide-gray-50">
                 {sorted.map((r) => {
-                  const pct = r.max_score > 0 ? Math.round((r.total_score / r.max_score) * 100) : 0
+                  const maxMarks = Math.round(r.max_score / 10)
+                  const marks = r.accuracy != null && r.question_count != null
+                    ? Math.round(r.accuracy * r.question_count)
+                    : Math.max(0, Math.round(r.total_score / 10))
+                  const pct = maxMarks > 0 ? Math.round((marks / maxMarks) * 100) : 0
                   return (
                     <tr key={r.id} className="hover:bg-gray-50 transition">
                       <td className="px-4 py-3 text-sm text-gray-500">{formatDate(r.created_at)}</td>
@@ -133,7 +137,7 @@ export default function ExamHistory() {
                         <span className={cn(
                           'text-sm font-semibold',
                           pct >= 80 ? 'text-success-600' : pct >= 60 ? 'text-warning-600' : 'text-danger-600'
-                        )}>{pct}%</span>
+                        )}>{marks} / {maxMarks}</span>
                       </td>
                       <td className="px-4 py-3 text-sm text-gray-500">
                         {r.accuracy != null ? `${Math.round(r.accuracy * 100)}%` : '—'}
