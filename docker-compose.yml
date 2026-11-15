@@ -11,6 +11,8 @@ services:
   postgres:
     image: postgres:16-alpine
     container_name: online_assessment-postgres-1
+    env_file:
+    - ./backend/.env.docker
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-assessment_db}
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
