@@ -72,6 +72,8 @@ export interface CuetDashboardData {
   duration_months: number
   total_tests: number
   avg_score: number
+  avg_marks?: number
+  avg_max_marks?: number
   subjects: CuetSubjectSummary[]
   recent_results: {
     id: string
@@ -81,6 +83,8 @@ export interface CuetDashboardData {
     total_score: number
     max_score: number
     score_pct: number
+    marks?: number
+    max_marks?: number
     created_at: string
   }[]
 }

@@ -34,7 +34,7 @@ export default function ExamDashboard() {
     label: r.test_name
       ? r.test_name.replace('Test ', 'T')   // "W-3 Test 2" → "W-3 T2"
       : `Test ${i + 1}`,
-    score: r.max_score > 0 ? Math.round((r.total_score / r.max_score) * 100) : 0,
+    score: r.marks ?? 0,
   })) || []
 
   const strengths = perfData?.strengths || []
@@ -104,7 +104,7 @@ export default function ExamDashboard() {
         />
         <MetricCard
           title="Average Score"
-          value={data?.avg_score ? `${data.avg_score.toFixed(1)}%` : '—'}
+          value={data?.total_tests && data.avg_max_marks ? `${data.avg_marks ?? 0}/${data.avg_max_marks}` : '—'}
           icon={Target}
           color="success"
         />

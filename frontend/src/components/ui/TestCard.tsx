@@ -16,13 +16,17 @@ interface TestCardProps {
     test_name?: string
     week_number?: number
     test_number?: number
+    marks?: number
+    max_marks?: number
   }
   planId: string
   compact?: boolean
 }
 
 export default function TestCard({ result, planId, compact }: TestCardProps) {
-  const pct = result.max_score > 0 ? Math.round((result.total_score / result.max_score) * 100) : 0
+  const maxMarks = result.max_marks ?? Math.round(result.max_score / 10)
+  const marks = result.marks ?? Math.max(0, Math.round(result.total_score / 10))
+  const pct = maxMarks > 0 ? Math.round((marks / maxMarks) * 100) : 0
   const label = result.test_name || result.exam_title || 'Evaluation'
   const weekNum = result.week_number ?? 0
 
@@ -30,12 +34,12 @@ export default function TestCard({ result, planId, compact }: TestCardProps) {
     <div className={cn('card p-4 flex items-center justify-between gap-4', compact && 'py-3')}>
       <div className="flex items-center gap-3 min-w-0">
         <div className={cn(
-          'w-10 h-10 rounded-xl flex items-center justify-center shrink-0 text-sm font-bold',
+          'min-w-10 h-10 px-1.5 rounded-xl flex items-center justify-center shrink-0 text-xs font-bold',
           pct >= 80 ? 'bg-success-100 text-success-700' :
           pct >= 60 ? 'bg-warning-100 text-warning-600' :
           'bg-danger-100 text-danger-600'
         )}>
-          {pct}%
+          {marks}/{maxMarks}
         </div>
         <div className="min-w-0">
           <p className="font-semibold text-sm text-gray-900 truncate">{label}</p>

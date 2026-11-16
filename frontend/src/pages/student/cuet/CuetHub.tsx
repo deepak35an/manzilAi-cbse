@@ -112,7 +112,7 @@ export default function CuetHub() {
           <div className="card p-4 text-center">
             <Target className="w-5 h-5 text-success-600 mx-auto mb-1" />
             <p className="text-2xl font-bold text-gray-900">
-              {dashboard?.avg_score ? `${dashboard.avg_score.toFixed(1)}%` : '—'}
+              {dashboard?.total_tests && dashboard.avg_max_marks ? `${dashboard.avg_marks ?? 0}/${dashboard.avg_max_marks}` : '—'}
             </p>
             <p className="text-xs text-gray-500">Avg Score</p>
           </div>
@@ -277,7 +277,7 @@ export default function CuetHub() {
                       r.score_pct >= 70 ? 'text-success-600' :
                       r.score_pct >= 40 ? 'text-warning-600' : 'text-danger-600'
                     )}>
-                      {r.score_pct}%
+                      {r.marks ?? 0}/{r.max_marks ?? 0}
                     </span>
                     <Link
                       to={`/student/exam/${subjects[0]?.plan_id}/${r.session_id}/result`}

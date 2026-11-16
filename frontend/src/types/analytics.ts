@@ -13,6 +13,8 @@ export interface TestResult {
   plan_id?: string
   exam_title?: string
   test_name?: string
+  marks?: number
+  max_marks?: number
 }
 
 export interface UpcomingTest {
@@ -25,6 +27,8 @@ export interface UpcomingTest {
 export interface DashboardData {
   total_tests: number
   avg_score: number
+  avg_marks?: number
+  avg_max_marks?: number
   current_theta: number
   recent_results: TestResult[]
   topic_performance: TopicPerformance[]
