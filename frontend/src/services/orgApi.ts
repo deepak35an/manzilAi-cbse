@@ -65,10 +65,14 @@ export interface StudentDetail {
   current_week: number | null
   tests_taken: number
   avg_score: number
+  avg_marks?: number
+  avg_max_marks?: number
   recent_tests: {
     id: string
     total_score: number
     max_score: number
+    marks?: number
+    max_marks?: number
     theta_final: number
     created_at: string
     test_name: string

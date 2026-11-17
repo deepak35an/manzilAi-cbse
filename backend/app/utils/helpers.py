@@ -34,6 +34,26 @@ def resolve_content_path(*parts: str) -> Path:
     return target
 
 
+def result_marks(result) -> tuple[int, int]:
+    """Return (correct answers, total questions) for a TestResult — 1 mark per correct answer."""
+    responses = (result.details or {}).get("responses", [])
+    correct = sum(1 for resp in responses if (resp.get("score") or 0) > 0)
+    total = len(responses) or round((result.max_score or 0) / 10)
+    return correct, total
+
+
+def average_marks(results) -> tuple[float, int, float]:
+    """Return (avg correct, avg total questions, avg percentage) across TestResults."""
+    marks = [result_marks(r) for r in results]
+    marks = [(c, t) for c, t in marks if t > 0]
+    if not marks:
+        return 0.0, 0, 0.0
+    avg_correct = round(sum(c for c, _ in marks) / len(marks), 1)
+    avg_total = round(sum(t for _, t in marks) / len(marks))
+    avg_pct = round(sum(c / t * 100 for c, t in marks) / len(marks), 2)
+    return avg_correct, avg_total, avg_pct
+
+
 def normalize_phone(phone: str) -> str:
     # Strip non-digits and remove Indian +91/91 prefix for consistency.
     if not phone:

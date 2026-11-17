@@ -14,6 +14,7 @@ from app.models.quiz import QuizSession, TestResult, PerformanceSummary
 from app.models.content_registry import ContentRegistry, ContentAccess, Visibility
 from app.models.notification import Notification
 from app.schemas.content import ContentRegistryResponse
+from app.utils.helpers import average_marks, result_marks
 from app.services.performance_service import get_strengths_weaknesses
 
 router = APIRouter()
@@ -85,27 +86,6 @@ async def _get_target_template_ids(\
     return [plan_uuid], up
 
 
-def _result_marks(result: TestResult) -> tuple[int, int]:
-    """Return (correct answers, total questions) for a test result — 1 mark per correct answer."""
-    responses = (result.details or {}).get("responses", [])
-    correct = sum(1 for resp in responses if (resp.get("score") or 0) > 0)
-    total = len(responses) or round((result.max_score or 0) / 10)
-    return correct, total
-
-
-def _avg_marks(results: list) -> tuple[float, int, float]:
-    """Return (avg correct, avg total questions, avg percentage) across results."""
-    marks = [_result_marks(r) for r in results]
-    marks = [(c, t) for c, t in marks if t > 0]
-    if not marks:
-        return 0.0, 0, 0.0
-    avg_correct = round(sum(c for c, _ in marks) / len(marks), 1)
-    avg_total = round(sum(t for _, t in marks) / len(marks))
-    avg_pct = round(sum(c / t * 100 for c, t in marks) / len(marks), 2)
-    return avg_correct, avg_total, avg_pct
-
-
-
 @router.get("/dashboard")
 async def student_dashboard(
     plan_id: Optional[str] = None,
@@ -140,7 +120,7 @@ async def student_dashboard(
         all_records = all_results_q.scalars().all()
 
     total_tests = len(all_records)
-    avg_marks, avg_max_marks, avg_score = _avg_marks(all_records)
+    avg_marks, avg_max_marks, avg_score = average_marks(all_records)
     latest_theta = all_records[0].theta_final if all_records else 0.0
 
     # ── 2. Recent results (plan-scoped if plan_id given, else all) ───────────
@@ -301,8 +281,8 @@ async def student_dashboard(
                 "session_id": str(r[0].session_id),
                 "total_score": r[0].total_score,
                 "max_score": r[0].max_score,
-                "marks": _result_marks(r[0])[0],
-                "max_marks": _result_marks(r[0])[1],
+                "marks": result_marks(r[0])[0],
+                "max_marks": result_marks(r[0])[1],
                 "theta_final": r[0].theta_final,
                 "created_at": r[0].created_at.isoformat(),
                 "week_number": r[2],   # from QuizSession
@@ -860,7 +840,7 @@ async def cuet_dashboard(
         results = []
 
     total_tests = len(results)
-    avg_marks, avg_max_marks, avg_score = _avg_marks(results)
+    avg_marks, avg_max_marks, avg_score = average_marks(results)
 
     from app.services.study_plan_utils import parse_plan_json, total_units_for_template
 
@@ -893,7 +873,7 @@ async def cuet_dashboard(
     recent = []
     for r in results[:5]:
         session = next((s for s in sessions if s.id == r.session_id), None)
-        marks, max_marks = _result_marks(r)
+        marks, max_marks = result_marks(r)
         recent.append({
             "id": str(r.id),
             "session_id": str(r.session_id),

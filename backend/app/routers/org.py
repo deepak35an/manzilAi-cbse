@@ -23,7 +23,7 @@ from app.schemas.org import (
 from app.schemas.content import ContentRegistryResponse
 from app.services.ingestion_service import process_pdf, get_staged_json, update_staged_json, confirm_staged_json
 from app.services.content_service import ROOT_FOLDER_MAP
-from app.utils.helpers import normalize_phone
+from app.utils.helpers import average_marks, normalize_phone, result_marks
 
 router = APIRouter()
 
@@ -98,6 +98,8 @@ class StudentDetailResponse(BaseModel):
     current_week: int | None = None
     tests_taken: int = 0
     avg_score: float = 0.0
+    avg_marks: float = 0.0
+    avg_max_marks: int = 0
     recent_tests: List[dict] = []
     all_batches: List[int] = []
     exam: str | None = None
@@ -727,13 +729,7 @@ async def get_student_detail(
 
     # 4. Fetch test metrics
     metrics_stmt = (
-        select(
-            func.count(TestResult.id).label("tests_taken"),
-            func.avg(
-                func.cast(TestResult.total_score, Float) /
-                func.nullif(func.cast(TestResult.max_score, Float), 0) * 100
-            ).label("avg_score")
-        )
+        select(TestResult)
         .join(QuizSession, TestResult.session_id == QuizSession.id)
         .where(TestResult.user_id == student.id)
     )
@@ -741,9 +737,10 @@ async def get_student_detail(
         metrics_stmt = metrics_stmt.where(QuizSession.plan_id.in_(target_plan_ids))
 
     res_metrics = await db.execute(metrics_stmt)
-    metrics_row = res_metrics.first()
-    tests_taken = metrics_row.tests_taken if metrics_row else 0
-    avg_score = round(float(metrics_row.avg_score or 0.0), 1) if metrics_row else 0.0
+    metric_results = res_metrics.scalars().all()
+    tests_taken = len(metric_results)
+    avg_marks, avg_max_marks, avg_score = average_marks(metric_results)
+    avg_score = round(avg_score, 1)
 
     # 5. Fetch recent test results
     tests_stmt = (
@@ -762,10 +759,13 @@ async def get_student_detail(
     recent_tests = []
     for row in test_rows:
         r, title, week_number, test_number = row
+        marks, max_marks = result_marks(r)
         recent_tests.append({
             "id": str(r.id),
             "total_score": r.total_score,
             "max_score": r.max_score,
+            "marks": marks,
+            "max_marks": max_marks,
             "theta_final": r.theta_final,
             "created_at": r.created_at.isoformat(),
             "test_name": (
@@ -785,6 +785,8 @@ async def get_student_detail(
         current_week=current_week,
         tests_taken=tests_taken or 0,
         avg_score=avg_score,
+        avg_marks=avg_marks,
+        avg_max_marks=avg_max_marks,
         recent_tests=recent_tests,
         all_batches=all_batches,
         exam=exam,
@@ -1566,6 +1568,8 @@ async def get_org_student_history(
             "topic": topic_str,
             "question_count": attempted,
             "accuracy": round(accuracy, 3),
+            "marks": correct,
+            "max_marks": result_marks(r)[1],
             "week_number": sess.week_number,
             "test_number": sess.test_number,
             "plan_id": str(sess.plan_id) if sess.plan_id else None,

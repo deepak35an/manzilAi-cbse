@@ -190,7 +190,7 @@ export default function StudentDetails() {
     label: r.test_name
       ? r.test_name.replace('Test ', 'T')   // "W-3 Test 2" → "W-3 T2"
       : `Test ${i + 1}`,
-    score: r.max_score > 0 ? Math.round((r.total_score / r.max_score) * 100) : 0,
+    score: r.marks ?? 0,
   })) || []
 
   return (
@@ -358,7 +358,7 @@ export default function StudentDetails() {
         {/* Avg Score */}
         <Card className="p-5 flex flex-col justify-center items-center text-center shadow-sm">
           <span className="text-xs text-gray-400 font-bold uppercase tracking-wider">Avg Score</span>
-          <span className="text-3xl font-extrabold text-gray-900 mt-2">{student.avg_score.toFixed(1)}%</span>
+          <span className="text-3xl font-extrabold text-gray-900 mt-2">{student.tests_taken && student.avg_max_marks ? `${student.avg_marks ?? 0}/${student.avg_max_marks}` : '—'}</span>
         </Card>
 
         {/* Week Status */}
@@ -416,7 +416,6 @@ export default function StudentDetails() {
           ) : (
             <div className="space-y-3">
               {historyData.results.slice(0, 3).map((r: any) => {
-                const scorePct = r.max_score > 0 ? (r.total_score / r.max_score) * 100 : 0
                 return (
                   <div
                     key={r.id}
@@ -433,7 +432,7 @@ export default function StudentDetails() {
                       </div>
                       <div className="min-w-[60px]">
                         <p className="text-[10px] text-gray-400 font-semibold uppercase tracking-wide">Score</p>
-                        <p className="text-sm font-extrabold text-indigo-600 mt-0.5">{scorePct.toFixed(0)}%</p>
+                        <p className="text-sm font-extrabold text-indigo-600 mt-0.5">{r.marks ?? 0}/{r.max_marks ?? r.question_count ?? 0}</p>
                       </div>
                       <div className="min-w-[70px]">
                         <p className="text-[10px] text-gray-400 font-semibold uppercase tracking-wide">Accuracy</p>
