@@ -1,6 +1,6 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts'
 import Card from '../ui/Card'
-import type { BatchAvgScore } from '../../services/orgApi'
+import { TOPIC_TEST_MAX_MARKS, type BatchAvgScore } from '../../services/orgApi'
 
 const COLORS = ['#0ea5e9', '#0ea5e9', '#0ea5e9']
 
@@ -12,7 +12,7 @@ export default function AvgScorePerBatchChart({ data }: Props) {
   return (
     <Card className="p-5">
       <h3 className="text-sm font-semibold text-gray-700 mb-1">Average Score Per Batch</h3>
-      <p className="text-xs text-gray-400 mb-4">Mean score percentage by plan duration</p>
+      <p className="text-xs text-gray-400 mb-4">Mean marks per topic-wise test (out of {TOPIC_TEST_MAX_MARKS})</p>
       <div className="h-64">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} barSize={40}>
@@ -27,8 +27,8 @@ export default function AvgScorePerBatchChart({ data }: Props) {
               tick={{ fontSize: 12, fill: '#64748b' }}
               axisLine={false}
               tickLine={false}
-              domain={[0, 100]}
-              tickFormatter={(v) => `${v}%`}
+              domain={[0, TOPIC_TEST_MAX_MARKS]}
+              ticks={[0, 4, 8, 12, 16, 20]}
             />
             <Tooltip
               contentStyle={{
@@ -37,9 +37,9 @@ export default function AvgScorePerBatchChart({ data }: Props) {
                 border: '1px solid #e2e8f0',
                 boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
               }}
-              formatter={(value: number) => [`${value.toFixed(1)}%`, 'Avg Score']}
+              formatter={(value: number) => [`${value.toFixed(1)} / ${TOPIC_TEST_MAX_MARKS}`, 'Avg Marks']}
             />
-            <Bar dataKey="avg_score" radius={[6, 6, 0, 0]} name="Avg Score">
+            <Bar dataKey="avg_score" radius={[6, 6, 0, 0]} name="Avg Marks">
               {data.map((_, i) => (
                 <Cell key={i} fill={COLORS[i % COLORS.length]} />
               ))}

@@ -12,7 +12,7 @@ export default function StudentsPerBatchChart({ data }: Props) {
   return (
     <Card className="p-5">
       <h3 className="text-sm font-semibold text-gray-700 mb-1">Students Per Batch</h3>
-      <p className="text-xs text-gray-400 mb-4">Enrolled students by plan duration</p>
+      <p className="text-xs text-gray-400 mb-4">Students enrolled in the topic-wise test plan</p>
       <div className="h-64">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} barSize={40}>

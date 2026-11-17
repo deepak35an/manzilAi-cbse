@@ -7,7 +7,7 @@ from fastapi import APIRouter, Depends, UploadFile, File, HTTPException, Query, 
 
 from pydantic import BaseModel
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, or_, func, Float, delete
+from sqlalchemy import select, or_, func, delete
 
 from app.dependencies import get_db
 from app.middleware.auth import require_role
@@ -23,6 +23,7 @@ from app.schemas.org import (
 from app.schemas.content import ContentRegistryResponse
 from app.services.ingestion_service import process_pdf, get_staged_json, update_staged_json, confirm_staged_json
 from app.services.content_service import ROOT_FOLDER_MAP
+from app.services.study_plan_utils import TOPIC_WISE_TEST_SIZE
 from app.utils.helpers import average_marks, normalize_phone, result_marks
 
 router = APIRouter()
@@ -131,14 +132,176 @@ EXAM_DISPLAY: dict[str, str] = {
 }
 
 BATCH_LABELS = {3: "3 Months", 6: "6 Months", 9: "9 Months", 12: "12 Months"}
-BATCH_DURATIONS = [3, 6, 12]
 
 
-def get_batch_durations_for_exam(exam_key: str | None) -> list[int]:
-    """Return applicable batch duration months. CUET uses [3, 6, 9], others use [3, 6, 12]."""
-    if exam_key and (exam_key == "CUET" or exam_key.startswith("CUET_")):
-        return [3, 6, 9]
-    return [3, 6, 12]
+TOPIC_WISE_LABEL = "Topic-wise"
+MARKS_BUCKET_SIZE = 2
+
+
+def _batch_key(dur: int | None) -> str:
+    return "topic_wise" if dur is None else f"{dur}_months"
+
+
+def _batch_label(dur: int | None) -> str:
+    return TOPIC_WISE_LABEL if dur is None else BATCH_LABELS.get(dur, f"{dur} Months")
+
+
+async def _build_exam_charts(
+    db: AsyncSession,
+    org_id: uuid.UUID,
+    exam_key: str,
+    total_students: int,
+) -> dict:
+    """
+    Per-exam dashboard charts. Topic-wise plans (duration_months=None) are the
+    primary batch; legacy week-wise batches appear only when they have students.
+    Scores are marks out of TOPIC_WISE_TEST_SIZE.
+    """
+    from app.models.quiz import TestResult, QuizSession, StudyPlanTemplate, UserStudyPlan
+    from datetime import timedelta
+
+    res_counts = await db.execute(
+        select(StudyPlanTemplate.duration_months, func.count(func.distinct(UserStudyPlan.user_id)))
+        .select_from(UserStudyPlan)
+        .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
+        .join(User, UserStudyPlan.user_id == User.id)
+        .where(User.org_id == org_id, StudyPlanTemplate.exam == exam_key)
+        .group_by(StudyPlanTemplate.duration_months)
+    )
+    batch_counts: dict[int | None, int] = {dur: cnt for dur, cnt in res_counts.all()}
+    durations: list[int | None] = [None] + sorted(
+        dur for dur, cnt in batch_counts.items() if dur is not None and cnt > 0
+    )
+
+    students_per_batch = [
+        {"batch": _batch_label(dur), "count": batch_counts.get(dur, 0)} for dur in durations
+    ]
+
+    res_distinct = await db.execute(
+        select(func.count(func.distinct(UserStudyPlan.user_id)))
+        .select_from(UserStudyPlan)
+        .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
+        .join(User, UserStudyPlan.user_id == User.id)
+        .where(User.org_id == org_id, StudyPlanTemplate.exam == exam_key)
+    )
+    total_registered = res_distinct.scalar() or 0
+    unregistered_cnt = max(0, total_students - total_registered)
+    if unregistered_cnt > 0:
+        students_per_batch.append({"batch": "Not Registered", "count": unregistered_cnt})
+
+    # ── Resolve quiz-session plan_ids → batch duration (None = topic-wise) ──
+    is_cuet = exam_key == "CUET" or exam_key.startswith("CUET_")
+    plan_id_to_dur: dict[uuid.UUID, int | None] = {}
+
+    if is_cuet:
+        res_cuet_students = await db.execute(
+            select(UserStudyPlan.user_id, StudyPlanTemplate.duration_months)
+            .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
+            .join(User, UserStudyPlan.user_id == User.id)
+            .where(User.org_id == org_id, StudyPlanTemplate.exam == exam_key)
+        )
+        user_target_durations: dict[uuid.UUID, set] = defaultdict(set)
+        for uid, dur in res_cuet_students.all():
+            user_target_durations[uid].add(dur)
+
+        if user_target_durations:
+            res_all_cuet = await db.execute(
+                select(UserStudyPlan.user_id, UserStudyPlan.template_id, StudyPlanTemplate.duration_months)
+                .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
+                .where(
+                    UserStudyPlan.user_id.in_(list(user_target_durations.keys())),
+                    or_(StudyPlanTemplate.exam == "CUET", StudyPlanTemplate.exam.like("CUET_%")),
+                )
+            )
+            for uid, tid, dur in res_all_cuet.all():
+                if dur in user_target_durations[uid]:
+                    plan_id_to_dur[tid] = dur
+    else:
+        res_plans = await db.execute(
+            select(UserStudyPlan.template_id, StudyPlanTemplate.duration_months)
+            .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
+            .join(User, UserStudyPlan.user_id == User.id)
+            .where(User.org_id == org_id, StudyPlanTemplate.exam == exam_key)
+        )
+        plan_id_to_dur = {tid: dur for tid, dur in res_plans.all()}
+
+    # ── Per-student average marks (out of TOPIC_WISE_TEST_SIZE) per batch ──
+    marks_by_student: dict[tuple, list[float]] = defaultdict(list)
+    if plan_id_to_dur:
+        res_results = await db.execute(
+            select(QuizSession.plan_id, TestResult)
+            .select_from(TestResult)
+            .join(QuizSession, TestResult.session_id == QuizSession.id)
+            .join(User, TestResult.user_id == User.id)
+            .where(User.org_id == org_id, QuizSession.plan_id.in_(list(plan_id_to_dur.keys())))
+        )
+        for pid, tr in res_results.all():
+            correct, total = result_marks(tr)
+            if total > 0:
+                marks_by_student[(plan_id_to_dur[pid], tr.user_id)].append(
+                    correct / total * TOPIC_WISE_TEST_SIZE
+                )
+
+    student_avgs: dict[int | None, list[float]] = defaultdict(list)
+    for (dur, _uid), marks in marks_by_student.items():
+        student_avgs[dur].append(sum(marks) / len(marks))
+
+    avg_score_per_batch = [
+        {
+            "batch": _batch_label(dur),
+            "avg_score": round(sum(student_avgs[dur]) / len(student_avgs[dur]), 1) if student_avgs[dur] else 0.0,
+        }
+        for dur in durations
+    ]
+
+    # ── Score distribution: students per marks range, per batch ──
+    bucket_count = TOPIC_WISE_TEST_SIZE // MARKS_BUCKET_SIZE
+    score_distribution = []
+    for i in range(bucket_count):
+        low, high = i * MARKS_BUCKET_SIZE, (i + 1) * MARKS_BUCKET_SIZE
+        row: dict = {"marks": f"{low}-{high}"}
+        for dur in durations:
+            row[_batch_key(dur)] = sum(
+                1 for avg in student_avgs[dur]
+                if min(int(avg // MARKS_BUCKET_SIZE), bucket_count - 1) == i
+            )
+        score_distribution.append(row)
+
+    # ── Daily active users (last 7 days rolling window) ──
+    now = datetime.utcnow()
+    today_start = datetime(now.year, now.month, now.day)
+    last_7_days = [today_start - timedelta(days=i) for i in range(6, -1, -1)]
+
+    dau_map = {}
+    if plan_id_to_dur:
+        day_col = func.date_trunc("day", QuizSession.started_at)
+        res_dau = await db.execute(
+            select(day_col.label("day"), func.count(func.distinct(QuizSession.user_id)).label("active_users"))
+            .select_from(QuizSession)
+            .join(User, QuizSession.user_id == User.id)
+            .where(
+                User.org_id == org_id,
+                QuizSession.plan_id.in_(list(plan_id_to_dur.keys())),
+                QuizSession.started_at >= last_7_days[0],
+            )
+            .group_by(day_col)
+        )
+        for row in res_dau.all():
+            d_val = row.day.date() if isinstance(row.day, datetime) else row.day
+            if d_val:
+                dau_map[d_val] = row.active_users
+
+    weekly_active_users = [
+        {"week": dt_val.strftime("%b %d"), "active_users": dau_map.get(dt_val.date(), 0)}
+        for dt_val in last_7_days
+    ]
+
+    return {
+        "students_per_batch": students_per_batch,
+        "avg_score_per_batch": avg_score_per_batch,
+        "score_distribution": score_distribution,
+        "weekly_active_users": weekly_active_users,
+    }
 
 
 @router.get("/dashboard")
@@ -152,8 +315,6 @@ async def org_dashboard_v2(
     Returns summary cards, batch breakdowns, score distribution, and WAU.
     """
     from app.models.quiz import TestResult, QuizSession, StudyPlanTemplate, UserStudyPlan
-    from datetime import datetime, timedelta
-    from sqlalchemy import and_
 
     org_id = user.org_id
 
@@ -211,198 +372,11 @@ async def org_dashboard_v2(
     if not selected_exam_key and raw_exams:
         selected_exam_key = raw_exams[0]
 
-    # ── 3. Students per batch (filtered by exam) ──────────────────────────
-    students_per_batch = []
-    avg_score_per_batch = []
-    score_distribution = []
-    weekly_active_users = []
-
-    if selected_exam_key:
-        durations = get_batch_durations_for_exam(selected_exam_key)
-
-        # ── Single GROUP BY query for student counts per batch ────────────
-        res_counts = await db.execute(
-            select(StudyPlanTemplate.duration_months, func.count(func.distinct(UserStudyPlan.user_id)))
-            .select_from(UserStudyPlan)
-            .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-            .join(User, UserStudyPlan.user_id == User.id)
-            .where(User.org_id == org_id, StudyPlanTemplate.exam == selected_exam_key)
-            .group_by(StudyPlanTemplate.duration_months)
-        )
-        batch_counts = {dur: cnt for dur, cnt in res_counts.all()}
-
-        for dur in durations:
-            students_per_batch.append({"batch": BATCH_LABELS[dur], "count": batch_counts.get(dur, 0)})
-
-        # Unregistered = total org students minus distinct registered students for this exam.
-        res_distinct = await db.execute(
-            select(func.count(func.distinct(UserStudyPlan.user_id)))
-            .select_from(UserStudyPlan)
-            .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-            .join(User, UserStudyPlan.user_id == User.id)
-            .where(User.org_id == org_id, StudyPlanTemplate.exam == selected_exam_key)
-        )
-        total_registered = res_distinct.scalar() or 0
-        unregistered_cnt = max(0, total_students - total_registered)
-        if unregistered_cnt > 0:
-            students_per_batch.append({"batch": "Not Registered", "count": unregistered_cnt})
-
-        # ── Resolve valid quiz session plan_ids and mapped duration_months ──
-        is_cuet = selected_exam_key == "CUET" or selected_exam_key.startswith("CUET_")
-        valid_plan_id_to_dur: dict[uuid.UUID, int] = {}
-
-        if is_cuet:
-            cuet_students_stmt = (
-                select(UserStudyPlan.user_id, StudyPlanTemplate.duration_months)
-                .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-                .join(User, UserStudyPlan.user_id == User.id)
-                .where(User.org_id == org_id, StudyPlanTemplate.exam == selected_exam_key)
-            )
-            res_cuet_students = await db.execute(cuet_students_stmt)
-            user_target_durations = defaultdict(set)
-            for uid, dur in res_cuet_students.all():
-                user_target_durations[uid].add(dur)
-
-            if user_target_durations:
-                all_cuet_plans_stmt = (
-                    select(UserStudyPlan.user_id, UserStudyPlan.template_id, StudyPlanTemplate.duration_months)
-                    .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-                    .where(
-                        UserStudyPlan.user_id.in_(list(user_target_durations.keys())),
-                        or_(
-                            StudyPlanTemplate.exam == "CUET",
-                            StudyPlanTemplate.exam.like("CUET_%")
-                        )
-                    )
-                )
-                res_all_cuet = await db.execute(all_cuet_plans_stmt)
-                for uid, tid, dur in res_all_cuet.all():
-                    if dur in user_target_durations[uid]:
-                        valid_plan_id_to_dur[tid] = dur
-        else:
-            non_cuet_stmt = (
-                select(UserStudyPlan.template_id, StudyPlanTemplate.duration_months)
-                .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-                .join(User, UserStudyPlan.user_id == User.id)
-                .where(User.org_id == org_id, StudyPlanTemplate.exam == selected_exam_key)
-            )
-            res_non_cuet = await db.execute(non_cuet_stmt)
-            valid_plan_id_to_dur = {tid: dur for tid, dur in res_non_cuet.all()}
-
-        # ── Single GROUP BY query for avg scores per batch ────────────────
-        avg_scores = {}
-        if valid_plan_id_to_dur:
-            res_avgs = await db.execute(
-                select(
-                    QuizSession.plan_id,
-                    func.avg(
-                        func.cast(TestResult.total_score, Float) /
-                        func.nullif(func.cast(TestResult.max_score, Float), 0) * 100
-                    ),
-                )
-                .select_from(TestResult)
-                .join(QuizSession, TestResult.session_id == QuizSession.id)
-                .join(User, TestResult.user_id == User.id)
-                .where(
-                    User.org_id == org_id,
-                    QuizSession.plan_id.in_(list(valid_plan_id_to_dur.keys()))
-                )
-                .group_by(QuizSession.plan_id)
-            )
-            dur_sums = defaultdict(float)
-            dur_counts = defaultdict(int)
-            for pid, avg_val in res_avgs.all():
-                if avg_val is not None and pid in valid_plan_id_to_dur:
-                    dur = valid_plan_id_to_dur[pid]
-                    dur_sums[dur] += float(avg_val)
-                    dur_counts[dur] += 1
-            avg_scores = {dur: dur_sums[dur] / dur_counts[dur] for dur in dur_counts}
-
-        for dur in durations:
-            avg_score_per_batch.append({
-                "batch": BATCH_LABELS[dur],
-                "avg_score": round(float(avg_scores.get(dur) or 0.0), 1),
-            })
-
-        # ── 4. Score distribution (bucketed by 10, per batch) ─────────────
-        all_scores = []
-        if valid_plan_id_to_dur:
-            res_scores = await db.execute(
-                select(
-                    QuizSession.plan_id,
-                    User.id,
-                    func.avg(
-                        func.cast(TestResult.total_score, Float) /
-                        func.nullif(func.cast(TestResult.max_score, Float), 0) * 100
-                    ).label("avg_pct")
-                )
-                .select_from(TestResult)
-                .join(QuizSession, TestResult.session_id == QuizSession.id)
-                .join(User, TestResult.user_id == User.id)
-                .where(
-                    User.org_id == org_id,
-                    QuizSession.plan_id.in_(list(valid_plan_id_to_dur.keys())),
-                    TestResult.max_score > 0,
-                )
-                .group_by(QuizSession.plan_id, User.id)
-            )
-            all_scores = [
-                (valid_plan_id_to_dur[pid], avg_pct)
-                for pid, uid, avg_pct in res_scores.all()
-                if pid in valid_plan_id_to_dur
-            ]
-
-        buckets = list(range(0, 101, 10))
-        dist_data = []
-        for i in range(len(buckets) - 1):
-            low, high = buckets[i], buckets[i + 1]
-            row: dict = {"marks": f"{low}-{high}"}
-            for dur in durations:
-                key = f"{dur}_months"
-                cnt = sum(
-                    1 for dm, avg_pct in all_scores
-                    if dm == dur and avg_pct is not None and low <= avg_pct < (high if high < 100 else high + 1)
-                )
-                row[key] = cnt
-            dist_data.append(row)
-        score_distribution = dist_data
-
-        # ── 5. Daily Active Users (last 7 days rolling window) ───
-        from datetime import datetime, timedelta
-        now = datetime.utcnow()
-        today_start = datetime(now.year, now.month, now.day)
-        last_7_days = [today_start - timedelta(days=i) for i in range(6, -1, -1)]
-
-        dau_map = {}
-        if valid_plan_id_to_dur:
-            day_col = func.date_trunc("day", QuizSession.started_at)
-            res_dau = await db.execute(
-                select(
-                    day_col.label("day"),
-                    func.count(func.distinct(QuizSession.user_id)).label("active_users"),
-                )
-                .select_from(QuizSession)
-                .join(User, QuizSession.user_id == User.id)
-                .where(
-                    User.org_id == org_id,
-                    QuizSession.plan_id.in_(list(valid_plan_id_to_dur.keys())),
-                    QuizSession.started_at >= last_7_days[0],
-                )
-                .group_by(day_col)
-            )
-            for row in res_dau.all():
-                d_val = row.day.date() if isinstance(row.day, datetime) else row.day
-                if d_val:
-                    dau_map[d_val] = row.active_users
-
-        weekly_active_users = []
-        for dt_val in last_7_days:
-            d_key = dt_val.date()
-            active_cnt = dau_map.get(d_key, 0)
-            weekly_active_users.append({
-                "week": dt_val.strftime("%b %d"),
-                "active_users": active_cnt
-            })
+    # ── 3. Exam-filtered charts ────────────────────────────────────────────
+    charts = (
+        await _build_exam_charts(db, org_id, selected_exam_key, total_students)
+        if selected_exam_key else {}
+    )
 
     return {
         "total_students": total_students,
@@ -410,10 +384,10 @@ async def org_dashboard_v2(
         "completion_rate": completion_rate,
         "available_exams": available_exams if available_exams else ["No exams"],
         "selected_exam": EXAM_DISPLAY.get(selected_exam_key, selected_exam_key) if selected_exam_key else None,
-        "students_per_batch": students_per_batch,
-        "avg_score_per_batch": avg_score_per_batch,
-        "score_distribution": score_distribution,
-        "weekly_active_users": weekly_active_users,
+        "students_per_batch": charts.get("students_per_batch", []),
+        "avg_score_per_batch": charts.get("avg_score_per_batch", []),
+        "score_distribution": charts.get("score_distribution", []),
+        "weekly_active_users": charts.get("weekly_active_users", []),
     }
 
 
@@ -2000,7 +1974,6 @@ async def admin_view_org_dashboard(
     Also returns the most_attempted_exam for the summary card.
     """
     from app.models.quiz import TestResult, QuizSession, StudyPlanTemplate, UserStudyPlan
-    from datetime import datetime, timedelta
     from sqlalchemy import and_
 
     try:
@@ -2074,185 +2047,10 @@ async def admin_view_org_dashboard(
     if not selected_exam_key and raw_exams:
         selected_exam_key = raw_exams[0]
 
-    students_per_batch: list = []
-    avg_score_per_batch: list = []
-    score_distribution: list = []
-    weekly_active_users: list = []
-
-    if selected_exam_key:
-        durations = get_batch_durations_for_exam(selected_exam_key)
-
-        res_counts = await db.execute(
-            select(StudyPlanTemplate.duration_months, func.count(func.distinct(UserStudyPlan.user_id)))
-            .select_from(UserStudyPlan)
-            .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-            .join(User, UserStudyPlan.user_id == User.id)
-            .where(User.org_id == org_uuid, StudyPlanTemplate.exam == selected_exam_key)
-            .group_by(StudyPlanTemplate.duration_months)
-        )
-        batch_counts = {dur: cnt for dur, cnt in res_counts.all()}
-
-        for dur in durations:
-            students_per_batch.append({"batch": BATCH_LABELS[dur], "count": batch_counts.get(dur, 0)})
-
-        res_distinct = await db.execute(
-            select(func.count(func.distinct(UserStudyPlan.user_id)))
-            .select_from(UserStudyPlan)
-            .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-            .join(User, UserStudyPlan.user_id == User.id)
-            .where(User.org_id == org_uuid, StudyPlanTemplate.exam == selected_exam_key)
-        )
-        total_registered = res_distinct.scalar() or 0
-        unregistered_cnt = max(0, total_students - total_registered)
-        if unregistered_cnt > 0:
-            students_per_batch.append({"batch": "Not Registered", "count": unregistered_cnt})
-
-        is_cuet = selected_exam_key == "CUET" or selected_exam_key.startswith("CUET_")
-        valid_plan_id_to_dur_admin: dict[uuid.UUID, int] = {}
-
-        if is_cuet:
-            cuet_students_stmt = (
-                select(UserStudyPlan.user_id, StudyPlanTemplate.duration_months)
-                .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-                .join(User, UserStudyPlan.user_id == User.id)
-                .where(User.org_id == org_uuid, StudyPlanTemplate.exam == selected_exam_key)
-            )
-            res_cuet_students = await db.execute(cuet_students_stmt)
-            user_target_durations = defaultdict(set)
-            for uid, dur in res_cuet_students.all():
-                user_target_durations[uid].add(dur)
-
-            if user_target_durations:
-                all_cuet_plans_stmt = (
-                    select(UserStudyPlan.user_id, UserStudyPlan.template_id, StudyPlanTemplate.duration_months)
-                    .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-                    .where(
-                        UserStudyPlan.user_id.in_(list(user_target_durations.keys())),
-                        or_(
-                            StudyPlanTemplate.exam == "CUET",
-                            StudyPlanTemplate.exam.like("CUET_%")
-                        )
-                    )
-                )
-                res_all_cuet = await db.execute(all_cuet_plans_stmt)
-                for uid, tid, dur in res_all_cuet.all():
-                    if dur in user_target_durations[uid]:
-                        valid_plan_id_to_dur_admin[tid] = dur
-        else:
-            non_cuet_stmt = (
-                select(UserStudyPlan.template_id, StudyPlanTemplate.duration_months)
-                .join(StudyPlanTemplate, UserStudyPlan.template_id == StudyPlanTemplate.id)
-                .join(User, UserStudyPlan.user_id == User.id)
-                .where(User.org_id == org_uuid, StudyPlanTemplate.exam == selected_exam_key)
-            )
-            res_non_cuet = await db.execute(non_cuet_stmt)
-            valid_plan_id_to_dur_admin = {tid: dur for tid, dur in res_non_cuet.all()}
-
-        avg_scores = {}
-        if valid_plan_id_to_dur_admin:
-            res_avgs = await db.execute(
-                select(
-                    QuizSession.plan_id,
-                    func.avg(
-                        func.cast(TestResult.total_score, Float) /
-                        func.nullif(func.cast(TestResult.max_score, Float), 0) * 100
-                    ),
-                )
-                .select_from(TestResult)
-                .join(QuizSession, TestResult.session_id == QuizSession.id)
-                .join(User, TestResult.user_id == User.id)
-                .where(
-                    User.org_id == org_uuid,
-                    QuizSession.plan_id.in_(list(valid_plan_id_to_dur_admin.keys()))
-                )
-                .group_by(QuizSession.plan_id)
-            )
-            dur_sums = defaultdict(float)
-            dur_counts = defaultdict(int)
-            for pid, avg_val in res_avgs.all():
-                if avg_val is not None and pid in valid_plan_id_to_dur_admin:
-                    dur = valid_plan_id_to_dur_admin[pid]
-                    dur_sums[dur] += float(avg_val)
-                    dur_counts[dur] += 1
-            avg_scores = {dur: dur_sums[dur] / dur_counts[dur] for dur in dur_counts}
-
-        for dur in durations:
-            avg_score_per_batch.append({
-                "batch": BATCH_LABELS[dur],
-                "avg_score": round(float(avg_scores.get(dur) or 0.0), 1),
-            })
-
-        all_scores = []
-        if valid_plan_id_to_dur_admin:
-            res_scores = await db.execute(
-                select(
-                    QuizSession.plan_id,
-                    User.id,
-                    func.avg(
-                        func.cast(TestResult.total_score, Float) /
-                        func.nullif(func.cast(TestResult.max_score, Float), 0) * 100
-                    ).label("avg_pct")
-                )
-                .select_from(TestResult)
-                .join(QuizSession, TestResult.session_id == QuizSession.id)
-                .join(User, TestResult.user_id == User.id)
-                .where(
-                    User.org_id == org_uuid,
-                    QuizSession.plan_id.in_(list(valid_plan_id_to_dur_admin.keys())),
-                    TestResult.max_score > 0,
-                )
-                .group_by(QuizSession.plan_id, User.id)
-            )
-            all_scores = [
-                (valid_plan_id_to_dur_admin[pid], avg_pct)
-                for pid, uid, avg_pct in res_scores.all()
-                if pid in valid_plan_id_to_dur_admin
-            ]
-
-        buckets = list(range(0, 101, 10))
-        dist_data = []
-        for i in range(len(buckets) - 1):
-            low, high = buckets[i], buckets[i + 1]
-            row: dict = {"marks": f"{low}-{high}"}
-            for dur in durations:
-                key = f"{dur}_months"
-                cnt = sum(
-                    1 for dm, avg_pct in all_scores
-                    if dm == dur and avg_pct is not None and low <= avg_pct < (high if high < 100 else high + 1)
-                )
-                row[key] = cnt
-            dist_data.append(row)
-        score_distribution = dist_data
-
-        now = datetime.utcnow()
-        today_start = datetime(now.year, now.month, now.day)
-        last_7_days = [today_start - timedelta(days=i) for i in range(6, -1, -1)]
-
-        dau_map = {}
-        if valid_plan_id_to_dur_admin:
-            day_col = func.date_trunc("day", QuizSession.started_at)
-            res_dau = await db.execute(
-                select(day_col.label("day"), func.count(func.distinct(QuizSession.user_id)).label("active_users"))
-                .select_from(QuizSession)
-                .join(User, QuizSession.user_id == User.id)
-                .where(
-                    User.org_id == org_uuid,
-                    QuizSession.plan_id.in_(list(valid_plan_id_to_dur_admin.keys())),
-                    QuizSession.started_at >= last_7_days[0],
-                )
-                .group_by(day_col)
-            )
-            for row in res_dau.all():
-                d_val = row.day.date() if isinstance(row.day, datetime) else row.day
-                if d_val:
-                    dau_map[d_val] = row.active_users
-
-        for dt_val in last_7_days:
-            d_key = dt_val.date()
-            weekly_active_users.append({
-                "week": dt_val.strftime("%b %d"),
-                "active_users": dau_map.get(d_key, 0)
-            })
+    charts = (
+        await _build_exam_charts(db, org_uuid, selected_exam_key, total_students)
+        if selected_exam_key else {}
+    )
 
     return {
         "total_students": total_students,
@@ -2261,10 +2059,10 @@ async def admin_view_org_dashboard(
         "most_attempted_exam": most_attempted_exam,
         "available_exams": available_exams if available_exams else ["No exams"],
         "selected_exam": EXAM_DISPLAY.get(selected_exam_key, selected_exam_key) if selected_exam_key else None,
-        "students_per_batch": students_per_batch,
-        "avg_score_per_batch": avg_score_per_batch,
-        "score_distribution": score_distribution,
-        "weekly_active_users": weekly_active_users,
+        "students_per_batch": charts.get("students_per_batch", []),
+        "avg_score_per_batch": charts.get("avg_score_per_batch", []),
+        "score_distribution": charts.get("score_distribution", []),
+        "weekly_active_users": charts.get("weekly_active_users", []),
     }
 
 

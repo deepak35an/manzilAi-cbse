@@ -133,13 +133,13 @@ export interface BatchAvgScore {
   avg_score: number
 }
 
+/** One marks range (out of TOPIC_TEST_MAX_MARKS); remaining keys are batch series ('topic_wise', legacy 'N_months'). */
 export interface ScoreDistBucket {
   marks: string
-  '3_months': number
-  '6_months': number
-  '9_months'?: number
-  '12_months': number
+  [batchKey: string]: string | number
 }
+
+export const TOPIC_TEST_MAX_MARKS = 20
 
 export interface WeeklyActiveUser {
   week: string
