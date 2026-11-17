@@ -54,6 +54,8 @@ class StudentResponse(BaseModel):
     email: str | None
     tests_taken: int = 0
     avg_score: float = 0.0
+    avg_marks: float = 0.0
+    avg_max_marks: int = 0
     status: str = "active"
     duration_months: int | None = None
     started_at: datetime | None = None
@@ -462,10 +464,6 @@ async def list_org_students(
         select(
             User,
             func.count(func.distinct(TestResult.id)).label("tests_taken"),
-            func.avg(
-                func.cast(TestResult.total_score, Float) /
-                func.nullif(func.cast(TestResult.max_score, Float), 0) * 100
-            ).label("avg_score"),
         )
         .options(selectinload(User.credentials))
         .outerjoin(TestResult, User.id == TestResult.user_id)
@@ -476,6 +474,16 @@ async def list_org_students(
     result = await db.execute(stmt)
     rows = result.all()
 
+    results_q = await db.execute(
+        select(TestResult)
+        .join(User, TestResult.user_id == User.id)
+        .where(User.org_id == user.org_id, User.role == UserRole.student)
+    )
+    results_by_user: dict = defaultdict(list)
+    for tr in results_q.scalars().all():
+        results_by_user[tr.user_id].append(tr)
+    marks_by_user = {uid: average_marks(trs) for uid, trs in results_by_user.items()}
+
     return [
         StudentResponse(
             id=str(row.User.id),
@@ -483,7 +491,9 @@ async def list_org_students(
             phone=row.User.phone,
             email=row.User.email,
             tests_taken=row.tests_taken or 0,
-            avg_score=round(float(row.avg_score or 0.0), 1),
+            avg_score=round(marks_by_user.get(row.User.id, (0.0, 0, 0.0))[2], 1),
+            avg_marks=marks_by_user.get(row.User.id, (0.0, 0, 0.0))[0],
+            avg_max_marks=marks_by_user.get(row.User.id, (0.0, 0, 0.0))[1],
             duration_months=None,
             started_at=None,
             all_batches=batches_by_user.get(row.User.id, []),

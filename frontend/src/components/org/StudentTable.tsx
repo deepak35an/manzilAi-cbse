@@ -81,7 +81,7 @@ export default function StudentTable({ students, onDelete, availableExams }: Stu
     },
     { key: 'phone', header: 'Phone' },
     { key: 'tests_taken', header: 'Total Tests' },
-    { key: 'avg_score', header: 'Average Score', render: (s: OrgStudent) => `${s.avg_score.toFixed(1)}%` },
+    { key: 'avg_score', header: 'Average Score', render: (s: OrgStudent) => (s.tests_taken && s.avg_max_marks ? `${s.avg_marks ?? 0}/${s.avg_max_marks}` : '—') },
     {
       key: 'detailed_review',
       header: 'Detailed Review',

@@ -20,6 +20,8 @@ export interface OrgStudent {
   email: string | null
   tests_taken: number
   avg_score: number
+  avg_marks?: number
+  avg_max_marks?: number
   status: string
   duration_months?: number | null
   started_at?: string | null
