@@ -246,7 +246,7 @@
     "subtopic": "Napoleonic Code",
     "difficulty": "Medium",
     "question_type": "Knowledge",
-    "question": "Read the following facts related to 'Napoleonic Code' carefully and choose the correct option : I. Abolition of privileges based on birth. II. Establishing equality before the law. III. Securing property rights. IV. Imposing manorial dues on the peasants.",
+    "question": "Read the following facts related to 'Napoleonic Code' carefully and choose the correct option : '\n' I. Abolition of privileges based on birth. '\n' II. Establishing equality before the law. '\n' III. Securing property rights. '\n' IV. Imposing manorial dues on the peasants.",
     "options": [
       "(A) only I, II and III are correct.",
       "(B) only II, III and IV are correct.",
@@ -406,7 +406,7 @@
     "subtopic": "Nineteenth-century chronology",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following events in chronological order and choose the correct option. I. Treaty of Constantinople II. Hamburg granted autonomy to Hungary III. Balkan Conflict IV. Napoleonic Civil Code",
+    "question": "Arrange the following events in chronological order and choose the correct option. '\n' I. Treaty of Constantinople '\n' II. Hamburg granted autonomy to Hungary '\n' III. Balkan Conflict '\n' IV. Napoleonic Civil Code",
     "options": [
       "(A) IV, II, I & III",
       "(B) III, II, IV & I",
@@ -1786,7 +1786,7 @@
     "subtopic": "Chronology of national movement events",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following historical events in chronological order and choose the correct option : I. Second Round Table Conference II. Simon Commission arrives in India III. Beginning of Dandi March IV. Incident of Chauri-Chaura",
+    "question": "Arrange the following historical events in chronological order and choose the correct option :\nI. Second Round Table Conference\nII. Simon Commission arrives in India\nIII. Beginning of Dandi March\nIV. Incident of Chauri-Chaura",
     "options": [
       "(A) I, II, III and IV",
       "(B) IV, II, III and I",
@@ -1886,7 +1886,7 @@
     "subtopic": "Chronology of national movement events",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following events of Indian National Movement in chronological order and choose the correct option. I. Formation of Swaraj Party II. Lahore Session of the Indian National Congress III. Gandhi-Irwin Pact IV. Formation of Depressed Class Association",
+    "question": "Arrange the following events of Indian National Movement in chronological order and choose the correct option.\nI. Formation of Swaraj Party\nII. Lahore Session of the Indian National Congress\nIII. Gandhi-Irwin Pact\nIV. Formation of Depressed Class Association",
     "options": [
       "(A) II, III, I and IV",
       "(B) I, II, IV and III",
@@ -1926,7 +1926,7 @@
     "subtopic": "Chronology of national movement events",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following events in chronological order and choose the correct option. I. Formation of Khilafat Committee in Bombay II. Jallianwala Bagh Massacre III. Bardoli Satyagraha IV. Withdrawal of Non-Cooperation Movement",
+    "question": "Arrange the following events in chronological order and choose the correct option.\nI. Formation of Khilafat Committee in Bombay\nII. Jallianwala Bagh Massacre\nIII. Bardoli Satyagraha\nIV. Withdrawal of Non-Cooperation Movement",
     "options": [
       "(A) I, II, III, IV",
       "(B) II, I, IV, III",
@@ -1946,7 +1946,7 @@
     "subtopic": "Chronology of national organisations and conferences",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following events in chronological order and choose the correct option I. Establishment of Depressed Classes Association II. Gandhi-Irwin Pact III. Formation of the Indian Chambers of Commerce and Industry (FICCI) IV. Second Round Table Conference in London",
+    "question": "Arrange the following events in chronological order and choose the correct option\nI. Establishment of Depressed Classes Association\nII. Gandhi-Irwin Pact\nIII. Formation of the Indian Chambers of Commerce and Industry (FICCI)\nIV. Second Round Table Conference in London",
     "options": [
       "(A) I, II, III, IV",
       "(B) II, I, III, IV",
@@ -1966,7 +1966,7 @@
     "subtopic": "Rowlatt Act",
     "difficulty": "Easy",
     "question_type": "Knowledge",
-    "question": "Identify the correct option that describes the act given below. i. The Act was passed by the Imperial Legislative Council. ii. It gave power to the government to repress political activities. iii. It empowered the government to detain political prisoners without trial. Options:",
+    "question": "Identify the correct option that describes the act given below.\ni. The Act was passed by the Imperial Legislative Council.\nii. It gave power to the government to repress political activities.\niii. It empowered the government to detain political prisoners without trial.",
     "options": [
       "(A) Rowlatt Act",
       "(B) Vernacular Press Act",
@@ -1986,7 +1986,7 @@
     "subtopic": "Non-cooperation chronology",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following statements in sequential order based on the events that shaped the Non-cooperation movement. i. General Dyer opened fire at the large crowd gathered in the enclosed ground of Jallianwala Bagh. ii. “Forced recruitment” carried out by the British government and the economic hardships faced by the people during the first world war. iii. The defeat of the Ottoman Emperor of Turkey led to the formation of the Khilafat movement. iv. Gandhiji launched a nationwide satyagraha against the Rowlatt act. Options:",
+    "question": "Arrange the following statements in sequential order based on the events that shaped the Non-cooperation movement. \ni. General Dyer opened fire at the large crowd gathered in the enclosed ground of Jallianwala Bagh. \nii. “Forced recruitment” carried out by the British government and the economic hardships faced by the people during the first world war. \niii. The defeat of the Ottoman Emperor of Turkey led to the formation of the Khilafat movement. \niv. Gandhiji launched a nationwide satyagraha against the Rowlatt act. Options:",
     "options": [
       "(A) iv, iii, ii, i",
       "(B) ii, i, iv,iii",
@@ -2066,7 +2066,7 @@
     "subtopic": "Nationalist movement chronology",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "Arrange the following statements in sequential order based on the events that took place in India prior to independence. i. Poorna Swaraj resolution was passed. ii. Boycott of the Simon Commission iii.Quit India Movement launched. iv. Salt march and the beginning of the Civil Disobedience Movement. Options:",
+    "question": "Arrange the following statements in sequential order based on the events that took place in India prior to independence.\ni. Poorna Swaraj resolution was passed.\nii. Boycott of the Simon Commission\niii. Quit India Movement launched.\niv. Salt march and the beginning of the Civil Disobedience Movement.",
     "options": [
       "(A) iv, iii, ii, i",
       "(B) ii, i, iv,iii",
@@ -2466,7 +2466,7 @@
     "subtopic": "Nineteenth-century migration",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "Read the following reasons of migration of people from Europe to America till the 19th century and choose the correct option : I. Poverty and hunger II. Slaves for sale III. Wide spread of diseases IV. Religious conflicts and persecution",
+    "question": "Read the following reasons of migration of people from Europe to America till the 19th century and choose the correct option : \nI. Poverty and hunger \nII. Slaves for sale \nIII. Wide spread of diseases \nIV. Religious conflicts and persecution",
     "options": [
       "(A) Only I, II and III are correct.",
       "(B) Only II, III and IV are correct.",
@@ -2646,7 +2646,7 @@
     "subtopic": "Spread of Buddhism along trade routes",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "'Buddhism emerged from eastern India and spread in several directions.' Read the following reasons for its spread and choose the correct option. I. Due to Cultural exchange II. Due to Silk route III. Due to trade & travellers IV. Due to European efforts",
+    "question": "'Buddhism emerged from eastern India and spread in several directions.' Read the following reasons for its spread and choose the correct option. \nI. Due to Cultural exchange \nII. Due to Silk route \nIII. Due to trade & travellers \nIV. Due to European efforts",
     "options": [
       "(A) Only I, II and IV are correct.",
       "(B) Only II, III and IV are correct.",
@@ -3406,7 +3406,7 @@
     "subtopic": "Print revolution",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "There are two statements given below about the Print Revolution, marked as Assertion (A) and Reason (R). Read the statements and choose the correct option. Assertion (A): The distribution, application, and preservation of knowledge were fundamentally altered with the invention of printing. Reason (R): Printing enabled intellectuals to produce, comment on, and evaluate texts which spread as ideas across Europe.",
+    "question": "There are two statements given below about the Print Revolution, marked as Assertion (A) and Reason (R). Read the statements and choose the correct option. \n Assertion (A): The distribution, application, and preservation of knowledge were fundamentally altered with the invention of printing. \n Reason (R): Printing enabled intellectuals to produce, comment on, and evaluate texts which spread as ideas across Europe.",
     "options": [
       "(A) A is true but R is false.",
       "(B) A is false but R is true.",
@@ -3606,7 +3606,7 @@
     "subtopic": "Print chronology",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "Arrange the following in chronological order: I. Print culture created the conditions for the French Revolution II. Martin Luther’s writings led to beginning of the Protestant Reformation III. Menocchio reinterpreted the message of the Bible IV. Johann Gutenberg invented Printing press OPTIONS:",
+    "question": "Arrange the following in chronological order: \nI. Print culture created the conditions for the French Revolution \nII. Martin Luther’s writings led to beginning of the Protestant Reformation \nIII. Menocchio reinterpreted the message of the Bible \nIV. Johann Gutenberg invented Printing press OPTIONS:",
     "options": [
       "(A) III, II, I & IV",
       "(B) I, II, III & IV",
@@ -4206,7 +4206,7 @@
     "subtopic": "Black soil",
     "difficulty": "Medium",
     "question_type": "Knowledge",
-    "question": "“M” gave his friend clues about a type of soil that suits for growing cotton. Which of the following clues provided by \"M\" would be most useful in identifying the ideal type of soil? Clues: i. It is well-known for its capacity to hold moisture. ii. It turns yellow when it is hydrated. iii. It is rich in kankur and bhangar nodules. iv. It is a well-drained loamy soil.",
+    "question": "“M” gave his friend clues about a type of soil that suits for growing cotton. Which of the following clues provided by \"M\" would be most useful in identifying the ideal type of soil? Clues: \ni. It is well-known for its capacity to hold moisture. \nii. It turns yellow when it is hydrated. \niii. It is rich in kankur and bhangar nodules. \niv. It is a well-drained loamy soil.",
     "options": [
       "(A) Clue i",
       "(B) Clue i and iii",
@@ -4566,7 +4566,7 @@
     "subtopic": "Resource planning",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "There are two statements given below, marked as Assertion (A) and Reason (R). Read the statements and choose the correct option. Assertion(A): Resource planning is a complex process. Reason(R): Resource planning helps in effective and judicious use of resources.",
+    "question": "There are two statements given below, marked as Assertion (A) and Reason (R). Read the statements and choose the correct option. \nAssertion(A): Resource planning is a complex process. \nReason(R): Resource planning helps in effective and judicious use of resources.",
     "options": [
       "(A) A is true but R is false",
       "(B) A is false but R is true.",
@@ -4586,7 +4586,7 @@
     "subtopic": "Resource overuse",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "Which of the following statement(s) is/are an example of over-utilisation of resources? P: The degradation of quality of land, air and local water sources. Q: The Malyan tigers being classified as a critically endangered species.",
+    "question": "Which of the following statement(s) is/are an example of over-utilisation of resources? \nP: The degradation of quality of land, air and local water sources. \nQ: The Malyan tigers being classified as a critically endangered species.",
     "options": [
       "(A) only P",
       "(B) only Q",
@@ -5526,7 +5526,7 @@
     "subtopic": "Bhakra Nangal project",
     "difficulty": "Easy",
     "question_type": "Knowledge",
-    "question": "In Bhakra – Nangal project water is being used for i. Hydel power production ii. Irrigation iii. Transportation iv. Cleaning",
+    "question": "In Bhakra – Nangal project water is being used for \ni. Hydel power production \nii. Irrigation \niii. Transportation \niv. Cleaning",
     "options": [
       "(A) i and iv",
       "(B) ii and i",
@@ -5866,7 +5866,7 @@
     "subtopic": "Rubber cultivation",
     "difficulty": "Medium",
     "question_type": "Knowledge",
-    "question": "With the help of following information identify the agricultural crop from the given options : I. It requires more than 200 cm. rainfall and temperature above 25 C. II. It is mainly used as raw material in industries. III. It is primarily a crop of the equatorial region.",
+    "question": "With the help of following information identify the agricultural crop from the given options : \nI. It requires more than 200 cm. rainfall and temperature above 25 C. \nII. It is mainly used as raw material in industries. \nIII. It is primarily a crop of the equatorial region.",
     "options": [
       "(A) Cotton",
       "(B) Rubber",
@@ -6166,7 +6166,7 @@
     "subtopic": "Crop diversification",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "There has been a gradual shift from cultivation of food crops to cultivation of fruits, vegetables, oil-seeds and industrial crops. This has led to the reduction in net sown area under cereals and pulses. With the growing population of India, the declining food production puts a big question mark over the country’s future food security. The competition for land between non-agricultural uses such as housing etc. and agriculture has resulted in reduction in the net sown area. The productivity of land has started showing a declining trend. Fertilisers, pesticides and insecticides, which once showed dramatic results, are now being held responsible for degrading the soils. Periodic scarcity of water has led to reduction in area under irrigation. Inefficient water management has led to water logging and salinity. Read the following statements and find the correct from the given options: I. Indian farmers are diversifying their cropping pattern. II. They are shifting production from cereals to fruits, vegetables, etc. III. Jute is in high demand in the Indian market. Options:",
+    "question": "There has been a gradual shift from cultivation of food crops to cultivation of fruits, vegetables, oil-seeds and industrial crops. This has led to the reduction in net sown area under cereals and pulses. With the growing population of India, the declining food production puts a big question mark over the country’s future food security. The competition for land between non-agricultural uses such as housing etc. and agriculture has resulted in reduction in the net sown area. The productivity of land has started showing a declining trend. Fertilisers, pesticides and insecticides, which once showed dramatic results, are now being held responsible for degrading the soils. Periodic scarcity of water has led to reduction in area under irrigation. Inefficient water management has led to water logging and salinity. Read the following statements and find the correct from the given options: \nI. Indian farmers are diversifying their cropping pattern. \nII. They are shifting production from cereals to fruits, vegetables, etc. \nIII. Jute is in high demand in the Indian market. Options:",
     "options": [
       "(A) I & II",
       "(B) II&III",
@@ -6606,7 +6606,7 @@
     "subtopic": "Importance of minerals",
     "difficulty": "Easy",
     "question_type": "Understanding",
-    "question": "Two statements are given below. They are Assertion (A) and Reason (R). Read both the statements carefully and choose the correct option : Assertion (A) : Minerals are an indispensable part of our lives. Reason (R) : All living things need minerals.",
+    "question": "Two statements are given below. They are Assertion (A) and Reason (R). Read both the statements carefully and choose the correct option : \nAssertion (A) : Minerals are an indispensable part of our lives. \nReason (R) : All living things need minerals.",
     "options": [
       "(A) Both (A) and (R) are true and (R) is the correct explanation of (A).",
       "(B) Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -6646,7 +6646,7 @@
     "subtopic": "Solar energy potential",
     "difficulty": "Easy",
     "question_type": "Understanding",
-    "question": "Two statements are given below. They are Assertion (A) and Reason (R). Read both the statements and choose the correct option : Assertion (A) : India has enormous possibilities of production of solar energy. Reason (R) : Most of the land area of India falls under the cold zone.",
+    "question": "Two statements are given below. They are Assertion (A) and Reason (R). Read both the statements and choose the correct option : \nAssertion (A) : India has enormous possibilities of production of solar energy. \nReason (R) : Most of the land area of India falls under the cold zone.",
     "options": [
       "(A) Both (A) and (R) are true and (R) is the correct explanation of (A).",
       "(B) Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -6706,7 +6706,7 @@
     "subtopic": "Placer mineral deposits",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "Two statements are given below. They are Assertion (A) and Reason (R). Read both the statements and choose the correct option. Assertion (A) : Certain minerals may occur as alluvial deposits in sands of valley floors and the base of hills. Reason (R) : These are usually minerals, that are not corroded by water.",
+    "question": "Two statements are given below. They are Assertion (A) and Reason (R). Read both the statements and choose the correct option. \nAssertion (A) : Certain minerals may occur as alluvial deposits in sands of valley floors and the base of hills. \nReason (R) : These are usually minerals, that are not corroded by water.",
     "options": [
       "(A) Both (A) and (R) are true and (R) is the correct explanation of (A).",
       "(B) Both (A) and (R) are true but (R) is not the correct explanation of (A).",
@@ -6746,7 +6746,7 @@
     "subtopic": "Lignite coal",
     "difficulty": "Easy",
     "question_type": "Knowledge",
-    "question": "Read the characteristics given in the box and identify the type of coal from the option given below : This is low grade brown coal. The principal reserves are in Neyveli in Tamilnadu. It is soft with high moisture content.",
+    "question": "Read the characteristics given in the box and identify the type of coal from the option given below : \nThis is low grade brown coal. \nThe principal reserves are in Neyveli in Tamilnadu. \nIt is soft with high moisture content.",
     "options": [
       "(A) Pit Coal",
       "(B) Anthrasite Coal",
@@ -7126,7 +7126,7 @@
     "subtopic": "Jute industry location",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "Two statements are given below. They are Assertion (A) and Reason (R). Read both the statements and choose the correct option : Assertion (A) : Most of the jute industry in India is located in a narrow belt along the banks of Hugli river. Reason (R) : India is the second largest exporter of jute.",
+    "question": "Two statements are given below. They are Assertion (A) and Reason (R). Read both the statements and choose the correct option : \nAssertion (A) : Most of the jute industry in India is located in a narrow belt along the banks of Hugli river. \nReason (R) : India is the second largest exporter of jute.",
     "options": [
       "(A) Both (A) and (R) are true and (R) is the correct explanation of (A).",
       "(B) Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -7146,7 +7146,7 @@
     "subtopic": "Agriculture-industry link",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "There are two statements given as Assertion (A) and Reason (R). Read both the statements and choose the correct option. Assertion (A) : Agriculture and industry move hand in hand. Reason (R) : Industrial development is a precondition for eradication of unemployment and poverty from the country.",
+    "question": "There are two statements given as Assertion (A) and Reason (R). Read both the statements and choose the correct option. \nAssertion (A) : Agriculture and industry move hand in hand. \nReason (R) : Industrial development is a precondition for eradication of unemployment and poverty from the country.",
     "options": [
       "(A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
       "(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
@@ -17346,7 +17346,7 @@
     "subtopic": "Napoleonic Code",
     "difficulty": "Medium",
     "question_type": "Knowledge",
-    "question": "Read the following facts related to 'Napoleonic Code' carefully and choose the correct option : I. Abolition of privileges based on birth. II. Establishing equality before the law. III. Securing property rights. IV. Imposing manorial dues on the peasants.",
+    "question": "Read the following facts related to 'Napoleonic Code' carefully and choose the correct option : '\n' I. Abolition of privileges based on birth. '\n' II. Establishing equality before the law. '\n' III. Securing property rights. '\n' IV. Imposing manorial dues on the peasants.",
     "options": [
       "(A) only I, II and III are correct.",
       "(B) only II, III and IV are correct.",
@@ -17506,7 +17506,7 @@
     "subtopic": "Nineteenth-century chronology",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following events in chronological order and choose the correct option. I. Treaty of Constantinople II. Hamburg granted autonomy to Hungary III. Balkan Conflict IV. Napoleonic Civil Code",
+    "question": "Arrange the following events in chronological order and choose the correct option. '\n' I. Treaty of Constantinople '\n' II. Hamburg granted autonomy to Hungary '\n' III. Balkan Conflict '\n' IV. Napoleonic Civil Code",
     "options": [
       "(A) IV, II, I & III",
       "(B) III, II, IV & I",
@@ -18886,7 +18886,7 @@
     "subtopic": "Chronology of national movement events",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following historical events in chronological order and choose the correct option : I. Second Round Table Conference II. Simon Commission arrives in India III. Beginning of Dandi March IV. Incident of Chauri-Chaura",
+    "question": "Arrange the following historical events in chronological order and choose the correct option :\nI. Second Round Table Conference\nII. Simon Commission arrives in India\nIII. Beginning of Dandi March\nIV. Incident of Chauri-Chaura",
     "options": [
       "(A) I, II, III and IV",
       "(B) IV, II, III and I",
@@ -18946,7 +18946,7 @@
     "subtopic": "Civil Disobedience chronology",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "Arrange the following events in the correct chronological order leading up to the Civil Disobedience Movement: 1. Boycott of the Simon Commission 2. Poorna Swaraj resolution passed 3. Letter with 11 demands sent to Viceroy Irwin 4. Salt March Options:",
+    "question": "Arrange the following events in the correct chronological order leading up to the Civil Disobedience Movement: '\n' 1. Boycott of the Simon Commission '\n' 2. Poorna Swaraj resolution passed '\n' 3. Letter with 11 demands sent to Viceroy Irwin '\n' 4. Salt March Options:",
     "options": [
       "(A) 4, 3, 2, 1",
       "(B) 2, 1, 3, 4",
@@ -18986,7 +18986,7 @@
     "subtopic": "Chronology of national movement events",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following events of Indian National Movement in chronological order and choose the correct option. I. Formation of Swaraj Party II. Lahore Session of the Indian National Congress III. Gandhi-Irwin Pact IV. Formation of Depressed Class Association",
+    "question": "Arrange the following events of Indian National Movement in chronological order and choose the correct option.\nI. Formation of Swaraj Party\nII. Lahore Session of the Indian National Congress\nIII. Gandhi-Irwin Pact\nIV. Formation of Depressed Class Association",
     "options": [
       "(A) II, III, I and IV",
       "(B) I, II, IV and III",
@@ -19026,7 +19026,7 @@
     "subtopic": "Chronology of national movement events",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following events in chronological order and choose the correct option. I. Formation of Khilafat Committee in Bombay II. Jallianwala Bagh Massacre III. Bardoli Satyagraha IV. Withdrawal of Non-Cooperation Movement",
+    "question": "Arrange the following events in chronological order and choose the correct option.\nI. Formation of Khilafat Committee in Bombay\nII. Jallianwala Bagh Massacre\nIII. Bardoli Satyagraha\nIV. Withdrawal of Non-Cooperation Movement",
     "options": [
       "(A) I, II, III, IV",
       "(B) II, I, IV, III",
@@ -19046,7 +19046,7 @@
     "subtopic": "Chronology of national organisations and conferences",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following events in chronological order and choose the correct option I. Establishment of Depressed Classes Association II. Gandhi-Irwin Pact III. Formation of the Indian Chambers of Commerce and Industry (FICCI) IV. Second Round Table Conference in London",
+    "question": "Arrange the following events in chronological order and choose the correct option\nI. Establishment of Depressed Classes Association\nII. Gandhi-Irwin Pact\nIII. Formation of the Indian Chambers of Commerce and Industry (FICCI)\nIV. Second Round Table Conference in London",
     "options": [
       "(A) I, II, III, IV",
       "(B) II, I, III, IV",
@@ -19066,7 +19066,7 @@
     "subtopic": "Rowlatt Act",
     "difficulty": "Easy",
     "question_type": "Knowledge",
-    "question": "Identify the correct option that describes the act given below. i. The Act was passed by the Imperial Legislative Council. ii. It gave power to the government to repress political activities. iii. It empowered the government to detain political prisoners without trial. Options:",
+    "question": "Identify the correct option that describes the act given below.\ni. The Act was passed by the Imperial Legislative Council.\nii. It gave power to the government to repress political activities.\niii. It empowered the government to detain political prisoners without trial.",
     "options": [
       "(A) Rowlatt Act",
       "(B) Vernacular Press Act",
@@ -19086,7 +19086,7 @@
     "subtopic": "Non-cooperation chronology",
     "difficulty": "Hard",
     "question_type": "Understanding",
-    "question": "Arrange the following statements in sequential order based on the events that shaped the Non-cooperation movement. i. General Dyer opened fire at the large crowd gathered in the enclosed ground of Jallianwala Bagh. ii. “Forced recruitment” carried out by the British government and the economic hardships faced by the people during the first world war. iii. The defeat of the Ottoman Emperor of Turkey led to the formation of the Khilafat movement. iv. Gandhiji launched a nationwide satyagraha against the Rowlatt act. Options:",
+    "question": "Arrange the following statements in sequential order based on the events that shaped the Non-cooperation movement. \ni. General Dyer opened fire at the large crowd gathered in the enclosed ground of Jallianwala Bagh. \nii. “Forced recruitment” carried out by the British government and the economic hardships faced by the people during the first world war. \niii. The defeat of the Ottoman Emperor of Turkey led to the formation of the Khilafat movement. \niv. Gandhiji launched a nationwide satyagraha against the Rowlatt act. Options:",
     "options": [
       "(A) iv, iii, ii, i",
       "(B) ii, i, iv,iii",
@@ -19166,7 +19166,7 @@
     "subtopic": "Nationalist movement chronology",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "Arrange the following statements in sequential order based on the events that took place in India prior to independence. i. Poorna Swaraj resolution was passed. ii. Boycott of the Simon Commission iii.Quit India Movement launched. iv. Salt march and the beginning of the Civil Disobedience Movement. Options:",
+    "question": "Arrange the following statements in sequential order based on the events that took place in India prior to independence.\ni. Poorna Swaraj resolution was passed.\nii. Boycott of the Simon Commission\niii. Quit India Movement launched.\niv. Salt march and the beginning of the Civil Disobedience Movement.",
     "options": [
       "(A) iv, iii, ii, i",
       "(B) ii, i, iv,iii",
@@ -19566,11 +19566,11 @@
     "subtopic": "Nineteenth-century migration",
     "difficulty": "Medium",
     "question_type": "Understanding",
-    "question": "Read the following reasons of migration of people from Europe to America till the 19th century and choose the correct option : I. Poverty and hunger II. Slaves for sale III. Wide spread of diseases IV. Religious conflicts and persecution",
+    "question": "Read the following reasons of migration of people from Europe to America till the 19th century and choose the correct option : \nI. Poverty and hunger \nII. Slaves for sale \nIII. Wide spread of diseases \nIV. Religious conflicts and persecution",
     "options": [
       "(A) Only I, II and III are correct.",
       "(B) Only II, III and IV are correct.",
-      "(C) Only I, III and IV are correct.",
+      "(C) Only I, III and IV are correct.",  
       "(D) Only I, II and IV are correct."
     ],
     "answer": "(C) Only I, III and IV are correct.",
